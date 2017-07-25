@@ -75,14 +75,6 @@ Si l'appareil est utilisé par plusieurs personnes, l'utilisation de ce raccourc
   <string name="accessibility_power_button_ends_call_prerefence_title">Bouton Marche/Arrêt pour raccrocher</string>
   <string name="accessibility_screen_magnification_enable">"Gestes d'agrandissement"</string>
   <string name="accessibility_screen_magnification_short_summary">Appuyer trois fois pour zoomer</string>
-"&lt;li&gt;&lt;ul&gt;"Faites glisser deux doigts ou plus pour faire d&amp;#233;filer l'&amp;#233;cran.
-"&lt;li&gt;Pincez deux doigts ou plus ou &amp;#233;cartez-les pour r&amp;#233;gler le niveau de zoom.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;"
-
-"&lt;b&gt;Pour faire un zoom temporaire&lt;/b&gt;", appuyez rapidement sur l'&amp;#233;cran &amp;#224; trois reprises et de mani&amp;#232;re prolong&amp;#233;e la troisi&amp;#232;me fois.
-"&lt;li&gt;&lt;ul&gt;"Faites glisser un doigt pour vous d&amp;#233;placer sur l'&amp;#233;cran.
-"&lt;li&gt;Relevez le doigt pour faire un zoom arri&amp;#232;re.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;"
-
-Il est impossible de faire un zoom avant sur le clavier et la barre de navigation."</string>
   <string name="accessibility_screen_magnification_title">"Geste d'agrandissement"</string>
   <string name="accessibility_service_default_description">Aucune description fournie</string>
   <string name="accessibility_services_title">Services</string>
