@@ -668,6 +668,7 @@ Raison: \"%s\""</string>
   <string name="miprofile_contact_header">Contacts avec des cartes de contact</string>
   <string name="miprofile_contact_meaasge">Contacts locaux</string>
   <string name="miprofile_contact_verifying">Vérification</string>
+  <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
   <string name="miprofile_edit_title">Éditer le profil</string>
   <string name="miprofile_error_accept_self">"Impossible d'échanger votre propre carte de contact"</string>
   <string name="miprofile_error_no_miaccount">Connectez-vous à votre compte Mi</string>
