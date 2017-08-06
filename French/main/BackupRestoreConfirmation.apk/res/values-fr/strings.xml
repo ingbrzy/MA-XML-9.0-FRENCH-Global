@@ -2,7 +2,7 @@
 <resources>
   <string name="allow_backup_button_label">Sauvegarder mes données</string>
   <string name="allow_restore_button_label">Restaurer mes données</string>
-  <string name="backup_confirm_text">"Vous avez demandé une sauvegarde complète de l'ensemble des données vers un ordinateur de bureau connecté. Voulez-vous l'autoriser ?
+  <string name="backup_confirm_text">"Vous avez demandé une sauvegarde complète de l'ensemble des données vers un ordinateur connecté. Voulez-vous l'autoriser ?
 
 Si vous n'avez pas demandé la sauvegarde vous-même, n'autorisez pas la poursuite de l'opération."</string>
   <string name="backup_confirm_title">Sauvegarde complète</string>
@@ -14,7 +14,7 @@ Si vous n'avez pas demandé la sauvegarde vous-même, n'autorisez pas la poursui
   <string name="deny_restore_button_label">Ne pas restaurer</string>
   <string name="device_encryption_backup_text">"Veuillez saisir le mot de passe de chiffrement de l'appareil ci-dessous. Il permettra également de chiffrer les archives de sauvegarde."</string>
   <string name="device_encryption_restore_text">"Veuillez saisir le mot de passe de chiffrement de l'appareil ci-dessous."</string>
-  <string name="restore_confirm_text">"Vous avez demandé une restauration complète de l'ensemble des données à partir d'un ordinateur de bureau connecté. Voulez-vous l'autoriser ?
+  <string name="restore_confirm_text">"Vous avez demandé une restauration complète de l'ensemble des données à partir d'un ordinateur connecté. Voulez-vous l'autoriser ?
 
 Si vous n'avez pas demandé vous-même la restauration, n'autorisez pas sa poursuite. Cette opération remplacera toutes les données actuellement sur l'appareil !"</string>
   <string name="restore_confirm_title">Restauration complète</string>

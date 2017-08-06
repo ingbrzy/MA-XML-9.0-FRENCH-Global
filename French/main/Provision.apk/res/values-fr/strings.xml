@@ -20,6 +20,7 @@
   <string name="enable_accessibility_dialog_message">"Vous avez activé TalkBack en appuyant sur l'écran avec 2 doigts pendant plus de 10 secondes. TalkBack offre un commentaire vocal aux personnes malvoyantes. Si vous l'avez activé par accident, appuyez sur le bouton Annuler et puis appuyez rapidement deux fois sur l'écran."</string>
   <string name="enable_accessibility_dialog_negative_btn">Annuler</string>
   <string name="enable_accessibility_dialog_positive_btn">OK</string>
+  <string name="fail_to_generate_qr_code">Fail to generate QR code, please reenter this page.</string>
   <string name="ime_privacy_policy">Politique de confidentialité du clavier sélectionné</string>
   <string name="ime_privacy_policy_no_network">Aucune connexion réseau. Consulter la politique de confidentialité de ce clavier à %s.</string>
   <string name="input_method_category">"Choisissez le clavier par défaut que vous utiliserez lors de la rédaction des e-mails, notes et partout ailleurs. Notez que vous pourrez installer d'autres claviers plus tard."</string>
@@ -38,8 +39,6 @@
   <string name="other_settings_auto_update_summary">MIUI sélectionnera le meilleur moment pour installer les mises à jour.</string>
   <string name="other_settings_location">Localisation</string>
   <string name="other_settings_location_summary">Autoriser des applications à accéder à votre localisation.</string>
-  <string name="other_settings_mifg_online_content">"Carrousel de fond d'écran"</string>
-  <string name="other_settings_mifg_online_content_summary">"Autoriser le Carrousel de fond d'écran à se connecter à Internet afin de télécharger de nouvelles images."</string>
   <string name="other_settings_upload_debug_log_summary">Les informations que nous collectons seront utilisées pour localiser et analyser les problèmes dans le système et peuvent contenir des informations personnelles. Aucune donnée ne sera utilisée pour vous identifier personnellement.</string>
   <string name="other_settings_upload_debug_log_title">Envoyer automatiquement les données de diagnostic</string>
   <string name="other_settings_user_experience">"Programme d'expérience utilisateur"</string>
@@ -63,8 +62,10 @@ Voir la politique de confidentialité du clavier sélectionné."</string>
   <string name="terms_of_use">"Conditions d'utilisation"</string>
   <string name="terms_of_use_label">"Your privacy is very important to us. Please read our Terms of Service and Privacy Policy to understand what information we collect, how we use it, and what choices are available to you.
 
-You must agree to our Terms of Service and Privacy Policy before you can use MIUI. During the activation, Mi services, Mi SIM activation services, Mi Cloud, Find device, Home screen modules, Game Service, MAB and MSA system components, Direct Service, Quick Card, statistic, and Mi Account components will connect to the internet and acquire your location."</string>
+You must agree to our Terms of Service and Privacy Policy before you can use MIUI. During the activation, Mi services, Mi SIM activation services, Mi Cloud, Find device, Home screen modules, Game Service, MAB and MSA system components, Direct Service, Quick Card, statistic, MiSmartCards, and Mi Account components will connect to the internet and acquire your location."</string>
   <string name="title_fingerprint">Ajouter votre empreinte</string>
+  <string name="two_dimensional_code_scan">QR code scan</string>
   <string name="user_agreement">"Conditions générales d'utilisation"</string>
+  <string name="user_strayed_warning">The page is designed for factory test, Click back button to exit.</string>
   <string name="welcome">Bienvenue</string>
 </resources>

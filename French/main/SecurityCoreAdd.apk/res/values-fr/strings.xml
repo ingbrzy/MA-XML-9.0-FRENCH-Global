@@ -222,6 +222,7 @@ pour y accéder depuis l'Écran de verrouillage"</string>
 pour y accéder depuis l'Écran de verrouillage"</string>
   <string name="start_setting_guide_desc_title">Il y a quelques réglages à faire</string>
   <string name="summary_switch_apps_settings">"Sélectionner les applications utilisées dans l'espace actuel"</string>
+  <string name="support_desc">Security services provided by Graphite</string>
   <string name="sure_to_use">Confirmer</string>
   <string name="switchDataSummary">Déplacer des éléments entre les espaces</string>
   <string name="switch_apps_settings">"Paramètres de l'application"</string>

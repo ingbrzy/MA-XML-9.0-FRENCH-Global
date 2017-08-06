@@ -62,10 +62,6 @@
         <item>Tous les 15 jours</item>
         <item>Tous les 30 jours</item>
     </string-array>
-    <string-array name="scan_engine">
-        <item>Clean Master</item>
-        <item>Tencent</item>
-    </string-array>
     <string-array name="wechat_menu_delete">
         <item>Vider</item>
     </string-array>
@@ -75,5 +71,9 @@
     <string-array name="wechat_menu_delete_whitelist_view">
         <item>Vider</item>
         <item>Voir</item>
+    </string-array>
+    <string-array name="scan_engine">
+        <item>Clean Master</item>
+        <item>Tencent</item>
     </string-array>
 </resources>

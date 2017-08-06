@@ -116,8 +116,10 @@
   <string name="my_gifts_received">Reçu</string>
   <string name="no_data">Impossible de se connecter au réseau</string>
   <string name="online_no_network">Impossible de se connecter au réseau</string>
+  <string name="online_precust_dreams">Dreams</string>
+  <string name="online_precust_midnight">Midnight</string>
   <string name="online_search_hint">Chercher des ressources en ligne</string>
-  <string name="present_local_themes">Téléchargé</string>
+  <string name="present_local_themes">My resources</string>
   <string name="present_online_themes">Obtenir plus de thèmes gratuits</string>
   <string name="provision_default_theme_title">Défaut</string>
   <string name="provision_loading_tips">Un instant…</string>

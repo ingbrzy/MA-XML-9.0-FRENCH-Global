@@ -56,4 +56,12 @@
         <item quantity="other">%d entrées de la Liste noire</item>
         <item quantity="one">%d entrée de la Liste noire</item>
     </plurals>
+    <plurals name="micloud_main_resume_sync_hour">
+        <item quantity="other">Reprendre la synchronisation dans %d heures</item>
+        <item quantity="one">Reprendre la synchronisation dans %d heure</item>
+    </plurals>
+    <plurals name="micloud_main_resume_sync_min">
+        <item quantity="other">Reprendre la synchronisation dans %d minutes</item>
+        <item quantity="one">Reprendre la synchronisation dans %d minute</item>
+    </plurals>
 </resources>

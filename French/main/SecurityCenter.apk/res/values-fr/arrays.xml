@@ -50,6 +50,11 @@
         <item>"Lorsque l'appareil est verrouillé ou en sortant d'une application"</item>
         <item>"Lorsque l'appareil est verrouillé ou 1 minute après la sortie d'une application"</item>
     </string-array>
+    <string-array name="lock_mode_value">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
     <string-array name="sort_type">
         <item>État</item>
         <item>"Nom de l'application"</item>
@@ -65,6 +70,18 @@
         <item>Trier par stockage utilisé</item>
         <item>Trier par utilisation de données</item>
         <item>Trier par utilisation de batterie</item>
+    </string-array>
+    <string-array name="key_app_info">
+        <item>install_source</item>
+        <item>install_time</item>
+        <item>update_source</item>
+        <item>update_time</item>
+    </string-array>
+    <string-array name="title_app_info">
+        <item>Installation source</item>
+        <item>Installation time</item>
+        <item>Last update source</item>
+        <item>Last update time</item>
     </string-array>
     <string-array name="sms_report_type">
         <item>Utilisation de données</item>
@@ -111,5 +128,10 @@
         <item>Jamais</item>
         <item>Vibrer en mode silencieux</item>
         <item>Toujours</item>
+    </string-array>
+    <string-array name="power_dialog_vibration_items_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
 </resources>

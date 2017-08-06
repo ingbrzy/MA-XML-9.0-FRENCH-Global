@@ -35,7 +35,7 @@
   <string name="keyguard_charging_info_battery_temperature_text">Température de la batterie</string>
   <string name="keyguard_charging_info_battery_used_time_text">Sur batterie</string>
   <string name="keyguard_charging_info_charging_full_need_hour_time__text">About %d hr until full</string>
-  <string name="keyguard_charging_info_charging_full_need_min_time__text">About %d min until full​</string>
+  <string name="keyguard_charging_info_charging_full_need_min_time__text">"Environ %d min jusqu'à la charge complète"</string>
   <string name="keyguard_charging_info_charging_full_need_time__text" formatted="false">"Environ %d  h %d  min jusqu'à la charge complète"</string>
   <string name="keyguard_charging_info_charging_text">En charge</string>
   <string name="keyguard_charging_info_charging_voltage_text">Voltage</string>
@@ -63,10 +63,13 @@
   <string name="keyguard_charging_info_tip_text4">"N'utilisez pas de façon active votre appareil lorsqu'il est en charge afin d'éviter qu'il surchauffe."</string>
   <string name="keyguard_charging_info_tip_text5">Les batteries chargent plus longtemps quand elles surchauffent.</string>
   <string name="keyguard_charging_info_tip_text6">"Éteignez l'écran et éloignez votre appareil pour le refroidir."</string>
+  <string name="keyguard_left_bankcard">Mi Pay</string>
+  <string name="keyguard_left_buscard">Carte de transport</string>
+  <string name="keyguard_left_remotecentral">Mi Remote</string>
+  <string name="keyguard_left_smarthome">Mi Home</string>
   <string name="keyguard_quick_charging_info_click_to_detail">Chargement rapide. Appuyer pour afficher les détails.</string>
   <string name="keyguard_quickly_charging_info_charging_text">Chargement rapide…</string>
   <string name="keyguard_torch_cover_text">Pour garder le flash allumé, maintenez le bouton Power</string>
-  <string name="left_action_default_hint_text">Mi Télécommande</string>
   <string name="lock_screen_date">EEEE d MMMM</string>
   <string name="lock_screen_date_12">EEEE d MMMM</string>
   <string name="lock_wallpaper_enter">Saisir</string>
@@ -82,8 +85,8 @@
  Réessayez dans %d secondes."</string>
   <string name="lockscreen_failed_attempts_now_wiping">"Vous avez incorrectement tenté de déverrouiller l'appareil à %d reprises. L'appareil va maintenant être remis au format usine par défaut."</string>
   <string name="miui_keyguard_ble_unlock_succeed_msg">Déverrouillé par un périphérique Bluetooth</string>
-  <string name="open_camera_hint_text">Faites glisser vers la gauche pour ouvrir %s</string>
-  <string name="open_remote_center_hint_text">Faites glisser vers la droite pour ouvrir %s</string>
+  <string name="open_camera_hint_text">"Balayez vers la gauche pour ouvrir l'appareil photo"</string>
+  <string name="open_remote_center_hint_text">Swipe right to open mi remote</string>
   <string name="phone_locked_foget_password">Mot de passe oublié ?</string>
   <string name="phone_locked_foget_password_content">"Vous pouvez vous connecter à i.mi.com en utilisant le compte Mi associé avec cet appareil, puis effacer toutes les données. Cela effacera toutes les données personnelles stockées sur cet appareil. Après cela, vous pouvez redémarrer l'appareil et restaurer vos contacts, messages, photos et les autres éléments depuis Mi Cloud. 
 

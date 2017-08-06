@@ -149,7 +149,9 @@
   <string name="mipay">Payer</string>
   <string name="mipay_balance">Solde</string>
   <string name="mipay_bank_card">Carte bancaire</string>
+  <string name="mipay_identitiy_no">non</string>
   <string name="mipay_identity">"Vérification d'identité"</string>
+  <string name="mipay_indentity_done">terminé</string>
   <string name="mipay_others">Autre</string>
   <string name="mipay_transit_card">Carte de transport</string>
   <string name="multi_user_not_show_sync_activity_message_1">Il semble que vous utilisez votre compte Mi du premier espace.</string>

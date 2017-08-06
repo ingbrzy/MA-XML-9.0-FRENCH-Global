@@ -13,6 +13,7 @@ allez sur %s sur un autre périphérique connecté."</string>
   <string name="open_wifi_connect_title">Connecté à %1$s</string>
   <string name="permdesc_accessDrm">"Autorise l'application à accéder au contenu protégé par DRM."</string>
   <string name="policy_name">Protocole : %s</string>
+  <string name="pre_installed_apps">Applications pré-installées</string>
   <string name="settings_ad_loading">Un instant…</string>
   <string name="settings_ad_loading_unavailable">"Impossible de charger l'information."</string>
   <string name="settings_license_activity_loading">Un instant…</string>

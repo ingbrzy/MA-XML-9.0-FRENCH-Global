@@ -32,6 +32,7 @@
 L'économiseur de batterie traitera les applications importantes de manière sélective."</string>
   <string name="config_suggest_suffix_title">Économiseur de batterie MIUI (recommandé)</string>
   <string name="config_suggest_title">Économiseur de batterie MIUI</string>
+  <string name="confirm">Confirm</string>
   <string name="disable_hide_mode">"Désactiver l'économiseur de batterie MIUI"</string>
   <string name="disable_hide_mode_warning">"Désactiver l'économiseur de batterie MIUI pourrait provoquer une consommation d'énergie plus accentuée"</string>
   <string name="disabled">Désactivé</string>
@@ -50,6 +51,7 @@ L'économiseur de batterie traitera les applications importantes de manière sé
   <string name="hide_system_app">Masquer les applications système</string>
   <string name="high">Performance</string>
   <string name="hints_loading_text">Un instant…</string>
+  <string name="important_warning">Warning</string>
   <string name="invalid_size_value">"Impossible d'obtenir la taille du paquet."</string>
   <string name="location_disable_description">Les applications en arrière-plan peuvent accéder aux services de localisation pour une brève période tout en ayant un accès limité</string>
   <string name="location_disable_title">Restreindre</string>
@@ -174,14 +176,13 @@ L'économiseur de batterie traitera les applications importantes de manière sé
   <string name="set_lcd_mode">"Mode d'écran"</string>
   <string name="settings_safetylegal_activity_loading">Un instant…</string>
   <string name="show_system_app">Afficher les applications système</string>
-  <string name="sleep_config_enhance_description">"Améliorera l'utilisation d'énergie en mode veille durant la nuit"</string>
+  <string name="sleep_config_enhance_description">predict user sleep time by machine learning, whithin the sleep time, we may clear some background apps, restrict to use NFC, KeyGauard Notification, Sync, Bluetooth, GPS, mobile and wifi data, etc.</string>
   <string name="sleep_config_enhance_title">"Mode d'économie en veille"</string>
   <string name="still">Image</string>
   <string name="ui">Standard</string>
   <string name="user_define_mode">Nom</string>
   <string name="vip_feedback">Commentaire VIP</string>
-  <string name="vip_feedback_apply">Appliquer Commentaire VIP</string>
-  <string name="vip_feedback_apply_msg">"Veuillez contacter vip-feedback-system@xiaomi.com afin d'envoyer une requête pour l'option Commentaire VIP"</string>
   <string name="vip_feedback_enable">Activer Commentaire VIP Auto</string>
   <string name="warm_configure">Warm control configure</string>
+  <string name="warm_performance_tip">In high load scenarios, the cell phone temperature is higher than the default mode</string>
 </resources>

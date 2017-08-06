@@ -392,6 +392,7 @@
   <string name="contactUpdateSuccess">Vous avez ajouté avec succès le contact sur la carte SIM</string>
   <string name="contactdeleteFailed">Impossible de supprimer les contacts de la carte SIM</string>
   <string name="contactdeleteSuccess">Vous avez supprimé avec succès le contact de la carte SIM</string>
+  <string name="content_description_menu_button">Menu</string>
   <string name="convert_to_fbe_warning">"Convertir la partition de données en chiffrement basé sur un fichier
  Avertissement ! Cette opération supprimera toutes vos données.
  Cette fonctionnalité est en version alpha et peut ne pas fonctionner correctement.
@@ -431,6 +432,9 @@
   <string name="debug_view_attributes">Activer inspect. attribut affich.</string>
   <string name="default_notification_description">Sonnerie par défaut (%1$s)</string>
   <string name="default_preference_summary">&lt;Non défini&gt;</string>
+  <string name="default_preference_summary_domain_address">&lt;Non définie&gt;</string>
+  <string name="default_preference_summary_password">&lt;Non défini&gt;</string>
+  <string name="default_preference_summary_username">&lt;Non défini&gt;</string>
   <string name="default_sim_setting">Carte SIM par défaut :</string>
   <string name="delete">Supprimer</string>
   <string name="deleteAllSimEntries">Supprimer tous les contacts de la carte SIM</string>
@@ -455,6 +459,8 @@
   <string name="description_image_button_two">deux</string>
   <string name="description_image_button_zero">zéro</string>
   <string name="description_voicemail_button">messagerie vocale</string>
+  <string name="dev_logpersist_clear_warning_message">"Lorsque nous n'effectuons plus de suivi avec l'enregistreur persistant, nous sommes tenus d'effacer les données associées à ce dernier qui sont stockées sur votre appareil."</string>
+  <string name="dev_logpersist_clear_warning_title">"Effacer l'espace de stockage persistant de l'enregistreur ?"</string>
   <string name="dev_settings_warning_message">"Ces paramètres sont en cours de développement. Ils peuvent endommager votre appareil et les applications qui s'y trouvent, ou provoquer leur dysfonctionnement."</string>
   <string name="dev_settings_warning_title">Activer les paramètres de développement ?</string>
   <string name="development_settings_enable">Activer les options pour les développeurs</string>
@@ -759,7 +765,6 @@ Voulez-vous tout de même changer de fournisseur ?"</string>
   <string name="lafs_enable">Les horaires de vols sont activés</string>
   <string name="launch_defaults_none">Aucun paramètre par défaut défini</string>
   <string name="launch_defaults_some">Certains paramètres par défaut définis</string>
-  <string name="legacy_dhcp_client_summary">Utiliser le client DHCP de Lollipop au lieu du nouveau client DHCP Android</string>
   <string name="list_language_dtitle">Langues</string>
   <string name="list_language_summary">Sélectionnez la langue des actualités</string>
   <string name="list_language_title">Langue</string>
@@ -1313,9 +1318,42 @@ Votre carte SIM sera effacée en cas de nouvel échec."</string>
   <string name="screen_zoom_summary_large">Grand</string>
   <string name="screen_zoom_summary_small">Petit</string>
   <string name="screen_zoom_summary_very_large">Plus grand</string>
+  <string name="search_answer_state_setting_title">@string/answer_state_setting_title</string>
   <string name="search_antispam_setting">Liste noire</string>
   <string name="search_app_name">"Téléphone;Enregistrement d'appel;Appels redirigés;Redirection;Appel en attente;Liste Noire;Code pays;Code régional;Codes de pays;Codes de la région; Appel enregistré;Appels enregistrés;Pavé numérique;Appel;Appels; Téléphonie;VoIP;VoLTE;Appel manqué;Appels manqués;SIP;T9;Téléphonie IP;FDN"</string>
+  <string name="search_auto_answer_pref_title">@string/auto_answer_pref_title</string>
+  <string name="search_auto_retry_mode_title">@string/auto_retry_mode_title</string>
+  <string name="search_autoip_phone">@string/autoip_phone</string>
+  <string name="search_call_background_setting">@string/call_background_setting</string>
+  <string name="search_call_forwarding_settings">@string/call_forwarding_settings</string>
+  <string name="search_call_record_auto_title">@string/call_record_auto_title</string>
+  <string name="search_call_record_setting">@string/call_record_setting</string>
+  <string name="search_call_recording_notification_toggle_title">@string/call_recording_notification_toggle_title</string>
+  <string name="search_call_waiting_title">@string/call_waiting_title</string>
+  <string name="search_call_waiting_tone_title">@string/call_waiting_tone_title</string>
+  <string name="search_caller_id_title">@string/caller_id_title</string>
+  <string name="search_cloud_antispam_title">@string/cloud_antispam_title</string>
+  <string name="search_connect_disconnect_vibrate_title">@string/connect_disconnect_vibrate_title</string>
+  <string name="search_crescendo_ringer_title">@string/crescendo_ringer_title</string>
+  <string name="search_dtmf_tones_title">@string/dtmf_tones_title</string>
+  <string name="search_enable_antispam_strange_title">@string/enable_antispam_strange_title</string>
+  <string name="search_enable_proximity_title">@string/enable_proximity_title</string>
+  <string name="search_fdn">@string/fdn</string>
+  <string name="search_flash_when_ring_title">@string/flash_when_ring_title</string>
+  <string name="search_handon_ringer_title">@string/handon_ringer_title</string>
+  <string name="search_missed_call_notify_times_title">@string/missed_call_notify_times_title</string>
   <string name="search_networks">Rechercher les réseaux</string>
+  <string name="search_preference_dial_pad_touch_tone_title">@string/preference_dial_pad_touch_tone_title</string>
+  <string name="search_preference_telocation_title">@string/preference_telocation_title</string>
+  <string name="search_reject_via_sms">@string/reject_via_sms</string>
+  <string name="search_sip_settings">@string/sip_settings</string>
+  <string name="search_t9_indexing_method_title">@string/t9_indexing_method_title</string>
+  <string name="search_telocation_auto_country_code">@string/telocation_auto_country_code</string>
+  <string name="search_telocation_contacts_countrycode">@string/telocation_contacts_countrycode</string>
+  <string name="search_telocation_custom_location_title">@string/telocation_custom_location_title</string>
+  <string name="search_telocation_enable_title">@string/telocation_enable_title</string>
+  <string name="search_turnover_mute_title">@string/turnover_mute_title</string>
+  <string name="search_voicemail_settings">@string/voicemail_settings</string>
   <string name="selectContact">Sélectionner un contact</string>
   <string name="select_application">Sélectionner une appli</string>
   <string name="select_automatically">Sélectionner automatiquement</string>
@@ -1323,6 +1361,8 @@ Votre carte SIM sera effacée en cas de nouvel échec."</string>
   <string name="select_continue">Continuer</string>
   <string name="select_logd_size_dialog_title">Tailles enreg. par tampon journal</string>
   <string name="select_logd_size_title">Tailles mémoires tampons enregistr.</string>
+  <string name="select_logpersist_dialog_title">"Sélectionner les mémoires tampon journal à stocker en permanence sur l'appareil"</string>
+  <string name="select_logpersist_title">Stocker données enregistreur en permanence sur appareil</string>
   <string name="select_ok">OK</string>
   <string name="select_one_sim_title">Peut seulement utiliser la SIM %1$d</string>
   <string name="select_sim_hint">"Impossible d'accéder à la SIM %2$d, lorsque la SIM %1$d est en cours d'utilisation."</string>
@@ -1345,8 +1385,6 @@ Votre carte SIM sera effacée en cas de nouvel échec."</string>
   <string name="settings_label">Paramètres du réseau</string>
   <string name="show_all_anrs">Afficher tous les messages ANR</string>
   <string name="show_all_anrs_summary">"Afficher \"L'application ne répond plus\" pour applis en arrière-plan"</string>
-  <string name="show_cpu_usage">Afficher mém. CPU utilisée</string>
-  <string name="show_cpu_usage_summary">Superposition écran indiquant mémoire CPU utilisée</string>
   <string name="show_hw_layers_updates">Mises à jour couches matérielles</string>
   <string name="show_hw_layers_updates_summary">Couches matérielles en vert une fois mises à jour</string>
   <string name="show_hw_screen_updates">Afficher mises à jour GPU</string>
@@ -1656,7 +1694,8 @@ Veuillez contacter votre opérateur si le problème persiste."</string>
   <string name="wifi_display_certification">Certification affichage sans fil</string>
   <string name="wifi_display_certification_summary">"Afficher les options de la certification de l'affichage sans fil"</string>
   <string name="wifi_fail_to_scan">Impossible de rechercher des réseaux.</string>
-  <string name="wifi_no_internet">Aucun accès à Internet détecté, reconnexion automatique impossible</string>
+  <string name="wifi_no_internet">Aucun accès à Internet</string>
+  <string name="wifi_no_internet_no_reconnect">Aucun accès à Internet détecté. Reconnexion automatique impossible.</string>
   <string name="wifi_not_in_range">Hors de portée</string>
   <string name="wifi_only">Wi-Fi uniquement</string>
   <string name="wifi_pref_none">Préférences non définies</string>

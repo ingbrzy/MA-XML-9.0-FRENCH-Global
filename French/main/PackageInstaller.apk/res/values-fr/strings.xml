@@ -118,6 +118,7 @@
   <string name="confirm_enable_oem_unlock_title">Autoriser le déverrouillage OEM ?</string>
   <string name="connected_via_passpoint">Connecté via %1$s</string>
   <string name="connected_via_wfa">"Connecté via l'assistant Wi‑Fi"</string>
+  <string name="content_description_menu_button">Menu</string>
   <string name="convert_to_fbe_warning">"Convertir la partition de données en chiffrement basé sur un fichier
  Avertissement ! Cette opération supprimera toutes vos données.
  Cette fonctionnalité est en version alpha et peut ne pas fonctionner correctement.
@@ -150,6 +151,8 @@
   <string name="debug_networking_category">Mise en réseau</string>
   <string name="debug_view_attributes">Activer inspect. attribut affich.</string>
   <string name="default_permission_description">effectuer une action inconnue</string>
+  <string name="dev_logpersist_clear_warning_message">"Lorsque nous n'effectuons plus de suivi avec l'enregistreur persistant, nous sommes tenus d'effacer les données associées à ce dernier qui sont stockées sur votre appareil."</string>
+  <string name="dev_logpersist_clear_warning_title">"Effacer l'espace de stockage persistant de l'enregistreur ?"</string>
   <string name="dev_settings_warning_message">"Ces paramètres sont en cours de développement. Ils peuvent endommager votre appareil et les applications qui s'y trouvent, ou provoquer leur dysfonctionnement."</string>
   <string name="dev_settings_warning_title">Activer les paramètres de développement ?</string>
   <string name="development_settings_enable">Activer les options pour les développeurs</string>
@@ -259,7 +262,6 @@ Toutes vos données d'utilisateur précédentes vont être enregistrées."</stri
   <string name="lb_search_bar_hint_with_title">Rechercher \"%1$s\"</string>
   <string name="lb_search_bar_hint_with_title_speech">Énoncez votre recherche sur \"%1$s\"</string>
   <string name="lb_time_separator">:</string>
-  <string name="legacy_dhcp_client_summary">Utiliser le client DHCP de Lollipop au lieu du nouveau client DHCP Android</string>
   <string name="loading">Chargement en cours…</string>
   <string name="local_backup_password_summary_change">Appuyez pour modifier ou supprimer le mot de passe utilisé pour les sauvegardes complètes sur PC.</string>
   <string name="local_backup_password_summary_none">Les sauvegardes complètes sur PC ne sont pas protégées actuellement.</string>
@@ -341,10 +343,13 @@ Toutes vos données d'utilisateur précédentes vont être enregistrées."</stri
   <string name="screen_zoom_summary_large">Grand</string>
   <string name="screen_zoom_summary_small">Petit</string>
   <string name="screen_zoom_summary_very_large">Plus grand</string>
+  <string name="search_menu_title">Rechercher</string>
   <string name="security_settings_desc">Autoriser cette application à :</string>
   <string name="select_application">Sélectionner une appli</string>
   <string name="select_logd_size_dialog_title">Tailles enreg. par tampon journal</string>
   <string name="select_logd_size_title">Tailles mémoires tampons enregistr.</string>
+  <string name="select_logpersist_dialog_title">"Sélectionner les mémoires tampon journal à stocker en permanence sur l'appareil"</string>
+  <string name="select_logpersist_title">Stocker données enregistreur en permanence sur appareil</string>
   <string name="select_usb_configuration_dialog_title">Sélectionner une configuration USB</string>
   <string name="select_usb_configuration_title">Sélectionner une configuration USB</string>
   <string name="select_webview_provider_dialog_title">Définir la mise en œuvre WebView</string>
@@ -353,8 +358,6 @@ Toutes vos données d'utilisateur précédentes vont être enregistrées."</stri
   <string name="settings">Paramètres</string>
   <string name="show_all_anrs">Afficher tous les messages ANR</string>
   <string name="show_all_anrs_summary">"Afficher \"L'application ne répond plus\" pour applis en arrière-plan"</string>
-  <string name="show_cpu_usage">Afficher mém. CPU utilisée</string>
-  <string name="show_cpu_usage_summary">Superposition écran indiquant mémoire CPU utilisée</string>
   <string name="show_hw_layers_updates">Mises à jour couches matérielles</string>
   <string name="show_hw_layers_updates_summary">Couches matérielles en vert une fois mises à jour</string>
   <string name="show_hw_screen_updates">Afficher mises à jour GPU</string>
@@ -447,7 +450,8 @@ Toutes vos données d'utilisateur précédentes vont être enregistrées."</stri
   <string name="wifi_display_certification">Certification affichage sans fil</string>
   <string name="wifi_display_certification_summary">"Afficher les options de la certification de l'affichage sans fil"</string>
   <string name="wifi_fail_to_scan">Impossible de rechercher des réseaux.</string>
-  <string name="wifi_no_internet">Aucun accès à Internet détecté, reconnexion automatique impossible</string>
+  <string name="wifi_no_internet">Aucun accès à Internet</string>
+  <string name="wifi_no_internet_no_reconnect">Aucun accès à Internet détecté. Reconnexion automatique impossible.</string>
   <string name="wifi_not_in_range">Hors de portée</string>
   <string name="wifi_remembered">Enregistré</string>
   <string name="wifi_security_none">Aucune</string>

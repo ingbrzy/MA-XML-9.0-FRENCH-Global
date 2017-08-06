@@ -37,7 +37,10 @@
   <string name="album_jump_failed">Attendez que les albums soient synchronisés avec Mi Cloud et réessayez</string>
   <string name="album_member">"Membres de l'album %s"</string>
   <string name="album_name">"Nom de l'album"</string>
+  <string name="album_name_locations">Localisations</string>
+  <string name="album_name_people">Personnes</string>
   <string name="album_name_recent_discovery">Récent</string>
+  <string name="album_name_tags">Tags</string>
   <string name="album_others_share_baby_info_format">Album Bébé venant de %s</string>
   <string name="album_others_share_info_format">À partir de %s</string>
   <string name="album_owner_share">Partagé</string>
@@ -303,6 +306,7 @@ le/la %4$s de %3$s partage l'album de %5$s avec vous"</string>
   <string name="empty_recommend_back">Retour</string>
   <string name="empty_recommend_face_page_view">Plus de recommandations</string>
   <string name="empty_relation">Le nom du groupe ne peut pas être vide</string>
+  <string name="empty_title_no_photos">Aucune photo ou vidéo</string>
   <string name="enable_auto_upload_tip">Activer la synchronisation avec Mi Cloud pour cet album ?</string>
   <string name="enable_auto_upload_title">Activer la synchronisation avec Mi Cloud</string>
   <string name="enable_cloud_for_sharing">Activer les albums de Mi Cloud pour voir les albums partagés.</string>
@@ -335,7 +339,7 @@ le/la %4$s de %3$s partage l'album de %5$s avec vous"</string>
   <string name="face_album_empty">"Pas assez de photos pour reconnaître les personnes.
 Prenez plus de photos à vos amis !"</string>
   <string name="face_album_empty_syncing">Synchronisation des données en cours, revenez plus tard</string>
-  <string name="face_album_empty_syncing_when_connect_wifi">Se connecter au Wi-Fi pour synchroniser les informations</string>
+  <string name="face_album_empty_syncing_when_connect_wifi">Se connecter au réseau pour synchroniser les informations</string>
   <string name="face_album_long_tap_tip">Pour sélectionner plusieurs personnes ou modifier les paramètres de changement de groupe, appuyez &amp; maintenez une photo de profil</string>
   <string name="face_album_new_name_hint">Nouveau nom</string>
   <string name="face_album_not_named">Sans nom</string>
@@ -394,7 +398,7 @@ Prenez plus de photos à vos amis !"</string>
   <string name="has_invalid_recipient">Destinataires non valides : %1$s</string>
   <string name="have_known">"C'est compris"</string>
   <string name="hidden_album_display_name">Album privé</string>
-  <string name="home_page_empty">Vide</string>
+  <string name="home_page_empty_action">Prendre une photo</string>
   <string name="home_page_label">Photos</string>
   <string name="how_to_set_relation">Appuyer &amp; maintenir un album pour créer un groupe</string>
   <string name="hybrid_check_network">Paramètres réseau</string>
@@ -548,9 +552,13 @@ Prenez plus de photos à vos amis !"</string>
   <string name="other_album">Autres albums</string>
   <string name="other_settings">Paramètres supplémentaires</string>
   <string name="owner_album_subtitle">Partagé avec %1$s personnes</string>
+  <string name="people_album_empty_title">Photos can be sorted by people in them</string>
   <string name="people_jump_failed">Attendez que les photos avec les personnes soient synchronisées avec Mi Cloud et essayez à nouveau</string>
+  <string name="people_mark_mode_title">Sélectionner \" %s \"</string>
+  <string name="people_mark_mode_title_no_mark_name">Sélectionne une personne</string>
   <string name="people_page_label">Personnes</string>
   <string name="people_page_unname">Sans nom</string>
+  <string name="percent_sign">%</string>
   <string name="pet_album_display_name">"Photos d'animaux"</string>
   <string name="petabyteShort">Po</string>
   <string name="photo">Photos</string>
@@ -574,6 +582,7 @@ Prenez plus de photos à vos amis !"</string>
   <string name="picker_title_format">Vous pouvez sélectionner %d photos</string>
   <string name="picker_title_selection_format">Photos sélectionnées : %d</string>
   <string name="picker_title_unlimit">Sélectionner des photos</string>
+  <string name="places_album_empty_title">Les photos peuvent être triées par localisation</string>
   <string name="preparing_data">Un instant…</string>
   <string name="projection_checkbox_text">Mémoriser cet affichage</string>
   <string name="projection_device_connection_failed">Impossible de se connecter au projecteur</string>
@@ -589,6 +598,7 @@ Prenez plus de photos à vos amis !"</string>
   <string name="publish_succeeded">Publié</string>
   <string name="publishing">Publication…</string>
   <string name="quotation">\"%s\"</string>
+  <string name="recent_album_empty_title">Aucune nouvelle photo ajoutée récemment</string>
   <string name="recommanded_face_abandon_tip">Retiré des suggestions</string>
   <string name="recommanded_face_added_tip">Ajouté à \"%s\"</string>
   <string name="recovery_merge">Fusionner</string>
@@ -635,7 +645,6 @@ Prenez plus de photos à vos amis !"</string>
   <string name="scan_barcode_guide">Pour obtenir un code QR, appuyez sur l’icône Partage.</string>
   <string name="scan_barcode_to_join">Scannez le code QR pour ajouter un album</string>
   <string name="scan_qr_code_buttom_text">Scanner le code QR pour voir cet album</string>
-  <string name="search_album_jump_failed">Attendez que les albums soient synchronisés avec Mi Cloud et réessayez</string>
   <string name="search_backup_full_screen">"Activer la synchronisation avec Mi Cloud pour trouver plus d'objets et d'éléments"</string>
   <string name="search_backup_now">Activer</string>
   <string name="search_backup_sub_title">"Activer pour trouver plus d'images"</string>
@@ -651,16 +660,26 @@ Prenez plus de photos à vos amis !"</string>
   <string name="search_login_sub_title">Se connecter pour trouver plus de photos</string>
   <string name="search_login_title">Compte Mi</string>
   <string name="search_login_title_full_screen">"Se connecter avec votre compte Mi pour trouver plus d'objets et de personnes"</string>
-  <string name="search_people_jump_failed">Attendez que les photos avec les personnes soient synchronisées avec Mi Cloud et essayez à nouveau</string>
+  <string name="search_net_error">Une erreur de réseau est survenue. Connectez-vous à un autre réseau et réessayez.</string>
+  <string name="search_request_open">"Rejoindre l'équipe de test"</string>
   <string name="search_result_empty">Aucun résultat</string>
   <string name="search_retry">Veuillez réessayer</string>
+  <string name="search_select_network">Sélectionner un réseau</string>
   <string name="search_set_network_connection">Paramètres réseau</string>
+  <string name="search_setting_sub_title">"Recherche d'image améliorée"</string>
+  <string name="search_setting_sub_title_open">Approuvé ! Veuillez patienter un moment avant de démarrer.</string>
+  <string name="search_setting_title">Trouver des photos dans Galerie</string>
+  <string name="search_syncing">Synchronisation des données en cours, revenez plus tard</string>
+  <string name="search_title_album">Album</string>
   <string name="search_title_history">Historique de recherche</string>
   <string name="search_title_location">Localisations</string>
   <string name="search_title_others">Tous les résultats</string>
   <string name="search_title_people">Personnes</string>
   <string name="search_title_recommend">Recommandé</string>
+  <string name="search_title_suggestion">Suggestions</string>
   <string name="search_title_tag">Objets</string>
+  <string name="search_transition_element_icon">search_icon</string>
+  <string name="search_transition_element_input">search_input</string>
   <string name="secret_album_card_description">Le meilleur endroit pour tous vos petits secrets</string>
   <string name="secret_album_card_title">Essayer de cacher un album</string>
   <string name="secret_album_display_name">Album privé</string>
@@ -693,6 +712,7 @@ Prenez plus de photos à vos amis !"</string>
   <string name="set_face_image">Définir une nouvelle photo de profil</string>
   <string name="set_group">Définir un groupe</string>
   <string name="set_wallpaper_get_image_failed">"Impossible de télécharger l'image, réessayez plus tard"</string>
+  <string name="setup_network_connection">Paramètres du réseau</string>
   <string name="share">Partager</string>
   <string name="share_album">"Partager l'album"</string>
   <string name="share_album_needs_auto_upload_tip">Impossible de désactiver la sauvegarde pour les albums partagés</string>
@@ -748,6 +768,7 @@ Prenez plus de photos à vos amis !"</string>
   <string name="text_append_hint">Saisir du texte</string>
   <string name="text_append_style">Bulle</string>
   <string name="text_append_transparent">Opacité</string>
+  <string name="things_album_empty_title">Photos can be sorted by objects in them</string>
   <string name="tip_capture_location">Emplacement :</string>
   <string name="tip_capture_params">Donnée EXIF :</string>
   <string name="tip_capture_time">Pris le :</string>
@@ -845,6 +866,7 @@ Prenez plus de photos à vos amis !"</string>
   <string name="view_by_gallery_tip">Gallerie Miui</string>
   <string name="view_face_album">"Afficher l'album"</string>
   <string name="view_queuing_status">"Vérifier l'état"</string>
+  <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
   <string name="welcome_to_micloud">Bienvenue sur Mi Cloud</string>
   <string name="welcome_to_slim">Optimiser le stockage local</string>
   <string name="where_is_barcode">Où est le code QR?</string>

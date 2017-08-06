@@ -182,6 +182,11 @@
   <string name="michat_wait_for_a_moment">Veuillez patienter un instant !</string>
   <string name="michat_webview_title">Afficher les détails</string>
   <string name="min_error">Votre %1$s doit être plus long.</string>
+  <string name="mobile_data_note_dialog_cancel">En attente du Wi-Fi</string>
+  <string name="mobile_data_note_dialog_confirm">Ajouter</string>
+  <string name="mobile_data_note_dialog_content">Utiliser les données mobiles pour envoyer vos fichiers journaux peut générer des frais supplémentaires.</string>
+  <string name="mobile_data_note_dialog_content_with_file_size">Envoyer les fichiers journaux en utilisant la connexion de données mobiles nécessite %s Mo de données.</string>
+  <string name="mobile_data_note_dialog_title">"Alerte d'utilisation des données"</string>
   <string name="modem_tool_log">Capturer les journaux du modem</string>
   <string name="modem_tool_log_start">Démarrer</string>
   <string name="modem_tool_log_start_toast">Sauvegarde du journal de modem vers %s</string>
