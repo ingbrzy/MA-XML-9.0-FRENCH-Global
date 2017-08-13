@@ -8,7 +8,7 @@
   <string name="app_name">Feedback</string>
   <string name="btn_send">Envoyer</string>
   <string name="bugreport_dialog_not_show_again">Ne plus afficher</string>
-  <string name="bugreport_dialog_submit_content">Votre commentaire pourrait contenir des informations personnelles.</string>
+  <string name="bugreport_dialog_submit_content">Votre commentaire pourrait contenir des informations personnelles et vos données de localisation.</string>
   <string name="bugreport_dump_complete_notification_summary">Appuyez pour afficher.</string>
   <string name="bugreport_dump_complete_notification_title">"Rapport d'erreur créé"</string>
   <string name="bugreport_dump_start_notification_summary">Cela peut prendre plusieurs minutes.</string>
@@ -254,7 +254,7 @@
   <string name="section_screenshot">"Capture d'écran"</string>
   <string name="submit_dialog_cancel">Annuler</string>
   <string name="submit_dialog_confirm">Envoyer</string>
-  <string name="submit_dialog_content">Votre commentaire avec vos pièces jointes et journaux seront envoyés aux serveurs MIUI. Cela pourrait contenir des informations personnelles.</string>
+  <string name="submit_dialog_content">Votre commentaire avec vos pièces jointes et journaux seront envoyés aux serveurs MIUI. Cela pourrait contenir des informations personnelles et vos données de localisation.</string>
   <string name="submit_dialog_title">Envoyer le rapport</string>
   <string name="submit_feedback_info_failed">"Impossible d'envoyer le rapport"</string>
   <string name="suggestion_description">Ajoutez la description ici</string>

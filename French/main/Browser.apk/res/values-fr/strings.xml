@@ -167,6 +167,7 @@
   <string name="color_picker_dialog_title">Sélectionnez la couleur</string>
   <string name="color_picker_hue">Teinte</string>
   <string name="color_picker_saturation">Saturation</string>
+  <string name="color_picker_value">Valeur</string>
   <string name="comment_app_menu">Commentaire</string>
   <string name="comment_description">Commentaire</string>
   <string name="comment_hint">Commentaire</string>
@@ -200,7 +201,7 @@
   <string name="current_version_pad">Tablette</string>
   <string name="current_version_pc">Ordinateur de bureau</string>
   <string name="current_version_phone">Téléphone</string>
-  <string name="custom_head_card_text">Always believe that something wonderful is about to happen</string>
+  <string name="custom_head_card_text">Toujours croire que quelque chose de merveilleux va se produire</string>
   <string name="custom_head_card_text_incognito">"Vous êtes en incognito ! 
 Les pages que vous visitez n'apparaîtront pas dans l'historique."</string>
   <string name="data_traffic_prompt_change">Utiliser votre connexion de données mobiles pour visionner des vidéos augmentera votre consommation de données. Si vous dépassez la limite de votre forfait, votre opérateur de téléphonie mobile pourrait vous facturer des frais supplémentaires.</string>

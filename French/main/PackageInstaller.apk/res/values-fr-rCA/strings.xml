@@ -312,17 +312,6 @@ Toutes vos données d'utilisateur précédentes vont être enregistrées."</stri
   <string name="picture_color_mode_desc">Utiliser sRGB</string>
   <string name="pointer_location">Emplacement du curseur</string>
   <string name="pointer_location_summary">Superposition écran indiquant données actuelles</string>
-  <string name="power_charging">%1$s - %2$s</string>
-  <string name="power_charging_duration">%1$s %% (chargée à 100 %% dans %2$s)</string>
-  <string name="power_charging_duration_ac">%1$s %% (charge complète sur c.a. dans %2$s)</string>
-  <string name="power_charging_duration_ac_short">%1$s - %2$s</string>
-  <string name="power_charging_duration_short">%1$s - %2$s</string>
-  <string name="power_charging_duration_usb">%1$s %% (chargée à 100 %% par USB dans %2$s)</string>
-  <string name="power_charging_duration_usb_short">%1$s - %2$s</string>
-  <string name="power_charging_duration_wireless">%1$s %% (chargée à 100 %% avec chargeur sans fil dans %2$s)</string>
-  <string name="power_charging_duration_wireless_short">%1$s - %2$s</string>
-  <string name="power_discharging_duration">%1$s %% – Temps restant : environ %2$s</string>
-  <string name="power_discharging_duration_short">%1$s – Temps restant : %2$s</string>
   <string name="power_remaining_duration_only">Il reste environ %1$s</string>
   <string name="power_remaining_duration_only_short">Temps restant : %1$s</string>
   <string name="privacyPerms">Confidentialité</string>

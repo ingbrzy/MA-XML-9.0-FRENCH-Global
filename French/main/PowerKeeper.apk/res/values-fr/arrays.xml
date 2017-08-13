@@ -84,7 +84,7 @@
         <item>Mode performance en premier</item>
     </string-array>
     <string-array name="thermal_summaries">
-        <item>Current default mode</item>
+        <item>Mode par défaut actuel</item>
         <item>Current performance mode</item>
     </string-array>
 </resources>

@@ -65,7 +65,7 @@
   <string name="keyguard_charging_info_tip_text6">"Éteignez l'écran et éloignez votre appareil pour le refroidir."</string>
   <string name="keyguard_left_bankcard">Mi Pay</string>
   <string name="keyguard_left_buscard">Carte de transport</string>
-  <string name="keyguard_left_remotecentral">Mi Remote</string>
+  <string name="keyguard_left_remotecentral">Télécommande Mi</string>
   <string name="keyguard_left_smarthome">Mi Home</string>
   <string name="keyguard_quick_charging_info_click_to_detail">Chargement rapide. Appuyer pour afficher les détails.</string>
   <string name="keyguard_quickly_charging_info_charging_text">Chargement rapide…</string>

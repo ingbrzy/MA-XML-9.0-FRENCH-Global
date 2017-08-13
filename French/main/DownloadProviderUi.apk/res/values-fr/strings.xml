@@ -71,7 +71,7 @@
   <string name="dialog_msg_disabled_net">"%1$s téléchargements restreints pour le réseau actuel. Appuyer sur les paramètres de réseaux pour ouvrir l'application Sécurité."</string>
   <string name="dialog_msg_recommend">"Vous ne serez plus en mesure de voir les sources recommandées si vous le désactivez. Vous pouvez choisir \"Charger uniquement du contenu lors d'une connexion Wi-Fi\" pour économiser les données mobiles."</string>
   <string name="dialog_queued_body">Le fichier a été ajouté à la file et sera bientôt téléchargé.</string>
-  <string name="dialog_title_disabled_net">Accès à internet</string>
+  <string name="dialog_title_disabled_net">Accès à Internet</string>
   <string name="dialog_title_not_available">Impossible de télécharger</string>
   <string name="dialog_title_queued_body">Fichier pas encore prêt</string>
   <string name="dialog_title_recommend">Désactiver les sources recommandées</string>
@@ -209,7 +209,7 @@
   <string name="no_vip_info">Devenir membres Xunlei pour accélérer les téléchargements</string>
   <string name="no_vip_show_info">"Accélérez les téléchargements
 sur tous vos appareils avec Xunlei"</string>
-  <string name="notify_disabled_net_by_app">Accès à internet restreint</string>
+  <string name="notify_disabled_net_by_app">Accès à Internet restreint</string>
   <string name="notify_not_support">De telles notifications ne sont pas prises en charge, mettre à jour maintenant</string>
   <string name="notify_only_wifi_download">En attente du Wi-Fi</string>
   <string name="one_month">1 mois</string>

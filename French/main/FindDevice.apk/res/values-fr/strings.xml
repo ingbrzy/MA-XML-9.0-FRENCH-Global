@@ -18,6 +18,7 @@ Contactez votre agent de vente pour plus de détails."</string>
   <string name="enable_find_device_success">"La localisation de l'appareil est activée"</string>
   <string name="find_device">"Localiser l'appareil"</string>
   <string name="find_device_crash">"\"Localiser l'appareil\" s'est fermé de façon inattendue."</string>
+  <string name="find_device_error_access_denied">Accès refusé.</string>
   <string name="find_device_error_account_sys_timeout">"Impossible de se connecter au Compte Mi. "</string>
   <string name="find_device_error_account_unknown_error">Erreur Compte Mi (%s).</string>
   <string name="find_device_error_network">Erreur réseau.</string>
@@ -50,6 +51,10 @@ Si vous changez de carte SIM, un autre SMS sera envoyé automatiquement pour ré
   <string name="phone_locked_account_phone">, numéro de téléphone associé : %s</string>
   <string name="stop_on_empty_captcha">Le code captcha ne peut être vide</string>
   <string name="stop_on_empty_password">Le mot de passe ne peut être vide</string>
+  <string name="sys_notification_async_open_failed_content">Appuyer pour réessayer ou annuler.</string>
+  <string name="sys_notification_async_open_failed_title">"Impossible d'activer Localiser l'appareil"</string>
+  <string name="sys_notification_async_verify_content">Our updated Security Policy requires that Find device should be reactivated.</string>
+  <string name="sys_notification_async_verify_title">"Réactiver Localiser l'appareil"</string>
   <string name="time_correction_failure">"Impossible de corriger l'heure. %s"</string>
   <string name="time_correction_success">Temps corrigé</string>
   <string name="unlock">Activer</string>

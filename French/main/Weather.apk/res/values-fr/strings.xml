@@ -74,9 +74,9 @@
   <string name="commercial">Commercial</string>
   <string name="common_loading_text">Un instant…</string>
   <string name="connect_fail">Impossible de se connecter au réseau, réessayez</string>
-  <string name="content_desc_activity_main_add_city">Add city</string>
+  <string name="content_desc_activity_main_add_city">Ajouter une ville</string>
   <string name="content_desc_activity_main_add_city_manage">City management</string>
-  <string name="content_desc_activity_main_more_settings">More settings</string>
+  <string name="content_desc_activity_main_more_settings">Plus de paramètres</string>
   <string name="daily_forcast_drawer_on_bottom">Masquer</string>
   <string name="daily_forcast_no_stable_direction">Brise</string>
   <string name="daily_forcast_no_wind">0</string>
@@ -146,7 +146,7 @@ Faites glisser vers le bas pour actualiser ou vérifier les paramètres réseau"
   <string name="international_details_uv_index_title">INDICE UV</string>
   <string name="international_details_wind_connect">%1$s %2$s</string>
   <string name="international_details_wind_title">VENT</string>
-  <string name="it_is_going_to_rain">It is going to rain</string>
+  <string name="it_is_going_to_rain">Il va pleuvoir</string>
   <string name="locate_fail_detail_err">"Impossible de localiser l'appareil
 Appuyer sur l'écran pour ajouter manuellement ou repositionner une ville"</string>
   <string name="location_tag">Localiser</string>
@@ -171,7 +171,7 @@ Appuyer sur l'écran pour ajouter manuellement ou repositionner une ville"</stri
   <string name="network_not_available">Impossible de se connecter au réseau</string>
   <string name="network_unavailable">Impossible de se connecter au réseau.</string>
   <string name="night_not_disturb_settings_summary">Will not receive all weather notices from 23:00 to 07:00 the next day after opening</string>
-  <string name="night_not_disturb_settings_title">Do not disturb at night</string>
+  <string name="night_not_disturb_settings_title">Ne pas déranger la nuit</string>
   <string name="no_network_btn">Réessayer</string>
   <string name="no_vote_ratio">Contre %1$s%%</string>
   <string name="open">Ouvrir</string>
@@ -259,5 +259,5 @@ Appuyer sur l'écran pour ajouter manuellement ou repositionner une ville"</stri
   <string name="xiaomi_weather_description_content">"L'application Météo vous fournit des infos météorologiques avec précision. Sans cette application, la Barre d'État et le widget de météo ne fonctionneront pas correctement. Assurez-vous que vous pouvez vous passer de ces foncitonnalités avant de désinstaller l'application."</string>
   <string name="xiaomi_weather_description_title">À propos de Météo</string>
   <string name="yes_vote_ratio">Pour %1$s%%</string>
-  <string name="your_location">Your location</string>
+  <string name="your_location">Votre localisation</string>
 </resources>

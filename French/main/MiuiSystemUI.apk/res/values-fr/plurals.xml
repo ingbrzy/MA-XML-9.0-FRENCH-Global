@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="status_bar_accessibility_recent_apps">
-        <item quantity="other">%d recent apps</item>
-        <item quantity="one">%d recent app</item>
+        <item quantity="other">%d applications récentes</item>
+        <item quantity="one">%d application récente</item>
     </plurals>
     <plurals name="accessibility_recent_task_enter">
-        <item quantity="other">Opened Recents, available apps: %d.</item>
-        <item quantity="one">Opened Recents, available app: %d.</item>
+        <item quantity="other">Récemment ouvert, applications disponibles : %d.</item>
+        <item quantity="one">Récemment ouvert, application disponible : %d.</item>
     </plurals>
     <plurals name="accessibility_recent_task_first_enter_tips">
-        <item quantity="other">Opened Recents, available apps: %d. Swipe up to remove, swipe down to lock.</item>
-        <item quantity="one">Opened Recents, available app: %d. Swipe up to remove, swipe down to lock.</item>
+        <item quantity="other">Récemment ouvert, applications disponibles : %d. Balayez vers le haut pour retirer, balayez vers le bas pour verrouiller.</item>
+        <item quantity="one">Récemment ouvert, application disponible : %d. Balayez vers le haut pour retirer, balayez vers le bas pour verrouiller.</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d toggles above this bar are active</item>
-        <item quantity="one">%1$d toggle above this bar are active</item>
+        <item quantity="other">%1$d interrupteurs au dessus de cette barre sont actifs</item>
+        <item quantity="one">%1$d interrupteur au dessus de cette barre est actif</item>
     </plurals>
     <plurals name="disable_notification_confirm_title">
         <item quantity="other">Cacher les notifications de %d applications ?</item>
         <item quantity="one">Cacher les notifications de cette application ?</item>
     </plurals>
     <plurals name="block_record_notification_more_text">
-        <item quantity="other">Hiding notifications from %1$s &amp; %2$d apps.</item>
-        <item quantity="one">Hiding notifications from %1$s &amp; %2$d app.</item>
+        <item quantity="other">Masquer les notifications de %1$s &amp; %2$d applications.</item>
+        <item quantity="one">Masquer les notifications de %1$s &amp; %2$d application.</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Dégagé</item>
