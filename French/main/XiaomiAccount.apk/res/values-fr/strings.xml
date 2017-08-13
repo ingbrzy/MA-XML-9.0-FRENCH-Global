@@ -279,7 +279,6 @@ Pour activer votre compte, suivez le
   <string name="passport_quick_login_dialog_title">Vérifier le mot de passe</string>
   <string name="passport_quick_login_step2_title">Vérification en 2 étapes</string>
   <string name="passport_quick_login_title">Saisissez votre mot de passe</string>
-  <string name="passport_quick_register_notice">&lt;u&gt;"Vous n'avez pas un Compte Mi ? Cr&amp;#233;ez-en un."&lt;/u&gt;</string>
   <string name="passport_re_get_verify_code">Obtenir le code à nouveau</string>
   <string name="passport_re_register">"S'inscrire à nouveau"</string>
   <string name="passport_recycle_account_prompt">Est-ce votre compte Mi ?</string>
