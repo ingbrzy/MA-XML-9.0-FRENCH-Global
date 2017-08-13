@@ -446,7 +446,6 @@
   <string name="card_main_private_space_summary">Utiliser le Second espace est comme si vous aviez deux appareils</string>
   <string name="card_main_private_space_title">Second espace</string>
   <string name="card_main_sectool_title">Outils</string>
-  <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
   <string name="card_main_xspace_action">Créer</string>
   <string name="card_main_xspace_summary">"Créer des comptes doubles pour n'importe quelle application"</string>
   <string name="card_main_xspace_title">Applications clônées</string>
