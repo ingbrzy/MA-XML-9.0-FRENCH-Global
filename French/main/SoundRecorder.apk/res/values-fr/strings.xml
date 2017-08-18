@@ -37,7 +37,7 @@
   <string name="error_filename_too_long">Nom de fichier trop long.</string>
   <string name="error_sdcard_access">Accès impossible au stockage</string>
   <string name="error_sdcard_unmounted">Insérez une carte SD</string>
-  <string name="export_to_note">Exporter vers Notes</string>
+  <string name="export_to_note">Export</string>
   <string name="head_set_tip_dialog_msg">"Déconnectez vos écouteurs afin d'enregistrer du son avec des préréglages spécifiques (ex. Musique, Voix)."</string>
   <string name="head_set_tip_dialog_ok">"C'est compris"</string>
   <string name="head_set_tip_dialog_title">Utiliser le microphone interne</string>

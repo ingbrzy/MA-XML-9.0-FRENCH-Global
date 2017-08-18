@@ -3,6 +3,7 @@
   <string name="agree">Accepter</string>
   <string name="agree_terms">"J'ai lu et accepté les Conditions générales d'utilisation et la Politique de confidentialité."</string>
   <string name="app_name">Provision</string>
+  <string name="application_permissions">Application Permissions</string>
   <string name="back">Retour</string>
   <string name="cm_terms_content">"Afin d'améliorer les services qui vous sont fournis, l'opérateur de réseau mobile de votre choix peut télécharger vos données personnelles et les informations concernant cet appareil sur ses serveurs en utilisant des réseaux Wi-Fi ou des connexions de données mobiles. Ces informations ne seront utilisées qu'à des fins statistiques pour améliorer la qualité des services et fournir un contenu plus personnalisé. Ces informations ne seront pas utilisées pour vous identifier personnellement et ne seront pas divulguées à des tiers."</string>
   <string name="cm_terms_title">"Accord de l'opérateur du réseau mobile"</string>

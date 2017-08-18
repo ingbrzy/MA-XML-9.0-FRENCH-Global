@@ -97,8 +97,8 @@
         <item>1080p (sécurisé)</item>
         <item>4K</item>
         <item>4K (sécurisé)</item>
-        <item>4K (upscaled)</item>
-        <item>4K (upscaled, secure)</item>
+        <item>4K (améliorée)</item>
+        <item>4K (améliorée, sécurisé)</item>
         <item>720p, 1080p (double écran)</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
@@ -148,6 +148,17 @@
         <item>Rapide</item>
         <item>Très rapide</item>
         <item>Plus rapide</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
     </string-array>
     <string-array name="color_mode_names">
         <item>Vibrant (par défaut)</item>

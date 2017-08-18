@@ -88,6 +88,7 @@
   <string name="call_radio">Appeler par signal radio</string>
   <string name="call_record_setting_miui">"Paramètres d'enregistrement"</string>
   <string name="call_settings">Paramètres</string>
+  <string name="call_settings_primary_user_only">"Les paramètres d'appel peuvent être modifiés par l'utilisateur principal."</string>
   <string name="call_sim1_description">SIM 1</string>
   <string name="call_sim1_menu_title">Appel sur SIM 1</string>
   <string name="call_sim2_description">SIM 2</string>
@@ -669,6 +670,7 @@ Raison: \"%s\""</string>
   <string name="miprofile_contact_header">Contacts avec des cartes de contact</string>
   <string name="miprofile_contact_meaasge">Contacts locaux</string>
   <string name="miprofile_contact_verifying">Vérification</string>
+  <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
   <string name="miprofile_edit_title">Éditer le profil</string>
   <string name="miprofile_error_accept_self">"Impossible d'échanger votre propre carte de contact"</string>
   <string name="miprofile_error_no_miaccount">Connectez-vous à votre compte Mi</string>
@@ -859,6 +861,8 @@ Pour ajouter des contacts, pressez la touche "&lt;b&gt;&lt;font fgcolor="#ffffff
   <string name="path_wipe_data">Applications système/Contacts/Organiser les contacts/Effacer les données</string>
   <string name="payphone">Cabine téléphonique</string>
   <string name="people">Contacts</string>
+  <string name="percent_sign">%</string>
+  <string name="percentage">%s%%</string>
   <string name="phoneLabelsGroup">Téléphone</string>
   <string name="phone_info_divider">" ｜ "</string>
   <string name="phone_number_too_long_toast">Ce numéro est trop long</string>
@@ -927,7 +931,7 @@ Pour ajouter des contacts, pressez la touche "&lt;b&gt;&lt;font fgcolor="#ffffff
   <string name="preference_phone_more_title">"Paramètres d'appel"</string>
   <string name="preference_remove_duplicate">Fusionner les contacts dupliqués</string>
   <string name="preference_show_yellowpage_tab_description">"Fermer l'onglet des Pages jaunes, la fonction Pages jaunes ne fonctionnera pas correctement"</string>
-  <string name="preference_show_yellowpage_tab_title">Show the YellowPage entry</string>
+  <string name="preference_show_yellowpage_tab_title">"Afficher l'entrée des Pages jaunes"</string>
   <string name="preference_simple_mode_description">Afficher photos et autres informations de contact dans la liste</string>
   <string name="preference_simple_mode_title">Afficher photos et infos</string>
   <string name="preference_smart_group_company_summary">Regrouper par société</string>
@@ -1140,6 +1144,10 @@ Pour commencer, appuyez sur l'icône Fusionner en bas de votre écran."</string>
   <string name="strequentList">Favoris</string>
   <string name="success_message_import_from_account">Contact importé</string>
   <string name="summary_kind_title">Résumé</string>
+  <string name="t9_search_empty_create_contact">New contact</string>
+  <string name="t9_search_empty_edit_contact">Add to contact</string>
+  <string name="t9_search_empty_send_sms">Send message</string>
+  <string name="t9_search_empty_video_call">Video call</string>
   <string name="t9_search_guide_pinyin_title1">Entrez de numéros pour trouver des contacts</string>
   <string name="t9_search_guide_pinyin_title2">Entrez \"9\" et \"4\" pour chercher \"&lt;font fgcolor=""&gt;X&lt;/font&gt;avier &lt;font fgcolor=""&gt;H&lt;/font&gt;enry\"</string>
   <string name="t9_search_guide_zhuyin_title1">Entrez de numéros pour trouver des contacts</string>
@@ -1171,10 +1179,12 @@ Pour commencer, appuyez sur l'icône Fusionner en bas de votre écran."</string>
   <string name="type_outgoing">Appel sortant</string>
   <string name="type_voicemail">Messagerie vocale</string>
   <string name="unable_get_device_id">"Impossible d'obtenir votre IMEI"</string>
+  <string name="unfold_all">tout dérouler</string>
   <string name="unknow_phone_number_call_failed">Appel de numéro inconnu impossible</string>
   <string name="unknow_phone_number_mms_failed">"Impossible d'envoyer un message vers un numéro inconnu"</string>
   <string name="unknown">Inconnu</string>
   <string name="unknown_contact_name">Contact inconnu</string>
+  <string name="unknown_details_new_contact">Nouveau contact</string>
   <string name="update_sim_contact_photo_toast">Impossible de définir des photos de profil pour les contacts SIM</string>
   <string name="upgrade_in_progress">Mise à jour de la liste de contacts en cours.</string>
   <string name="upgrade_out_of_memory">"Les contacts vont être mis à jour. 

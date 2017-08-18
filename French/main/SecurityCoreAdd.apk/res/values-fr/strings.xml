@@ -179,6 +179,7 @@ pour y accéder depuis l'Écran de verrouillage"</string>
   <string name="scanner_fingerprint_tips_desc">"Sélectionner une empreinte digitale existante pour entrer dans le Second espace. Vous ne serez plus capable de l'utiliser dans le Premier espace."</string>
   <string name="scanner_fingerprint_tips_title">Entrer dans le Second Espace en utilisant une empreinte digitale existante</string>
   <string name="scanner_second_space_fingerprint">"Scanner l'empreinte digitale du Second Espace"</string>
+  <string name="sdcardfs_dialog_message">进入分身前需要在开发者选项中关闭”模拟SD卡优化“</string>
   <string name="search_input_txt_na">"&lt;font color='#ff0000'&gt;%s&lt;/font&gt;"</string>
   <string name="search_result_text">Impossible de trouver une application</string>
   <string name="secondSpace">Second espace</string>

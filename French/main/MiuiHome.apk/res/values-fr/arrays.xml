@@ -3,7 +3,7 @@
     <string-array name="transformation_entries">
         <item>Diapositive</item>
         <item>Fondu</item>
-        <item>Tumble</item>
+        <item>Circulaire</item>
         <item>Page</item>
         <item>Cascade</item>
         <item>Pivoter</item>
@@ -16,6 +16,10 @@
         <item>Droite</item>
     </string-array>
     <string-array name="cell_layout_size_entries">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+    <string-array name="cell_layout_size_values">
         <item>4x4</item>
         <item>4x5</item>
     </string-array>

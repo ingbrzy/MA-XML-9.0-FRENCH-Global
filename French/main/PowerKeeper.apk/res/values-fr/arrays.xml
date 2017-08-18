@@ -85,6 +85,6 @@
     </string-array>
     <string-array name="thermal_summaries">
         <item>Mode par défaut actuel</item>
-        <item>Current performance mode</item>
+        <item>Mode de performances actuelles</item>
     </string-array>
 </resources>

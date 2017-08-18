@@ -9,6 +9,7 @@
   <string name="activate_feature_default_name">Services Mi</string>
   <string name="activate_feature_find_device">"Localiser l'appareil"</string>
   <string name="activate_feature_live_talk">Recharge de forfait</string>
+  <string name="activate_feature_mi_roaming">Mi Roaming</string>
   <string name="activate_feature_mms_sync">Synchroniser les messages</string>
   <string name="activate_feature_mx">Messages Mi</string>
   <string name="activate_feature_mx_and_voip">Messages Mi et Voix</string>

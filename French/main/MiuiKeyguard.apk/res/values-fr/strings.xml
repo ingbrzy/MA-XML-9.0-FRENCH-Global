@@ -25,6 +25,7 @@
   <string name="input_password_after_boot_msg">Pour déverrouiller votre appareil, saisissez votre mot de passe</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_calling">"Impossible de basculer entre les espaces lors d'un appel"</string>
   <string name="input_password_after_boot_msg_must_enter_owner_space">"Vous devez entrer dans le Premier espace suite à un redémarrage de l'appareil"</string>
+  <string name="input_password_handle_sdcard_fs">进入分身前需要在开发者选项中关闭“模拟SD卡优化”</string>
   <string name="input_password_hint_text">Entrez le mot de passe</string>
   <string name="input_pattern_hint_text">Dessinez un schéma de déverrouillage</string>
   <string name="input_pin_code">Code PIN</string>
@@ -88,13 +89,14 @@
   <string name="open_camera_hint_text">"Balayez vers la gauche pour ouvrir l'appareil photo"</string>
   <string name="open_remote_center_hint_text">Swipe right to open mi remote</string>
   <string name="phone_locked_foget_password">Mot de passe oublié ?</string>
-  <string name="phone_locked_foget_password_content">"Vous pouvez vous connecter à i.mi.com en utilisant le compte Mi associé avec cet appareil, puis effacer toutes les données. Cela effacera toutes les données personnelles stockées sur cet appareil. Après cela, vous pouvez redémarrer l'appareil et restaurer vos contacts, messages, photos et les autres éléments depuis Mi Cloud. 
-
-Vous devez vous connecter à votre compte Mi pour effectuer ces opérations. Dans le cas contraire, vous devrez réinitialiser l'appareil à nouveau."</string>
-  <string name="phone_locked_foget_password_footer">"Étapes :
-S'identifier dans i.mi.com, aller dans “Find device”, sélectionner l'appareil et appuyer sur \"Wipe device\"."</string>
-  <string name="phone_locked_foget_password_header">"Que faire si j'ai oublié mon mot de passe ?"</string>
+  <string name="phone_locked_foget_password_mehod_back">Back</string>
+  <string name="phone_locked_foget_password_method">Forgot password?</string>
+  <string name="phone_locked_foget_password_method_content">&lt;Data&gt;You have to &amp;lt;font color=#a5220e&amp;gt;erase all data &amp;lt;/font&amp;gt; on your device, including photos and contacts, and then set a new Lock screen password.&lt;/Data&gt;</string>
+  <string name="phone_locked_foget_password_method_next">Next</string>
   <string name="phone_locked_foget_password_ok">"C'est compris"</string>
+  <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data&gt;Power off your device, press and hold the &amp;lt;font color=#a5220e&amp;gt;Power button &amp;lt;/font&amp;gt; and the &amp;lt;font color=#a5220e&amp;gt;Volume up button &amp;lt;/font&amp;gt;simultaneously until you see ml.&lt;/Data&gt;</string>
+  <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data&gt;Select &amp;lt;font color=#a5220e&amp;gt;\"Wipe &amp;amp;amp; Reset\"&amp;lt;/font&amp;gt; and wait until the device reboots.&lt;/Data&gt;</string>
+  <string name="phone_locked_forget_password_suggesstions_title">How to erase data?</string>
   <string name="phone_locked_string">Appareil verrouillé</string>
   <string name="phone_locked_timeout_minutes_string">Try again in %d minutes</string>
   <string name="phone_locked_timeout_seconds_string">Try again in %d seconds</string>

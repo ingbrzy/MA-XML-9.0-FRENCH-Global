@@ -109,9 +109,6 @@
   <string name="cancel_running_download">Annuler</string>
   <string name="change_download_quality">Changer la qualité de téléchargement</string>
   <string name="channel_list_fragment_title">Radio</string>
-  <string name="chinese_female">Artistes féminines (Chine)</string>
-  <string name="chinese_group">Groupes (Chine)</string>
-  <string name="chinese_male">Artistes masculins (Chine)</string>
   <string name="choose_download_quality">Choisir la qualité de téléchargement</string>
   <string name="choose_stream_quality">Qualité de diffusion préférée</string>
   <string name="click_modify">Appuyez pour modifier les paroles.</string>
@@ -124,8 +121,6 @@
   <string name="cloud_loading_message">Recherche de chansons…</string>
   <string name="cloud_music">Chansons dans Mi Cloud</string>
   <string name="cloud_settings">Paramètres de synchronisation</string>
-  <string name="cloud_space_full">Le stockage est plein</string>
-  <string name="cloud_space_full_message">"L'espace de stockage de votre Mi Cloud est insuffisant pour ajouter plus de chansons. Pour obtenir plus d'espace, passez à une version supérieure."</string>
   <string name="cloud_state_cloud_space_full">Pas assez de stockage sur Mi Cloud, sauvegarde mise en pause</string>
   <string name="cloud_state_low_power">Connecter le chargeur pour reprendre la sauvegarde</string>
   <string name="cloud_state_network_data">Impossible de retrouver des réseaux Wi-Fi, sauvegarde mise en pause</string>
@@ -209,7 +204,6 @@
   <string name="disable_auto_payment_success_message">"Renouvellement automatique désactivé. Après l'expiration de votre abonnement actuel, vous devrez vous abonner à nouveau pour télécharger des chansons."</string>
   <string name="disallow_add_to_fm">"Impossible d'ajouter des chansons à la radio FM"</string>
   <string name="disallow_add_to_personal_radio">"Impossible d'ajouter des chansons à la radio personelle"</string>
-  <string name="do_not_remind_again">Ne plus afficher</string>
   <string name="doc_filter">Documents</string>
   <string name="done">Terminé</string>
   <string name="download">Télécharger</string>
@@ -303,9 +297,6 @@
   <string name="enable_auto_payment_success">Renouveler automatiquement</string>
   <string name="enable_auto_payment_success_message">Renouvellement automatique activé. Échéance le %s.</string>
   <string name="enabled">Activé</string>
-  <string name="english_female">Artistes féminines (USA/Europe)</string>
-  <string name="english_group">Groupes (USA/Europe)</string>
-  <string name="english_male">Artistes masculins (USA/Europe)</string>
   <string name="enter_garbage_clean">Nettoyer le stockage interne.</string>
   <string name="eq_auto">Personnaliser</string>
   <string name="eq_blues">Blues</string>
@@ -342,7 +333,6 @@
   <string name="favorites">Favoris</string>
   <string name="favourite_music_left_half">"Pour ajouter des chansons à cette playlist, appuyez sur l'"</string>
   <string name="favourite_music_right_half">icône de favori à droite du titre de la chanson</string>
-  <string name="female_artist">Artistes féminins</string>
   <string name="file_not_found">"Le fichier n'existe pas"</string>
   <string name="filter_by_duration">Par longueur</string>
   <string name="filter_by_duration_format">%2$dmin %5$2dsec</string>
@@ -398,7 +388,6 @@
   <string name="global_search_title_movie">Bandes sonores pour film</string>
   <string name="global_search_title_prenatal">Musique prénatale</string>
   <string name="global_search_title_radar">Reconnaissance musicale</string>
-  <string name="group_artist">Groupes</string>
   <string name="handle_later">Pas maintenant</string>
   <string name="higher_quality_music">Audio haute qualité</string>
   <string name="higher_quality_music_summary">Écouter et télécharger des fichiers de haute qualité</string>
@@ -425,9 +414,6 @@
   <string name="is_scanning">Vérification du stockage…</string>
   <string name="is_scanning_support_online">"Vérification du stockage…
 (En attendant, vous pouvez écouter de la musique en ligne)"</string>
-  <string name="japan_korea_female">Artistes féminines (Japon/Corée)</string>
-  <string name="japan_korea_group">Groupes (Japon/Corée)</string>
-  <string name="japan_korea_male">Artistes masculins (Japon/Corée)</string>
   <string name="keep_queued_download">Garder</string>
   <string name="ktv_playlist">Playlist KTV</string>
   <string name="latest_song">"Jouer l'historique (%d)"</string>
@@ -459,7 +445,6 @@
   <string name="lyric_is_empty">Aucune parole disponible</string>
   <string name="lyric_open_other_connect">Télécharger les paroles en utilisant le réseau mobile</string>
   <string name="lyric_setting">Paramètres des paroles</string>
-  <string name="male_artist">Artistes masculins</string>
   <string name="manager_cloud_space">Gérer le stockage Mi Cloud</string>
   <string name="media_filter">Média</string>
   <string name="menu_all_task_pause">Tout mettre en pause</string>
@@ -565,7 +550,6 @@
   <string name="no_song_downloaded">Impossible de se connecter au serveur</string>
   <string name="normal_quality">Bonne</string>
   <string name="not_login">Pas connecté</string>
-  <string name="not_now">Pas maintenant</string>
   <string name="not_selected">Choisir une chanson</string>
   <string name="notif_text_engine_off">Accélérateur de téléchargement Xunlei désactivé.</string>
   <string name="notif_text_engine_on">Accélération…</string>
@@ -884,7 +868,6 @@
   <string name="upgrade">Mise à niveau :</string>
   <string name="upgrade_force">"Nous avons supprimé notre service de streaming en raison de problèmes de droits d'auteur. Mettez à jour vers la dernière version l'application Musique pour écouter de la musique en haute qualité."</string>
   <string name="upgrade_immediate">Mettre à jour maintenant</string>
-  <string name="upgrade_membership">"Obtenir plus d'espace"</string>
   <string name="upgrade_music">Mettre Musique à jour</string>
   <string name="upgrade_music_message">Les mises à jour sont prêtes. Redémarrez pour appliquer.</string>
   <string name="upgrade_nobeta">"Nous avons supprimé notre service de streaming en attendant de résoudre les problèmes de droits d'auteur. Désolé pour le désagrément :("</string>

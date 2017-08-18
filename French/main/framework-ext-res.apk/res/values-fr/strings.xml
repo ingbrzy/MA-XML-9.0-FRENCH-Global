@@ -124,7 +124,7 @@
   <string name="softap_notifif_summary">%d connecté</string>
   <string name="softap_notifif_title">"Point d'accès \"%s\" activé"</string>
   <string name="standard">Silencieux</string>
-  <string name="standard_description">[Silent] Silence ringtones for incoming calls and notification</string>
+  <string name="standard_description">[Silent] Réduire au silence les sonneries pour les appels et notifications entrants</string>
   <string name="standard_title">Silencieux...</string>
   <string name="start_security_permission_verify_text">Vérifier les autorisations avec votre Compte Mi</string>
   <string name="status_bar_toggle_auto_brightness">Luminosité</string>
