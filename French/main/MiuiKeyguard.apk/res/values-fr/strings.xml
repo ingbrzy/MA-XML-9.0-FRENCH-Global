@@ -80,7 +80,6 @@
   <string name="phone_locked_foget_password">Mot de passe oublié ?</string>
   <string name="phone_locked_foget_password_mehod_back">Retour</string>
   <string name="phone_locked_foget_password_method">Mot de passe oublié ?</string>
-  <string name="phone_locked_foget_password_method_content">&lt;Data&gt;"Vous devez &amp;lt;font color=#a5220e&amp;gt;effacer toutes les donn&amp;#233;es &amp;lt;/font&amp;gt; sur votre appareil, incluant les photos et les contacts, puis d&amp;#233;finissez un nouveau mot de passe de l'&amp;#233;cran de verrouillage.;"&lt;/Data&gt;</string>
   <string name="phone_locked_foget_password_method_next">Suivant</string>
   <string name="phone_locked_foget_password_ok">"C'est compris"</string>
   <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data&gt;Power off your device, press and hold the &amp;lt;font color=#a5220e&amp;gt;Power button &amp;lt;/font&amp;gt; and the &amp;lt;font color=#a5220e&amp;gt;Volume up button &amp;lt;/font&amp;gt;simultaneously until you see ml.&lt;/Data&gt;</string>
