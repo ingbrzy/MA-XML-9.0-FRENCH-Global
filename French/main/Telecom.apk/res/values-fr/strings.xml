@@ -94,6 +94,7 @@
   <string name="bugreport_in_power">"Raccourci vers rapport d'erreur"</string>
   <string name="bugreport_in_power_summary">"Afficher un bouton dans le menu de démarrage permettant de créer un rapport d'erreur"</string>
   <string name="button_convert_fbe">Effacer et convertir…</string>
+  <string name="callFailed_simError">SIM card error</string>
   <string name="can_not_dial_vt_while_voice_prompt">"Impossible d'effectuer un appel vidéo pendant un appel vocal en cours"</string>
   <string name="can_not_dial_while_vt_prompt">"Impossible composer un numéro lors d'un appel vidéo"</string>
   <string name="category_personal">Personnel</string>
@@ -105,6 +106,7 @@
   <string name="charge_length_format">Il y a %1$s</string>
   <string name="choose_profile">Sélectionner un profil</string>
   <string name="clear_adb_keys">Annuler autorisations pour débog. USB</string>
+  <string name="close">Close</string>
   <string name="confirm_enable_oem_unlock_text">"AVERTISSEMENT : Les fonctionnalités de protection de l'appareil sont désactivées tant que ce paramètre est activé."</string>
   <string name="confirm_enable_oem_unlock_title">Autoriser le déverrouillage OEM ?</string>
   <string name="connected_via_passpoint">Connecté via %1$s</string>
@@ -189,6 +191,8 @@
   <string name="inactive_app_inactive_summary">"Application inactive. Appuyez ici pour l'activer."</string>
   <string name="inactive_apps_title">Applications inactives</string>
   <string name="incall_error_call_failed">Impossible de passer un appel.</string>
+  <string name="incall_error_power_off">Turn off airplane mode to make a call.</string>
+  <string name="incall_error_supp_service_unknown">"This service isn't supported."</string>
   <string name="keep_screen_on">Rester activé</string>
   <string name="keep_screen_on_summary">"L'écran ne se met jamais en veille lors du chargement."</string>
   <string name="launch_defaults_none">Aucun paramètre par défaut défini</string>

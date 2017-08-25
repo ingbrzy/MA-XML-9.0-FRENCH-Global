@@ -140,6 +140,10 @@ Si vous activez les données mobiles, votre opérateur pourrait vous facturer de
         <item quantity="other">Protection de %d applis</item>
         <item quantity="one">Protection de %d appli</item>
     </plurals>
+    <plurals name="title_virus_clean">
+        <item quantity="other">Cleared %d viruses</item>
+        <item quantity="one">Cleared %d virus</item>
+    </plurals>
     <plurals name="hints_auto_start_enable_title">
         <item quantity="other">%d applications peuvent démarrer automatiquement</item>
         <item quantity="one">%d application peut démarrer automatiquement</item>

@@ -19,9 +19,7 @@
   <string name="fingerprint_try_again_text">Réessayer</string>
   <string name="forget_password_string">Mot de passe oublié ?</string>
   <string name="incorrect_pincode">Code PIN incorrect</string>
-  <string name="incorrect_pincode_remaining_attempts">Incorrect PIN code, %d attempts remaining</string>
   <string name="incorrect_pukcode">Code PUK incorrect</string>
-  <string name="incorrect_pukcode_remaining_attempts">Incorrect PUK code, %d attempts remaining</string>
   <string name="input_password_after_boot_msg">Pour déverrouiller votre appareil, saisissez votre mot de passe</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_calling">"Impossible de basculer entre les espaces lors d'un appel"</string>
   <string name="input_password_after_boot_msg_must_enter_owner_space">"Vous devez entrer dans le Premier espace suite à un redémarrage de l'appareil"</string>
@@ -35,24 +33,15 @@
   <string name="invalid_sim_puk_hint">Le code PUK doit contenir au moins 8 chiffres</string>
   <string name="keyguard_charging_info_battery_temperature_text">Température de la batterie</string>
   <string name="keyguard_charging_info_battery_used_time_text">Sur batterie</string>
-  <string name="keyguard_charging_info_charging_full_need_hour_time__text">About %d hr until full</string>
-  <string name="keyguard_charging_info_charging_full_need_min_time__text">"Environ %d min jusqu'à la charge complète"</string>
-  <string name="keyguard_charging_info_charging_full_need_time__text" formatted="false">"Environ %d  h %d  min jusqu'à la charge complète"</string>
   <string name="keyguard_charging_info_charging_text">En charge</string>
   <string name="keyguard_charging_info_charging_voltage_text">Voltage</string>
   <string name="keyguard_charging_info_click_to_detail">Afficher les détails</string>
-  <string name="keyguard_charging_info_could_use_hour_time_text">About %d hr left</string>
-  <string name="keyguard_charging_info_could_use_min_time_text">About %d min left</string>
-  <string name="keyguard_charging_info_could_use_time_text" formatted="false">About %d hr %d min left</string>
   <string name="keyguard_charging_info_current_now_text">Surveillance en temps réel</string>
   <string name="keyguard_charging_info_data_c">%s °C</string>
   <string name="keyguard_charging_info_data_ma">%s mA</string>
   <string name="keyguard_charging_info_data_percent">%s %%</string>
   <string name="keyguard_charging_info_data_v">%s V</string>
-  <string name="keyguard_charging_info_drained_hour_time_format">%d hr</string>
-  <string name="keyguard_charging_info_drained_min_time_format">%d min</string>
   <string name="keyguard_charging_info_drained_power_percent_text">Épuisée</string>
-  <string name="keyguard_charging_info_drained_time_format" formatted="false">%d hr %d min</string>
   <string name="keyguard_charging_info_finished_charging_text">Complètement chargée</string>
   <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
   <string name="keyguard_charging_info_last_charge_today_time">"Aujourd'hui %s"</string>
@@ -89,17 +78,15 @@
   <string name="open_camera_hint_text">"Balayez vers la gauche pour ouvrir l'appareil photo"</string>
   <string name="open_remote_center_hint_text">Swipe right to open mi remote</string>
   <string name="phone_locked_foget_password">Mot de passe oublié ?</string>
-  <string name="phone_locked_foget_password_mehod_back">Back</string>
-  <string name="phone_locked_foget_password_method">Forgot password?</string>
-  <string name="phone_locked_foget_password_method_content">&lt;Data&gt;You have to &amp;lt;font color=#a5220e&amp;gt;erase all data &amp;lt;/font&amp;gt; on your device, including photos and contacts, and then set a new Lock screen password.&lt;/Data&gt;</string>
-  <string name="phone_locked_foget_password_method_next">Next</string>
+  <string name="phone_locked_foget_password_mehod_back">Retour</string>
+  <string name="phone_locked_foget_password_method">Mot de passe oublié ?</string>
+  <string name="phone_locked_foget_password_method_content">&lt;Data&gt;"Vous devez &amp;lt;font color=#a5220e&amp;gt;effacer toutes les donn&amp;#233;es &amp;lt;/font&amp;gt; sur votre appareil, incluant les photos et les contacts, puis d&amp;#233;finissez un nouveau mot de passe de l'&amp;#233;cran de verrouillage.;"&lt;/Data&gt;</string>
+  <string name="phone_locked_foget_password_method_next">Suivant</string>
   <string name="phone_locked_foget_password_ok">"C'est compris"</string>
   <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data&gt;Power off your device, press and hold the &amp;lt;font color=#a5220e&amp;gt;Power button &amp;lt;/font&amp;gt; and the &amp;lt;font color=#a5220e&amp;gt;Volume up button &amp;lt;/font&amp;gt;simultaneously until you see ml.&lt;/Data&gt;</string>
-  <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data&gt;Select &amp;lt;font color=#a5220e&amp;gt;\"Wipe &amp;amp;amp; Reset\"&amp;lt;/font&amp;gt; and wait until the device reboots.&lt;/Data&gt;</string>
-  <string name="phone_locked_forget_password_suggesstions_title">How to erase data?</string>
+  <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data&gt;"s&amp;#233;lectionner&amp;lt;font color=#a5220e&amp;gt;\"Effacer &amp;amp;amp; R&amp;#233;initialiser\"&amp;lt;/font&amp;gt; et patientez jusqu'&amp;#224; ce que l'appareil red&amp;#233;marre.;"&lt;/Data&gt;</string>
+  <string name="phone_locked_forget_password_suggesstions_title">Comment effacer les données ?</string>
   <string name="phone_locked_string">Appareil verrouillé</string>
-  <string name="phone_locked_timeout_minutes_string">Try again in %d minutes</string>
-  <string name="phone_locked_timeout_seconds_string">Try again in %d seconds</string>
   <string name="unlock_string">Déverrouiller</string>
   <string name="unlocking_sim_card">Déverrouillage de la carte SIM</string>
   <string name="unlockscreen_low_battery">Branchez le chargeur</string>

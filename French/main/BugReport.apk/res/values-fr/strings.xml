@@ -55,6 +55,7 @@
   <string name="feedback_choose_module">Sélectionner un élément</string>
   <string name="feedback_choose_module_hint">Requis</string>
   <string name="feedback_collect_log_failed">"Impossible d'obtenir les journaux"</string>
+  <string name="feedback_contact_info_hint">Phone number/Email</string>
   <string name="feedback_continue">Continuer votre retour</string>
   <string name="feedback_description">Description</string>
   <string name="feedback_description_bugreport_hint">Dans certains cas (…) mon téléphone se comporte de façon étrange (…).</string>
@@ -196,6 +197,7 @@
   <string name="module_data">Stockage &amp; Applications clônées</string>
   <string name="module_desktop">"Écran d'accueil &amp; paramètres"</string>
   <string name="module_finance">Finance &amp; Mi Wallet</string>
+  <string name="module_google_apps">Google apps</string>
   <string name="module_item_less">Masquer</string>
   <string name="module_item_more">Plus</string>
   <string name="module_medias">Média</string>

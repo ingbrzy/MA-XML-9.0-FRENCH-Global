@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="add_vm_number_str">Ajouter un numéro</string>
   <string name="alert_dialog_dismiss">Rejeter</string>
   <string name="alert_dialog_no">Non</string>
   <string name="alert_dialog_yes">Oui</string>
@@ -174,8 +173,6 @@
   <string name="no_balance_title">Crédit insuffisant</string>
   <string name="no_call_back_message">Cela prend trop de temps pour se connecter. En passant en appel régulier vous pourrez être facturé par votre opérateur.</string>
   <string name="no_call_back_title">Attention</string>
-  <string name="no_vm_number">Numéro de la messagerie vocale manquant</string>
-  <string name="no_vm_number_msg">"Aucun numéro de messagerie vocale n'est enregistré sur la carte SIM."</string>
   <string name="non_ivr_menu_collapse_menu">Réduire le menu</string>
   <string name="non_ivr_menu_view_menu">Voir le menu</string>
   <string name="not_activate_sim_card_content">Vérifier votre numéro de téléphone pour commencer à utiliser la recharge. Vous pourrez toujours passer des appels normaux pour lesquels vous serez facturé par votre opérateur.</string>

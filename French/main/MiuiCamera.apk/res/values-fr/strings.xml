@@ -24,7 +24,7 @@
   <string name="cannot_connect_camera_twice">"Impossible de se connecter à l'app. photo. Essayez de redémarrer votre appareil."</string>
   <string name="cannot_connect_camera_volte_call">Un appel vidéo est déjà en cours, veuillez réessayez plus tard.</string>
   <string name="cannot_move_warning_message">"Prise de photo en cours, maintenez l'appareil stable"</string>
-  <string name="confirm_install_scanner_message">"Scanneur vous permet de scanner des codes QR, code-barres et bien plus. Vous n'avez à vous connecter à Internet pour l'installer."</string>
+  <string name="confirm_install_scanner_message">"Scanneur vous permet de scanner des codes QR, code-barres et bien plus. Vous n'avez qu'à vous connecter à Internet pour l'installer."</string>
   <string name="confirm_install_scanner_title">Installer Scanneur</string>
   <string name="confirm_location_alert">Memoriser la localisation des photos</string>
   <string name="confirm_location_message">Marquer vos photos et vidéos avec leurs localisations. Les autres applications pourront accéder à cette information pour vos photos enregistrées.</string>
@@ -106,6 +106,7 @@ avec le corps principal plus clair et un portrait plus beau"</string>
   <string name="pref_camera_autoexposure_entry_frameaverage">Cadre moyen</string>
   <string name="pref_camera_autoexposure_entry_spotmetering">Mesure sélective</string>
   <string name="pref_camera_autoexposure_title">"Paramètres d'exposition"</string>
+  <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
   <string name="pref_camera_beautify_entry_high">Elevé</string>
   <string name="pref_camera_beautify_entry_low">Faible</string>
   <string name="pref_camera_beautify_entry_normal">Moyen</string>
@@ -230,6 +231,7 @@ avec le corps principal plus clair et un portrait plus beau"</string>
   <string name="pref_camera_picturesize_entry_4208x3120">13M(4208x3120)</string>
   <string name="pref_camera_picturesize_entry_fullscreen">Plein écran 16:9</string>
   <string name="pref_camera_picturesize_entry_standard">Format 4:3</string>
+  <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
   <string name="pref_camera_picturesize_title_simple_mode">"Trame de l'appareil photo"</string>
   <string name="pref_camera_portrait_mode_entry_off">Le mode portait est désactivé</string>
   <string name="pref_camera_portrait_mode_entry_on">Le mode portait est activé</string>
@@ -356,7 +358,7 @@ avec le corps principal plus clair et un portrait plus beau"</string>
   <string name="pref_video_time_lapse_frame_interval_title">Retardateur</string>
   <string name="preparing_sd">Vérification du stockage interne…</string>
   <string name="record_back_pressed_hint">"Appuyez à nouveau pour arrêter l'enregistrement"</string>
-  <string name="screen_on_proximity_sensor_hint">Pour désactiver cette fonction, appuyez sur les boutons Volume + et Retour simultanément.</string>
+  <string name="screen_on_proximity_sensor_hint">Pour désactiver cette fonction, appuyez sur les boutons Volume haut et Retour simultanément.</string>
   <string name="screen_on_proximity_sensor_summary">"Ne pas couvrir la zone de l'écouteur"</string>
   <string name="search_settings">"Paramètres app. photo;Qualité;Qualité de l'image;Localisation de l'image;Détection de visage;Son de l'app. photo"</string>
   <string name="see_qrcode_detals">Afficher les détails du code QR</string>

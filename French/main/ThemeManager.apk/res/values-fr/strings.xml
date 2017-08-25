@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="account_info">Me</string>
+  <string name="account_info">Moi</string>
   <string name="account_name_not_login">Se connecter</string>
   <string name="account_unactivated">Compte non activé</string>
   <string name="ad_app_download_start">Démarrage du téléchargement…</string>
@@ -24,11 +24,11 @@
   <string name="both_all_apply_failured">"Impossible d'appliquer le fond d'écran"</string>
   <string name="both_all_apply_success">"Fond d'écran appliqué"</string>
   <string name="browser_local_resource">Ressources locales</string>
-  <string name="can_not_apply">Can not apply</string>
+  <string name="can_not_apply">"Impossible d'appliquer"</string>
   <string name="card_data_request_error">Data request exception, please try again later~</string>
-  <string name="card_loading">Loading...</string>
+  <string name="card_loading">Chargement...</string>
   <string name="card_no_network">No network now, please connect and try again~</string>
-  <string name="card_retry">Retry</string>
+  <string name="card_retry">Recommencer</string>
   <string name="change_host_hint">"Changer d'hôte"</string>
   <string name="change_wallpaper">"Fond d'écran"</string>
   <string name="close">Fermer</string>
@@ -57,7 +57,7 @@
   <string name="fail_to_add_account">"Impossible d'ajouter un compte"</string>
   <string name="favorite_list">Favoris</string>
   <string name="favorite_list_format">Favoris %1$s</string>
-  <string name="find_more_wallpapers">Find more</string>
+  <string name="find_more_wallpapers">Trouver plus</string>
   <string name="gift_anonymous">Anonyme</string>
   <string name="gift_operation_fail_dlg_abandon">Annuler</string>
   <string name="gift_operation_fail_dlg_retry">Réessayez</string>
@@ -93,7 +93,7 @@
   <string name="home_apply_failured">"Impossible d'appliquer le fond d'écran de l'écran d'accueil"</string>
   <string name="home_apply_success">"Fond d'écran de l'écran d'accueil appliqué"</string>
   <string name="in_the_end">No more</string>
-  <string name="incompatible_dialog_message">This theme isnt fully compatible with MIUI 9. Some elements may be displayed incorrectly.</string>
+  <string name="incompatible_dialog_message">"Ce thème n'est pas pleinement compatible avec MIUI 9. Certains éléments ne s'afficheront pas correctement."</string>
   <string name="incompatible_dialog_ok">"C'est compris"</string>
   <string name="incompatible_dialog_title">Problèmes de compatibilité</string>
   <string name="is_setting_wallpaper_message">"Définition du fond d'écran…"</string>
@@ -106,7 +106,7 @@
   <string name="loading">Un instant…</string>
   <string name="loading_resource_detail_fail">Impossible de charger les ressources</string>
   <string name="loading_resource_detail_info">Un instant…</string>
-  <string name="local_photos">Local photos</string>
+  <string name="local_photos">Photos locales</string>
   <string name="local_resouce_creator_name">Développeur : %1$s</string>
   <string name="lockscreen_apply_failured">"Impossible d'appliquer le fond d'écran de verrouillage"</string>
   <string name="lockscreen_apply_failured_but_home_apply_success">"Le fond d'écran de l'écran de verrrouillage est appliqué. Impossible d'appliquer celui de l'écran d'accueil."</string>
@@ -129,7 +129,7 @@
   <string name="my_gifts_received">Reçu</string>
   <string name="no_data">Impossible de se connecter au réseau</string>
   <string name="online_no_network">Impossible de se connecter au réseau</string>
-  <string name="online_precust_dreams">Dreams</string>
+  <string name="online_precust_dreams">Rêves</string>
   <string name="online_precust_midnight">Minuit</string>
   <string name="online_search_hint">Chercher des ressources en ligne</string>
   <string name="present_local_themes">Mes ressources</string>
@@ -141,7 +141,7 @@
   <string name="purchased_list">Acheté</string>
   <string name="purchased_list_current">MIUI 8</string>
   <string name="purchased_list_legacy">Thèmes basiques</string>
-  <string name="recently_used">Recently used</string>
+  <string name="recently_used">Récemment utilisé</string>
   <string name="reload">Veuillez réessayer</string>
   <string name="resource_account_abnormal_state">Erreur de compte. Patientez une minute ou deux et réessayez.</string>
   <string name="resource_account_fail_to_add">"Impossible d'ajouter un compte"</string>
@@ -338,7 +338,7 @@
   <string name="resource_user_know">OK</string>
   <string name="resource_waiting_download">En attente</string>
   <string name="resource_waiting_pause">Pause</string>
-  <string name="ringtone_set_success">Set successfully</string>
+  <string name="ringtone_set_success">Défini avec succès</string>
   <string name="sdcard_not_mounted_dialog_message">"Insérez une carte SD maintenant.
 "</string>
   <string name="sdcard_not_mounted_dialog_title">Aucune carte SD détectée</string>
@@ -418,7 +418,7 @@
   <string name="theme_user_agreement_content3">" et "</string>
   <string name="theme_user_agreement_content4">Politique de confidentialité</string>
   <string name="theme_user_agreement_content5">". Cette fonctionnalité doit se connecter à Internet pour fonctionner normalement. "</string>
-  <string name="theme_user_agreement_exit">Disagree</string>
+  <string name="theme_user_agreement_exit">Refuser</string>
   <string name="theme_user_agreement_remind_again">"Afficher les conditions d'utilisation"</string>
   <string name="theme_user_agreement_remind_never">Ne plus afficher</string>
   <string name="theme_user_agreement_remind_summary">"Afficher les Conditions d'utilisation à chaque démarrage de l'application Thèmes. Ce paramètre prendra effet après que vous ayez redémarré votre appareil."</string>
@@ -435,7 +435,7 @@
   <string name="uid_change_dialog_message">"Vous avez supprimé les mises à jour. Redémarrez l'appareil pour pouvoir utiliser les thèmes."</string>
   <string name="uid_change_dialog_ok">"C'est compris"</string>
   <string name="uid_change_dialog_title">"Redémarrer l'appareil"</string>
-  <string name="wallpaper_apply">Apply</string>
+  <string name="wallpaper_apply">Appliquer</string>
   <string name="wallpaper_crop">Rogner</string>
   <string name="wallpaper_decoded_error">Erreur de chargement</string>
   <string name="wallpaper_scroll_type_tips">"Faire défiler les fonds d'écran"</string>
@@ -443,8 +443,8 @@
   <string name="wallpaper_set_as_destop">"Définir pour l'écran d'accueil"</string>
   <string name="wallpaper_set_as_lockscreen">"Définir pour l'écran de verrouillage"</string>
   <string name="wallpaper_settings">"Réglages fond d'écran"</string>
-  <string name="wallpaper_settings_loading_text">Loading</string>
-  <string name="wallpaper_settings_no_history">No history</string>
-  <string name="wallpaper_settings_pad_more_page_title">More wallpapers</string>
+  <string name="wallpaper_settings_loading_text">Chargement</string>
+  <string name="wallpaper_settings_no_history">Aucun historique</string>
+  <string name="wallpaper_settings_pad_more_page_title">"Plus de fonds d'écran"</string>
   <string name="wallpaper_settings_page_title">"Fond d'écran"</string>
 </resources>

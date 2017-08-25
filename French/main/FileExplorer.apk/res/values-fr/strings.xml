@@ -644,7 +644,7 @@
   <string name="unbind_account">Supprimer %s ?</string>
   <string name="unbind_fail">Impossible de supprimer</string>
   <string name="unbind_success">Supprimé avec succès</string>
-  <string name="unknown_error">Une erreur est survenue. Patientez une minute ou deux et essayez à nouveau.</string>
+  <string name="unknown_error">Une erreur inconnue est survenue. Patientez une minute ou deux et essayez à nouveau.</string>
   <string name="unlock_pattern_msg">Le mot de passe de protection de confidentialité fonctionne également pour les photos et les messages.</string>
   <string name="unlock_pattern_title">Nouveau mot de passe</string>
   <string name="unlogin">"Connectez-vous d'abord"</string>

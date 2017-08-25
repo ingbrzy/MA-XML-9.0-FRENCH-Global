@@ -473,7 +473,6 @@ Raison: \"%s\""</string>
   <string name="force_touch_miprofile">Cartes de contact</string>
   <string name="force_touch_new_contact">Nouveau contact</string>
   <string name="foundTooManyContacts">Plus de %d trouvés.</string>
-  <string name="fraud_more_indemnity">Plus</string>
   <string name="frequentList">Contacts fréquents</string>
   <string name="from_account_format">%1$s</string>
   <string name="full_name">Nom complet</string>
@@ -670,6 +669,7 @@ Raison: \"%s\""</string>
   <string name="miprofile_contact_header">Contacts avec des cartes de contact</string>
   <string name="miprofile_contact_meaasge">Contacts locaux</string>
   <string name="miprofile_contact_verifying">Vérification</string>
+  <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
   <string name="miprofile_edit_title">Éditer le profil</string>
   <string name="miprofile_error_accept_self">"Impossible d'échanger votre propre carte de contact"</string>
   <string name="miprofile_error_no_miaccount">Connectez-vous à votre compte Mi</string>
@@ -860,6 +860,8 @@ Pour ajouter des contacts, pressez la touche "&lt;b&gt;&lt;font fgcolor="#ffffff
   <string name="path_wipe_data">Applications système/Contacts/Organiser les contacts/Effacer les données</string>
   <string name="payphone">Cabine téléphonique</string>
   <string name="people">Contacts</string>
+  <string name="percent_sign">%</string>
+  <string name="percentage">%s%%</string>
   <string name="phoneLabelsGroup">Téléphone</string>
   <string name="phone_info_divider">" ｜ "</string>
   <string name="phone_number_too_long_toast">Ce numéro est trop long</string>
@@ -1040,7 +1042,8 @@ Pour commencer, appuyez sur l'icône Fusionner en bas de votre écran."</string>
   <string name="search_wipe_data">Organiser;Contacts</string>
   <string name="searching_vcard_message">Recherche de données vCard sur le stockage...</string>
   <string name="select_all">Tout sélectionner</string>
-  <string name="select_done">Plus rien à sélectionner</string>
+  <string name="select_all_exceed">"Select no more than %1$d, can't select all"</string>
+  <string name="select_exceed">Select no more than %1$d</string>
   <string name="select_groups">Sélectionner les groupes</string>
   <string name="select_none">Aucune sélection</string>
   <string name="select_show_contacts">Liste des contacts</string>
@@ -1073,8 +1076,6 @@ Pour commencer, appuyez sur l'icône Fusionner en bas de votre écran."</string>
   <string name="sim_capacity_content" formatted="false">%d au total | %d utilisés</string>
   <string name="sim_card_no_free_space_message">"Pas assez d'espace"</string>
   <string name="sim_card_no_free_space_title">Carte SIM pleine</string>
-  <string name="sim_contact_dropdown_menu_deselect_all_miui">Tout déselectionner</string>
-  <string name="sim_contact_dropdown_menu_select_all_miui">Tout sélectionner</string>
   <string name="sim_contact_existing">Le contact existe déjà</string>
   <string name="sim_contact_invalid">Contact SIM invalide</string>
   <string name="sim_contact_search_error">Une erreur est survenue</string>
@@ -1141,18 +1142,16 @@ Pour commencer, appuyez sur l'icône Fusionner en bas de votre écran."</string>
   <string name="strequentList">Favoris</string>
   <string name="success_message_import_from_account">Contact importé</string>
   <string name="summary_kind_title">Résumé</string>
-  <string name="t9_search_empty_create_contact">New contact</string>
+  <string name="t9_search_empty_create_contact">Nouveau contact</string>
   <string name="t9_search_empty_edit_contact">Add to contact</string>
-  <string name="t9_search_empty_send_sms">Send message</string>
-  <string name="t9_search_empty_video_call">Video call</string>
+  <string name="t9_search_empty_send_sms">Envoyer un message</string>
+  <string name="t9_search_empty_video_call">Appel vidéo</string>
   <string name="t9_search_guide_pinyin_title1">Entrez de numéros pour trouver des contacts</string>
   <string name="t9_search_guide_pinyin_title2">Entrez \"9\" et \"4\" pour chercher \"&lt;font fgcolor=""&gt;X&lt;/font&gt;avier &lt;font fgcolor=""&gt;H&lt;/font&gt;enry\"</string>
   <string name="t9_search_guide_zhuyin_title1">Entrez de numéros pour trouver des contacts</string>
   <string name="t9_search_guide_zhuyin_title2">Entrez \"2\" et \"3\" pour chercher \"&lt;font fgcolor=""&gt;A&lt;/font&gt;lan &lt;font fgcolor=""&gt;F&lt;/font&gt;rank\"</string>
   <string name="take_new_photo">Prendre une nouvelle photo</string>
   <string name="take_photo">Prendre une photo</string>
-  <string name="telecom_fraud_insurance">Assurance de fraude dans les télécoms</string>
-  <string name="telecom_fraud_insurance_description">Assurance 10.000 CNY | Offre exclusive Xiaomi | 9,9 CNY par an</string>
   <string name="titleJoinContactDataWith">Fusionner les contacts</string>
   <string name="title_other_devices">Autres appareils disponibles</string>
   <string name="title_paired_devices">Appareils appairés</string>

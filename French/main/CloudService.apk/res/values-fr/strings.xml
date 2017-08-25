@@ -4,7 +4,7 @@
   <string name="account">Compte</string>
   <string name="account_related">"Votre appareil est associé avec un Compte Mi existant(%s). Connectez-vous à Internet pour vérifier l'appareil."</string>
   <string name="activate">Activer</string>
-  <string name="activate_find_device_success">"\" Localiser l'appareil \" a été désactivé."</string>
+  <string name="activate_find_device_success">"Localiser l'appareil a été désactivé."</string>
   <string name="activate_finddevice">"Connectez-vous à Internet pour activer votre l'appareil"</string>
   <string name="activate_number_change_dialog_message">Choisissez un numéro de téléphone visible pour les autres appareils quand vous utilisez la VoIP.</string>
   <string name="activating">Activation…</string>
@@ -101,7 +101,7 @@ Dernière sauvegarde à %2$s"</string>
   <string name="find_device_notice_p3">"pour localiser, verrouiller, ou restaurer votre téléphone.
 Si vous changez de carte SIM, un autre SMS sera envoyé automatiquement pour réactiver ce service."</string>
   <string name="find_device_operation_failure_rpc">"Impossible d'exécuter l'opération en raison d'une erreur RPC."</string>
-  <string name="find_device_pref_alert_content">"\" Localiser l'appareil \" est associé à votre compte Mi. Vous devez définir un mot de passe ou saisir le mot de passe que vous avez défini. Assurez-vous de toujours vous souvenir de l'ID et du mot de passe de votre compte Mi. Un SMS sortant peut être nécessaire pour activer ce service. Votre opérateur vous facturera pour ce message. Lorsque vous changez de carte SIM, un message sera envoyé automatiquement pour réactiver ce service."</string>
+  <string name="find_device_pref_alert_content">"Localiser l'appareil est associé à votre compte Mi. Vous devez définir un mot de passe ou saisir le mot de passe que vous avez défini. Assurez-vous de toujours vous souvenir de l'ID et du mot de passe de votre compte Mi. Un SMS sortant peut être nécessaire pour activer ce service. Votre opérateur vous facturera pour ce message. Lorsque vous changez de carte SIM, un message sera envoyé automatiquement pour réactiver ce service."</string>
   <string name="find_device_pref_alert_negtive">Non merci</string>
   <string name="find_device_pref_alert_positive">OK</string>
   <string name="find_device_pref_alert_title">"Rappelez-vous de l'ID et le mot de passe de votre compte Mi"</string>
@@ -251,9 +251,9 @@ a votre compte Mi pour réactiver Mi Cloud."</string>
   <string name="micloud_find_device_opened_content">Localisez votre appareil à %s</string>
   <string name="micloud_find_device_opened_content_url">i.mi.com</string>
   <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
-  <string name="micloud_find_device_verify_button">"Réactiver \" Localiser l'appareil \""</string>
+  <string name="micloud_find_device_verify_button">"Réactiver Localiser l'appareil"</string>
   <string name="micloud_find_device_verify_close">"Désactiver Localiser l'appareil"</string>
-  <string name="micloud_find_device_verify_fail">"Impossible de réactiver \" Localiser l'appareil \""</string>
+  <string name="micloud_find_device_verify_fail">"Impossible de réactiver Localiser l'appareil"</string>
   <string name="micloud_find_device_verify_progress">"Réactivation de Localiser l'appareil…"</string>
   <string name="micloud_first_login_summary"/>
   <string name="micloud_first_login_title"/>

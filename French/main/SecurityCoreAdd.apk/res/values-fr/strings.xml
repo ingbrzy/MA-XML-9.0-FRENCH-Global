@@ -68,6 +68,7 @@ pour les voir à tout moment"</string>
   <string name="delete_src_photo">Supprimer des photos</string>
   <string name="dir_switch_out_all_photos">Galerie du Second espace</string>
   <string name="disable">Désactiver</string>
+  <string name="do_not_ask">不再询问</string>
   <string name="dont_import">Pas maintenant</string>
   <string name="downloading_space">Téléchargement…</string>
   <string name="enable">Activer</string>
@@ -89,8 +90,13 @@ pour les voir à tout moment"</string>
   <string name="finger_print_of_use">Utiliser une empreinte digitale</string>
   <string name="fingerprint_removal_failed">"Impossible de supprimer l'empreinte digitale"</string>
   <string name="function_not_support">Non pris en charge sur cet appareil</string>
+  <string name="gms_message">双开该应用需要依赖谷歌服务,是否同步双开谷歌服务</string>
+  <string name="gms_open_button">开启</string>
+  <string name="gms_title">双开谷歌服务</string>
   <string name="goToSecondSpacce">Aller au Second espace</string>
   <string name="go_on_import">"Continuer l'importation"</string>
+  <string name="gpg_message">双开游戏需要依赖谷歌游戏中心应用,是否同步双开谷歌游戏中心应用</string>
+  <string name="gpg_title">双开谷歌游戏中心</string>
   <string name="guide_contact_sub_title_desc">"Les contacts ajoutés dans le Second espace seront rendus privés.
 Les messages apparaîtront uniquement dans le Second espace."</string>
   <string name="guide_contact_suc_sub_title_desc">Seulement les contacts et messages privés seront affichés dans le Second espace</string>

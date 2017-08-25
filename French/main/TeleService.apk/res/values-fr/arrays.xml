@@ -181,6 +181,11 @@
         <item>LTE/CDMA</item>
         <item>LTE/GSM/UMTS</item>
     </string-array>
+    <string-array name="preferred_network_mode_values_world_mode">
+        <item>10</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
     <string-array name="clir_display_values">
         <item>Réseau par défaut</item>
         <item>Masquer le numéro</item>
@@ -188,15 +193,15 @@
     </string-array>
     <string-array name="preferred_network_mode_choices">
         <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
-        <item>TD-SCDMA/CDMA/EVDO/GSM/WCDMA</item>
-        <item>LTE/TD-SCDMA/GSM/WCDMA</item>
-        <item>LTE/TD-SCDMA/WCDMA</item>
+        <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/WCDMA</item>
         <item>TDSCDMA/GSM/WCDMA</item>
         <item>LTE/TDSCDMA/GSM</item>
         <item>TDSCDMA/GSM</item>
         <item>LTE/TDSCDMA</item>
         <item>TDSCDMA/WCDMA</item>
-        <item>TD-SCDMA uniquement</item>
+        <item>TDSCDMA uniquement</item>
         <item>LTE/WCDMA</item>
         <item>LTE</item>
         <item>Global</item>
@@ -220,6 +225,15 @@
         <item>Chinois</item>
         <item>Hébreu</item>
     </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
     <string-array name="cdma_system_select_choices">
         <item>Réseaux domestiques uniquement</item>
         <item>Automatique</item>
@@ -227,6 +241,10 @@
     <string-array name="cdma_subscription_choices">
         <item>RUIM/SIM</item>
         <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
     </string-array>
     <string-array name="tty_mode_entries">
         <item>TTY désactivé</item>
