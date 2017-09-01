@@ -479,8 +479,8 @@ Prenez plus de photos à vos amis !"</string>
     <string name="context_menu_add_contact">Ajouter aux contacts</string>
     <string name="context_menu_copy_notice">Copié dans le presse-papiers</string>
     <string name="menu_view_contact">Voir le contact</string>
-    <string name="invalid_recipient_message">Le nom des destinataires est invalide</string>
-    <string name="cannot_send_message_reason">Destinataire invalide</string>
+    <string name="invalid_recipient_message">Le nom des destinataires est non valide</string>
+    <string name="cannot_send_message_reason">Destinataire non valide</string>
     <string name="too_many_recipients">Vous ne pouvez pas ajouter plus de %2$s destinataires (Vous avez déjà ajouté %1$s destinataires).</string>
     <string name="context_menu_copy">Copier</string>
     <string name="try_to_send">Envoyer</string>
@@ -490,7 +490,7 @@ Prenez plus de photos à vos amis !"</string>
     <string name="request_sms_url_msg">Requête de partage…</string>
     <string name="fail_to_pick_email">Adresse e-mail incorrecte</string>
     <string name="share_by_email_successfully">Partage de %1$s</string>
-    <string name="share_by_email_start">Partage de %1$s en arrière plan</string>
+    <string name="share_by_email_start">Partage de %1$s en arrière-plan</string>
     <string name="exit_share">"Quitter l'album"</string>
     <string name="exit_share_in_process">"Sortie de l'album \"%s\"…"</string>
     <string name="exit_share_successfully">Sortie %1$s</string>
@@ -507,7 +507,7 @@ Prenez plus de photos à vos amis !"</string>
     <string name="operation_in_process">Traitement en cours…</string>
     <string name="operation_failed">"Impossible de terminer l'opération"</string>
     <string name="operation_successful">Terminé</string>
-    <string name="invalid_invition_url">"Adresse d'invitation invalide"</string>
+    <string name="invalid_invition_url">"Adresse d'invitation non valide"</string>
     <string name="user_alias_self">Auto</string>
     <string name="kick_owner_user_title">Supprimer cette personne ?</string>
     <string name="kick_owner_user_positive_button_text">Supprimer</string>
@@ -602,6 +602,7 @@ le/la %4$s de %3$s partage l'album de %5$s avec vous"</string>
     <string name="welcome_to_slim">Optimiser le stockage local</string>
     <string name="slim_introduce">"Remplace les photos en pleine résolution sur l'appareil par des versions optimisées après les avoir sauvegardées sur Mi Cloud. Celles en pleine résolution sont encore stockées dans Mi Cloud."</string>
     <string name="slim_introduce_with_specific_size">"Remplacer les photos en pleine résolution par des versions optimisées après les avoir sauvegardées sur Mi Cloud. Celles en pleine résolution sont encore stockées dans Mi Cloud. Cela permet d'économiser jusqu'à %1$s de stockage local (Compte Mi requis)."</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="auto_backup_introduce">Sauvegarde les photos et vidéos automatiquement (le Compte Mi est requis)</string>
     <string name="next">Suivant</string>
     <string name="login_and_enable_service">Se connecter avec un Compte Mi</string>
@@ -678,6 +679,7 @@ le/la %4$s de %3$s partage l'album de %5$s avec vous"</string>
     <string name="cloud_storage_ok_append_desc">Disponible %s</string>
     <string name="cloud_storage_warn_title">Stockage insufisant dans Mi Cloud</string>
     <string name="cloud_storage_warn_desc">Achat cloud VIP pour un stockage supplémentaire</string>
+    <string name="percent_sign">%</string>
     <string name="cloud_storage_extend">Extend cloud space</string>
     <string name="user_agreement2">"Conditions d'Utilisation"</string>
     <string name="user_agreement4">Politique de Confidentialité</string>
@@ -712,7 +714,7 @@ le/la %4$s de %3$s partage l'album de %5$s avec vous"</string>
     <string name="sync_battery_low">Batterie faible</string>
     <string name="delete_in_home_page">Lorsque vous supprimez une photo ou une vidéo depuis un album, elle sera aussi supprimée dans :</string>
     <string name="delete_in_album">Lorsque vous supprimez une photo ou une vidéo depuis un album, elle sera aussi supprimée dans :</string>
-    <string name="delete_from_web">Albums web</string>
+    <string name="delete_from_web">Albums Web</string>
     <string name="delete_from_homepage_album">Albums visibles dans Galerie</string>
     <string name="delete_from_devices">Tous les appareils synchronisés</string>
     <string name="delete_from_devices_album">"Tous les appareils avec lesquels l'album a été synchonisé"</string>
@@ -785,6 +787,8 @@ le/la %4$s de %3$s partage l'album de %5$s avec vous"</string>
     <string name="search_setting_sub_title">"Recherche d'image améliorée"</string>
     <string name="search_setting_sub_title_open">Appliqué. Veuillez patienter un moment avant de démarrer.</string>
     <string name="search_request_open">"Rejoindre l'équipe de test"</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_icon">search_icon</string>
     <string name="grant_permission_title">"Autoriser l'accès"</string>
     <string name="grant_permission_text">"Galerie a besoin de se connecter à 
 %s
@@ -868,7 +872,7 @@ le/la %4$s de %3$s partage l'album de %5$s avec vous"</string>
     <string name="error_not_acceptable">La synchronisation a été désactivée.</string>
     <string name="image_not_found">"Impossible de trouver l'image"</string>
     <string name="image_decode_failed">"Impossible de décoder l'image"</string>
-    <string name="image_invalid_path">Chemin invalide</string>
+    <string name="image_invalid_path">Chemin non valide</string>
     <string name="photo_editor_saving">Enregistrement…</string>
     <string name="main_save_error_msg">"L'enregistrement n'a pas pu être effectué en raison d'une erreur"</string>
     <string name="main_discard_confirm_message">Vous avez des modifications non enregistrées</string>
@@ -957,5 +961,5 @@ le/la %4$s de %3$s partage l'album de %5$s avec vous"</string>
     <string name="text_append_hint">Saisir du texte</string>
     <string name="text_append_font_example">Aa</string>
     <string name="text_edit_dialog_font">Police</string>
-    <string name="text_edit_dialog_font_default">Police par défaut</string>
+    <string name="text_edit_dialog_font_default">Par défaut</string>
 </resources>

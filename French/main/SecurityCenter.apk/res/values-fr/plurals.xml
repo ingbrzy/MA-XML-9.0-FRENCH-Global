@@ -81,8 +81,8 @@ Si vous activez les données mobiles, votre opérateur pourrait vous facturer de
         <item quantity="one">Dans %1$d minute</item>
     </plurals>
     <plurals name="quick_optimize_summary_text">
-        <item quantity="other">%d problèmes resolus</item>
-        <item quantity="one">%d problème resolu</item>
+        <item quantity="other">%d problèmes de batterie résolus</item>
+        <item quantity="one">%d problème de batterie résolu</item>
     </plurals>
     <plurals name="quick_optimize_issue_found">
         <item quantity="other">%d problèmes détectés</item>
@@ -114,7 +114,7 @@ Si vous activez les données mobiles, votre opérateur pourrait vous facturer de
     </plurals>
     <plurals name="result_sign_header">
         <item quantity="other">%d applications non officielles trouvées</item>
-        <item quantity="one">%d applications non officielle trouvée</item>
+        <item quantity="one">%d application non officielle trouvée</item>
     </plurals>
     <plurals name="sp_settings_exception_count">
         <item quantity="other">%d éléments</item>
@@ -141,8 +141,8 @@ Si vous activez les données mobiles, votre opérateur pourrait vous facturer de
         <item quantity="one">Protection de %d appli</item>
     </plurals>
     <plurals name="title_virus_clean">
-        <item quantity="other">Cleared %d viruses</item>
-        <item quantity="one">Cleared %d virus</item>
+        <item quantity="other">%d virus effacés</item>
+        <item quantity="one">%d virus effacé</item>
     </plurals>
     <plurals name="hints_auto_start_enable_title">
         <item quantity="other">%d applications peuvent démarrer automatiquement</item>

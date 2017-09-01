@@ -452,7 +452,7 @@
     <string name="phone_login_title">Téléphone</string>
     <string name="phone_num_et_hint">Entrez un numéro de téléphone</string>
     <string name="phone_code_et_hint">Entrez le code de vérification</string>
-    <string name="phone_num_format_tip">Numéro de téléphone invalide</string>
+    <string name="phone_num_format_tip">Numéro de téléphone non valide</string>
     <string name="phone_get_code_tip">"Trop de tentatives pour obtenir le code aujourd'hui"</string>
     <string name="phone_valid_code_tip">"Le code a été entré trop de fois, essayez d'en obtenir un autre"</string>
     <string name="login">Se connecter</string>

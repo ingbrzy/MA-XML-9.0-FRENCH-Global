@@ -67,7 +67,7 @@
     <string name="hour_unit">H</string>
     <string name="alarm_label_hint">"Nom de l'alarme"</string>
     <string name="legal_workday">Jours ouvrés</string>
-    <string name="legal_workday_invalidate">Donnée invalide (Alarme possible du Lun au Ven)</string>
+    <string name="legal_workday_invalidate">Donnée non valide (Alarme possible du Lun au Ven)</string>
     <string name="legal_workday_invalidate_message">(Donnée expirée. Mettez à jour les Paramètres)</string>
     <string name="legal_workday_message">" (Alarme désactivée pendant les vacances)"</string>
     <string name="legal_off_day">Jour férié légal</string>

@@ -27,7 +27,7 @@
     <string name="callFailed_dsac_restricted">"Tous les appels sont restreints par le contrôle d'accès."</string>
     <string name="callFailed_dsac_restricted_emergency">"Les appels d'urgence sont restreints en zone d'accès."</string>
     <string name="callFailed_dsac_restricted_normal">Les appels standards sont restreints par la gestion des accès.</string>
-    <string name="callFailed_unobtainable_number">Numéro invalide</string>
+    <string name="callFailed_unobtainable_number">Numéro non valide</string>
     <string name="incall_error_supp_service_unknown">"Ce service n'est pas pris en charge."</string>
     <string name="incall_error_supp_service_switch">Impossible de changer les appels.</string>
     <string name="incall_error_supp_service_separate">"Impossible de dissocier l'appel."</string>
@@ -127,6 +127,7 @@
     <string name="unlock_phone">"Déverrouiller l'appareil"</string>
     <string name="remind_unlock_message">Votre appareil est actuellement verrouillé. \"%s\" sera disponible lorsque vous déverrouillerez votre appareil. Déverrouiller maintenant ?</string>
     <string name="user_locked_prompt">"Déverrouiller l'appareil pour accéder aux contacts."</string>
+    <string name="package_not_available">\"%s\" is not available</string>
     <string name="select_voice_call_sim">Choisir une carte SIM</string>
     <string name="msim_select_default_time_left">(%d s)</string>
     <string name="select_sim_hint">"Impossible d'accéder à la SIM %2$d, lorsque la SIM %1$d est en cours d'utilisation."</string>
@@ -230,6 +231,9 @@
     <string name="dialpad_seven">7</string>
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
+    <string name="no_vm_number">Aucun numéro de messagerie vocale</string>
+    <string name="no_vm_number_msg">"Aucun numéro de messagerie vocale n'est enregistré sur la carte SIM."</string>
+    <string name="add_vm_number_str">Ajouter un numéro</string>
     <string name="alert_dialog_yes">Oui</string>
     <string name="alert_dialog_no">Non</string>
     <string name="alert_dialog_dismiss">Rejeter</string>
@@ -237,8 +241,8 @@
     <string name="call_record_button_label">Enregistrer %s</string>
     <string name="livetalk_left_minute">%s min restante(s)</string>
     <string name="call_self">Vous ne pouvez pas composer votre propre numéro</string>
+    <string name="cancel_call">Raccrocher</string>
     <string name="dial_with_gsm_phone">Appel normal</string>
     <string name="purchase_now">Recharger</string>
-    <string name="cancel_call">Raccrocher</string>
     <string name="onscreen_rcs_text">Messages</string>
 </resources>

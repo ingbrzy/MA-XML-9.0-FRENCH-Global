@@ -301,6 +301,7 @@ Pour ajouter des contacts, pressez la touche "<b><font fgcolor="#ffffffff">Menu<
     <string name="vcard_export_will_start_message">%s sera exporté rapidement.</string>
     <string name="vcard_export_request_rejected_message">"Exportation impossible. Renouvelez l'opération ultérieurement."</string>
     <string name="vcard_unknown_filename">contact</string>
+    <string name="percentage">%s%%</string>
     <string name="confirm_export_title">Exporter les contacts ?</string>
     <string name="confirm_export_message">Votre liste de contacts va être exporter dans le fichier : %s.</string>
     <string name="exporting_contact_failed_title">Exportation impossible</string>
@@ -622,7 +623,7 @@ Choisissez une des options suivantes:"</string>
     <string name="sim_capacity">"Voir l'espace de la carte SIM"</string>
     <string name="sim_error_not_ready">Chargement des contacts SIM…</string>
     <string name="sim_contact_existing">Le contact existe déjà</string>
-    <string name="sim_contact_invalid">Contact SIM invalide</string>
+    <string name="sim_contact_invalid">Contact SIM non valide</string>
     <string name="pref_key_sim_manage">Cartes SIM</string>
     <string name="pref_key_sim_manage1">Configurer la carte SIM 1</string>
     <string name="pref_key_sim_manage2">Configurer la carte SIM 2</string>
@@ -684,6 +685,7 @@ Les cartes de contact ont été désactivées"</string>
     <string name="miprofile_alertdialog_message">"Afficher ce nom aux contacts quand vous demandez d'échanger des cartes."</string>
     <string name="miprofile_alertdialog_edit">Saisir un nom</string>
     <string name="miprofile_switch_off_alertdialog_message">"Vous ne pouvez pas échanger de carte de contact avec d'autres personnes."</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_bind_account_alertdialog_title">Ajouter un numéro de téléphone</string>
     <string name="miprofile_bind_account_alertdialog_message">Vous devez ajouter le numéro de téléphone de cet appareil dans votre compte Mi pour utiliser cette fonction.</string>
     <string name="miprofile_bind_account_alertdialog_positive">Ajouter un numéro</string>
@@ -779,8 +781,8 @@ Les cartes de contact ont été désactivées"</string>
     <string name="zero_items_selected">Sélectionnez les éléments</string>
     <string name="select_all">Tout sélectionner</string>
     <string name="deselect_all">Tout désélectionner</string>
-    <string name="select_exceed">Select no more than %1$d</string>
-    <string name="select_all_exceed">"Select no more than %1$d, can't select all"</string>
+    <string name="select_exceed">Sélectionner au plus %1$d</string>
+    <string name="select_all_exceed">Sélectionner au plus %1$d, impossible de sélectionner plus</string>
     <string name="select_none">Aucune sélection</string>
     <string name="toast_finish_delete_call_log">Historique des appels supprimé</string>
     <string name="toast_finish_delete_selected_call_log">Historique des appels supprimé</string>
@@ -900,7 +902,7 @@ Pour commencer, appuyez sur l'icône Fusionner en bas de votre écran."</string>
     <string name="preference_phone_more_title">"Paramètres d'appel"</string>
     <string name="preference_dial_pad_touch_tone_switch">Sonneries du clavier</string>
     <string name="preference_tone_title">Tonalités</string>
-    <string name="preference_dial_pad_touch_tone_default">Défaut</string>
+    <string name="preference_dial_pad_touch_tone_default">Par défaut</string>
     <string name="preference_dial_pad_touch_tone_piano">Touches de piano</string>
     <string name="preference_dial_pad_touch_tone_human">Voix</string>
     <string name="ic_menu_done">Fait</string>
@@ -924,8 +926,6 @@ Pour commencer, appuyez sur l'icône Fusionner en bas de votre écran."</string>
     <string name="option_rename_group">Renommer</string>
     <string name="option_delete_group">Supprimer</string>
     <string name="deleteConfirmation_title">Supprimer ce contact ?</string>
-    <string name="readOnlyContactDeleteConfirmationDetail">\"%s\" contient des informations provenant de plusieurs comptes. Toute information qui ne peut être supprimé sera caché dans votre liste de contacts.</string>
-    <string name="multipleContactDeleteConfirmationDetail">Supprimer \"%s\" effacera les détails liés aux autres comptes</string>
     <string name="deleteConfirmationDetail">Supprimer \"%s\" ?</string>
     <string name="nickname_picker_name_column">Nom du contact</string>
     <string name="nickname_picker_nickname_column">Titre</string>
@@ -1059,6 +1059,7 @@ Pour commencer, appuyez sur l'icône Fusionner en bas de votre écran."</string>
     <string name="device_import_local_account">Compte local</string>
     <string name="import_name">Nom</string>
     <string name="import_percent">0%</string>
+    <string name="percent_sign">%</string>
     <string name="ret_sign">"
 "</string>
     <string name="checkhint">Vérifier le téléphone de destination</string>
@@ -1232,7 +1233,7 @@ Pour éviter les requêtes fréquentes, nous mettons à jour l'information de la
     <string name="hybrid_service_unavailiable">Service indisponible</string>
     <string name="hybrid_try_again">Veuillez réessayer</string>
     <string name="contacts_hybrid_activity_label">Récupérer des contacts</string>
-    <string name="hybrid_webpage_not_available">Page web non disponible</string>
+    <string name="hybrid_webpage_not_available">Page Web non disponible</string>
     <string name="expandOpenViewDescription">Tout afficher</string>
     <string name="expandCloseViewDescription">Réduire</string>
     <string name="editContactNameExpandOpenDescription">Afficher le nom</string>
@@ -1250,4 +1251,5 @@ Pour éviter les requêtes fréquentes, nous mettons à jour l'information de la
     <string name="t9_search_empty_video_call">Appel vidéo</string>
     <string name="t9_search_empty_send_sms">Envoyer un message</string>
     <string name="t9_search_empty_edit_contact">Add to contact</string>
+    <string name="add_field_toast">Plus de champ à ajouter.</string>
 </resources>

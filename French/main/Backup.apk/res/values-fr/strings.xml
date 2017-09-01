@@ -113,7 +113,7 @@ Taille de la mise à jour : %2$s"</string>
     <string name="restore_counts">Restauration :</string>
     <string name="service_stoped">Service arrêté</string>
     <string name="sc_network_unavailable">Vérifiez votre connexion puis réessayez.</string>
-    <string name="sc_bad_request">Requête invalide</string>
+    <string name="sc_bad_request">Requête non valide</string>
     <string name="sc_unaccess_password_file">Impossible de trouver le mot de passe du réseau WiFi</string>
     <string name="sc_service_unavailable">Service Mi Cloud indisponible</string>
     <string name="sc_unauthorized">Se connecter à nouveau</string>
@@ -226,6 +226,7 @@ Taille de la mise à jour : %2$s"</string>
     <string name="file_uploading">Envoi…</string>
     <string name="new_backup">Sauvegarder</string>
     <string name="restore_backup">Restaurer</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Un instant…</string>
     <string name="state_mounting">Accès au stockage du routeur…</string>
     <string name="abort_backup_confirm">"La sauvegarde n'est pas terminée. Arrêter quand même ?"</string>
@@ -310,7 +311,7 @@ Temps écoulé : %s"</string>
     <string name="trans_connecting_toast">Connexion…</string>
     <string name="trans_connect_failed_toast">Impossible de se connecter</string>
     <string name="trans_generate_qr_code_failed">Impossible de créer le code QR</string>
-    <string name="trans_scan_invalid_qrcode">Code QR invalide</string>
+    <string name="trans_scan_invalid_qrcode">Code QR non valide</string>
     <string name="trans_scan_qr_code_tips">Scanner le code QR en utilisant un nouvel appareil</string>
     <string name="trans_show_qr_code_label">Connecter un ancien appareil</string>
     <string name="trans_show_qr_code_tips">Scanner le QR code en utilisant un ancien appareil</string>
@@ -349,4 +350,9 @@ Vider au moins %s."</string>
     <string name="user_notice_message">"Certaines fonctionnalités ont besoin d'une connexion Internet pour fonctionner normalement."</string>
     <string name="user_notice_declaration_ignore">Ne plus afficher</string>
     <string name="total_size">, %s</string>
+    <string name="btn_got_it">"C'est compris"</string>
+    <string name="backup_security_tips_title">Les sauvegardes peuvent ne pas fonctionner</string>
+    <string name="backup_security_tips_message">Certaines applications peuvent ne pas être sauvegardées ou restaurées.</string>
+    <string name="trans_security_tips_title">Compatibilité Mi Mover</string>
+    <string name="trans_security_tips_message">Certaines applications ne prennent pas en charge Mi Mover.</string>
 </resources>

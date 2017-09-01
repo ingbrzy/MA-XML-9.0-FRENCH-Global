@@ -53,7 +53,7 @@
     <string name="gs_performance_mode_detail">"Augmente l'utilisation du processeur afin d'assurer une performance sans faille"</string>
     <string name="gs_open_game_booster">Augmenter la vitesse</string>
     <string name="gs_dialog_confirm_close_title">Désactiver</string>
-    <string name="gs_dialog_confirm_close_msg">"Le raccourci sera retiré de votre Écran d'accueil. Aller dans Sécurité > Paramètres pour le restaurer."</string>
+    <string name="gs_dialog_confirm_close_msg">"Le raccourci sera retiré de votre Écran d'accueil. Rendez-vous à Sécurité > Paramètres pour le restaurer."</string>
     <string name="gs_game_performance">Performance</string>
     <string name="gs_game_duration">Durée</string>
     <string name="gs_game_disturb_msg">NPD</string>
@@ -103,17 +103,17 @@
     <string name="anti_disturb_msg_title">NPD</string>
     <string name="anti_disturb_msg_detail">"Désactiver toutes les notifications à l'exception des appels entrants"</string>
     <string name="wlan_change_protection_title">Empêcher le changement de réseau</string>
-    <string name="wlan_change_protection_detail">Ne passez pas automatiquement en mode Wifi lorsque vous êtes connecté à un réseau de données mobile</string>
+    <string name="wlan_change_protection_detail">Ne passez pas automatiquement en mode Wi-Fi lorsque vous êtes connecté à un réseau de données mobile</string>
     <string name="other">Autres paramètres</string>
     <string name="game_booster_intro">"À propos de l'accélérateur de la vitesse de jeu"</string>
     <string name="start_game">Démarrer</string>
     <string name="scan_installed_games">Vérification des jeux installés…</string>
     <string name="boostering">Augmentation de la vitesse…</string>
     <string name="booster_suc">Augmentée avec succès</string>
-    <string name="support_game_booster_tips">"Lancer les jeux en utilisant l'Accélérateur de vitesse de jeu"</string>
+    <string name="support_game_booster_tips">"Lancer les jeux en utilisant l'Accélérateur de la vitesse de jeu"</string>
     <string name="setting">Paramètres</string>
     <string name="loading">Un instant…</string>
-    <string name="auto_import_games">Placer tous les jeux dans le même dossier</string>
+    <string name="auto_import_games">Placer tous les jeux dans un même dossier</string>
     <string name="game_more_improve">Restreindre les activités en arrière-plan et la vitesse de téléchargement pour économiser la batterie et la bande passante pour le jeu</string>
     <string name="dont_bore">Ne pas laisser les boutons et les notifications vous distraire</string>
     <string name="release_memory">Vider le cache</string>
@@ -123,13 +123,13 @@
     <string name="fastboot_status_locked_info">"Fastboot n'est pas débloqué sur cet appareil"</string>
     <string name="fastboot_status_locked_summary">"Impossible d'obtenir l'accès root"</string>
     <string name="fastboot_locked_question_1">Pourquoi Fastboot doit être verrouillé ?</string>
-    <string name="fastboot_locked_answer_1">"Fastboot est la méthode traditionnelle pour flasher les appareils Mi. Lorsque l'appareil est mode Fastboot, toutes les données qui sont y stockées peuvent être atteintes et supprimées directement. Nous verrouillons Fastboot pour s'assurer que vos données soient sécurisées en cas de perte de l'appareil, aussi bien que garantir la fiabilité des fonctionnalités de Localiser votre appareil."</string>
+    <string name="fastboot_locked_answer_1">"Fastboot est la méthode traditionnelle pour flasher les appareils Mi. Lorsque l'appareil est mode Fastboot, toutes les données qui sont y stockées peuvent être atteintes et supprimées directement. Nous verrouillons Fastboot pour s'assurer que vos données soient sécurisées en cas de perte de l'appareil, aussi bien que garantir la fiabilité des fonctionnalités de Localiser l'appareil."</string>
     <string name="fastboot_locked_question_2">Y a t-il des risques liés au déverrouillage de Fastboot ?</string>
     <string name="fastboot_locked_answer_2">"Au cas où vous perdez votre appareil, Fastboot garantit la sécurité des éléments qui y sont stockés. Si vous déverrouillez Fastboot, vous ne serez plus en mesure de verrouiller votre appareil à distance ou effacer les données via Localiser l'appareil. C'est pour cela que nous ne recommandons pas de déverrouiller Fastboot."</string>
     <string name="fastboot_locked_question_3">"Je suis conscient des risques, mais j'ai toujours besoin de déverrouiller mon appareil. Que dois-je faire ?"</string>
     <string name="fastboot_locked_answer_3">"Vous devriez utiliser l'outil de déverrouillage du site Web de MIUI. Pour déverrouiller un appareil, nous devons nous assurer que l'appareil vous appartient. Raison pour laquelle vous devez vous connecter à votre compte Mi et activer Localiser l'appareil."</string>
     <string name="fastboot_unlock_web_title">Rendez-vous sur le site Web officiel pour obtenir un outil de déverrouillage.</string>
     <string name="fastboot_unlock_web_home">https://unlock.update.miui.com</string>
-    <string name="gb_weixinpay_can_not_complete">"Can't complete payment. Install to continue."</string>
-    <string name="gb_alipays_can_not_complete">"Can't complete payment. Install to continue."</string>
+    <string name="gb_weixinpay_can_not_complete">Impossible de terminer le paiement. Installer pour continuer.</string>
+    <string name="gb_alipays_can_not_complete">Impossible de terminer le paiement. Installer pour continuer.</string>
 </resources>

@@ -158,7 +158,7 @@
     <string name="convertion_unit_temperature">Convertisseur de température</string>
     <string name="convertion_unit_time">Convertisseur de temps</string>
     <string name="convert_currency">Convertisseur de devise</string>
-    <string name="currency_update_time_format">Taux de changes fournis par webull (%s)</string>
+    <string name="currency_update_time_format">Taux de changes fournis par Webull (%s)</string>
     <string name="choose_unit">Sélectionner une unité</string>
     <string name="choose_currency">Sélectionner une devise</string>
     <string name="rate_data_provider">"Les taux d'intérêt sont fournis par hexun.com"</string>
@@ -318,7 +318,7 @@
     <string name="preference_follow_us">Suivez-nous</string>
     <string name="preference_follow_wechat_title">WeChat</string>
     <string name="preference_follow_weibo_title">Sina Weibo</string>
-    <string name="preference_follow_web_title">Site web officiel</string>
+    <string name="preference_follow_web_title">Site Web officiel</string>
     <string name="preference_alert_follow_wechat">Copier / coller dans WeChat pour nous suivre</string>
     <string name="preference_alert_follow_qq_group">Copier et coller dans QQ pour faire votre retour</string>
     <string name="preference_alert_follow_wechat_button">Copier</string>

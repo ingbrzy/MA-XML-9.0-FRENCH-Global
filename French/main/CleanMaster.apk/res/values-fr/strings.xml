@@ -392,7 +392,7 @@
     <string name="recommend_the_following">Prenez les mesures suivantes pour tirer le meilleur parti de votre appareil</string>
     <string name="news_change">Changer</string>
     <string name="long_click_dialog_title">Notification</string>
-    <string name="long_click_dialog_summary">"Appui long pour l'ajouter aux exceptions."</string>
+    <string name="long_click_dialog_summary">"Appui prolongé pour l'ajouter aux exceptions."</string>
     <string name="function_app_lock_title">%d applications contiennent des risques de confidentialitéł</string>
     <string name="deep_clean_uninstall_completed_tips">Désinstallé avec succès</string>
     <string name="deep_clean_completed_tips">Nettoyé avec succès</string>

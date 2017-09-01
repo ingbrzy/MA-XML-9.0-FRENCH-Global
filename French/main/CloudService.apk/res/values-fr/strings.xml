@@ -4,7 +4,7 @@
     <string name="sina_share_success">Envoyé</string>
     <string name="sina_share_fail">Envoi impossible</string>
     <string name="sina_token_expired_warning">Compte Weibo expiré, ajoutez le compte à nouveau.</string>
-    <string name="sina_token_invalid_warning">Compte Weibo invalide, ajoutez le compte à nouveau.</string>
+    <string name="sina_token_invalid_warning">Compte Weibo non valide, ajoutez le compte à nouveau.</string>
     <string name="sina_share_fail_content_repeat">Vous avez déjà partagé cela.</string>
     <string name="search_finddevice_pref">"Localiser l'appareil"</string>
     <string name="search_finddevice_pref_key_words">localiserappareil, localiser un appareil</string>
@@ -37,7 +37,7 @@
     <string name="next">Suivant</string>
     <string name="password">Saisissez votre mot de passe</string>
     <string name="vcode">Code de vérification</string>
-    <string name="bad_authentication">Compte ou mot de passe invalide</string>
+    <string name="bad_authentication">Compte ou mot de passe non valide</string>
     <string name="header_data_and_synchronization">Données &amp; Synchronisation</string>
     <string name="header_cloud_backup_settings">Sauvegarder et restaurer</string>
     <string name="header_find_device_settings">"Localiser l'appareil"</string>
@@ -75,7 +75,7 @@
     <string name="sync_dspt_entrance_provision_confirm_open">Utiliser Mi Cloud</string>
     <string name="sync_dspt_entrance_provision_confirm_title">Ne pas utiliser Mi Cloud ?</string>
     <string name="sync_dspt_entrance_provision_confirm_content">"Les applications intégrées à MIUI ont besoin de Mi Cloud pour sauvegarder vos photos, contacts, notes et plus encore. Mi Cloud est gratuit et prêt à l'emploi."</string>
-    <string name="sync_dspt_entrance_provision_skip">Passer cette étape</string>
+    <string name="sync_dspt_entrance_provision_skip">Ignorer cette étape</string>
     <string name="find_device_dspt_provision">Si vous perdez votre appareil, vous pouvez aller sur %s pour localiser, verrouiller ou réinitialiser celui-ci. Vous pouvez activer ou désactiver cette fonction dans les Paramètres.</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>

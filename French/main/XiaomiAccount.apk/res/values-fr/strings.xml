@@ -92,9 +92,9 @@ Pour activer votre compte, suivez le
     <string name="passport_vcode_prompt_long">Entrez le code de vérification</string>
     <string name="passport_input_phone_hint">Entrez un numéro de téléphone</string>
     <string name="passport_error_empty_username">"Saisissez le nom d'utilisateur de votre compte Mi"</string>
-    <string name="passport_error_invalid_phone_num">Numéro de téléphone invalide</string>
+    <string name="passport_error_invalid_phone_num">Numéro de téléphone non valide</string>
     <string name="passport_error_empty_phone_num">Entrez un numéro de téléphone</string>
-    <string name="passport_wrong_phone_number_format">Le format du numéro de téléphone entré est invalide</string>
+    <string name="passport_wrong_phone_number_format">Le format du numéro de téléphone entré est non valide</string>
     <string name="passport_error_empty_email">Entrez votre adresse e-mail</string>
     <string name="passport_error_email">"L'adresse e-mail saisie n'est pas valide"</string>
     <string name="passport_error_empty_pwd">Saisissez votre mot de passe</string>
@@ -142,8 +142,8 @@ Pour activer votre compte, suivez le
     <string name="passport_wrong_captcha">Le code que vous avez entré est incorrect</string>
     <string name="passport_wrong_vcode">Le code que vous avez entré est incorrect</string>
     <string name="passport_error_device_id">"Impossible d'obtenir l'identifiant de l'appareil"</string>
-    <string name="passport_error_invalid_dev_id">"L'ID de votre appareil est invalide."</string>
-    <string name="passport_error_phone_error">Numéro de téléphone invalide</string>
+    <string name="passport_error_invalid_dev_id">"L'ID de votre appareil est non valide."</string>
+    <string name="passport_error_phone_error">Numéro de téléphone non valide</string>
     <string name="passport_error_sim_not_ready">Carte SIM introuvable</string>
     <string name="passport_error_network">Impossible de se connecter au réseau</string>
     <string name="passport_error_ssl_hand_shake">Impossible de se connecter au serveur</string>

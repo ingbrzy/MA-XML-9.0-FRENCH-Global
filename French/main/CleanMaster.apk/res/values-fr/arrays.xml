@@ -25,7 +25,7 @@
         <item>1 Go</item>
     </string-array>
     <string-array name="auto_process_mode">
-        <item>Demande avec notification</item>
+        <item>Invite avec notification</item>
         <item>Nettoyer en arrière-plan</item>
         <item>Afficher une notification après le nettoyage</item>
     </string-array>

@@ -4,8 +4,9 @@
     <string name="sina_share_success">Envoyé</string>
     <string name="sina_share_fail">Envoi impossible</string>
     <string name="sina_token_expired_warning">Compte Weibo expiré, ajoutez le compte à nouveau.</string>
-    <string name="sina_token_invalid_warning">Compte Weibo invalide, ajoutez le compte à nouveau.</string>
+    <string name="sina_token_invalid_warning">Compte Weibo non valide, ajoutez le compte à nouveau.</string>
     <string name="sina_share_fail_content_repeat">Vous avez déjà partagé cela.</string>
+    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">Notes;Mémo</string>
     <string name="search_path_notes">Applications système/Notes</string>
     <string name="dlg_move_message">Déplacement…</string>
@@ -39,7 +40,7 @@
     <string name="toast_notes_hidden_count">%1$s a été masqué avec succès</string>
     <string name="toast_notes_unhidden_count">%1$s a été démasqué avec succès</string>
     <string name="toast_notes_delete_success">Supprimé avec succès</string>
-    <string name="theme_title_default">Défaut</string>
+    <string name="theme_title_default">Par défaut</string>
     <string name="theme_title_invitation">Invitation</string>
     <string name="theme_title_arty">Floral</string>
     <string name="theme_title_antique">Automne</string>
@@ -100,7 +101,7 @@
     <string name="menu_send_weibo">Envoyer sur Weibo</string>
     <string name="info_note_enter_desktop">Note créée sur le bureau</string>
     <string name="all_terms">%1$s et %2$s</string>
-    <string name="alert_title_delete">Supprimer la note ?</string>
+    <string name="alert_title_delete">Delete note</string>
     <string name="alert_message_delete">Supprimer %1$s ?</string>
     <string name="alert_message_delete_note">Supprimer cette note ?</string>
     <string name="format_move_notes_to_folder">Déplacé de %1$s à %2$s</string>
@@ -196,4 +197,5 @@
     <string name="edit_header_done_description">Terminé</string>
     <string name="refuse_to_share_as_pic_because_of_content">Cette note est trop lourde pour la partager.</string>
     <string name="refuse_to_share_as_pic_because_of_loading">"Patientez jusqu'à ce que cette note soit chargée et réessayez."</string>
+    <string name="toast_reach_text_limit_checkbox">"Can't add checkbox because note is too long"</string>
 </resources>

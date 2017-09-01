@@ -91,7 +91,7 @@
     <string name="sort_by_abc">Trier par nom</string>
     <string name="encryption">Chiffrement</string>
     <string name="failed_to_drop">Impossible de déplacer</string>
-    <string name="no_space_toast">No space</string>
+    <string name="no_space_toast">"Plus d'espace"</string>
     <string name="failed_to_drop_widget_invalid">Déplacement du widget échoué</string>
     <string name="failed_to_delete_temporary">Impossible de supprimer</string>
     <string name="confirm_btn_label">OK</string>
@@ -169,7 +169,7 @@
     <string name="gadget_notes_label">Notes</string>
     <string name="gadget_calculator_label">Calculatrice</string>
     <string name="gadget_load_error">Chargement…</string>
-    <string name="invalid_contact_shortcut">Contact invalide</string>
+    <string name="invalid_contact_shortcut">Contact non valide</string>
     <string name="guide_tips_editing_mode">Appuyez et maintenez pour prendre un widget</string>
     <string name="photo_adjust">Prévisualiser</string>
     <string name="select_photo">Photo</string>
@@ -209,7 +209,7 @@
     <string name="free_style_edit_tab_shortcut">Raccourcis</string>
     <string name="free_style_edit_tab_free_component">Composants libres</string>
     <string name="free_style_edit_tab_widget">Widgets</string>
-    <string name="free_style_edit_move_tip">Appui long pour déplacer</string>
+    <string name="free_style_edit_move_tip">Appui prolongé pour déplacer</string>
     <string name="free_style_edit_app">Application</string>
     <string name="free_style_edit_drawer">Lanceur</string>
     <string name="free_style_drawer_title">Toutes les applications</string>
@@ -268,8 +268,10 @@
     <string name="screen_locked_toast">"La disposition de l'Écran d'accueil est verrouillée"</string>
     <string name="widget_quick_function">Fonction rapide</string>
     <string name="menu_trans_effect">Transition Effect</string>
+    <string name="menu_default_screen_preview">Default screen Setting</string>
     <string name="menu_cell_setting">Screen Setting</string>
     <string name="menu_auto_fill">Auto Fill</string>
     <string name="menu_lock">Lock Screen</string>
     <string name="menu_more">Plus</string>
+    <string name="default_screen_preview_title">Default screen Setting</string>
 </resources>

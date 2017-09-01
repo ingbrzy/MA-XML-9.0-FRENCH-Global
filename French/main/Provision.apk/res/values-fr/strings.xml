@@ -24,7 +24,7 @@ Voir la politique de confidentialité du clavier sélectionné."</string>
     <string name="other_settings_auto_update_summary">MIUI sélectionnera le meilleur moment pour installer les mises à jour.</string>
     <string name="back">Retour</string>
     <string name="next">Suivant</string>
-    <string name="skip_underline">Passer cette étape</string>
+    <string name="skip_underline">Ignorer cette étape</string>
     <string name="sim_dectection_next">Continuer</string>
     <string name="shut_down">Éteindre</string>
     <string name="sim_redetection">Vérifier à nouveau</string>
@@ -50,12 +50,12 @@ Vous devez les accepter avant de pouvoir utiliser MIUI. Durant l'activation, les
     <string name="miui_privacy_policy_no_network">"Vous n'avez pas de connexion Internet. Vous pouvez voir la Politique de Confidentialité sur %s."</string>
     <string name="locale_picker_title">Sélectionnez votre région</string>
     <string name="install_preinstall_app">Chargement des applications…</string>
-    <string name="title_fingerprint">Ajouter votre empreinte</string>
+    <string name="title_fingerprint">Ajouter votre empreinte digitale</string>
     <string name="desc_fingerprint">Utiliser votre empreinte digitale pour déverrouiller votre appareil, vérifier les transactions Mi Pay ou pour vous connecter à des applications et services.</string>
     <string name="desc_extra_fingerprint" />
     <string name="next_fingerprint">Suivant</string>
     <string name="desc_extra_international_fingerprint" />
-    <string name="desc_international_fingerprint">Utilisez votre empreinte pour déverrouiller votre appareil, ou pour se connecter à des applications ou services.</string>
+    <string name="desc_international_fingerprint">Utilisez votre empreinte digitale pour déverrouiller votre appareil, ou pour se connecter à des applications ou services.</string>
     <string name="content_description_start">Démarrer</string>
     <string name="content_description_miui_version">MIUI 8</string>
     <string name="content_description_complete">Terminé</string>

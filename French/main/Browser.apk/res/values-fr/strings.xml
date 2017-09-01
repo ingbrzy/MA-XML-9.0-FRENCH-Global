@@ -167,6 +167,7 @@
     <string name="color_picker_dialog_title">Sélectionnez la couleur</string>
     <string name="color_picker_hue">Teinte</string>
     <string name="color_picker_saturation">Saturation</string>
+    <string name="color_picker_value">Valeur</string>
     <string name="comment_app_menu">Commentaire</string>
     <string name="comment_description">Commentaire</string>
     <string name="comment_hint">Commentaire</string>
@@ -299,7 +300,7 @@ Les pages que vous visitez n'apparaîtront pas dans l'historique."</string>
     <string name="file_name">"Nom : "</string>
     <string name="file_picker">Sélectionnez le chemin</string>
     <string name="filename_empty_alert_message">Entrez le nom du fichier</string>
-    <string name="filename_illegal_alert_message">Un caractère invalide a été supprimé du nom du fichier</string>
+    <string name="filename_illegal_alert_message">Un caractère non valide a été supprimé du nom du fichier</string>
     <string name="find_new_version">Mises à jour disponibles</string>
     <string name="find_next">Trouver le suivant</string>
     <string name="find_on_page_cancel">Annuler</string>
@@ -337,7 +338,7 @@ Les pages que vous visitez n'apparaîtront pas dans l'historique."</string>
     <string name="homepage_get_location">Obtenir la localisation</string>
     <string name="homepage_get_location_failed">"Impossible d'obtenir les infos, choisissez une ville"</string>
     <string name="homepage_more_cards">Plus de services</string>
-    <string name="homepage_more_sites">Plus de sites web</string>
+    <string name="homepage_more_sites">Plus de sites Web</string>
     <string name="homepage_search_hint">Rechercher</string>
     <string name="homepage_top_card_menu">Top</string>
     <string name="in_incognito">"Vous êtes incognito ! Les pages Web que vous consulterez dans cet onglet n'apparaîtront pas dans l'historique de votre navigateur."</string>
@@ -426,7 +427,7 @@ Quitter cette page ?"</string>
     <string name="miuichromium_error_page_diagnose_proxy_server">Erreur du serveur proxy</string>
     <string name="miuichromium_error_page_diagnose_success">Signal de réseau faible</string>
     <string name="miuichromium_error_page_diagnose_timeout">Délai de connexion expiré</string>
-    <string name="miuichromium_error_page_diagnose_website">Erreur ! Site web injoignable</string>
+    <string name="miuichromium_error_page_diagnose_website">Erreur ! Site Web injoignable</string>
     <string name="miuichromium_error_page_diagnosing">Vérification du réseau</string>
     <string name="miuichromium_error_page_homepage">Accueil</string>
     <string name="miuichromium_error_page_mobile">Données mobiles</string>
@@ -823,7 +824,7 @@ Quitter cette page ?"</string>
     <string name="unSwitchText">NON</string>
     <string name="undo">Annuler</string>
     <string name="unknown_title">Inconnu</string>
-    <string name="unsecurity_url_toast">"Ce site web n'est pas sécurisé"</string>
+    <string name="unsecurity_url_toast">"Ce site Web n'est pas sécurisé"</string>
     <string name="up_to_loading_tips">Relâchez pour actualiser</string>
     <string name="update_no_network_toast">Impossible de se connecter au réseau</string>
     <string name="updating_chrome">Mise à jour de Chrome…</string>

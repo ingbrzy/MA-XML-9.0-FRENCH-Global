@@ -6,13 +6,13 @@
     <string name="explain_send_sms_permission_msg">"Pour activer %s, le service de Framework de Xiaomi vous enverra un SMS pour vérifier votre numéro de téléphone. Vous serez facturé pour le prix d'un SMS normal par l'opérateur."</string>
     <string name="explain_send_sms_permission_button">Vérifier</string>
     <string name="activate_phone_failed_notif_title">"Impossible d'activer la carte SIM"</string>
-    <string name="activate_phone_failed_notif_title_msim">"Impossible d'activer la carte SIM %s"</string>
+    <string name="activate_phone_failed_notif_title_msim">"Can't activate SIM card %d"</string>
     <string name="activate_phone_success_notif_title">Carte SIM activée</string>
-    <string name="activate_phone_success_notif_title_msim">Carte SIM %s activée</string>
+    <string name="activate_phone_success_notif_title_msim">SIM card %d activated</string>
     <string name="activate_phone_cancel_notif_title">"L'activation de la carte SIM a été annulée"</string>
-    <string name="activate_phone_cancel_notif_title_msim">"L'activation de la carte SIM %s a été annulée"</string>
+    <string name="activate_phone_cancel_notif_title_msim">SIM card %d activation cancelled</string>
     <string name="activate_status_title_activating">Activation de la carte SIM…</string>
-    <string name="activate_status_title_activating_msim">Activation de la carte SIM %s…</string>
+    <string name="activate_status_title_activating_msim">Activating SIM card %d…</string>
     <string name="activate_auto_sms_notification_title">Activation de la carte SIM</string>
     <string name="activate_auto_sms_notification_desc_2_cards">"SMS envoyé de la carte SIM %s pour activer \"Localiser l'appareil\""</string>
     <string name="activate_auto_sms_notification_desc_1_card">"SMS envoyé pour activer \"Localiser l'appareil\""</string>
@@ -23,7 +23,7 @@
     <string name="activate_status_desc_wait_for_sms">"En attente du SMS d'activation du serveur…"</string>
     <string name="activate_status_desc_wait_for_sms_success">"SMS d'activation reçu du serveur"</string>
     <string name="activate_status_desc_wait_for_sms_fail">"Impossible de recevoir le SMS d'activation du serveur"</string>
-    <string name="activate_status_desc_device_id_error">IMEI invalide</string>
+    <string name="activate_status_desc_device_id_error">IMEI non valide</string>
     <string name="activate_status_desc_request_activation_sms">"Demande du SMS d'activation…"</string>
     <string name="activate_status_desc_request_activation_sms_server_error">"Erreur du serveur s'est produite lors de la demande du SMS d'activation."</string>
     <string name="activate_status_desc_getting_gateway">Obtention de la passerelle SMS…</string>
@@ -66,7 +66,7 @@
     <string name="activate_popup_desc_register_account_intl">Un message SMS international sortant peut être nécessaire pour créer votre compte Mi. Votre opérateur vous facturera ce message.</string>
     <string name="activate_popup_desc_register_account_downlink">Entrez votre numéro de téléphone</string>
     <string name="activate_popup_title_failed_send_sms">"Impossible d'envoyer le SMS"</string>
-    <string name="activate_popup_desc_failed_send_sms">"Impossible d'envoyer le SMS d'activation. Assurez vous que la carte SIM est activée."</string>
+    <string name="activate_popup_desc_failed_send_sms">"Impossible d'envoyer le SMS d'activation. Assurez-vous que la carte SIM est activée."</string>
     <string name="activate_popup_confirm_failed_send_sms">Renvoyer</string>
     <string name="activate_popup_title_failed_query_info">Impossible de trouver le numéro</string>
     <string name="activate_popup_desc_failed_query_info">Impossible de trouver le numéro. Assurez vous que la carte SIM est activée.</string>
@@ -77,7 +77,7 @@
     <string name="activate_popup_title_failed_receive_sms">Aucune réponse du serveur</string>
     <string name="activate_popup_desc_failed_receive_sms">Assurez-vous que le numéro de téléphone est correct et que la carte SIM est activée.</string>
     <string name="activate_popup_confirm_failed_receive_sms">Veuillez réessayer</string>
-    <string name="activate_popup_title_failed_phone_error">Numéro de téléphone invalide</string>
+    <string name="activate_popup_title_failed_phone_error">Numéro de téléphone non valide</string>
     <string name="activate_popup_desc_failed_phone_error">"Le numéro de téléphone entré n'est pas valide."</string>
     <string name="activate_popup_confirm_failed_phone_error">Veuillez réessayer</string>
     <string name="activate_popup_title_all_gateway_failed_send_sms">"Impossible d'envoyer le SMS"</string>
@@ -88,7 +88,7 @@ Entrez le numéro de téléphone associé à votre nouvelle carte SIM pour réac
     <string name="activate_popup_desc_all_gateway_failed_query_info">"Impossible de trouver votre numéro de téléphone. Assurez-vous que votre carte SIM a été activée.
 Entrez le numéro de téléphone associé à votre nouvelle carte SIM pour réactiver %s"</string>
     <string name="activate_popup_confirm_all_gateway_failed_query_info">Veuillez réessayer</string>
-    <string name="activate_popup_title_error_device_id">IMEI invalide</string>
+    <string name="activate_popup_title_error_device_id">IMEI non valide</string>
     <string name="activate_popup_desc_error_device_id">Composer *#06# pour vérifier votre IMEI</string>
     <string name="activate_popup_confirm_error_device_id">Veuillez réessayer</string>
     <string name="activate_feature_mx">Messages Mi</string>
@@ -100,7 +100,7 @@ Entrez le numéro de téléphone associé à votre nouvelle carte SIM pour réac
     <string name="activate_feature_verify_mx_token">Vérification du compte Mi</string>
     <string name="activate_feature_live_talk">Recharge de forfait</string>
     <string name="activate_feature_remote_assist">Assistance à distance</string>
-    <string name="activate_feature_mi_roaming">Mi Itinérance</string>
+    <string name="activate_feature_mi_roaming">Itinérance Mi</string>
     <string name="activate_feature_default_name">Services Mi</string>
     <string name="activate_history_title">Activation de la carte SIM</string>
     <string name="activate_history_success_overview">"Carte SIM activée avec succès. L'activation est déclenchée par \"%1$s\"."</string>
@@ -108,4 +108,11 @@ Entrez le numéro de téléphone associé à votre nouvelle carte SIM pour réac
     <string name="activate_history_multisim_success_overview">"Carte SIM %2$d activée avec succès. L'activation est déclenchée par %1$s\"."</string>
     <string name="activate_history_multisim_canceled_overview">"L'activation de la carte SIM %2$d a été annulée. L'activation est déclenchée par %1$s\"."</string>
     <string name="activate_history_sms">"Un SMS a été envoyé pendant l'activation."</string>
+    <string name="phone_verify_title">Agree %1$s to verify your phone number</string>
+    <string name="phone_verify_text">%1$s will not get your phone number，just verify your phone number is match。</string>
+    <string name="phone_verify_processing">verifying…</string>
+    <string name="phone_get_title">Agree %1$s to get your phone number</string>
+    <string name="phone_get_text">Do you agree %1$s to get your phone number：%2$s</string>
+    <string name="phone_get_processing">getting…</string>
+    <string name="agree">Agree</string>
 </resources>

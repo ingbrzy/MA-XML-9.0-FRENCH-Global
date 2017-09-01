@@ -23,4 +23,5 @@ allez sur %s sur un autre périphérique connecté."</string>
     <string name="ad_service">Service publicitaire</string>
     <string name="settings_ad_loading">Un instant…</string>
     <string name="settings_ad_loading_unavailable">"Impossible de charger l'information."</string>
+    <string name="autoconnect">AutoConnect</string>
 </resources>

@@ -13,8 +13,8 @@
         <item quantity="one">"L'action sélectionnée n'est pas disponible en mode appel d'urgence. Le téléphone sera dans ce mode pendant %s minute. Voulez vous quitter maintenant ?"</item>
     </plurals>
     <plurals name="call_record_auto_whitelist_summary">
-        <item quantity="other">%d nombres</item>
-        <item quantity="one">%d numéros</item>
+        <item quantity="other">%d numéros</item>
+        <item quantity="one">%d numéro</item>
     </plurals>
     <plurals name="call_remove_exception_numbers_confirm">
         <item quantity="other">%d numéros seront supprimés.</item>

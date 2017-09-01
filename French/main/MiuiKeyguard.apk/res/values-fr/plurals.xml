@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="incorrect_pukcode_remaining_attempts">
-        <item quantity="other">Incorrect PUK code, %d attempts remaining</item>
-        <item quantity="one">Incorrect PUK code, %d attempt remaining</item>
+        <item quantity="other">Code PUK incorrect, %d tentatives restantes</item>
+        <item quantity="one">Code PUK incorrect, %d tentative restante</item>
     </plurals>
     <plurals name="incorrect_pincode_remaining_attempts">
-        <item quantity="other">Incorrect PIN code, %d attempts remaining</item>
-        <item quantity="one">Incorrect PIN code, %d attempt remaining</item>
+        <item quantity="other">Code PIN incorrect, %d tentatives restantes</item>
+        <item quantity="one">Code PIN incorrect, %d tentative restante</item>
     </plurals>
     <plurals name="phone_locked_timeout_seconds_string">
-        <item quantity="other">Try again in %d seconds</item>
-        <item quantity="one">Try again in %d second</item>
+        <item quantity="other">Réessayer dans %d secondes</item>
+        <item quantity="one">Réessayer dans %d seconde</item>
     </plurals>
     <plurals name="phone_locked_timeout_minutes_string">
-        <item quantity="other">Try again in %d minutes</item>
-        <item quantity="one">Try again in %d minute</item>
+        <item quantity="other">Réessayer dans %d minutes</item>
+        <item quantity="one">Réessayer dans %d minute</item>
     </plurals>
     <plurals name="new_notifications_msg">
         <item quantity="other">%d nouvelles notifications</item>

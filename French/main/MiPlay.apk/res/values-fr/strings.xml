@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Serveur Média</string>
+    <string name="app_name">Serveur média</string>
     <string name="noti_projection_status_title">Lecteur Mi Affichage Sans Fil</string>
     <string name="noti_projection_status_desc_on">Projection écran activée</string>
     <string name="prjection_title">Affichage sans fil</string>

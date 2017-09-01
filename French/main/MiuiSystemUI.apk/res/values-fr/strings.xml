@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Aucune</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -23,12 +25,12 @@
     <string name="wifi_disabled_wifi_failure">Impossible de se connecter au Wi-Fi</string>
     <string name="wifi_disabled_password_failure">"Problème d'authentification"</string>
     <string name="wifi_not_in_range">Hors de portée</string>
-    <string name="wifi_no_internet">"Pas d'accès internet. Pas de reconnexion automatique."</string>
+    <string name="wifi_no_internet">"Pas d'accès Internet. Pas de reconnexion automatique."</string>
     <string name="saved_network">Sauvegarder par %1$s</string>
     <string name="connected_via_wfa">"Connecté via l'assistant Wi‑Fi"</string>
     <string name="connected_via_passpoint">Connecté via %1$s</string>
     <string name="available_via_passpoint">Disponible via %1$s</string>
-    <string name="wifi_connected_no_internet">"Connecté, pas d'internet"</string>
+    <string name="wifi_connected_no_internet">"Connecté, pas d'Internet"</string>
     <string name="bluetooth_disconnected">Déconnecté</string>
     <string name="bluetooth_disconnecting">Déconnexion…</string>
     <string name="bluetooth_connecting">Connexion…</string>
@@ -85,7 +87,7 @@
     <string name="data_usage_uninstalled_apps">Applications supprimées</string>
     <string name="data_usage_uninstalled_apps_users">Applications et utilisateurs supprimés</string>
     <string name="tether_settings_title_usb">Partage de connexion via USB</string>
-    <string name="tether_settings_title_wifi">Point d’accès Wi-Fi mobile</string>
+    <string name="tether_settings_title_wifi">"Point d'accès Wi-Fi mobile"</string>
     <string name="tether_settings_title_bluetooth">Partage de connexion via bluetooth</string>
     <string name="tether_settings_title_usb_bluetooth">Partage de connexion</string>
     <string name="tether_settings_title_all">"Partage de connexion &amp; point d'accès mobile"</string>
@@ -168,7 +170,7 @@
     <string name="allow_mock_location_summary">Autoriser les simulations de localisations</string>
     <string name="debug_view_attributes">Enable viewing attributes</string>
     <string name="legacy_dhcp_client_summary">"Utiliser un client DHCP de Lollipop plutôt qu'un nouveau client DHCP Android."</string>
-    <string name="mobile_data_always_on_summary">Toujours garder les données mobiles actives, même lorsque le Wi‑Fi est actif (pour une changement rapide de réseau).</string>
+    <string name="mobile_data_always_on_summary">Toujours garder les données mobiles actives, même lorsque le Wi‑Fi est actif (pour un changement rapide de réseau).</string>
     <string name="adb_warning_title">Autoriser le débogage USB ?</string>
     <string name="adb_warning_message">Le débogage USB est uniquement destiné à des fins de développement. Utilisez-le pour copier des données entre votre ordinateur et votre appareil, installer des applications sur votre appareil sans notification et lire les données de journal.</string>
     <string name="adb_keys_warning_message">"Révoquer l'accès au débogage USB pour tous les ordinateurs que vous avez précédemment autorisés ?"</string>
@@ -187,8 +189,8 @@
     <string name="debug_app_set">Application de débogage : %1$s</string>
     <string name="select_application">Sélectionner une application</string>
     <string name="no_application">Aucune</string>
-    <string name="wait_for_debugger">Attendre le debogage</string>
-    <string name="wait_for_debugger_summary">"Application deboguée en attente d'un débogueur pour joindre avant exécution"</string>
+    <string name="wait_for_debugger">Attendre le débogage</string>
+    <string name="wait_for_debugger_summary">"Application déboguéeen attente d'un débogueur pour joindre avant l'exécution"</string>
     <string name="debug_input_category">Méthode de saisie</string>
     <string name="debug_drawing_category">Dessin</string>
     <string name="debug_hw_drawing_category">Rendu matériel accéléré</string>
@@ -264,14 +266,14 @@
     <string name="convert_to_fbe_warning">"Convertir la partition des données en fichiers basés sur le chiffrement.
  Avertissement : cette action effacera toutes vos données.
  Cette fonctionnalité est en cours de développement et peut ne pas fonctionner correctement.
- Appuyer sur ' Nettoyer et convertir…' pour continuer."</string>
+ Appuyer sur 'Nettoyer et convertir…' pour continuer."</string>
     <string name="button_convert_fbe">Nettoyer et convertir…</string>
-    <string name="picture_color_mode">Mode couleur photo</string>
+    <string name="picture_color_mode">Mode image couleur</string>
     <string name="picture_color_mode_desc">Utiliser sRGB</string>
     <string name="daltonizer_mode_disabled">Désactivé</string>
     <string name="daltonizer_mode_monochromacy">Monochromaticité</string>
     <string name="daltonizer_mode_deuteranomaly">Deutéranomalie (rouge-vert)</string>
-    <string name="daltonizer_mode_protanomaly">Protanomalie (rouge)</string>
+    <string name="daltonizer_mode_protanomaly">Protanomalie (rouge-vert)</string>
     <string name="daltonizer_mode_tritanomaly">Tritanomalie (bleu-jaune)</string>
     <string name="accessibility_display_daltonizer_preference_title">Correction de couleur</string>
     <string name="accessibility_display_daltonizer_preference_subtitle">Cette fonctionnalité est expérimentale et peut affecter les performances.</string>
@@ -295,11 +297,11 @@
     <string name="home">Page principale des Paramètres</string>
     <string name="charge_length_format">%1$s ago</string>
     <string name="remaining_length_format">%1$s left</string>
-    <string name="screen_zoom_summary_small">Petite</string>
-    <string name="screen_zoom_summary_default">Défaut</string>
-    <string name="screen_zoom_summary_large">Grande</string>
+    <string name="screen_zoom_summary_small">Petit</string>
+    <string name="screen_zoom_summary_default">Par défaut</string>
+    <string name="screen_zoom_summary_large">Grand</string>
     <string name="screen_zoom_summary_very_large">Très grand</string>
-    <string name="screen_zoom_summary_extremely_large">Plus grande</string>
+    <string name="screen_zoom_summary_extremely_large">Plus grand</string>
     <string name="screen_zoom_summary_custom">Personnaliser (%d)</string>
     <string name="help_feedback_label">Aide &amp; commentaires</string>
     <string name="app_label">Système IU</string>
@@ -324,7 +326,7 @@ Utilisez uniquement le chargeur fourni."</string>
     <string name="always_use_device">Utiliser par défaut pour cet appareil USB</string>
     <string name="always_use_accessory">Utiliser par défaut pour cet accessoire USB</string>
     <string name="usb_debugging_title">Autoriser le débogage USB ?</string>
-    <string name="usb_debugging_message">"L'empreinte de la clé RSA de cet ordinateur est:
+    <string name="usb_debugging_message">"L'empreinte digitale de la clé RSA de cet ordinateur est:
 %1$s"</string>
     <string name="usb_debugging_always">Toujours autoriser depuis cet ordinateur</string>
     <string name="screenshot_saving_ticker">"Enregistrement de la capture d'écran…"</string>
@@ -354,9 +356,9 @@ Utilisez uniquement le chargeur fourni."</string>
     <string name="accessibility_data_four_bars">Signal de connexion de données fort.</string>
     <string name="accessibility_data_signal_full">Signal de connexion de données excellent.</string>
     <string name="accessibility_no_wimax">Aucun réseau WiMAX détecté.</string>
-    <string name="accessibility_wimax_one_bar">WiMAX une barre.</string>
-    <string name="accessibility_wimax_two_bars">WiMAX deux barres.</string>
-    <string name="accessibility_wimax_three_bars">WiMAX trois barres.</string>
+    <string name="accessibility_wimax_one_bar">Une barre WiMAX.</string>
+    <string name="accessibility_wimax_two_bars">Deux barres WiMAX.</string>
+    <string name="accessibility_wimax_three_bars">Trois barres WiMAX.</string>
     <string name="accessibility_wimax_signal_full">Signal WiMAX maximal.</string>
     <string name="accessibility_data_connection_gprs">GPRS</string>
     <string name="accessibility_data_connection_3g">3G</string>
@@ -481,6 +483,7 @@ d MMMM"</string>
     <string name="activate_usb_message">Pour activer cette fonctionnalité, insérez votre carte SIM.</string>
     <string name="usb_function_charging_text">Connecté en mode de charge</string>
     <string name="return_to_incall_screen">"Retourner à l'écran d'appel"</string>
+    <string name="call_status_holding">Holding</string>
     <string name="call_status_dialing">En communication</string>
     <string name="call_status_ringing">Sonnerie</string>
     <string name="reject_call">"Rejeter l'appel"</string>

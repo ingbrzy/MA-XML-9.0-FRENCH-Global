@@ -209,6 +209,8 @@ Appuyez sur %s pour démarrer ce téléchargement la prochaine fois que vous ser
     <string name="lyric_open_other_connect">Télécharger les paroles en utilisant le réseau mobile</string>
     <string name="playback_failed_no_title_by_bad_file">"Ce format de musique n'est pas supporté ou le fichier n'existe pas."</string>
     <string name="streamloadingtext">Connexion à %s</string>
+    <string name="toast_new_playlist_name_too_long">Playlist name is too long</string>
+    <string name="toast_new_playlist_name_no_enter">"key 'Enter' has been deleted'"</string>
     <string name="error_title">Impossible de synchroniser avec le compte Mi</string>
     <string name="error_unauthorized">"Synchronisation arrêtée suite à un trop grand nombre de tentatives d'authentification."</string>
     <string name="error_forbidden">La synchronisation a été arrêtée suite à des problèmes avec votre compte Mi.</string>
@@ -230,7 +232,7 @@ Appuyez sur %s pour démarrer ce téléchargement la prochaine fois que vous ser
     <string name="permission_declaration_positive_text">Aller à Sécurité</string>
     <string name="permission_declaration_negative_text">Plus tard</string>
     <string name="equalizer">Égaliseur</string>
-    <string name="eq_flat">Défaut</string>
+    <string name="eq_flat">Par défaut</string>
     <string name="eq_rock">Rock</string>
     <string name="eq_jazz">Jazz</string>
     <string name="eq_pop">Pop</string>

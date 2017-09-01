@@ -174,7 +174,7 @@
     <string name="resource_comment_sending">Envoi du commentaire…</string>
     <string name="resource_comment_upload_failed">"Impossible d'envoyer le commentaire"</string>
     <string name="resource_comment_upload_success">Votre commentaire sera affiché après une rapide vérification.</string>
-    <string name="resource_comment_upload_data_invalid">Le commentaire entré est invalide</string>
+    <string name="resource_comment_upload_data_invalid">Le commentaire entré est non valide</string>
     <string name="resource_comment_upload_not_logined">Vous devez dabord vous connecter</string>
     <string name="resource_comment_upload_not_bought">Vous devez utiliser le thème avant de pouvoir faire un commentaire</string>
     <string name="resource_comment_invalid">Appuyez sur les étoiles pour noter le thème</string>
@@ -300,7 +300,7 @@
     <string name="theme_immediately_apply_tip">Appliquer ?</string>
     <string name="theme_name">%1$s</string>
     <string name="theme_fresh_man_notifaction">Nouveaux thèmes disponibles</string>
-    <string name="selected_resource_file_invalid">Le fichier sélectionné est invalide.</string>
+    <string name="selected_resource_file_invalid">Le fichier sélectionné est non valide.</string>
     <string name="apply_theme_with_ringtones">Appliquer le thème avec la sonnerie</string>
     <string name="settings">Paramètres</string>
     <string name="theme_user_agreement_content1">"En utilisant ce programme, vous acceptez notre "</string>
@@ -371,7 +371,7 @@
     <string name="provision_loading_tips">Un instant…</string>
     <string name="provision_title">Choisir un thème</string>
     <string name="provision_second_title">Sélectionner un des plusieurs thèmes par défaut</string>
-    <string name="provision_default_theme_title">Défaut</string>
+    <string name="provision_default_theme_title">Par défaut</string>
     <string name="theme_precast_create_notification_title">Mis à jour vers MIUI 7</string>
     <string name="theme_precast_create_notification_content">Appuyez pour voir les nouveaux thèmes.</string>
     <string name="theme_precast_update_notification_title">Thèmes MIUI 7 mis à jour</string>

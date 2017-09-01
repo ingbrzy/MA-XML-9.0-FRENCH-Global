@@ -309,13 +309,13 @@
     <string name="respond_via_sms_confirmation_format">Message envoyé à %s.</string>
     <string name="enable_account_preference_title">Comptes des appels</string>
     <string name="outgoing_call_not_allowed_user_restriction">"Seuls les appels d'urgence sont autorisés."</string>
-    <string name="outgoing_call_not_allowed_no_permission">"Cette application ne peut pas émettre d'appels sortants sans l'autorisation du téléphone."</string>
+    <string name="outgoing_call_not_allowed_no_permission">"Cette application ne peut pas émettre d'appels sortants sans l'autorisation de Téléphone."</string>
     <string name="outgoing_call_error_no_phone_number_supplied">Pour passer un appel veuillez entrer un numéro valide.</string>
     <string name="duplicate_video_call_not_allowed">"Impossible d'ajouter un appel cette fois."</string>
     <string name="no_vm_number">Aucun numéro de messagerie vocale</string>
     <string name="no_vm_number_msg">Aucun numéro messagerie vocale présent sur la carte SIM.</string>
     <string name="add_vm_number_str">Ajouter un numéro</string>
-    <string name="change_default_dialer_dialog_title">Faire de %s votre application de téléphone par défaut ?</string>
+    <string name="change_default_dialer_dialog_title">Faire de %s votre application de Téléphone par défaut ?</string>
     <string name="change_default_dialer_dialog_affirmative">Définir par défaut</string>
     <string name="change_default_dialer_dialog_negative">Annuler</string>
     <string name="change_default_dialer_warning_message">"%s sera en mesure d'effectuer et contrôler tous les aspects des appels. Seules les applications auxquelles vous faites confiance devraient être définies comme applications par défaut du téléphone."</string>
@@ -347,7 +347,7 @@
     <string name="handle_restricted">RESTRICTED</string>
     <string name="toast_personal_call_msg">Using the personal dialer to make the call</string>
     <string name="toast_make_video_call_failed">"Impossible d'effectuer un appel vidéo, format de numéro incorrect"</string>
-    <string name="headset_plugin_view_text">Casque est branché.</string>
+    <string name="headset_plugin_view_text">Le casque est branché.</string>
     <string name="headset_plugin_view_title">Casque</string>
     <string name="voice_report_incoming_call">Appel entrant</string>
     <string name="voice_report_unknown_num">Numéro inconnu</string>
@@ -359,8 +359,8 @@
     <string name="can_not_dial_vt_while_voice_prompt">"Impossible d'effectuer un appel vidéo pendant un appel vocal en cours"</string>
     <string name="voice_dial_out">Appel vocal</string>
     <string name="notification_AllMissedCallTitle">Tous les appels manqués</string>
-    <string name="close">Close</string>
-    <string name="callFailed_simError">SIM card error</string>
-    <string name="incall_error_supp_service_unknown">"This service isn't supported."</string>
-    <string name="incall_error_power_off">Turn off airplane mode to make a call.</string>
+    <string name="close">Fermer</string>
+    <string name="callFailed_simError">Erreur de la Carte SIM</string>
+    <string name="incall_error_supp_service_unknown">"Ce service n'est pas pris en charge."</string>
+    <string name="incall_error_power_off">Désactivez le mode avion pour passer un appel.</string>
 </resources>

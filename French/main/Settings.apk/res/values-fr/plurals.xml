@@ -153,12 +153,12 @@ Pour en savoir plus sur ce certificat, contactez votre administrateur."</item>
         <item quantity="one">%d risque trouvé</item>
     </plurals>
     <plurals name="auto_startup_count">
-        <item quantity="other">%d applications sont autorisées à démarrer automatiquement</item>
-        <item quantity="one">%d application est autorisée à démarrer automatiquement</item>
+        <item quantity="other">%d apps are allowed to autostart</item>
+        <item quantity="one">%d app are allowed to autostart</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
-        <item quantity="other">PIN must be %d digits</item>
-        <item quantity="one">PIN must be %d digit</item>
+        <item quantity="other">Le code PIN doit comporter %d chiffres</item>
+        <item quantity="one">Le code PIN doit comporter %d chiffre</item>
     </plurals>
     <plurals name="wifi_share_count">
         <item quantity="other">%d réseaux partagés</item>
@@ -193,23 +193,23 @@ Pour en savoir plus sur ce certificat, contactez votre administrateur."</item>
         <item quantity="one">Ne jamais désactiver pour 1 application</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">PIN must be %d digits long</item>
-        <item quantity="one">PIN must be %d digit long</item>
+        <item quantity="other">Le code PIN doit comporter %d chiffres</item>
+        <item quantity="one">Le code PIN doit comporter %d chiffre</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">PIN can contain up to %d digits</item>
-        <item quantity="one">PIN can contain up to %d digit</item>
+        <item quantity="other">"Le code PIN peut contenir jusqu'à %d chiffres"</item>
+        <item quantity="one">"Le code PIN peut contenir jusqu'à %d chiffre"</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
-        <item quantity="other">Connect at least %d dots. Try again.</item>
-        <item quantity="one">Connect at least %d dot. Try again.</item>
+        <item quantity="other">Connecter au moins %d points. Réessayer.</item>
+        <item quantity="one">Connecter au moins %d point. Réessayer.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
-        <item quantity="other">Too many incorrect attempts. Try again in %d seconds.</item>
-        <item quantity="one">Too many incorrect attempt. Try again in %d second.</item>
+        <item quantity="other">Trop de tentatives incorrectes. Réessayez dans %d secondes.</item>
+        <item quantity="one">Trop de tentatives incorrectes. Réessayez dans %d seconde.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
-        <item quantity="other">Wait for %d seconds and try again.</item>
-        <item quantity="one">Wait for %d second and try again.</item>
+        <item quantity="other">Patientez %d secondes et réessayez.</item>
+        <item quantity="one">Patientez %d seconde et réessayez.</item>
     </plurals>
 </resources>
