@@ -6,7 +6,6 @@
     <string name="sina_token_expired_warning">Compte Weibo expiré, ajoutez le compte à nouveau.</string>
     <string name="sina_token_invalid_warning">Compte Weibo non valide, ajoutez le compte à nouveau.</string>
     <string name="sina_share_fail_content_repeat">Vous avez déjà partagé cela.</string>
-    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">Notes;Mémo</string>
     <string name="search_path_notes">Applications système/Notes</string>
     <string name="dlg_move_message">Déplacement…</string>
