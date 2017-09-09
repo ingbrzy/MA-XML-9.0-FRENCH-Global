@@ -159,7 +159,7 @@
     <string name="expire_on">Expiration : %s</string>
     <string name="exporting_progress_private_message">Exportation…</string>
     <string name="fail_to_add_attachment">"Impossible d'ajouter la pièce jointe"</string>
-    <string name="fail_to_view_attachment">"la pièce jointe n'est pas disponible"</string>
+    <string name="fail_to_view_attachment">Pièce jointe non disponible</string>
     <string name="failed_to_add_media">Désolé, vous ne pouvez pas ajouter cet élément à votre message : %1$s.</string>
     <string name="failed_to_resize_image">"L'image n'a pas été redimensionnée."</string>
     <string name="fake_cell_alert_hint">"Il semble que ce message ait été envoyé à partir d'un numéro de téléphone différent de celui qui s'affiche. Soyez prudent avec les messages contenant des sollicitations financières."</string>
@@ -332,9 +332,9 @@
     <string name="mx_stranger_recommend_msg">Appuyez pour bloquer les Messages Mi de numéros inconnus</string>
     <string name="mx_type_guide">"Mi Message vous permet d'envoyer des SMS aux autres utilisateurs MIUI sans encourir de frais"</string>
     <string name="need_download">Synchro...</string>
-    <string name="networking_allow_continue">OK</string>
-    <string name="networking_allow_desc">"Les messages intelligents vous permettent d'envoyer gratuitement des textes, reconnaitre les numéros inconnus, filtrer les messages indésirables, etc. En utilisant ce service, vous acceptez les %1$s et %2$s de Xiaomi. Vous devez activer les Pages Jaunes et vous connecter à Internet pour utiliser ce service."</string>
-    <string name="networking_allow_desc_without_mx">Les messages intelligents vous permettent de reconnaitre les numéros inconnus, filtrer les messages indésirables, etc. En utilisant ce service, vous acceptez les %1$s et %2$s de Xiaomi. Vous devez activer les Pages Jaunes et vous connecter à Internet pour utiliser ce service.</string>
+    <string name="networking_allow_continue">Autoriser</string>
+    <string name="networking_allow_desc">"Mi Message doit se connecter à Internet pour fonctionner normalement. Dans le but de fournir des services vocaux et de textes gratuits, reconnaître des numéros inconnus, filtrer les courriers indésirables et activer d'autres fonctionnalités, Mi Message doit utiliser les Pages jaunes. Autoriser les Pages jaunes à se connecter à Internet, obtenir vos informations de localisation et lire vos contacts ?"</string>
+    <string name="networking_allow_desc_without_mx">"Mi Message doit se connecter à Internet pour fonctionner normalement. Dans le but de reconnaître des numéros inconnus, filtrer les courriers indésirables et activer d'autres fonctionnalités, Mi Message doit utiliser les Pages jaunes. Autoriser les Pages jaunes à se connecter à Internet, obtenir vos informations de localisation et lire vos contacts ?"</string>
     <string name="networking_allow_title">Attention</string>
     <string name="new_message">Nouveau message</string>
     <string name="new_message_arrived">Vous avez un nouveau message</string>

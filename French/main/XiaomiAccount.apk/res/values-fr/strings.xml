@@ -7,6 +7,7 @@
     <string name="passport_login_title">Connectez-vous à votre compte Mi</string>
     <string name="passport_login">Se connecter</string>
     <string name="passport_relogin">Se connecter à nouveau</string>
+    <string name="passport_instant_login">Sign in</string>
     <string name="passport_skip_login">Ignorer</string>
     <string name="passport_skip_setup_account_title">Ignorer la configuration</string>
     <string name="passport_skip_setup_account_msg">Vous pouvez configurer votre compte Mi plus tard dans Paramètres.</string>
@@ -82,7 +83,7 @@ Pour activer votre compte, suivez le
     <string name="passport_delete_account">Se Déconnecter</string>
     <string name="passport_vcode_notification_title">"La vérification n'est pas terminée"</string>
     <string name="passport_account_name">Compte : %1$s</string>
-    <string name="passport_account_hint_text">Adresse e-mail, numéro de téléphone ou ID du Compte Mi</string>
+    <string name="passport_account_hint_text">Email address, phone number or Mi Account ID</string>
     <string name="passport_email_or_id_hint_text">Adresse email ou ID du compte Mi</string>
     <string name="passport_phone_num_hint_text">Numéro de téléphone</string>
     <string name="passport_input_password_hint">Saisir le mot de passe</string>
@@ -177,6 +178,11 @@ Pour activer votre compte, suivez le
     <string name="passport_account_set_password_title">Définir le mot de passe</string>
     <string name="passport_account_set_password_prompt">Définissez le mot de passe de votre compte afin de vous connecter la prochaine fois.</string>
     <string name="passport_set">Définir</string>
+    <string name="passport_user_reg_region">Country/Region</string>
+    <string name="passport_user_id_notice">您的小米ID是: %s</string>
+    <string name="passport_user_reg_region_warning">"You Won't be able to change your country/region once the account is created"</string>
+    <string name="passport_sync_account_data">正在同步您的帐号数据</string>
+    <string name="passport_sync_account_data_failed_warning">您的帐号数据有延迟,将只能使用小米ID登录。若使用邮箱/手机登录,请稍等几分钟</string>
     <string name="search_app_name">Compte Mi</string>
     <string name="search_mi_account">Compte Mi</string>
     <string name="search_mi_account_key_words">Mi Cloud, Paramètre de compte, Informations Mi Pay, Se déconnecter</string>
@@ -303,8 +309,9 @@ Pour activer votre compte, suivez le
     <string name="account_xiaomi_service">Services</string>
     <string name="cloud_service">Mi Cloud</string>
     <string name="vip_account_settings">Paramètres VIP</string>
-    <string name="vip_more_info">"Plus d'infos VIP"</string>
     <string name="xiao_mi_vip">Mi VIP</string>
+    <string name="mi_vip_info">查看我的特权</string>
+    <string name="vip_settings_info">我的数据中心</string>
     <string name="loading_micloud_sync_data">Un instant…</string>
     <string name="activity_not_found_notice">"Impossible de trouver l'application"</string>
     <string name="scan_barcode_title">Scannez le Code QR pour vous connecter</string>
@@ -418,4 +425,5 @@ Pour activer votre compte, suivez le
     <string name="account_token_expired_title">"Échec de l'authentification"</string>
     <string name="account_token_expired_msg">"Le code de vérification a expiré, recommencez ou déconnectez-vous
 L'ID de votre compte : %s"</string>
+    <string name="bind_safe_phone_msg">Add safe phone for next sign in</string>
 </resources>

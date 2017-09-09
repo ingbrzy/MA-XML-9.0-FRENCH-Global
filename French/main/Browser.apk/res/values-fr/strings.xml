@@ -167,6 +167,7 @@
     <string name="color_picker_dialog_title">Sélectionnez la couleur</string>
     <string name="color_picker_hue">Teinte</string>
     <string name="color_picker_saturation">Saturation</string>
+    <string name="color_picker_value">Valeur</string>
     <string name="comment_app_menu">Commentaire</string>
     <string name="comment_description">Commentaire</string>
     <string name="comment_hint">Commentaire</string>
@@ -180,6 +181,7 @@
     <string name="contextmenu_dial_dot">Appel…</string>
     <string name="contextmenu_download_image">"Enregistrer l'image"</string>
     <string name="contextmenu_download_image_as">"Enregistrer l'image"</string>
+    <string name="contextmenu_manually_block_ad">Marquer comme pub</string>
     <string name="contextmenu_map">Carte</string>
     <string name="contextmenu_openlink">Ouvrir</string>
     <string name="contextmenu_openlink_newwindow">Ouvrir dans un nouvel onglet</string>
@@ -558,8 +560,10 @@ Quitter cette page ?"</string>
     <string name="pref_accessibility_url_shortcut_enter_title">"Saisie d'URL rapide"</string>
     <string name="pref_adblock_counts">%d bloqués</string>
     <string name="pref_adblock_title">Adblock</string>
+    <string name="pref_advert_null">Unmarked advertising,You can press the label on the page</string>
     <string name="pref_auto_update_under_wifi">Mettre à jour en utilisant le Wi-Fi</string>
     <string name="pref_automatic_matching_searchengines_title">Basculer vers le moteur de recherche habituel</string>
+    <string name="pref_cancel_screen">Cancel screen</string>
     <string name="pref_category_hint">Catégorie</string>
     <string name="pref_check_security_url_summary">"Envoyer l'URL du site Web aux serveurs de Xiaomi pour vérifier si elle est sécurisée"</string>
     <string name="pref_check_security_url_summary_international">Autoriser le navigateur à accéder au URL des sites Web que vous visitez pour recevoir des recommandations plus pertinentes.</string>
@@ -603,6 +607,7 @@ Quitter cette page ?"</string>
     <string name="pref_force_userscalable_summary">"Remplacer la demande d'un site Web pour contrôler le comportement du zoom"</string>
     <string name="pref_general_title">Général</string>
     <string name="pref_key_gesture_title">Boutons &amp; gestes</string>
+    <string name="pref_label_advert_manager">Manager labelled ads</string>
     <string name="pref_nav_mode_summary_pad">Tablette</string>
     <string name="pref_nav_mode_summary_phone">Téléphone</string>
     <string name="pref_nav_mode_title">Mode Navigateur</string>
@@ -908,11 +913,14 @@ Quitter cette page ?"</string>
     <string name="view_certificate">Voir le certificat</string>
     <string name="view_document_downloaded_files">Voir les fichiers téléchargés dans Téléchargements</string>
     <string name="voice_check_network">Vérifiez vos paramètres réseau et réessayez.</string>
+    <string name="voice_close_description">Fermer</string>
     <string name="voice_connect_network">Impossible de se connecter au réseau.</string>
     <string name="voice_description">Recherche vocale</string>
     <string name="voice_network_connection">La recherche vocale a besoin de se connecter à Internet pour fonctionner normalement.</string>
     <string name="voice_search_permission">La recherche vocale a besoin de se connecter à Internet pour fonctionner normalement.</string>
     <string name="voice_semantic_analysis">"Navigateur sera en mesure d'analyser le sémantiques une fois que vous l'autorisez à se connecter."</string>
+    <string name="voice_start_description">Démarrer</string>
+    <string name="voice_stop_description">Arrêter</string>
     <string name="voice_sub_title">Vous ne savez pas quoi dire ? Essayez \"Ouvrir mi.com !\"</string>
     <string name="voice_title">Dites votre commande…</string>
     <string name="voice_title_distinguish">Traitement…</string>

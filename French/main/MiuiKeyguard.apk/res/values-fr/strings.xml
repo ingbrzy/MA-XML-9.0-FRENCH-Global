@@ -21,7 +21,7 @@
     <string name="phone_locked_foget_password_mehod_back">Retour</string>
     <string name="phone_locked_foget_password_method_next">Suivant</string>
     <string name="phone_locked_forget_password_suggesstions_title">Comment effacer les données ?</string>
-    <string name="phone_locked_forget_password_suggesstion_one_content"><Data>Power off your device, press and hold the &lt;font color=#a5220e>Power button &lt;/font> and the &lt;font color=#a5220e>Volume up button &lt;/font>simultaneously until you see ml.</Data></string>
+    <string name="phone_locked_forget_password_suggesstion_one_content"><Data>Power off your device, press and hold the &lt;font color=#a5220e>Power button &lt;/font> and the &lt;font color=#a5220e>Volume up button &lt;/font>simultaneously until you see the Mi logo.</Data></string>
     <string name="phone_locked_forget_password_suggesstion_two_content"><Data>"sélectionner&lt;font color=#a5220e>\"Effacer &amp;amp; Réinitialiser\"&lt;/font> et patientez jusqu'à ce que l'appareil redémarre.;"</Data></string>
     <string name="phone_locked_foget_password_ok">"C'est compris"</string>
     <string name="lockscreen_access_pattern_start">Schéma commencé</string>
@@ -41,7 +41,7 @@
     <string name="invalid_confirm_pin_hint">Les codes PIN ne correspondent pas</string>
     <string name="unlock_string">Déverrouiller</string>
     <string name="open_camera_hint_text">"Balayez vers la gauche pour ouvrir l'appareil photo"</string>
-    <string name="open_remote_center_hint_text">Swipe right to open mi remote</string>
+    <string name="open_remote_center_hint_text">Swipe right to open Mi Remote</string>
     <string name="click_to_enter_text">Appuyez pour afficher</string>
     <string name="fingerprint_try_again_text">Réessayer</string>
     <string name="fingerprint_try_again_msg">"Impossible de vérifier l'empreinte digitale, veuillez réessayer."</string>
@@ -57,7 +57,7 @@
     <string name="input_password_after_boot_msg">Pour déverrouiller votre appareil, saisissez votre mot de passe</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">"Vous devez entrer dans le Premier espace suite à un redémarrage de l'appareil"</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">"Impossible de basculer entre les espaces lors d'un appel"</string>
-    <string name="input_password_handle_sdcard_fs">进入分身前需要在开发者选项中关闭“模拟SD卡优化”</string>
+    <string name="input_password_handle_sdcard_fs">Turn off \"Emulated SD card optimization\" before entering Second space.</string>
     <string name="accessibility_enter_lock_wallpaper">"Appuyer pour ouvrir le Fond d'écran Carrousel"</string>
     <string name="lock_wallpaper_learn_more">Plus</string>
     <string name="lock_wallpaper_enter">Saisir</string>

@@ -9,8 +9,8 @@
         <item quantity="one">%d application peut afficher les notifications</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d interrupteurs situés au dessus de la barre sont actifs</item>
-        <item quantity="one">%1$d interrupteur situé au dessus de la barre est actif</item>
+        <item quantity="other">%1$d toggles will appear in the Notification shade</item>
+        <item quantity="one">%1$d toggle will appear in the Notification shade</item>
     </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Plus que %1$d étapes pour devenir développeur</item>
@@ -205,8 +205,8 @@ Pour en savoir plus sur ce certificat, contactez votre administrateur."</item>
         <item quantity="one">Connecter au moins %d point. Réessayer.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
-        <item quantity="other">Trop de tentatives incorrectes. Réessayez dans %d secondes.</item>
-        <item quantity="one">Trop de tentatives incorrectes. Réessayez dans %d seconde.</item>
+        <item quantity="other">Too many incorrect attempts. Try again in %d seconds.</item>
+        <item quantity="one">Too many incorrect attempts. Try again in %d second.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
         <item quantity="other">Patientez %d secondes et réessayez.</item>

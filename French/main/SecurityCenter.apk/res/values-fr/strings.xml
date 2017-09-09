@@ -1132,6 +1132,7 @@ votre appareil"</string>
     <string name="button_text_update_now">Mettre à Jour</string>
     <string name="button_text_fix_now">Réparer</string>
     <string name="button_text_open_now">Ouvrir</string>
+    <string name="button_text_forbid_now">Forbid</string>
     <string name="button_text_disconnect_now">Déconnecter</string>
     <string name="apps_item_sms_reset_button_text">Réinitialiser</string>
     <string name="apps_item_sms_title">Paramètres de messagerie par défaut</string>
@@ -1561,6 +1562,11 @@ votre appareil"</string>
     <string name="virus_auto_update_engine">Auto updates：%s</string>
     <string name="hints_scan_danger_result">Risk found, fix now</string>
     <string name="ss_activity_main_support_text">Propulsé par %s</string>
+    <string name="hints_virus_app_summary">%s (app)</string>
+    <string name="hints_virus_apk_summary">%s (apk)</string>
+    <string name="hints_risk_name_title">Risk:</string>
+    <string name="hints_risk_descx_title">Description:</string>
+    <string name="button_text_clear">Clear</string>
     <string name="toast_removed_from_virus_white_list">"Retiré des exceptions. L'élément sera analysé la prochaine fois."</string>
     <string name="long_click_dialog_title">Attention</string>
     <string name="long_click_dialog_summary">Maintenir les résultats dans la liste pour les ajouter aux exceptions</string>
@@ -1619,6 +1625,7 @@ votre appareil"</string>
     <string name="card_main_deepclean_wechat_action">Vider</string>
     <string name="card_main_sectool_title">Outils</string>
     <string name="card_main_monthreport_action">Afficher</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Tester le réseau</string>
     <string name="card_main_netcheck_summary">Tester la connexion pour des problèmes de réseau</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1998,8 +2005,8 @@ votre appareil"</string>
     <string name="net_booster_overdue_notification">"La session d'augmentation de la vitesse du réseau prendra bientôt fin"</string>
     <string name="net_booster_overdue_notification_tip">"La session d'augmentation de la vitesse du réseau prendra bientôt fin. Renouveler la session ?"</string>
     <string name="net_booster_expire_notification">"La session d'augmentation de la vitesse du réseau prendra bientôt fin"</string>
-    <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
     <string name="xunyou_pay_webview">Services Xunyou</string>
+    <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
     <string name="power_center_consume_rank">Utilisation de la batterie</string>
     <string name="power_center_custom_title">"Profils de gestion d'énergie"</string>
     <string name="power_center_auto_shutdown_summary_default">Allumer ou éteindre votre appareil à une heure programmée</string>

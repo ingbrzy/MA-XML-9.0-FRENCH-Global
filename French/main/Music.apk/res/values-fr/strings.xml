@@ -210,7 +210,7 @@ Appuyez sur %s pour démarrer ce téléchargement la prochaine fois que vous ser
     <string name="playback_failed_no_title_by_bad_file">"Ce format de musique n'est pas supporté ou le fichier n'existe pas."</string>
     <string name="streamloadingtext">Connexion à %s</string>
     <string name="toast_new_playlist_name_too_long">Playlist name is too long</string>
-    <string name="toast_new_playlist_name_no_enter">"key 'Enter' has been deleted'"</string>
+    <string name="toast_new_playlist_name_no_enter">"Can't start a new paragraph"</string>
     <string name="error_title">Impossible de synchroniser avec le compte Mi</string>
     <string name="error_unauthorized">"Synchronisation arrêtée suite à un trop grand nombre de tentatives d'authentification."</string>
     <string name="error_forbidden">La synchronisation a été arrêtée suite à des problèmes avec votre compte Mi.</string>
@@ -846,8 +846,8 @@ Appuyez sur %s pour démarrer ce téléchargement la prochaine fois que vous ser
     <string name="talkback_favorite">"J'aime cette chanson"</string>
     <string name="talkback_progress">Barre de progression</string>
     <string name="talkback_back">Retour</string>
-    <string name="talkback_nowplaying_circle">Play Circle</string>
-    <string name="talkback_nowplaying_bar">Play Bar</string>
+    <string name="talkback_nowplaying_circle">Play circle</string>
+    <string name="talkback_nowplaying_bar">Play bar</string>
     <string name="cloud_music">Chansons dans Mi Cloud</string>
     <string name="backup_immediate">Sauvegarder</string>
     <string name="backup_song_title">Sélectionner les chansons à sauvegarder</string>

@@ -67,7 +67,7 @@
     <string name="card_title_threeway_call">Conférence à trois</string>
     <string name="card_title_incoming_call">Appel entrant</string>
     <string name="card_title_answering">Répondre à un appel</string>
-    <string name="card_title_answering_fail">"Impossible de répondre à l'appel, réessayez."</string>
+    <string name="card_title_answering_time_out">"Couldn't answer call, try again."</string>
     <string name="card_title_call_ended">"Appel terminé "</string>
     <string name="card_title_on_hold">"En attente "</string>
     <string name="card_title_hanging_up">"Fin de l'appel "</string>
@@ -180,10 +180,6 @@
     <string name="do_not_ask">Ne plus afficher</string>
     <string name="time_left_livetalk">(%ds)</string>
     <string name="can_not_call_oneself">"Impossible d'appeler ce numéro"</string>
-    <string name="jeejen_answer_call_text">"Répondre à l'appel"</string>
-    <string name="jeejen_reject_call_text">"Rejeter l'appel"</string>
-    <string name="jeejen_end_call_text">"Terminer l'appel"</string>
-    <string name="jeejen_toggle_dialpad_text">Clavier</string>
     <string name="miprofile_stranger_card">Carte étrangère</string>
     <string name="card_title_video_call_paused">Vidéo en pause</string>
     <string name="card_title_incoming_conference_call">Conférence téléphonique entrante</string>
@@ -239,10 +235,10 @@
     <string name="alert_dialog_dismiss">Rejeter</string>
     <string name="contactPhoto">Photo du contact</string>
     <string name="call_record_button_label">Enregistrer %s</string>
-    <string name="livetalk_left_minute">%s min restante(s)</string>
     <string name="call_self">Vous ne pouvez pas composer votre propre numéro</string>
     <string name="cancel_call">Raccrocher</string>
     <string name="dial_with_gsm_phone">Appel normal</string>
+    <string name="livetalk_left_minute">%s min restante(s)</string>
     <string name="purchase_now">Recharger</string>
     <string name="onscreen_rcs_text">Messages</string>
 </resources>
