@@ -47,11 +47,9 @@
     <string name="notify_install_guide_forward_text">Ouvrir</string>
     <string name="dialog_data_limit_title">"Alerte d'utilisation des données"</string>
     <string name="dialog_data_limit_msg1">%s des données mobiles seront utilisées pour télécharger ce fichier. Télécharger maintenant ?</string>
-    <string name="dialog_data_limit_msg2">@string/dialog_tip_limit</string>
     <string name="dialog_data_limit_msg3">Modifier la limite</string>
     <string name="dialog_data_limit_button1">En attente du Wi-Fi</string>
     <string name="dialog_data_limit_button2">Télécharger maintenant</string>
-    <string name="dialog_data_limit_sel_title">@string/dialog_tip_limit</string>
     <string name="dialog_button_ok">OK </string>
     <string name="dialog_button_cancel">Annuler</string>
     <string name="dialog_tip_limit">"Avertir lors du téléchargement d'un fichier de plus de %s"</string>
