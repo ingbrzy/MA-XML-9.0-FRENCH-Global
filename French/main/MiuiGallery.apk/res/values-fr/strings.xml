@@ -33,8 +33,7 @@
     <string name="video_editor_audio_sad">Ballade</string>
     <string name="video_editor_audio_custom">Sélectionner</string>
     <string name="video_editor_unsupport_audio_file">Fichier audio non pris en charge</string>
-    <string name="video_editor_text_none">Aucune</string>
-    <string name="video_editor_text_preview_text">Texte</string>
+    <string name="video_editor_text_preview_text">MI</string>
     <string name="video_editor_text_default">par défaut</string>
     <string name="video_editor_text_input_empty_tips">"Il semble que vous n'ayez saisi aucun texte"</string>
     <string name="video_editor_encode_video">Encodage de la vidéo…</string>
@@ -81,9 +80,9 @@
     <string name="empty_title_no_photos">Aucune photo ou vidéo</string>
     <string name="home_page_empty_action">Prendre une photo</string>
     <string name="recent_album_empty_title">Aucune nouvelle photo ajoutée récemment</string>
-    <string name="people_album_empty_title">Photos can be sorted by people in them</string>
+    <string name="people_album_empty_title">Les photos peuvent être triées par les personnes en elles</string>
     <string name="places_album_empty_title">Les photos peuvent être triées par localisation</string>
-    <string name="things_album_empty_title">Photos can be sorted by objects in them</string>
+    <string name="things_album_empty_title">Les photos peuvent être triées par les objets en elles</string>
     <string name="people_page_label">Personnes</string>
     <string name="ignore_faces_title">Ignoré</string>
     <string name="see_ignore_faces">Voyez les personnes que vous avez ignorées</string>
@@ -287,9 +286,9 @@ Prenez plus de photos à vos amis !"</string>
     <string name="video_err">Lecture impossible</string>
     <string name="exit_video_play">Quitter</string>
     <string name="picker_title_selection_format">Photos sélectionnées : %d</string>
-    <string name="picker_title_format">Select %1$d to %2$d photos</string>
-    <string name="picker_title_specify_format">Select %d photos</string>
-    <string name="picker_title_specify_format_one">Select %d photo</string>
+    <string name="picker_title_format">Sélectionner %1$d à %2$d photos</string>
+    <string name="picker_title_specify_format">Sélectionner %d photos</string>
+    <string name="picker_title_specify_format_one">Sélectionner %d photo</string>
     <string name="picker_title_unlimit">Sélectionner des photos</string>
     <string name="picker_full_format">"Vous pouvez sélectionner jusqu'à %d photos"</string>
     <string name="picker_image_need_download">"%d des photos sélectionnées ne se trouvent pas sur l'appareil. Voulez-vous les télécharger en utilisant vos données mobiles ?"</string>
@@ -601,6 +600,7 @@ le/la %4$s de %3$s partage l'album de %5$s avec vous"</string>
     <string name="welcome_to_slim">Optimiser le stockage local</string>
     <string name="slim_introduce">"Remplace les photos en pleine résolution sur l'appareil par des versions optimisées après les avoir sauvegardées sur Mi Cloud. Celles en pleine résolution sont encore stockées dans Mi Cloud."</string>
     <string name="slim_introduce_with_specific_size">"Remplacer les photos en pleine résolution par des versions optimisées après les avoir sauvegardées sur Mi Cloud. Celles en pleine résolution sont encore stockées dans Mi Cloud. Cela permet d'économiser jusqu'à %1$s de stockage local (Compte Mi requis)."</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="auto_backup_introduce">Sauvegarde les photos et vidéos automatiquement (le Compte Mi est requis)</string>
     <string name="next">Suivant</string>
     <string name="login_and_enable_service">Se connecter avec un Compte Mi</string>
@@ -677,7 +677,8 @@ le/la %4$s de %3$s partage l'album de %5$s avec vous"</string>
     <string name="cloud_storage_ok_append_desc">Disponible %s</string>
     <string name="cloud_storage_warn_title">Stockage insufisant dans Mi Cloud</string>
     <string name="cloud_storage_warn_desc">Achat cloud VIP pour un stockage supplémentaire</string>
-    <string name="cloud_storage_extend">Extend cloud space</string>
+    <string name="percent_sign">%</string>
+    <string name="cloud_storage_extend">"Étendre l'espace de stockage du Cloud"</string>
     <string name="user_agreement2">"Conditions d'Utilisation"</string>
     <string name="user_agreement4">Politique de Confidentialité</string>
     <string name="user_agree">Accepter</string>
@@ -700,7 +701,7 @@ le/la %4$s de %3$s partage l'album de %5$s avec vous"</string>
     <string name="secret_reason_unknow_reasons">Erreur inconnue</string>
     <string name="alert_secret_album_title">Comment voir un album caché</string>
     <string name="alert_secret_album_message">"Balayez vers le bas une fois dans l'onglet Albums pour afficher un album caché."</string>
-    <string name="alert_secret_album_message_lower_case">  swipe down in Albums to view</string>
+    <string name="alert_secret_album_message_lower_case">faites glisser vers le bas dans Albums pour voir</string>
     <string name="alert_secret_album_enter">"C'est compris"</string>
     <string name="all_items_synced">Tous les albums ont été sauvegardés dans Mi Cloud</string>
     <string name="need_to_turn_on_sync">Activer la synchronisation avec Mi Cloud</string>
@@ -784,7 +785,9 @@ le/la %4$s de %3$s partage l'album de %5$s avec vous"</string>
     <string name="search_setting_sub_title">"Recherche d'image améliorée"</string>
     <string name="search_setting_sub_title_open">Appliqué. Veuillez patienter un moment avant de démarrer.</string>
     <string name="search_request_open">"Rejoindre l'équipe de test"</string>
-    <string name="search_title_more">More</string>
+    <string name="search_title_more">Plus</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_icon">search_icon</string>
     <string name="grant_permission_title">"Autoriser l'accès"</string>
     <string name="grant_permission_text">"Galerie a besoin de se connecter à 
 %s
@@ -845,12 +848,12 @@ le/la %4$s de %3$s partage l'album de %5$s avec vous"</string>
     <string name="error_not_synced_tip">Les informations ne sont pas synchronisées.</string>
     <string name="error_not_synced_msg">Les informations ne sont pas synchronisées. Patientez une ou deux minutes et réessayez.</string>
     <string name="error_not_synced_action">Synchroniser maintenant</string>
-    <string name="error_download_tip">"Couldn't download"</string>
+    <string name="error_download_tip">Impossible de télécharger</string>
     <string name="people_mark_mode_title">Sélectionner \" %s \"</string>
     <string name="people_mark_mode_title_no_mark_name">Sélectionner une personne</string>
     <string name="home_menu_cleaner">"Libérer de l'espace"</string>
     <string name="home_menu_collage">Collage</string>
-    <string name="home_menu_photo_movie">Look back</string>
+    <string name="home_menu_photo_movie">Revenir en arrière</string>
     <string name="storage_no_space">Espace libre insuffisant</string>
     <string name="share_album">"Partager l'album"</string>
     <string name="all_video_album_display_name">Toutes les vidéos</string>
@@ -879,10 +882,10 @@ le/la %4$s de %3$s partage l'album de %5$s avec vous"</string>
     <string name="sub_discard_positive_btn">Enregistrer</string>
     <string name="sub_discard_negative_btn">Annuler</string>
     <string name="photo_editor_navigator_cancel">Annuler</string>
-    <string name="photo_editor_navigator_export">Finish</string>
+    <string name="photo_editor_navigator_export">Terminer</string>
     <string name="photo_editor_beautify">Embellir</string>
     <string name="photo_editor_filter">Filtre</string>
-    <string name="photo_editor_crop_and_rotate">Rogner &amp; pivoter</string>
+    <string name="photo_editor_crop_and_rotate">Rogner</string>
     <string name="photo_editor_adjust">Ajuster</string>
     <string name="photo_editor_sticker">Autocollant</string>
     <string name="photo_editor_doodle">Dessiner</string>

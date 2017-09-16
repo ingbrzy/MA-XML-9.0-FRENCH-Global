@@ -80,7 +80,7 @@
         <item></item>
     </string-array>
     <string-array name="thermal_entries">
-        <item>Default warm control mode</item>
+        <item>Mode Contrôle de chaleur par défaut</item>
         <item>Mode performance en premier</item>
     </string-array>
     <string-array name="thermal_summaries">

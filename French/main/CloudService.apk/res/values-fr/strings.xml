@@ -69,13 +69,14 @@
     <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". Vous pouvez activer et désactiver cette fonctionnalité quand vous le voulez dans les Paramètres.
 "</string>
-    <string name="sync_dspt_entrance_provision">"Synchronise vos photos, contacts, historique d'appels et messages entre vos appareils. Vous pouvez accéder aux données synchronisées sur %s. "</string>
+    <string name="sync_dspt_entrance_provision">"Mi Cloud vous aide à synchroniser vos photos, contacts et plus à travers vos appareils. Vous pouvez accéder aux fichiers que vous avez synchronisés depuis n'importe quel navigateur sur %s. "</string>
     <string name="sync_dspt_entrance_provision_2">En savoir plus</string>
     <string name="sync_dspt_entrance_provision_confirm_close">Ne pas utiliser</string>
     <string name="sync_dspt_entrance_provision_confirm_open">Utiliser Mi Cloud</string>
     <string name="sync_dspt_entrance_provision_confirm_title">Ne pas utiliser Mi Cloud ?</string>
     <string name="sync_dspt_entrance_provision_confirm_content">"Les applications intégrées à MIUI ont besoin de Mi Cloud pour sauvegarder vos photos, contacts, notes et plus encore. Mi Cloud est gratuit et prêt à l'emploi."</string>
     <string name="sync_dspt_entrance_provision_skip">Ignorer cette étape</string>
+    <string name="sync_dspt_entrance_provision_network">Cette application doit se connecter à Internet pour fonctionner normalement. Les données de synchronisation peuvent être connectées au réseau de données et au Wi-Fi ouvert.</string>
     <string name="find_device_dspt_provision">Si vous perdez votre appareil, vous pouvez aller sur %s pour localiser, verrouiller ou réinitialiser celui-ci. Vous pouvez activer ou désactiver cette fonction dans les Paramètres.</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
@@ -265,7 +266,7 @@ Pour résoudre ce problème, vous pouvez supprimer les anciens fichiers, ou ache
     <string name="micloud_main_space_low">Bientôt plein</string>
     <string name="micloud_main_update_space">"Obtenir plus d'espace de stockage."</string>
     <string name="micloud_main_space_full_title">Espace de stockage insuffisant, la synchronisation a été mise en pause</string>
-    <string name="micloud_main_space_full_message">Upgrade to member will obtain more storage space</string>
+    <string name="micloud_main_space_full_message">"La mise à niveau vers un membre obtiendra plus d'espace de stockage"</string>
     <string name="micloud_main_memory_low_title">Le stockage interne du téléphone est presque plein</string>
     <string name="micloud_main_memory_low_message">Pour synchroniser, supprimez quelques éléments sauvegardés dans le cloud.</string>
     <string name="micloud_main_clear_now">Vider</string>
@@ -275,14 +276,14 @@ Pour résoudre ce problème, vous pouvez supprimer les anciens fichiers, ou ache
     <string name="micloud_main_multi_user_error_message">"Vous vous êtes connecté avec le compte utilisé dans le premier espace, ce qui a provoqué une erreur Mi Cloud.
 Veuillez utiliser un autre compte."</string>
     <string name="micloud_main_cancel_sync">Annuler la synchronisation</string>
-    <string name="micloud_main_query_again">Query</string>
+    <string name="micloud_main_query_again">Requête</string>
     <string name="micloud_main_wait_wlan">En attente du Wi-Fi</string>
-    <string name="micloud_main_wait_wlan_charge_sleep">Waiting for Wi-Fi, connecting charger and turn off screen</string>
-    <string name="micloud_main_wait_wlan_charge">Waiting for Wi-Fi, connecting charger</string>
-    <string name="micloud_main_wait_charge_sleep">Waiting for connecting charger and turn off screen</string>
-    <string name="micloud_main_wait_charge">Waiting for connecting charger</string>
+    <string name="micloud_main_wait_wlan_charge_sleep">"En attente du Wi-Fi, branchez le chargeur et éteignez l'écran"</string>
+    <string name="micloud_main_wait_wlan_charge">En attente du Wi-Fi, branchez le chargeur</string>
+    <string name="micloud_main_wait_charge_sleep">"En attendant de brancher le chargeur et éteindre l'écran"</string>
+    <string name="micloud_main_wait_charge">En attendant de brancher le chargeur</string>
     <string name="micloud_main_resume_sync_soon">Reprendre la synchronisation bientôt</string>
-    <string name="micloud_main_button_set_internet">Setting</string>
+    <string name="micloud_main_button_set_internet">Paramètre</string>
     <string name="micloud_main_button_activate">Activer</string>
     <string name="micloud_main_button_authorize">Autoriser</string>
     <string name="micloud_detail_syncing">Synchronisation</string>
@@ -291,7 +292,7 @@ Veuillez utiliser un autre compte."</string>
     <string name="micloud_detail_pending">En attente</string>
     <string name="micloud_detail_success">Synchronisé</string>
     <string name="micloud_detail_fail">Synchronisation impossible</string>
-    <string name="micloud_detail_not_syncable">Not syncable</string>
+    <string name="micloud_detail_not_syncable">Non synchronisable</string>
     <string name="micloud_detail_lastest">Synchronisé</string>
     <string name="micloud_detail_lastest_with_off">Synchronisé</string>
     <string name="micloud_detail_not_synced">Non synchronisé</string>
@@ -409,10 +410,10 @@ Dernière sauvegarde à %2$s"</string>
     <string name="micloud_main_title_sync_on_wifi">Activez le Wi-Fi</string>
     <string name="micloud_main_title_sync_off">Synchronisation désactivée</string>
     <string name="micloud_main_title_master_sync_off">Synchro auto désactivée</string>
-    <string name="micloud_main_message_master_sync_off">Auto sync setting is in notification bar.</string>
-    <string name="micloud_main_error_network_disallowed">Please ensure the permission of accessing Internet.</string>
+    <string name="micloud_main_message_master_sync_off">Paramètre de la synchronisation automatique est dans le panneau de notifications.</string>
+    <string name="micloud_main_error_network_disallowed">"Veuillez vous accorder l'autorisation d'accéder à Internet."</string>
     <string name="micloud_main_error_activated_fail">Veuillez activer la carte SIM.</string>
-    <string name="micloud_main_error_permission_limit">Please authorize access database permission for micloud.</string>
+    <string name="micloud_main_error_permission_limit">"Veuillez autoriser l'accès à la base de données de Mi Cloud."</string>
     <string name="micloud_confusion_no">Non</string>
     <string name="micloud_confusion_yes">Oui</string>
     <string name="micloud_confusion_cancel">Annuler</string>
@@ -507,7 +508,7 @@ Dernière sauvegarde à %2$s"</string>
     <string name="micloud_find_device_guide_alert_negtive">Non merci</string>
     <string name="micloud_find_device_guide_alert_negtive_activate">Non merci</string>
     <string name="micloud_find_device_close_alert_title">"Désactiver Localiser l'appareil ?"</string>
-    <string name="micloud_find_device_close_alert_content">"If you turn this feature off, you wan't be able to locate your device in case it's lost."</string>
+    <string name="micloud_find_device_close_alert_content">Si vous désactivez cette fonctionnalité, vous ne serez plus en mesure de localiser votre appareil en cas de perte.</string>
     <string name="micloud_find_device_close_alert_positive">Continuer</string>
     <string name="micloud_find_device_close_alert_negtive">Désactiver quand même</string>
     <string name="activate_finddevice">"Connectez-vous à Internet pour activer votre l'appareil"</string>

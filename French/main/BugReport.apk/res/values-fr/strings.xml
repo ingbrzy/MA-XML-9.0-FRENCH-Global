@@ -170,14 +170,12 @@
     <string name="mobile_data_note_dialog_content_with_file_size">Envoyer les fichiers journaux en utilisant la connexion de données mobiles nécessite %s Mo de données.</string>
     <string name="mobile_data_note_dialog_cancel">En attente du Wi-Fi</string>
     <string name="mobile_data_note_dialog_confirm">Ajouter</string>
-    <string name="bugreport_tool_log_toast_generate_bugreport">"Création du rapport d'erreur (dure environ 1 minute)"</string>
-    <string name="bugreport_tool_log_toast">Journal enregistré dans %s</string>
-    <string name="bugreport_tool_log">Créer un rapport de bug</string>
-    <string name="modem_tool_log">Capturer les journaux du modem</string>
-    <string name="modem_tool_log_start">Démarrer</string>
-    <string name="modem_tool_log_stop">Arrêter</string>
-    <string name="modem_tool_log_start_toast">Sauvegarde du journal de modem vers %s</string>
-    <string name="modem_tool_log_stop_toast">Sauvegarde interrompue du journal de modem vers %s</string>
+    <string name="modem_tool_log_dumping_title">Capturer des journaux de modem</string>
+    <string name="modem_tool_log_dumping_desc">"Appuyez sur l'icône pour arrêter"</string>
+    <string name="bugreport_tool_log_dumping_title">Créer un rapport de bogue</string>
+    <string name="bugreport_tool_log_dumping_desc">Cela prendra environ une minute</string>
+    <string name="modem_tool_log_finish_title">Journal modem capturé</string>
+    <string name="modem_tool_log_finish_desc">Journal enregistré sous %s</string>
     <string name="bugreport_dialog_not_show_again">Ne plus afficher</string>
     <string name="bugreport_dialog_submit_content">Votre commentaire pourrait contenir des informations personnelles et vos données de localisation.</string>
     <string name="bugreport_dump_start_notification_title">"Création du journal d'erreurs…"</string>
@@ -210,7 +208,7 @@
     <string name="feedback_title">Titre</string>
     <string name="feedback_description">Description</string>
     <string name="feedback_select_images">Ajouter des images</string>
-    <string name="feedback_delete_images">Delete images</string>
+    <string name="feedback_delete_images">Supprimer des messages</string>
     <string name="feedback_select_upload_log">Ajouter des journaux</string>
     <string name="feedback_select_modem_log">Ajouter les journaux du modem</string>
     <string name="feedback_select_suggestion">Suggestions</string>
@@ -295,11 +293,11 @@
     <string name="module_search">Rechercher</string>
     <string name="module_google_apps">Applications Google</string>
     <string name="feedback_submit_hint">Toujours signaler les bogues lorsque vous rencontrez des problèmes afin de nous aider à les résoudre plus rapidement.</string>
-    <string name="feedback_submit_hint_gone">Closed message</string>
+    <string name="feedback_submit_hint_gone">Commentaire envoyé</string>
     <string name="toast_post_deleted">"Ce sujet n'existe pas, il a été supprimé ou modifié."</string>
     <string name="toast_log_not_exists">"Le journal requis a été supprimé ou n'existe pas"</string>
     <string name="toast_pic_not_exists">"L'image en cache a été supprimée"</string>
-    <string name="toast_screenshot_too_large">"Can't upload files bigger than 10MB."</string>
+    <string name="toast_screenshot_too_large">Impossible de charger des fichiers de plus de 10 Mo.</string>
     <string name="title_bbs_feedback_main">En savoir plus sur les téléphones Mi</string>
     <string name="title_customer_service">Service clientèle</string>
 </resources>

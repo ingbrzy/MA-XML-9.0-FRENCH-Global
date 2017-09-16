@@ -209,8 +209,8 @@ Appuyez sur %s pour démarrer ce téléchargement la prochaine fois que vous ser
     <string name="lyric_open_other_connect">Télécharger les paroles en utilisant le réseau mobile</string>
     <string name="playback_failed_no_title_by_bad_file">"Ce format de musique n'est pas supporté ou le fichier n'existe pas."</string>
     <string name="streamloadingtext">Connexion à %s</string>
-    <string name="toast_new_playlist_name_too_long">Playlist name is too long</string>
-    <string name="toast_new_playlist_name_no_enter">"Can't start a new paragraph"</string>
+    <string name="toast_new_playlist_name_too_long">Le nom de la playlist est trop long</string>
+    <string name="toast_new_playlist_name_no_enter">Impossible de commencer un nouveau paragraphe</string>
     <string name="error_title">Impossible de synchroniser avec le compte Mi</string>
     <string name="error_unauthorized">"Synchronisation arrêtée suite à un trop grand nombre de tentatives d'authentification."</string>
     <string name="error_forbidden">La synchronisation a été arrêtée suite à des problèmes avec votre compte Mi.</string>
@@ -494,6 +494,7 @@ Appuyez sur %s pour démarrer ce téléchargement la prochaine fois que vous ser
     <string name="please_search_or_select">Rechercher ou sélectionner un champ</string>
     <string name="in_searching_please_wait">Recherche…</string>
     <string name="no_file_picker_find">"L'Explorateur de Fichier n'est pas installé sur cet appareil"</string>
+    <string name="no_system_cropper_find">"Le système ne dispose d'aucune application pour rogner les images"</string>
     <string name="set_lyric_successful">Paroles enregistrées</string>
     <string name="set_album_successful">Album enregistré</string>
     <string name="set_id3_successful">Informations de la chanson enregistrées</string>
@@ -783,7 +784,7 @@ Appuyez sur %s pour démarrer ce téléchargement la prochaine fois que vous ser
     <string name="desktop_lyric_dialog_title">Essayer maintenant</string>
     <string name="desktop_lyric_dialog_msg">"Activer ou désactiver les paroles de l'Écran d'accueil dans Musique > Paramètres > Paramètres avancés"</string>
     <string name="desktop_lyric_dialog_positive_button">Essayer maintenant</string>
-    <string name="desktop_lyric_lock_toast">Verrouillé. Vous pouvez déverrouiller Musique dans la barre de notifications.</string>
+    <string name="desktop_lyric_lock_toast">Verrouillé. Vous pouvez déverrouiller Musique dans le panneau de notifications.</string>
     <string name="setting_feature_setting">Paramètres de fonctionnalités</string>
     <string name="traffic_network_alert">Plan de données de Mi Musique</string>
     <string name="traffic_network_alert_message">Vous utilisez les données mobiles Mi Musique produites par China Unicom. Vous devez vous connecter à un réseau 3gnet pour diffuser la musique sans consommer vos données mobiles.</string>
@@ -846,8 +847,8 @@ Appuyez sur %s pour démarrer ce téléchargement la prochaine fois que vous ser
     <string name="talkback_favorite">"J'aime cette chanson"</string>
     <string name="talkback_progress">Barre de progression</string>
     <string name="talkback_back">Retour</string>
-    <string name="talkback_nowplaying_circle">Play circle</string>
-    <string name="talkback_nowplaying_bar">Play bar</string>
+    <string name="talkback_nowplaying_circle">Lecture en boucle</string>
+    <string name="talkback_nowplaying_bar">Barre de lecture</string>
     <string name="cloud_music">Chansons dans Mi Cloud</string>
     <string name="backup_immediate">Sauvegarder</string>
     <string name="backup_song_title">Sélectionner les chansons à sauvegarder</string>

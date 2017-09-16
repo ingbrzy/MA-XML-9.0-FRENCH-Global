@@ -7,7 +7,6 @@
     <string name="passport_login_title">Connectez-vous à votre compte Mi</string>
     <string name="passport_login">Se connecter</string>
     <string name="passport_relogin">Se connecter à nouveau</string>
-    <string name="passport_instant_login">Sign in</string>
     <string name="passport_skip_login">Ignorer</string>
     <string name="passport_skip_setup_account_title">Ignorer la configuration</string>
     <string name="passport_skip_setup_account_msg">Vous pouvez configurer votre compte Mi plus tard dans Paramètres.</string>
@@ -83,7 +82,7 @@ Pour activer votre compte, suivez le
     <string name="passport_delete_account">Se Déconnecter</string>
     <string name="passport_vcode_notification_title">"La vérification n'est pas terminée"</string>
     <string name="passport_account_name">Compte : %1$s</string>
-    <string name="passport_account_hint_text">Email address, phone number or Mi Account ID</string>
+    <string name="passport_account_hint_text">Adresse e-mail, numéro de téléphone ou ID du Compte Mi</string>
     <string name="passport_email_or_id_hint_text">Adresse email ou ID du compte Mi</string>
     <string name="passport_phone_num_hint_text">Numéro de téléphone</string>
     <string name="passport_input_password_hint">Saisir le mot de passe</string>
@@ -110,6 +109,9 @@ Pour activer votre compte, suivez le
     <string name="passport_completed">Terminer</string>
     <string name="passport_verify">Vérifier</string>
     <string name="passport_restart">Recomencer du début</string>
+    <string name="passport_yes">Oui</string>
+    <string name="passport_no">Non</string>
+    <string name="passport_continue">Continue</string>
     <string name="passport_loading">Chargement…</string>
     <string name="passport_reging">Inscription…</string>
     <string name="passport_checking_account">Vérification du mot de passe…</string>
@@ -174,15 +176,22 @@ Pour activer votre compte, suivez le
     <string name="passport_error_verify_activator_phone_message">"Assurez-vous que le service de la carte SIM est activé et que l'appareil est connecté au réseau."</string>
     <string name="passport_error_no_password_user">"Vous n'avez pas encore défini de mot de passe. Connectez-vous via SMS."</string>
     <string name="passport_phone_ticket_login">Se connecter via SMS</string>
+    <string name="passport_quick_register">"S'enregistrer"</string>
     <string name="passport_account_set_password">Définir le mot de passe</string>
     <string name="passport_account_set_password_title">Définir le mot de passe</string>
     <string name="passport_account_set_password_prompt">Définissez le mot de passe de votre compte afin de vous connecter la prochaine fois.</string>
     <string name="passport_set">Définir</string>
-    <string name="passport_user_reg_region">Country/Region</string>
-    <string name="passport_user_id_notice">您的小米ID是: %s</string>
-    <string name="passport_user_reg_region_warning">"You Won't be able to change your country/region once the account is created"</string>
-    <string name="passport_sync_account_data">正在同步您的帐号数据</string>
-    <string name="passport_sync_account_data_failed_warning">您的帐号数据有延迟,将只能使用小米ID登录。若使用邮箱/手机登录,请稍等几分钟</string>
+    <string name="passport_set_password_no_phone_msg">Ajouter votre numéro de téléphone pour protéger votre compte.</string>
+    <string name="passport_user_reg_region">Pays/Région</string>
+    <string name="passport_user_id_notice">Votre ID de compte Mi est %s.</string>
+    <string name="passport_user_reg_region_warning">Vous ne serez plus en mesure de modifier votre pays/région une fois le compte créé.</string>
+    <string name="passport_sync_account_data">Synchronisation des informations du compte…</string>
+    <string name="passport_sync_account_data_failed_warning">"Les infos de votre compte sont en cours de synchronisation actuellement, vous pouvez vous connecter grâce à votre compte Mi. Si vous souhaitez vous connecter avec votre numéro de téléphone, patientez jusqu'à ce que les informations soient complèment synchronisées."</string>
+    <string name="passport_confirm_recycle_account_msg">%s &lt;font color=Red>疑似&lt;/font>是运营商回收后再次收买的号码，该号码下已有小米帐号，这个帐号是你的吗？</string>
+    <string name="passport_login_recycle_account_yes">Yes</string>
+    <string name="passport_login_recycle_account_no">Nope</string>
+    <string name="passport_reg_recycle_account_yes">Yes</string>
+    <string name="passport_reg_recycle_account_no">Nope</string>
     <string name="search_app_name">Compte Mi</string>
     <string name="search_mi_account">Compte Mi</string>
     <string name="search_mi_account_key_words">Mi Cloud, Paramètre de compte, Informations Mi Pay, Se déconnecter</string>
@@ -272,7 +281,7 @@ Pour activer votre compte, suivez le
     <string name="confirm_phone_number_dialog_title">Confirmer le numéro de téléphone</string>
     <string name="confirm_bundled_phone_dialog_title">Confirmer le numéro de téléphone associé</string>
     <string name="confirm_phone_number_dialog_message">Le code de vérification sera envoyé à %s.</string>
-    <string name="confirm_unbundled_phone_dialog_message">Le numéro de téléphone %1$s est associé avec le Compte Mi %2$s. Il ne sera plus associé avec le compte Mi %3$s si vous continuez ?</string>
+    <string name="confirm_unbundled_phone_dialog_message">Le numéro de téléphone %1$s est associé au Compte Mi %2$s. Il ne sera plus associé au compte Mi %3$s si vous continuez. Continuer ?</string>
     <string name="change_phone_number">Modifier le numéro de téléphone</string>
     <string name="change_email_address">"Modifier l'adresse e-mail"</string>
     <string name="checking_phone_num_availible">Vérification du téléphone…</string>
@@ -305,13 +314,14 @@ Pour activer votre compte, suivez le
     <string name="update_email_address_dialog_message">Vous devez vérifier votre identité avant de mettre à jour votre E-mail.</string>
     <string name="account_user_details">Infos personnelles</string>
     <string name="account_security">Sécurité du compte</string>
+    <string name="account_mibi_center">Crédits Mi</string>
     <string name="account_mipay_info">Mi Pay</string>
     <string name="account_xiaomi_service">Services</string>
     <string name="cloud_service">Mi Cloud</string>
     <string name="vip_account_settings">Paramètres VIP</string>
     <string name="xiao_mi_vip">Mi VIP</string>
-    <string name="mi_vip_info">查看我的特权</string>
-    <string name="vip_settings_info">我的数据中心</string>
+    <string name="mi_vip_info">Voir les privilèges</string>
+    <string name="vip_settings_info">Paramètres VIP</string>
     <string name="loading_micloud_sync_data">Un instant…</string>
     <string name="activity_not_found_notice">"Impossible de trouver l'application"</string>
     <string name="scan_barcode_title">Scannez le Code QR pour vous connecter</string>
@@ -381,9 +391,9 @@ Pour activer votre compte, suivez le
     <string name="verify_phone_prompt">Sélectionner un numéro de téléphone pour vérifier</string>
     <string name="sms_send_success">Envoyé</string>
     <string name="auth_fail_warning">La session a expiré, veuillez vous reconnecter plus tard</string>
-    <string name="find_device_message">"L'appareil actuel est verrouillé, message : %1$s, numéro de téléphone : %2$s."</string>
-    <string name="find_device_owner_phone">"L'appareil actuel est verrouillé, numéro de téléphone : %1$s."</string>
-    <string name="find_device_prompt_message">"L'appareil actuel est verrouillé, message : %1$s."</string>
+    <string name="find_device_message">Appareil verrouillé. Message : %1$s. Appeler %2$s.</string>
+    <string name="find_device_owner_phone">Appareil verrouillé. Appeler %1$s.</string>
+    <string name="find_device_prompt_message">Appareil verrouillé. Message : %1$s.</string>
     <string name="find_device_activate_account">Activer votre compte</string>
     <string name="login_check_find_device">Obtention des informations de sécurité…</string>
     <string name="unlock_help_notice">"Help:
@@ -425,5 +435,5 @@ Pour activer votre compte, suivez le
     <string name="account_token_expired_title">"Échec de l'authentification"</string>
     <string name="account_token_expired_msg">"Le code de vérification a expiré, recommencez ou déconnectez-vous
 L'ID de votre compte : %s"</string>
-    <string name="bind_safe_phone_msg">Add safe phone for next sign in</string>
+    <string name="bind_safe_phone_msg">Ajoutez votre numéro de téléphone pour être en mesure de vous connecter à votre compte Mi la prochaine fois.</string>
 </resources>

@@ -32,6 +32,7 @@ Taille de la mise à jour : %2$s"</string>
     <string name="delete_backup_title">Supprimer la sauvegarde</string>
     <string name="delete">Supprimer</string>
     <string name="cancel">Annuler</string>
+    <string name="reconnect">Reconnecter</string>
     <string name="delete_backup_process">Suppression...</string>
     <string name="backup_error">Impossible de sauvegarder</string>
     <string name="delete_failed_backup_confirm">Cette sauvegarde contient des erreurs.</string>
@@ -226,6 +227,7 @@ Taille de la mise à jour : %2$s"</string>
     <string name="file_uploading">Envoi…</string>
     <string name="new_backup">Sauvegarder</string>
     <string name="restore_backup">Restaurer</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Un instant…</string>
     <string name="state_mounting">Accès au stockage du routeur…</string>
     <string name="abort_backup_confirm">"La sauvegarde n'est pas terminée. Arrêter quand même ?"</string>
@@ -259,6 +261,7 @@ Taille de la mise à jour : %2$s"</string>
     <string name="notif_trans_receiving_completed">Données reçues avec succès</string>
     <string name="notif_trans_sending_failed">"Impossible d'envoyer les données"</string>
     <string name="notif_trans_receiving_failed">Impossible de recevoir les données</string>
+    <string name="notif_trans_wait_for_reconnecting">"L'appareil distant est déconnecté. Veuillez reconnecter."</string>
     <string name="custom_progress">%d éléments</string>
     <string name="remote_receive">Recevoir</string>
     <string name="click_to_view">Appuyez pour voir</string>
@@ -307,6 +310,7 @@ Temps écoulé : %s"</string>
     <string name="trans_cancel_confirm">Transfert en cours, arrêter maintenant ?</string>
     <string name="trans_cancelling">Annulation…</string>
     <string name="trans_device_disconnected">Appareil déconnecté</string>
+    <string name="trans_device_wait_for_reconnecting">Appareil déconnecté. Veuillez reconnecter.</string>
     <string name="trans_connecting_toast">Connexion…</string>
     <string name="trans_connect_failed_toast">Impossible de se connecter</string>
     <string name="trans_generate_qr_code_failed">Impossible de créer le code QR</string>
@@ -322,6 +326,10 @@ Appuyer [Je suis le receveur] pour créer le code QR"</string>
 2. Ouvrir l'application et appuyer sur Démarrer
 3. Scanner le Code QR avec votre ancien appareil"</string>
     <string name="trans_operate_old_phone_tips2">"Allez dans Paramètres > Paramètres supplémentaires > Mi Mover, appuyez sur [Je suis l'expéditeur]"</string>
+    <string name="trans_operate_reconnect_new_tips">"Patientez jusqu'à ce que le nouveau téléphone affiche \" Appareil déconnecté \".
+Puis appuyez sur [Reconnecter] pour créer un code QR."</string>
+    <string name="trans_operate_reconnect_old_tips">"Patientez jusqu'à ce que l'ancien téléphone affiche \" Appareil déconnecté \".
+Puis appuyez sur [Reconnecter] pour scanner le code QR."</string>
     <string name="trans_wait_trans_data">"Connectez l'ancien appareil.
 En attente de transfert…"</string>
     <string name="trans_select_data">Sélectionner les éléments à envoyer</string>
@@ -344,6 +352,7 @@ Vider au moins %s."</string>
     <string name="trans_retry">Réessayer</string>
     <string name="trans_start_failed_title">Impossible de démarrer le transfert</string>
     <string name="trans_start_failed_message">Impossible de démarrer le transfert, essayez encore ou redémarrez votre appareil.</string>
+    <string name="trans_connect_failed_device_incompatible">appareil incompatible. Veuillez annuler la progression du transfert et réessayez.</string>
     <string name="trans_connection_failed">Appareil déconnecté</string>
     <string name="user_notice_title">Attention</string>
     <string name="user_notice_message">"Certaines fonctionnalités ont besoin d'une connexion Internet pour fonctionner normalement."</string>

@@ -67,7 +67,7 @@
     <string name="card_title_threeway_call">Conférence à trois</string>
     <string name="card_title_incoming_call">Appel entrant</string>
     <string name="card_title_answering">Répondre à un appel</string>
-    <string name="card_title_answering_time_out">"Couldn't answer call, try again."</string>
+    <string name="card_title_answering_time_out">"Impossible de répondre à l'appel, réessayez."</string>
     <string name="card_title_call_ended">"Appel terminé "</string>
     <string name="card_title_on_hold">"En attente "</string>
     <string name="card_title_hanging_up">"Fin de l'appel "</string>
@@ -127,7 +127,7 @@
     <string name="unlock_phone">"Déverrouiller l'appareil"</string>
     <string name="remind_unlock_message">Votre appareil est actuellement verrouillé. \"%s\" sera disponible lorsque vous déverrouillerez votre appareil. Déverrouiller maintenant ?</string>
     <string name="user_locked_prompt">"Déverrouiller l'appareil pour accéder aux contacts."</string>
-    <string name="package_not_available">\"%s\" is not available</string>
+    <string name="package_not_available">"\"%s\" n'est pas disponible"</string>
     <string name="select_voice_call_sim">Choisir une carte SIM</string>
     <string name="msim_select_default_time_left">(%d s)</string>
     <string name="select_sim_hint">"Impossible d'accéder à la SIM %2$d, lorsque la SIM %1$d est en cours d'utilisation."</string>

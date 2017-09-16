@@ -6,13 +6,13 @@
     <string name="explain_send_sms_permission_msg">"Pour activer %s, le service de Framework de Xiaomi vous enverra un SMS pour vérifier votre numéro de téléphone. Vous serez facturé pour le prix d'un SMS normal par l'opérateur."</string>
     <string name="explain_send_sms_permission_button">Vérifier</string>
     <string name="activate_phone_failed_notif_title">"Impossible d'activer la carte SIM"</string>
-    <string name="activate_phone_failed_notif_title_msim">"Can't activate SIM card %d"</string>
+    <string name="activate_phone_failed_notif_title_msim">"Impossible d'activer la carte SIM %d"</string>
     <string name="activate_phone_success_notif_title">Carte SIM activée</string>
-    <string name="activate_phone_success_notif_title_msim">SIM card %d activated</string>
+    <string name="activate_phone_success_notif_title_msim">Carte SIM %d activée</string>
     <string name="activate_phone_cancel_notif_title">"L'activation de la carte SIM a été annulée"</string>
-    <string name="activate_phone_cancel_notif_title_msim">SIM card %d activation cancelled</string>
+    <string name="activate_phone_cancel_notif_title_msim">"L'activation de la carte SIM %d a été annulée"</string>
     <string name="activate_status_title_activating">Activation de la carte SIM…</string>
-    <string name="activate_status_title_activating_msim">Activating SIM card %d…</string>
+    <string name="activate_status_title_activating_msim">Activation de la carte SIM %d…</string>
     <string name="activate_auto_sms_notification_title">Activation de la carte SIM</string>
     <string name="activate_auto_sms_notification_desc_2_cards">"SMS envoyé de la carte SIM %s pour activer \"Localiser l'appareil\""</string>
     <string name="activate_auto_sms_notification_desc_1_card">"SMS envoyé pour activer \"Localiser l'appareil\""</string>
@@ -108,11 +108,11 @@ Entrez le numéro de téléphone associé à votre nouvelle carte SIM pour réac
     <string name="activate_history_multisim_success_overview">"Carte SIM %2$d activée avec succès. L'activation est déclenchée par %1$s\"."</string>
     <string name="activate_history_multisim_canceled_overview">"L'activation de la carte SIM %2$d a été annulée. L'activation est déclenchée par %1$s\"."</string>
     <string name="activate_history_sms">"Un SMS a été envoyé pendant l'activation."</string>
-    <string name="phone_verify_title">Agree %1$s to verify your phone number</string>
-    <string name="phone_verify_text">%1$s will not get your phone number，just verify your phone number is match。</string>
-    <string name="phone_verify_processing">verifying…</string>
-    <string name="phone_get_title">Agree %1$s to get your phone number</string>
-    <string name="phone_get_text">Do you agree %1$s to get your phone number：%2$s</string>
-    <string name="phone_get_processing">getting…</string>
-    <string name="agree">Agree</string>
+    <string name="phone_verify_title">Accepter %1$s pour vérifier votre numéro de téléphone</string>
+    <string name="phone_verify_text">"%1$s n'obtiendra pas votre numéro de téléphone, vérifiez juste que votre numéro de téléphone correspond."</string>
+    <string name="phone_verify_processing">vérification…</string>
+    <string name="phone_get_title">Accepter %1$s pour obtenir votre numéro de téléphone</string>
+    <string name="phone_get_text">Autorisez-vous %1$s à obtenir votre numéro de téléphone : %2$s</string>
+    <string name="phone_get_processing">obtention…</string>
+    <string name="agree">Accepter</string>
 </resources>

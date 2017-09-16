@@ -13,8 +13,8 @@
         <item quantity="one">Récemment ouvert, application disponible : %d. Balayez vers le haut pour retirer, balayez vers le bas pour verrouiller.</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d toggles will be shown in the Notification shade</item>
-        <item quantity="one">%1$d toggle will be shown in the Notification shade</item>
+        <item quantity="other">%1$d interrupteurs seront affichés sur le panneau de notification</item>
+        <item quantity="one">%1$d interrupteur sera affiché sur le panneau de notification</item>
     </plurals>
     <plurals name="disable_notification_confirm_title">
         <item quantity="other">Cacher les notifications de %d applications ?</item>
@@ -29,7 +29,7 @@
         <item quantity="one">Ensoleillé</item>
     </plurals>
     <plurals name="fold_tips_title">
-        <item quantity="other">%d unimportant notifications</item>
-        <item quantity="one">%d unimportant notification</item>
+        <item quantity="other">%d notifications sans importance</item>
+        <item quantity="one">%d notification sans importance</item>
     </plurals>
 </resources>

@@ -2,12 +2,12 @@
 <resources>
     <string name="backup_confirm_title">Sauvegarde complète</string>
     <string name="restore_confirm_title">Restauration complète</string>
-    <string name="backup_confirm_text">"Vous avez demandé une sauvegarde complète de l'ensemble des données vers un ordinateur connecté. Voulez-vous l'autoriser ?
+    <string name="backup_confirm_text">"Vous avez demandé une sauvegarde complète de l'ensemble des données vers un ordinateur de bureau connecté. Voulez-vous l'autoriser ?
 
 Si vous n'avez pas demandé la sauvegarde vous-même, n'autorisez pas la poursuite de l'opération."</string>
     <string name="allow_backup_button_label">Sauvegarder mes données</string>
     <string name="deny_backup_button_label">Ne pas sauvegarder</string>
-    <string name="restore_confirm_text">"Vous avez demandé une restauration complète de l'ensemble des données à partir d'un ordinateur connecté. Voulez-vous l'autoriser ?
+    <string name="restore_confirm_text">"Vous avez demandé une restauration complète de l'ensemble des données à partir d'un ordinateur de bureau connecté. Voulez-vous l'autoriser ?
 
 Si vous n'avez pas demandé vous-même la restauration, n'autorisez pas sa poursuite. Cette opération remplacera toutes les données actuellement sur l'appareil !"</string>
     <string name="allow_restore_button_label">Restaurer mes données</string>

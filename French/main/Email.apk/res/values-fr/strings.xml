@@ -5,6 +5,7 @@
     <string name="SMTP_username_text">"Nom d'utilisateur"</string>
     <string name="account_duplicate_dlg_message_fmt">"Vous utilisez déjà ce nom d'utilisateur pour le compte \"%s\"."</string>
     <string name="account_duplicate_dlg_title">Dupliquer le compte</string>
+    <string name="account_failure">Session expirée</string>
     <string name="account_name_toast">Un compte avec le même nom existe déjà</string>
     <string name="account_options_sync_title">Synchroniser</string>
     <string name="account_password_spaces_error">"Ce mot de passe débute ou se termine par un ou plusieurs
@@ -24,8 +25,8 @@
     <string name="account_setting_message_body_load_text">Corps uniquement</string>
     <string name="account_settings_action">Paramètres du compte</string>
     <string name="account_settings_background_attachments_label">Télécharger les pièces jointes</string>
-    <string name="account_settings_background_attachments_summary">Download attachments using WLAN</string>
-    <string name="account_settings_background_attachments_summary_inter">Download attachments using Wi-Fi</string>
+    <string name="account_settings_background_attachments_summary">Télécharger les pièces jointes via Wi- Fi</string>
+    <string name="account_settings_background_attachments_summary_inter">Télécharger les pièces jointes via Wi- Fi</string>
     <string name="account_settings_data_usage">Paramètres de synchronisation</string>
     <string name="account_settings_description_label">Nom du compte</string>
     <string name="account_settings_edit_quick_responses_label">Réponse rapide</string>
@@ -206,7 +207,7 @@
     <string name="auto_remind_text">Rappels automatiques</string>
     <string name="auto_remind_unbind">Arrêter</string>
     <string name="auto_sync_off">Synchronisation auto désactivée.</string>
-    <string name="automatic_remind_text">自动提醒</string>
+    <string name="automatic_remind_text">Rappeler automatiquement</string>
     <string name="bank_card_detail">Infos de la carte de crédit</string>
     <string name="battery_saver">Économiseur de batterie</string>
     <string name="battery_saver_keywords">économiseur de batterie;e-mail batterie</string>
@@ -229,7 +230,7 @@
     <string name="calendar_remind_gridview_pick_date">Choisir une date</string>
     <string name="cancel">Annuler</string>
     <string name="cancel_action">Annuler</string>
-    <string name="cancel_pop3_attchemt_downloading">pop3类型的帐号不能取消下载中的附件</string>
+    <string name="cancel_pop3_attchemt_downloading">"Impossible d'annuler les téléchargements en cours pour les pièces jointes dans les comptes POP3"</string>
     <string name="cant_move_or_change_labels">Impossible de déplacer des messages depuis plusieurs comptes.</string>
     <string name="cc">Cc</string>
     <string name="cc_attribution">Cc : %1$s&lt;br></string>
@@ -238,6 +239,7 @@
     <string name="change_folders_selection_dialog_title">Changement de dossier</string>
     <string name="change_sync_settings">Modifier les paramètres de synchronisation</string>
     <string name="changepw_dialog_tips">Entrez à nouveau le mot de passe de %s</string>
+    <string name="changepw_dialog_tips_please_clikc_btn">Afficher le code de vérification sur %s et connectez-vous à nouveau.</string>
     <string name="chat_item_msg_people_unit">personnes</string>
     <string name="chat_item_msg_user_etc">etc.</string>
     <string name="check_setup_data">Validation des paramètres du serveur…</string>
@@ -446,6 +448,7 @@
     <string name="gmail_web_login_go">OK</string>
     <string name="gmail_web_login_required_message">Se connecter à Gmail</string>
     <string name="header_category_account">Comptes</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Commentaires</string>
     <string name="header_label_general_preferences">Paramètres généraux</string>
     <string name="help_and_info">Aide</string>
@@ -482,6 +485,8 @@
     <string name="long_press_to_select_tip">Appuyez &amp; maintenez pour sélectionner une conversation, puis appuyez pour en sélectionner plus.</string>
     <string name="mail">E-mail</string>
     <string name="mail_body_turncated">Cet e-mail est trop gros pour être téléchargé, afficher uniquement une partie de celui-ci, puis regarder en totalité sur PC plus tard</string>
+    <string name="mail_description_content">"E-mail permet de gérer vos e-mails à partir de plusieurs comptes au même endroit. Vous pouvez utilisez E-mail pour envoyer, recevoir et marquer des e-mails, trier vos factures et beaucoup plus. Les informations de vos contacts et votre agenda Exchange seront effacées si vous désinstallez E-mail. Assurez-vous de pouvoir de vous passer de toutes ces fonctionnalités avant de désinstaller l'application."</string>
+    <string name="mail_description_title">À propos</string>
     <string name="mail_header_network_not_available">Vous ne disposez pas de connexion réseau.</string>
     <string name="mailbox_list_account_selector_combined_view">Compte combiné</string>
     <string name="mailbox_name_display_ad">Publicités</string>
@@ -702,8 +707,8 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="policy_dont_allow_text_messaging">Ne pas autoriser la messagerie texte</string>
     <string name="policy_dont_allow_unsigned_apps">Ne pas autoriser les applications non signées</string>
     <string name="policy_dont_allow_unsigned_installers">"Ne pas autoriser l'installation des applications non signées"</string>
-    <string name="policy_dont_allow_wifi">"Don't allow WLAN"</string>
-    <string name="policy_dont_allow_wifi_inter">"Don't allow Wi-Fi"</string>
+    <string name="policy_dont_allow_wifi">Ne pas autoriser le Wi-Fi</string>
+    <string name="policy_dont_allow_wifi_inter">Ne pas autoriser le Wi-Fi</string>
     <string name="policy_email_age">"Limiter le nombre d'e-mails synchronisés"</string>
     <string name="policy_html_truncation">Limiter la taille des e-mail HTML</string>
     <string name="policy_password_expiration">Définir une expiration des mots de passe</string>
@@ -780,18 +785,20 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="recognize_hotel_check_in_date">Heure darrivée</string>
     <string name="recognize_hotel_hotel_money">Prix %1$s</string>
     <string name="recognize_hotel_notification_content">Profitez de votre séjour !</string>
-    <string name="recognize_hotel_notification_title">Vous avez réservé une chambre au %1$s à partir du %3$s/%4$s. Vérifiez bien votre réservation avant dy arriver.</string>
+    <string name="recognize_hotel_notification_title">Vous avez réservé une chambre au %1$s à partir du %3$s/%2$s. Vérifiez bien votre réservation avant dy arriver.</string>
     <string name="recognize_hotel_order_money">Total</string>
     <string name="recognize_hotel_other_money">Autres dépenses %1$s</string>
     <string name="recognize_hotel_reverse_date">Enregistrement avant %1$s:%2$s %3$s</string>
     <string name="recognize_hotel_room_type">Chambre</string>
+    <string name="recognize_hotel_room_type_value">%1$s × %2$s</string>
     <string name="recognize_hotel_title">Réservation dhôtel</string>
     <string name="recognize_hotel_user_names">Invité</string>
+    <string name="recognize_hotel_user_names_value">%1$s+%2$s</string>
     <string name="recognize_setting_title">Paramètres de voyage</string>
     <string name="recognize_ticket_air_notification_content">Profitez de votre vol !</string>
     <string name="recognize_ticket_air_notification_title">Le vol %3$s (%2$s/%1$s) va bientôt décoller. Vérifiez bien vos informations de vol.</string>
-    <string name="recognize_ticket_air_state_stopover">经停</string>
-    <string name="recognize_ticket_air_state_transfer">中转</string>
+    <string name="recognize_ticket_air_state_stopover">Escale</string>
+    <string name="recognize_ticket_air_state_transfer">Transfert</string>
     <string name="recognize_ticket_air_user_name">Passager :</string>
     <string name="recognize_ticket_title">Billets davion &amp; de train</string>
     <string name="recognize_ticket_train_alter">Changé</string>
@@ -909,7 +916,7 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="to_heading">"À : "</string>
     <string name="toast_bar_fail_synchronization">Impossible de se connecter au réseau</string>
     <string name="toast_bar_insufficient_memory_space">"Pas assez d'espace de stockage"</string>
-    <string name="toast_bar_invalid_account">Vous devez vous connecter à nouveau</string>
+    <string name="toast_bar_invalid_account">La session a expiré, connectez-vous à nouveau.</string>
     <string name="toast_bar_no_connection_network">"Vous n'êtes pas connecté à internet"</string>
     <string name="toast_bar_open_gmail_synchronization">Appuyez pour utiliser le serveur proxy pour Gmail</string>
     <string name="today_text">"Aujourd'hui"</string>
@@ -932,8 +939,8 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     entre le web, vos autres appareils, et votre %1$s."</string>
     <string name="turn_auto_sync_on_dialog_confirm_btn">Activer</string>
     <string name="turn_auto_sync_on_dialog_title">Activer la synchronisation auto ?</string>
-    <string name="unbind_dialog_text">"解除绑定后不再解析邮件信息
-确认解除绑定?"</string>
+    <string name="unbind_dialog_text">"L'application E-mail n'analysera plus vos e-mails après cela.
+Supprimer le compte ?"</string>
     <string name="undo">Annuler</string>
     <string name="unknow">Inconnu</string>
     <string name="unread_string">Conversation non lue</string>

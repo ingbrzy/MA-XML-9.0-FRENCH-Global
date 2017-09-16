@@ -2,7 +2,7 @@
 <resources>
     <string name="path_soundrecorder_setting">Applications système/Magnétophone</string>
     <string name="search_app">Magnétophone</string>
-    <string name="search_led_indicator">"Notifications sur l'écran de verrouillage"</string>
+    <string name="search_led_indicator">"Notifications à l'écran de verrouillage"</string>
     <string name="search_tip_rename">Nommer manuellement les enregistrements</string>
     <string name="search_led_indicator_prompt">"Pendant l'enregistrement, afficher dans la barre d'état et avec une notification lumineuse si l'écran est verrouillé"</string>
     <string name="search_scenes">"Type d'enregistrement"</string>
@@ -56,7 +56,7 @@
     <string name="record_name_hour">.</string>
     <string name="record_name_minute" />
     <string name="sound_recorder_settings">Paramètres</string>
-    <string name="preference_led_indicator">"Notifications sur l'écran de verrouillage"</string>
+    <string name="preference_led_indicator">"Notifications à l'écran de verrouillage"</string>
     <string name="preference_tip_rename">Enregistrer le nom manuellement</string>
     <string name="preference_led_indicator_prompt">"Pendant l'enregistrement, afficher la barre d'état et une notification lumineuse lorsque l'écran est verrouillé"</string>
     <string name="preference_scenes">"Type d'enregistrement"</string>
@@ -145,7 +145,7 @@
     <string name="clear_records">Supprimer les enregistrements synchronisés</string>
     <string name="choose_call_records_count">%d éléments</string>
     <string name="network_tip_dialog_title">Une connexion Internet est nécessaire</string>
-    <string name="network_tip_dialog_content">This app needs to connect to the internet, as well as read your contacts to label the recordings you record during calls.</string>
+    <string name="network_tip_dialog_content">"Cette application doit se connecter à Internet, aussi bien qu'accéder à vos contacts pour marquer les enregistrements que effectuez pendant vos appels."</string>
     <string name="network_tip_dialog_ok">Autoriser</string>
     <string name="network_tip_dialog_cancel">Annuler</string>
     <string name="head_set_tip_dialog_title">Utiliser le microphone interne</string>

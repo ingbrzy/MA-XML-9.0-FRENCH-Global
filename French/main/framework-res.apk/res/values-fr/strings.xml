@@ -188,8 +188,6 @@
     <string name="global_actions">Options du téléphone</string>
     <string name="global_action_lock">"Verrouillage de l'écran"</string>
     <string name="global_action_power_off">Éteindre</string>
-    <string name="global_action_reboot">Redémarrer</string>
-    <string name="global_action_emergency">Urgences</string>
     <string name="global_action_bug_report">Rapport de bug</string>
     <string name="bugreport_title">Créer un rapport de bug</string>
     <string name="bugreport_message">"Cela permet de recueillir des informations concernant l'état actuel de votre appareil. Ces informations sont ensuite envoyées sous forme d'e-mail. Merci de patienter pendant la préparation du rapport de bug. Cette opération peut prendre quelques instants."</string>
@@ -551,7 +549,6 @@
     <string name="lockscreen_pattern_correct">Combinaison correcte !</string>
     <string name="lockscreen_pattern_wrong">Veuillez réessayer.</string>
     <string name="lockscreen_password_wrong">Veuillez réessayer.</string>
-    <string name="lockscreen_storage_locked">Déverr. pour autres fonctionnalités et données</string>
     <string name="faceunlock_multiple_failures">Nombre maximal autorisé de tentatives Face Unlock atteint.</string>
     <string name="lockscreen_missing_sim_message_short">Aucune carte SIM</string>
     <string name="lockscreen_missing_sim_message">"Aucune carte SIM n'est insérée dans le téléphone."</string>
@@ -771,7 +768,7 @@ Voulez-vous vraiment quitter cette page ?"</string>
     <string name="noApplications">Aucune application ne peut effectuer cette action.</string>
     <string name="aerr_application">%1$s a cessé de fonctionner.</string>
     <string name="aerr_process">Le processus %1$s a cessé de fonctionner.</string>
-    <string name="aerr_application_repeated">"%1$s s'arrête systématiquement"</string>
+    <string name="aerr_application_repeated">"%1$s ne cesse de s'arrêter."</string>
     <string name="aerr_process_repeated">"Le processus \"%1$s\" ne cesse de s'arrêter."</string>
     <string name="aerr_restart">"Rouvrir l'application"</string>
     <string name="aerr_report">Envoyer des commentaires</string>
@@ -803,9 +800,8 @@ Voulez-vous quitter ?"</string>
     <string name="android_upgrading_title">"Mise à jour d'Android…"</string>
     <string name="android_start_title">"Démarrage d'Android en cours"</string>
     <string name="android_upgrading_fstrim">Optimisation du stockage en cours…</string>
-    <string name="android_upgrading_notification_title">Finalisation de la mise à jour Android…</string>
+    <string name="android_upgrading_notification_title">"Mise à jour d'Android…"</string>
     <string name="android_upgrading_notification_body">"Certaines applications peuvent ne pas fonctionner correctement jusqu'à ce que la mise à jour soit terminée."</string>
-    <string name="app_upgrading_toast">"Mise à jour de l'application %1$s…"</string>
     <string name="android_upgrading_apk">"Optimisation de l'application %1$d sur %2$d…"</string>
     <string name="android_preparing_apk">Préparation de %1$s en cours…</string>
     <string name="android_upgrading_starting_apps">Lancement des applications…</string>
@@ -846,10 +842,6 @@ Voulez-vous quitter ?"</string>
     <string name="network_available_sign_in">Se connecter au réseau</string>
     <string name="wifi_no_internet">"Le réseau Wi-Fi ne dispose d'aucun accès à Internet."</string>
     <string name="wifi_no_internet_detailed">Appuyez ici pour afficher des options.</string>
-    <string name="network_switch_metered">Nouveau réseau : %1$s</string>
-    <string name="network_switch_metered_detail">"L'appareil utilise %1$s lorsque %2$s n'a pas de connexion Internet. Des frais supplémentaires peuvent s'appliquer."</string>
-    <string name="network_switch_metered_toast">Ancien réseau : %1$s. Nouveau réseau : %2$s</string>
-    <string name="network_switch_type_name_unknown">type de réseau inconnu</string>
     <string name="wifi_watchdog_network_disabled">Impossible de se connecter au Wi-Fi.</string>
     <string name="wifi_watchdog_network_disabled_detailed">" dispose d'une mauvaise connexion Internet."</string>
     <string name="wifi_connect_alert_title">Autoriser la connexion ?</string>
@@ -925,6 +917,7 @@ Voulez-vous quitter ?"</string>
     <string name="select_keyboard_layout_notification_message">Appuyer pour sélectionner la langue et la disposition</string>
     <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="candidates_style"><u>candidats</u></string>
     <string name="ext_media_checking_notification_title">Préparation mémoire \"%s\" en cours</string>
     <string name="ext_media_checking_notification_message">"Recherche d'erreurs"</string>
     <string name="ext_media_new_notification_message">Une nouvelle mémoire de stockage \"%s\" a été détectée.</string>
@@ -1006,9 +999,8 @@ pour le compte \"%s\""</string>
     <string name="vpn_text_long">Connecté à %s. Appuyez ici pour gérer le réseau.</string>
     <string name="vpn_lockdown_connecting">VPN permanent en cours de connexion…</string>
     <string name="vpn_lockdown_connected">VPN permanent connecté</string>
-    <string name="vpn_lockdown_disconnected">VPN permanent déconnecté</string>
     <string name="vpn_lockdown_error">Erreur du VPN permanent</string>
-    <string name="vpn_lockdown_config">Appuyer pour configurer</string>
+    <string name="vpn_lockdown_config">Appuyez ici pour configurer.</string>
     <string name="upload_file">Sélectionner un fichier</string>
     <string name="no_file_chosen">Aucun fichier sélectionné</string>
     <string name="reset">Réinitialiser</string>
@@ -1087,7 +1079,7 @@ pour le compte \"%s\""</string>
     <string name="storage_usb_drive_label">Clé USB %s</string>
     <string name="storage_usb">Mémoire de stockage USB</string>
     <string name="extract_edit_menu_button">Modifier</string>
-    <string name="data_usage_warning_title">Alerte de consommation des données</string>
+    <string name="data_usage_warning_title">Avertissement utilisation données</string>
     <string name="data_usage_warning_body">Appuyez pour conso/paramètres.</string>
     <string name="data_usage_3g_limit_title">Limite de données 2G-3G atteinte</string>
     <string name="data_usage_4g_limit_title">Limite de données 4G atteinte</string>
@@ -1329,7 +1321,7 @@ L'écoute prolongée à un volume élevé peut endommager vos facultés auditive
 
 L'économiseur de batterie s'éteint automatiquement lorsque l'appareil est en charge."</string>
     <string name="data_saver_description">"Pour réduire la consommation des données, l'économiseur de données empêche certaines applications d'envoyer ou de recevoir des données en arrière-plan. Ainsi, une application que vous utilisez actuellement peut accéder à des données, mais moins souvent. Par exemple, il se peut que les images ne s'affichent pas tant que vous n'appuyez pas dessus."</string>
-    <string name="data_saver_enable_title">"Activer l'économiseur de données ?"</string>
+    <string name="data_saver_enable_title">Activer sauvegarde données ?</string>
     <string name="data_saver_enable_button">Activer</string>
     <string name="zen_mode_until">"Jusqu'à %1$s"</string>
     <string name="zen_mode_alarm">"Jusqu'à %1$s (alarme suivante)"</string>
@@ -1371,7 +1363,6 @@ L'économiseur de batterie s'éteint automatiquement lorsque l'appareil est en c
     <string name="search_language_hint">Saisissez la langue</string>
     <string name="language_picker_section_suggested">Recommandations</string>
     <string name="language_picker_section_all">Toutes les langues</string>
-    <string name="region_picker_section_all">Toutes les régions</string>
     <string name="locale_search_menu">Rechercher</string>
     <string name="work_mode_off_title">Mode professionnel DÉSACTIVÉ</string>
     <string name="work_mode_off_message">Autoriser le fonctionnement du profil professionnel, y compris les applications, la synchronisation en arrière-plan et les fonctionnalités associées.</string>
@@ -1389,18 +1380,9 @@ L'économiseur de batterie s'éteint automatiquement lorsque l'appareil est en c
     <string name="unpin_target">Retirer</string>
     <string name="app_info">"Infos sur l'appli"</string>
     <string name="negative_duration">− %1$s</string>
-    <string name="reset_retail_demo_mode_title">"Réinitialiser l'appareil ?"</string>
-    <string name="reset_retail_demo_mode_text">"Appuyer pour réinitialiser l'appareil"</string>
-    <string name="demo_starting_message">Lancement de la démo…</string>
-    <string name="demo_restarting_message">Réinitialisation…</string>
-    <string name="demo_user_inactivity_timeout_title">"Réinitialiser l'appareil ?"</string>
-    <string name="demo_user_inactivity_timeout_countdown">Vous perdrez vos modifications, et la démo recommencera dans %1$s secondes…</string>
-    <string name="demo_user_inactivity_timeout_left_button">Annuler</string>
-    <string name="demo_user_inactivity_timeout_right_button">Réinitialiser maintenant</string>
     <string name="audit_safemode_notification">"Rétablir la configuration d'usine pour utiliser cet appareil sans restrictions"</string>
     <string name="audit_safemode_notification_details">Appuyez ici pour en savoir plus.</string>
     <string name="suspended_widget_accessibility">Élément \"%1$s\" désactivé</string>
-    <string name="conference_call">Conférence téléphonique</string>
     <string name="lock_to_app_toast_accessible">"Pour décocher cet écran, appuyer et maintenir Accueil et le bouton d'alimentation simultanément."</string>
     <string name="lock_to_app_description">"L'épinglage de l'écran verrouille l'affichage sur une seule vue.
 

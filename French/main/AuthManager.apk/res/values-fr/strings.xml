@@ -77,8 +77,8 @@
     <string name="HIPS_Perm_read_notification_sms_Desc">Lecture du service SMS</string>
     <string name="HIPS_Perm_get_tasks">Obtenir des tâches</string>
     <string name="HIPS_Perm_get_tasks_Desc">obtenir des tâches</string>
-    <string name="HIPS_Perm_show_when_locked">"Afficher sur l'écran de verrouillage"</string>
-    <string name="HIPS_Perm_show_when_locked_Desc">"sera affiché sur l'écran de verrouillage"</string>
+    <string name="HIPS_Perm_show_when_locked">"Afficher à l'écran de verrouillage"</string>
+    <string name="HIPS_Perm_show_when_locked_Desc">"sera affiché à l'écran de verrouillage"</string>
     <string name="HIPS_Perm_background_start_activity">Démarrer en arrière-plan</string>
     <string name="HIPS_Perm_background_start_activity_Desc">Démarrer en arrière-plan</string>
     <string name="HIPS_Perm_get_installed_apps">Obtenir les infos relatives aux applications installées</string>
@@ -94,6 +94,7 @@
     <string name="location_settings">Paramètres de localisation</string>
     <string name="location_warning">"%1$s est un fournisseur de services de localisation pour cet appareil. L'accès à la localisation peut être modifié à partir des paramètres de localisation."</string>
     <string name="permission_warning_template">Autoriser %1$s à %2$s ?</string>
+    <string name="permission_warning_template_ask">Allow %1$s the following permissions？</string>
     <string name="screen_overlay_title">"Superposition d'écran détecté"</string>
     <string name="screen_overlay_message">"Pour changer ce paramètre d'autorisation, vous devez d'abord désactiver la superposition d'écran dans Paramètres > Applications"</string>
     <string name="screen_overlay_button">Ouvrir les paramètres</string>

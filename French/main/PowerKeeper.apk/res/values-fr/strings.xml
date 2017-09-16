@@ -92,8 +92,8 @@
     <string name="power_config_location_summary">"Permet à une application d'accéder à votre position"</string>
     <string name="power_config_idle_notification_title">"N'afficher que la première notification"</string>
     <string name="power_config_idle_notification_summary">"Affiche uniquement la première notification d'une application"</string>
-    <string name="power_config_keyguard_notification_title">"Notifications sur l'écran de verrouillage"</string>
-    <string name="power_config_keyguard_notification_summary">"Autorise les notifications sur l'écran de verrouillage"</string>
+    <string name="power_config_keyguard_notification_title">"Notifications à l'écran de verrouillage"</string>
+    <string name="power_config_keyguard_notification_summary">"Autorise les notifications à l'écran de verrouillage"</string>
     <string name="power_config_event_delete">Supprimer</string>
     <string name="power_config_confirm_event_delete">Supprimer cette configuration ?</string>
     <string name="power_config_bg_data_delay_time_title">Restreindre les données en arrière-plan</string>
@@ -122,9 +122,9 @@
     <string name="config_scenario_policies_title">Scénarios</string>
     <string name="scenario_policies_summary">"Économie d'énergie relative au scénario"</string>
     <string name="sleep_config_enhance_title">"Mode d'économie en veille"</string>
-    <string name="sleep_config_enhance_description">predict user sleep time by machine learning, whithin the sleep time, we may clear some background apps, restrict to use NFC, KeyGauard Notification, Sync, Bluetooth, GPS, mobile and wifi data, etc.</string>
-    <string name="scenario_policies_warmcontrol">Warm control</string>
-    <string name="warm_configure">Warm control configure</string>
+    <string name="sleep_config_enhance_description">"prévoir le temps de sommeil de l'utilisateur par l'apprentissage automatique, pendant le temps de sommeil, nous pouvons effacer certaines applications en arrière-plan, restreindre l'utilisation de NFC, KeyGuard Notification, la synchronisation, le Bluetooth, le GPS, les données mobiles et de Wi-Fi, etc."</string>
+    <string name="scenario_policies_warmcontrol">Contrôle de chaleur</string>
+    <string name="warm_configure">Configuration du contrôle de chaleur</string>
     <string name="important_warning">Avertissement</string>
     <string name="confirm">Confirmer</string>
     <string name="warm_performance_tip">Dans les scénarios de charge élevée, la température du téléphone cellulaire est supérieure au mode par défaut</string>
@@ -142,7 +142,7 @@
     <string name="power_config_ultimate_unlock_already">Tous les objets sont débloqués</string>
     <string name="extreme_power_config_mode_category">Économiseur de batterie extrême</string>
     <string name="extreme_power_config_mode_title">Mode économiseur de batterie extrême</string>
-    <string name="extreme_power_config_mode_desc">Enable this function will disable sync, bluetooth, GPS, NFC, double tapping, button lights, wake lock screen for notifications, pluse notification light etc, and battery saver mode is set to be ultimate</string>
+    <string name="extreme_power_config_mode_desc">"Activer cette fonction va désactiver la synchronisation, le bluetooth, le GPS, le NFC, le double appui, les lumières de bouton, l'allumage de l'écran de verrouillage pour les notifications, les voyants de notification etc... et le mode Économiseur de batterie est défini de manière ultime"</string>
     <string name="empty_title_apps_container_list">Aucune application</string>
     <string name="hints_loading_text">Un instant…</string>
     <string name="config_mode_title">"Paramètres d'arrière-plan"</string>
@@ -151,7 +151,7 @@
     <string name="config_no_restrict_title">Pas de restriction</string>
     <string name="config_restrict_function_title">Restreindre les applications en arrière-plan</string>
     <string name="config_restrict_running_title">"Restreindre l'activité en arrière-plan"</string>
-    <string name="config_restrict_running_warning">App will be closed when it is background, maybe it cannot work normally</string>
+    <string name="config_restrict_running_warning">"L'application sera fermée une fois en arrière-plan, peut-être qu'elle ne peut pas fonctionner normalement"</string>
     <string name="location_mode_title">"Localisation d'arrière-plan"</string>
     <string name="location_enable_title">Autoriser</string>
     <string name="location_disable_title">Restreindre</string>
@@ -192,12 +192,12 @@ L'économiseur de batterie traitera les applications importantes de manière sé
     <string name="cloud_staging_addr">Mettre à jour les données serveur intermédiaire</string>
     <string name="cloud_international_addr">Mettre à jour les données du serveur international</string>
     <string name="current_cloud_addr_is">"L'adresse du serveur de contrôle du Cloud est :"</string>
-    <string name="update_profile_sucess">Update form server sucess</string>
+    <string name="update_profile_sucess">Mise à jour du serveur avec succès</string>
     <string name="update_profile_failture_not_connect_wifi">La mise à jour a échoué, aucune connexion Wi-Fi</string>
-    <string name="sucess">sucess</string>
-    <string name="failure">failure</string>
-    <string name="cloud_addr_info">HideMode cloud info</string>
-    <string name="lasttime_feature_cloud">Function last update：</string>
-    <string name="lasttime_applist_cloud">Applist last update：</string>
+    <string name="sucess">succès</string>
+    <string name="failure">échec</string>
+    <string name="cloud_addr_info">Informations Cloud HideMode</string>
+    <string name="lasttime_feature_cloud">Dernière mise à jour de la fonctionnalité :</string>
+    <string name="lasttime_applist_cloud">"Dernière mise à jour de la list d'application :"</string>
     <string name="base_info">Infos de base</string>
 </resources>

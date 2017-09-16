@@ -91,7 +91,7 @@
     <string name="sort_by_abc">Trier par nom</string>
     <string name="encryption">Chiffrement</string>
     <string name="failed_to_drop">Impossible de déplacer</string>
-    <string name="no_space_toast">Not enough space</string>
+    <string name="no_space_toast">Espace insuffisant</string>
     <string name="failed_to_drop_widget_invalid">Déplacement du widget échoué</string>
     <string name="failed_to_delete_temporary">Impossible de supprimer</string>
     <string name="confirm_btn_label">OK</string>
@@ -266,12 +266,12 @@
     <string name="notification_open_button">Ouvrir</string>
     <string name="toast_screen_icons_misplaced">"Restauré à partir d'une autre source, certaines icônes peuvent être déplacées."</string>
     <string name="screen_locked_toast">"La disposition de l'Écran d'accueil est verrouillée"</string>
-    <string name="widget_quick_function">Quick functions</string>
-    <string name="menu_trans_effect">Transition effects</string>
-    <string name="menu_default_screen_preview">Set default screen</string>
-    <string name="menu_cell_setting">Home screen layout</string>
-    <string name="menu_auto_fill">Fill empty cells</string>
-    <string name="menu_lock">Lock Home screen layout</string>
+    <string name="widget_quick_function">Fonctions rapides</string>
+    <string name="menu_trans_effect">Effets de transition</string>
+    <string name="menu_default_screen_preview">"Définir l'écran par défaut"</string>
+    <string name="menu_cell_setting">"Disposition de l'écran d'accueil"</string>
+    <string name="menu_auto_fill">Remplir les cellules vides</string>
+    <string name="menu_lock">"Verrouiller la disposition de l'écran d'accueil"</string>
     <string name="menu_more">Plus</string>
-    <string name="default_screen_preview_title">Tap to set default screen</string>
+    <string name="default_screen_preview_title">"Appuyer pour définir l'écran par défaut"</string>
 </resources>

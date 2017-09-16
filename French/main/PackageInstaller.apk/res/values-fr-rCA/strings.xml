@@ -8,8 +8,7 @@
     <string name="wifi_disabled_wifi_failure">Échec de connexion Wi-Fi</string>
     <string name="wifi_disabled_password_failure">"Problème d'authentification"</string>
     <string name="wifi_not_in_range">Hors de portée</string>
-    <string name="wifi_no_internet_no_reconnect">Aucun accès à Internet détecté, reconnexion automatique impossible.</string>
-    <string name="wifi_no_internet">Aucun accès à Internet.</string>
+    <string name="wifi_no_internet">Aucun accès à Internet détecté, reconnexion automatique impossible</string>
     <string name="saved_network">Enregistrés par %1$s</string>
     <string name="connected_via_wfa">"Connecté à l'aide de l'assistant Wi-Fi"</string>
     <string name="connected_via_passpoint">Connecté par %1$s</string>
@@ -145,15 +144,12 @@
     <string name="wifi_allow_scan_with_traffic_summary">"Autoriser ou non la détection de réseaux Wi-Fi en itinérance en fonction de l'importance du transfert de données dans l'interface"</string>
     <string name="select_logd_size_title">"Tailles des mémoires tampons d'enregistreur"</string>
     <string name="select_logd_size_dialog_title">Tailles enreg. par tampon journal</string>
-    <string name="dev_logpersist_clear_warning_title">"Supprimer les données de l'enregistreur?"</string>
-    <string name="dev_logpersist_clear_warning_message">"Lorsque nous n'effectuons plus de suivi avec l'enregistreur persistant, nous sommes tenus d'effacer les données de l'enregistreur qui se trouvent sur votre appareil."</string>
-    <string name="select_logpersist_title">Enreg. données journ. pers. sur appareil</string>
-    <string name="select_logpersist_dialog_title">"Sélect. les tampons de journal à stocker de manière persistante sur l'appareil"</string>
     <string name="select_usb_configuration_title">Sélectionnez une configuration USB</string>
     <string name="select_usb_configuration_dialog_title">Sélectionnez une configuration USB</string>
     <string name="allow_mock_location">Autoriser les positions fictives</string>
     <string name="allow_mock_location_summary">Autoriser les positions fictives</string>
     <string name="debug_view_attributes">"Activer l'inspection d'attribut d'affichage"</string>
+    <string name="legacy_dhcp_client_summary">Utiliser le client DHCP de Lollipop au lieu du nouveau client DHCP Android.</string>
     <string name="mobile_data_always_on_summary">Toujours garder les données cellulaires actives, même lorsque le Wi-Fi est activé (pour la commutation rapide entre les réseaux).</string>
     <string name="adb_warning_title">Autoriser le débogage USB?</string>
     <string name="adb_warning_message">Le débogage USB est conçu uniquement pour le développement. Utilisez-le pour copier des données entre votre ordinateur et votre appareil, installer des applications sur votre appareil sans notification et lire les données de journal.</string>
@@ -203,6 +199,8 @@
     <string name="debug_layout_summary">Afficher les limites, les marges de clip, etc.</string>
     <string name="force_rtl_layout_all_locales">Forcer orient. : g. à d.</string>
     <string name="force_rtl_layout_all_locales_summary">"Forcer l'orientation: g. à droite (toutes langues)"</string>
+    <string name="show_cpu_usage">Afficher mém. CPU utilisée</string>
+    <string name="show_cpu_usage_summary">Superposition écran indiquant mémoire CPU utilisée</string>
     <string name="force_hw_ui">Forcer le rendu GPU</string>
     <string name="force_hw_ui_summary">"Forcer l'utilisation du GPU pour le dessin 2D"</string>
     <string name="force_msaa">Forcer MSAA 4x</string>
@@ -286,7 +284,6 @@ Touchez « Effacer et convertir » pour continuer."</string>
     <string name="screen_zoom_summary_extremely_large">La plus grande</string>
     <string name="screen_zoom_summary_custom">Personnalisée (%d)</string>
     <string name="help_feedback_label">Aide et commentaires</string>
-    <string name="content_description_menu_button">Menu</string>
     <string name="app_name">Programme installation trousse</string>
     <string name="next">Suivante</string>
     <string name="install">Installer</string>
@@ -409,7 +406,6 @@ Toutes vos données d'utilisateur précédentes vont être enregistrées."</stri
     <string name="status_bar_notification_info_overflow">>999</string>
     <string name="abc_capital_on">ACTIVÉ</string>
     <string name="abc_capital_off">DÉSACTIVÉ</string>
-    <string name="search_menu_title">Rechercher</string>
     <string name="lb_navigation_menu_contentDescription">Menu de navigation</string>
     <string name="orb_search_action">Action de recherche</string>
     <string name="lb_search_bar_hint">Rechercher</string>

@@ -199,7 +199,7 @@
     <string name="port_range">Le port doit être entre 1024 et 65535</string>
     <string name="file_name_invalid">Les noms de dossiers ne peuvent contenir ces caractères : /\\:*?&lt;></string>
     <string name="rename_alert">"Si vous changez cette extension de fichier, vous ne pourrez plus l'ouvrir."</string>
-    <string name="rename_alert2">如果修改后缀名，文件将可能无法打开。</string>
+    <string name="rename_alert2">The file will be hidden after you change its extension.</string>
     <string name="search_file_type_picture">Photo</string>
     <string name="search_file_type_video">Vidéo</string>
     <string name="search_file_type_music">Musique</string>
@@ -247,7 +247,7 @@
     <string name="app_name_midrop">Mi Drop</string>
     <string name="data_consumption_title">Connexion Internet</string>
     <string name="data_consumption_message">Cette application doit se connecter à Internet en Wi-Fi pour fonctionner correctement.</string>
-    <string name="data_consumption_message1">Videos and Stickers needs to connect to the internet using Wi-Fi to work normally.</string>
+    <string name="data_consumption_message1">Explorer needs to connect to the internet to make popular videos and stickers available.</string>
     <string name="data_consumption_checkbox_hint">Ne plus afficher</string>
     <string name="data_consumption_confirm">OK</string>
     <string name="data_consumption_cancel">Quitter</string>
@@ -291,8 +291,8 @@
     <string name="network_spent_reminding_title">"Notification de l'utilisation de données"</string>
     <string name="network_spent_reminding">Utiliser votre connexion de données mobiles pour voir cette page ? Vous pouvez avoir des frais supplémentaires de la part de votre opérateur.</string>
     <string name="shared_sticker_use_tip_title">Comment utiliser les autocollants</string>
-    <string name="shared_sticker_use_tip">"Vous pouvez envoyer des autocollants que vous avez enregistrés dans les dialogues de WeChat comme vous envoyer des images.
-(Les GIF peuvent être ajoutés comme autocollants WeChat)."</string>
+    <string name="shared_sticker_use_tip">"You can send the stickers you saved from chats just like you send images.
+(GIFs can be added to Custom in WeChat Stickers)."</string>
     <string name="shared_sticker_page_no_file">Impossible de se connecter au réseau. Vérifiez votre connexion réseau et réessayez.</string>
     <string name="shared_sticker_network_permission_tip">Impossible de se connecter au réseau. Vérifiez votre connexion réseau et réessayez.</string>
     <string name="transfer_private_data">Déplacement des dossiers privés depuis la carte SD…</string>
@@ -409,7 +409,7 @@
     <string name="enable_documentsui">"Activer d'abord %s dans Paramètres > Applications installées"</string>
     <string name="not_installed_documentsui">Documents UI non installé</string>
     <string name="title_enable_documentsui">Activer Documents UI</string>
-    <string name="server_error">Erreur du serveur, essayez encore plus tard. (Erreur %s)</string>
+    <string name="server_error">Server error, try again later. (Error %s).</string>
     <string name="network_not_available">Impossible de se connecter au réseau</string>
     <string name="request_timeout">Délai de connexion a expiré</string>
     <string name="login_expired">La session a expiré, veuillez vous reconnecter.</string>

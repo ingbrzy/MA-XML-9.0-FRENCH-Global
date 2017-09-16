@@ -32,7 +32,7 @@
     <string name="common_save">Sauvegarder</string>
     <string name="common_retry">Veuillez réessayer</string>
     <string name="sdk_not_ready">Préparation du SDK. Réessayez plus tard.</string>
-    <string name="error_get_image">fail to get image</string>
+    <string name="error_get_image">"impossible d'obtenir l'image"</string>
     <string name="language_entry_chinese_cn">Chinois simplifié</string>
     <string name="language_entry_chinese_tw">Chinois traditionnel</string>
     <string name="language_entry_danish">Danois</string>
@@ -166,7 +166,7 @@
     <string name="document_color_picture_tip">Conversion en couleur…</string>
     <string name="document_save_succeed_tip">Document enregistré dans %1$s</string>
     <string name="document_recognize_fail_tip">Impossible de lire le document</string>
-    <string name="document_recognize_null_tip">Document result is empty</string>
+    <string name="document_recognize_null_tip">Le résultat du document est vide</string>
     <string name="recognition_error_download_title">Moteur de reconnaissance est requis</string>
     <string name="recognition_error_download_msg">"Téléchargez le moteur de reconnaissance pour scanner les cartes. Sa taille est d'environ 15 Mo."</string>
     <string name="recognition_error_download_ok">Télécharger</string>
@@ -178,5 +178,5 @@
     <string name="recognition_error_download_fail">Impossible de télécharger le moteur de reconnaissance</string>
     <string name="low_version_tip">Version MIUI obsolète. Mettez MIUI à jour pour utiliser Scanneur.</string>
     <string name="app_description_title">À propos</string>
-    <string name="app_description_content">Scanner provide QR code scan, scan to translate, scan to solve questions, business card recognition. Please make sure you already acknowledged function and service provided by this app.</string>
+    <string name="app_description_content">Scanneur permet de scanner les codes QR, de scanner pour traduire, de scanner pour résoudre des problèmes, de reconnaître les cartes de visite. Veuillez vous assurer que vous reconnaissez les fonctionnalités et services fournis par cette application.</string>
 </resources>

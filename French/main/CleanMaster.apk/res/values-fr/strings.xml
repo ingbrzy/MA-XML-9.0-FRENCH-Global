@@ -304,7 +304,7 @@
     <string name="clear_bigfiles">"Supprimer les gros fichiers, les photos en double et d'autres éléments obsolètes"</string>
     <string name="clear_immediately">Nettoyer maintenant</string>
     <string name="clear_safe_notify">Widget du panneau de notifications</string>
-    <string name="nb_clear_set">Effacer le cache, afficher les informations de la batterie et de liste noire dans la barre de notifications</string>
+    <string name="nb_clear_set">Effacer le cache, afficher les informations de la batterie et de liste noire dans le panneau de notifications</string>
     <string name="seton_immediately">Activer</string>
     <string name="notify_when">Obtenir une notification lorsque la taille de la corbeille atteint 100 Mo</string>
     <string name="goto_set">Régler</string>
@@ -473,5 +473,5 @@
     <string name="engine_cm">Clean Master</string>
     <string name="app_description_title">À propos du nettoyeur</string>
     <string name="app_description_content">"Le nettoyeur détecte des résidus sur votre appareil et libère de l'espace de stockage. Assurez-vous que vous pouvez vous passer de cette fonctionnalités avant de désinstaller l'application."</string>
-    <string name="engine_init">Initializing...</string>
+    <string name="engine_init">Initialisation...</string>
 </resources>

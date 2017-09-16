@@ -61,15 +61,15 @@
     <string name="cancel_button">Annuler</string>
     <string name="list_empty_text">Vide</string>
     <string name="xspace_label">Applications clônées</string>
-    <string name="xspace_setting_label">双开设置</string>
-    <string name="xspace_account">双开帐号</string>
+    <string name="xspace_setting_label">Paramètres des applications clônées</string>
+    <string name="xspace_account">Comptes des applications clônées</string>
     <string name="declare_dialog_title">À propos des applications clônées</string>
     <string name="xspace_loading_msg">Chargement des applications…</string>
     <string name="xspace_header">Applications clônées</string>
     <string name="xspace_introduce">Recommandé</string>
-    <string name="xspace_description">"双开应用将在桌面生成一个全新的应用副本，两者可同时运行互不影响。
+    <string name="xspace_description">"Les applications clônées sont des copies d'applications qui peuvent être utilisées séparément avec un compte différent.
 
-部分应用需要谷歌服务框架支持，双开这部分应用时会同步双开谷歌服务以保障体验。"</string>
+Certaines applications clônées nécessitent la prise en charge des Framework des services Google. Dans de tels cas, un Framework clôné des services Google est créé."</string>
     <string name="xspace_chocie">"Support d'application clônée"</string>
     <string name="xspace_creating">"Création de l'application clônée…"</string>
     <string name="xspace_installing">Installation…</string>
@@ -286,31 +286,31 @@ pour y accéder depuis l'Écran de verrouillage"</string>
     <string name="can_not_switch_when_calling">"Impossible de basculer entre les espaces lors d'un appel"</string>
     <string name="can_not_delete_when_calling">"Impossible de supprimer les espaces lors d'un appel"</string>
     <string name="support_desc">Service de sécurités fournis pour par Graphite</string>
-    <string name="sdcardfs_dialog_message">Turn off \"Mock SD card optimization\" in Developer options before entering Second space.</string>
-    <string name="do_not_ask">"Don't ask again"</string>
-    <string name="gpg_message">Creating dual apps for games requires working with Google Play Games. Create a dual app for Google Play Games?</string>
-    <string name="gpg_title">Dual app for Google Play Games</string>
-    <string name="gms_message">Creating dual apps requires working with Google services. Create a dual app for Google services?</string>
-    <string name="gms_title">Turn on Google services</string>
-    <string name="gms_open_button">Turn on</string>
-    <string name="create_second_space">Created successfully</string>
-    <string name="set_space_password">Set password</string>
-    <string name="set_space_finger">Set fingerprint</string>
-    <string name="guide_start_text">Two spaces. One device.</string>
-    <string name="guide_start_ads_text">A completely new level of security</string>
-    <string name="skip">Skip</string>
-    <string name="input_space_password">Set now</string>
-    <string name="input_space_finger">Set now</string>
-    <string name="space_finger_sub_text">Set Second space fingerprint to switch faster</string>
-    <string name="set_space_finger_sub_text_suc">Set fingerprint successfully</string>
-    <string name="show_noti_from_owner">Notifications from the other space</string>
-    <string name="show_noti_from_owner_detail">Receive notifications in the current space when they come to the other one</string>
-    <string name="show_noti_quick_switch_icon">Notification shade shortcut</string>
-    <string name="show_noti_quick_switch_icon_detail">Show a shortcut for switching spaces in the Notification shade</string>
-    <string name="show_decktop_quick_switch_icon">Home screen shortcut</string>
-    <string name="show_decktop_quick_switch_icon_detail">Show a shortcut for switching spaces on the Home screen in First space</string>
-    <string name="has_created_second_space">"You can open Second space now.
-One device. Two spaces."</string>
-    <string name="privacy_password_fingerprint_dialog_title">Scan your fingerprint</string>
-    <string name="privacy_password_fingerprint_dialog_message">Put your finger on the sensor</string>
+    <string name="sdcardfs_dialog_message">"Désactiver \"Optimisation de carte SD fictive\" dans les Options développeur avant d'entrer dans le Second espace."</string>
+    <string name="do_not_ask">Ne plus demander</string>
+    <string name="gpg_message">La création des applications clônées pour les jeux nécessite un fonctionnement avec Google Play Games. Créez une application clônée pour Google Play Games ?</string>
+    <string name="gpg_title">Application clônée pour Google Play Games</string>
+    <string name="gms_message">La création des applications clônées pour les jeux nécessite un fonctionnement avec les servicesGoogle. Créez une application clônée pour les services Google ?</string>
+    <string name="gms_title">Activer les services Google</string>
+    <string name="gms_open_button">Activer</string>
+    <string name="create_second_space">Créé avec succès</string>
+    <string name="set_space_password">Définir le mot de passe</string>
+    <string name="set_space_finger">Définir une empreinte digitale</string>
+    <string name="guide_start_text">Deux espaces. Un appareil.</string>
+    <string name="guide_start_ads_text">Un niveau de sécurité complètement nouveau</string>
+    <string name="skip">Ignorer</string>
+    <string name="input_space_password">Définir maintenant</string>
+    <string name="input_space_finger">Définir maintenant</string>
+    <string name="space_finger_sub_text">"Définir l'empreinte digitale du Second espace afin de basculer plus rapidement"</string>
+    <string name="set_space_finger_sub_text_suc">Empreinte digitale définie avec succès</string>
+    <string name="show_noti_from_owner">"Les notifications de l'autre espace"</string>
+    <string name="show_noti_from_owner_detail">"Recevez les notifications dans l'espace actuel lorsqu'elles arrivent pour l'autre espace"</string>
+    <string name="show_noti_quick_switch_icon">Raccourci du panneau de notification</string>
+    <string name="show_noti_quick_switch_icon_detail">Afficher un raccourci pour basculer entre les espaces dans le panneau de notification</string>
+    <string name="show_decktop_quick_switch_icon">"Raccourci de l'écran d'accueil"</string>
+    <string name="show_decktop_quick_switch_icon_detail">"Afficher un raccourci pour basculer entre les espaces sur l'écran d'accueil dans le Premier espace"</string>
+    <string name="has_created_second_space">"Vous pouvez ouvrir le Second espace maintenant.
+Deux espaces. Un appareil."</string>
+    <string name="privacy_password_fingerprint_dialog_title">Scanner votre empreinte digitale</string>
+    <string name="privacy_password_fingerprint_dialog_message">Placez votre doigt sur le capteur</string>
 </resources>
