@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="incorrect_pukcode_remaining_attempts">
+        <item quantity="other">Code PUK incorrect, %d tentatives restantes</item>
+        <item quantity="one">Code PUK incorrect, %d tentative restante</item>
+    </plurals>
+    <plurals name="incorrect_pincode_remaining_attempts">
+        <item quantity="other">Code PIN incorrect, %d tentatives restantes</item>
+        <item quantity="one">Code PIN incorrect, %d tentative restante</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_seconds_string">
+        <item quantity="other">Réessayer dans %d secondes</item>
+        <item quantity="one">Réessayer dans %d seconde</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_minutes_string">
+        <item quantity="other">Réessayer dans %d minutes</item>
+        <item quantity="one">Réessayer dans %d minute</item>
+    </plurals>
+    <plurals name="new_notifications_msg">
+        <item quantity="other">%d nouvelles notifications</item>
+        <item quantity="one">%d nouvelle notification</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_charging_full_need_min_time__text">
+        <item quantity="other">"Environ %d minutes jusqu'à la charge complète"</item>
+        <item quantity="one">"Environ %d minute jusqu'à la charge complète"</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_charging_full_need_hour_time__text">
+        <item quantity="other">"Environ %d heures jusqu'à la charge complète"</item>
+        <item quantity="one">"Environ %d heure jusqu'à la charge complète"</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_charging_full_need_time__text">
+        <item quantity="other">"Environ %1$d h %2$d min jusqu'à la charge complète"</item>
+        <item quantity="one">"Environ %1$d h %2$d min jusqu'à la charge complète"</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_min_time_text">
+        <item quantity="other">Environ %d minutes restantes</item>
+        <item quantity="one">Environ %d minute restante</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_hour_time_text">
+        <item quantity="other">Environ %d heures restantes</item>
+        <item quantity="one">Environ %d heure restante</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_time_text">
+        <item quantity="other">Environ %1$d h %2$d min restantes</item>
+        <item quantity="one">Environ %1$d h %2$d min restante</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="other">%d heures</item>
+        <item quantity="one">%d heure</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_time_format">
+        <item quantity="other">%1$d h %2$d min</item>
+        <item quantity="one">%1$d h %2$d min</item>
+    </plurals>
+</resources>
