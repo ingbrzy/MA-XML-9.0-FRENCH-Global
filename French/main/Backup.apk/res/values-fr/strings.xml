@@ -6,6 +6,9 @@ Taille : %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Version %1$s
 Taille de la mise à jour : %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Stockage indisponible, vérifiez votre carte SD.</string>
+    <string name="xiaomi_bytes_unit">%1$s o</string>
+    <string name="xiaomi_kilobytes_unit">%1$s ko</string>
+    <string name="xiaomi_megabytes_unit">%1$s Mo</string>
     <string name="xiaomi_connect_download_manager_fail">Impossible de démarrer le téléchargement. Vérifier que le gestionnaire de téléchargements fonctionne normalement.</string>
     <string name="app_name">Sauvegarde</string>
     <string name="local_app_name">Sauvegarde</string>
@@ -224,6 +227,7 @@ Taille de la mise à jour : %2$s"</string>
     <string name="file_uploading">Envoi…</string>
     <string name="new_backup">Sauvegarder</string>
     <string name="restore_backup">Restaurer</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Un instant…</string>
     <string name="state_mounting">Accès au stockage du routeur…</string>
     <string name="abort_backup_confirm">"La sauvegarde n'est pas terminée. Arrêter quand même ?"</string>
@@ -366,7 +370,7 @@ Vider au moins %s."</string>
     <string name="trans_intro_title_old">Sur un ancien téléphone :</string>
     <string name="trans_intro_desc_old">"Appuyez sur \" Je suis l'expéditeur \". Scannez le code QR sur le nouveau téléphone, patientez jusqu'à ce que Mi Mover détecte les fichiers à envoyer, puis appuyez sur \" Envoyer \"."</string>
     <string name="trans_intro_question_2">2. Que faire si Mi Mover se bloque à une certaine étape ?</string>
-    <string name="trans_intro_desc_2">Annulez le transfert, quittez Mi Mover et recommencez-le. Les fichiers en double seront écrasés au cours du nouveau transfert.</string>
+    <string name="trans_intro_desc_2">Annulez le transfert, quittez Mi Mover et recommencez. Les fichiers en double seront écrasés au cours du nouveau transfert.</string>
     <string name="trans_intro_question_3">"3. Pourquoi ne suis-je pas en mesure d'utiliser le Wi-Fi pendant les transferts ?"</string>
     <string name="trans_intro_desc_3">"Mi Mover utilise Wi-Fi pour transférer des fichiers. C'est pourquoi vous ne pouvez pas vous connecter à Internet en utilisant Wi-Fi sur l'un ou l'autre périphérique pendant un transfert. Vous pouvez toujours utiliser des données mobiles. Cependant, certains périphériques plus récents (par exemple, Mi 6) pourraient toujours se connecter à Internet en utilisant Wi-Fi pendant les transferts."</string>
     <string name="trans_intro_question_4">"4. Pourquoi Mi Mover me dit-il que l'espace de stockage sur mon ancien téléphone est insuffisant ?"</string>

@@ -380,6 +380,7 @@ de l'opérateur"</string>
     <string name="detail_app_button">"Informations sur l'application"</string>
     <string name="pref_about_traffic_title">"Paramètres d'utilisation des données"</string>
     <string name="pref_traffic_manage_title">Utilisation de données</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Limite de données mobiles</string>
     <string name="pref_adjust_traffic_data">"Définir l'utilisation des données"</string>
     <string name="pref_category_title_other">Paramètres supplémentaires</string>
@@ -872,6 +873,7 @@ Cette activité réduit la durée de vie de la batterie."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Cette application peut ralentir
 votre appareil"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Désinstaller %s ?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">"Désinstaller cette application pour résoudre tous les problèmes liés à l'usage de la batterie."</string>
     <string name="om_ill_proc_type_wakelock_title">"L'application bloque le mode veille et décharge la batterie"</string>
@@ -1203,6 +1205,7 @@ votre appareil"</string>
     <string name="sp_monitored_apps_count_zero">"Aucune application de paiement n'est protégée"</string>
     <string name="monitor_app_more">Plus</string>
     <string name="monitor_app_add">Ajouter</string>
+    <string name="sc_system_risk_fix_info_xspace">"Le risque ne peut pas être corrigé dans xspace, passez à l'espace propriétaire pour le réparer."</string>
     <string name="sp_background_risk_dialog_title">Attention</string>
     <string name="sp_background_risk_dialog_summary">, vérifier et réparer les erreurs de paiement.</string>
     <string name="sp_background_risk_type_wifi">Ce réseau Wi-Fi est dangereux</string>
@@ -1266,6 +1269,7 @@ votre appareil"</string>
     <string name="menu_text_networkassistants">Utilisation des données</string>
     <string name="menu_text_networkassistants_remain">%s restants</string>
     <string name="menu_text_networkassistants_danger">%s dépassé</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">Go</string>
     <string name="menu_text_networkassistants_unit_mb">Mo</string>
     <string name="menu_text_networkassistants_unit_kb">ko</string>
@@ -1626,6 +1630,7 @@ votre appareil"</string>
     <string name="card_main_deepclean_wechat_action">Vider</string>
     <string name="card_main_sectool_title">Outils</string>
     <string name="card_main_monthreport_action">Afficher</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Tester le réseau</string>
     <string name="card_main_netcheck_summary">Tester la connexion pour des problèmes de réseau</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1810,7 +1815,7 @@ votre appareil"</string>
     <string name="app_manager_perm">Autorisations</string>
     <string name="app_manager_app_update">Mises à jour</string>
     <string name="app_manager_details_storage_title">Stockage</string>
-    <string name="app_manager_details_traffic_title">Utilisation des données ce mois</string>
+    <string name="app_manager_details_traffic_title">Utilisation des données</string>
     <string name="app_manager_details_electric_title">Batterie</string>
     <string name="app_manager_card_permission_title">Permissions</string>
     <string name="app_manager_permission_startself_title">Démarrage automatique</string>
@@ -1895,6 +1900,30 @@ votre appareil"</string>
     <string name="app_manager_show_all_apps">Afficher toutes les applications</string>
     <string name="app_manager_hide_system_server">Masquer les services du système</string>
     <string name="app_manager_back">Retour</string>
+    <string name="app_manager_defaults_setting">Par défaut</string>
+    <string name="app_manager_clear_cache">Vider le cache</string>
+    <string name="app_manager_reset_app_preferences">"Réinitialiser les préférences de l'application"</string>
+    <string name="app_manager_reset_app_preferences_title">"Réinitialiser les préférences de l'application ?"</string>
+    <string name="app_manager_reset_app_preferences_desc">"Cette action réinitialisera toutes les préférences pour :
+
+ "<li>Applications désactivées</li>"
+ "<li>Notifications des applications désactivées</li>"
+ "<li>Applications par défaut pour les actions</li>"
+ "<li>"Restriction des données d'arrière-plan pour les applications"</li>"
+
+ Vous ne perdrez aucune donnée d'application."</string>
+    <string name="app_manager_reset_app_preferences_button">Réinitialiser les applications</string>
+    <string name="app_manager_disable_text">Désactiver</string>
+    <string name="app_manager_enable_text">Activer</string>
+    <string name="app_manager_disable_dlg_title">Désactiver une application système ?</string>
+    <string name="app_manager_disable_dlg_text">"Si vous désactivez cette application, d'autres applications pourront ne plus fonctionner correctement."</string>
+    <string name="app_manager_disabled">Désactivé</string>
+    <string name="app_manager_enabled">Activé</string>
+    <string name="app_manager_globel_perm_title">"Autorisations de l'application"</string>
+    <string name="app_manager_globel_perm_summary">Gérer les autorisations relatives à la localisation, au stockage, au téléphone, aux messages et aux contacts.</string>
+    <string name="app_manager_globel_other_perm_title">Autres autorisations</string>
+    <string name="app_manager_uninstall_protected_dlg_title">Désinstallation des applications systèmes</string>
+    <string name="app_manager_uninstall_protected_dlg_msg">Désinstaller les applications système peuvent empêcher certains composants MIUI de fonctionner correctement. Désinstaller quand même ?</string>
     <string name="ad_btn_default_text">En savoir plus</string>
     <string name="open_activity_err">"L'application n'a pas été trouvée"</string>
     <string name="low_memory_warning_dialog_title">Espace de stockage insuffisant</string>
@@ -2013,6 +2042,7 @@ votre appareil"</string>
     <string name="gamebooster_main_activity_back">"Retour à l'accélérateur de la vitesse de jeu"</string>
     <string name="data_booster_title">Stabliser la connexion de données</string>
     <string name="data_booster_desc">Désactiver les autres tiroirs de SIM pour stabiliser la connexion</string>
+    <string name="international_Ad">Ad</string>
     <string name="power_center_consume_rank">Utilisation de la batterie</string>
     <string name="power_center_custom_title">"Profils de gestion d'énergie"</string>
     <string name="power_center_auto_shutdown_summary_default">Allumer ou éteindre votre appareil à une heure programmée</string>

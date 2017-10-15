@@ -57,6 +57,7 @@
     <string name="save_pic_success">Image sauvegardée dans %s</string>
     <string name="save_pic_fail">"Impossible de sauvegarder l'image, vérifiez votre carte SD"</string>
     <string name="pic_not_exist">"Cette image n'existe pas"</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Sélectionnez un produit</string>
     <string name="michat_skillset_business_type_title">Sélectionnez le service</string>
     <string name="michat_close_text">Conversation terminée</string>
@@ -299,4 +300,7 @@
     <string name="toast_screenshot_too_large">Impossible de charger des fichiers de plus de 10 Mo.</string>
     <string name="title_bbs_feedback_main">En savoir plus sur les téléphones Mi</string>
     <string name="title_customer_service">Service clientèle</string>
+    <string name="customer_service_apply">Demander le Service clientèle</string>
+    <string name="customer_service_complain">Signaler le Service clientèle</string>
+    <string name="customer_service_station">Localisations des services</string>
 </resources>

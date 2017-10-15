@@ -123,8 +123,8 @@
     <string name="scenario_policies_summary">"Appliquer différentes stratégies d'économie d'énergie pour des scènes différentes."</string>
     <string name="sleep_config_enhance_title">Mode veille</string>
     <string name="sleep_config_enhance_description">"Chaque fois que MIUI détecte que vous dormez, il fermera les applications en arrière-plan, restreindra l'utilisation du NFC, Bluetooth, GPS, des données mobiles et du réseau Wi-Fi puis n'allumera pas l'écran à la réception des notifications."</string>
-    <string name="nonui_mode_config_title">Noninteractive mode</string>
-    <string name="nonui_mode_config_description">"Don't light up screen for notifications, turn off notification light, fingerprint, and touch controls when your device is in a pocket."</string>
+    <string name="nonui_mode_config_title">Mode non interactif</string>
+    <string name="nonui_mode_config_description">"Ne pas allumer l'écran pour les notifications, désactiver le voyant de notification, l'empreinte digitale et les contrôles de touche lorsque votre appareil est dans une poche."</string>
     <string name="scenario_policies_warmcontrol">Contrôle de température</string>
     <string name="warm_configure">Paramètres du contrôle de température</string>
     <string name="important_warning">Attention</string>

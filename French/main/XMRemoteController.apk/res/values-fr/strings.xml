@@ -92,6 +92,7 @@
     <string name="bind_stb">"Continuer l'association de la Box"</string>
     <string name="bind_stb_dlg">Associer votre décodeur pour changer de chaînes</string>
     <string name="bind_stb_dlg_agree">Associer</string>
+    <string name="brand_device">%1$s %2$s</string>
     <string name="brand_search_box_hint">Sélectionnez le fabricant</string>
     <string name="brand_title_all">Toutes les marques</string>
     <string name="brand_title_hot">Populaires</string>
@@ -285,6 +286,7 @@
     <string name="hot_videos">Populaires</string>
     <string name="hour">h</string>
     <string name="humidity">Humidité :</string>
+    <string name="humidity_frame">%1$d%%</string>
     <string name="increase">Haut</string>
     <string name="input_complete">OK</string>
     <string name="input_source">"Source d'entrée"</string>
@@ -340,6 +342,7 @@
     <string name="loading_ir_data">Un instant…</string>
     <string name="locate_current_place">Trouver la localisation actuelle</string>
     <string name="location_select">"Renommez l'appareil"</string>
+    <string name="lock_screen_device_sum">%1$d</string>
     <string name="login">Connexion</string>
     <string name="login_directly">Connexion</string>
     <string name="login_done">Connecté</string>
@@ -365,6 +368,7 @@
     <string name="match_data">"Information d'appairage"</string>
     <string name="match_data_error_tips">"Impossible d'obtenir les informations
 Retounez pour continuer"</string>
+    <string name="match_dataset_frame">%1$d/%2$d</string>
     <string name="match_direction_default">Les boutons de direction fonctionnent-ils ?</string>
     <string name="match_dvd_intro_pause">Relâchez quand la lecture du DVD pause</string>
     <string name="match_dvd_intro_play">Relâchez quand le DVD commence à jouer</string>
@@ -567,6 +571,8 @@ directement depuis votre écran de verrouillage"</string>
     <string name="scaning">Recherche…</string>
     <string name="scanning_milink">"Recherche d'appareils…"</string>
     <string name="scene_default">Par défaut</string>
+    <string name="scene_name_frame">%1$s %2$s%3$s</string>
+    <string name="scene_name_frame_short">%1$s%2$s</string>
     <string name="screenshot">"Capture d'écran"</string>
     <string name="screenshot_failed">"Impossible de capturer l'écran"</string>
     <string name="screenshot_failed_and_check_connection">"Impossible de capturer l'écran, vérifiez les appareils connectés"</string>
@@ -664,6 +670,7 @@ directement depuis votre écran de verrouillage"</string>
     <string name="start_diagnosis">Tester</string>
     <string name="start_match">Associer</string>
     <string name="stb">Décodeur</string>
+    <string name="stb_detail_title_frame">%1$s - %2$d</string>
     <string name="stb_power">Box marche/arrêt</string>
     <string name="steps">\#%d tentatives</string>
     <string name="stop_diagnosis">Arrêter</string>

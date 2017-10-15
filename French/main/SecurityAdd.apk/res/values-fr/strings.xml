@@ -39,7 +39,7 @@
     <string name="pc_activity_title">Optimiser la batterie</string>
     <string name="game_booster">Accélérateur de la vitesse de jeu</string>
     <string name="game_booster_title">Accélérer</string>
-<string name="top_game"/>
+    <string name="top_game">Meilleurs jeux</string>
     <string name="game_setting">Paramètres de jeu</string>
     <string name="gs_auto_clean_memory">Vider le cache</string>
     <string name="gs_auto_clean_memory_detail">Efface automatiquement le cache pour optimiser le jeu</string>

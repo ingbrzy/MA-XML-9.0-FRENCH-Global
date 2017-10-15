@@ -205,6 +205,7 @@
     <string name="do_not_support_video_calls_by_remote">"L'autre appareil ne supporte pas les appels vidéos"</string>
     <string name="close_camera_requesting">"Désactivation de l'appareil photo…"</string>
     <string name="close_camera_failed">"Impossible de désactiver l'appareil photo…"</string>
+    <string name="change_to_voice_tips_when_background">The other party has switched to voice call</string>
     <string name="call_button_tools_text">Fonctionnalités</string>
     <string name="call_button_dialer_text">Clavier</string>
     <string name="call_button_mute_text">Muet</string>
