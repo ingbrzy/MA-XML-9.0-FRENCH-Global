@@ -81,7 +81,6 @@
     <string name="birthday_alarm_summary">"Jouer \"Joyeux anniversaire\" comme sonnerie d'alarme par défaut pour votre anniversaire"</string>
     <string name="turn_off_a_repeat_alarm">Désactiver une alarme récurrente</string>
     <string name="skip_alarm_once_hint">Désactiver une fois le %s</string>
-    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="turn_off_this_repeat_alarm">Désactiver cette alarme récurrente</string>
     <string name="today">"Aujourd'hui"</string>
     <string name="tomorrow">Demain</string>
