@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Aucune</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -160,7 +162,7 @@
     <string name="wifi_verbose_logging_summary">Augmentez le niveau de la connexion Wi‑Fi, affichez les RSSI pour chaque SSID dans la liste des réseaux Wi‑Fi.</string>
     <string name="wifi_aggressive_handover_summary">Une fois activée, la connexion basculera vers les données mobiles plus activement, lorsque le signal du Wi-Fi est faible.</string>
     <string name="wifi_allow_scan_with_traffic_summary">"Autoriser ou interdire les recherches de Wi‑Fi basées sur le volume du trafic de données présent à l'interface."</string>
-    <string name="select_logd_size_title">Tailles des mémoires tampon des journaux</string>
+    <string name="select_logd_size_title">Tailles des tampons journaux</string>
     <string name="select_logd_size_dialog_title">Sélectionner la taille des mémoires tampons des journaux</string>
     <string name="select_usb_configuration_title">Sélectionner la configuration USB</string>
     <string name="select_usb_configuration_dialog_title">Sélectionner la configuration USB</string>
@@ -173,7 +175,7 @@
     <string name="adb_warning_message">Le débogage USB est uniquement destiné à des fins de développement. Utilisez-le pour copier des données entre votre ordinateur et votre appareil, installer des applications sur votre appareil sans notification et lire les données de journal.</string>
     <string name="adb_keys_warning_message">"Révoquer l'accès au débogage USB pour tous les ordinateurs que vous avez précédemment autorisés ?"</string>
     <string name="dev_settings_warning_title">Autoriser les paramètres de développement ?</string>
-    <string name="dev_settings_warning_message">"Ces paramètres sont destinés uniquement aux développeurs. L'activation de ces fonctionnalités peut faire en sorte que votre appareil et les applications soient mal comportées ou provoquent des erreurs."</string>
+    <string name="dev_settings_warning_message">"Ces paramètres sont destinés uniquement aux développeurs. L'activation de ces fonctionnalités peut faire en sorte que votre appareil et les applications se comportent mal ou provoquent des erreurs."</string>
     <string name="verify_apps_over_usb_title">Vérifier les applications via USB</string>
     <string name="verify_apps_over_usb_summary">Vérifier les applications installées via ADB/ADT pour un comportement dangereux.</string>
     <string name="bluetooth_disable_absolute_volume_summary">Désactivez tout le volume du Bluetooth en cas de problème de volume avec des périphériques distants, par exemple un volume inacceptable ou une incapacité à le contrôler.</string>
@@ -412,7 +414,7 @@ Si vous réactivez les données, vous pouvez être facturé par l'opérateur."</
     <string name="recents_empty_message_dismissed_all">Vous avez supprimé tous les éléments</string>
     <string name="recents_empty_message_multi_window">"Ouvrez les applications depuis l'écran d'accueil"</string>
     <string name="recents_app_info_button_label">"Infos de l'application"</string>
-    <string name="recents_lock_to_app_button_label">Écran du code Pin</string>
+    <string name="recents_lock_to_app_button_label">"Fixer l'écran"</string>
     <string name="recents_search_bar_label">Rechercher</string>
     <string name="recents_launch_error_message">Impossible de lancer %s</string>
     <string name="recents_launch_disabled_message">%s ne peut être lancé en mode Sécurisé</string>
@@ -425,7 +427,7 @@ Si vous réactivez les données, vous pouvez être facturé par l'opérateur."</
     <string name="recents_multi_window_mode">Écran divisé</string>
     <string name="recents_exit_multi_window_mode">Quitter</string>
     <string name="keyboard_shortcut_group_system_recents">Récents</string>
-    <string name="accessibility_divider">"Diviseur d'écran divisé"</string>
+    <string name="accessibility_divider">"Diviseur d'écran"</string>
     <string name="accessibility_action_divider_left_full">Plein écran gauche</string>
     <string name="accessibility_action_divider_left_70">70% à gauche</string>
     <string name="accessibility_action_divider_left_50">50% à gauche</string>
@@ -536,6 +538,7 @@ d MMMM"</string>
     <string name="ext_media_mountable_notification_title">Périphérique de stockage USB connecté</string>
     <string name="ext_media_mountable_notification_message">"Appuyez pour ouvrir dans l'Explorateur."</string>
     <string name="ext_media_safe_remove">Retirer en toute sécurité</string>
+    <string name="network_speed_suffix">%1$s %2$s</string>
     <string name="kilobyte_per_second">ko/s</string>
     <string name="megabyte_per_second">Mo/s</string>
     <string name="status_bar_network_flow_today">"Aujourd'hui : %1$s"</string>
@@ -554,7 +557,7 @@ d MMMM"</string>
     <string name="notification_hidden_text">La notification est masquée</string>
     <string name="block_notification_text">Masquer</string>
     <string name="block_notification_content_text">"Les notifications de %1$s ne s'afficheront plus. Vous pourrez changer ceci dans les Paramètres."</string>
-    <string name="block_notification_desc">"Les notifications se s'afficheront plus. Vous pouvez changer ceci dans les Paramètres."</string>
+    <string name="block_notification_desc">"Les notifications ne s'afficheront plus. Vous pouvez changer ceci dans les Paramètres."</string>
     <string name="notification_otg_mouse_in">Souris connectée</string>
     <string name="notification_otg_keyboard_in">Clavier connecté</string>
     <string name="notification_otg_gamestick_in">Contrôleur de jeu connecté</string>
@@ -615,6 +618,7 @@ d MMMM"</string>
     <string name="notification_header_title">Notifications</string>
     <string name="weather_publish_time">Mis à jour à %1$s</string>
     <string name="no_weather_description">Obtenir les informations de la météo ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="screenshot_long_screenshot">Défiler</string>
     <string name="screenshot_edit">Éditer</string>
     <string name="screenshot_send">Envoyer</string>
@@ -658,4 +662,6 @@ d MMMM"</string>
     <string name="important_desc">Toutes les notifications importantes appaîtront sur le panneau de notification.</string>
     <string name="cancel">Annuler</string>
     <string name="search_hint">Rechercher des sites Web, applications, des contacts, des vidéos, ...</string>
+    <string name="description_image_button_reject">Decline</string>
+    <string name="description_image_button_answer">Answer</string>
 </resources>

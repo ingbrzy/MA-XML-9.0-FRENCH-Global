@@ -32,7 +32,7 @@
     <string name="setting_alarm_arriving_summary">"Envoyer une notification avant le déclenchement de l'alarme"</string>
     <string name="close_alarm">Désactiver</string>
     <string name="timer_notify_text">Répéter ou annuler la minuterie.</string>
-    <string name="upcoming_alarm">Prochaine alarme</string>
+    <string name="upcoming_alarm">%s Prochaine alarme</string>
     <string name="upcoming_alarm_hint">"Vous pouvez fermer cette alarme à l'avance"</string>
     <string name="start">Départ</string>
     <string name="pause">Pause</string>
@@ -81,6 +81,7 @@
     <string name="birthday_alarm_summary">"Jouer \"Joyeux anniversaire\" comme sonnerie d'alarme par défaut pour votre anniversaire"</string>
     <string name="turn_off_a_repeat_alarm">Désactiver une alarme récurrente</string>
     <string name="skip_alarm_once_hint">Désactiver une fois le %s</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="turn_off_this_repeat_alarm">Désactiver cette alarme récurrente</string>
     <string name="today">"Aujourd'hui"</string>
     <string name="tomorrow">Demain</string>

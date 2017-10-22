@@ -23,10 +23,14 @@
     <string name="action_menu_account_not_login_hint">Se connecter pour synchroniser avec Mi Cloud</string>
     <string name="action_menu_bookshelf">Bibiothèque</string>
     <string name="action_menu_current_version">Version actuelle</string>
+    <string name="action_menu_request_desktop_site">Demander la version PC bureau du site</string>
+    <string name="action_menu_request_desktop_site_off">Demande de la version PC bureau du site/désactivé</string>
+    <string name="action_menu_request_desktop_site_on">Demande de la version PC bureau du site/activé</string>
     <string name="action_menu_text_add_bookmark">Ajouter aux favoris</string>
     <string name="action_menu_text_bandwidth">Économiseur</string>
     <string name="action_menu_text_bandwidth_off">Économiseur désactivé</string>
     <string name="action_menu_text_bandwidth_on">Économiseur activé</string>
+    <string name="action_menu_text_bookmark_add_off">Aucune page Web ne peut être ajoutée.</string>
     <string name="action_menu_text_bookmark_added">Favori ajouté</string>
     <string name="action_menu_text_copy_url">"Copier l'URL"</string>
     <string name="action_menu_text_create_qr_code">Code QR</string>
@@ -61,6 +65,7 @@
     <string name="add_favorites_to">Ajouter aux favoris</string>
     <string name="add_new_bookmark">Ajouter aux favoris</string>
     <string name="add_new_quicklink">"Ajouter à la page d'accueil"</string>
+    <string name="add_pwa_to_homescreen">"Ajouter cette page Web à l'écran d'accueil ?"</string>
     <string name="add_ql_bm_title">Enregistrer</string>
     <string name="add_quicklink_to_popular">"Ajouter à la page d'accueil"</string>
     <string name="add_quicklinks">Ajouter</string>
@@ -74,6 +79,7 @@
     <string name="added_to_bookmarks">Ajouté aux favoris</string>
     <string name="adjust_text_zoom_toast">Changer la taille du zoom peut rendre certains sites illisibles</string>
     <string name="agree">Accepter</string>
+    <string name="agree_permissions_request">Accepter</string>
     <string name="alert_tips">Ce site peut présenter des problèmes de sécurité</string>
     <string name="allow">Autoriser</string>
     <string name="app_new_version">"La dernière version de l'application est déjà installée"</string>
@@ -132,6 +138,7 @@
     <string name="browserFrameFormResubmitMessage">La page que vous essayez de voir contient des données qui ont déjà été soumises. Si vous transmettez les données, les actions précédentes (par exemple, des recherches ou achats) seront répétées.</string>
     <string name="browserFrameNetworkErrorLabel">Erreur de connexion</string>
     <string name="cancel">Annuler</string>
+    <string name="cancle_sync_cloud_tabs">Annuler la synchronisation</string>
     <string name="cannot_download">Peut seulement télécharger des URL \"http\" ou \"https\"</string>
     <string name="choosertitle_sharevia">Partager via</string>
     <string name="clear_history">"Effacer l'historique"</string>
@@ -167,6 +174,7 @@
     <string name="color_picker_dialog_title">Sélectionnez la couleur</string>
     <string name="color_picker_hue">Teinte</string>
     <string name="color_picker_saturation">Saturation</string>
+    <string name="color_picker_value">Valeur</string>
     <string name="comment_app_menu">Commentaire</string>
     <string name="comment_description">Commentaire</string>
     <string name="comment_hint">Commentaire</string>
@@ -183,6 +191,7 @@
     <string name="contextmenu_manually_block_ad">Marqué comme publicité</string>
     <string name="contextmenu_map">Carte</string>
     <string name="contextmenu_openlink">Ouvrir</string>
+    <string name="contextmenu_openlink_in_browser">Ouvrir dans Navigateur</string>
     <string name="contextmenu_openlink_newwindow">Ouvrir dans un nouvel onglet</string>
     <string name="contextmenu_openlink_newwindow_background">"Ouvrir dans un onglet d'arrière-plan"</string>
     <string name="contextmenu_recognise_qr_code">Scanner le code QR</string>
@@ -192,7 +201,7 @@
     <string name="contextmenu_share_image">"Partager l'image"</string>
     <string name="contextmenu_sharelink">Partager le lien</string>
     <string name="contextmenu_view_image">"Voir l'image"</string>
-    <string name="contextmenu_webpage_capture">"Enregistrer comme capture d'écran"</string>
+    <string name="contextmenu_webpage_capture">"Capture d'écran"</string>
     <string name="contextmenu_webpage_html">Enregistrer comme fichier HTML</string>
     <string name="contextmenu_webpage_snapshot">Enregistrer la page</string>
     <string name="copy_to_clipboard_failure_message">Échec de copie dans le presse-papier</string>
@@ -285,6 +294,9 @@ Les pages que vous visitez n'apparaîtront pas dans l'historique."</string>
     <string name="edit_quicklink">Éditer</string>
     <string name="empty_app_name">autres applications</string>
     <string name="empty_bookmark">Vide</string>
+    <string name="empty_cloud_tab_login_hint">Aucun onglet cloud</string>
+    <string name="empty_cloud_tab_logout_hint">"Se connecter au Compte Mi
+ les onglets ouverts sur d'autres appareils s'afficheront ici"</string>
     <string name="empty_history_hint">"L'historique est vide"</string>
     <string name="empty_snapshot_hint">Vide</string>
     <string name="enable_geolocation_confirm_message">Désactiver les services de localisation affectera les recommandations que vous recevez.</string>
@@ -308,6 +320,7 @@ Les pages que vous visitez n'apparaîtront pas dans l'historique."</string>
     <string name="find_on_page_next">Suivant</string>
     <string name="find_on_page_prev">Retour</string>
     <string name="find_previous">Trouver le précédent</string>
+    <string name="finish_sync_cloud_tabs">Synchronisation terminée</string>
     <string name="firstUsingSearchEngineTips">Changer de moteur de recherche ?</string>
     <string name="fling_on_border_gesture_hint">Vous pouvez choisir la fonction de ce geste dans Paramètres</string>
     <string name="force_quick_search_title">Recherche</string>
@@ -341,6 +354,7 @@ Les pages que vous visitez n'apparaîtront pas dans l'historique."</string>
     <string name="homepage_more_sites">Plus de sites Web</string>
     <string name="homepage_search_hint">Rechercher</string>
     <string name="homepage_top_card_menu">Top</string>
+    <string name="ignore_add_pwa_dialog_today">"Ne pas afficher aujourd'hui"</string>
     <string name="in_incognito">"Vous êtes incognito ! Les pages Web que vous consulterez dans cet onglet n'apparaîtront pas dans l'historique de votre navigateur."</string>
     <string name="in_secureaccess">Le Navigateur est passé en mode sécurisé</string>
     <string name="isReplacePage">Le fichier existe déjà, le remplacer ?</string>
@@ -550,9 +564,12 @@ Quitter cette page ?"</string>
     <string name="pay_failed_toast">Impossible de terminer le paiement</string>
     <string name="pay_success_toast">Payé avec succès</string>
     <string name="permission_alert_window">Autoriser les pop-up à utiliser cette fonction</string>
+    <string name="permission_notification">vous envoyer des notifications</string>
     <string name="permission_unknown">Action inconnue</string>
+    <string name="permissions_prompt_message">"%s veut "</string>
     <string name="popup_window_attempt">Autoriser ce site à ouvrir une fenêtre pop-up ?</string>
     <string name="positive_confirm_message">Désactiver malgré tout</string>
+    <string name="pref_accept_quicklink_push">Ouvrir la page push</string>
     <string name="pref_accessibility">Accessibilité</string>
     <string name="pref_accessibility_title">Accessibilité</string>
     <string name="pref_accessibility_url_shortcut_enter_summary">"Les combinaisons de lettres communes peuvent être saisies en un clic dans la barre d'adresse"</string>
@@ -592,7 +609,7 @@ Quitter cette page ?"</string>
     <string name="pref_extras_reset_default_summary">Restaurer les paramètres par défaut</string>
     <string name="pref_extras_reset_default_title">Autre</string>
     <string name="pref_extras_send_feedback">Envoyer un commentaire</string>
-    <string name="pref_extras_title">Avancé</string>
+    <string name="pref_extras_title">Paramètres avancés</string>
     <string name="pref_extras_title_version">Informations de version</string>
     <string name="pref_file_downlaod_save_is_reset_default_settings">"Enregistrer les fichiers dans l'emplacement par défaut du navigateur"</string>
     <string name="pref_file_downlaod_save_reset_default_settings">"Restaurer l'emplacement par défaut"</string>
@@ -663,12 +680,14 @@ Quitter cette page ?"</string>
     <string name="progress_dialog_setting_wallpaper">"Définition comme fond d'écran…"</string>
     <string name="pull_to_refresh_pull_label">Glissez pour actualiser</string>
     <string name="pull_to_refresh_release_label">Relâcher pour recommander et actualiser</string>
+    <string name="pwa_app_name">Application Web</string>
     <string name="qr_code_title">Code QR</string>
     <string name="qr_description">Scannez le code QR</string>
     <string name="quicklink_bookmark_save">Enregistrer sous</string>
     <string name="quicklink_cannot_save_url">Cette URL ne peut pas etre ajoutée.</string>
     <string name="quicklink_folder_text">Top des applis</string>
     <string name="quicklink_not_saved">"Impossible d'ajouter comme page d'accueil"</string>
+    <string name="quicklink_push_confirm_message">Désactiver cette fonctionnalité affectera la page de démarrage push.</string>
     <string name="quicklink_saved">"Enregistré comme page d'accueil"</string>
     <string name="quicklink_saved_before">Ce site a déjà été ajouté</string>
     <string name="quicklink_user_define_webpage_title">Nom</string>
@@ -691,6 +710,7 @@ Quitter cette page ?"</string>
     <string name="readmode_recommend_message">Vous avez déjà lu ce livre. :)</string>
     <string name="readmode_refresh">Actualiser</string>
     <string name="readmodelist_bookmarks_to_show">Liste de lecture</string>
+    <string name="refuse_permissions_request">Refuser</string>
     <string name="remember_passwords_confirm_message">"Désactiver cette fonctionnalité peut affecter l'utilisation."</string>
     <string name="remove_bookmark">Supprimer le favori</string>
     <string name="remove_bookmark_group">Supprimer le groupe</string>
@@ -801,16 +821,24 @@ Quitter cette page ?"</string>
     <string name="suggest_access_btn_play">Lecture</string>
     <string name="suggest_access_btn_view">Voir</string>
     <string name="suggest_access_item_album_songs">%d chansons</string>
+    <string name="suggest_access_item_app_mark">APPLICATION</string>
     <string name="suggest_access_item_app_size">%.2f Mo</string>
     <string name="suggest_access_item_app_update">Mise à jour : %s</string>
+    <string name="suggest_access_item_book_mark">AJOUTER AUX FAVORIS</string>
+    <string name="suggest_access_item_mina_mark">DIRECT SERVICE</string>
+    <string name="suggest_access_item_music_mark">MUSIQUE</string>
     <string name="suggest_access_item_singer_albums">%d albums</string>
     <string name="suggest_access_item_singer_pop">%d chansons populaires</string>
+    <string name="suggest_access_item_site_mark">SITES</string>
+    <string name="suggest_access_item_video_mark">VIDÉO</string>
+    <string name="suggest_access_item_website_mark">SITE WEB</string>
     <string name="suggest_access_music">Mi Music</string>
     <string name="suggest_item_delete_text">Supprimer</string>
     <string name="suggest_open_app_failed">"Impossible d'ouvrir cette application"</string>
     <string name="switchText">OUI</string>
     <string name="switch_proxy_dialog_msg">"Détournement de réseau détecté. Utilisez l'application Sécurité de MIUI ou signalez le problème à votre opérateur."</string>
     <string name="switch_proxy_dialog_title">Détournement du réseau</string>
+    <string name="sync_cloud_tabs">Synchroniser</string>
     <string name="tab_hotpage">Nouvelles RSS</string>
     <string name="tab_quicklinks">"Page d'accueil"</string>
     <string name="tab_yellowpage">Liens</string>

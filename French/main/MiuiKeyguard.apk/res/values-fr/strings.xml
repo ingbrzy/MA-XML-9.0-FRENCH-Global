@@ -129,7 +129,7 @@
     <string name="unlock_failed_face_not_found">Détection</string>
     <string name="unlock_camera_steady">Veuillez rester stable</string>
     <string name="face_unlock_offset_left">Déplacez-vous vers la droite</string>
-    <string name="face_unlock_offset_top">Lever votre téléphone un tout petit peu</string>
+    <string name="face_unlock_offset_top">Levez votre téléphone un tout petit peu</string>
     <string name="face_unlock_offset_right">Déplacez-vous vers la gauche</string>
     <string name="face_unlock_offset_bottom">Baissez votre téléphone un tout petit peu</string>
     <string name="face_unlock_rotated_left">Tournez votre tête vers la droite</string>

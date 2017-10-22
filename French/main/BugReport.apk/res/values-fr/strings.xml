@@ -57,6 +57,7 @@
     <string name="save_pic_success">Image sauvegardée dans %s</string>
     <string name="save_pic_fail">"Impossible de sauvegarder l'image, vérifiez votre carte SD"</string>
     <string name="pic_not_exist">"Cette image n'existe pas"</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Sélectionnez un produit</string>
     <string name="michat_skillset_business_type_title">Sélectionnez le service</string>
     <string name="michat_close_text">Conversation terminée</string>
@@ -173,7 +174,7 @@
     <string name="modem_tool_log_dumping_desc">"Appuyez sur l'icône pour arrêter"</string>
     <string name="bugreport_tool_log_dumping_title">Créer un rapport de bogue</string>
     <string name="bugreport_tool_log_dumping_desc">Cela prendra environ une minute</string>
-    <string name="modem_tool_log_finish_title">Journal modem capturé</string>
+    <string name="modem_tool_log_finish_title">Journal de modem capturé</string>
     <string name="modem_tool_log_finish_desc">Journal enregistré sous %s</string>
     <string name="bugreport_dialog_not_show_again">Ne plus afficher</string>
     <string name="bugreport_dialog_submit_content">Votre commentaire pourrait contenir des informations personnelles et vos données de localisation.</string>

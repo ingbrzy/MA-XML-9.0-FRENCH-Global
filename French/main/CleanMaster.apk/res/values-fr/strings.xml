@@ -474,5 +474,4 @@
     <string name="app_description_title">À propos du nettoyeur</string>
     <string name="app_description_content">"Le nettoyeur détecte des résidus sur votre appareil et libère de l'espace de stockage. Assurez-vous que vous pouvez vous passer de cette fonctionnalités avant de désinstaller l'application."</string>
     <string name="engine_init">Initialisation...</string>
-    <string name="international_Ad">Ad</string>
 </resources>

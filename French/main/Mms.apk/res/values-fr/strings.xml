@@ -178,6 +178,7 @@
     <string name="file_size">Taille :</string>
     <string name="file_title">Nom :</string>
     <string name="file_width_height">Taille :</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Nouveau message</string>
     <string name="forward_from">Transférer de:</string>
     <string name="forward_prefix">TR :</string>
@@ -250,7 +251,7 @@
     <string name="message_number">Numéro de téléphone :</string>
     <string name="message_pending">En attente</string>
     <string name="message_queued">"Impossible d'envoyer le message maintenant. Il sera envoyé dès que le service sera disponible."</string>
-    <string name="message_queued_second_space">"Impossible d'envoyer votre message maintenant. Veuillez ouvrir le réseau des données."</string>
+    <string name="message_queued_second_space">"Impossible d'envoyer le message. Activez les données pour effectuer l'envoi."</string>
     <string name="message_readed">Lu</string>
     <string name="message_received">Reçu</string>
     <string name="message_rejected">Rejeté</string>
@@ -300,9 +301,6 @@
     <string name="mx_activate_status_desc_query_activte_info">Vérification des informations de la carte SIM…</string>
     <string name="mx_activate_status_desc_request_activation_sms_phone_error">Le numéro de téléphone que vous avez entré est non valide</string>
     <string name="mx_activate_status_desc_wait_for_sms_fail">"Impossible d'activer Mi Message"</string>
-    <string name="mx_and_voip_enable">Messages Mi &amp; Voix</string>
-    <string name="mx_and_voip_enable_popup_msg">"Envoyer des messages et passer des appels vers d'autres utilisateurs MIUI sans encourir de frais auprès de votre opérateur. VoIP fournie par Weihui. Voir la Politique de confidentialité de Weihui."</string>
-    <string name="mx_and_voip_enable_popup_msg2">Politique de confidentialité</string>
     <string name="mx_auto_resend_mms">Envoyer par MMS</string>
     <string name="mx_auto_resend_mms_summary">"Envoyer comme MMS via la connexion de données mobile lorsque vous n'êtes pas connecté au Wi-Fi. Cela peut entrainer des frais de votre opérateur."</string>
     <string name="mx_auto_resend_sms">Envoyer par SMS</string>
@@ -314,7 +312,6 @@
     <string name="mx_dspt">Envoyer des SMS et MMS aux autres appareils MIUI sans encourir de frais pendant que vous êtes connecté au Wi-Fi.</string>
     <string name="mx_dspt_listview">Envoyer des messages aux autres utilisateurs MIUI sans encourir de frais</string>
     <string name="mx_dspt_provision">"Mi Message vous permet d'envoyer des messages à d'autres utilisateurs MIUI via Internet sans encourir de frais. Un SMS sortant peut être nécessaire pour réactiver Mi Message. Votre opérateur vous facturera ce message. En plus, ce service doit accéder aux données mobiles pour fonctionner normalement."</string>
-    <string name="mx_dspt_provision_ex">"Envoyez des messages et effectuez des appels vers d'autres utilisateurs MIUI via Internet sans encourir de frais auprès de votre opérateur. VoIP est fournie par Weihui. Voir la Politique de confidentialité de Weihui."</string>
     <string name="mx_dspt_provision_ex2">Politique de confidentialité</string>
     <string name="mx_enable">Messages Mi</string>
     <string name="mx_enable_ex">Messages Mi &amp; Voix</string>
@@ -355,8 +352,8 @@
     <string name="notification_multiple">[%s]</string>
     <string name="notification_multiple_title">Nouveaux messages</string>
     <string name="number_add_hint">Entrez un numéro de téléphone</string>
-    <string name="open_audio_record_panel">"Ouvrir le panneau d'enregistrement audio"</string>
-    <string name="open_edit_sms_panel">"Ouvrir le panel d'édition des Sms"</string>
+    <string name="open_audio_record_panel">"Ouvrir le panneau pour enregistrer de l'audio"</string>
+    <string name="open_edit_sms_panel">Ouvrir le panneau pour éditer des messages</string>
     <string name="open_url_with_web">"Permettre d'ouvrir l'URL avec Internet ?"</string>
     <string name="over_max_mms_size">Le MMS est trop gros.</string>
     <string name="overwrite_edited_content">Le contenu que vous avez modifié sera remplacé.</string>
@@ -400,7 +397,6 @@
     <string name="pref_summary_mms_read_reports">Afficher les notifications en mode conversation lorsque le destinataire a téléchargé les contenus du MMS</string>
     <string name="pref_summary_mms_retrieval_during_roaming">Télécharger automatiquement les photos et vidéos des messages lorsque vous êtes en itinérance</string>
     <string name="pref_summary_notification_body_enabled">"Afficher les messages à l'écran de verrouillage et dans le panneau de notification"</string>
-    <string name="pref_summary_notification_body_enabled_when_secure">Vous ne pouvez pas prévisualiser les messages en mode invité</string>
     <string name="pref_summary_off_system_mms_priority">Utiliser une autre appli pour envoyer ou recevoir des MMS</string>
     <string name="pref_summary_on_system_mms_priority">"Régler l'application de messagerie MIUI par défaut pour envoyer et recevoir des MMS."</string>
     <string name="pref_summary_send_delivery_reports">"Envoyer un accusé de réception à l'expéditeur à la réception d'un message multimédia"</string>
@@ -530,6 +526,7 @@
     <string name="send_signature_confirm_dialog_title">Envoyer un message</string>
     <string name="send_sms">Envoyer le message</string>
     <string name="send_to">Envoyer à :</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Envoyé à : %1s</string>
     <string name="sent_label">"Envoyé : "</string>
     <string name="service_message_not_found">Message expiré ou indisponible.</string>
@@ -566,15 +563,15 @@
     <string name="sms_report_dialog_title">Réessayer</string>
     <string name="sms_report_failed">"Impossible d'envoyer le rapport"</string>
     <string name="sms_report_success">Rapport envoyé avec succès</string>
-    <string name="snippet_audio">[audio]</string>
-    <string name="snippet_picture">[image]</string>
+    <string name="snippet_audio">[Audio]</string>
+    <string name="snippet_picture">[Image]</string>
     <string name="sp_category_all">Tous les messages de service</string>
     <string name="sp_category_bank">Banque de messages de notification</string>
     <string name="sp_category_title_prefix">%s</string>
     <string name="sp_conversation_title">Notifications</string>
     <string name="sp_mark_as_read_menu_title">Marquer comme lu(s)</string>
-    <string name="sqlite_disk_full">Base de données ou mémoire pleine</string>
-    <string name="sqlite_low_memory">Mémoire faible</string>
+    <string name="sqlite_disk_full">"L'espace de stockage sur votre appareil est plein."</string>
+    <string name="sqlite_low_memory">Espace de stockage insuffisant</string>
     <string name="status_failed">Échec</string>
     <string name="status_label">État :</string>
     <string name="status_pending">En attente</string>
@@ -651,9 +648,6 @@ Dernière tentative : %s."</string>
     <string name="view">Afficher</string>
     <string name="view_bookmark">Voir le favori</string>
     <string name="view_message_details">Afficher les détails du message</string>
-    <string name="voip_enable">Messages Mi et Voix</string>
-    <string name="voip_enable_popup_msg">"Passer des appels vers d'autres utilisateurs MIUI sans encourir de frais auprès de votre opérateur. VoIP fournie par Weihui. Voir la Politique de confidentialité de Weihui."</string>
-    <string name="voip_enable_popup_msg2">Politique de confidentialité</string>
     <string name="wap_push_title">"[WAP Push] "</string>
     <string name="warning_show">Envoyer à %ds</string>
     <string name="wild_msg_processing">En cours…</string>

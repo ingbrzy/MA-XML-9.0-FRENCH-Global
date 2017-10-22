@@ -340,6 +340,7 @@ Les objets ne devraient pas se situer à plus de 2 mètres."</string>
     <string name="pref_camera_beautify_entry_low">Faible</string>
     <string name="pref_camera_beautify_entry_normal">Moyen</string>
     <string name="pref_camera_beautify_entry_high">Elevé</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Options</string>
     <string name="button_front_camera_title">Prendre un selfie</string>
     <string name="button_normal_video_title">Enregistrer une vidéo</string>
@@ -356,10 +357,12 @@ et créera une pause sur laquelle tout le monde sera beau."</string>
     <string name="toast_saving">Enregistrement des photos…</string>
     <string name="cannot_connect_camera_volte_call">Un appel vidéo est déjà en cours, veuillez réessayez plus tard.</string>
     <string name="hibernate_hint">"Appuyez sur l'écran pour réveiller l'appareil photo"</string>
+    <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
     <string name="accessibility_zoom_button">Mode zoom</string>
     <string name="accessibility_portrait_button">Mode portrait</string>
     <string name="toast_burst_snap_finished_summary">Prise en rafale effectuée, %1$s photos prises</string>
     <string name="pref_dualcamera_watermark_title">Filigrane double app. photo</string>
+    <string name="pref_camera_device_watermark_title">Device watermark</string>
     <string name="pref_camera_zoom_mode_title">Objectif</string>
     <string name="pref_camera_zoom_mode_entry_wide">Grand angle</string>
     <string name="pref_camera_zoom_mode_entry_tele">Téléobjectif</string>
@@ -418,6 +421,7 @@ puis créera une photo avec une quantité minimale de bruit."</string>
     <string name="hint_fast_motion">La vidéo que vous enregistrer sera lue rapidement.</string>
     <string name="hint_slow_motion">La vidéo que vous enregistrez sera lue lentement.</string>
     <string name="hunt_dual_water_mark">Le filigrane du double app. photo sera ajouté automatiquement.</string>
+    <string name="hint_device_water_mark">Device watermark will be added automatically.</string>
     <string name="module_name_fun">Vidéo courte</string>
     <string name="module_name_video">Vidéo</string>
     <string name="module_name_capture">Photo</string>
@@ -455,5 +459,5 @@ puis créera une photo avec une quantité minimale de bruit."</string>
     <string name="pref_retain_camera_mode_title">Conserver le mode précédent</string>
     <string name="pref_retain_camera_mode_summary">"Basculez l'appareil photo vers le mode précédemment utilisé lorsque vous ouvrez l'application."</string>
     <string name="pref_fingerprint_capture_title">"Capteur d'empreinte digitale comme déclencheur"</string>
-    <string name="multi_window_mode_not_supported">"Camera doesn't work in Split screen"</string>
+    <string name="multi_window_mode_not_supported">"L'appareil photo ne fonctionne pas en Écran divisé"</string>
 </resources>

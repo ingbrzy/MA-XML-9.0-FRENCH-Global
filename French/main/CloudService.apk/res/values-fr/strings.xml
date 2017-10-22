@@ -267,7 +267,7 @@ Pour résoudre ce problème, vous pouvez supprimer les anciens fichiers, ou ache
     <string name="micloud_main_space_low">Bientôt plein</string>
     <string name="micloud_main_update_space">"Obtenir plus d'espace de stockage."</string>
     <string name="micloud_main_space_full_title">Espace de stockage insuffisant, la synchronisation a été mise en pause</string>
-    <string name="micloud_main_space_full_message">"Acheter plus d'espace dans Mi Cloud"</string>
+    <string name="micloud_main_space_full_message">"Achetez plus d'espace dans Mi Cloud"</string>
     <string name="micloud_main_memory_low_title">Le stockage interne du téléphone est presque plein</string>
     <string name="micloud_main_memory_low_message">Pour synchroniser, supprimez quelques éléments sauvegardés dans le cloud.</string>
     <string name="micloud_main_clear_now">Vider</string>
@@ -277,7 +277,7 @@ Pour résoudre ce problème, vous pouvez supprimer les anciens fichiers, ou ache
     <string name="micloud_main_multi_user_error_message">"Vous vous êtes connecté avec le compte utilisé dans le premier espace, ce qui a provoqué une erreur Mi Cloud.
 Veuillez utiliser un autre compte."</string>
     <string name="micloud_main_cancel_sync">Annuler la synchronisation</string>
-    <string name="micloud_main_query_again">Envoyez une autre requête</string>
+    <string name="micloud_main_query_again">Envoyer une autre requête</string>
     <string name="micloud_main_wait_wlan">En attente du Wi-Fi</string>
     <string name="micloud_main_wait_wlan_charge_sleep">"Connectez-vous au Wi-Fi, éteignez l'écran et chargez pleinement votre appareil pour reprendre la synchronisation."</string>
     <string name="micloud_main_wait_wlan_charge">"Connectez-vous au Wi-Fi, éteignez l'écran et chargez complètement votre appareil pour reprendre la synchronisation."</string>
@@ -312,11 +312,11 @@ Veuillez utiliser un autre compte."</string>
     <string name="micloud_detail_pause">Synchronisation en pause</string>
     <string name="micloud_detail_need_charge_or_sleep">"Connectez le chargeur et éteignez l'écran pour synchroniser"</string>
     <string name="micloud_detail_battery_low">Batterie faible</string>
-    <string name="micloud_check_sim_title">"Vous avez changé de carte SIM. Connectez vous
+    <string name="micloud_check_sim_title">"Vous avez changé de carte SIM. Connectez-vous
 
 a votre compte Mi pour réactiver Mi Cloud."</string>
     <string name="micloud_check_sim_notify_title">Réactiver Mi Cloud</string>
-    <string name="micloud_check_sim_notify_text">"Vous avez changé de carte SIM. Connectez vous
+    <string name="micloud_check_sim_notify_text">"Vous avez changé de carte SIM. Connectez-vous
 
 a votre compte Mi pour réactiver Mi Cloud."</string>
     <string name="micloud_setting_contact_summary">Contacts et photos de profil</string>
@@ -399,7 +399,7 @@ Dernière sauvegarde à %2$s"</string>
     <string name="cloud_backup_dialog_title">Sauvegarder avec Mi Cloud</string>
     <string name="cloud_back_up_dialog_content">Arrêter la sauvegarde en cours ? Si vous arrêtez maintenant vous ne pourrez pas utiliser cette sauvegarde pour restaurer vos applications.</string>
     <string name="cloud_back_up_button_ok">"Forcer l'arrêt"</string>
-    <string name="cloud_back_up_network_unavailable">Suppression impossible. Connectez vous en Wi-Fi et réessayez.</string>
+    <string name="cloud_back_up_network_unavailable">Suppression impossible. Connectez-vous en Wi-Fi et réessayez.</string>
     <string name="cloud_back_up_remove_success">Sauvegarde supprimée</string>
     <string name="micloud_storage">Stockage</string>
     <string name="micloud_member">Adhésion Mi Cloud</string>

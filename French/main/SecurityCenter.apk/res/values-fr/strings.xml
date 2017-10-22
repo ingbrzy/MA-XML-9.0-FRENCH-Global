@@ -88,7 +88,7 @@
     <string name="st_title_editblacklist">Éditer la Liste noire</string>
     <string name="st_title_addwhitelist">Ajouter aux exceptions</string>
     <string name="st_title_editwhitelist">Modifier les exceptions</string>
-    <string name="st_title_man_head_addblacklist">Ajouter le préfix du numéro de téléphone à la Liste noire</string>
+    <string name="st_title_man_head_addblacklist">Ajouter le préfixe du numéro de téléphone à la Liste noire</string>
     <string name="st_title_man_addblacklist">Ajouter un numéro à la Liste noire</string>
     <string name="st_title_man_head_addwhitelist">Ajouter le préfixe du numéro de téléphone aux exceptions</string>
     <string name="st_title_man_addwhitelist">Ajouter le numéro de téléphone aux exceptions</string>
@@ -380,6 +380,7 @@ de l'opérateur"</string>
     <string name="detail_app_button">"Informations sur l'application"</string>
     <string name="pref_about_traffic_title">"Paramètres d'utilisation des données"</string>
     <string name="pref_traffic_manage_title">Utilisation de données</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Limite de données mobiles</string>
     <string name="pref_adjust_traffic_data">"Définir l'utilisation des données"</string>
     <string name="pref_category_title_other">Paramètres supplémentaires</string>
@@ -584,7 +585,7 @@ Le volume de données restant inclut l'excédent du mois précédent."</string>
     <string name="tc_sms_report_get_sms_failure">"Impossible d'obtenir les informations d'utilisation de données"</string>
     <string name="tc_sms_report_get_sms_timeout">La requête a expiré</string>
     <string name="tc_sms_report_get_sms_successs">"Informations de l'utilisation des données ont été mises à jour avec succès"</string>
-    <string name="tc_sms_report_get_default">"Vous n'encourrez pas de frais pour les Sms envoyés par votre opérateur pour vous informer de votre utilisation de données."</string>
+    <string name="tc_sms_report_get_default">"Vous n'encourrez pas de frais pour les SMS envoyés par votre opérateur pour vous informer de votre utilisation de données."</string>
     <string name="tc_sms_report_toast_text">"Obtention d'infos…"</string>
     <string name="tc_sms_report_type">Type de rapport</string>
     <string name="privacy_declare_dialog_title">"Conditions générales d'utilisation"</string>
@@ -872,6 +873,7 @@ Cette activité réduit la durée de vie de la batterie."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Cette application peut ralentir
 votre appareil"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Désinstaller %s ?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">"Désinstaller cette application pour résoudre tous les problèmes liés à l'usage de la batterie."</string>
     <string name="om_ill_proc_type_wakelock_title">"L'application bloque le mode veille et décharge la batterie"</string>
@@ -1212,7 +1214,7 @@ votre appareil"</string>
     <string name="sp_background_risk_type_sign">Une application non officielle est en exécution</string>
     <string name="sp_background_risk_type_root">Le système a été rooté</string>
     <string name="resource_securitycenter_settings">Sécurité</string>
-    <string name="keywords_securitycenter_settings">"Utilisation de la batterie; Gestion de démarrage automatique; Installation via USB; Autorisations d'application; Achat de données mobiles; Liste Noire; Utilisation des données; Calibration du forfait de données; Test du réseau; Économiser de la batterie; Chauffe; Allumer; Éteindre; Batterie; Drainage; Problèmes de batterie; Énergie; Économiseur de batterie; Économiseur d'énergie; Économie d'énergie; Économie de batterie; Démarrage automatique; Autorisations; Démarrage auto; Démarrage automatique MIUI; Démarrage automatique de l'application; Démarrage en chaîne; démarrage enchaîné; démarrage déclenché; Installation USB; installation à partir de l'ordinateur; installation ADB; Localisation; Accès contacts; Données; données mobiles; données d'achat; données topup; forfait de données; Bloqué; liste noire; Liste Noire intelligente; Fraude; Ventes; Agents; Liste des appels bloqués; Liste des messages bloqués; Liste de blocages des messages; Liste de blocages des SMS; liste des blocages; liste bloquée; liste de blocages; liste des bloqués; Circulation; Étalonner; Connexion; Internet; Test; Utilisation de la batterie"</string>
+    <string name="keywords_securitycenter_settings">Battery usage;Manage autostart;Install via USB;App permissions;Buy mobile data;Blocklist;Data usage;Calibrate data plan;Test network; Save battery;Heating;Turn on;Turn off;Battery;Draining;Battery issues;Energy;Battery saver;Energy saver;Energy saving;Battery saving; Autostart;Permissions;Auto start;MIUI autostart; App autostart; autostart apps;Chain start;chained start;triggered start; USB install;install from computer;ADB install; Location;Access contacts; data;mobile data;buy data;topup data;data plan; Block;Black list;Smart blocklist;Fraud;Sales;Agents;Call blocklist;Message blocklist;Messaging blocklist;SMS blocklist;blacklist;black list;blocklist;block list;fraud;block contact;block contacts; Traffic; Calibrate; Connection;Internet;Test; Battery use; Game;speed booster;Glory of the king;Performance mode;DND</string>
     <string name="path_securitycenter_settings">Applications système/Sécurité</string>
     <string name="resource_securitycenter">Sécurité</string>
     <string name="keywords_securitycenter">Sécurité;Vérifier;Scanner</string>
@@ -1253,6 +1255,9 @@ votre appareil"</string>
     <string name="resource_powercenter_powerrank">Batterie &amp; performance</string>
     <string name="keywords_powercenter_powerrank">Utilisation de la batterie</string>
     <string name="path_powercenter_powerrank">Batterie &amp; Performance/ Utilisation de la batterie</string>
+    <string name="resource_gamebooster">Game speed booster</string>
+    <string name="keywords_gamebooster">Game;speed booster;Glory of the king;Performance mode;DND</string>
+    <string name="path_gamebooster">System apps/Security/Game speed booster</string>
     <string name="app_name_securitycenter">Sécurité</string>
     <string name="ok">OK</string>
     <string name="exit">Quitter</string>
@@ -1267,6 +1272,7 @@ votre appareil"</string>
     <string name="menu_text_networkassistants">Utilisation des données</string>
     <string name="menu_text_networkassistants_remain">%s restants</string>
     <string name="menu_text_networkassistants_danger">%s dépassé</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">Go</string>
     <string name="menu_text_networkassistants_unit_mb">Mo</string>
     <string name="menu_text_networkassistants_unit_kb">ko</string>
@@ -1542,8 +1548,8 @@ votre appareil"</string>
     <string name="antivirus_privacy_dialog_cloudscan_description">Envoyer et analyser les noms et détails des applications en utilisant les bases de données de virus en ligne.</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
     <string name="pref_title_manual_check_virus_db_update">Vérifier les mises à jour</string>
-    <string name="virus_update_tips_title">Se connecter au Wi-Fi</string>
-    <string name="virus_wait_network_dialog_message">Les mises sont lourdes. Se connecter au Wi-Fi pour les télécharger.</string>
+    <string name="virus_update_tips_title">Warning</string>
+    <string name="virus_wait_network_dialog_message">Your phone is not connected to WLAN now. It will cost metered mobile data usage. Continue ?</string>
     <string name="antivirus_not_wlan">"Vous n'êtes pas connecté au Wi-Fi. Utilser les données mobiles peut générer des frais supplémentaires. Continuer quand même ?"</string>
     <string name="antivirus_longtime_no_update">"Il semble que vos bases de données virales sont obsolètes. Les mise à jour régulières aident à obtenir de meilleurs résultats d'analyse. Autoriser \" Sécurité \" à se connecter à Internet et mettre à jour les bases de données virales ?"</string>
     <string name="antivirus_longtime_no_update1">"Il semble que vos bases de données virales sont obsolètes. Les mises à jour régulières aident à obtenir de meilleurs résultats d'analyse. Mettez à jours les bases de données et réessayez."</string>
@@ -1627,6 +1633,7 @@ votre appareil"</string>
     <string name="card_main_deepclean_wechat_action">Vider</string>
     <string name="card_main_sectool_title">Outils</string>
     <string name="card_main_monthreport_action">Afficher</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Tester le réseau</string>
     <string name="card_main_netcheck_summary">Tester la connexion pour des problèmes de réseau</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1651,7 +1658,7 @@ votre appareil"</string>
     <string name="skin_change_close_toast">Les modifications seront appliquées la prochaine que vous lancez Sécurité</string>
     <string name="Setting_lock">Paramètres</string>
     <string name="app_name">"Verrouillage d'application"</string>
-    <string name="back_app_name">"Retourner à l'appli Verrouillage d'application"</string>
+    <string name="back_app_name">Retourner à Verr. App</string>
     <string name="notification_item">Protéger les applications avec Verr. App</string>
     <string name="lock_mode_title">Paramètres de verrouillage</string>
     <string name="after_the_lock_screen">"Verrouillez les applications en même temps que l'écran"</string>
@@ -1932,10 +1939,16 @@ votre appareil"</string>
     <string name="game_booster">Accélérateur de la vitesse de jeu</string>
     <string name="game_booster_title">Accélérer</string>
     <string name="top_game">Meilleurs jeux</string>
+    <string name="game_booster_tab_top">Top</string>
+    <string name="game_bootser_tab_settings">Booster settings</string>
+    <string name="game_booster_jump_webview">Just a sec…</string>
     <string name="game_setting">Paramètres de jeu</string>
     <string name="gs_auto_clean_memory">Vider le cache</string>
     <string name="gs_auto_clean_memory_detail">Effacer automatiquement le cache pour optimiser le jeu</string>
     <string name="gs_anto_clean_memory_whitelist">Exceptions</string>
+    <string name="gs_call_handsfree">Answer calls hands free</string>
+    <string name="gs_call_handsfree_mute">Silent mode</string>
+    <string name="gs_forbid_autosync">Restrict background sync</string>
     <string name="gs_app_back_self_start">Économiseur de batterie</string>
     <string name="gs_only_self_start_for_list">Restreindre les processus en arrière-plan pour économiser la batterie pour les jeux</string>
     <string name="gs_game_shortcut">"Profitez d'une expérience de jeu plus fluide"</string>
@@ -2032,13 +2045,19 @@ votre appareil"</string>
     <string name="net_booster_overdue_notification">"La session d'augmentation de la vitesse du réseau prendra bientôt fin"</string>
     <string name="net_booster_overdue_notification_tip">"La session d'augmentation de la vitesse du réseau prendra bientôt fin. Renouveler la session ?"</string>
     <string name="net_booster_expire_notification">"La session d'augmentation de la vitesse du réseau prendra bientôt fin"</string>
+    <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
     <string name="xunyou_pay_webview">Services Xunyou</string>
     <string name="xunyou_server_expired">La session a expirée.</string>
     <string name="game_anti_disturb_msg">NPD en mode Jeu</string>
-    <string name="gamebooster_main_activity_back">"Retour à l'accélérateur de la vitesse de jeu"</string>
+    <string name="gamebooster_main_activity_back">Back</string>
     <string name="data_booster_title">Stabliser la connexion de données</string>
     <string name="data_booster_desc">Désactiver les autres tiroirs de SIM pour stabiliser la connexion</string>
     <string name="international_Ad">Ad</string>
+    <string name="thermal_tips_title">Attention</string>
+    <string name="thermal_tips_message">Playing games in the Performance mode may lead to overheating issues.</string>
+    <string name="forbid_autobright_title">Fix screen brightness</string>
+    <string name="gamebooster_lowbattery_notification_title">Battery is lower than 5%%</string>
+    <string name="gamebooster_lowbattery_notification_summary">Charge your device before it turns off.</string>
     <string name="power_center_consume_rank">Utilisation de la batterie</string>
     <string name="power_center_custom_title">"Profils de gestion d'énergie"</string>
     <string name="power_center_auto_shutdown_summary_default">Allumer ou éteindre votre appareil à une heure programmée</string>

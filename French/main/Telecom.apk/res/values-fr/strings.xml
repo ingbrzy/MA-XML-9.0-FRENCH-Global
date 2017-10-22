@@ -326,7 +326,7 @@
     <string name="non_primary_user">Seulement le propriétaire peut voir et gérer les numéros bloqués.</string>
     <string name="delete_icon_description">Débloquer</string>
     <string name="blocked_numbers_butter_bar_title">Blocage temporaire désactivé</string>
-    <string name="blocked_numbers_butter_bar_body">"Après avoir appeler ou envoyer un message à un numéro d'urgence, le blocage est désactivé de sorte à s'assurer que les services d'urgence vous contacteront."</string>
+    <string name="blocked_numbers_butter_bar_body">"Après avoir appelé ou envoyé un message à un numéro d'urgence, le blocage est désactivé de sorte à s'assurer que les services d'urgence vous contacteront."</string>
     <string name="blocked_numbers_butter_bar_button">Réactiver maintenant </string>
     <string name="blocked_numbers_number_blocked_message">%1$s bloqué</string>
     <string name="blocked_numbers_number_unblocked_message">%1$s débloqué</string>

@@ -325,7 +325,7 @@ Pour activer votre compte, suivez le
     <string name="loading_micloud_sync_data">Un instant…</string>
     <string name="activity_not_found_notice">"Impossible de trouver l'application"</string>
     <string name="scan_barcode_title">Scannez le Code QR pour vous connecter</string>
-    <string name="talkback_scan_barcode">scan the QR code</string>
+    <string name="talkback_scan_barcode">scanner le code QR</string>
     <string name="authorize_title">Autorisation</string>
     <string name="my_device_title">Appareil actuel</string>
     <string name="device_list_title">Mes appareils</string>

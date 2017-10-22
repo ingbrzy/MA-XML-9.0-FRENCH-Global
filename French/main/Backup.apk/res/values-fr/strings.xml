@@ -6,6 +6,9 @@ Taille : %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Version %1$s
 Taille de la mise à jour : %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Stockage indisponible, vérifiez votre carte SD.</string>
+    <string name="xiaomi_bytes_unit">%1$s o</string>
+    <string name="xiaomi_kilobytes_unit">%1$s ko</string>
+    <string name="xiaomi_megabytes_unit">%1$s Mo</string>
     <string name="xiaomi_connect_download_manager_fail">Impossible de démarrer le téléchargement. Vérifier que le gestionnaire de téléchargements fonctionne normalement.</string>
     <string name="app_name">Sauvegarde</string>
     <string name="local_app_name">Sauvegarde</string>
@@ -224,6 +227,7 @@ Taille de la mise à jour : %2$s"</string>
     <string name="file_uploading">Envoi…</string>
     <string name="new_backup">Sauvegarder</string>
     <string name="restore_backup">Restaurer</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Un instant…</string>
     <string name="state_mounting">Accès au stockage du routeur…</string>
     <string name="abort_backup_confirm">"La sauvegarde n'est pas terminée. Arrêter quand même ?"</string>
@@ -380,7 +384,7 @@ Vider au moins %s."</string>
     <string name="trans_intro_question_8">8. Quels éléments ne peuvent pas être transférés ?</string>
     <string name="trans_intro_title_account">Comptes et mots de passe :</string>
     <string name="trans_intro_desc_account">Vous devez vous connecter à nouveau à vos comptes (ex. : Compte Mi, Exchange, Google, etc.) sur le nouvel appareil pour des raisons de sécurité.</string>
-    <string name="trans_intro_title_private">Album masqués :</string>
+    <string name="trans_intro_title_private">Album privé :</string>
     <string name="trans_intro_desc_private">"Mi Mover ne peut pas accéder au photos dans l'album masqué car elles sont chiffrées. Vous pouvez restaurer ces photos depuis Mi Cloud sur un nouvel appareil."</string>
     <string name="trans_intro_title_multiuser">Données du Second espace :</string>
     <string name="trans_intro_desc_multiuser">Mi Mover ne peut pas accéder aux éléments dans le Second espace. Déplacez les éléments vers le Premier espace et lancez Mi Mover depuis ledit espace.</string>
