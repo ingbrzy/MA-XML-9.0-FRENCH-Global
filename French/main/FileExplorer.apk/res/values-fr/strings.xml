@@ -161,7 +161,6 @@
     <string name="gigabyteShort">Go</string>
     <string name="terabyteShort">To</string>
     <string name="petabyteShort">Po</string>
-    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="tab_local">LOCAL</string>
     <string name="sys_size_enable">" disponible"</string>
     <string name="tools">OUTILS</string>
@@ -421,7 +420,6 @@
     <string name="video_upload_btn_hint">Les vidéos MP4 doivent durer 3 sec à 10 min</string>
     <string name="video_upload_btn">Suivant</string>
     <string name="video_upload_title">Sélectionnez une vidéo</string>
-    <string name="video_upload_item_title">%1$s (%2$s)</string>
     <string name="video_comment_topic">\#Ajouter une rubrique#</string>
     <string name="video_comment_hint">Sélectionnez une rubrique</string>
     <string name="video_comment_publish">Envoyer</string>
@@ -495,7 +493,6 @@
     <string name="video_topic_hint">Rechercher des personnes ou des sujets</string>
     <string name="comment_reply">Répondre %1$s :</string>
     <string name="comment_hint">Ajouter un commentaire</string>
-    <string name="origin_name">%1$s :</string>
     <string name="hot_comments">Commentaires populaires</string>
     <string name="new_comments">Nouveaux commentaires</string>
     <string name="copy_text">Copier le texte</string>
@@ -755,7 +752,6 @@
     <string name="finish_str">Terminé</string>
     <string name="tab_msg">Messages</string>
     <string name="msg_page_video_default_title">"J'ai mis une vidéo en ligne, jettes un coup d'oeil !"</string>
-    <string name="recommend_users">%1$s+</string>
     <string name="follow_success_tip">Suivi avec succès</string>
     <string name="comment_fail">Impossible de publier, essayer plus tard</string>
     <string name="comment_fail_banned_temporary">Vous avez été temporairement banni pour propos inappropriés</string>
