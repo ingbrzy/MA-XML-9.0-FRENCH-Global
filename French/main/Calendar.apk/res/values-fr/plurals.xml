@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="Ndays">
-        <item quantity="other">%d jours</item>
-        <item quantity="one">1 jour</item>
+        <item quantity="other">%d jours avant</item>
+        <item quantity="one">%d jour avant</item>
     </plurals>
     <plurals name="Nhours">
-        <item quantity="other">%d heures</item>
-        <item quantity="one">1 heure</item>
+        <item quantity="other">%d heures avant</item>
+        <item quantity="one">%d heure avant</item>
     </plurals>
     <plurals name="Nminutes">
-        <item quantity="other">%d minutes</item>
-        <item quantity="one">1 minute</item>
+        <item quantity="other">%d minutes avant</item>
+        <item quantity="one">%d minute avant</item>
     </plurals>
     <plurals name="month_more_events">
-        <item quantity="other">+ %d</item>
-        <item quantity="one">+ 1</item>
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="other">SEMAINE %d</item>
+        <item quantity="one">SEMAINE %d</item>
     </plurals>
     <plurals name="Ndays_after_at">
         <item quantity="other">Dans %1$d jours à %2$s</item>
@@ -102,17 +103,5 @@
     <plurals name="work_days">
         <item quantity="other">%d jours ouvrables</item>
         <item quantity="one">%d jour ouvrable</item>
-    </plurals>
-    <plurals name="N_remaining_events">
-        <item quantity="other">+%d événements</item>
-        <item quantity="one">+1 événement</item>
-    </plurals>
-    <plurals name="Nevents">
-        <item quantity="other">%d événements</item>
-        <item quantity="one">1 événement</item>
-    </plurals>
-    <plurals name="Nmins">
-        <item quantity="other">%d min</item>
-        <item quantity="one">1 min</item>
     </plurals>
 </resources>

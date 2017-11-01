@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">"Revenir à l'accueil"</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Revenir en haut de la page</string>
+    <string name="abc_action_menu_overflow_description">"Plus d'options"</string>
+    <string name="abc_action_mode_done">OK</string>
+    <string name="abc_activity_chooser_view_see_all">Tout afficher</string>
+    <string name="abc_activitychooserview_choose_application">Sélectionner une application</string>
+    <string name="abc_capital_off">DÉSACTIVÉ</string>
+    <string name="abc_capital_on">ACTIVÉ</string>
+    <string name="abc_search_hint">Rechercher…</string>
+    <string name="abc_searchview_description_clear">Effacer la requête</string>
+    <string name="abc_searchview_description_query">Requête de recherche</string>
+    <string name="abc_searchview_description_search">Rechercher</string>
+    <string name="abc_searchview_description_submit">Envoyer la requête</string>
+    <string name="abc_searchview_description_voice">Recherche vocale</string>
+    <string name="abc_shareactionprovider_share_with">Partager avec</string>
+    <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
+    <string name="abc_toolbar_collapse_description">Réduire</string>
     <string name="common_google_play_services_enable_button">Activer</string>
     <string name="common_google_play_services_enable_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas activé les services Google Play."</string>
     <string name="common_google_play_services_enable_title">Activer les services Google Play</string>
@@ -20,6 +39,8 @@
     <string name="common_open_on_phone">Ouvrir sur le téléphone</string>
     <string name="common_signin_button_text">Se connecter</string>
     <string name="common_signin_button_text_long">Se connecter avec Google</string>
+    <string name="search_menu_title">Rechercher</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="app_name">Mi Drop</string>
     <string name="cancel_confirm">Annuler le transfert</string>
     <string name="cancel_lang">Annuler</string>
@@ -33,6 +54,8 @@
     <string name="clear_all">Tout effacer</string>
     <string name="click_to_send">Appuyez sur la photo de profil pour envoyer</string>
     <string name="coolboot_title">Partager Mi Drop</string>
+    <string name="date_format_ddmmyyyy">jj/mm/aaaa</string>
+    <string name="date_format_ddmmyyyyhmma">jj/mm/aaaa h:mm:ss</string>
     <string name="default_lang">Langue du système</string>
     <string name="delete">Supprimer</string>
     <string name="delete_item_desc">Supprimer ce fichier de la liste des transferts ?</string>
@@ -46,6 +69,14 @@
     <string name="enable_hotspot">"Point d'accès Wi-Fi activé avec succès"</string>
     <string name="exit">Quitter</string>
     <string name="file_count">%1$d</string>
+    <string name="file_size_b">%1$d B</string>
+    <string name="file_size_gb">%2$1.2f GB</string>
+    <string name="file_size_kb">%2$1.2f KB</string>
+    <string name="file_size_mb">%2$1.2f MB</string>
+    <string name="file_speed_b">%1$d B/s</string>
+    <string name="file_speed_gb">%2$1.2f GB/s</string>
+    <string name="file_speed_kb">%2$1.2f KB/s</string>
+    <string name="file_speed_mb">%2$1.2f MB/s</string>
     <string name="files_selected">Sélectionné</string>
     <string name="files_selected_count">Fichiers sélectionnés : %1$d | Total : %2$s</string>
     <string name="help">Aide</string>
@@ -125,7 +156,7 @@ Vérifiez les paramètres réseau et réessayez."</string>
     <string name="sender_wait">Envoi des fichiers en cours…</string>
     <string name="sender_wait_queue">"Sur le point d'envoyer…"</string>
     <string name="setting_now">Définir</string>
-    <string name="share_desc">Voici comment vous partagez Mi Drop :</string>
+    <string name="share_desc">Partagez Mi Drop sans utiliser aucune donnée mobile</string>
     <string name="share_mi_drop">Partager Mi Drop avec vos amis</string>
     <string name="step_1">"Étape 1 : 
 Demandez à l'autre personne de se connecter au Wi-Fi."</string>
@@ -137,7 +168,6 @@ Demandez à l'autre personne d'entrer l'adresse suivante dans le navigateur :"<
     <string name="storage_usb">Stockage USB</string>
     <string name="trans_progress_finish">Terminé !</string>
     <string name="trans_progress_percent">%1$s%%</string>
-    <string name="trans_speed">%1$s/s</string>
     <string name="transfer_cancel">Transfert annulé</string>
     <string name="transfer_fail_desc">"La connexion réseau a été interrompue ou le transfert a été annulé par l'autre personne."</string>
     <string name="transfer_failed">Impossible de transférer</string>
@@ -156,6 +186,6 @@ Demandez à l'autre personne d'entrer l'adresse suivante dans le navigateur :"<
     <string name="version">Version</string>
     <string name="want_receive">Recevoir des fichiers</string>
     <string name="want_send">Envoyer des fichiers</string>
-    <string name="wifi_name">Wi-Fi :</string>
+    <string name="wifi_name">Nom du Wi-Fi :</string>
     <string name="wifi_psw">Mot de passe :</string>
 </resources>

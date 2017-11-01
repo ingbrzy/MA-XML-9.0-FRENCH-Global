@@ -5,7 +5,7 @@
     <string name="SMTP_username_text">"Nom d'utilisateur"</string>
     <string name="account_duplicate_dlg_message_fmt">"Vous utilisez déjà ce nom d'utilisateur pour le compte \"%s\"."</string>
     <string name="account_duplicate_dlg_title">Dupliquer le compte</string>
-    <string name="account_failure">Session timed out</string>
+    <string name="account_failure">Session expirée</string>
     <string name="account_name_toast">Un compte avec le même nom existe déjà</string>
     <string name="account_options_sync_title">Synchroniser</string>
     <string name="account_password_spaces_error">"Ce mot de passe débute ou se termine par un ou plusieurs
@@ -16,7 +16,7 @@
     <string name="account_security_policy_explanation_fmt">"Vous devez autoriser le serveur %s à contrôler à distance 
          certaines fonctionnalités de sécurité de votre appareil Android."</string>
     <string name="account_security_title">"Sécurité de l'appareil"</string>
-    <string name="account_set_up_change_type_note">If you need to switch between POP3 and IMAP settings, delete your account and create a new one with your desired settings.</string>
+    <string name="account_set_up_change_type_note">"Si vous voulez basculer entre les paramètres POP3 et IMAP, vous devez d'abord supprimer le compte, et en créer un autre avec les paramètres que vous désirez."</string>
     <string name="account_setting">Comptes</string>
     <string name="account_setting_keywords">Comptes;comptes de messagerie</string>
     <string name="account_setting_message_body_load_complete">Message entier</string>
@@ -71,14 +71,14 @@
     <string name="account_setup_autodiscover_dlg_authfail_message">"Vérifier que le nom d'utilisateur, le mot de passe et les paramètres de compte sont corrects."</string>
     <string name="account_setup_autodiscover_dlg_authfail_title">Impossible de configurer le compte</string>
     <string name="account_setup_basics_email_label">Entrez votre Identifiant</string>
-    <string name="account_setup_basics_login_gmail_without_proxy">Sign in using current network</string>
+    <string name="account_setup_basics_login_gmail_without_proxy">"Se connecter à l'aide du réseau actuel"</string>
     <string name="account_setup_basics_manual_setup_action">Configuration manuelle</string>
     <string name="account_setup_basics_password_label">Saisir le mot de passe</string>
     <string name="account_setup_basics_title">Ajouter un compte</string>
     <string name="account_setup_check_settings_check_incoming_msg">"    Validation des paramètres du serveur…"</string>
     <string name="account_setup_check_settings_check_outgoing_msg">"    Validation des paramètres smtp…"</string>
     <string name="account_setup_check_settings_retr_info_msg">"    Récupération des informations sur le compte…"</string>
-    <string name="account_setup_correct_address_tips">Enter email address</string>
+    <string name="account_setup_correct_address_tips">"Saisir l'adresse e-mail"</string>
     <string name="account_setup_creating_account_msg">"    Création du compte…"</string>
     <string name="account_setup_deleting_account_msg">"    Suppression du compte…"</string>
     <string name="account_setup_exchange_certificate_title">Certificat client</string>
@@ -92,7 +92,7 @@
     <string name="account_setup_failed_dlg_certificate_message">"Impossible d'établir une connexion sécurisée avec le serveur."</string>
     <string name="account_setup_failed_dlg_certificate_message_fmt">"Impossible d'établir une connexion sécurisée avec le serveur.
 (%s)"</string>
-    <string name="account_setup_failed_dlg_device_locked">Your account is protected. Verify this device using QQ Security or remove the protection.</string>
+    <string name="account_setup_failed_dlg_device_locked">"Votre compte est protégé. Vérifiez cet appareil à l'aide de QQ Security ou supprimer la protection."</string>
     <string name="account_setup_failed_dlg_edit_details_action">Modifier les détails</string>
     <string name="account_setup_failed_dlg_error_code">"Code d'erreur : %s"</string>
     <string name="account_setup_failed_dlg_server_message">Impossible de se connecter au serveur.</string>
@@ -123,7 +123,7 @@
     <string name="account_setup_incoming_server_label">Serveur</string>
     <string name="account_setup_incoming_username_label">"Nom d'utilisateur"</string>
     <string name="account_setup_incoming_username_label_default_hint">Vous devez inclure un domaine</string>
-    <string name="account_setup_need_password_verification">Your account has 2-step authentication. Authentication is required.</string>
+    <string name="account_setup_need_password_verification">"Votre compte dispose d'une authentification en 2 étapes. L'authentification est requise."</string>
     <string name="account_setup_options_actionbar_title">Paramètres rapides</string>
     <string name="account_setup_options_mail_check_frequency_10min">Toutes les 10 minutes</string>
     <string name="account_setup_options_mail_check_frequency_12hour">Toutes les 12 heures</string>
@@ -152,7 +152,7 @@
     <string name="account_setup_server_acc_manager_title">Comptes</string>
     <string name="account_setup_username_password_toast">Entrez une adresse e-mail et un mot de passe valide.</string>
     <string name="account_sync_off">La synchronisation du compte est désactivée.</string>
-    <string name="account_sync_settings_settings">Sync contacts and calendar</string>
+    <string name="account_sync_settings_settings">"Synchroniser les contacts et l'agenda"</string>
     <string name="account_sync_settingstip_description">Synchroniser</string>
     <string name="account_waiting_for_folders_msg">Chargement des dossiers…</string>
     <string name="actionbar_large_unread_count">%1$d+ non lu(s)</string>
@@ -167,7 +167,7 @@
     <string name="add_pre_message_attachments">Ajouter les pièces jointes du message précédent ?</string>
     <string name="add_pre_message_attachments_no">Ne pas ajouter</string>
     <string name="add_pre_message_attachments_yes">Ajouter</string>
-    <string name="add_star">Star</string>
+    <string name="add_star">Ajouter un étoile</string>
     <string name="allread">Tout lire</string>
     <string name="always_bcc_myself">Toujours me mettre en Cci</string>
     <string name="always_show_images">Toujours voir les images de cet expéditeur</string>
@@ -234,11 +234,11 @@
     <string name="bottom_bar_more_share">Partager</string>
     <string name="bottom_bar_no_quickreply_toast">Aucune réponse rapide</string>
     <string name="bytes">%s o</string>
-    <string name="calendar_remind_dialog_title">Remind later</string>
+    <string name="calendar_remind_dialog_title">Rappeler plus tard</string>
     <string name="calendar_remind_gridview_pick_date">Choisir une date</string>
     <string name="cancel">Annuler</string>
     <string name="cancel_action">Annuler</string>
-    <string name="cancel_pop3_attchemt_downloading">"Can't cancel ongoing downloads for attachments in POP3 accounts"</string>
+    <string name="cancel_pop3_attchemt_downloading">"Impossible d'annuler les téléchargements en cours pour les pièces jointes dans les comptes POP3"</string>
     <string name="cant_move_or_change_labels">Impossible de déplacer des messages depuis plusieurs comptes.</string>
     <string name="cc">Cc</string>
     <string name="cc_attribution">Cc : %1$s&lt;br></string>
@@ -319,7 +319,7 @@
     <string name="conversation_item_mark_unread">Non lu</string>
     <string name="conversation_msg_header_collapsed_sent_to">"Envoyé à "</string>
     <string name="conversation_photo_welcome_text">"Appuyez sur l'image de l'expéditeur pour sélectionner cette conversation."</string>
-    <string name="conversation_pull_ad_content">Manage your emails effortlessly</string>
+    <string name="conversation_pull_ad_content">Gérer vos e-mails sans effort</string>
     <string name="conversation_quick_button_approve">OK</string>
     <string name="conversation_quick_button_disapprove">Annuler</string>
     <string name="conversation_quick_button_received">Reçu</string>
@@ -339,7 +339,7 @@
     <string name="default_setup">PARAMETRES PAR DEFAUT</string>
     <string name="default_signature">Envoyé depuis mon Téléphone Mi</string>
     <string name="default_signature_2">Envoyé depuis mon %s</string>
-    <string name="del_account_questionnair_hint">"Could you tell us why you're removing this account?"</string>
+    <string name="del_account_questionnair_hint">Pourriez-vous nous dire pourquoi vous voulez supprimer ce compte ?</string>
     <string name="delete">Supprimer</string>
     <string name="delete_message_flow">Supprimer le flux de messages</string>
     <string name="delete_message_flow_keywords">supprimer le flux de messages;supprimer rediriger</string>
@@ -350,13 +350,13 @@
     <string name="device_admin_label">E-mail</string>
     <string name="device_not_activiey_lint1">"Gestionnaire d'appareil non activé"</string>
     <string name="device_not_activiey_lint2">Le service mail ne fonctionne pas avec exchange</string>
-    <string name="dialog_account_auto_sync_setting_no_open">You chose to sync emails manually. Refresh to sync.</string>
+    <string name="dialog_account_auto_sync_setting_no_open">Vous avez choisi de synchroniser manuellement les e-mails. Actualiser pour synchroniser.</string>
     <string name="dialog_change_sync_lookback">Le mail reçu il y a %s sera automatiquement supprimé. Appuyez pour changer.</string>
     <string name="dialog_gmail_proxy_server_is_error">Erreur de serveur proxy Gmail.</string>
     <string name="dialog_insufficient_space_on_external">Impossible de télécharger la pièce jointe. Espace insuffisant sur le stockage externe.</string>
     <string name="dialog_insufficient_space_on_internal">Espace disque insuffisant sur le stockage interne.</string>
-    <string name="dialog_system_auto_sync_account_no_open">"Account sync is off. Can't sync emails."</string>
-    <string name="dialog_system_auto_sync_master_no_open">"System sync is off. Can't sync emails."</string>
+    <string name="dialog_system_auto_sync_account_no_open">La synchonisation du compte est désactivée. Impossible de synchroniser les e-mails.</string>
+    <string name="dialog_system_auto_sync_master_no_open">La synchronisation du système est désactivée. Impossible de synchroniser les e-mails.</string>
     <string name="disable_admin_warning">"AVERTISSEMENT : désactiver l'autorisation de l'application E-mail pour administrer votre appareil supprimera tous les comptes E-mail qui l'exigent, tout avec leurs E-mails, contacts, évènements d'agenda et autres données."</string>
     <string name="discard">Effacer</string>
     <string name="discard_drafts">Effacer les brouillons</string>
@@ -464,6 +464,7 @@
     <string name="gmail_web_login_go">OK</string>
     <string name="gmail_web_login_required_message">Se connecter à Gmail</string>
     <string name="header_category_account">Comptes</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Commentaires</string>
     <string name="header_label_general_preferences">Paramètres généraux</string>
     <string name="help_and_info">Aide</string>
@@ -497,12 +498,12 @@
     <string name="login139">Se connecter avec China Mobile</string>
     <string name="login_failed_ticker">Impossible de se connecter à %s.</string>
     <string name="login_failed_title">Impossible de se connecter</string>
-    <string name="login_support_tip_text">Supports all major email accounts</string>
+    <string name="login_support_tip_text">"Prend en charge tous les comptes d'e-mails principaux"</string>
     <string name="long_press_to_select_tip">Appuyez &amp; maintenez pour sélectionner une conversation, puis appuyez pour en sélectionner plus.</string>
     <string name="mail">E-mail</string>
     <string name="mail_body_turncated">Cet e-mail est trop gros pour être téléchargé, afficher uniquement une partie de celui-ci, puis regarder en totalité sur PC plus tard</string>
-    <string name="mail_description_content">"E-mail permet de gérer vos e-mails à partir de plusieurs comptes au même endroit. Vous pouvez utilisez E-mail pour envoyer, recevoir et marquer des e-mails, trier vos factures et beaucoup plus. Les informations de vos contacts et votre agenda Exchange seront effacées si vous désinstallez E-mail. Assurez-vous de pouvoir de vous passer de toutes ces fonctionnalités avant de désinstaller l'application."</string>
-    <string name="mail_description_title">À propos</string>
+    <string name="mail_description_content">电子邮件是一款能够管理多个邮箱，支持收发邮件，提供日历日程及联系人同步的邮箱客户端。请确认您将放弃电子邮件提供的相关功能和服务，包括exchange服务器同步的联系人和日历数据。</string>
+    <string name="mail_description_title">电子邮件介绍</string>
     <string name="mail_header_network_not_available">Vous ne disposez pas de connexion réseau.</string>
     <string name="mailbox_list_account_selector_combined_view">Compte combiné</string>
     <string name="mailbox_name_display_ad">Publicités</string>
@@ -628,7 +629,7 @@ Essayez un autre compte de messagerie."</string>
     <string name="no_contacts">Aucun contact.</string>
     <string name="no_content_in_body">[No Body]</string>
     <string name="no_conversations">Aucun message</string>
-    <string name="no_filtrable_email_account">No accounts to filter</string>
+    <string name="no_filtrable_email_account">Aucun compte à filtrer</string>
     <string name="no_mails">Aucun e-mail.</string>
     <string name="no_matched_attachment">Aucun résultat.</string>
     <string name="no_recognize_describe">"Impossible de trouver des E-mails contenant des billets ou des réservations.
@@ -648,9 +649,13 @@ Essayez une autre boîte de réception."</string>
     <string name="oauth_gmail_login_notify">"Entrez le nom d'utilisateur et le mot de passe de votre compte Google sur la page suivante."</string>
     <string name="oauth_login_continue">Continuer</string>
     <string name="oauth_login_continue_qq">"Obtenez un code d'accès et connectez-vous >"</string>
-    <string name="oauth_login_usr_proxy">Sign in using proxy</string>
+    <string name="oauth_login_usr_proxy">"Se connecter à l'aide du proxy"</string>
     <string name="ok">OK</string>
     <string name="okay_action">OK</string>
+    <string name="open_calendar_and_contacts_permission">请在系统设置中开启日历和联系人权限</string>
+    <string name="open_external_storage_and_calendar_permission">请在系统设置中开启存储空间和日历权限</string>
+    <string name="open_external_storage_and_contacts_and_calendar_permission">请在系统设置中开启存储空间、日历、联系人权限</string>
+    <string name="open_external_storage_and_contacts_permission">请在系统设置中开启存储空间和联系人权限</string>
     <string name="outbox_alert_button_no_resend">Ne pas renvoyer</string>
     <string name="outbox_alert_button_resend">Renvoyer</string>
     <string name="outbox_alert_certificate_error">Contactez votre administrateur système pour mettre à jour votre certificat.</string>
@@ -776,7 +781,7 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="qq_uthentication_failed">Impossible de vérifier le compte, connectez-vous à nouveau</string>
     <string name="qq_webview_loading">Un instant…</string>
     <string name="questionnair_body_invisibility">Les messages ne sont pas affichés</string>
-    <string name="questionnair_confirm_delete">Remove account?</string>
+    <string name="questionnair_confirm_delete">Supprimer le compte ?</string>
     <string name="questionnair_instability">Se plante régulièrement</string>
     <string name="questionnair_not_send">"Impossible d'envoyer l'e-mail"</string>
     <string name="questionnair_not_sync">Synchronisation instable</string>
@@ -809,8 +814,10 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="recognize_hotel_other_money">Autres dépenses %1$s</string>
     <string name="recognize_hotel_reverse_date">Enregistrement avant %1$s:%2$s %3$s</string>
     <string name="recognize_hotel_room_type">Chambre</string>
+    <string name="recognize_hotel_room_type_value">%1$s × %2$s</string>
     <string name="recognize_hotel_title">Réservation dhôtel</string>
     <string name="recognize_hotel_user_names">Invité</string>
+    <string name="recognize_hotel_user_names_value">%1$s+%2$s</string>
     <string name="recognize_setting_title">Paramètres de voyage</string>
     <string name="recognize_ticket_air_notification_content">Profitez de votre vol !</string>
     <string name="recognize_ticket_air_notification_title">Le vol %3$s (%2$s/%1$s) va bientôt décoller. Vérifiez bien vos informations de vol.</string>
@@ -837,7 +844,7 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="remove_folder">Retirer de %1$s</string>
     <string name="remove_star">Retirer des favoris</string>
     <string name="reply">Répondre</string>
-    <string name="reply_add_bodycontent">Add the reply to the message body?</string>
+    <string name="reply_add_bodycontent">Ajouter la réponse au corps du message ?</string>
     <string name="reply_all">Répondre à tous</string>
     <string name="reply_attribution" formatted="false">"Le %s, %s a écrit : "</string>
     <string name="report_phishing">Signaler un hameçonnage</string>
@@ -853,7 +860,7 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="saved">Enregistré, %s</string>
     <string name="saving">Enregistrement…</string>
     <string name="sdcard_cannot_use">"Impossible d'utiliser la carte SD"</string>
-    <string name="search_bar_text">Search for messages and contacts</string>
+    <string name="search_bar_text">Recherche de messages et de contacts</string>
     <string name="search_hint">Rechercher un e-mail</string>
     <string name="search_result">"Résultats "</string>
     <string name="search_tabs_name_all">Tout</string>
@@ -910,6 +917,7 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="silent_ringtone">Silence</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Le mot de passe du serveur sortant est incorrect</string>
     <string name="sort_attachment">Trier par</string>
     <string name="storage">Stockage</string>
@@ -917,10 +925,14 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="str_select_none">Tout déselectionner</string>
     <string name="subject_and_snippet" formatted="false">%s — %s</string>
     <string name="subject_hint">Objet</string>
+    <string name="sync_contacts_fail_per_content">点击获取联系人权限</string>
+    <string name="sync_contacts_fail_per_title">同步联系人失败</string>
+    <string name="sync_contacts_fail_permission">同步联系人失败，访问手机联系人权限未开启，请在手机设置-权限管理开启</string>
+    <string name="sync_contacts_req_per_ignored">手机联系人权限未开启，无法同步联系人</string>
     <string name="sync_error">Impossible de synchroniser.</string>
     <string name="sync_error_message">"Votre appareil ne dispose pas d'espace de stockage suffisant pour synchroniser."</string>
     <string name="syncing_wait_restart">Réessayer</string>
-    <string name="syncing_wait_restart_title">Server connection timed out</string>
+    <string name="syncing_wait_restart_title">Expiration du délai de connexion du serveur</string>
     <string name="system_account_create_failed">Impossible de créer le compte. Veuillez réessayer.</string>
     <string name="system_folders_sent_dlg">Sélectionner le dossier des éléments envoyés de votre serveur</string>
     <string name="system_folders_sent_summary">Sélectionner le dossier des éléments envoyés de votre serveur</string>
@@ -929,7 +941,8 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="system_folders_trash_dlg">Sélectionner le dossier de la corbeille de votre serveur</string>
     <string name="system_folders_trash_summary">Sélectionner le dossier de la corbeille de votre serveur</string>
     <string name="system_folders_trash_title">Dossier Corbeille</string>
-    <string name="system_setup_open_error">Allow sync in the Settings</string>
+    <string name="system_security_open_error">无法调起安全中心，请在手机设置中打开权限</string>
+    <string name="system_setup_open_error">Autoriser la synchronisation dans les Paramètres</string>
     <string name="tablet">tablette</string>
     <string name="tap_to_configure">Appuyez pour configurer.</string>
     <string name="tap_to_enable_sync">Appuyez pour activer.</string>
@@ -937,15 +950,21 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="to_heading">"À : "</string>
     <string name="toast_bar_fail_synchronization">Impossible de se connecter au réseau</string>
     <string name="toast_bar_insufficient_memory_space">"Pas assez d'espace de stockage"</string>
-    <string name="toast_bar_invalid_account">Session expired, sign in again.</string>
+    <string name="toast_bar_invalid_account">La session a expiré, connectez-vous à nouveau.</string>
     <string name="toast_bar_no_connection_network">"Vous n'êtes pas connecté à internet"</string>
     <string name="toast_bar_open_gmail_synchronization">Appuyez pour utiliser le serveur proxy pour Gmail</string>
+    <string name="toastbar_calendar_and_contacts_permission_switch_close">日历和联系人权限未开启，无法同步日历和联系人</string>
+    <string name="toastbar_calendar_permission_switch_close">日历权限未开启，无法同步日历</string>
+    <string name="toastbar_contacts_permission_switch_close">联系人权限未开启，无法同步联系人</string>
+    <string name="toastbar_local_calendar_and_contacts_sync_switch_close">日历和联系人同步开关未开启，无法同步日历和联系人</string>
+    <string name="toastbar_local_calendar_sync_switch_close">日历同步开关未开启，无法同步日历</string>
+    <string name="toastbar_local_contacts_sync_swtich_close">联系人同步开关未开启，无法同步联系人</string>
     <string name="today_text">"Aujourd'hui"</string>
     <string name="too_large_to_attach_additional">Taille du fichier ne doit pas dépasser %1$s .</string>
     <string name="too_large_to_attach_multiple">"Un ou plusieurs fichiers n'ont pas été joints. Limite de %1$s atteinte."</string>
     <string name="too_large_to_attach_single">Impossible de joindre un fichier supérieur à %1$s.</string>
     <string name="topic_merge">Paramètres daffichage</string>
-    <string name="topic_merge_summary">Group by subject</string>
+    <string name="topic_merge_summary">Regrouper par sujet</string>
     <string name="translation_loading">Un instant…</string>
     <string name="translation_no_result">Aucun résultat</string>
     <string name="translation_pronunciation_am">AmE</string>
@@ -969,7 +988,7 @@ Supprimer le compte ?"</string>
     <string name="unsent_messages_in_outbox">%1$s e-mail(s) non envoyé(s) dans %2$s</string>
     <string name="unzip_file_failed">Impossible de décompresser le fichier</string>
     <string name="update_date_format_templete">HH:mm aa, MMMM dd</string>
-    <string name="update_to_wps_mail">Enjoy more features with WPS Mail</string>
+    <string name="update_to_wps_mail">Profitez de plus de fonctionnalités avec WPS Mail</string>
     <string name="updated_at">Dernière mise à jour : %1$s</string>
     <string name="upload_log">Envoyer le journal</string>
     <string name="upload_log_failed">"Impossible d'envoyer les journaux"</string>

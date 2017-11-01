@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Aucune</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -679,6 +681,7 @@ Ce paramètre affecte tous les utilisateurs de ce téléphone."</string>
     <string name="security_enable_widgets_title">Activer les widgets</string>
     <string name="security_enable_widgets_disabled_summary">"Désactivé par l'administrateur"</string>
     <string name="owner_info_settings_summary">Aucun</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_edit_text_hint">"Exemple : l'Android de Jean"</string>
     <string name="user_info_settings_title">Infos utilisateur</string>
     <string name="show_profile_info_on_lockscreen_label">Afficher infos de profil sur écran de verrouillage</string>
@@ -940,6 +943,7 @@ Pour continuer d'utiliser votre téléphone, vous devez rétablir sa configurati
     <string name="wifi_display_options_name">Nom</string>
     <string name="wifi_band_24ghz">2,4 GHz</string>
     <string name="wifi_band_5ghz">5 GHz</string>
+    <string name="link_speed">%1$d Mbit/s</string>
     <string name="nfc_quick_toggle_title">NFC</string>
     <string name="nfc_quick_toggle_summary">"Autoriser l'échange de données lorsque le téléphone touche un autre appareil"</string>
     <string name="android_beam_settings_title">Android Beam</string>
@@ -1643,12 +1647,12 @@ Pour supprimer la musique, les photos et les autres données utilisateur, vous d
     <string name="lock_settings_title">"Sécurité de l'appareil"</string>
     <string name="lockpattern_change_lock_pattern_label">Définir un schéma de déverrouillage</string>
     <string name="lockpattern_change_lock_pin_label">Modifier le code PIN de déverrouillage</string>
-    <string name="lockpattern_recording_intro_header">Dessiner un schéma de déverrouillage :</string>
+    <string name="lockpattern_recording_intro_header">Dessinez un schéma de déverrouillage :</string>
     <string name="lockpattern_recording_intro_footer">"Appuyez sur Menu pour de l'aide."</string>
     <string name="lockpattern_recording_inprogress">Soulevez votre doigt lorsque vous avez terminé</string>
     <string name="lockpattern_recording_incorrect_too_short">Reliez au moins %d points, puis réessayez.</string>
     <string name="lockpattern_pattern_entered_header">Schéma enregistré</string>
-    <string name="lockpattern_need_to_confirm">Redessiner le schéma pour confirmer :</string>
+    <string name="lockpattern_need_to_confirm">Redessinez le schéma pour confirmer :</string>
     <string name="lockpattern_pattern_confirmed_header">Votre nouveau schéma de déverrouillage :</string>
     <string name="lockpattern_confirm_button_text">Confirmer</string>
     <string name="lockpattern_restart_button_text">Dessiner à nouveau</string>
@@ -2197,6 +2201,7 @@ Si l'appareil est utilisé par plusieurs personnes, l'utilisation de ce raccourc
     <string name="gadget_title">"Contrôle de l'alimentation"</string>
     <string name="gadget_toggle_wifi">Mise à jour des paramètres Wi-Fi</string>
     <string name="gadget_toggle_bluetooth">Mise à jour des paramètres Bluetooth</string>
+    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_on">activé</string>
     <string name="gadget_state_off">désactivé</string>
     <string name="gadget_state_turning_on">activation</string>
@@ -2374,6 +2379,7 @@ Une solution Google pour synchroniser vos données et vous permettre d'accéder 
     <string name="delete">Supprimer</string>
     <string name="misc_files">Fichiers divers</string>
     <string name="misc_files_selected_count">%1$d fichiers sélectionnés sur %2$d</string>
+    <string name="misc_files_selected_count_bytes">%1$s sur %2$s</string>
     <string name="select_all">Tout sélectionner</string>
     <string name="data_usage_summary_title">Consommation des données</string>
     <string name="data_usage_app_summary_title">Conso données</string>
@@ -2620,6 +2626,7 @@ N'importe quel utilisateur peut mettre à jour les applications pour tous les au
     <string name="nfc_payment_no_apps">Payez avec votre téléphone dans les magasins.</string>
     <string name="nfc_payment_default">Application de paiement par défaut</string>
     <string name="nfc_payment_default_not_set">Non définie</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_use_default">"Utiliser l'application par défaut"</string>
     <string name="nfc_payment_favor_default">Toujours</string>
     <string name="nfc_payment_favor_open">Sauf si une autre application de paiement est ouverte</string>
@@ -2680,6 +2687,7 @@ N'importe quel utilisateur peut mettre à jour les applications pour tous les au
     <string name="regulatory_info_text" />
     <string name="sim_setup_wizard_title">Cartes SIM</string>
     <string name="sim_settings_title">Cartes SIM</string>
+    <string name="sim_settings_summary">%1$s : %2$s</string>
     <string name="sim_cards_changed_message">Les cartes SIM ont été changées.</string>
     <string name="sim_cards_changed_message_summary">Appuyez pour définir les activités.</string>
     <string name="sim_cellular_data_unavailable">Les données mobiles sont indisponibles.</string>
@@ -2800,6 +2808,7 @@ N'importe quel utilisateur peut mettre à jour les applications pour tous les au
     <string name="zen_mode_option_important_interruptions">Interruptions prioritaires uniquement</string>
     <string name="zen_mode_option_alarms">Alarmes uniquement</string>
     <string name="zen_mode_option_no_interruptions">Aucune interruption</string>
+    <string name="zen_mode_summary_combination">%1$s : %2$s</string>
     <string name="zen_mode_visual_interruptions_settings_title">Bloquer dérangements visuels</string>
     <string name="configure_notification_settings">Configurer les notifications</string>
     <string name="advanced_section_header">Paramètres avancés</string>
@@ -2893,6 +2902,7 @@ L'application pourra aussi activer ou désactiver le mode Ne pas déranger, et m
     <string name="zen_mode_schedule_alarm_title">"L'alarme peut remplacer l'heure de fin"</string>
     <string name="zen_mode_schedule_alarm_summary">"Arrêter à l'heure de fin ou à la prochaine alarme, en fonction de ce qui arrive en premier"</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">%1$s – %2$s</string>
     <string name="summary_range_verbal_combination">Du %1$s au %2$s</string>
     <string name="zen_mode_calls">Appels</string>
     <string name="zen_mode_messages">Messages</string>
@@ -3074,6 +3084,8 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="memory_avg_use">Moyenne</string>
     <string name="memory_max_desc">Maximale : %1$s</string>
     <string name="memory_avg_desc">Moyenne : %1$s</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
+    <string name="process_format">%1$s (%2$d)</string>
     <string name="high_power_apps">Optimisation de la batterie</string>
     <string name="high_power_filter_on">Non optimisées</string>
     <string name="high_power_on">Non optimisée</string>
@@ -3350,6 +3362,7 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="dndm_auto_setting_group">Programmation</string>
     <string name="dndm_auto_button_title">Programmer le mode Ne pas déranger</string>
     <string name="dndm_auto_time_setting">"Régler l'heure"</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_on">De</string>
     <string name="dndm_auto_time_turn_on_title">Active automatiquement le mode Ne pas déranger</string>
     <string name="dndm_auto_time_turn_off">À</string>
@@ -3636,6 +3649,7 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="notification_reboot_title_hm">Redémarrer pour installer la mise à jour</string>
     <string name="notification_reboot_summary_hm">Appuyez pour redémarrer votre appareil.</string>
     <string name="notification_reboot_btn">Redémarrer</string>
+    <string name="miui_updater">Updater</string>
     <string name="giga_hertz">GHz</string>
     <string name="reading_data">"Obtention d'informations…"</string>
     <string name="available_size">%s Disponible</string>
@@ -4821,6 +4835,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="size_giga_byte">Go</string>
     <string name="size_tera_byte">To</string>
     <string name="size_peta_byte">Po</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="radio_info_asdiv_switch_label">État ASDiv :</string>
     <string name="app_factory_reset_dlg_title">Désinstaller les mises à jour ?</string>
     <string name="app_factory_reset_dlg_text">Toutes les mises à jour de cette application système Android seront désinstallées.</string>
@@ -4966,7 +4981,6 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="manage_facerecoginition_text">Gérer les données de visage</string>
     <string name="face_unlock_enable">Le déverrouillage facial est activé</string>
     <string name="face_unlock_disable">Le déverrouillage facial est désactivé</string>
-    <string name="lockpattern_recording_intro_header_second_space">Dessiner un schéma de déverrouillage pour le Second espace :</string>
     <string name="lockpattern_pattern_same_with_owner">Il doit être différent de celui du Premier Espace</string>
     <string name="lockpattern_pattern_same_with_security_space">Il doit être différent de celui du Second espace</string>
     <string name="lockpattern_pattern_same_with_others">"Doit être différent du mot de passe de l'autre espace"</string>
@@ -5097,13 +5111,13 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="delete_fingerprint_confirm_msg">Supprimer une empreinte digitale ?</string>
     <string name="add_fingerprint_text">Ajouter une empreinte dgigitale</string>
     <string name="add_fingerprint_instruction_title">Ajouter votre empreinte digitale</string>
-    <string name="add_back_fingerprint_instruction_msg">Placez votre doigt sur le capteur</string>
-    <string name="add_front_fingerprint_instruction_msg">"Le capteur d'empreintes digitales est au dos de votre appareil."</string>
-    <string name="add_fingerprint_edge_instruction_title">Déplacez légèrement votre doigt</string>
-    <string name="add_fingerprint_edge_instruction_msg">Déplacez vos doigts pour que le capteur enregistre les bords de vos empreintes digitales.</string>
+    <string name="add_back_fingerprint_instruction_msg">Place your finger on the sensor</string>
+    <string name="add_front_fingerprint_instruction_msg">Fingerprint sensor is on the back of your device.</string>
+    <string name="add_fingerprint_edge_instruction_title">Move your finger slightly</string>
+    <string name="add_fingerprint_edge_instruction_msg">Move your finger so the sensor could record the edges of your fingerprint.</string>
     <string name="information_dialog_button_text">"C'est compris"</string>
     <string name="add_fingerprint_toast_text">Placez votre doigt sur le capteur</string>
-    <string name="add_fingerprint_similar_fingerprint_input_error_msg">Déplacez légèrement votre doigt</string>
+    <string name="add_fingerprint_similar_fingerprint_input_error_msg">Move your finger slightly</string>
     <string name="add_fingerprint_failed_retry_text">"Impossible d'ajouter une empreinte digitale, réessayer"</string>
     <string name="add_fingerprint_put_finger_title">Ajouter une empreinte dgigitale</string>
     <string name="add_fingerprint_put_finger_msg">Mettez votre doigt sur le capteur et retirez le lorsque vous sentez une vibration.</string>
@@ -5111,7 +5125,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="add_fingerprint_name_suggest_text">"Nom de l'empreinte digitale"</string>
     <string name="add_fingerprint_success_msg">Ajouté avec succès</string>
     <string name="add_fingerprint_finished_button_text">Terminé</string>
-    <string name="add_fingerprint_instruction_msg">Utilisez vos empreintes digitales pour déverrouiller votre appareils et terminer les paiements.</string>
+    <string name="add_fingerprint_instruction_msg">Use your fingerprint to unlock your device and complete payments.</string>
     <string name="wakeup_for_keyguard_notification_title">"Réveil de l'écran de verrouillage pour les notifications"</string>
     <string name="secure_keyguard_business_title">"Définir l'écran de verrouillage"</string>
     <string name="fingerprint_and_password_entrance_title">"Écran de verrouillage &amp; lecteur d'empreintes digitales"</string>
@@ -5128,6 +5142,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="delete_or_keep_legacy_passwords_confirm_msg">Supprimer cette empreinte digitale ?</string>
     <string name="delete_legacy_fingerprint">Supprimer</string>
     <string name="keep_legacy_fingerprint">Garder</string>
+    <string name="lockpattern_recording_intro_header_second_space">Dessiner un schéma de verrouillage pour le Second espace :</string>
     <string name="lock_screen_unlock_show">"Ignorer le balayage d'écran"</string>
     <string name="lock_screen_unlock_show_summary">"Allez directment à l'écran d'accueil ou à la saisie du mot de passe une fois allumé"</string>
     <string name="security_keyguard_category_name">Écran de verrouillage</string>
@@ -5263,6 +5278,6 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="status_bar_screen_button_desc">"Balayez vers le bas pour masquer les boutons de l'écran"</string>
     <string name="suspension_ball_enable">Raccourci Assistant tactile</string>
     <string name="suspension_ball_enable_desc">"Activer l'assistant tactile en utilisant le raccourci"</string>
-    <string name="setup_add_fingerprint_failed_retry_text">"Impossible d'ajouter l'empreinte digitale"</string>
+    <string name="setup_add_fingerprint_failed_retry_text">"Couldn't add fingerprint"</string>
     <string name="input_password_hint_text">Saisir le mot de passe</string>
 </resources>

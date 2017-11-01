@@ -160,7 +160,7 @@
     <string name="accessibility_shutter_button">Bouton de déclenchement</string>
     <string name="accessibility_review_thumbnail">Photo la plus récente</string>
     <string name="accessibility_camera_picker">"Basculer entre l'objectif avant et arrière"</string>
-    <string name="accessibility_stereo_button">Mode double caméra</string>
+    <string name="accessibility_stereo_button">Focus adjustment</string>
     <string name="pref_camera_autoexposure_title">"Paramètres d'exposition"</string>
     <string name="pref_camera_autoexposure_entry_frameaverage">Cadre moyen</string>
     <string name="pref_camera_autoexposure_entry_centerweighted">Centre pondéré</string>
@@ -320,13 +320,12 @@
     <string name="simple_mode_button_text_magic_mirror">Désactiver le miroir magique</string>
     <string name="pano_how_to_use_prompt_align_reference_line">Alignez la flèche avec la ligne de référence</string>
     <string name="pano_how_to_use_prompt_slow_down">Veuillez réduire la vélocité</string>
-    <string name="pref_camera_stereo_mode_title">Stéréo</string>
-    <string name="simple_mode_button_text_stereo_mode">Désactiver le mode stéréo</string>
+    <string name="pref_camera_stereo_mode_title">Focus adjustment</string>
+    <string name="simple_mode_button_text_stereo_mode">Turn off Focus adjustment</string>
     <string name="dual_camera_too_close_toast">"L'objectif est trop proche de l'objet."</string>
     <string name="dual_camera_lowlight_toast">"L'environnement semble trop sombre."</string>
     <string name="dual_camera_lens_covered_toast">"L'objectif est couvert."</string>
-    <string name="dual_camera_use_hint">"Le mode stéréo applique un flou d'arrière-plan.
-Les objets ne devraient pas se situer à plus de 2 mètres."</string>
+    <string name="dual_camera_use_hint">"Make sure the object isn't further than 2 meters."</string>
     <string name="pref_camera_square_mode_title">Carré</string>
     <string name="simple_mode_button_text_square">Désactiver le Carré</string>
     <string name="face_beauty_smart">Intelligent</string>
@@ -340,6 +339,7 @@ Les objets ne devraient pas se situer à plus de 2 mètres."</string>
     <string name="pref_camera_beautify_entry_low">Faible</string>
     <string name="pref_camera_beautify_entry_normal">Moyen</string>
     <string name="pref_camera_beautify_entry_high">Elevé</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Options</string>
     <string name="button_front_camera_title">Prendre un selfie</string>
     <string name="button_normal_video_title">Enregistrer une vidéo</string>
@@ -356,6 +356,7 @@ et créera une pause sur laquelle tout le monde sera beau."</string>
     <string name="toast_saving">Enregistrement des photos…</string>
     <string name="cannot_connect_camera_volte_call">Un appel vidéo est déjà en cours, veuillez réessayez plus tard.</string>
     <string name="hibernate_hint">"Appuyez sur l'écran pour réveiller l'appareil photo"</string>
+    <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
     <string name="accessibility_zoom_button">Mode zoom</string>
     <string name="accessibility_portrait_button">Mode portrait</string>
     <string name="toast_burst_snap_finished_summary">Prise en rafale effectuée, %1$s photos prises</string>

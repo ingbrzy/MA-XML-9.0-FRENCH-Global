@@ -339,6 +339,10 @@ de l'opérateur"</string>
     <string name="main_purchase_tips">Promotion</string>
     <string name="main_month_total_used">Utilisées ce mois</string>
     <string name="main_daily_package">Forfait de données quotidien</string>
+    <string name="main_indicator_title">Waiting for activation</string>
+    <string name="main_tobe_added_desc">Mobile data from ¥0.03/MB</string>
+    <string name="main_button_mi_sim_close">Activate Mi SIM</string>
+    <string name="main_button_mi_sim_open">View details</string>
     <string name="firewall_activity_lable">"Restreindre l'utilisation des données par application"</string>
     <string name="firewall_applist">Applications</string>
     <string name="firewall_rule_group_title_mobile">Mobile</string>
@@ -380,6 +384,7 @@ de l'opérateur"</string>
     <string name="detail_app_button">"Informations sur l'application"</string>
     <string name="pref_about_traffic_title">"Paramètres d'utilisation des données"</string>
     <string name="pref_traffic_manage_title">Utilisation de données</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Limite de données mobiles</string>
     <string name="pref_adjust_traffic_data">"Définir l'utilisation des données"</string>
     <string name="pref_category_title_other">Paramètres supplémentaires</string>
@@ -793,6 +798,8 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="diagnostic_attention_dialog_message">"Diagnostics pour %1$s est en cours. Veuillez patienter jusqu'à ce que cela finisse puis réessayez."</string>
     <string name="correction_attention_dialog_message">"Modification des paramètres en cours. Patientez jusqu'à ce que le processus finisse pour réessayer."</string>
     <string name="text_button">"C'est compris"</string>
+    <string name="vpn_unbale_get_phonenum">"Can't get phone numbers using designated data plans"</string>
+    <string name="vpn_disabled_by_user">Designated data connection is off</string>
     <string name="btn_back">Retour</string>
     <string name="firewall_allow_data">"Autoriser l'utilisation des données mobiles"</string>
     <string name="firewall_restrict_data">Restreindre la consommation de données mobiles</string>
@@ -872,6 +879,7 @@ Cette activité réduit la durée de vie de la batterie."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Cette application peut ralentir
 votre appareil"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Désinstaller %s ?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">"Désinstaller cette application pour résoudre tous les problèmes liés à l'usage de la batterie."</string>
     <string name="om_ill_proc_type_wakelock_title">"L'application bloque le mode veille et décharge la batterie"</string>
@@ -1270,6 +1278,7 @@ votre appareil"</string>
     <string name="menu_text_networkassistants">Utilisation des données</string>
     <string name="menu_text_networkassistants_remain">%s restants</string>
     <string name="menu_text_networkassistants_danger">%s dépassé</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">Go</string>
     <string name="menu_text_networkassistants_unit_mb">Mo</string>
     <string name="menu_text_networkassistants_unit_kb">ko</string>
@@ -1630,6 +1639,7 @@ votre appareil"</string>
     <string name="card_main_deepclean_wechat_action">Vider</string>
     <string name="card_main_sectool_title">Outils</string>
     <string name="card_main_monthreport_action">Afficher</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Tester le réseau</string>
     <string name="card_main_netcheck_summary">Tester la connexion pour des problèmes de réseau</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -2038,6 +2048,8 @@ votre appareil"</string>
     <string name="wifi_optizition_loading">"Activation de l'augmentation de la vitesse du réseau via Xunyou…"</string>
     <string name="free_send_net_booster">Augmentation de la vitesse du réseau gratuite</string>
     <string name="free_send_net_booster_tip">Profiter des expériences de jeux fluides avec une augmentation de la vitesse du réseau gratuite.</string>
+    <string name="free_send_net_booster_busniess">Get a free Xunlei speed boost</string>
+    <string name="free_send_net_booster_busniess_tip">Tap to receive</string>
     <string name="net_booster_overdue_notification">"La session d'augmentation de la vitesse du réseau prendra bientôt fin"</string>
     <string name="net_booster_overdue_notification_tip">"La session d'augmentation de la vitesse du réseau prendra bientôt fin. Renouveler la session ?"</string>
     <string name="net_booster_expire_notification">"La session d'augmentation de la vitesse du réseau prendra bientôt fin"</string>
@@ -2054,6 +2066,7 @@ votre appareil"</string>
     <string name="forbid_autobright_title">Fix screen brightness</string>
     <string name="gamebooster_lowbattery_notification_title">Battery is lower than 5%%</string>
     <string name="gamebooster_lowbattery_notification_summary">Charge your device before it turns off.</string>
+    <string name="game_ad_recommendation">Everybody is playing</string>
     <string name="power_center_consume_rank">Utilisation de la batterie</string>
     <string name="power_center_custom_title">"Profils de gestion d'énergie"</string>
     <string name="power_center_auto_shutdown_summary_default">Allumer ou éteindre votre appareil à une heure programmée</string>

@@ -246,6 +246,7 @@ pour y accéder depuis l'Écran de verrouillage"</string>
     <string name="no_match_repate_scanner">Aucune empreinte digitale correspondante, scannez à nouveau</string>
     <string name="delete_phone_fingerprint">"Supprimer l'empreinte digitale du Second espace"</string>
     <string name="delete_fingerprint">Supprimer une empreinte digitale</string>
+    <string name="fingerprint_number_upper_limit">Too many unsuccessful unlock attempts</string>
     <string name="delete_fingerprint_desc">"L'empreinte digitale du Second espace sera supprimé avec le mot de passe"</string>
     <string name="fingerprint_removal_failed">"Impossible de supprimer l'empreinte digitale"</string>
     <string name="notification_recommend_title">Top 12 des applications du Second espace</string>
@@ -286,7 +287,7 @@ pour y accéder depuis l'Écran de verrouillage"</string>
     <string name="can_not_switch_when_calling">"Impossible de basculer entre les espaces lors d'un appel"</string>
     <string name="can_not_delete_when_calling">"Impossible de supprimer les espaces lors d'un appel"</string>
     <string name="support_desc">Service de sécurités fournis pour par Graphite</string>
-    <string name="sdcardfs_dialog_message">"Désactiver \"Optimisation de carte SD fictive\" dans les Options développeur avant d'entrer dans le Second espace."</string>
+    <string name="sdcardfs_dialog_message">Turn off \"Mock SD card optimization\" in Settings > Additional settings > Developer options before entering Second space.</string>
     <string name="do_not_ask">Ne plus demander</string>
     <string name="gpg_message">La création des applications clônées pour les jeux nécessite un fonctionnement avec Google Play Games. Créez une application clônée pour Google Play Games ?</string>
     <string name="gpg_title">Application clônée pour Google Play Games</string>
