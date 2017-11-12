@@ -437,4 +437,5 @@ Pour activer votre compte, suivez le
     <string name="account_token_expired_msg">"Le code de vérification a expiré, recommencez ou déconnectez-vous
 L'ID de votre compte : %s"</string>
     <string name="bind_safe_phone_msg">Ajoutez votre numéro de téléphone pour être en mesure de vous connecter à votre compte Mi la prochaine fois.</string>
+    <string name="account_notification_message">"l'identité du compte Xiaomi a expiré, veuillez vous connecter à nouveau !"</string>
 </resources>

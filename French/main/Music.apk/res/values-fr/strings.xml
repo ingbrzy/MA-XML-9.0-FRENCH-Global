@@ -501,6 +501,7 @@ Appuyez sur %s pour démarrer ce téléchargement la prochaine fois que vous ser
     <string name="set_id3_failed">Impossible de sauvegarder les infos</string>
     <string name="set_id3_not_support_format">Impossible déditer ce format de fichier</string>
     <string name="set_id3_not_have_read_or_write_permission">"Vous n'avez pas la permission déditer ce fichier"</string>
+    <string name="listview_index_of_total">%1$d/%2$d</string>
     <string name="lyric_setting">Paramètres des paroles</string>
     <string name="modify_lyric">Editer les paroles</string>
     <string name="modify_progress">Changer la vitesse de défilement des paroles</string>
@@ -522,8 +523,8 @@ Appuyez sur %s pour démarrer ce téléchargement la prochaine fois que vous ser
     <string name="nowplaying_dialog_title_delete_tracks">Effacer la playlist actuelle ?</string>
     <string name="nowplaying_menu_item_delete">Vider</string>
     <string name="nowplaying_circle_style">Nowplaying Circle Style</string>
-    <string name="nowplaying_circle_style_wave">Wave</string>
-    <string name="nowplaying_circle_style_rainbow">Rainbow</string>
+    <string name="nowplaying_circle_style_wave">Vague</string>
+    <string name="nowplaying_circle_style_rainbow">Arc-en-ciel</string>
     <string name="similar_songs">Chansons similaires</string>
     <string name="search_for_artist">Artiste</string>
     <string name="search_for_album">Album</string>
@@ -904,5 +905,5 @@ Appuyez sur %s pour démarrer ce téléchargement la prochaine fois que vous ser
     <string name="online_service_open_tip">Les services de musique en ligne sont activés</string>
     <string name="online_play_tips">"Cette chanson est uniquement disponible en ligne. Activez les services en ligne dans les paramètres pour l'écouter."</string>
     <string name="date_format_str">dd-MM-yyyy</string>
-    <string name="filter_size_unit">%dKB</string>
+    <string name="filter_size_unit">%d ko</string>
 </resources>

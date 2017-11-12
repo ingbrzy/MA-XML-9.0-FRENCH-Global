@@ -204,6 +204,10 @@ Si vous activez les données mobiles, votre opérateur pourrait vous facturer de
         <item quantity="other">"Patientez %d secondes et réessayez. "</item>
         <item quantity="one">"Patientez %d seconde et réessayez. "</item>
     </plurals>
+    <plurals name="number_masked">
+        <item quantity="other">%d applications</item>
+        <item quantity="one">%d application</item>
+    </plurals>
     <plurals name="number_locked">
         <item quantity="other">%d applications verrouillées</item>
         <item quantity="one">%d application verrouillée</item>
@@ -211,6 +215,14 @@ Si vous activez les données mobiles, votre opérateur pourrait vous facturer de
     <plurals name="number_to_lock">
         <item quantity="other">%d applications non verrouillées</item>
         <item quantity="one">%d application non verrouillée</item>
+    </plurals>
+    <plurals name="number_masked_text">
+        <item quantity="other">%d notifications étaient masquées</item>
+        <item quantity="one">%d notification était masquée</item>
+    </plurals>
+    <plurals name="number_to_mask_text">
+        <item quantity="other">%d notifications sont visibles</item>
+        <item quantity="one">%d notification est visible</item>
     </plurals>
     <plurals name="find_applications">
         <item quantity="other">Rechercher parmi %d applications</item>

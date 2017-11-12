@@ -54,8 +54,6 @@
     <string name="clear_all">Tout effacer</string>
     <string name="click_to_send">Appuyez sur la photo de profil pour envoyer</string>
     <string name="coolboot_title">Partager Mi Drop</string>
-    <string name="date_format_ddmmyyyy">jj/mm/aaaa</string>
-    <string name="date_format_ddmmyyyyhmma">jj/mm/aaaa h:mm:ss</string>
     <string name="default_lang">Langue du système</string>
     <string name="delete">Supprimer</string>
     <string name="delete_item_desc">Supprimer ce fichier de la liste des transferts ?</string>

@@ -72,6 +72,42 @@
         <item quantity="other">%d photo cloud ont été ajoutées, désactiver \"Afficher uniquement les albums locaux\" pour les voir.</item>
         <item quantity="one">%d photo cloud a été ajoutée, désactiver \"Afficher uniquement les albums locaux\" pour la voir.</item>
     </plurals>
+    <plurals name="delete_photo_from_local">
+        <item quantity="other">Delete %d photos?</item>
+        <item quantity="one">Delete this photo?</item>
+    </plurals>
+    <plurals name="delete_photo_from_all_devices_and_cloud_msg">
+        <item quantity="other">Delete %d photos from all devices and Mi Cloud?</item>
+        <item quantity="one">Delete this photo from all devices and Mi Cloud?</item>
+    </plurals>
+    <plurals name="delete_photo_from_this_album_and_cloud_msg">
+        <item quantity="other">Delete %d photos from this album and Mi Cloud?</item>
+        <item quantity="one">Delete this photo from this album and Mi Cloud?</item>
+    </plurals>
+    <plurals name="delete_video_from_local">
+        <item quantity="other">Delete %d videos?</item>
+        <item quantity="one">Delete this video?</item>
+    </plurals>
+    <plurals name="delete_video_from_all_devices_and_cloud_msg">
+        <item quantity="other">Delete %d videos from all devices and Mi Cloud?</item>
+        <item quantity="one">Delete this video from all devices and Mi Cloud?</item>
+    </plurals>
+    <plurals name="delete_video_from_this_album_and_cloud_msg">
+        <item quantity="other">Delete %d videos from this album and Mi Cloud?</item>
+        <item quantity="one">Delete this video from this album and Mi Cloud?</item>
+    </plurals>
+    <plurals name="delete_media_from_local">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d item?</item>
+    </plurals>
+    <plurals name="delete_media_from_all_devices_and_cloud_msg">
+        <item quantity="other">Delete %d items from all devices and Mi Cloud?</item>
+        <item quantity="one">Delete %d item from all devices and Mi Cloud?</item>
+    </plurals>
+    <plurals name="delete_media_from_this_album_and_cloud_msg">
+        <item quantity="other">Delete %d items from this album and Mi Cloud?</item>
+        <item quantity="one">Delete %d item from this album and Mi Cloud?</item>
+    </plurals>
     <plurals name="album_item_msg_format">
         <item quantity="other">(%d éléments)</item>
         <item quantity="one">(%d élément)</item>
@@ -117,8 +153,8 @@
         <item quantity="one">%d vidéo</item>
     </plurals>
     <plurals name="add_secret_ensure_message">
-        <item quantity="other">Hide these files?</item>
-        <item quantity="one">Hide this file?</item>
+        <item quantity="other">Masquer ces fichiers ?</item>
+        <item quantity="one">Masquer ce fichier ?</item>
     </plurals>
     <plurals name="number_of_images_synced">
         <item quantity="other">%1$d photos</item>
@@ -191,17 +227,5 @@
     <plurals name="search_feedback_done_mark_and_contribute_false_negative">
         <item quantity="other">%1$d photos ajoutées à \"%2$s\" et ajoutées à la base de données.</item>
         <item quantity="one">%1$d photo ajoutée à \"%2$s\" et ajoutée à la base de données.</item>
-    </plurals>
-    <plurals name="delete_photo_msg_format">
-        <item quantity="other">Supprimer %1$d photos %2$s ?</item>
-        <item quantity="one">Supprimer cette photo %2$s ?</item>
-    </plurals>
-    <plurals name="delete_video_msg_format">
-        <item quantity="other">Supprimer %1$d vidéos %2$s ?</item>
-        <item quantity="one">Supprimer cette vidéo %2$s ?</item>
-    </plurals>
-    <plurals name="delete_media_msg_format">
-        <item quantity="other">Supprimer%1$d éléments de %2$s ?</item>
-        <item quantity="one">Supprimer%1$d élément de %2$s ?</item>
     </plurals>
 </resources>

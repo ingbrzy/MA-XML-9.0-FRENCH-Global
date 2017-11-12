@@ -71,7 +71,7 @@ Vous devez accepter nos Conditions générales d'utilisation et notre Politique 
     <string name="two_dimensional_code_scan">Scanner un code QR</string>
     <string name="user_strayed_warning">"La page est conçue pour les tests d'usine, appuyez sur le bouton \" Retour \" pour quitter."</string>
     <string name="fail_to_generate_qr_code">Impossible de générer le code QR. Ouvrez cette page à nouveau.</string>
-    <string name="enable_accessibility_canceled">Accessibility canceled.</string>
-    <string name="accessibility_enabled">Accessibility enabled.</string>
-    <string name="continue_to_enable_accessibility">Keep holding down two fingers to enable accessibility.</string>
+    <string name="enable_accessibility_canceled">Accessibilité annulée.</string>
+    <string name="accessibility_enabled">Accessibilité activée.</string>
+    <string name="continue_to_enable_accessibility">"Continuez à maintenir deux doigts pour permettre l'accessibilité."</string>
 </resources>

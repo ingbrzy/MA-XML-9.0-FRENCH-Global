@@ -174,6 +174,7 @@
     <string name="color_picker_dialog_title">Sélectionnez la couleur</string>
     <string name="color_picker_hue">Teinte</string>
     <string name="color_picker_saturation">Saturation</string>
+    <string name="color_picker_value">Valeur</string>
     <string name="comment_app_menu">Commentaire</string>
     <string name="comment_description">Commentaire</string>
     <string name="comment_hint">Commentaire</string>
@@ -562,11 +563,11 @@ Quitter cette page ?"</string>
     <string name="paused_waiting_to_retry">En attente pour recommencer…</string>
     <string name="pay_failed_toast">Impossible de terminer le paiement</string>
     <string name="pay_success_toast">Payé avec succès</string>
-    <string name="permission_alert_window">Autoriser les pop-up à utiliser cette fonction</string>
+    <string name="permission_alert_window">Autoriser les fenêtres indépendantes à utiliser cette fonctionnalité</string>
     <string name="permission_notification">vous envoyer des notifications</string>
     <string name="permission_unknown">Action inconnue</string>
     <string name="permissions_prompt_message">"%s veut "</string>
-    <string name="popup_window_attempt">Autoriser ce site à ouvrir une fenêtre pop-up ?</string>
+    <string name="popup_window_attempt">Autoriser ce site à ouvrir une fenêtre indépendante ?</string>
     <string name="positive_confirm_message">Désactiver malgré tout</string>
     <string name="pref_accept_quicklink_push">Ouvrir la page push</string>
     <string name="pref_accessibility">Accessibilité</string>
