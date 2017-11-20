@@ -124,7 +124,7 @@
     <string name="sleep_config_enhance_title">Mode veille</string>
     <string name="sleep_config_enhance_description">"Chaque fois que MIUI détecte que vous dormez, il fermera les applications en arrière-plan, restreindra l'utilisation du NFC, Bluetooth, GPS, des données mobiles et du réseau Wi-Fi puis n'allumera pas l'écran à la réception des notifications."</string>
     <string name="nonui_mode_config_title">Mode non interactif</string>
-    <string name="nonui_mode_config_description">"Ne pas allumer l'écran pour les notifications, désactiver le voyant de notification, l'empreinte digitale et les contrôles de touche lorsque votre appareil est dans une poche."</string>
+    <string name="nonui_mode_config_description">"Ne pas allumer l'écran pour les notifications, désactiver le voyant lumineux, le capteur d'empreintes digitales ainsi que les touches de contrôle afin d'économiser la batterie lorsque MIU détecte que vous n'utilisez pas votre appareil."</string>
     <string name="scenario_policies_warmcontrol">Contrôle de température</string>
     <string name="warm_configure">Paramètres du contrôle de température</string>
     <string name="important_warning">Attention</string>
@@ -194,12 +194,12 @@ L'économiseur de batterie traitera les applications importantes de manière sé
     <string name="cloud_staging_addr">Mettre à jour les données serveur intermédiaire</string>
     <string name="cloud_international_addr">Mettre à jour les données du serveur international</string>
     <string name="current_cloud_addr_is">"L'adresse du serveur de contrôle du Cloud est :"</string>
-    <string name="update_profile_sucess">Serveur de formulaire mis à jour avec succès</string>
+    <string name="update_profile_sucess">Mis à jour depuis le serveur avec succès</string>
     <string name="update_profile_failture_not_connect_wifi">Suppression impossible ! Connecte-vous à un réseau Wi-Fi puis réessayez.</string>
     <string name="sucess">Terminé</string>
     <string name="failure">Échec</string>
     <string name="cloud_addr_info">Info sur Cloud</string>
     <string name="lasttime_feature_cloud">Fonctionnalités mises à jour :</string>
-    <string name="lasttime_applist_cloud">Liste des applications mises à jour :</string>
+    <string name="lasttime_applist_cloud">Applications mises à jour :</string>
     <string name="base_info">Infos de base</string>
 </resources>

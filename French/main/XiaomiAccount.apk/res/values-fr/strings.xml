@@ -19,7 +19,7 @@
     <string name="passport_reg_via_sms_alert">Un message SMS sortant peut être nécessaire pour activer ce service. Votre opérateur vous facturera ce message.</string>
     <string name="passport_reg_using_other_phone"><u>Utiliser un numéro de téléphone alternatif</u></string>
     <string name="passport_reg_btn_using_other_phone">Utiliser un numéro de téléphone alternatif</string>
-    <string name="passport_downlink_reg">Inscription par le numéro de téléphone</string>
+    <string name="passport_downlink_reg">Numéro de téléphone</string>
     <string name="passport_reg_using_phone_number_prompt">Inscription par le numéro de téléphone</string>
     <string name="passport_reg_using_other_phone_number_prompt">"Créer un nouveau compte en utilisant "</string>
     <string name="passport_reg_success_summary">"%1$s a été associé à votre compte. Vous pouvez l'utiliser pour vous connecter et réinitialiser votre mot de passe."</string>
@@ -210,7 +210,7 @@ Pour activer votre compte, suivez le
     <string name="account">Compte</string>
     <string name="logout_failed">Impossible de se déconnecter</string>
     <string name="turn_off_find_device_failed_title">"Impossible de désactiver Localiser l'appareil"</string>
-    <string name="no_response_retry">Pas de réponse, veuillez réessayer.</string>
+    <string name="no_response_retry">Pas de réponse, réessayez.</string>
     <string name="removing_account">Suppression du compte…</string>
     <string name="delete_bank_card_title">Supprimer votre carte bancaire</string>
     <string name="delete_bank_card_message">Votre carte bancaire sera supprimée pour des raisons de sécurité une fois que vous vous déconnectez</string>
@@ -325,7 +325,7 @@ Pour activer votre compte, suivez le
     <string name="loading_micloud_sync_data">Un instant…</string>
     <string name="activity_not_found_notice">"Impossible de trouver l'application"</string>
     <string name="scan_barcode_title">Scannez le Code QR pour vous connecter</string>
-    <string name="talkback_scan_barcode">scanner le code QR</string>
+    <string name="talkback_scan_barcode">Scanner un code QR</string>
     <string name="authorize_title">Autorisation</string>
     <string name="my_device_title">Appareil actuel</string>
     <string name="device_list_title">Mes appareils</string>
@@ -437,5 +437,5 @@ Pour activer votre compte, suivez le
     <string name="account_token_expired_msg">"Le code de vérification a expiré, recommencez ou déconnectez-vous
 L'ID de votre compte : %s"</string>
     <string name="bind_safe_phone_msg">Ajoutez votre numéro de téléphone pour être en mesure de vous connecter à votre compte Mi la prochaine fois.</string>
-    <string name="account_notification_message">"l'identité du compte Xiaomi a expiré, veuillez vous connecter à nouveau !"</string>
+    <string name="account_notification_message">La session a expiré, veuillez vous reconnecter.</string>
 </resources>

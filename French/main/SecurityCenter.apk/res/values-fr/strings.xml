@@ -384,6 +384,7 @@ de l'opérateur"</string>
     <string name="detail_app_button">"Informations sur l'application"</string>
     <string name="pref_about_traffic_title">"Paramètres d'utilisation des données"</string>
     <string name="pref_traffic_manage_title">Utilisation de données</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Limite de données mobiles</string>
     <string name="pref_adjust_traffic_data">"Définir l'utilisation des données"</string>
     <string name="pref_category_title_other">Paramètres supplémentaires</string>
@@ -821,8 +822,8 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="status_bar_network_flow_setup_data_plan">"   Configurer le forfait de données >"</string>
     <string name="status_bar_network_flow_phone_balance">"   Crédit du téléphone : %1$s "</string>
     <string name="status_bar_network_flow_exceed_content">"Aujourd'hui : %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Dépassé : &lt;font color=%2$s>%3$s&lt;/font>"</string>
-    <string name="status_bar_network_flow_content">"Aujourd'hui :%1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;; Restant : %2$s"</string>
-    <string name="status_bar_network_flow_content_not_setting">"Aujourd'hui :%1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;; Ce mois : %2$s"</string>
+    <string name="status_bar_network_flow_content">"Aujourd'hui :%1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Restant : %2$s"</string>
+    <string name="status_bar_network_flow_content_not_setting">"Aujourd'hui :%1$s&amp;nbsp;&amp;nbsp;&amp;nbsp; Ce mois : %2$s"</string>
     <string name="status_bar_network_flow_today">"Aujourd'hui : %1$s"</string>
     <string name="optimize_manage_title">Augmenter la vitesse</string>
     <string name="cpu_usage_android_system">Système Android</string>
@@ -885,6 +886,7 @@ Cette activité réduit la durée de vie de la batterie."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Cette application peut ralentir
 votre appareil"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Désinstaller %s ?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">"Désinstaller cette application pour résoudre tous les problèmes liés à l'usage de la batterie."</string>
     <string name="om_ill_proc_type_wakelock_title">"L'application bloque le mode veille et décharge la batterie"</string>
@@ -1181,7 +1183,7 @@ votre appareil"</string>
     <string name="sp_settings_info_monitor">"Surveiller l'environnement du système lorsque les applications de paiement se mettent en marche"</string>
     <string name="scan_status_safe">Sécurisé</string>
     <string name="scan_status_risk">Risqué</string>
-    <string name="safepay_alert_dialog_button_fix">Fix</string>
+    <string name="safepay_alert_dialog_button_fix">Réparer</string>
     <string name="safepay_alert_dialog_button_continue">Continuer</string>
     <string name="safe_result_header_info_protecting">Protection</string>
     <string name="safe_result_item_info_system_version">MIUI est à jour</string>
@@ -1216,10 +1218,10 @@ votre appareil"</string>
     <string name="sp_monitored_apps_count_zero">"Aucune application de paiement n'est protégée"</string>
     <string name="monitor_app_more">Plus</string>
     <string name="monitor_app_add">Ajouter</string>
-    <string name="sc_system_risk_fix_info_xspace">"Le risque ne peut pas être corrigé dans xspace, passez à l'espace propriétaire pour le réparer."</string>
-    <string name="dialog_no_longer_alert">no longer remind</string>
-    <string name="sp_background_risk_dialog_title_wifi_approve">Free WLAN Alert</string>
-    <string name="sp_background_risk_dialog_summary_wifi_approve">You are currently using a free public wifi which could be a fishing one. Make sure it is safe before your payment.</string>
+    <string name="sc_system_risk_fix_info_xspace">Impossible de résoudre ce problème dans Second espace. Essayez à nouveau dans Premier espace.</string>
+    <string name="dialog_no_longer_alert">Ne plus afficher</string>
+    <string name="sp_background_risk_dialog_title_wifi_approve">Alerte Wi-Fi public</string>
+    <string name="sp_background_risk_dialog_summary_wifi_approve">"Vous êtes connecté à un réseau Wi-Fi public qui n'est peut-être pas sécurisé. Assurez-vous que votre paiement est protégé avant de le terminer."</string>
     <string name="sp_background_risk_dialog_title">Attention</string>
     <string name="sp_background_risk_dialog_summary">, vérifier et réparer les erreurs de paiement.</string>
     <string name="sp_background_risk_type_wifi">Ce réseau Wi-Fi est dangereux</string>
@@ -1270,7 +1272,7 @@ votre appareil"</string>
     <string name="keywords_powercenter_powerrank">Utilisation de la batterie</string>
     <string name="path_powercenter_powerrank">Batterie &amp; Performance/ Utilisation de la batterie</string>
     <string name="resource_gamebooster">Accélérateur de la vitesse de jeu</string>
-    <string name="keywords_gamebooster">Jeu;accélérateur de la vitesse;La gloire du roi;Mode Performance;NPD</string>
+    <string name="keywords_gamebooster">Jeu;Augmentation de vitesse;Roi de Gloire;Mode Performance;NPD;Jeux;jeu;Vitesse de jeu;augmenter</string>
     <string name="path_gamebooster">Applications système/Sécurité/Accélérateur de la vitesse de jeu</string>
     <string name="app_name_securitycenter">Sécurité</string>
     <string name="ok">OK</string>
@@ -1286,6 +1288,7 @@ votre appareil"</string>
     <string name="menu_text_networkassistants">Utilisation des données</string>
     <string name="menu_text_networkassistants_remain">%s restants</string>
     <string name="menu_text_networkassistants_danger">%s dépassé</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">Go</string>
     <string name="menu_text_networkassistants_unit_mb">Mo</string>
     <string name="menu_text_networkassistants_unit_kb">ko</string>
@@ -1503,7 +1506,7 @@ votre appareil"</string>
     <string name="title_mifi_insurance">Garantie prolongée</string>
     <string name="summary_mifi_insurance">"Bénéficier d'un plan de remplacement pour un an, ce qui prend en compte les cas de dommage du matériel"</string>
     <string name="title_cloud_space_almost_full">Le stockage du Cloud est bientôt plein, des éléments peuvent ne pas être synchronisés</string>
-    <string name="summary_cloud_space_almost_full">"Obtenir plus d'espace de stockage"</string>
+    <string name="summary_cloud_space_almost_full">Get storage</string>
     <string name="title_cloud_space_full">Mi Cloud est plein</string>
     <string name="summary_cloud_space_full">"Obtenir plus d'espace de stockage et accéder à plus de fonctionnalités"</string>
     <string name="title_auto_update">Mettre à jour automatiquement</string>
@@ -1562,7 +1565,7 @@ votre appareil"</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
     <string name="pref_title_manual_check_virus_db_update">Vérifier les mises à jour</string>
     <string name="virus_update_tips_title">Attention</string>
-    <string name="virus_wait_network_dialog_message">"Votre téléphone n'est pas connecté au Wi-Fi actuellement. Cela coûtera l'utilisation de données mobiles mesurées. Continuer ?"</string>
+    <string name="virus_wait_network_dialog_message">"Votre téléphone n'est pas connecté au Wi-Fi actuellement. Utiliser la connexion de données mobiles ?"</string>
     <string name="antivirus_not_wlan">"Vous n'êtes pas connecté au Wi-Fi. Utilser les données mobiles peut générer des frais supplémentaires. Continuer quand même ?"</string>
     <string name="antivirus_longtime_no_update">"Il semble que vos bases de données virales sont obsolètes. Les mise à jour régulières aident à obtenir de meilleurs résultats d'analyse. Autoriser \" Sécurité \" à se connecter à Internet et mettre à jour les bases de données virales ?"</string>
     <string name="antivirus_longtime_no_update1">"Il semble que vos bases de données virales sont obsolètes. Les mises à jour régulières aident à obtenir de meilleurs résultats d'analyse. Mettez à jours les bases de données et réessayez."</string>
@@ -1587,7 +1590,7 @@ votre appareil"</string>
     <string name="hints_risk_name_title">Risque :</string>
     <string name="hints_risk_descx_title">Description :</string>
     <string name="button_text_clear">Nettoyer</string>
-    <string name="antivirus_main_activity_back">"Retour de l'analsye de sécurité"</string>
+    <string name="antivirus_main_activity_back">Retour</string>
     <string name="toast_removed_from_virus_white_list">"Retiré des exceptions. L'élément sera analysé la prochaine fois."</string>
     <string name="long_click_dialog_title">Attention</string>
     <string name="long_click_dialog_summary">Maintenir les résultats dans la liste pour les ajouter aux exceptions</string>
@@ -1646,6 +1649,7 @@ votre appareil"</string>
     <string name="card_main_deepclean_wechat_action">Vider</string>
     <string name="card_main_sectool_title">Outils</string>
     <string name="card_main_monthreport_action">Afficher</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Tester le réseau</string>
     <string name="card_main_netcheck_summary">Tester la connexion pour des problèmes de réseau</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1929,15 +1933,15 @@ votre appareil"</string>
 
  "<li>Applications désactivées</li>"
  "<li>Notifications des applications désactivées</li>"
- "<li>Applications par défaut pour les actions</li>"
+ "<li>Applications par défaut</li>"
  "<li>"Restriction des données d'arrière-plan pour les applications"</li>"
 
  Vous ne perdrez aucune donnée d'application."</string>
     <string name="app_manager_reset_app_preferences_button">Réinitialiser les applications</string>
     <string name="app_manager_disable_text">Désactiver</string>
     <string name="app_manager_enable_text">Activer</string>
-    <string name="app_manager_disable_dlg_title">Désactiver une application système ?</string>
-    <string name="app_manager_disable_dlg_text">"Si vous désactivez cette application, d'autres applications pourront ne plus fonctionner correctement."</string>
+    <string name="app_manager_disable_dlg_title">Désactiver les applications système ?</string>
+    <string name="app_manager_disable_dlg_text">"Si vous désactivez cette application, d'autres applications peuvent ne pas fonctionner normalement."</string>
     <string name="app_manager_disabled">Désactivé</string>
     <string name="app_manager_enabled">Activé</string>
     <string name="app_manager_globel_perm_title">"Autorisations de l'application"</string>
@@ -1949,12 +1953,12 @@ votre appareil"</string>
     <string name="app_manager_memory">RAM</string>
     <string name="app_manager_as_dlg_title">Attention</string>
     <string name="app_manager_as_dlg_msg">Autoriser des applications à démarrer automatiquement peut nécessiter de la RAM et des ressources de batterie supplémentaires. Autoriser quand même ?</string>
-    <string name="app_manager_default_cleared">effacé</string>
-    <string name="app_manager_not_allow">No</string>
-    <string name="app_manager_allow">Yes</string>
-    <string name="app_manager_install_other_app">install apps unknown sources</string>
-    <string name="app_manager_disabled_by_admin">Disabled by admin</string>
-    <string name="app_manager_advanced_setting">Advanced settings</string>
+    <string name="app_manager_default_cleared">Vidé</string>
+    <string name="app_manager_not_allow">Non</string>
+    <string name="app_manager_allow">Oui</string>
+    <string name="app_manager_install_other_app">Installer les applications provenant de sources inconnues</string>
+    <string name="app_manager_disabled_by_admin">"Désactivée par l'administrateur"</string>
+    <string name="app_manager_advanced_setting">Paramètres avancés</string>
     <string name="ad_btn_default_text">En savoir plus</string>
     <string name="open_activity_err">"L'application n'a pas été trouvée"</string>
     <string name="low_memory_warning_dialog_title">Espace de stockage insuffisant</string>
@@ -2002,8 +2006,8 @@ votre appareil"</string>
     <string name="function_close">Désactivé</string>
     <string name="add_done">Ajouté avec succès</string>
     <string name="boost_done">Augmenté avec succès</string>
-    <string name="boost_stop">Turn off speed boost</string>
-    <string name="already_close_gamebooster">Gaming speed boost is off</string>
+    <string name="boost_stop">"Désactiver l'augmentation de la vitesse"</string>
+    <string name="already_close_gamebooster">"L'augmentation de la vitesse de jeu est désactivée"</string>
     <string name="no_game">Impossible de trouver des jeux</string>
     <string name="gamebooster_network_dialog_title">Certaines fonctionnalités ne sont pas disponibles</string>
     <string name="gamebooster_network_dialog_message">"Autorisez Sécurité à se connecter au réseau afin d'utiliser toutes les fonctionnalités de l'accélérateur de vitesse de jeux ?"</string>
@@ -2058,8 +2062,8 @@ votre appareil"</string>
     <string name="renew_now">Renouveler</string>
     <string name="receive_now">Recevoir</string>
     <string name="net_booster">Augmentation de la vitesse du réseau</string>
-    <string name="xunyou_net_booster">Network speed boost</string>
-    <string name="xunyou_net_booster_detail">Use Xunyou speed boost services for gaming</string>
+    <string name="xunyou_net_booster">Augmentation de la vitesse du réseau</string>
+    <string name="xunyou_net_booster_detail">"Utiliser les services d'augmentation de vitesse Xunyou pour les jeux"</string>
     <string name="wlan_booster">Optimisation du Wi-Fi</string>
     <string name="tab_gift">Cadeaux</string>
     <string name="tab_guide">Guide</string>
@@ -2090,13 +2094,13 @@ votre appareil"</string>
     <string name="thermal_tips_title">Attention</string>
     <string name="thermal_tips_message">Jouer à des jeux en mode Performance peut entraîner des problèmes de surchauffe.</string>
     <string name="forbid_autobright_title">Ajuster la luminosité de lcran</string>
-    <string name="forbid_autobright_summary">"Screen brightness will stay the same when you're playing games"</string>
+    <string name="forbid_autobright_summary">"Luminosité de l'écran restera identique lorsque vous jouerez des jeux"</string>
     <string name="gamebooster_lowbattery_notification_title">La batterie est inférieure à 5%%</string>
     <string name="gamebooster_lowbattery_notification_summary">"Chargez votre appareil avant qu'il ne s'éteigne."</string>
     <string name="game_ad_recommendation">Tout le monde joue</string>
-    <string name="game_booster_close">Game Speed Booster off</string>
+    <string name="game_booster_close">Accélérateur de la vitesse de jeu désactivé</string>
     <string name="databooster_tips_title">Attention</string>
-    <string name="databooster_tips_message">Turn on to restrict all SIM cards except for the data card. Turn this feature off if errors occur in the games of your choice.</string>
+    <string name="databooster_tips_message">"Activez pour restreindre toutes les cartes SIM à l'exception de la carte de données. Désactivez cette fonction si des erreurs se produisent dans les jeux de votre choix."</string>
     <string name="power_center_consume_rank">Utilisation de la batterie</string>
     <string name="power_center_custom_title">"Profils de gestion d'énergie"</string>
     <string name="power_center_auto_shutdown_summary_default">Allumer ou éteindre votre appareil à une heure programmée</string>

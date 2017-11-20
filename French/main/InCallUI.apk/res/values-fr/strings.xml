@@ -39,7 +39,7 @@
     <string name="onscreen_add_call_text">Ajouter un appel</string>
     <string name="onscreen_audio_mode_bluetooth">Bluetooth</string>
     <string name="onscreen_audio_mode_conference">Conférence</string>
-    <string name="onscreen_audio_mode_handset">Mains libres</string>
+    <string name="onscreen_audio_mode_handset">Earpiece</string>
     <string name="onscreen_audio_mode_headset">Écouteurs</string>
     <string name="onscreen_audio_mode_speaker">Haut-parleur</string>
     <string name="onscreen_audio_switch_mode">Changer de mode</string>

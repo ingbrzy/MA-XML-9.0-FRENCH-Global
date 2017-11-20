@@ -46,7 +46,7 @@
     <string name="rename_duplicate">Un autre enregistrement porte déjà ce nom.</string>
     <string name="rename_no_more_tip">Ne plus afficher</string>
     <string name="dialog_title_storage_full">Espace de stockage insuffisant</string>
-    <string name="dialog_content_storage_full">"Enregistrement arrêté parce qu'il n'y a pas assez d'espace sur la mémoire interne de votre appareil."</string>
+    <string name="dialog_content_storage_full">"Enregistrement arrêté parce qu'il n'y a pas assez d'espace de stockage sur la mémoire interne de votre appareil."</string>
     <string name="status_bar_recording">Enregistrement…</string>
     <string name="status_bar_back">Appuyez pour revenir au Magnéto</string>
     <string name="status_bar_recording_pause">"Enregistrement en pause. "</string>

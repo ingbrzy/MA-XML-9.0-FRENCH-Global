@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Aucune</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -311,11 +313,11 @@
     <string name="launcher_auto_fill_empty_title">Remplir les cellules vides</string>
     <string name="lock_screen_cells_title">"Verrouillage de l'écran d'accueil"</string>
     <string name="screen_cells_config_title">"Disposition de l'écran d'accueil"</string>
-    <string name="open_personal_assistant_title">Activer QuickCard</string>
-    <string name="open_personal_assistant_dialog_title">Désactiver QuickCard</string>
-    <string name="open_personal_assistant_dialog_desc">Vous ne pourrez plus utiliser QuickCard et recevoir ses mises à jour. Désactiver maintenant ?</string>
+    <string name="open_personal_assistant_title">"Activer le Coffre d'applications"</string>
+    <string name="open_personal_assistant_dialog_title">"Désactiver le Coffre d'applications"</string>
+    <string name="open_personal_assistant_dialog_desc">"Vous ne pourrez plus utiliser Coffre d'applications et recevoir ses mises à jour. Désactiver maintenant ?"</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Annuler</string>
-    <string name="open_personal_assistant_dialog_btn_confirm">Fermer</string>
+    <string name="open_personal_assistant_dialog_btn_confirm">Désactiver</string>
     <string name="recents_config_title">Récents</string>
     <string name="show_mem_info_title">"Afficher l'état de la mémoire"</string>
     <string name="status_bar_and_notification_bar">"Notification et barre d'état"</string>
@@ -679,6 +681,7 @@ Ce paramètre affecte tous les utilisateurs de ce téléphone."</string>
     <string name="security_enable_widgets_title">Activer les widgets</string>
     <string name="security_enable_widgets_disabled_summary">"Désactivé par l'administrateur"</string>
     <string name="owner_info_settings_summary">Aucun</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_edit_text_hint">"Exemple : l'Android de Jean"</string>
     <string name="user_info_settings_title">Infos utilisateur</string>
     <string name="show_profile_info_on_lockscreen_label">Afficher infos de profil sur écran de verrouillage</string>
@@ -795,9 +798,9 @@ Pour continuer d'utiliser votre téléphone, vous devez rétablir sa configurati
     <string name="unlock_set_unlock_pattern_title">Schéma</string>
     <string name="unlock_set_unlock_pattern_summary">"Dessinez un schéma simple avec votre doigt pour déverrouiller l'appareil"</string>
     <string name="unlock_set_unlock_pin_title">Code PIN</string>
-    <string name="unlock_set_unlock_pin_summary">"Saisissez quatre chiffres ou plus pour déverrouiller l'appareil"</string>
+    <string name="unlock_set_unlock_pin_summary">"Saisissez 4 chiffres ou plus pour déverrouiller l'appareil"</string>
     <string name="unlock_set_unlock_password_title">Mot de passe</string>
-    <string name="unlock_set_unlock_password_summary">"Saisissez quatre lettres ou plus pour déverrouiller l'appareil"</string>
+    <string name="unlock_set_unlock_password_summary">"Saisissez 4 lettres ou plus pour déverrouiller l'appareil"</string>
     <string name="unlock_set_do_later_title">Pas maintenant</string>
     <string name="current_screen_lock">"Verrouillage de l'écran actuel"</string>
     <string name="fingerprint_unlock_set_unlock_pattern">Empreinte digitale + schéma</string>
@@ -940,6 +943,7 @@ Pour continuer d'utiliser votre téléphone, vous devez rétablir sa configurati
     <string name="wifi_display_options_name">Nom</string>
     <string name="wifi_band_24ghz">2,4 GHz</string>
     <string name="wifi_band_5ghz">5 GHz</string>
+    <string name="link_speed">%1$d Mbit/s</string>
     <string name="nfc_quick_toggle_title">NFC</string>
     <string name="nfc_quick_toggle_summary">"Autoriser l'échange de données lorsque le téléphone touche un autre appareil"</string>
     <string name="android_beam_settings_title">Android Beam</string>
@@ -2197,6 +2201,7 @@ Si l'appareil est utilisé par plusieurs personnes, l'utilisation de ce raccourc
     <string name="gadget_title">"Contrôle de l'alimentation"</string>
     <string name="gadget_toggle_wifi">Mise à jour des paramètres Wi-Fi</string>
     <string name="gadget_toggle_bluetooth">Mise à jour des paramètres Bluetooth</string>
+    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_on">activé</string>
     <string name="gadget_state_off">désactivé</string>
     <string name="gadget_state_turning_on">activation</string>
@@ -2374,6 +2379,7 @@ Une solution Google pour synchroniser vos données et vous permettre d'accéder 
     <string name="delete">Supprimer</string>
     <string name="misc_files">Fichiers divers</string>
     <string name="misc_files_selected_count">%1$d fichiers sélectionnés sur %2$d</string>
+    <string name="misc_files_selected_count_bytes">%1$s sur %2$s</string>
     <string name="select_all">Tout sélectionner</string>
     <string name="data_usage_summary_title">Consommation des données</string>
     <string name="data_usage_app_summary_title">Conso données</string>
@@ -2620,6 +2626,7 @@ N'importe quel utilisateur peut mettre à jour les applications pour tous les au
     <string name="nfc_payment_no_apps">Payez avec votre téléphone dans les magasins.</string>
     <string name="nfc_payment_default">Application de paiement par défaut</string>
     <string name="nfc_payment_default_not_set">Non définie</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_use_default">"Utiliser l'application par défaut"</string>
     <string name="nfc_payment_favor_default">Toujours</string>
     <string name="nfc_payment_favor_open">Sauf si une autre application de paiement est ouverte</string>
@@ -2680,6 +2687,7 @@ N'importe quel utilisateur peut mettre à jour les applications pour tous les au
     <string name="regulatory_info_text" />
     <string name="sim_setup_wizard_title">Cartes SIM</string>
     <string name="sim_settings_title">Cartes SIM</string>
+    <string name="sim_settings_summary">%1$s : %2$s</string>
     <string name="sim_cards_changed_message">Les cartes SIM ont été changées.</string>
     <string name="sim_cards_changed_message_summary">Appuyez pour définir les activités.</string>
     <string name="sim_cellular_data_unavailable">Les données mobiles sont indisponibles.</string>
@@ -2800,6 +2808,7 @@ N'importe quel utilisateur peut mettre à jour les applications pour tous les au
     <string name="zen_mode_option_important_interruptions">Interruptions prioritaires uniquement</string>
     <string name="zen_mode_option_alarms">Alarmes uniquement</string>
     <string name="zen_mode_option_no_interruptions">Aucune interruption</string>
+    <string name="zen_mode_summary_combination">%1$s : %2$s</string>
     <string name="zen_mode_visual_interruptions_settings_title">Bloquer dérangements visuels</string>
     <string name="configure_notification_settings">Configurer les notifications</string>
     <string name="advanced_section_header">Paramètres avancés</string>
@@ -2893,6 +2902,7 @@ L'application pourra aussi activer ou désactiver le mode Ne pas déranger, et m
     <string name="zen_mode_schedule_alarm_title">"L'alarme peut remplacer l'heure de fin"</string>
     <string name="zen_mode_schedule_alarm_summary">"Arrêter à l'heure de fin ou à la prochaine alarme, en fonction de ce qui arrive en premier"</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">%1$s – %2$s</string>
     <string name="summary_range_verbal_combination">Du %1$s au %2$s</string>
     <string name="zen_mode_calls">Appels</string>
     <string name="zen_mode_messages">Messages</string>
@@ -3074,6 +3084,8 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="memory_avg_use">Moyenne</string>
     <string name="memory_max_desc">Maximale : %1$s</string>
     <string name="memory_avg_desc">Moyenne : %1$s</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
+    <string name="process_format">%1$s (%2$d)</string>
     <string name="high_power_apps">Optimisation de la batterie</string>
     <string name="high_power_filter_on">Non optimisées</string>
     <string name="high_power_on">Non optimisée</string>
@@ -3350,6 +3362,7 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="dndm_auto_setting_group">Programmation</string>
     <string name="dndm_auto_button_title">Programmer le mode Ne pas déranger</string>
     <string name="dndm_auto_time_setting">"Régler l'heure"</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_on">De</string>
     <string name="dndm_auto_time_turn_on_title">Active automatiquement le mode Ne pas déranger</string>
     <string name="dndm_auto_time_turn_off">À</string>
@@ -3566,7 +3579,7 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="search_permission_manager">Permissions;Accès Root</string>
     <string name="search_permission_settings_title">Autorisation des applications</string>
     <string name="search_application_lock_name">"Verrouillage d'application"</string>
-    <string name="search_about_settings">Á propos du téléphone;Modèle;Version Android;Version MIUI;CPU;RAM;Mémoire interne;Version de bande de base;Version du noyau;Numéro de build</string>
+    <string name="search_about_settings">Á propos du téléphone;Modèle;Version Android;Version MIUI;CPU;RAM;Mémoire interne;Mémoire;Stockage;Stockage interne;Version de bande de base;Version du noyau;Numéro de build</string>
     <string name="search_device_name">"Nom de l'appareil"</string>
     <string name="search_legal_information">Informations légales</string>
     <string name="search_copyright_title">"Droits d'auteur"</string>
@@ -3612,9 +3625,9 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="hardware_version">Version du matériel</string>
     <string name="device_build_id">Numéro de version</string>
     <string name="device_memory">RAM</string>
-    <string name="device_internal_memory">Mémoire interne</string>
-    <string name="device_available_memory">Mémoire disponible</string>
-    <string name="device_total_memory">Mémoire totale</string>
+    <string name="device_internal_memory">Stockage interne</string>
+    <string name="device_available_memory">Stockage disponible</string>
+    <string name="device_total_memory">Stockage total</string>
     <string name="device_sd_memory">Carte SD</string>
     <string name="device_cpu2_info">Dual-core</string>
     <string name="device_cpu6_info">Hexa-core</string>
@@ -3636,7 +3649,7 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="notification_reboot_title_hm">Redémarrer pour installer la mise à jour</string>
     <string name="notification_reboot_summary_hm">Appuyez pour redémarrer votre appareil.</string>
     <string name="notification_reboot_btn">Redémarrer</string>
-    <string name="miui_updater">System update</string>
+    <string name="miui_updater">Mise à jour système</string>
     <string name="giga_hertz">GHz</string>
     <string name="reading_data">"Obtention d'informations…"</string>
     <string name="available_size">%s Disponible</string>
@@ -3649,7 +3662,7 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="sync_settings">Synchronisation</string>
     <string name="google_title">Google</string>
     <string name="account_other">Autre</string>
-    <string name="no_account_found">"Aucune application ne prend en charge l'ajout de comptes"</string>
+    <string name="no_account_found">Impossible de trouver des applications pouvant ajouter des comptes</string>
     <string name="xiaomi_cloud_service_disabled">Désactivé</string>
     <string name="xiaomi_cloud_service_unknown">Inconnu</string>
     <string name="xiaomi_cloud_service_description">"Mi Cloud synchronise les contacts, photos et autres éléments à travers vos appareils. \"Localiser l'appareil\" nécessite aussi que Mi Cloud fonctionne normalement."</string>
@@ -3676,7 +3689,7 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="ac_privacy_mode_title">Mot de passe</string>
     <string name="ac_privacy_mode_sum">Demander un mot de passe pour désactiver le mode Invité</string>
     <string name="access_control_password_title">Mot de passe</string>
-    <string name="access_control_no_back_footer">Appuyez [icon] pour sortir</string>
+    <string name="access_control_no_back_footer">Appuyer sur [icon] pour quitter</string>
     <string name="access_control_recording_intro_header">Dessinez un schéma de déverrouillage:</string>
     <string name="access_control_app_entry_single">"Ouvrir l'application"</string>
     <string name="access_control_app_entry_multiple">Ouvrir %s</string>
@@ -3845,7 +3858,8 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="show_rounded_corners">Afficher des coins arrondis</string>
     <string name="pref_operational_key">Boutons de navigation</string>
     <string name="pref_button_light">Boutons tactiles rétro-éclairés</string>
-    <string name="pref_button_light_summary">Rétro-éclairage des boutons Menu, Accueil et Retour</string>
+    <string name="pref_button_light_summary">Light up Menu, %1$s, and Back buttons</string>
+    <string name="pref_button_light_summary_sub">Home</string>
     <string name="button_light_timeout">Garder les boutons allumés</string>
     <string name="battery_light_title">Allumer lors de la charge</string>
     <string name="battery_light_summary">"Activer le voyant de notification lorsque l'appareil est en charge"</string>
@@ -3862,7 +3876,7 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="default_input_method">Choisir le clavier par défaut</string>
     <string name="locale_settings">Région</string>
     <string name="country_name">%s (système)</string>
-    <string name="install_preinstall_app">Chargement des applications…</string>
+    <string name="install_preinstall_app">Changement de région…</string>
     <string name="volume_category_title">Volume</string>
     <string name="vibrate_category_title">Vibreur</string>
     <string name="vibrate_in_normal_title">Vibrer avec la sonnerie</string>
@@ -3912,7 +3926,7 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="failed_to_check_find_device_status_title">"Impossible de vérifier l'état"</string>
     <string name="failed_to_check_find_device_status_content">"Impossible de vérifier l'état de \"Localiser l'appareil\". Attendez une minute ou deux puis réessayez."</string>
     <string name="failed_to_shut_down_find_device_title">Impossible de désactiver</string>
-    <string name="failed_to_shut_down_find_device_content">"Impossible de désactiver la Localiser l'appareil. Attendez une minute ou deux et réessayez."</string>
+    <string name="failed_to_shut_down_find_device_content">"Impossible de désactiver Localiser l'appareil. Attendez une minute ou deux et réessayez."</string>
     <string name="shut_down_find_device_network_failure_title">Impossible de se connecter au réseau</string>
     <string name="shut_down_find_device_network_failure_content">"Impossible de désactiver Localiser l'appareil. Assurez-vous que votre appareil est connecté à Internet."</string>
     <string name="check_find_device_status_failure_confirm">OK </string>
@@ -4212,7 +4226,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="wifi_configured_ap_list">"Points d'accès déjà configurés"</string>
     <string name="wifi_priority_label">Priorité</string>
     <string name="wifi_available_title">Connecté en Wi-Fi</string>
-    <string name="msg_wlan_signal_found">Ce connecter à %s ?</string>
+    <string name="msg_wlan_signal_found">Se connecter à %s ?</string>
     <string name="wifi_signal_found_msg">"Se connecter au point d'accès Wi-Fi ?"</string>
     <string name="miui_data_usage_menu_metered">"Points d'accès mobiles"</string>
     <string name="wifi_click_share_wlan">Appuyez pour partager le mot de passe</string>
@@ -4625,6 +4639,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="fluency_mode">Animations système</string>
     <string name="fluency_mode_confirm_and_reboot">Redémarrer maintenant</string>
     <string name="gesture_wakeup_title">Appui double sur l’écran pour réveiller</string>
+    <string name="pick_up_gesture_wakeup_title">"Soulever l'appareil pour l'allumer"</string>
     <string name="aod_mode_title">Mode Always on</string>
     <string name="aod_mode_summary">"Toujours afficher l'heure, la date et les messages lorsque l'écran est éteint."</string>
     <string name="install_no_market_app_title">Sources inconnues</string>
@@ -4710,7 +4725,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="convenience_key_category_title">Contrôle du système</string>
     <string name="single_key_use">Bouton unique</string>
     <string name="single_key_use_summary">"Utilisez le bouton d'accueil pour les fonctions exécutées par les 2 autres boutons"</string>
-    <string name="settings_forbidden_message">Ce paramètre est désactivé</string>
+    <string name="settings_forbidden_message">Ce paramètre est restreint</string>
     <string name="auto_disable_screenbuttons_title">Désactiver automatiquement les boutons de navigation</string>
     <string name="auto_disable_screenbuttons_summary">"Désactiver automatiquement les boutons de navigation lors de l'utilisation des applications sélectionnées. Appuyez deux fois sur un bouton de navigation pour réactiver."</string>
     <string name="auto_disable_screenbuttons_ask">Demander avant de désactiver</string>
@@ -4820,6 +4835,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="size_giga_byte">Go</string>
     <string name="size_tera_byte">To</string>
     <string name="size_peta_byte">Po</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="radio_info_asdiv_switch_label">État ASDiv :</string>
     <string name="app_factory_reset_dlg_title">Désinstaller les mises à jour ?</string>
     <string name="app_factory_reset_dlg_text">Toutes les mises à jour de cette application système Android seront désinstallées.</string>
@@ -5094,13 +5110,13 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="delete_fingerprint_confirm_msg">Supprimer une empreinte digitale ?</string>
     <string name="add_fingerprint_text">Ajouter une empreinte dgigitale</string>
     <string name="add_fingerprint_instruction_title">Ajouter votre empreinte digitale</string>
-    <string name="add_back_fingerprint_instruction_msg">Place your finger on the sensor</string>
-    <string name="add_front_fingerprint_instruction_msg">Fingerprint sensor is on the back of your device.</string>
-    <string name="add_fingerprint_edge_instruction_title">Move your finger slightly</string>
-    <string name="add_fingerprint_edge_instruction_msg">Move your finger so the sensor could record the edges of your fingerprint.</string>
+    <string name="add_back_fingerprint_instruction_msg">Placez votre doigt sur le capteur</string>
+    <string name="add_front_fingerprint_instruction_msg">"Le capteur d'empreintes digitales est sur le bouton Accueil de votre appareil."</string>
+    <string name="add_fingerprint_edge_instruction_title">Déplacez légèrement votre doigt</string>
+    <string name="add_fingerprint_edge_instruction_msg">Déplacez vos doigts pour que le capteur enregistre les bords de vos empreintes digitales.</string>
     <string name="information_dialog_button_text">"C'est compris"</string>
     <string name="add_fingerprint_toast_text">Placez votre doigt sur le capteur</string>
-    <string name="add_fingerprint_similar_fingerprint_input_error_msg">Move your finger slightly</string>
+    <string name="add_fingerprint_similar_fingerprint_input_error_msg">Déplacez légèrement votre doigt</string>
     <string name="add_fingerprint_failed_retry_text">"Impossible d'ajouter une empreinte digitale, réessayer"</string>
     <string name="add_fingerprint_put_finger_title">Ajouter une empreinte dgigitale</string>
     <string name="add_fingerprint_put_finger_msg">Mettez votre doigt sur le capteur et retirez le lorsque vous sentez une vibration.</string>
@@ -5108,7 +5124,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="add_fingerprint_name_suggest_text">"Nom de l'empreinte digitale"</string>
     <string name="add_fingerprint_success_msg">Ajouté avec succès</string>
     <string name="add_fingerprint_finished_button_text">Terminé</string>
-    <string name="add_fingerprint_instruction_msg">Use your fingerprint to unlock your device and complete payments.</string>
+    <string name="add_fingerprint_instruction_msg">Utilisez vos empreintes digitales pour déverrouiller votre appareils et terminer les paiements.</string>
     <string name="wakeup_for_keyguard_notification_title">"Réveil de l'écran de verrouillage pour les notifications"</string>
     <string name="secure_keyguard_business_title">"Définir l'écran de verrouillage"</string>
     <string name="fingerprint_and_password_entrance_title">"Écran de verrouillage &amp; lecteur d'empreintes digitales"</string>
@@ -5133,6 +5149,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="lock_screen_secure_after_timeout_title">Exiger un mot de passe</string>
     <string name="lock_screen_secure_after_timeout_summary">Exiger un mot de passe : %1$s</string>
     <string name="lock_screen_secure_after_timeout_immediately_summary">Mot de passe immédiatement requis.</string>
+    <string name="lock_screen_secure_after_timeout_immediately_never">Ne jamais exiger un mot de passe</string>
     <string name="print_settings_title">"Services d'impression"</string>
     <string name="dirac_control">Optimiser la qualité audio</string>
     <string name="dirac_mode_off">Dirac désactivé</string>
@@ -5184,23 +5201,6 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="device_security_settings_title">Sécurité</string>
     <string name="crypt_keeper_encrypt_summary">"Mot de passe requis pour déchiffrer votre téléphone chaque fois que vous l'allumez."</string>
     <string name="enable_crypt_keeper_encrypt">Activer le chiffrement</string>
-    <string name="use_wifi_master_key_summary">Se connecter en utilisant WiFi Master Key</string>
-    <string name="wifi_master_key_dialog_title">Se connecter en utilisant</string>
-    <string name="wifi_master_key_dialog_content_password">Mot de passe</string>
-    <string name="wifi_master_key_dialog_content_master_key">WiFi Master Key</string>
-    <string name="show_wifi_master_key_title">Détecter les réseaux Wi-Fi partagés</string>
-    <string name="show_wifi_master_key_summary">Se connecter aux réseaux Wi-Fi partagés en utilsant WiFi Master Key</string>
-    <string name="wifi_master_key_service_dialog_title">Réseaux Wi-Fi partagés</string>
-    <string name="wifi_master_key_service_dialog_content">WiFi Master Key est un service gratuit qui fournit les mots de passe pour les réseaux Wi-Fi partagés. WiFi Master Key ne partagera pas le mot de passe de votre réseau. Vous pouvez aussi %1$s.</string>
-    <string name="enable_wifi_master_key_service">Activer WiFi Master Key</string>
-    <string name="disable_wifi_master_key_service">Désactiver</string>
-    <string name="enable_wifi_master_key_service_first">Activer</string>
-    <string name="disable_wifi_master_key_service_first">Désactiver</string>
-    <string name="uninstall_wifi_master_key">Désinstaller WiFi Master Key</string>
-    <string name="install_master_key_and_connect">Vous pouvez vous connecter à ce réseau en utilisant WiFi Master Key. Installer cet outil ?</string>
-    <string name="confirm_install_and_connect">Installer &amp; connecter</string>
-    <string name="close_install_and_connect">Non merci</string>
-    <string name="wifi_master_key_name">WiFi Master Key</string>
     <string name="oldman_mode_entry_title">Mode simplifié</string>
     <string name="oldman_mode_entry_name">Mode Simplifié</string>
     <string name="oldman_mode_settings_caption">Paramètres du mode simplifié</string>
@@ -5223,6 +5223,23 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="usb_unmount_inform_text">Le stockage USB sera démonté.</string>
     <string name="bluetooth_filter_device_display">Tout afficher</string>
     <string name="bluetooth_filter_device_filter">Afficher les recommandations</string>
+    <string name="close_install_and_connect">Non merci</string>
+    <string name="confirm_install_and_connect">Installer &amp; connecter</string>
+    <string name="disable_wifi_master_key_service_first">Désactiver</string>
+    <string name="disable_wifi_master_key_service">Désactiver</string>
+    <string name="enable_wifi_master_key_service_first">Activer</string>
+    <string name="enable_wifi_master_key_service">Activer WiFi Master Key</string>
+    <string name="install_master_key_and_connect">Vous pouvez vous connecter à ce réseau en utilisant WiFi Master Key. Installer cet outil ?</string>
+    <string name="show_wifi_master_key_summary">Se connecter aux réseaux Wi-Fi partagés en utilsant WiFi Master Key</string>
+    <string name="show_wifi_master_key_title">Détecter les réseaux Wi-Fi partagés</string>
+    <string name="uninstall_wifi_master_key">Désinstaller WiFi Master Key</string>
+    <string name="use_wifi_master_key_summary">Se connecter en utilisant WiFi Master Key</string>
+    <string name="wifi_master_key_dialog_content_master_key">WiFi Master Key</string>
+    <string name="wifi_master_key_dialog_content_password">Mot de passe</string>
+    <string name="wifi_master_key_dialog_title">Se connecter en utilisant</string>
+    <string name="wifi_master_key_name">WiFi Master Key</string>
+    <string name="wifi_master_key_service_dialog_content">WiFi Master Key est un service gratuit qui fournit les mots de passe pour les réseaux Wi-Fi partagés. WiFi Master Key ne partagera pas le mot de passe de votre réseau. Vous pouvez aussi %1$s.</string>
+    <string name="wifi_master_key_service_dialog_title">Réseaux Wi-Fi partagés</string>
     <string name="quiet_mode">Mettre en silence les dérangements</string>
     <string name="screen_resolution_confirm">Redémarrer</string>
     <string name="enalbe_identify_iPhone">Identification AP</string>
@@ -5261,6 +5278,6 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="status_bar_screen_button_desc">"Balayez vers le bas pour masquer les boutons de l'écran"</string>
     <string name="suspension_ball_enable">Raccourci Assistant tactile</string>
     <string name="suspension_ball_enable_desc">"Activer l'assistant tactile en utilisant le raccourci"</string>
-    <string name="setup_add_fingerprint_failed_retry_text">"Couldn't add fingerprint"</string>
+    <string name="setup_add_fingerprint_failed_retry_text">"Impossible d'ajouter une empreinte digitale"</string>
     <string name="input_password_hint_text">Saisir le mot de passe</string>
 </resources>

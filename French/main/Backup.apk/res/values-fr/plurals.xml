@@ -29,19 +29,19 @@
         <item quantity="one">élément</item>
     </plurals>
     <plurals name="save_item_saving_summary">
-        <item quantity="other">Restored %d items</item>
-        <item quantity="one">Restored %d item</item>
+        <item quantity="other">%d éléments restaurés</item>
+        <item quantity="one">%d élément restauré</item>
     </plurals>
     <plurals name="save_item_saved_summary">
-        <item quantity="other">Imported and restored %d items</item>
-        <item quantity="one">Imported and restored %d item</item>
+        <item quantity="other">%d éléments importés et restaurés</item>
+        <item quantity="one">%d élément importé et restauré</item>
     </plurals>
     <plurals name="save_item_failed_summary_seg1">
-        <item quantity="other">"Imported %d items. "</item>
-        <item quantity="one">"Imported %d item. "</item>
+        <item quantity="other">"%d éléments importés. "</item>
+        <item quantity="one">"%d élément importé. "</item>
     </plurals>
     <plurals name="save_item_failed_summary_seg2">
-        <item quantity="other">Import %d items again.</item>
-        <item quantity="one">Import %d item again.</item>
+        <item quantity="other">Importer encore %d éléments.</item>
+        <item quantity="one">Importer encore %d élément.</item>
     </plurals>
 </resources>

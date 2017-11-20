@@ -384,9 +384,9 @@
     <string name="load_only_under_wlan">Charger uniquement en Wi-Fi</string>
     <string name="recommend_news">Recevoir des recommandations</string>
     <string name="dialog_title_stop_scan">"Arrêter l'analyse"</string>
-    <string name="dialog_msg_stop_scan">Arrêter le nettoyage en cours ?</string>
+    <string name="dialog_msg_stop_scan">"Arrêter l'analyse maintenant ?"</string>
     <string name="dialog_title_esc_cleanmaster">Quitter le Nettoyeur</string>
-    <string name="dialog_msg_esc_cleanmaster">Arrêter le nettoyage en cours ?</string>
+    <string name="dialog_msg_esc_cleanmaster">"Arrêter l'analyse et quitter le nettoyeur ?"</string>
     <string name="pref_category_title_engine_settings">Paramètres des bases de données virales</string>
     <string name="pref_title_choose_engine">Bases de données virales</string>
     <string name="recommend_the_following">Prenez les mesures suivantes pour tirer le meilleur parti de votre appareil</string>
@@ -473,5 +473,5 @@
     <string name="engine_cm">Clean Master</string>
     <string name="app_description_title">À propos du nettoyeur</string>
     <string name="app_description_content">"Le nettoyeur détecte des résidus sur votre appareil et libère de l'espace de stockage. Assurez-vous que vous pouvez vous passer de cette fonctionnalités avant de désinstaller l'application."</string>
-    <string name="engine_init">Initialisation...</string>
+    <string name="engine_init">Initialisation…</string>
 </resources>

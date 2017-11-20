@@ -279,7 +279,7 @@
     <string name="wallpaper_decoded_error">Erreur de chargement</string>
     <string name="close">Fermer</string>
     <string name="download_success">Téléchargement terminé</string>
-    <string name="account_info">Moi</string>
+    <string name="account_info">Mon compte</string>
     <string name="account_name_not_login">Se connecter</string>
     <string name="favorite_list">Favoris</string>
     <string name="favorite_list_format">Favoris %1$s</string>
@@ -298,6 +298,7 @@
     <string name="theme_batch_update_dlg_content_single">Mettre à jour %1$s ?</string>
     <string name="theme_current_using_has_update">Mise à jour du thème disponible</string>
     <string name="theme_immediately_apply_tip">Appliquer ?</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_fresh_man_notifaction">Nouveaux thèmes disponibles</string>
     <string name="selected_resource_file_invalid">Le fichier sélectionné est non valide.</string>
     <string name="apply_theme_with_ringtones">Appliquer le thème avec la sonnerie</string>
@@ -358,8 +359,8 @@
     <string name="gift_received_list_empty">"Vous n'avez pas reçu de cadeau."</string>
     <string name="gift_received_notification_title">%s vous a donné un thème.</string>
     <string name="present_online_themes">Obtenir plus de thèmes en ligne</string>
-    <string name="present_local_themes">My theme resources</string>
-    <string name="present_official_themes">Sélection officielle</string>
+    <string name="present_local_themes">Mes thèmes</string>
+    <string name="present_official_themes">Nos choix</string>
     <string name="find_more_theme">Trouver plus</string>
     <string name="lockscreen_magazine_title">"Carrousel de fond d'écran"</string>
     <string name="lockscreen_magazine_summary">Catégories</string>
@@ -448,9 +449,9 @@
     <string name="ringtone_set_success">Défini avec succès</string>
     <string name="online_precust_peach_blossom">Fleur de la pêche</string>
     <string name="online_precust_asphalt">Asphalte</string>
-    <string name="online_precust_forest_stories">Forest Stories</string>
-    <string name="online_precust_chubby_dreamer">Chubby Dreamer</string>
-    <string name="online_precust_paper_world">Paper World</string>
+    <string name="online_precust_forest_stories">Histoires de forêt</string>
+    <string name="online_precust_chubby_dreamer">Rêveur joufflu</string>
+    <string name="online_precust_paper_world">Monde en papier</string>
     <string name="online_precust_geometry">Géométrie</string>
     <string name="online_precust_tiny">Très petit</string>
     <string name="online_precust_mi_note2">Mi Note 2</string>
@@ -460,9 +461,9 @@
     <string name="online_precust_creative">Créatif</string>
     <string name="online_precust_building">Bâtiment</string>
     <string name="online_precust_lifestyle">Mode de vie</string>
-    <string name="online_precust_abstract">Abstract</string>
-    <string name="region_not_support">"Désolé, Thèmes n'est pas pris en charge dans votre région."</string>
-    <string name="hide_free">"Masquer les éléments gratuits "</string>
-    <string name="hide_incompatible">"Masquer les éléments incompatibles "</string>
-    <string name="current_version_incompatible">"Version d'incompatibilité"</string>
+    <string name="online_precust_abstract">Abstrait</string>
+    <string name="region_not_support">Les thèmes ne sont pas pris en charge dans cette région.</string>
+    <string name="hide_free">Masquer les thèmes gratuits</string>
+    <string name="hide_incompatible">Masquer les thèmes incompatibles</string>
+    <string name="current_version_incompatible">Ce thème est incompatible</string>
 </resources>

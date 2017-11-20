@@ -73,7 +73,7 @@
     <string name="uninstall_xspace_dialog_title_format">"Désinstaller l'application clônée \"%s\" ?"</string>
     <string name="uninstall_xspace_dialog_message">"Désinstaller une application clonée supprimera toutes les données de l'application."</string>
     <string name="uninstall_with_xspace_dialog_message">Les applications clonées correspondantes seront supprimées avec les données des applications.</string>
-    <string name="confirm_uninstall_dialog_title">Les applications clonées correspondantes seront supprimées.</string>
+    <string name="confirm_uninstall_dialog_title">Les applications clônéees seront désinstallées</string>
     <string name="confirm_uninstall_dialog_has_xspace_app_msg">"L'application clonée sera désinstallée avec celle-ci."</string>
     <string name="confirm_uninstall_dialog_contain_xspace_app_msg">Les applications clonées seront désinstallées avec celle-ci.</string>
     <string name="uninstall">Désinstaller</string>
@@ -114,7 +114,7 @@
     <string name="local_wallpaper">Téléchargé</string>
     <string name="setting_wallpaper_tip">Pincez ou glissez pour ajuster</string>
     <string name="apply_as_wallpaper">"Définir pour l'écran d'accueil"</string>
-    <string name="apply_as_lock_screen">"Définir pour l'écran de verrouillage"</string>
+    <string name="apply_as_lock_screen">Définir comme écran de verrouillage</string>
     <string name="apply_both">Les 2</string>
     <string name="enable_wallpaper_scroll">Activer le défilement</string>
     <string name="disable_wallpaper_scroll">Désactiver le défilement</string>

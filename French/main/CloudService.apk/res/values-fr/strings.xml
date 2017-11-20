@@ -453,7 +453,7 @@ Dernière sauvegarde à %2$s"</string>
     <string name="micloud_sync_alert_dialog_positive">OK</string>
     <string name="micloud_battery_low_notification_title">Batterie faible</string>
     <string name="micloud_battery_low_notification_message">Connecter votre chargeur pour synchroniser</string>
-    <string name="micloud_upgrade_member">"Obtenir plus d'espace de stockage"</string>
+    <string name="micloud_upgrade_member">Get storage</string>
     <string name="micloud_notif_content_depend_wifi">Se connecter au Wi-Fi pour synchroniser.</string>
     <string name="micloud_notif_title_master_depend_wifi">Impossible de synchroniser avec Mi Cloud</string>
     <string name="micloud_notif_content_master_depend_wifi">"Connectez-vous d'abord au Wi-Fi."</string>

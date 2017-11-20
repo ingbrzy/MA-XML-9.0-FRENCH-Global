@@ -287,7 +287,8 @@ pour y accéder depuis l'Écran de verrouillage"</string>
     <string name="can_not_switch_when_calling">"Impossible de basculer entre les espaces lors d'un appel"</string>
     <string name="can_not_delete_when_calling">"Impossible de supprimer les espaces lors d'un appel"</string>
     <string name="support_desc">Service de sécurités fournis pour par Graphite</string>
-    <string name="sdcardfs_dialog_message">"Vos anciennes données peuvent ne pas être compatibles avec les nouveaux fichiers système. Optimisez les données avant d'entrer dans le second espace et redémarrez votre appareil."</string>
+    <string name="sdcardfs_dialog_title">Important update</string>
+    <string name="sdcardfs_dialog_message">MIUI 9 has a new file system. Old data might be incompatible with it. To solve this issue, follow the steps to install an update. Your device will reboot twice during this update.</string>
     <string name="do_not_ask">Ne plus demander</string>
     <string name="gpg_message">La création des applications clônées pour les jeux nécessite un fonctionnement avec Google Play Games. Créez une application clônée pour Google Play Games ?</string>
     <string name="gpg_title">Application clônée pour Google Play Games</string>
@@ -316,4 +317,13 @@ Deux espaces. Un appareil."</string>
     <string name="privacy_password_fingerprint_dialog_message">Placez votre doigt sur le capteur</string>
     <string name="optimize_now">Optimiser</string>
     <string name="dialog_title">Attention</string>
+    <string name="remove_user_click_message">"*If you don't have any important items in Second space, %s"</string>
+    <string name="remove_user_click_message_action">you can delete Second space and reboot your device now.</string>
+    <string name="sdcradfs_dialog_in_owner_title">Second space</string>
+    <string name="sdcradfs_dialog_in_owner_message">"MIUI 9 has a new file system. Old data might be incompatible with it. To update, move items from Second space, reboot your device, and create Second space again.
+If you don't update, dual apps might not work properly as well."</string>
+    <string name="sdcradfs_dialog_in_sec_title">Important update</string>
+    <string name="sdcradfs_dialog_in_sec_message">"To update, you should delete your Second space, and then create it again. Move the data from Second space to First space, and reboot your device to complete the update.
+If you don't update, dual apps might not work properly as well."</string>
+    <string name="space_created_success">Created Second space successfully</string>
 </resources>

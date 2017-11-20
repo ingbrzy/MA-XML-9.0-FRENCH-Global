@@ -72,7 +72,7 @@
         <item>Recherche de Wi-Fi</item>
         <item>Utilisation du GPS</item>
         <item>Occupation du CPU</item>
-        <item>"Réveil fréquent de l'appareil"</item>
+        <item>"Réveille fréquemment l'appareil"</item>
     </string-array>
     <string-array name="power_checker_group_suffix">
         <item></item>
