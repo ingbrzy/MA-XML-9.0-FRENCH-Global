@@ -792,7 +792,6 @@ le/la %4$s de %3$s partage l'album de %5$s avec vous"</string>
     <string name="search_feedback_false_negative_text">Ajouter des photos à \"%s\" ?</string>
     <string name="search_feedback_contribute">"Ajouter des photos à la base de donnée de l'algorithme AI"</string>
     <string name="search_feedback_task_finish_title">Appuyez pour recevoir une récompense !</string>
-    <string name="search_feedback_task_progress">%1$d/%2$d</string>
     <string name="search_feedback_likely_title">Il semble que ces photos pourraient avoir \" %s \"</string>
     <string name="search_feedback_likely_check_title">Vérifier</string>
     <string name="search_feedback_false_positive_title">Il se peut que ceux-ci soient \" %s \"</string>
@@ -802,7 +801,6 @@ le/la %4$s de %3$s partage l'album de %5$s avec vous"</string>
     <string name="grant_permission_text">"Galerie a besoin de se connecter à 
 %s
  pour fonctionner normalement, appuyez sur \"Définir\" pour aller à Permissions."</string>
-    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_go_and_set">Définir</string>
     <string name="loading">Un instant</string>
     <string name="loading_dots">Un instant…</string>

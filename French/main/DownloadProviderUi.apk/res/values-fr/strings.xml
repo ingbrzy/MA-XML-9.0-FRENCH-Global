@@ -106,7 +106,6 @@
     <string name="package_filter">Packages</string>
     <string name="other_filter">Autre</string>
     <string name="xunlei_brand">Propulsé par Xunlei</string>
-    <string name="xunlei_brand_url">http://mobile.xunlei.com</string>
     <string name="xunlei_switch">Moteur de téléchargement Xunlei</string>
     <string name="turn_off_xunlei_title">Désactiver Xunlei</string>
     <string name="turn_off_xunlei_message">Vous risquez de rencontrer des lenteurs de téléchargement.</string>
