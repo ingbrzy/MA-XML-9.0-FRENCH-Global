@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="fw_blocked">Liste Noire</string>
+    <string name="fw_oversea">Block calls from abroad</string>
     <string name="fw_blocked_count">"Bloqué "</string>
     <string name="fw_blocked_join">" et "</string>
+    <string name="fw_oversea_content">Block incoming calls from foreign phone numbers</string>
     <string name="tab_title">Liste noire</string>
     <string name="tab_blacklist">Liste noire</string>
     <string name="tab_sms">SMS</string>
@@ -132,6 +134,7 @@
     <string name="call_contact_block">Bloquer les appels des contacts</string>
     <string name="call_transfer_block">Bloquer les appels transférés</string>
     <string name="call_cloud_block">Liste noire du Cloud</string>
+    <string name="call_oversea_block">Block calls from abroad</string>
     <string name="mark_fraud_block">Signalé comme arnaque</string>
     <string name="mark_agent_block">Signalé comme agence</string>
     <string name="mark_sell_block">Signalé comme télévendeur</string>
@@ -270,6 +273,7 @@
     <string name="st_call_settings">Liste noire des appels</string>
     <string name="st_call_intercept_stranger">Bloquer les appels des personnes étranges</string>
     <string name="st_call_intercept_forwarding">Bloquer les appels transférés</string>
+    <string name="st_call_intercept_oversea">Block calls from abroad</string>
     <string name="st_call_intercept_reported">Bloquer les appels des numéros signalés</string>
     <string name="st_call_intercept_contacts">Bloquer les appels des contacts</string>
     <string name="st_call_intercept_unknown">Bloquer les appels des numéros masqués</string>
@@ -281,6 +285,7 @@
     <string name="st_confirm_dialog_btn_open">Ouvrir</string>
     <string name="st_confirm_dialog_summary_stranger_call">Tous les appels provenant des personnes étranges seront bloqués.</string>
     <string name="st_confirm_dialog_summary_contact_call">Tous les appels provenant des contacts seront bloqués.</string>
+    <string name="st_confirm_dialog_summary_oversea_call">Turn on to block all incoming calls from foreign phone numbers.</string>
     <string name="cta_dialog_title">Connexion Internet</string>
     <string name="cta_dialog_msg">"L'application Sécurité nécessite une connexion Internet pour obtenir les mises à jour, aussi bien que l'accès à la localisation pour fonctionner normalement."</string>
     <string name="cta_settings">Autoriser la connexion à Internet</string>
@@ -384,6 +389,7 @@ de l'opérateur"</string>
     <string name="detail_app_button">"Informations sur l'application"</string>
     <string name="pref_about_traffic_title">"Paramètres d'utilisation des données"</string>
     <string name="pref_traffic_manage_title">Utilisation de données</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Limite de données mobiles</string>
     <string name="pref_adjust_traffic_data">"Définir l'utilisation des données"</string>
     <string name="pref_category_title_other">Paramètres supplémentaires</string>
@@ -885,6 +891,7 @@ Cette activité réduit la durée de vie de la batterie."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Cette application peut ralentir
 votre appareil"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Désinstaller %s ?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">"Désinstaller cette application pour résoudre tous les problèmes liés à l'usage de la batterie."</string>
     <string name="om_ill_proc_type_wakelock_title">"L'application bloque le mode veille et décharge la batterie"</string>
@@ -963,7 +970,7 @@ votre appareil"</string>
     <string name="battery_history_seconds">%1$dsec</string>
     <string name="delete">Supprimer</string>
     <string name="every_day">Tous les jours</string>
-    <string name="legal_workday">Vacances</string>
+    <string name="legal_workday">Legal workdays</string>
     <string name="never">1 fois</string>
     <string name="power_20s_shutdown">"L'appareil va s'éteindre dans %d secondes"</string>
     <string name="boot_reminder">Allumer votre appareil à une heure programmée</string>
@@ -1273,6 +1280,7 @@ votre appareil"</string>
     <string name="keywords_gamebooster">Jeu;Augmentation de vitesse;Roi de Gloire;Mode Performance;NPD;Jeux;jeu;Vitesse de jeu;augmenter</string>
     <string name="path_gamebooster">Applications système/Sécurité/Accélérateur de la vitesse de jeu</string>
     <string name="app_name_securitycenter">Sécurité</string>
+    <string name="back_description_securitycenter">Retour</string>
     <string name="ok">OK</string>
     <string name="exit">Quitter</string>
     <string name="cancel">Annuler</string>
@@ -1286,6 +1294,7 @@ votre appareil"</string>
     <string name="menu_text_networkassistants">Utilisation des données</string>
     <string name="menu_text_networkassistants_remain">%s restants</string>
     <string name="menu_text_networkassistants_danger">%s dépassé</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">Go</string>
     <string name="menu_text_networkassistants_unit_mb">Mo</string>
     <string name="menu_text_networkassistants_unit_kb">ko</string>
@@ -1503,7 +1512,7 @@ votre appareil"</string>
     <string name="title_mifi_insurance">Garantie prolongée</string>
     <string name="summary_mifi_insurance">"Bénéficier d'un plan de remplacement pour un an, ce qui prend en compte les cas de dommage du matériel"</string>
     <string name="title_cloud_space_almost_full">Le stockage du Cloud est bientôt plein, des éléments peuvent ne pas être synchronisés</string>
-    <string name="summary_cloud_space_almost_full">Get storage</string>
+    <string name="summary_cloud_space_almost_full">"Obtenir de l'espace de stockage"</string>
     <string name="title_cloud_space_full">Mi Cloud est plein</string>
     <string name="summary_cloud_space_full">"Obtenir plus d'espace de stockage et accéder à plus de fonctionnalités"</string>
     <string name="title_auto_update">Mettre à jour automatiquement</string>
@@ -1646,6 +1655,7 @@ votre appareil"</string>
     <string name="card_main_deepclean_wechat_action">Vider</string>
     <string name="card_main_sectool_title">Outils</string>
     <string name="card_main_monthreport_action">Afficher</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Tester le réseau</string>
     <string name="card_main_netcheck_summary">Tester la connexion pour des problèmes de réseau</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1841,11 +1851,9 @@ votre appareil"</string>
     <string name="app_manager_details_electric_title">Batterie</string>
     <string name="app_manager_card_permission_title">Permissions</string>
     <string name="app_manager_permission_startself_title">Démarrage automatique</string>
-    <string name="app_manager_permission_startself_summary">Les applications qui démarrent automatiquement occupent de la RAM et déchargent plus rapidement la batterie</string>
     <string name="app_manager_permission_manager_title">Permissions</string>
     <string name="app_manager_permission_notify_title">Notifications</string>
     <string name="app_manager_permission_power_saving_title">Économiseur de batterie</string>
-    <string name="app_manager_permission_power_saving_summary">Économiseur de batterie MIUI</string>
     <string name="app_manager_default_open_title">Annuler les applis par défaut</string>
     <string name="app_manager_default_close_summary">Aucune application par défaut définie.</string>
     <string name="app_manager_default_open_summary">Vous avez choisi de lancer cette application par défaut pour certaines actions.</string>
@@ -1871,7 +1879,6 @@ votre appareil"</string>
     <string name="app_manager_stop_wakepath_success">Restreint avec succès</string>
     <string name="app_maanger_app_uninstalled_toast">Cette application est désinstallée</string>
     <string name="app_manager_start_by">Partagé par %s</string>
-    <string name="app_manager_not_record">Impossible de trouver des applications qui nécessitent des autorisations</string>
     <string name="app_manager_uninstall_xspace_app_dlg_msg">"Désinstaller une application clonée supprimera toutes les données de l'application."</string>
     <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Les applications clonées correspondantes seront supprimées avec les données des applications.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">Désinstaller une application clônée ?</string>
@@ -1885,7 +1892,6 @@ votre appareil"</string>
     <string name="app_manager_menu_clear_data">Effacer les données</string>
     <string name="app_manager_clear_data_dlg_title">"Supprimer les données de l'application ?"</string>
     <string name="app_manager_clear_data_dlg_message">Toutes les données de cette application vont être définitivement supprimées. Cela inclut tous les fichiers, paramètres, comptes bases de données etc...</string>
-    <string name="app_manager_clear_failed_dlg_title">Effacer les données</string>
     <string name="app_manager_clear_failed_dlg_message">"Impossible d'effacer les données de l'application."</string>
     <string name="app_manager_manage_space">"Gérer l'espace de stockage"</string>
     <string name="app_manager_permission_summary_reject">Tout restreindre</string>
@@ -1893,7 +1899,6 @@ votre appareil"</string>
     <string name="app_manager_powerkeeper_miui_auto">Économiseur de batterie MIUI</string>
     <string name="app_manager_powerkeeper_restrict_bg">Restreindre les applications en arrière-plan</string>
     <string name="app_manager_powerkeeper_no_bg">"Restreindre l'activité en arrière-plan"</string>
-    <string name="app_manager_sort">Trier par</string>
     <string name="app_manager_instruction">Instruction</string>
     <string name="app_manager_app_storage">"Stockage : "</string>
     <string name="app_manager_app_traffic">"Utilisation de données : "</string>
@@ -2097,6 +2102,11 @@ votre appareil"</string>
     <string name="game_booster_close">Accélérateur de la vitesse de jeu désactivé</string>
     <string name="databooster_tips_title">Attention</string>
     <string name="databooster_tips_message">"Activez pour restreindre toutes les cartes SIM à l'exception de la carte de données. Désactivez cette fonction si des erreurs se produisent dans les jeux de votre choix."</string>
+    <string name="app_manager_permission_startself_summary">Les applications qui démarrent automatiquement occupent de la RAM et déchargent plus rapidement la batterie</string>
+    <string name="app_manager_permission_power_saving_summary">Économiseur de batterie MIUI</string>
+    <string name="app_manager_not_record">Impossible de trouver des applications qui nécessitent des autorisations</string>
+    <string name="app_manager_clear_failed_dlg_title">Effacer les données</string>
+    <string name="app_manager_sort">Trier par</string>
     <string name="power_center_consume_rank">Utilisation de la batterie</string>
     <string name="power_center_custom_title">"Profils de gestion d'énergie"</string>
     <string name="power_center_auto_shutdown_summary_default">Allumer ou éteindre votre appareil à une heure programmée</string>

@@ -189,6 +189,7 @@
     <string name="quick_yellow_page_tab_phones">Téléphone</string>
     <string name="recharge_actual_price">Prix :</string>
     <string name="recharge_charge_range">Prix : %1$s-%2$s RMB</string>
+    <string name="recharge_charge_value">Prix : %s RMB</string>
     <string name="recharge_follow_name">Recharger</string>
     <string name="recharge_history">Historique de rechargement</string>
     <string name="recharge_history_empty">Vide</string>
@@ -232,6 +233,7 @@ Total : %3$s RMB"</string>
     <string name="sending_shortcut">Envoi…</string>
     <string name="service_unavailiable">Service indisponible</string>
     <string name="share">Partager</string>
+    <string name="shop_recommendation_format">%1$s: %2$s</string>
     <string name="smart_antispam">"ID de l'appelant"</string>
     <string name="toast_finish_delete_call_log">Historique des appels supprimé</string>
     <string name="toast_text_copied">Texte copié</string>

@@ -9,7 +9,7 @@
     <string name="accessibility_repeats">Répéter</string>
     <string name="accessibility_sync_cal">"Synchroniser l'agenda"</string>
     <string name="accounts">Comptes &amp; synchonisation</string>
-    <string name="acct_not_synced">"Ce compte n'est pas synchronisé, vos agendas peuvent ne pas être mis à jour."</string>
+    <string name="acct_not_synced">"Ce compte n'est pas synchronisé. Votre agenda peut ne pas être à jour."</string>
     <string name="acessibility_selected_marker_description">Événement sélectionné</string>
     <string name="agenda_today">"AUJOURD'HUI, %1$s"</string>
     <string name="agenda_tomorrow">DEMAIN, %1$s</string>
@@ -17,16 +17,16 @@
     <string name="agenda_yesterday">HIER, %1$s</string>
     <string name="alert_title">"Notifications d'Agenda"</string>
     <string name="app_label">Agenda</string>
-    <string name="calendar_refresh">\"Actualiser\"</string>
+    <string name="calendar_refresh">Actualiser</string>
     <string name="change_response_title">Changer la réponse</string>
     <string name="copy_email">"Copier l'adresse e-mail"</string>
     <string name="copy_number">Copier le numéro de téléphone</string>
     <string name="create_an_account_desc">"Agenda fonctionne mieux avec un compte Mi.
 
-• Accès depuis n'importe quel navigateur
-• Sauvegarde de vos contacts de façon sécurisée"</string>
+• Accès depuis n'importe quel navigateur.
+• Sauvegardez vos contacts de façon sécurisée."</string>
     <string name="creating_event">Événement créé</string>
-    <string name="creating_event_with_guest">Les invitations seront envoyées</string>
+    <string name="creating_event_with_guest">Envoi des invitations…</string>
     <string name="daily">Quotidien</string>
     <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="day_view_new_event_hint">Nouvel événement</string>
@@ -44,7 +44,7 @@
     <string name="edit_event_to_label">À</string>
     <string name="email_guests_label">Env. e-mail aux participants</string>
     <string name="email_picker_label">Env. e-mail avec</string>
-    <string name="empty_event">Impossible de créer un événement vide</string>
+    <string name="empty_event">Impossible de créer des évènements vides</string>
     <string name="event_create">Nouvel événement</string>
     <string name="event_delete">"Supprimer l'événement"</string>
     <string name="event_edit">"Éditer l'événement"</string>
@@ -90,7 +90,7 @@
     <string name="response_no">Non</string>
     <string name="response_yes">Oui</string>
     <string name="saving_event">Événement enregistré</string>
-    <string name="saving_event_with_guest">Les mises à jour seront envoyées</string>
+    <string name="saving_event_with_guest">Envoi des mises à jour…</string>
     <string name="search">Rechercher</string>
     <string name="select_synced_calendars_title">Agendas à synchroniser</string>
     <string name="show_day_view">Afficher le jour</string>
@@ -109,7 +109,7 @@
     <string name="yearly">Annuel (le %s)</string>
     <string name="yearly_plain">Tous les ans</string>
     <string name="account_and_calendar">Comptes</string>
-    <string name="action_bar_more_menu_view_description">plus</string>
+    <string name="action_bar_more_menu_view_description">Plus</string>
     <string name="action_text_card_manager">Chaîne</string>
     <string name="action_text_today">"Aujourd'hui"</string>
     <string name="add_anniversary">Ajouter un anniversaire</string>
@@ -203,7 +203,7 @@
     <string name="edit_event_tab_birthday">Anniversaire</string>
     <string name="edit_event_tab_countdown">Minuteur</string>
     <string name="edit_event_tab_event">Événement</string>
-    <string name="email_install_hint">"E-mail a été désinstallé. En réinstallant l'application, vous pouvez restaurer les données du compte de l'agenda ou ajouter un nouveau compte."</string>
+    <string name="email_install_hint">"E-mail a été désinstallé. Installez E-mail à nouveau afin de restaurer les comptes d'agenda ou en ajouter un nouveau."</string>
     <string name="english_premium_league">Premier League anglaise</string>
     <string name="event_account">"Compte de l'agenda"</string>
     <string name="event_action_delete">Supprimer</string>
@@ -242,8 +242,8 @@
     <string name="insert_event_toast_add_failed">Ajout impossible</string>
     <string name="insert_event_toast_add_success">Événement créé</string>
     <string name="install_email_app">Installer E-mail</string>
-    <string name="install_email_finished">E-mail installé</string>
-    <string name="installing_email">Installation...</string>
+    <string name="install_email_finished">Installé avec succès</string>
+    <string name="installing_email">Installation en cours…</string>
     <string name="item_num_selected">%1$d sélectionnés</string>
     <string name="jump_date_full">Aller à la date</string>
     <string name="load_more_hint">Actualiser les événements de %1$d</string>
@@ -267,15 +267,15 @@
     <string name="month_medium_october">Oct</string>
     <string name="month_medium_september">Sep</string>
     <string name="network_not_available">Impossible de se connecter au réseau</string>
-    <string name="new_event_description">nouveau</string>
+    <string name="new_event_description">Nouveau</string>
     <string name="no_contact_birthday_hint">Aucun anniversaire à importer</string>
     <string name="no_events_hint">Aucun événement</string>
     <string name="no_network">"Impossible de se connecter au réseau. 
 Vérifiez vos paramètres réseau, puis réessayez."</string>
     <string name="no_network_btn">Veuillez réessayer</string>
-    <string name="no_visiable_calendar_message">"Vous devez sélectionner un compte d'agenda. Appuyez sur \"Sélectionner un compte\" pour continuer."</string>
-    <string name="no_visiable_calendar_select_account">Sélectionner un compte</string>
-    <string name="no_visiable_calendar_title">Sélectionner un compte agenda</string>
+    <string name="no_visiable_calendar_message">"Vous devez ajouter un compte d'agenda. Appuyez sur \"Ajouter un compte\" pour continuer."</string>
+    <string name="no_visiable_calendar_select_account">Ajouter un compte</string>
+    <string name="no_visiable_calendar_title">Ajouter un compte</string>
     <string name="panchang_amanta">Amanta</string>
     <string name="panchang_amanta_month">"Mois d'Amanta :"</string>
     <string name="panchang_ayana">Ayana</string>

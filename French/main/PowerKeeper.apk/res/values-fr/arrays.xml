@@ -87,4 +87,8 @@
         <item>Mode Contrôle de température actuelle</item>
         <item>Mode de performances actuelles</item>
     </string-array>
+    <string-array name="power_mode_entries">
+        <item>Performance</item>
+        <item>Balanced</item>
+    </string-array>
 </resources>

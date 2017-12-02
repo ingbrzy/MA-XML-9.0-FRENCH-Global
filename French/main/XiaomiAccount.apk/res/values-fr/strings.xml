@@ -53,7 +53,7 @@
     <string name="passport_change_phone_number">Changer de numéro</string>
     <string name="passport_forget_password"><u>Mot de passe oublié</u></string>
     <string name="passport_forget_password_no_underline">Mot de passe oublié</string>
-    <string name="passport_reg_type_email">Utiliser une adresse e-mail</string>
+    <string name="passport_reg_type_email">Email address</string>
     <string name="passport_account_not_actived">"Votre compte n'a pas été activé"</string>
     <string name="passport_active_email_visit">Vérifiez votre boîte de réception à %s</string>
     <string name="passport_click_email_to_valid">"
@@ -255,6 +255,7 @@ Pour activer votre compte, suivez le
     <string name="account_limit_update_birthday">Impossible de mettre à jour votre anniversaire actuellement</string>
     <string name="account_user_other_info">"Plus d'infos"</string>
     <string name="account_user_region">Région</string>
+    <string name="account_global_region">International</string>
     <string name="account_user_location">Lieu</string>
     <string name="account_user_location_title">Sélectionner le lieu actuel</string>
     <string name="account_user_education">Éducation</string>
@@ -284,10 +285,6 @@ Pour activer votre compte, suivez le
     <string name="confirm_unbundled_phone_dialog_message">Le numéro de téléphone %1$s est associé au Compte Mi %2$s. Il ne sera plus associé au compte Mi %3$s si vous continuez. Continuer ?</string>
     <string name="change_phone_number">Modifier le numéro de téléphone</string>
     <string name="change_email_address">"Modifier l'adresse e-mail"</string>
-    <string name="checking_phone_num_availible">Vérification du téléphone…</string>
-    <string name="account_binded_phone">Téléphone %d</string>
-    <string name="account_bind_new_phone">Ajouter un nouveau numéro</string>
-    <string name="account_bind_phone_notice">Utiliser ce numéro de téléphone pour vous connecter à votre compte, réinitialiser votre mot de passe ou modifier les paramètres de sécurité.</string>
     <string name="continue_action">Continuer</string>
     <string name="replace_binded_phone">Remplacer le numéro</string>
     <string name="delete_action">Supprimer</string>
@@ -312,6 +309,15 @@ Pour activer votre compte, suivez le
     <string name="resend_email_reach_limit_message">"Vous avez envoyé trop d'e-mails de vérification. Assurez-vous que l'e-mail de vérification n'est pas dans le dossier de courriers indésirables de votre boîte de réception."</string>
     <string name="update_email_address_dialog_title">"Mettre l'E-mail à jour"</string>
     <string name="update_email_address_dialog_message">Vous devez vérifier votre identité avant de mettre à jour votre E-mail.</string>
+    <string name="update_phone_notice">Modifier les paramètres de sécurité</string>
+    <string name="no_phone">Aucun numéro de téléphone</string>
+    <string name="action_update_phone">Modifier le numéro de téléphone</string>
+    <string name="action_add_phone">Ajouter un numéro de téléphone</string>
+    <string name="phone_num_use_for">Numéro de téléphone utilisé pour :</string>
+    <string name="sign_in">Connexion</string>
+    <string name="get_back_pwd">Réinitialisation du mot de passe</string>
+    <string name="identity">Identification</string>
+    <string name="set_success">Changé avec succès</string>
     <string name="account_user_details">Infos personnelles</string>
     <string name="account_security">Sécurité du compte</string>
     <string name="account_mibi_center">Crédits Mi</string>

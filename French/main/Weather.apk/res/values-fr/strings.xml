@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="temperature_unit">%1$s°</string>
+    <string name="temperature_unit_C">%1$s℃</string>
+    <string name="temperature_unit_F">%1$s℉</string>
     <string name="app_name">Météo</string>
     <string name="gps_hint">Position actuelle</string>
     <string name="add_city">Ajouter</string>
@@ -37,6 +38,10 @@ Faites glisser vers le bas pour actualiser ou vérifier les paramètres réseau"
     <string name="activity_main_update_time_expire">Données expirées</string>
     <string name="activity_main_update_time_right_now">"à l'instant"</string>
     <string name="refresh_fail">Impossible de se connecter au réseau</string>
+    <string name="pull_fresh_updating">Mise à jour…</string>
+    <string name="pull_fresh_updated">Mis à jour avec succès</string>
+    <string name="updating">Mise à jour…</string>
+    <string name="updated_a_moment_ago">Mis à jour il y a un moment</string>
     <string name="activity_find_city_dialog_cancel">Annuler</string>
     <string name="activity_find_city_dialog_set">Paramètres</string>
     <string name="activity_find_city_dialog_title">Accès à ma localisation</string>
@@ -55,6 +60,7 @@ Faites glisser vers le bas pour actualiser ou vérifier les paramètres réseau"
     <string name="share_title">Partager la météo</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_desc">"\#Météo MIUI#Aujourd'hui %1$s %2$s"</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="hourly_forcast_now">Maintenant</string>
     <string name="sunrise">Lever du soleil</string>
     <string name="sunset">Coucher de soleil</string>
@@ -148,9 +154,11 @@ Appuyer sur l'écran pour ajouter manuellement ou repositionner une ville"</stri
     <string name="install">Installer</string>
     <string name="open">Ouvrir</string>
     <string name="open_now">Ouvrir</string>
+    <string name="install_progress">%1$s %%</string>
     <string name="daily_forecast_detail_date">d/M</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="aqi_publish_source">Mis à jour à %1$s par CNEMC</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="aqi_data_source">Propulsé par Colorful Clouds</string>
     <string name="traffic_controls">Circulation alternée</string>
     <string name="traffic_control_today_numbers">"Aujourd'hui : %1$s"</string>
@@ -167,6 +175,7 @@ Appuyer sur l'écran pour ajouter manuellement ou repositionner une ville"</stri
     <string name="international_details_uv_index_title">INDICE UV</string>
     <string name="international_details_pressure_title">PRESSION</string>
     <string name="pressure_connect">%1$s mb</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="weather_alert">Alertes météo</string>
     <string name="edit_alert_city_title">Gérer les alertes</string>
     <string name="aqi_detail_unit">Unité : µg/m³</string>
@@ -233,6 +242,8 @@ Appuyer sur l'écran pour ajouter manuellement ou repositionner une ville"</stri
     <string name="minute_rain_pull_down_refresh">Tirez vers le bas pour actualiser</string>
     <string name="minute_rain_refreshing_now">Actualisation…</string>
     <string name="minute_rain_let_go_refresh">Relâcher pour actualiser</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="alert_detail_title">"Détails d'alerte"</string>
     <string name="aqi_quality_map_title">"Carte de la qualité de l'air"</string>
     <string name="aqi_station_min_distance_station">Station la plus proche</string>
@@ -254,4 +265,6 @@ Appuyer sur l'écran pour ajouter manuellement ou repositionner une ville"</stri
     <string name="city_exceeded_warning">"Vous pouvez ajouter jusqu'à 10 villes"</string>
     <string name="xiaomi_weather_description_title">À propos de Météo</string>
     <string name="xiaomi_weather_description_content">"L'application Météo vous fournit des infos météorologiques avec précision. Sans cette application, la Barre d'État et le widget de météo ne fonctionneront pas correctement. Assurez-vous que vous pouvez vous passer de ces foncitonnalités avant de désinstaller l'application."</string>
+    <string name="real_time_sunrise">Lever du soleil %1$s</string>
+    <string name="real_time_sunset">Coucher du soleil %1$s</string>
 </resources>

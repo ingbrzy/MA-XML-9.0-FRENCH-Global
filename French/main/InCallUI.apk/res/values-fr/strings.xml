@@ -39,10 +39,9 @@
     <string name="onscreen_add_call_text">Ajouter un appel</string>
     <string name="onscreen_audio_mode_bluetooth">Bluetooth</string>
     <string name="onscreen_audio_mode_conference">Conférence</string>
-    <string name="onscreen_audio_mode_handset">Earpiece</string>
+    <string name="onscreen_audio_mode_handset">Oreillette</string>
     <string name="onscreen_audio_mode_headset">Écouteurs</string>
     <string name="onscreen_audio_mode_speaker">Haut-parleur</string>
-    <string name="onscreen_audio_switch_mode">Changer de mode</string>
     <string name="onscreen_call_record">Enregistrer</string>
     <string name="sip_call_not_support_record">"Impossible d'enregistrer les appels SIP"</string>
     <string name="onscreen_hold_text">En attente</string>
@@ -56,7 +55,6 @@
     <string name="conference_call_description" formatted="false">%s,%s etc. total %s</string>
     <string name="conference_call_single_description" formatted="false">%s etc. Total %s</string>
     <string name="separate_from_conference">Séparer les appels</string>
-    <string name="callUnanswered_forwarded">Transférer les appels en absence</string>
     <string name="caller_manage_header">Conférence %s</string>
     <string name="incall_call_type_label_sip">Appel Internet</string>
     <string name="incoming_call_forwarded_title">Transférer les appels entrants</string>
@@ -65,7 +63,6 @@
     <string name="card_title_conf_call">Conférence téléphonique</string>
     <string name="card_title_video_conf_call">Appel Vidéoconférence</string>
     <string name="card_title_threeway_call">Conférence à trois</string>
-    <string name="card_title_incoming_call">Appel entrant</string>
     <string name="card_title_answering">Répondre à un appel</string>
     <string name="card_title_answering_time_out">"Impossible de répondre à l'appel, réessayez."</string>
     <string name="card_title_call_ended">"Appel terminé "</string>
@@ -79,7 +76,6 @@
     <string name="card_title_in_video">Vidéo</string>
     <string name="card_video_hold_swap">Échanger</string>
     <string name="onscreenEndCallText">Raccrocher</string>
-    <string name="calling_via_template">Appel via %s</string>
     <string name="respond_via_sms_custom_message">SMS personnalisé</string>
     <string name="manageConferenceLabel">Gérer la conférence téléphonique</string>
     <string name="emergency_call_dialog_number_for_display">"Numéro d'urgence"</string>
@@ -152,12 +148,6 @@
     <string name="antispam_provider">Identifié par %s</string>
     <string name="antispam_notification_title">Numéro inconnu</string>
     <string name="suspect_info">Soyez prudent avec vos informations personnelles.</string>
-    <string name="ivr_menu_list_title">Menu vocal</string>
-    <string name="ivr_menu_dialing_msg">Transfert…</string>
-    <string name="ivr_menu_dialing_msg_no_mute">"Aller dans le service sélectionné…[Correction automatique d'erreur est activé]"</string>
-    <string name="ivr_menu_list_sub_menu_count_format">Appuyer %s</string>
-    <string name="non_ivr_menu_view_menu">Voir le menu</string>
-    <string name="non_ivr_menu_collapse_menu">Réduire le menu</string>
     <string name="livetalk_dial">Utiliser la recharge</string>
     <string name="areacode_set_default">Définir par défaut</string>
     <string name="default_area_code_setting">Indicatif régional par défaut</string>
@@ -166,9 +156,6 @@
     <string name="not_activate_sim_card_content_with_operator">Vérifier la SIM %1$s (%2$s) pour appeler en utilisant la recharge. Vous pouvez toujours passer des appels normaux pour lesquels vous serez facturé par votre opérateur.</string>
     <string name="dialog_call_ordinary_telephone">Appel normal</string>
     <string name="dialog_activate_livetalk">Vérifier le numéro</string>
-    <string name="no_balance_title">Crédit insuffisant</string>
-    <string name="no_balance_message">Crédit insuffisant sur votre carte de recharge. Vous pouvez essayer de faire un appel normal à la place.</string>
-    <string name="dialog_purchase">Recharger</string>
     <string name="not_support_title">Numéro non supporté</string>
     <string name="not_support_message">La recharge de forfait ne supporte pas ces numéros. Vous pouvez essayer de faire un appel normal à la place.</string>
     <string name="livetalk_hangup">Raccrocher</string>
@@ -182,7 +169,6 @@
     <string name="can_not_call_oneself">"Impossible d'appeler ce numéro"</string>
     <string name="card_title_video_call_paused">Vidéo en pause</string>
     <string name="card_title_incoming_conference_call">Conférence téléphonique entrante</string>
-    <string name="video_switch_to_voice_call_prompt">Passer en appel voix</string>
     <string name="onscreen_change_to_voice">Appel voix</string>
     <string name="onscreen_change_to_video">Appel vidéo</string>
     <string name="onscreen_switch_camera">Changer de caméra</string>
@@ -194,9 +180,7 @@
     <string name="notification_incoming_video_call">Appel vidéo entrant</string>
     <string name="onscreen_message_text">Messages</string>
     <string name="onscreen_close_preview_camera">Fermer la caméra</string>
-    <string name="video_call_not_allowed_if_tty_enabled">"Désactiver d'abord le mode TTY"</string>
     <string name="upgrade_vt_prompt">Passer en appel vidéo ?</string>
-    <string name="conference_caller_name_me">Moi</string>
     <string name="incoming_answer_voice_text">Réponse vocale</string>
     <string name="picking_participant">"Obtention d'infos du contact…"</string>
     <string name="conference_caller_info_name">Conférence téléphonique avec %1$s</string>
@@ -240,6 +224,10 @@
     <string name="dial_with_gsm_phone">Appel normal</string>
     <string name="livetalk_left_minute">%s min restante(s)</string>
     <string name="miprofile_stranger_card">Carte étrangère</string>
+    <string name="no_balance_message">Crédit insuffisant sur votre carte de recharge. Vous pouvez essayer de faire un appel normal à la place.</string>
     <string name="purchase_now">Recharger</string>
+    <string name="video_switch_to_voice_call_prompt">Passer en appel voix</string>
     <string name="onscreen_rcs_text">Messages</string>
+    <string name="video_call_not_allowed_if_tty_enabled">"Désactiver d'abord le mode TTY"</string>
+    <string name="conference_caller_name_me">Moi</string>
 </resources>

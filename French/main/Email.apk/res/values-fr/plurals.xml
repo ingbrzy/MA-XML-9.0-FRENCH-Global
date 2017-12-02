@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="actionbar_unread_messages">
-        <item quantity="other">%1$d nouveaux messages</item>
-        <item quantity="one">%1$d nouveau message</item>
+        <item quantity="other">%1$d non lus</item>
+        <item quantity="one">%1$d non lu</item>
     </plurals>
     <plurals name="confirm_archive_conversation">
-        <item quantity="other">Archiver %1$d conversations ?</item>
-        <item quantity="one">Archiver %1$d conversation ?</item>
+        <item quantity="other">Archiver ces %1$d conversations ?</item>
+        <item quantity="one">Archiver cette conversation ?</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
-        <item quantity="other">Supprimer %1$d conversations?</item>
-        <item quantity="one">Supprimer %1$d conversation ?</item>
+        <item quantity="other">Supprimer ces %1$d conversations ?</item>
+        <item quantity="one">Supprimer cette conversation ?</item>
     </plurals>
     <plurals name="confirm_delete_conversation_with_sub">
-        <item quantity="other">Les conversations contiennent plusieurs messages, supprimer quand même ?</item>
-        <item quantity="one">La conversation contient plusieurs messages, supprimer quand même ?</item>
+        <item quantity="other">Ces conversations contiennent des éléments fusionnés. La supprimer quand même ?</item>
+        <item quantity="one">Cette conversation contient des éléments fusionnés. La supprimer quand même ?</item>
     </plurals>
     <plurals name="confirm_delete_draft">
         <item quantity="other">Supprimer %1$d brouillons ?</item>
         <item quantity="one">Supprimer %1$d brouillon ?</item>
     </plurals>
     <plurals name="contact_num_selected">
-        <item quantity="other">%d éléments sélectionnés</item>
-        <item quantity="one">%d élément sélectionné</item>
+        <item quantity="other">%d sélections</item>
+        <item quantity="one">%d sélection</item>
     </plurals>
     <plurals name="conversation_archived">
-        <item quantity="other">%1$d conversations archivées.</item>
-        <item quantity="one">%1$d conversation archivée.</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> archivés.</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> archivé.</item>
     </plurals>
     <plurals name="conversation_deleted">
-        <item quantity="other">%1$d conversations supprimées.</item>
-        <item quantity="one">%1$d conversation supprimée.</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> supprimés.</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> supprimé.</item>
     </plurals>
     <plurals name="conversation_folder_changed">
         <item quantity="other">Dossiers modifiés.</item>
@@ -41,24 +41,24 @@
         <item quantity="one">+%1$d personne</item>
     </plurals>
     <plurals name="conversation_muted">
-        <item quantity="other">Ignorer %1$d conversations.</item>
-        <item quantity="one">Ignorer %1$d conversation.</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> en sourdine</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> en sourdine.</item>
     </plurals>
     <plurals name="conversation_not_important">
-        <item quantity="other">%1$d conversations sans importance.</item>
-        <item quantity="one">%1$d conversation sans importance.</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b>" messages retirés du dossier 'Important'"</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b>" retiré du dossier 'Important'"</item>
     </plurals>
     <plurals name="conversation_not_spam">
-        <item quantity="other">%1$d conversations retirées de spam</item>
-        <item quantity="one">%1$d conversation retirée de spam</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b>" retirés du dossier 'spam'"</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b>" retiré du dossier 'spam'"</item>
     </plurals>
     <plurals name="conversation_phished">
-        <item quantity="other">%1$d conversations rapportées commes frauduleuses.</item>
-        <item quantity="one">%1$d conversation rapportée comme frauduleuse.</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> messages signalés comme spam</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> message signalé comme spam</item>
     </plurals>
     <plurals name="conversation_spammed">
-        <item quantity="other">%1$d conversations rapportées comme spam.</item>
-        <item quantity="one">%1$d conversation rapportée comme spam.</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> marqués comme spam</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> marqué comme spam</item>
     </plurals>
     <plurals name="day">
         <item quantity="other">%d jours</item>
@@ -86,15 +86,15 @@
     </plurals>
     <plurals name="move_conversation">
         <item quantity="other">Déplacer %1$d conversations</item>
-        <item quantity="one">Déplacer %1$d conversation</item>
+        <item quantity="one">Déplacer la conversation</item>
     </plurals>
     <plurals name="new_incoming_messages_many">
-        <item quantity="other">%1$d nouveaux messages</item>
-        <item quantity="one">%1$d nouveau message</item>
+        <item quantity="other">Afficher %1$d nouveaux messages.</item>
+        <item quantity="one">Afficher %1$d nouveau message.</item>
     </plurals>
     <plurals name="num_selected">
-        <item quantity="other">%d éléments sélectionnés</item>
-        <item quantity="one">%d élément sélectionné</item>
+        <item quantity="other">%d sélectionnés</item>
+        <item quantity="one">%d sélectionné</item>
     </plurals>
     <plurals name="show_messages_read">
         <item quantity="other">%1$d anciens messages</item>

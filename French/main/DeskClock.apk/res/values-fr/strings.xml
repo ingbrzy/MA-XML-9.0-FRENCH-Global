@@ -81,6 +81,7 @@
     <string name="birthday_alarm_summary">"Jouer \"Joyeux anniversaire\" comme sonnerie d'alarme par défaut pour votre anniversaire"</string>
     <string name="turn_off_a_repeat_alarm">Désactiver une alarme récurrente</string>
     <string name="skip_alarm_once_hint">Désactiver une fois le %s</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="turn_off_this_repeat_alarm">Désactiver cette alarme récurrente</string>
     <string name="today">"Aujourd'hui"</string>
     <string name="tomorrow">Demain</string>
@@ -113,6 +114,7 @@
     <string name="install_weather_app_error">"Impossible de charger l'application"</string>
     <string name="more_setting">Plus de paramètres</string>
     <string name="go_back">Retour</string>
+    <string name="invalid_time">Heure non valide : %3$s %1$d : %2$d</string>
     <string name="full_wday_month_day_no_year">EEE d MMMM</string>
     <string name="app_label">Horloge</string>
     <string name="alarm_list_title">Alarme</string>

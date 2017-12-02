@@ -38,7 +38,7 @@
     <string name="translation_query_error">Impossible de trouver les résultats</string>
     <string name="translation_query_error_network">"Impossible d'obtenir les informations, vérifiez la connexion réseau puis réessayez"</string>
     <string name="translation_more">Plus</string>
-    <string name="autofill">Autofill</string>
+    <string name="autofill">Remplissage automatique</string>
     <string name="auto_start_warning_title">Autoriser %s à démarrer automatiquement ?</string>
     <string name="auto_start_warning_allow">Autoriser</string>
     <string name="auto_start_warning_deny">Refuser</string>
@@ -61,7 +61,7 @@
     <string name="lockscreen_access_pattern_cleared">Schéma effacé</string>
     <string name="lockscreen_access_pattern_cell_added">Cellule ajoutée</string>
     <string name="lockscreen_access_pattern_detected">Schéma terminé</string>
-    <string name="memory_clear_result">%1$s B effacés</string>
+    <string name="memory_clear_result">%1$sB effacés</string>
     <string name="memory_clear_nothing_result">Rien à effacer dans le cache</string>
     <string name="shutdown_confirm_title">"Éteindre l'appareil maintenant ?"</string>
     <string name="shutdown_progress">Extinction…</string>

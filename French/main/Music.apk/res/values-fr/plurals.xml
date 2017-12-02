@@ -96,6 +96,10 @@
         <item quantity="other">%d Abonnés</item>
         <item quantity="one">%d Abonné</item>
     </plurals>
+    <plurals name="songs_count">
+        <item quantity="other">%d chansons</item>
+        <item quantity="one">%d chanson</item>
+    </plurals>
     <plurals name="Nunbackup_audios">
         <item quantity="other">"%1$d chansons n'ont pas été sauvegardées (%2$.1f Mo)"</item>
         <item quantity="one">"%1$d chanson n'a pas été sauvegardée (%2$.1f Mo)"</item>
@@ -123,5 +127,13 @@
     <plurals name="skipped_online_songs_tips">
         <item quantity="other">%d chansons ignorées. Veuillez activer les services en ligne dans les paramètres pour les écouter.</item>
         <item quantity="one">"%d chanson ignorée. Veuillez activer les services en ligne dans les paramètres pour l'écouter."</item>
+    </plurals>
+    <plurals name="Nrecognize_switch_off_alert_message">
+        <item quantity="other">"A arrêté l'optimisation d'album et de paroles. Voulez-vous revenir aux informations, album et paroles optimisés de %d chansons ?"</item>
+        <item quantity="one">"A arrêté l'optimisation d'album et de paroles. Voulez-vous revenir aux informations, album et paroles optimisés de %d chanson ?"</item>
+    </plurals>
+    <plurals name="Nassociate_songs">
+        <item quantity="other">Album et paroles correspondants (%1$d/%2$d chansons)</item>
+        <item quantity="one">Album et paroles correspondants (%1$d/%2$d chanson)</item>
     </plurals>
 </resources>

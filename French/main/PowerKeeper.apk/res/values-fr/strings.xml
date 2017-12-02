@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Économiseur de batterie</string>
+    <string name="app_name">Battery and Performance</string>
     <string name="activity_title_poweroptimize">Économiseur de batterie</string>
     <string name="activity_title_poweranalyze">Testeur de batterie</string>
     <string name="activity_title_powerconfigure">Paramètres de la batterie</string>
@@ -107,7 +107,7 @@
     <string name="mode_settings">Paramètres</string>
     <string name="hide_mode_desc">"Lorsqu'une application est ouverte à l'arrière-plan, ses activités seront contrôlées afin de réduire l'utilisation de la batterie."</string>
     <string name="hide_mode_ultimate_desc">"Le mode Ultime est actif. Les applications en arrière-plan seront gelées. Désactiver l'économiseur de batterie pour quitter le mode Ultime."</string>
-    <string name="power_hide_mode_title">"Gérer l'utilisation de la batterie par les applications"</string>
+    <string name="power_hide_mode_title">Battery &amp; performance</string>
     <string name="power_hide_mode_summary">"Économiser la batterie en limitant les processus d'applications en arrière-plan, Wi-Fi, données mobiles et GPS"</string>
     <string name="power_config_apps">Économiseur de batterie</string>
     <string name="app_list_title">"Choisir l'application"</string>
@@ -125,6 +125,10 @@
     <string name="sleep_config_enhance_description">"Chaque fois que MIUI détecte que vous dormez, il fermera les applications en arrière-plan, restreindra l'utilisation du NFC, Bluetooth, GPS, des données mobiles et du réseau Wi-Fi puis n'allumera pas l'écran à la réception des notifications."</string>
     <string name="nonui_mode_config_title">Mode non interactif</string>
     <string name="nonui_mode_config_description">"Ne pas allumer l'écran pour les notifications, désactiver le voyant lumineux, le capteur d'empreintes digitales ainsi que les touches de contrôle afin d'économiser la batterie lorsque MIU détecte que vous n'utilisez pas votre appareil."</string>
+    <string name="power_center">Power</string>
+    <string name="power_usage">Power usage</string>
+    <string name="power_mode">Power settings</string>
+    <string name="performance_category">Performance</string>
     <string name="scenario_policies_warmcontrol">Contrôle de température</string>
     <string name="warm_configure">Paramètres du contrôle de température</string>
     <string name="important_warning">Attention</string>

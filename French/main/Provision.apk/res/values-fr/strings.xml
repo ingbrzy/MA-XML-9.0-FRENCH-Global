@@ -68,9 +68,6 @@ Vous devez accepter nos Conditions générales d'utilisation et notre Politique 
     <string name="enable_accessibility_dialog_negative_btn">Annuler</string>
     <string name="cm_terms_title">"Accord de l'opérateur du réseau mobile"</string>
     <string name="cm_terms_content">"Afin d'améliorer les services qui vous sont fournis, l'opérateur de réseau mobile de votre choix peut télécharger vos données personnelles et les informations concernant cet appareil sur ses serveurs en utilisant des réseaux Wi-Fi ou des connexions de données mobiles. Ces informations ne seront utilisées qu'à des fins statistiques pour améliorer la qualité des services et fournir un contenu plus personnalisé. Ces informations ne seront pas utilisées pour vous identifier personnellement et ne seront pas divulguées à des tiers."</string>
-    <string name="two_dimensional_code_scan">Scanner un code QR</string>
-    <string name="user_strayed_warning">"La page est conçue pour les tests d'usine, appuyez sur le bouton \" Retour \" pour quitter."</string>
-    <string name="fail_to_generate_qr_code">Impossible de générer le code QR. Ouvrez cette page à nouveau.</string>
     <string name="enable_accessibility_canceled">Accessibilité annulée.</string>
     <string name="accessibility_enabled">Accessibilité activée.</string>
     <string name="continue_to_enable_accessibility">"Continuez à maintenir deux doigts pour permettre l'accessibilité."</string>

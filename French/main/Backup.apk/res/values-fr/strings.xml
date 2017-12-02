@@ -6,6 +6,9 @@ Taille : %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Version %1$s
 Taille de la mise à jour : %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Stockage indisponible, vérifiez votre carte SD.</string>
+    <string name="xiaomi_bytes_unit">%1$s o</string>
+    <string name="xiaomi_kilobytes_unit">%1$s ko</string>
+    <string name="xiaomi_megabytes_unit">%1$s Mo</string>
     <string name="xiaomi_connect_download_manager_fail">Impossible de démarrer le téléchargement. Vérifier que le gestionnaire de téléchargements fonctionne normalement.</string>
     <string name="app_name">Sauvegarde</string>
     <string name="local_app_name">Sauvegarde</string>
@@ -15,6 +18,7 @@ Taille de la mise à jour : %2$s"</string>
     <string name="button_cancel">Annuler</string>
     <string name="button_send">Envoyer</string>
     <string name="backup_empty">Aucune sauvegarde.</string>
+    <string name="data_detail_description">Détails</string>
     <string name="comma_seperator">", "</string>
     <string name="backup_failed">Impossible de sauvegarder</string>
     <string name="sdcard_unmounted">Insérez une carte SD</string>
@@ -171,7 +175,6 @@ Taille de la mise à jour : %2$s"</string>
     <string name="reverse_all">Tout effacer</string>
     <string name="refresh">Actualiser</string>
     <string name="cloud_item_info_summary">" (Locale %1$s | Mi Cloud %2$s)"</string>
-    <string name="total_num">%d éléments,</string>
     <string name="cloud_restore_guide">Pour restaurer les données utilisateur de %s, appuyez sur Restaurer</string>
     <string name="import_from_xiaomi_account_hint1">"1.\u0009Téléchargez l'application MiTalk et connectez-vous.
 \u0009http://www.miliao.com
@@ -225,6 +228,7 @@ Taille de la mise à jour : %2$s"</string>
     <string name="restore_backup">Restaurer</string>
     <string name="enable_encrypt_description">Chiffrer</string>
     <string name="disable_encrypt_description">Ne pas chiffrer</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Un instant…</string>
     <string name="state_mounting">Accès au stockage du routeur…</string>
     <string name="abort_backup_confirm">"La sauvegarde n'est pas terminée. Arrêter quand même ?"</string>
@@ -261,7 +265,6 @@ Taille de la mise à jour : %2$s"</string>
     <string name="notif_trans_wait_for_reconnecting">La connexion a été interrompue. Reconnecter.</string>
     <string name="notif_trans_auto_reconnecting_title">La connexion a été interrompue. Reconnexion automatique…</string>
     <string name="notif_trans_auto_reconnecting_content">Vous pouvez annuler la tâche actuelle si nécessaire.</string>
-    <string name="custom_progress">%d éléments</string>
     <string name="remote_receive">Recevoir</string>
     <string name="click_to_view">Appuyez pour voir</string>
     <string name="trans_one_key_migrate">Mi Mover</string>
@@ -359,26 +362,26 @@ Vider au moins %s."</string>
     <string name="user_notice_declaration_ignore">Ne plus afficher</string>
     <string name="total_size">, %s</string>
     <string name="trans_intro_title">FAQ</string>
-    <string name="trans_intro_question_1">1. Comment utiliser Mi Mover pour transférer des données depuis un appareil iOS ?</string>
+    <string name="trans_intro_question_1">%d. Comment utiliser Mi Mover pour transférer des données depuis un appareil iOS ?</string>
     <string name="trans_intro_desc_1">Sur un téléphone Mi, connectez-vous au Wi-Fi et appuyez sur \"Je suis le destinataire\". Sélectionnez votre appareil iOS, connectez-vous à iCloud et importez les données.</string>
-    <string name="trans_intro_question_2">1. Comment utiliser Mi Mover pour transférer des données depuis un appareil Android ?</string>
+    <string name="trans_intro_question_2">%d. Comment utiliser Mi Mover pour transférer des données depuis un appareil Android ?</string>
     <string name="trans_intro_title_new">Sur un nouveau téléphone :</string>
     <string name="trans_intro_desc_new">Appuyez sur \" Je suis le destinataire \". Un code QR sera généré.</string>
     <string name="trans_intro_title_old">Sur un ancien téléphone :</string>
     <string name="trans_intro_desc_old">"Appuyez sur \" Je suis l'expéditeur \". Scannez le code QR sur le nouveau téléphone, patientez jusqu'à ce que Mi Mover détecte les fichiers à envoyer, puis appuyez sur \" Envoyer \"."</string>
-    <string name="trans_intro_question_3">3. Que faire si Mi Mover se bloque à certaine étape ?</string>
+    <string name="trans_intro_question_3">%d. Que faire si Mi Mover se bloque à certaine étape ?</string>
     <string name="trans_intro_desc_3">Annulez le transfert, quittez Mi Mover et recommencez. Les fichiers en double seront écrasés au cours du nouveau transfert.</string>
-    <string name="trans_intro_question_4">"4. Pourquoi ne suis-je pas en mesure d'utiliser le Wi-Fi pendant les transferts ?"</string>
+    <string name="trans_intro_question_4">"%d. Pourquoi ne suis-je pas en mesure d'utiliser le Wi-Fi pendant les transferts ?"</string>
     <string name="trans_intro_desc_4">"Mi Mover utilise Wi-Fi pour transférer des fichiers. C'est pourquoi vous ne pouvez pas vous connecter à Internet en utilisant Wi-Fi sur l'un ou l'autre périphérique pendant un transfert. Vous pouvez toujours utiliser des données mobiles. Cependant, certains périphériques plus récents (par exemple, Mi 6) pourraient toujours se connecter à Internet en utilisant Wi-Fi pendant les transferts."</string>
-    <string name="trans_intro_question_5">"5. Pourquoi Mi Mover me dit-il que l'espace de stockage sur mon ancien téléphone est insuffisant ?"</string>
+    <string name="trans_intro_question_5">"%d. Pourquoi Mi Mover me dit-il que l'espace de stockage sur mon ancien téléphone est insuffisant ?"</string>
     <string name="trans_intro_desc_5">"L'espace de stockage sur les anciens appareils est utilisé pour la création des paquets de transferts. Assurez-vous que vous avez au moins 500 Mo à 1 Go d'espace de stockage disponible sur votre ancien téléphone avant de commencer le transfert."</string>
-    <string name="trans_intro_question_6">6. Pourquoi certaines applications ne sont-elles pas transférées avec succès ?</string>
+    <string name="trans_intro_question_6">%d. Pourquoi certaines applications ne sont-elles pas transférées avec succès ?</string>
     <string name="trans_intro_desc_6">"Il existe plusieurs raisons pour lesquelles cela peut se produire : des problèmes de compatibilité de la version du système et de l'application, des problèmes de réseau, des problèmes de compatibilité spécifiques à un périphérique particulier, etc."</string>
-    <string name="trans_intro_question_7">7. Pourquoi certaines applications ne se lanceront-elles pas sur un nouvel appareil ?</string>
+    <string name="trans_intro_question_7">%d. Pourquoi certaines applications ne se lanceront-elles pas sur un nouvel appareil ?</string>
     <string name="trans_intro_desc_7">"Certains profils d'applications (e-banking, finance, etc.) sont associés à un périphérique spécifique pour des raisons de sécurité. Essayez d'effacer les données de l'application ou de réinstaller l'application sur un nouvel appareil."</string>
-    <string name="trans_intro_question_8">"8. Pourquoi l'historique de WeChat n'est-il pas complètement transféré ?"</string>
+    <string name="trans_intro_question_8">"%d. Pourquoi l'historique de WeChat n'est-il pas complètement transféré ?"</string>
     <string name="trans_intro_desc_8">"Les données de l'application WeChat et l'historique des conversations peuvent ne pas être transférés intégralement via Mi Mover. Accédez aux paramètres de WeChat et déconnectez-vous de votre compte pour obtenir plus de chances pour un transfert réussi."</string>
-    <string name="trans_intro_question_9">9. Quels éléments ne peuvent pas être transférés ?</string>
+    <string name="trans_intro_question_9">%d. Quels éléments ne peuvent pas être transférés ?</string>
     <string name="trans_intro_title_account">Comptes et mots de passe :</string>
     <string name="trans_intro_desc_account">Vous devez vous connecter à nouveau à vos comptes (ex. : Compte Mi, Exchange, Google, etc.) sur le nouvel appareil pour des raisons de sécurité.</string>
     <string name="trans_intro_title_private">Album privé :</string>
@@ -416,14 +419,16 @@ https://appleid.apple.com/#!&amp;page=signin pour désactiver"</string>
     <string name="icloud_backup_tip">Connectez-vous au compte iCloud de votre ancien appareil iOS</string>
     <string name="icloud_how_to_backup_tip_title">Astuces :</string>
     <string name="icloud_how_to_backup_tip_summary">Pour importer les données depuis iOS, vous devez créer une sauvegarde iCloud.</string>
-    <string name="icloud_how_to_backup_tip_steps">"1. Ouvrez les paramètres sur votre appareil iOS, et sélectionnez iCloud.
-2. Déplacez le bouton pour Contacts.
-3. Sélectionnez Phots et déplacez le bouton pour la librairie Photo de iCloud."</string>
+    <string name="icloud_how_to_backup_tip_steps">"1. Ouvrez Réglages sur votre appareil iOS, et sélectionnez iCloud.
+2. Déplacez le bouton pour Contacts et autres éléments.
+3. Sélectionnez Photos et déplacez le bouton pour la bibliothèque Photo de iCloud."</string>
     <string name="user_name">Identifiant Apple ou e-mail</string>
     <string name="password">Mot de passe</string>
     <string name="user_name_null">"Le champ du nom d'utilisateur ne peut être vide"</string>
     <string name="password_null">Le champ mot de passe ne peut être vide</string>
     <string name="name_password_not_consistent">"Le nom d'utilisateur ou le mot de passe est incorrect"</string>
+    <string name="view_password_description">Afficher le mot de passe</string>
+    <string name="hide_password_description">Masquer le mot de passe</string>
     <string name="login">Se connecter</string>
     <string name="logining">Connexion…</string>
     <string name="login_failed">Impossible de se connecter, réessayez.</string>
@@ -462,7 +467,8 @@ https://appleid.apple.com/#!&amp;page=signin pour désactiver"</string>
     <string name="icloud_need_sync">"Pour importer les données depuis iOS, 
 ous devez d'abord créer une sauvegarde iCloud."</string>
     <string name="import_tip_title">Astuces :</string>
-    <string name="import_tip_summary">En raison des problèmes de compatibilité, vous pouvez seulement transférer les contacts et les photos depuis vos des appareil iOS. Assurez-vous que vous créez une sauvegarde iCloud avant de commencer le transfert.</string>
+    <string name="import_tip_summary">En raison des problèmes de compatibilité, vous pouvez seulement transférer partiellement les données depuis vos appareil iOS. Assurez-vous de créer une sauvegarde iCloud avant de commencer le transfert.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importer</string>
     <string name="select_empty">Sélectionner les éléments à importer</string>
     <string name="select_item_summary_wait">En attente…</string>
@@ -470,6 +476,8 @@ ous devez d'abord créer une sauvegarde iCloud."</string>
     <string name="select_item_contacts">Contacts</string>
     <string name="select_item_photos">Photos</string>
     <string name="select_item_empty_summary">Aucun élément</string>
+    <string name="select_item_calendar">Agenda</string>
+    <string name="select_item_notes">Notes</string>
     <string name="cancel_moving_dialog_title">"Arrêter l'importation"</string>
     <string name="cancel_moving_dialog_message">"Arrêter l'importation maintenant ?"</string>
     <string name="notif_icloud_saving_summary">Restauration des données…</string>
@@ -481,4 +489,7 @@ Veuillez ne pas désactiver le Wi-Fi"</string>
     <string name="save_finish_with_failing_items">"Le transfert a été interrompu.
 Les données qui n'ont pas été importées doivent être importées encore."</string>
     <string name="import_again">Importer à nouveau</string>
+    <string name="error_permissions">"Cette application n'a pas les autorisations requises pour accéder au Calendrier. Allez dans les Réglages et vérifiez les autorisations pour continuer."</string>
+    <string name="succ_description">Avec succès</string>
+    <string name="failed_description">Échec</string>
 </resources>

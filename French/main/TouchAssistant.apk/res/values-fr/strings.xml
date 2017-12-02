@@ -20,7 +20,7 @@
     <string name="name_alipay_scan">Scanneur Alipay</string>
     <string name="name_all_mipay_cards">Mi Pay</string>
     <string name="name_handy_mode">Mode une main</string>
-    <string name="name_long_press_power_key">Appui prolongé sur le bouton démarrage</string>
+    <string name="name_long_press_power_key">"Appui prolongé sur le bouton d'alimentation"</string>
     <string name="name_memory_clean">Vider le cache</string>
     <string name="name_music_next_song">Chanson suivante</string>
     <string name="name_music_prev_song">Chanson précédente</string>

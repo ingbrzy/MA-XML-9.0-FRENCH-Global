@@ -98,6 +98,7 @@
     <string name="record_quliaty_preference_title">"Qualité d'enregistrement"</string>
     <string name="cloud_record_tip">Synchroniser les enregistrements avec Mi Cloud.</string>
     <string name="cloud_record_open">Synchroniser les enregistrements</string>
+    <string name="cloud_service_state_open_reminder">"Activez la synchronisation avec mi Cloud pour synchroniser les fichiers d'enregistrement."</string>
     <string name="cloud_status_full_dialog_title">Stockage Mi Cloud plein</string>
     <string name="cloud_status_full_dialog_msg">"Votre stockage Mi Cloud est plein, impossible de synchroniser les enregistrements. mettez à niveau votre compte pour obtenir plus d'espace de stockage."</string>
     <string name="cloud_status_full_dialog_cancel">Pas maintenant</string>

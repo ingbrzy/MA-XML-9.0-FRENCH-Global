@@ -298,6 +298,7 @@
     <string name="theme_batch_update_dlg_content_single">Mettre à jour %1$s ?</string>
     <string name="theme_current_using_has_update">Mise à jour du thème disponible</string>
     <string name="theme_immediately_apply_tip">Appliquer ?</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_fresh_man_notifaction">Nouveaux thèmes disponibles</string>
     <string name="selected_resource_file_invalid">Le fichier sélectionné est non valide.</string>
     <string name="apply_theme_with_ringtones">Appliquer le thème avec la sonnerie</string>
@@ -461,8 +462,8 @@
     <string name="online_precust_building">Bâtiment</string>
     <string name="online_precust_lifestyle">Mode de vie</string>
     <string name="online_precust_abstract">Abstrait</string>
-    <string name="region_not_support">Les thèmes ne sont pas pris en charge dans cette région.</string>
-    <string name="hide_free">Masquer les thèmes gratuits</string>
-    <string name="hide_incompatible">Masquer les thèmes incompatibles</string>
+    <string name="hide_free">Masquer les %1$s gratuits</string>
+    <string name="hide_incompatible">Masquer les %1$s incompatibles</string>
     <string name="current_version_incompatible">Ce thème est incompatible</string>
+    <string name="region_not_support">Les thèmes ne sont pas pris en charge dans cette région.</string>
 </resources>

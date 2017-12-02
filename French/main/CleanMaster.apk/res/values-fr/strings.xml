@@ -184,8 +184,8 @@
     <string name="toast_backup_uninstall_success">Sauvegarde et désinstallation terminée</string>
     <string name="activity_title_cache_data">"Données d'application"</string>
     <string name="deepclean_cache_header_left">Fichiers de donnée : %d</string>
-    <string name="notification_title_of_garbage_cleanup">Taille de la corbeille</string>
-    <string name="notification_summary_of_garbage_cleanup">Votre corbeille dépasse %s.</string>
+    <string name="notification_title_of_garbage_cleanup">%s of trash files</string>
+    <string name="notification_summary_of_garbage_cleanup">Tap to free up space.</string>
     <string name="notification_summary_after_auto_cleanup">%s nettoyé.</string>
     <string name="toast_uninstall_success">Désinstallation terminée</string>
     <string name="toast_app_no_residual_on_sdcard">"L'application n'a aucune donnée stockée sur votre carte SD"</string>
@@ -308,7 +308,7 @@
     <string name="seton_immediately">Activer</string>
     <string name="notify_when">Obtenir une notification lorsque la taille de la corbeille atteint 100 Mo</string>
     <string name="goto_set">Régler</string>
-    <string name="virus_scan">Analyse de virus</string>
+    <string name="virus_scan">Security scan</string>
     <string name="tips_of_virus_scan">Analysez votre appareil régulièrement pour conserver votre sécurité</string>
     <string name="conn_of_function_safe">Connexion réseau pour la sécurité</string>
     <string name="tips_of_connect">"Connectez-vous à Internet pour utiliser l'ensemble des fonctionnalités de sécurité"</string>
