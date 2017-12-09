@@ -57,6 +57,7 @@
     <string name="save_pic_success">Image sauvegardée dans %s</string>
     <string name="save_pic_fail">"Impossible de sauvegarder l'image, vérifiez votre carte SD"</string>
     <string name="pic_not_exist">"Cette image n'existe pas"</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Sélectionnez un produit</string>
     <string name="michat_skillset_business_type_title">Sélectionnez le service</string>
     <string name="michat_close_text">Conversation terminée</string>
@@ -152,7 +153,7 @@
     <string name="network_err">Impossible de se connecter au réseau.</string>
     <string name="refresh">Actualiser</string>
     <string name="announcement">Attention</string>
-    <string name="app_empty">"Pas d'applications téléchargées."</string>
+    <string name="app_empty">Impossible de trouver des applications.</string>
     <string name="screen_lock">"Verrouillage d'écran"</string>
     <string name="systemui">Notifications</string>
     <string name="cta_dialog_title">Connexion Internet</string>
@@ -279,6 +280,7 @@
     <string name="title_answer_feedback_main">Nous avons trouvé des réponses !</string>
     <string name="title_same_question_feedback_main">Des problèmes similaires sur le forum MIUI</string>
     <string name="related_question_answer_details">Problème associé</string>
+    <string name="issue_search">Search</string>
     <string name="module_item_more">Plus</string>
     <string name="module_item_less">Masquer</string>
     <string name="feedback_guess">Notre avis</string>
@@ -296,6 +298,7 @@
     <string name="module_more">Plus</string>
     <string name="module_search">Rechercher</string>
     <string name="module_google_apps">Applications Google</string>
+    <string name="app_search">Rechercher des applications</string>
     <string name="feedback_submit_hint">Toujours signaler les bogues lorsque vous rencontrez des problèmes afin de nous aider à les résoudre plus rapidement.</string>
     <string name="feedback_submit_hint_gone">Commentaire envoyé</string>
     <string name="toast_post_deleted">"Ce sujet n'existe pas, il a été supprimé ou modifié."</string>

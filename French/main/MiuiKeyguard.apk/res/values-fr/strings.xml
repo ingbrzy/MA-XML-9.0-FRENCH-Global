@@ -134,4 +134,5 @@
     <string name="face_unlock_rise">Baissez votre tête</string>
     <string name="face_unlock_down">Levez votre tête</string>
     <string name="face_unlock_quality">Impossible de voir votre visage correctement</string>
+    <string name="lock_screen_no_sim_card">No SIM card</string>
 </resources>

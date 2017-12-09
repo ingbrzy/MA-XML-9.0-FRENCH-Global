@@ -350,10 +350,8 @@ de l'opérateur"</string>
     <string name="main_button_mi_sim_open">Voir les détails</string>
     <string name="firewall_activity_lable">"Restreindre l'utilisation des données par application"</string>
     <string name="firewall_applist">Applications</string>
-    <string name="firewall_rule_group_title_mobile">Mobile</string>
-    <string name="firewall_rule_group_title_wifi">Wi-Fi</string>
-    <string name="firewall_fragment_tab_title_nonsys">Installé</string>
-    <string name="firewall_fragment_tab_title_sys">Système</string>
+    <string name="firewall_mobile">Mobile</string>
+    <string name="firewall_wifi">Wi-Fi</string>
     <string name="firewall_fragment_sys_listempty">Vide</string>
     <string name="firewall_fragment_nonesys_listempty">Vide</string>
     <string name="firewall_restrict_notify_title">%s ne peut pas utiliser le réseau</string>
@@ -367,6 +365,7 @@ de l'opérateur"</string>
     <string name="search_result_text">Impossible de trouver une application</string>
     <string name="firewall_mobile_dialog_message">"L'application installée ne sera plus en mesure de se connecter à Internet via les données mobiles lorsque cet interrupteur est désactivé."</string>
     <string name="firewall_wifi_dialog_message">"L'application installée ne sera plus en mesure de se connecter à Internet via Wi-Fi lorsque cet interrupteur est désactivé."</string>
+    <string name="firewall_system_title">系统应用联网控制</string>
     <string name="usage_sorted_activity_lable">Utilisation de données</string>
     <string name="usage_sorted_loading_text">Un instant…</string>
     <string name="usage_sorted_empty_text">Vide</string>
@@ -389,6 +388,7 @@ de l'opérateur"</string>
     <string name="detail_app_button">"Informations sur l'application"</string>
     <string name="pref_about_traffic_title">"Paramètres d'utilisation des données"</string>
     <string name="pref_traffic_manage_title">Utilisation de données</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Limite de données mobiles</string>
     <string name="pref_adjust_traffic_data">"Définir l'utilisation des données"</string>
     <string name="pref_category_title_other">Paramètres supplémentaires</string>
@@ -890,6 +890,7 @@ Cette activité réduit la durée de vie de la batterie."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Cette application peut ralentir
 votre appareil"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Désinstaller %s ?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">"Désinstaller cette application pour résoudre tous les problèmes liés à l'usage de la batterie."</string>
     <string name="om_ill_proc_type_wakelock_title">"L'application bloque le mode veille et décharge la batterie"</string>
@@ -1292,6 +1293,7 @@ votre appareil"</string>
     <string name="menu_text_networkassistants">Utilisation des données</string>
     <string name="menu_text_networkassistants_remain">%s restants</string>
     <string name="menu_text_networkassistants_danger">%s dépassé</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">Go</string>
     <string name="menu_text_networkassistants_unit_mb">Mo</string>
     <string name="menu_text_networkassistants_unit_kb">ko</string>
@@ -1652,6 +1654,7 @@ votre appareil"</string>
     <string name="card_main_deepclean_wechat_action">Vider</string>
     <string name="card_main_sectool_title">Outils</string>
     <string name="card_main_monthreport_action">Afficher</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Tester le réseau</string>
     <string name="card_main_netcheck_summary">Tester la connexion pour des problèmes de réseau</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1886,8 +1889,9 @@ votre appareil"</string>
     <string name="app_usage_recently">Récemment utilisé</string>
     <string name="app_manager_have_not_consume">Aucun</string>
     <string name="app_manager_menu_clear_data">Effacer les données</string>
-    <string name="app_manager_clear_data_dlg_title">"Supprimer les données de l'application ?"</string>
-    <string name="app_manager_clear_data_dlg_message">Toutes les données de cette application vont être définitivement supprimées. Cela inclut tous les fichiers, paramètres, comptes bases de données etc...</string>
+    <string name="app_manager_clear_data_dlg_title">Supprimer toutes les données ?</string>
+    <string name="app_manager_clear_data_dlg_message">All app data, including files, settings, accounts, databases, and cache will be permanently deleted.</string>
+    <string name="app_manager_clear_dlg_title">Clear data</string>
     <string name="app_manager_clear_failed_dlg_message">"Impossible d'effacer les données de l'application."</string>
     <string name="app_manager_manage_space">"Gérer l'espace de stockage"</string>
     <string name="app_manager_permission_summary_reject">Tout restreindre</string>
@@ -1956,6 +1960,15 @@ votre appareil"</string>
     <string name="app_manager_install_other_app">Installer les applications provenant de sources inconnues</string>
     <string name="app_manager_disabled_by_admin">"Désactivée par l'administrateur"</string>
     <string name="app_manager_advanced_setting">Paramètres avancés</string>
+    <string name="app_manager_total_size">Total</string>
+    <string name="app_manager_code_size">App size</string>
+    <string name="app_manager_data_size">User data</string>
+    <string name="app_manager_cache_size">Cache</string>
+    <string name="app_manager_clear_all_data">Clear all data</string>
+    <string name="app_manager_dlg_clear_cache_title">Clear cache?</string>
+    <string name="app_manager_support_uninstall">You can uninstall these apps</string>
+    <string name="app_manager_not_support_uninstall">"Can't uninstall this apps"</string>
+    <string name="app_manager_comuting_size">Computing…</string>
     <string name="ad_btn_default_text">En savoir plus</string>
     <string name="open_activity_err">"L'application n'a pas été trouvée"</string>
     <string name="low_memory_warning_dialog_title">Espace de stockage insuffisant</string>
@@ -2080,7 +2093,6 @@ votre appareil"</string>
     <string name="net_booster_overdue_notification">"La session d'augmentation de la vitesse du réseau prendra bientôt fin"</string>
     <string name="net_booster_overdue_notification_tip">"La session d'augmentation de la vitesse du réseau prendra bientôt fin. Renouveler la session ?"</string>
     <string name="net_booster_expire_notification">"La session d'augmentation de la vitesse du réseau prendra bientôt fin"</string>
-    <string name="net_booster_expire_notification_tip">"%d jours restants avant que la session d'augmentation de la vitesse du réseau ne se termine. Renouveler la session pour éviter des problèmes de vitesse de réseau."</string>
     <string name="xunyou_pay_webview">Services Xunyou</string>
     <string name="xunyou_server_expired">La session a expirée.</string>
     <string name="game_anti_disturb_msg">NPD en mode Jeu</string>
@@ -2098,11 +2110,7 @@ votre appareil"</string>
     <string name="game_booster_close">Accélérateur de la vitesse de jeu désactivé</string>
     <string name="databooster_tips_title">Attention</string>
     <string name="databooster_tips_message">"Activez pour restreindre toutes les cartes SIM à l'exception de la carte de données. Désactivez cette fonction si des erreurs se produisent dans les jeux de votre choix."</string>
-    <string name="app_manager_permission_startself_summary">Les applications qui démarrent automatiquement occupent de la RAM et déchargent plus rapidement la batterie</string>
-    <string name="app_manager_permission_power_saving_summary">Économiseur de batterie MIUI</string>
-    <string name="app_manager_not_record">Impossible de trouver des applications qui nécessitent des autorisations</string>
-    <string name="app_manager_clear_failed_dlg_title">Effacer les données</string>
-    <string name="app_manager_sort">Trier par</string>
+    <string name="net_booster_expire_notification_tip">"%d jours restants avant que la session d'augmentation de la vitesse du réseau ne se termine. Renouveler la session pour éviter des problèmes de vitesse de réseau."</string>
     <string name="power_center_consume_rank">Utilisation de la batterie</string>
     <string name="power_center_custom_title">"Profils de gestion d'énergie"</string>
     <string name="power_center_auto_shutdown_summary_default">Allumer ou éteindre votre appareil à une heure programmée</string>

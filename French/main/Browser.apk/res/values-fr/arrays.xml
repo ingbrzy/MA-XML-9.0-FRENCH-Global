@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="aqi_title">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>IQA %1$s</item>
+        <item>IQA %1$s</item>
+        <item>IQA %1$s</item>
+        <item>IQA %1$s</item>
+        <item>IQA %1$s</item>
+        <item>IQA %1$s</item>
+        <item>IQA %1$s</item>
+    </string-array>
     <string-array name="menu_theme_setting">
         <item>Blanc</item>
         <item>Jaune</item>
@@ -45,5 +72,34 @@
     <string-array name="shortcut_dialog_title">
         <item>Message du navigateur</item>
         <item>Suivez les jeux olympiques avec Mi</item>
+    </string-array>
+    <string-array name="weather_type">
+        <item>Ensoleillé</item>
+        <item>Nuageux</item>
+        <item>Couvert</item>
+        <item>Brumeux</item>
+        <item>Tempête de pluie</item>
+        <item>Averse</item>
+        <item>Pluie torrentielle</item>
+        <item>Orage</item>
+        <item>Averses</item>
+        <item>Fortes pluies</item>
+        <item>Pluie modérée</item>
+        <item>Pluie fine</item>
+        <item>Pluie et neige mêlées</item>
+        <item>Tempête de neige</item>
+        <item>Neige</item>
+        <item>Fortes chutes de neige</item>
+        <item>Chutes de neige modérées</item>
+        <item>Légères chutes de neige</item>
+        <item>Forte tempête de sable</item>
+        <item>Tempête de sable</item>
+        <item>Sable</item>
+        <item>Venteux</item>
+        <item>Grêle</item>
+        <item>Poussière</item>
+        <item>Brume</item>
+        <item>Pluie verglaçante</item>
+        <item></item>
     </string-array>
 </resources>

@@ -105,7 +105,6 @@ Note : Les données des applications que vous avez installées ne seront pas sau
     <string name="as_new_device_summary">Effacer les sauvegardes précédentes</string>
     <string name="restore_data_summary">Cette fonctionnalité nécessite une connexion Internet.</string>
     <string name="query_restore_summary">"Une sauvegarde Mi Cloud a été trouvée pour cet appareil. Restaurer les applis de l'écran d'accueil et les paramètres ou l'utiliser comme un nouvel appareil et effacer les sauvegardes Mi Cloud précédentes ?"</string>
-    <string name="query_restore_back_view">Sauvegarde Mi Cloud</string>
     <string name="restore_home_screen_apps">Restaurer à partir de la sauvegarde Mi Cloud</string>
     <string name="query_restore_description">"Restaurer les applications de l'ecran d'accueil et des paramètres à l'aide de cette sauvegarde. Cela va écraser les données d'applications pour les applications en double déjà installées sur cet appareil. les applications qui ne figurent pas dans la sauvegarde seront déplacées vers le dernier écran d'accueil."</string>
     <string name="restore_from_this_device">Restaurer à partir de cette sauvegarde</string>
@@ -143,7 +142,6 @@ Note : Les données des applications que vous avez installées ne seront pas sau
     <string name="download_meta_again">Impossible de charger les informations, réessayez.</string>
     <string name="cancel_restore_home">Canceling…</string>
     <string name="cancel_backup">Canceling backup…</string>
-    <string name="cloud_backup_title">Mi Cloud backups</string>
     <string name="cloud_backup">Mi Cloud backups</string>
     <string name="open_backup_switch">Toggle the backup switch</string>
     <string name="restore_cloud_backup_to_phone">Restore items from Mi Cloud</string>

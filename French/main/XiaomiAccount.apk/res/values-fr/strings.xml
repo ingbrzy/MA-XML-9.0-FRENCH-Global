@@ -53,7 +53,7 @@
     <string name="passport_change_phone_number">Changer de numéro</string>
     <string name="passport_forget_password"><u>Mot de passe oublié</u></string>
     <string name="passport_forget_password_no_underline">Mot de passe oublié</string>
-    <string name="passport_reg_type_email">Email address</string>
+    <string name="passport_reg_type_email">Adresse e-mail</string>
     <string name="passport_account_not_actived">"Votre compte n'a pas été activé"</string>
     <string name="passport_active_email_visit">Vérifiez votre boîte de réception à %s</string>
     <string name="passport_click_email_to_valid">"
@@ -187,11 +187,15 @@ Pour activer votre compte, suivez le
     <string name="passport_user_reg_region_warning">Vous ne serez plus en mesure de modifier votre pays/région une fois le compte créé.</string>
     <string name="passport_sync_account_data">Synchronisation des informations du compte…</string>
     <string name="passport_sync_account_data_failed_warning">"Les infos de votre compte sont en cours de synchronisation actuellement, vous pouvez vous connecter grâce à votre compte Mi. Si vous souhaitez vous connecter avec votre numéro de téléphone, patientez jusqu'à ce que les informations soient complèment synchronisées."</string>
-    <string name="passport_confirm_recycle_account_msg">%s &lt;font color=Red>疑似&lt;/font>是运营商回收后再次收买的号码，该号码下已有小米帐号，这个帐号是你的吗？</string>
+    <string name="passport_confirm_recycle_account_msg">"&lt;font color=Red>Looks like&lt;/font> the number %s has been recycled by your carrier, and there's a Mi Account associated with it. Is this account yours?"</string>
     <string name="passport_login_recycle_account_yes">Oui</string>
-    <string name="passport_login_recycle_account_no">Non</string>
+    <string name="passport_login_recycle_account_no">No</string>
     <string name="passport_reg_recycle_account_yes">Oui</string>
-    <string name="passport_reg_recycle_account_no">Non</string>
+    <string name="passport_reg_recycle_account_no">No</string>
+    <string name="passport_get_innetdate_title">Check when the number went online</string>
+    <string name="passport_get_innetdate_msg">&lt;font color=Red>Looks like&lt;/font> the number %s has been recycled by your carrier. Check when the number went online?</string>
+    <string name="passport_get_innetdate_agree">Check</string>
+    <string name="passport_get_innetdate_disagree">No</string>
     <string name="search_app_name">Compte Mi</string>
     <string name="search_mi_account">Compte Mi</string>
     <string name="search_mi_account_key_words">Mi Cloud, Paramètre de compte, Informations Mi Pay, Se déconnecter</string>
@@ -251,6 +255,7 @@ Pour activer votre compte, suivez le
     <string name="account_error_invalid_user_name">Le nom ne peut contenir &lt;, >, /</string>
     <string name="account_error_shorter_user_name">Le nom doit avoir plus de 2 caractères</string>
     <string name="account_error_longer_user_name">Le nom ne peut pas dépasser 20 caractères</string>
+    <string name="account_error_user_name">The name you entered is invalid</string>
     <string name="account_error_user_birthday">La date de naissance que vous avez entrée est incorrecte</string>
     <string name="account_limit_update_birthday">Impossible de mettre à jour votre anniversaire actuellement</string>
     <string name="account_user_other_info">"Plus d'infos"</string>
@@ -443,5 +448,9 @@ Pour activer votre compte, suivez le
     <string name="account_token_expired_msg">"Le code de vérification a expiré, recommencez ou déconnectez-vous
 L'ID de votre compte : %s"</string>
     <string name="bind_safe_phone_msg">Ajoutez votre numéro de téléphone pour être en mesure de vous connecter à votre compte Mi la prochaine fois.</string>
-    <string name="account_notification_message">La session a expiré, veuillez vous reconnecter.</string>
+    <string name="account_notification_message">>Session expired. Sign in again.</string>
+    <string name="sim_changed_notification_title">Changed phone number?</string>
+    <string name="sim_changed_notification_msg">Tap to update your recovery phone and keep your account more secure.</string>
+    <string name="recycle_phone_notification_title">Mi Account security risk</string>
+    <string name="recycle_phone_notification_msg">Looks like your phone number has been recycled. Tap to update.</string>
 </resources>

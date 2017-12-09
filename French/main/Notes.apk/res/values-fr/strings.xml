@@ -6,6 +6,7 @@
     <string name="sina_token_expired_warning">Compte Weibo expiré, ajoutez le compte à nouveau.</string>
     <string name="sina_token_invalid_warning">Compte Weibo non valide, ajoutez le compte à nouveau.</string>
     <string name="sina_share_fail_content_repeat">Vous avez déjà partagé cela.</string>
+    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">Notes;Mémo</string>
     <string name="search_path_notes">Applications système/Notes</string>
     <string name="dlg_move_message">Déplacement…</string>
@@ -73,6 +74,7 @@
     <string name="note_description_content">"L'application Notes est un bon outil pour enregistrer vos idées. Elle a intégré les rappels et synchronise vos éléments dans Mi Cloud afin de vous permettre de les accéder en tout lieu, à n'importe quel moment. Assurez-vous de pouvoir vous passer de ces fonctionnalités avant de supprimer l'application."</string>
     <string name="db_downgrade_clear_date_reminder">"Passer à une version différente de MIUI nécessite l'effacement des données de l'application pour les notes. Avant de le faire, assurez-vous d'avoir sauvegardé vos note sur Mi Cloud."</string>
     <string name="db_downgrade_clear_button">"Effacer les données de l'application"</string>
+    <string name="cloud_service_state_open_reminder">Turn on sync with Mi Cloud to sync notes.</string>
     <string name="app_name">Notes</string>
     <string name="app_widget">Notes</string>
     <string name="widget_havenot_content">Appuyer pour créer une note. Maintenir le widget pour redimensionner.</string>
@@ -117,6 +119,7 @@
     <string name="error_unsupport_content">Cette note contient des contenus non supportés, appuyer ici pour mettre à jour</string>
     <string name="error_contact_not_exist">Contact non existant</string>
     <string name="sync_tips">Appuyez pour synchroniser les notes avec Mi Cloud.</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="pref_title_font_size">Taille du texte</string>
     <string name="call_folder_name">"Notes d'appels"</string>
     <string name="trash_folder_name">Corbeille</string>

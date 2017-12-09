@@ -32,7 +32,6 @@
     <string name="emergency_alert_settings_title">"Paramètres d'alerte d'urgence"</string>
     <string name="enable_emergency_alerts_title">Activer les notifications</string>
     <string name="enable_emergency_alerts_summary">"Afficher les diffusions d'alerte d'urgence"</string>
-    <string name="alert_sound_duration_title">"Durée de l'alarme"</string>
     <string name="alert_reminder_interval_title">"Rappel d'alerte"</string>
     <string name="enable_alert_speech_title">"Énoncer un message d'alerte"</string>
     <string name="enable_alert_speech_summary">"Utiliser la synthèse vocale pour énoncer des messages d'alerte d'urgence"</string>
@@ -92,4 +91,5 @@
     <string name="cmas_opt_out_dialog_text">"Vous recevez actuellement les alertes d'urgence. Voulez-vous continuer à les recevoir ?"</string>
     <string name="cmas_opt_out_button_yes">Oui</string>
     <string name="cmas_opt_out_button_no">Non</string>
+    <string name="alert_sound_duration_title">"Durée de l'alarme"</string>
 </resources>

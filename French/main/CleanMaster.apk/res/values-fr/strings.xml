@@ -423,7 +423,6 @@
     <string name="wechat_cache_files">Cache de WeChat</string>
     <string name="qq_cache_files">Cache QQ</string>
     <string name="wechat_qq_chat_files">Historique de conversation</string>
-    <string name="wechat_chat_clean_done">Tout semble bon</string>
     <string name="analying">Analyse…</string>
     <string name="open_file_error">"Impossible de trouver l'application qui ouvre ce fichier"</string>
     <string name="location_not_found">Impossible de trouver le fichier</string>
@@ -474,4 +473,5 @@
     <string name="app_description_title">À propos du nettoyeur</string>
     <string name="app_description_content">"Le nettoyeur détecte des résidus sur votre appareil et libère de l'espace de stockage. Assurez-vous que vous pouvez vous passer de cette fonctionnalités avant de désinstaller l'application."</string>
     <string name="engine_init">Initialisation…</string>
+    <string name="wechat_chat_clean_done">Tout semble bon</string>
 </resources>

@@ -45,6 +45,7 @@
     <string name="size_giga_byte">Go</string>
     <string name="size_tera_byte">To</string>
     <string name="size_peta_byte">Po</string>
+    <string name="size_suffix">%1$s %2$s</string>
     <string name="date_time_done">Ok</string>
     <string name="date_picker_dialog_title">Définir la date</string>
     <string name="time_picker_dialog_title">"Régler l'heure"</string>
