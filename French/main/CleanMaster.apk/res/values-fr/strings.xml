@@ -456,7 +456,7 @@
     <string name="wechat_copy_video_failed_dialog_title">Exportation impossible</string>
     <string name="wechat_copying_video_success">Exporté avec succès</string>
     <string name="wechat_copying_video_dialog_title">Exporter vers la Galerie</string>
-    <string name="wechat_copying_video_dialog_msg">Les fichiers seront sauvegardés dans ce dossier : /DCIM/WeChat</string>
+    <string name="wechat_copying_video_dialog_msg">Files will be saved to this folder: %s</string>
     <string name="wechat_copying_video_dialog_checkbox">"Effacer les fichiers après l'exportation"</string>
     <string name="wechat_copying_video_empty">Aucune vidéo a exporter</string>
     <string name="wechat_content_empty">Aucun fichier a exporter</string>
@@ -473,5 +473,23 @@
     <string name="app_description_title">À propos du nettoyeur</string>
     <string name="app_description_content">"Le nettoyeur détecte des résidus sur votre appareil et libère de l'espace de stockage. Assurez-vous que vous pouvez vous passer de cette fonctionnalités avant de désinstaller l'application."</string>
     <string name="engine_init">Initialisation…</string>
-    <string name="wechat_chat_clean_done">Tout semble bon</string>
+    <string name="unlike">No thanks</string>
+    <string name="wechat_qq_celan_tab_video">Video</string>
+    <string name="wechat_qq_celan_tab_voice">Voice</string>
+    <string name="wechat_qq_celan_tab_image">Image</string>
+    <string name="wechat_qq_celan_tab_file">File</string>
+    <string name="wechat_qq_deep_clean_button_text">Deep clean</string>
+    <string name="wechat_clean_finish_summary">Deleted selected files successfully</string>
+    <string name="qq_clean_finish_summary">Deleted selected files successfully</string>
+    <string name="wechat_clean_finish_empty_summary">Everything looks good</string>
+    <string name="wechat_clean_canceled_empty_summary">"Cleanup wasn't finished, start over."</string>
+    <string name="wqfile_group_chat_pic">Chat image</string>
+    <string name="wqfile_group_chat_video">Chat video</string>
+    <string name="wqfile_group_chat_voice">Chat voice</string>
+    <string name="wqfile_group_chat_file">Other file</string>
+    <string name="wq_deep_clean_filter_all">All</string>
+    <string name="wq_deep_clean_filter_week_ago">A week ago</string>
+    <string name="wq_deep_clean_filter_month_ago">A month ago</string>
+    <string name="wq_deep_clean_filter_three_month_ago">Three months ago</string>
+    <string name="wq_deep_clean_filter_years_ago">Half year ago</string>
 </resources>

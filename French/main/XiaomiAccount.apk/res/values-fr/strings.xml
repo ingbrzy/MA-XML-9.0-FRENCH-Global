@@ -82,8 +82,8 @@ Pour activer votre compte, suivez le
     <string name="passport_delete_account">Se Déconnecter</string>
     <string name="passport_vcode_notification_title">"La vérification n'est pas terminée"</string>
     <string name="passport_account_name">Compte : %1$s</string>
-    <string name="passport_account_hint_text">Adresse e-mail, numéro de téléphone ou ID du Compte Mi</string>
-    <string name="passport_email_or_id_hint_text">Adresse email ou ID du compte Mi</string>
+    <string name="passport_account_hint_text">Email/Phone number/Mi Account ID</string>
+    <string name="passport_email_or_id_hint_text">Email/Mi Account ID</string>
     <string name="passport_phone_num_hint_text">Numéro de téléphone</string>
     <string name="passport_input_password_hint">Saisir le mot de passe</string>
     <string name="passport_input_captcha_hint">Saisir le captcha</string>

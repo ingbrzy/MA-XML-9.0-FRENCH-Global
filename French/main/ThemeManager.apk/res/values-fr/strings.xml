@@ -298,6 +298,7 @@
     <string name="theme_batch_update_dlg_content_single">Mettre à jour %1$s ?</string>
     <string name="theme_current_using_has_update">Mise à jour du thème disponible</string>
     <string name="theme_immediately_apply_tip">Appliquer ?</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_fresh_man_notifaction">Nouveaux thèmes disponibles</string>
     <string name="selected_resource_file_invalid">Le fichier sélectionné est non valide.</string>
     <string name="apply_theme_with_ringtones">Appliquer le thème avec la sonnerie</string>

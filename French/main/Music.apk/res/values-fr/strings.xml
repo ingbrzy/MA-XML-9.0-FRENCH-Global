@@ -43,6 +43,7 @@
 
 Appuyez sur %s pour démarrer ce téléchargement la prochaine fois que vous serez connecté à un réseau Wi-Fi."</string>
     <string name="download_no_application_title">"Impossible d'ouvrir le fichier"</string>
+    <string name="download_percent">%d%%</string>
     <string name="notification_need_wifi_for_size">La taille du téléchargement nécessite le Wi-Fi.</string>
     <string name="download_unknown_title">&lt;Sans titre></string>
     <string name="root_downloads">Téléchargements</string>

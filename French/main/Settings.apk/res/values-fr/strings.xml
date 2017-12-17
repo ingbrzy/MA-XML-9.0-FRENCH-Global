@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Aucune</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -694,6 +696,7 @@ Ce paramètre affecte tous les utilisateurs de ce téléphone."</string>
     <string name="security_enable_widgets_title">Activer les widgets</string>
     <string name="security_enable_widgets_disabled_summary">"Désactivé par l'administrateur"</string>
     <string name="owner_info_settings_summary">Aucun</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_edit_text_hint">"Exemple : l'Android de Jean"</string>
     <string name="user_info_settings_title">Infos utilisateur</string>
     <string name="show_profile_info_on_lockscreen_label">Afficher infos de profil sur écran de verrouillage</string>
@@ -955,6 +958,7 @@ Pour continuer d'utiliser votre téléphone, vous devez rétablir sa configurati
     <string name="wifi_display_options_name">Nom</string>
     <string name="wifi_band_24ghz">2,4 GHz</string>
     <string name="wifi_band_5ghz">5 GHz</string>
+    <string name="link_speed">%1$d Mbit/s</string>
     <string name="nfc_quick_toggle_title">NFC</string>
     <string name="nfc_quick_toggle_summary">"Autoriser l'échange de données lorsque le téléphone touche un autre appareil"</string>
     <string name="android_beam_settings_title">Android Beam</string>
@@ -2212,6 +2216,7 @@ Si l'appareil est utilisé par plusieurs personnes, l'utilisation de ce raccourc
     <string name="gadget_title">"Contrôle de l'alimentation"</string>
     <string name="gadget_toggle_wifi">Mise à jour des paramètres Wi-Fi</string>
     <string name="gadget_toggle_bluetooth">Mise à jour des paramètres Bluetooth</string>
+    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_on">activé</string>
     <string name="gadget_state_off">désactivé</string>
     <string name="gadget_state_turning_on">activation</string>
@@ -2389,6 +2394,7 @@ Une solution Google pour synchroniser vos données et vous permettre d'accéder 
     <string name="delete">Supprimer</string>
     <string name="misc_files">Fichiers divers</string>
     <string name="misc_files_selected_count">%1$d fichiers sélectionnés sur %2$d</string>
+    <string name="misc_files_selected_count_bytes">%1$s sur %2$s</string>
     <string name="select_all">Tout sélectionner</string>
     <string name="data_usage_summary_title">Consommation des données</string>
     <string name="data_usage_app_summary_title">Conso données</string>
@@ -2635,6 +2641,7 @@ N'importe quel utilisateur peut mettre à jour les applications pour tous les au
     <string name="nfc_payment_no_apps">Payez avec votre téléphone dans les magasins.</string>
     <string name="nfc_payment_default">Application de paiement par défaut</string>
     <string name="nfc_payment_default_not_set">Non définie</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_use_default">"Utiliser l'application par défaut"</string>
     <string name="nfc_payment_favor_default">Toujours</string>
     <string name="nfc_payment_favor_open">Sauf si une autre application de paiement est ouverte</string>
@@ -2695,6 +2702,7 @@ N'importe quel utilisateur peut mettre à jour les applications pour tous les au
     <string name="regulatory_info_text" />
     <string name="sim_setup_wizard_title">Cartes SIM</string>
     <string name="sim_settings_title">Cartes SIM</string>
+    <string name="sim_settings_summary">%1$s : %2$s</string>
     <string name="sim_cards_changed_message">Les cartes SIM ont été changées.</string>
     <string name="sim_cards_changed_message_summary">Appuyez pour définir les activités.</string>
     <string name="sim_cellular_data_unavailable">Les données mobiles sont indisponibles.</string>
@@ -2815,6 +2823,7 @@ N'importe quel utilisateur peut mettre à jour les applications pour tous les au
     <string name="zen_mode_option_important_interruptions">Interruptions prioritaires uniquement</string>
     <string name="zen_mode_option_alarms">Alarmes uniquement</string>
     <string name="zen_mode_option_no_interruptions">Aucune interruption</string>
+    <string name="zen_mode_summary_combination">%1$s : %2$s</string>
     <string name="zen_mode_visual_interruptions_settings_title">Bloquer dérangements visuels</string>
     <string name="configure_notification_settings">Configurer les notifications</string>
     <string name="advanced_section_header">Paramètres avancés</string>
@@ -2908,6 +2917,7 @@ L'application pourra aussi activer ou désactiver le mode Ne pas déranger, et m
     <string name="zen_mode_schedule_alarm_title">"L'alarme peut remplacer l'heure de fin"</string>
     <string name="zen_mode_schedule_alarm_summary">"Arrêter à l'heure de fin ou à la prochaine alarme, en fonction de ce qui arrive en premier"</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">%1$s – %2$s</string>
     <string name="summary_range_verbal_combination">Du %1$s au %2$s</string>
     <string name="zen_mode_calls">Appels</string>
     <string name="zen_mode_messages">Messages</string>
@@ -3089,6 +3099,8 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="memory_avg_use">Moyenne</string>
     <string name="memory_max_desc">Maximale : %1$s</string>
     <string name="memory_avg_desc">Moyenne : %1$s</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
+    <string name="process_format">%1$s (%2$d)</string>
     <string name="high_power_apps">Optimisation de la batterie</string>
     <string name="high_power_filter_on">Non optimisées</string>
     <string name="high_power_on">Non optimisée</string>
@@ -3365,6 +3377,7 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="dndm_auto_setting_group">Programmation</string>
     <string name="dndm_auto_button_title">Programmer le mode Ne pas déranger</string>
     <string name="dndm_auto_time_setting">"Régler l'heure"</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_on">De</string>
     <string name="dndm_auto_time_turn_on_title">Active automatiquement le mode Ne pas déranger</string>
     <string name="dndm_auto_time_turn_off">À</string>
@@ -4286,6 +4299,8 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="block_list_no_device">Aucun appareil connecté dans la liste noire</string>
     <string name="no_connected_devices">Aucun appareil connecté</string>
     <string name="tether_settings_disabled">"Le point d'accès mobile est désactivé"</string>
+    <string name="tether_data_usage_limit">One-time data limit</string>
+    <string name="tether_data_usage_limit_summary">Data limit will be applied next time your hotspot is on</string>
     <string name="hdmi_3dplay_settings_title">HDMI</string>
     <string name="hdmi_3dplay_control_text">Sortie 3D</string>
     <string name="hdmi_3dplay_control_enable_subtext">"Sortie 3D stéréoscopique vers l'affichage 3D externe est activé"</string>
@@ -4654,7 +4669,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="crypt_keeper_content_title">"Chiffrer l'appareil"</string>
     <string name="crypt_keeper_content">"Vous pouvez chiffrer vos comptes, les paramètres, les applications téléchargées et leurs données, les médias, et d'autres fichiers."</string>
     <string name="crypt_keeper_decrypt_methods_title">Déchiffrer votre appareil</string>
-    <string name="crypt_keeper_decrypt_methods">"Après chiffrement de l'appareil, en supposant que vous ’ avez mis en place un verrouillage de l'écran (qui est, un motif ou un PIN numérique ou un mot de passe), vous ’ aurez besoin pour déverrouiller l'écran pour déchiffrer l'appareil chaque fois que vous l'allumez. La seule autre façon de déchiffrer consiste à effectuer une réinitialisation des données d'usine pour supprimer toutes vos données."</string>
+    <string name="crypt_keeper_decrypt_methods">"Après chiffrement de l'appareil, en supposant que vous avez mis en place un verrouillage de l'écran (qui est, un motif ou un PIN numérique ou un mot de passe), vous aurez besoin pour déverrouiller l'écran pour déchiffrer l'appareil chaque fois que vous l'allumez. La seule autre façon de déchiffrer consiste à effectuer une réinitialisation des données d'usine pour supprimer toutes vos données."</string>
     <string name="crypt_keeper_decrypt_methods_cannot_decrypt">"Si vous avez chiffré votre téléphone, vous devez entrer votre mot de passe, PIN, ou schéma à chaque fois que vous redémarrez l'appareil afin de le déchiffrer."</string>
     <string name="crypt_keeper_conditions_title">À propos de chiffrer votre appareil</string>
     <string name="crypt_keeper_conditions">"Le chiffrement prend une heure ou plus. Vous devez commencer avec une batterie chargée et de garder votre appareil branché tout au long du processus. Si vous l'interrompez, vous ’ll peut perdre une partie ou la totalité de vos données."</string>
@@ -4818,6 +4833,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="size_giga_byte">Go</string>
     <string name="size_tera_byte">To</string>
     <string name="size_peta_byte">Po</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="radio_info_asdiv_switch_label">État ASDiv :</string>
     <string name="app_factory_reset_dlg_title">Désinstaller les mises à jour ?</string>
     <string name="app_factory_reset_dlg_text">Toutes les mises à jour de cette application système Android seront désinstallées.</string>

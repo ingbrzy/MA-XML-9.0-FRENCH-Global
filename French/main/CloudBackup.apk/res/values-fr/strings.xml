@@ -51,6 +51,8 @@ Note : Les données des applications que vous avez installées ne seront pas sau
     <string name="self_phone">Ce téléphone</string>
     <string name="process_whole_recovery">Restauration de \"%s\"</string>
     <string name="device_xiaomi">Téléphone Mi</string>
+    <string name="device_corrupt">Mi Phone (Data corrupt)</string>
+    <string name="size_unknown">Size unknown</string>
     <string name="recovering">Restauration %s</string>
     <string name="start_recover">Restaurer %s</string>
     <string name="latest_backup_time_loading">Chargement…</string>
@@ -58,7 +60,6 @@ Note : Les données des applications que vous avez installées ne seront pas sau
     <string name="backing_up_to_micloud">Sauvegarde en cours…</string>
     <string name="restore_from_cloud">Restaurer à partir de la sauvegarde Mi Cloud</string>
     <string name="backup_to_cloud">"Sauvegarder l'application"</string>
-    <string name="restoring_file_tile">Restauration de %d fichiers</string>
     <string name="menu_item_sort">Trier par</string>
     <string name="menu_item_sort_name">Nom</string>
     <string name="menu_item_sort_size">Taille</string>

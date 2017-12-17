@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Aucune</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -536,6 +538,7 @@ d MMMM"</string>
     <string name="ext_media_mountable_notification_title">Périphérique de stockage USB connecté</string>
     <string name="ext_media_mountable_notification_message">"Appuyez pour ouvrir dans l'Explorateur."</string>
     <string name="ext_media_safe_remove">Retirer en toute sécurité</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">ko/s</string>
     <string name="megabyte_per_second">Mo/s</string>
     <string name="status_bar_network_flow_today">"Aujourd'hui : %1$s"</string>
@@ -551,7 +554,7 @@ d MMMM"</string>
     <string name="expanded_confirm_disable_notification">Cacher</string>
     <string name="block_record_notification_title">Notifications cachées</string>
     <string name="block_record_notification_text">Masquer les notifications de %1$s.</string>
-    <string name="notification_hidden_text">Vous avez un nouveau message</string>
+    <string name="notification_hidden_text">You have a new message</string>
     <string name="block_notification_text">Masquer</string>
     <string name="block_notification_content_text">"Les notifications de %1$s ne s'afficheront plus. Vous pourrez changer ceci dans les Paramètres."</string>
     <string name="notification_otg_mouse_in">Souris connectée</string>
@@ -614,6 +617,7 @@ d MMMM"</string>
     <string name="notification_header_title">Notifications</string>
     <string name="weather_publish_time">Mis à jour à %1$s</string>
     <string name="no_weather_description">Obtenir les informations de la météo ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="screenshot_long_screenshot">Défiler</string>
     <string name="screenshot_edit">Éditer</string>
     <string name="screenshot_send">Envoyer</string>
@@ -656,4 +660,7 @@ d MMMM"</string>
     <string name="unimportant_desc">Toutes les notifications sans importance apparaîtront dans un dossier séparé.</string>
     <string name="important_desc">Toutes les notifications importantes appaîtront sur le panneau de notification.</string>
     <string name="cancel">Annuler</string>
+    <string name="search_hint">Search for websites, apps, contacts, and videos</string>
+    <string name="description_image_button_reject">Decline</string>
+    <string name="description_image_button_answer">Answer</string>
 </resources>
