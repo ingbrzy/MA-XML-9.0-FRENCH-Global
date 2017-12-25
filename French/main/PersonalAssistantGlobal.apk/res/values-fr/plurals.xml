@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="assistant_day">
+        <item quantity="other">Dans %d jours</item>
+        <item quantity="one">Dans %d jour</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">Il y a %1$d jours</item>
+        <item quantity="one">Il y a %1$d jour</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">Il y a %1$d h</item>
+        <item quantity="one">Il y a %1$d h</item>
+    </plurals>
+    <plurals name="main_delete_desc">
+        <item quantity="other">Retirer %s éléments des favoris ?</item>
+        <item quantity="one">Retirer %s élément des favoris ?</item>
+    </plurals>
+    <plurals name="main_mark_fav_num">
+        <item quantity="other">%s éléments marqués comme important</item>
+        <item quantity="one">%s élément marqué comme important</item>
+    </plurals>
+    <plurals name="main_mark_select_num">
+        <item quantity="other">%s éléments sélectionnés</item>
+        <item quantity="one">%s élément sélectionné</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">Il y a %1$d min</item>
+        <item quantity="one">Il y a %1$d min</item>
+    </plurals>
+    <plurals name="sms_hour_suffix">
+        <item quantity="other">Dans %d heures</item>
+        <item quantity="one">Dans %d heure</item>
+    </plurals>
+    <plurals name="sms_minute_suffix">
+        <item quantity="other">Dans %d minutes</item>
+        <item quantity="one">Dans %d minute</item>
+    </plurals>
+    <plurals name="sms_title_hours">
+        <item quantity="other">%d heures</item>
+        <item quantity="one">%d heure</item>
+    </plurals>
+    <plurals name="sms_title_minutes">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="step_km">
+        <item quantity="other">%d km</item>
+        <item quantity="one">%d km</item>
+    </plurals>
+    <plurals name="steps">
+        <item quantity="other">%d | pas</item>
+        <item quantity="one">%d | pas</item>
+    </plurals>
+    <plurals name="time_hour_ago">
+        <item quantity="other">il y a %d heures</item>
+        <item quantity="one">Il y a %d heure</item>
+    </plurals>
+    <plurals name="time_minute_ago">
+        <item quantity="other">il y a %d minutes</item>
+        <item quantity="one">Il y a %d minute</item>
+    </plurals>
+</resources>
