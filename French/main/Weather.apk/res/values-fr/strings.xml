@@ -87,7 +87,6 @@
     <string name="daily_forcast_wind_connect">%2$s %1$s</string>
     <string name="daily_forecast_detail">Détail des prévisions</string>
     <string name="daily_forecast_detail_date">d/M</string>
-    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Impossible d'obtenir les données météo
 Faites glisser vers le bas pour actualiser ou vérifier les paramètres réseau"</string>
     <string name="data_provided_by">Données fournies par</string>
@@ -107,8 +106,6 @@ Faites glisser vers le bas pour actualiser ou vérifier les paramètres réseau"
     <string name="global_aqi">IQA : %1$s %2$s</string>
     <string name="gps_hint">Position actuelle</string>
     <string name="hourly_forcast_now">Maintenant</string>
-    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
-    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title">Prévision par heure</string>
     <string name="index_item_experience_now">Installer maintenant</string>
@@ -133,13 +130,11 @@ Faites glisser vers le bas pour actualiser ou vérifier les paramètres réseau"
     <string name="information_manager_extension">Extension météo</string>
     <string name="information_views" />
     <string name="install">Installer</string>
-    <string name="install_progress">%1$s %%</string>
     <string name="international_detail_menu_title">Détails</string>
     <string name="international_details_pressure_title">PRESSION</string>
     <string name="international_details_real_feel_title">REAL FEEL®</string>
     <string name="international_details_title">Détails</string>
     <string name="international_details_uv_index_title">INDICE UV</string>
-    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">VENT</string>
     <string name="it_is_going_to_rain">Il va pleuvoir</string>
     <string name="locate_fail_detail_err">"Impossible de localiser l'appareil
@@ -210,7 +205,6 @@ Appuyer sur l'écran pour ajouter manuellement ou repositionner une ville"</stri
     <string name="share_subject">Partager</string>
     <string name="share_title">Partager la météo</string>
     <string name="share_weather_desc">"\#Météo MIUI#Aujourd'hui %1$s %2$s"</string>
-    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">"Impossible de prendre une capture d'écran"</string>
     <string name="some_where_on_earth">Quelque part sur terre</string>
