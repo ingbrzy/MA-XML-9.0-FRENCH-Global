@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Aucune</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -360,22 +362,22 @@
     <string name="status_bar_screen_key_home">Bouton accueil</string>
     <string name="status_bar_screen_key_recent_apps">Bouton applications récentes</string>
     <string name="status_bar_screen_key_back">Bouton Retour</string>
-    <string name="status_bar_screen_button_key_force_immersive">Hide soft buttons</string>
-    <string name="status_bar_screen_button_force_immersive_desc">Swipe up from the bottom of the screen to show soft buttons</string>
-    <string name="screen_max_aspect_ratio_title">Fullscreen mode</string>
-    <string name="screen_max_aspect_ratio_desc">Allow selected apps to work in fullscreen mode</string>
+    <string name="status_bar_screen_button_key_force_immersive">"Masquer les boutons à l'écran"</string>
+    <string name="status_bar_screen_button_force_immersive_desc">"Balayez du haut vers le bas de l'écran pour afficher les boutons virtuels"</string>
+    <string name="screen_max_aspect_ratio_title">Mode Plein écran</string>
+    <string name="screen_max_aspect_ratio_desc">Autorisez les applications sélectionnées à fonctionner en mode Plein écran</string>
     <string name="switch_screen_button_order">"Changer l'ordre des boutons"</string>
     <string name="switch_screen_button_order_desc">Emplacement des boutons Retour et Menu</string>
-    <string name="unrestrict_max_aspect_ratio_title">These apps are optimized for fullscreen mode</string>
-    <string name="suggest_unrestrict_max_aspect_ratio_title">These apps work best in fullscreen mode</string>
-    <string name="restrict_max_aspect_ratio_title">"These apps don't work well in fullscreen mode"</string>
-    <string name="max_aspect_settings_all_app_display_loading">Just a sec…</string>
-    <string name="force_immersive_compatibility_hint_title">Compatibility issues</string>
-    <string name="force_immersive_compatibility_hint_message">Some apps might not work properly if you choose to hide soft buttons.</string>
-    <string name="force_immersive_compatibility_hide">Hide</string>
-    <string name="force_immersive_compatibility_dont_hide">"Don't hide"</string>
-    <string name="infinity_display_settings">Full display</string>
-    <string name="infinity_display_slogan">Innovation on full display</string>
+    <string name="unrestrict_max_aspect_ratio_title">Ces applications sont optimisées pour le mode Plein écran</string>
+    <string name="suggest_unrestrict_max_aspect_ratio_title">Ces applications fonctionnent parfaitement en mode Plein écran</string>
+    <string name="restrict_max_aspect_ratio_title">Ces applications ne fonctionnent pas bien en mode Plein écran</string>
+    <string name="max_aspect_settings_all_app_display_loading">Juste un instant…</string>
+    <string name="force_immersive_compatibility_hint_title">Problèmes de compatibilité</string>
+    <string name="force_immersive_compatibility_hint_message">Certaines applications pourraient ne pas fonctionner correctement si vous choisissez de masquer les boutons programmables.</string>
+    <string name="force_immersive_compatibility_hide">Masquer</string>
+    <string name="force_immersive_compatibility_dont_hide">Ne pas masquer</string>
+    <string name="infinity_display_settings">Affichage complet</string>
+    <string name="infinity_display_slogan">"Innovation sur l'affichage complet"</string>
     <string name="settings_toggle_position_divider_list">%1$d raccourcis placés au dessus de la barre sont actifs</string>
     <string name="status_bar_settings_user_fold">Dossier des notifications</string>
     <string name="status_bar_settings_user_fold_summary">Toutes les notifications sans importance apparaîtront dans un dossier séparé</string>
@@ -391,6 +393,23 @@
     <string name="unimportant">Sans importance</string>
     <string name="check_importance">Marquer comme important ?</string>
     <string name="statusbar_permission_desc">Les autorisations suivantes sont uniquement valides pour les notifications importantes.</string>
+    <string name="navigation_type_settings">System navigation ways</string>
+    <string name="navigation_type_radio_text_virtual_key">Classic navigation bar</string>
+    <string name="navigation_type_radio_text_full_screen">Full screen gestures</string>
+    <string name="navigation_guide_dialog_title">Learn gesture</string>
+    <string name="navigation_guide_dialog_summary">Use gesture instead of virtual key.</string>
+    <string name="navigation_guide_dialog_ok">Learn</string>
+    <string name="navigation_guide_dialog_skip">Skip</string>
+    <string name="navigation_guide_dialog_dont_show_again">"Don't show again"</string>
+    <string name="navigation_guide_back_anim_title">Back gesture animation</string>
+    <string name="navigation_guide_back_anim_summary">Back gesture with animation</string>
+    <string name="navigation_guide_settings">Lessons</string>
+    <string name="navigation_guide_home_title">Back to home</string>
+    <string name="navigation_guide_home_summary">Swipe up from the bottom of the screen</string>
+    <string name="navigation_guide_recent_title">Switch to recents</string>
+    <string name="navigation_guide_recent_summary">Swipe up from the bottom of the screen and pause</string>
+    <string name="navigation_guide_back_title">Go back last page</string>
+    <string name="navigation_guide_back_summary">Swipe left or right from screen</string>
     <string name="abc_action_mode_done">OK</string>
     <string name="abc_action_bar_home_description">"Revenir à l'accueil"</string>
     <string name="abc_action_bar_up_description">Revenir en haut de la page</string>
@@ -694,6 +713,7 @@ Ce paramètre affecte tous les utilisateurs de ce téléphone."</string>
     <string name="security_enable_widgets_title">Activer les widgets</string>
     <string name="security_enable_widgets_disabled_summary">"Désactivé par l'administrateur"</string>
     <string name="owner_info_settings_summary">Aucun</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_edit_text_hint">"Exemple : l'Android de Jean"</string>
     <string name="user_info_settings_title">Infos utilisateur</string>
     <string name="show_profile_info_on_lockscreen_label">Afficher infos de profil sur écran de verrouillage</string>
@@ -827,7 +847,7 @@ Pour continuer d'utiliser votre téléphone, vous devez rétablir sa configurati
     <string name="unlock_setup_wizard_fingerprint_details">"Une fois que vous avez configuré un verrouillage de l'écran, vous pouvez également configurer votre empreinte numérique dans Paramètres > Sécurité."</string>
     <string name="unlock_disable_lock_title">"Désactiver le verrouillage de l'écran"</string>
     <string name="unlock_disable_frp_warning_title">"Supprimer la protection de l'appareil ?"</string>
-    <string name="unlock_disable_frp_warning_title_profile">Supprimer la protection du profil ?</string>
+    <string name="unlock_disable_frp_warning_title_profile">Remove profile protection?</string>
     <string name="unlock_disable_frp_warning_content_pattern">"Les fonctionnalités de protection de l'appareil ne fonctionnent pas sans votre schéma."</string>
     <string name="unlock_disable_frp_warning_content_pattern_fingerprint">"Les fonctionnalités de protection de l'appareil ne fonctionnent pas sans votre schéma. Vos empreintes digitales enregistrées seront également supprimées de cet appareil, et vous ne pourrez plus les utiliser pour déverrouiller votre téléphone, autoriser des achats ni vous connecter à des applications."</string>
     <string name="unlock_disable_frp_warning_content_pin">"Les fonctionnalités de protection de l'appareil ne fonctionnent pas sans votre code."</string>
@@ -955,6 +975,7 @@ Pour continuer d'utiliser votre téléphone, vous devez rétablir sa configurati
     <string name="wifi_display_options_name">Nom</string>
     <string name="wifi_band_24ghz">2,4 GHz</string>
     <string name="wifi_band_5ghz">5 GHz</string>
+    <string name="link_speed">%1$d Mbit/s</string>
     <string name="nfc_quick_toggle_title">NFC</string>
     <string name="nfc_quick_toggle_summary">"Autoriser l'échange de données lorsque le téléphone touche un autre appareil"</string>
     <string name="android_beam_settings_title">Android Beam</string>
@@ -2212,6 +2233,7 @@ Si l'appareil est utilisé par plusieurs personnes, l'utilisation de ce raccourc
     <string name="gadget_title">"Contrôle de l'alimentation"</string>
     <string name="gadget_toggle_wifi">Mise à jour des paramètres Wi-Fi</string>
     <string name="gadget_toggle_bluetooth">Mise à jour des paramètres Bluetooth</string>
+    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_on">activé</string>
     <string name="gadget_state_off">désactivé</string>
     <string name="gadget_state_turning_on">activation</string>
@@ -2636,6 +2658,7 @@ N'importe quel utilisateur peut mettre à jour les applications pour tous les au
     <string name="nfc_payment_no_apps">Payez avec votre téléphone dans les magasins.</string>
     <string name="nfc_payment_default">Application de paiement par défaut</string>
     <string name="nfc_payment_default_not_set">Non définie</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_use_default">"Utiliser l'application par défaut"</string>
     <string name="nfc_payment_favor_default">Toujours</string>
     <string name="nfc_payment_favor_open">Sauf si une autre application de paiement est ouverte</string>
@@ -2696,6 +2719,7 @@ N'importe quel utilisateur peut mettre à jour les applications pour tous les au
     <string name="regulatory_info_text" />
     <string name="sim_setup_wizard_title">Cartes SIM</string>
     <string name="sim_settings_title">Cartes SIM</string>
+    <string name="sim_settings_summary">%1$s : %2$s</string>
     <string name="sim_cards_changed_message">Les cartes SIM ont été changées.</string>
     <string name="sim_cards_changed_message_summary">Appuyez pour définir les activités.</string>
     <string name="sim_cellular_data_unavailable">Les données mobiles sont indisponibles.</string>
@@ -2816,6 +2840,7 @@ N'importe quel utilisateur peut mettre à jour les applications pour tous les au
     <string name="zen_mode_option_important_interruptions">Interruptions prioritaires uniquement</string>
     <string name="zen_mode_option_alarms">Alarmes uniquement</string>
     <string name="zen_mode_option_no_interruptions">Aucune interruption</string>
+    <string name="zen_mode_summary_combination">%1$s : %2$s</string>
     <string name="zen_mode_visual_interruptions_settings_title">Bloquer dérangements visuels</string>
     <string name="configure_notification_settings">Configurer les notifications</string>
     <string name="advanced_section_header">Paramètres avancés</string>
@@ -2909,6 +2934,7 @@ L'application pourra aussi activer ou désactiver le mode Ne pas déranger, et m
     <string name="zen_mode_schedule_alarm_title">"L'alarme peut remplacer l'heure de fin"</string>
     <string name="zen_mode_schedule_alarm_summary">"Arrêter à l'heure de fin ou à la prochaine alarme, en fonction de ce qui arrive en premier"</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">%1$s – %2$s</string>
     <string name="summary_range_verbal_combination">Du %1$s au %2$s</string>
     <string name="zen_mode_calls">Appels</string>
     <string name="zen_mode_messages">Messages</string>
@@ -3090,6 +3116,8 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="memory_avg_use">Moyenne</string>
     <string name="memory_max_desc">Maximale : %1$s</string>
     <string name="memory_avg_desc">Moyenne : %1$s</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
+    <string name="process_format">%1$s (%2$d)</string>
     <string name="high_power_apps">Optimisation de la batterie</string>
     <string name="high_power_filter_on">Non optimisées</string>
     <string name="high_power_on">Non optimisée</string>
@@ -3366,6 +3394,7 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="dndm_auto_setting_group">Programmation</string>
     <string name="dndm_auto_button_title">Programmer le mode Ne pas déranger</string>
     <string name="dndm_auto_time_setting">"Régler l'heure"</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_on">De</string>
     <string name="dndm_auto_time_turn_on_title">Active automatiquement le mode Ne pas déranger</string>
     <string name="dndm_auto_time_turn_off">À</string>
@@ -4267,6 +4296,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="wifi_share_action_turn_off">Arrêter le partage de réseaux</string>
     <string name="wifi_share_list_empty">Aucun réseau partagé trouvé.</string>
     <string name="wifi_share_connect">Se connecter</string>
+    <string name="enalbe_identify_iPhone">AP identification</string>
     <string name="wifi_share_qrcode_title">Partager ce réseau Wi-Fi</string>
     <string name="wifi_share_qrcode_summary">Pour partager, scannez le code QR ci-dessus.</string>
     <string name="wifi_share_qrcode_finish">OK</string>
@@ -4287,8 +4317,8 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="block_list_no_device">Aucun appareil connecté dans la liste noire</string>
     <string name="no_connected_devices">Aucun appareil connecté</string>
     <string name="tether_settings_disabled">"Le point d'accès mobile est désactivé"</string>
-    <string name="tether_data_usage_limit">One-time data limit</string>
-    <string name="tether_data_usage_limit_summary">Data limit will be applied next time your hotspot is on</string>
+    <string name="tether_data_usage_limit">Limite de données unique</string>
+    <string name="tether_data_usage_limit_summary">"La limite de données sera appliquée la prochaine fois que votre point d'accès sera activé"</string>
     <string name="hdmi_3dplay_settings_title">HDMI</string>
     <string name="hdmi_3dplay_control_text">Sortie 3D</string>
     <string name="hdmi_3dplay_control_enable_subtext">"Sortie 3D stéréoscopique vers l'affichage 3D externe est activé"</string>
@@ -4620,7 +4650,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="wifi_switch_to_gsm_title">Utiliser le GSM ?</string>
     <string name="wifi_switch_to_gsm_message">Connexion Wi-Fi perdue. Utiliser la connexion de données mobile ?</string>
     <string name="wifi_datanetwork_switch_not_remind">Ne plus afficher</string>
-    <string name="skip_lock_screen_confirm_msg">"Notifications, music player controls, and shortcuts won't be displayed on the Lock screen."</string>
+    <string name="skip_lock_screen_confirm_msg">"Les notifications, les commandes du lecteur de musique et les raccourcis ne seront pas affichés sur l'écran de verrouillage."</string>
     <string name="performance_category">Performance</string>
     <string name="fluency_mode">Animations système</string>
     <string name="fluency_mode_confirm_and_reboot">Redémarrer maintenant</string>
@@ -4749,6 +4779,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="bootloader_locked_answer_1_warning">"Souvenez-vous : Vous ne serez pas en mesure d'utiliser \"Localiser l'appareil\" après que le téléphone soit déverrouillé."</string>
     <string name="bootloader_locked_question_2">Je comprends les risques, mais veux toujours déverrouiller mon appareil.</string>
     <string name="bootloader_locked_answer_2">"Appuyez sur le bouton ci-dessous pour associer votre compte Mi avec cet appareil. Ensuite, allez sur le site MIUI pour télécharger l'outil de déverrouillage et installez-le sur votre ordinateur. Voici l'adresse :"</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="bootloader_locked_check_status">Ajouter un compte et un appareil</string>
     <string name="bootloader_device_bind_already">Ajouté avec succès. Votre compte Mi est maintenant associé à cet appareil.</string>
     <string name="bootloader_device_bind_no_account">"Connectez-vous d'abord à votre compte Mi"</string>
@@ -4820,6 +4851,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="size_giga_byte">Go</string>
     <string name="size_tera_byte">To</string>
     <string name="size_peta_byte">Po</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="radio_info_asdiv_switch_label">État ASDiv :</string>
     <string name="app_factory_reset_dlg_title">Désinstaller les mises à jour ?</string>
     <string name="app_factory_reset_dlg_text">Toutes les mises à jour de cette application système Android seront désinstallées.</string>
@@ -4851,6 +4883,9 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="pre_installed_application">Applications pré-installées</string>
     <string name="user_settings_forbidden">"Impossible de modifier les paramètres administrateur dans l'espace actuel. Retournez au premier espace."</string>
     <string name="owner_space">Premier espace</string>
+    <string name="open_demo_mode_warning_message">When Demo mode is on, the clock in the status bar will stop, battery and signal icons will be displayed as full. You can turn Demo mode off or reboot the device to change this.</string>
+    <string name="open_demo_mode">Open</string>
+    <string name="close_demo_mode">Cancel</string>
     <string name="spellchecker_switch_title">"Activer le correcteur d'orthographe"</string>
     <string name="start_silent_mode">Activer le mode Silence</string>
     <string name="silent_settings">Silencieux/NPD</string>
@@ -4895,10 +4930,12 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="mode_disable">Désactivé</string>
     <string name="demo_mode_summary">"Afficher l'icône de démo sur la barre d'état"</string>
     <string name="popup_window">Restreindre les notifications flottantes</string>
+    <string name="mute_music_stream">Mute music stream</string>
     <string name="miui_enable_service_title">Le service effectuera les actions suivantes :</string>
     <string name="bluetooth_device_misc_title">Périphériques Bluetooth rarement utilisés</string>
     <string name="bt_rarely_used_device_title">Appareils rarement utilisés (%d)</string>
     <string name="search_input_hint">Paramètres de recherche</string>
+    <string name="back_button">Back</string>
     <string name="music_audio_effect_optimize">Paramètres audio</string>
     <string name="music_audio_effect_optimize_summary">Dirac, écouteurs et autres paramètres audio</string>
     <string name="music_audio_effect_optimize_summary_with_hifi">Dirac, Hi-Fi, écouteurs et autres paramètres audio</string>
@@ -4944,7 +4981,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="music_dirac_mode_in_ear_pro">Intra Mi Pro</string>
     <string name="music_dirac_mode_capsule">Mi Capsule</string>
     <string name="music_dirac_mode_headset_comfort">Mi Comfort</string>
-    <string name="music_dirac_mode_reduction_noise">Reduce Noise TypeC</string>
+    <string name="music_dirac_mode_reduction_noise">Reduce noise (USB-C)</string>
     <string name="music_audio_effect_settings">Paramètres des effets</string>
     <string name="music_equalizer_summary">Ajuster les niveaux individuels pour différents types de musique</string>
     <string name="music_unsupport_effect_summary">Les casques USB ne sont pas pris en charge</string>
@@ -5068,6 +5105,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="work_space_delete">"Supprimer l'espace de travail"</string>
     <string name="work_space_delete_description">"Vous ne serez plus en mesure d'entrer dans l'espace de travail une fois que vous le supprimez. Toutes les données seront déplacées ou supprimées."</string>
     <string name="work_space_delete_confirm">Supprimer maintenant</string>
+    <string name="unlock_set_unlock_password_none">None</string>
     <string name="unlock_set_unlock_biometric_weak_title">Déverrouillage facial</string>
     <string name="unlock_set_unlock_biometric_weak_summary">Fonctionnalité expérimentale avec niveau de sécurité faible</string>
     <string name="biometric_weak_improve_matching_title">Améliorer la correspondance de visages</string>
@@ -5136,6 +5174,9 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="lock_screen_secure_after_timeout_immediately_summary">Mot de passe immédiatement requis.</string>
     <string name="lock_screen_secure_after_timeout_immediately_never">Ne jamais exiger un mot de passe</string>
     <string name="fingerprint_payment">Fingerprint payments</string>
+    <string name="unlock_disable_frp_warning_content_profile">"Profile protection features will not work without your password.
+
+ You won't be able to unlock your profile, authorize purchases, or sign in to apps with them."</string>
     <string name="print_settings_title">"Services d'impression"</string>
     <string name="dirac_control">Optimiser la qualité audio</string>
     <string name="dirac_mode_off">Dirac désactivé</string>
@@ -5229,7 +5270,6 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="wifi_master_key_service_dialog_title">Réseaux Wi-Fi partagés</string>
     <string name="quiet_mode">Mettre en silence les dérangements</string>
     <string name="screen_resolution_confirm">Redémarrer</string>
-    <string name="enalbe_identify_iPhone">Identification AP</string>
     <string name="block_list_qcom_dialog_content">"Cette action déconnectera \" %s \" de cet appareil et l'ajoutera à la liste noire"</string>
     <string name="block_list_mtk_dialog_content">Cette action déconnectera \" %s \" de cet appareil</string>
     <string name="miui_silent_title">Mode silencieux</string>

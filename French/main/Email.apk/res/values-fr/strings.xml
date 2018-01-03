@@ -80,7 +80,7 @@
     <string name="account_setup_basics_password_label">Saisir le mot de passe</string>
     <string name="account_setup_basics_title">Ajouter un compte</string>
     <string name="account_setup_check_settings_check_incoming_msg">Validation des paramètres du serveur…</string>
-    <string name="account_setup_check_settings_check_outgoing_msg">Validation des paramètres smtp…</string>
+    <string name="account_setup_check_settings_check_outgoing_msg">Validation des paramètres SMTP…</string>
     <string name="account_setup_check_settings_retr_info_msg">"    Récupération des informations sur le compte…"</string>
     <string name="account_setup_correct_address_tips">"Saisir l'adresse e-mail"</string>
     <string name="account_setup_creating_account_msg">"    Création du compte…"</string>
@@ -159,7 +159,6 @@
     <string name="account_sync_settings_settings">"Synchroniser les contacts et l'agenda"</string>
     <string name="account_sync_settingstip_description">Synchroniser</string>
     <string name="account_waiting_for_folders_msg">Chargement des dossiers…</string>
-    <string name="actionbar_large_unread_count">%1$d+ non lu(s)</string>
     <string name="activity_folder_selection">Choisir un dossier</string>
     <string name="activity_mailbox_selection">Choisir un compte</string>
     <string name="ad_merge">Publicités &amp; Notifications</string>
@@ -224,6 +223,8 @@
     <string name="bank_card_detail">Infos de la carte de crédit</string>
     <string name="battery_saver">Économiseur de batterie</string>
     <string name="battery_saver_keywords">économiseur de batterie;e-mail batterie</string>
+    <string name="bcc">Cci</string>
+    <string name="bcc_heading">"Cci : "</string>
     <string name="bill_center_setting">Paramètres de facturation</string>
     <string name="bill_center_setting_head">Importer les informations de ces comptes</string>
     <string name="bill_cycle_text">Cycle de facturation</string>
@@ -243,6 +244,9 @@
     <string name="cancel_action">Annuler</string>
     <string name="cancel_pop3_attchemt_downloading">"Impossible d'annuler les téléchargements en cours pour les pièces jointes dans les comptes POP3"</string>
     <string name="cant_move_or_change_labels">Impossible de déplacer des messages depuis plusieurs comptes.</string>
+    <string name="cc">Cc</string>
+    <string name="cc_attribution">Cc : %1$s&lt;br></string>
+    <string name="cc_bcc">Cc/Cci</string>
     <string name="cc_heading">"Cc : "</string>
     <string name="change_folders_selection_dialog_title">Changement de dossier</string>
     <string name="change_sync_settings">Modifier les paramètres de synchronisation</string>
@@ -470,10 +474,10 @@
     <string name="gmail_web_login_go">OK</string>
     <string name="gmail_web_login_required_message">Se connecter à Gmail</string>
     <string name="header_category_account">Comptes</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Commentaires</string>
     <string name="header_label_general_preferences">Paramètres généraux</string>
     <string name="help_and_info">Aide</string>
-    <string name="hide_atts_remaining">Masquer %1$d pièces jointes</string>
     <string name="hide_elided">▼ Cacher le texte cité</string>
     <string name="hide_password">Masquer le mot de passe</string>
     <string name="hint_quick_reply_all">Répondre à tous</string>
@@ -492,13 +496,13 @@
     <string name="invalid_recipient">"L'adresse %s est invalide."</string>
     <string name="invalid_recipient_title">Erreur de destinataire</string>
     <string name="kilobytes">%s ko</string>
+    <string name="label_notification_ticker" formatted="false">%s: %s</string>
     <string name="load_from_remote">Rechercher les e-mails sur le serveur</string>
     <string name="load_more">Charger plus</string>
     <string name="loading_conversation">Chargement…</string>
     <string name="loading_conversations">Chargement…</string>
     <string name="loading_from_remote">Chargement…</string>
     <string name="local_search">Recherche locale</string>
-    <string name="local_search_result">%s résultats dans les messages synchronisés</string>
     <string name="login">Se connecter</string>
     <string name="login139">Se connecter avec China Mobile</string>
     <string name="login_failed_ticker">Impossible de se connecter à %s.</string>
@@ -613,7 +617,6 @@
     <string name="mibill_privacy_policy_description">Autoriser Mi Wallet à analyser et gérer vos factures automatiquement. Cette fonctionnalités est automatiquement désactivé pour les adresses e-mails de travail.</string>
     <string name="mibill_privacy_policy_title">Gérer les factures automatiquement</string>
     <string name="min_payment_text">Paiement minimal</string>
-    <string name="more_atts_remaining">%1$d encore restant</string>
     <string name="more_context">Plus</string>
     <string name="move_to_selection_dialog_title">Déplacer vers un autre dossier</string>
     <string name="multiple_new_message_notification_item"><b>%1$s</b>"   %2$s"</string>
@@ -625,7 +628,6 @@
     <string name="network_try_again">Vérifiez la connexion réseau et réessayez</string>
     <string name="network_unavailable">Réseau non disponible</string>
     <string name="new_incoming_messages_one">Nouveau message de %s. Afficher.</string>
-    <string name="new_messages">%1$d nouveaux messages</string>
     <string name="new_signature_has_saved">Sauvegardée avec succès</string>
     <string name="next_action">Suivant</string>
     <string name="no">Non</string>
@@ -801,7 +803,6 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="quick_3">Je vais le lire plus tard et revenir vers vous.</string>
     <string name="quick_4">Nous allons fixer un rendez-vous pour en discuter.</string>
     <string name="quick_reply_dialog_title">Choisir une réponse</string>
-    <string name="quick_reply_hint">Répondre à %1$d personnes</string>
     <string name="quick_reply_hint_bcc">(En CCI)</string>
     <string name="quick_reply_hint_cc">(En CC)</string>
     <string name="quick_reply_hint_reply_only_from">Réponse rapide (expéditeur seulement)</string>
@@ -821,8 +822,10 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="recognize_hotel_other_money">Autres dépenses %1$s</string>
     <string name="recognize_hotel_reverse_date">Enregistrement avant %1$s:%2$s %3$s</string>
     <string name="recognize_hotel_room_type">Chambre</string>
+    <string name="recognize_hotel_room_type_value">%1$s × %2$s</string>
     <string name="recognize_hotel_title">Réservation dhôtel</string>
     <string name="recognize_hotel_user_names">Invité</string>
+    <string name="recognize_hotel_user_names_value">%1$s+%2$s</string>
     <string name="recognize_setting_title">Paramètres de voyage</string>
     <string name="recognize_ticket_air_notification_content">Profitez de votre vol !</string>
     <string name="recognize_ticket_air_notification_title">Le vol %3$s (%2$s/%1$s) va bientôt décoller. Vérifiez bien vos informations de vol.</string>
@@ -844,7 +847,6 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="refreshing_done">Terminé</string>
     <string name="release_to_refresh">Relâchez pour actualiser</string>
     <string name="remind_attachment_size_limit">Vos e-mails ne doivent pas dépasser %s Mo</string>
-    <string name="remote_search_result">%s résultats sur le serveur</string>
     <string name="remove_account">Supprimer le compte</string>
     <string name="remove_folder">Retirer de %1$s</string>
     <string name="remove_star">Retirer des favoris</string>
@@ -883,6 +885,7 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="security_unsupported_ticker_fmt">Le compte \"%s\" ne peut pas être synchronisé en raison des exigences de sécurité.</string>
     <string name="select_attachment_type">Choisir la pièce jointe depuis</string>
     <string name="select_no_file">Aucune pièce jointe sélectionnée</string>
+    <string name="select_path">Sélectionnez le chemin d’accès</string>
     <string name="send">Envoyer</string>
     <string name="send_failed">"Le message n'a pas été envoyé."</string>
     <string name="send_feed_back">Envoyez votre avis</string>
@@ -923,6 +926,7 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="silent_ringtone">Silence</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Le mot de passe du serveur sortant est incorrect</string>
     <string name="sort_attachment">Trier par</string>
     <string name="storage">Stockage</string>
@@ -952,6 +956,7 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="tablet">tablette</string>
     <string name="tap_to_configure">Appuyez pour configurer.</string>
     <string name="tap_to_enable_sync">Appuyez pour activer.</string>
+    <string name="to">À</string>
     <string name="to_heading">"À : "</string>
     <string name="toast_bar_fail_synchronization">Impossible de se connecter au réseau</string>
     <string name="toast_bar_insufficient_memory_space">Impossible de recevoir des e-mails. Espace de stockage insuffisant.</string>
@@ -991,7 +996,6 @@ Supprimer le compte ?"</string>
     <string name="undo">Annuler</string>
     <string name="unknow">Inconnu</string>
     <string name="unread_string">Conversation non lue</string>
-    <string name="unsent_messages_in_outbox">%1$s e-mail(s) non envoyé(s) dans %2$s</string>
     <string name="unzip_file_failed">Impossible de décompresser le fichier</string>
     <string name="update_date_format_templete">HH:mm aa, MMMM dd</string>
     <string name="update_to_wps_mail">Profitez de plus de fonctionnalités avec WPS Mail</string>
@@ -1031,4 +1035,12 @@ Appuyer sur \""<b>Synchroniser maintenant</b> pour la première synchronisation 
     <string name="you_are_in_mobile_network">Utiliser les données mobiles pour envoyer les logs?</string>
     <string name="youfuli">Promotion</string>
     <string name="zip_viewer_no_file">Aucun fichier.</string>
+    <string name="actionbar_large_unread_count">%1$d+ non lu(s)</string>
+    <string name="hide_atts_remaining">Masquer %1$d pièces jointes</string>
+    <string name="local_search_result">%s résultats dans les messages synchronisés</string>
+    <string name="more_atts_remaining">%1$d encore restant</string>
+    <string name="new_messages">%1$d nouveaux messages</string>
+    <string name="quick_reply_hint">Répondre à %1$d personnes</string>
+    <string name="remote_search_result">%s résultats sur le serveur</string>
+    <string name="unsent_messages_in_outbox">%1$s e-mail(s) non envoyé(s) dans %2$s</string>
 </resources>

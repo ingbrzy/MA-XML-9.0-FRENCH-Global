@@ -57,6 +57,7 @@
     <string name="save_pic_success">Image sauvegardée dans %s</string>
     <string name="save_pic_fail">"Impossible de sauvegarder l'image, vérifiez votre carte SD"</string>
     <string name="pic_not_exist">"Cette image n'existe pas"</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Sélectionnez un produit</string>
     <string name="michat_skillset_business_type_title">Sélectionnez le service</string>
     <string name="michat_close_text">Conversation terminée</string>
@@ -279,7 +280,7 @@
     <string name="title_answer_feedback_main">Nous avons trouvé des réponses !</string>
     <string name="title_same_question_feedback_main">Des problèmes similaires sur le forum MIUI</string>
     <string name="related_question_answer_details">Problème associé</string>
-    <string name="issue_search">Search</string>
+    <string name="issue_search">Rechercher</string>
     <string name="module_item_more">Plus</string>
     <string name="module_item_less">Masquer</string>
     <string name="feedback_guess">Notre avis</string>
@@ -310,5 +311,5 @@
     <string name="customer_service_apply">Demander le Service clientèle</string>
     <string name="customer_service_complain">Signaler le Service clientèle</string>
     <string name="customer_service_station">Localisations des services</string>
-    <string name="select_system_app_tag">Sélectionner des mots-clés</string>
+    <string name="select_system_app_tag">Sélectionner un problème</string>
 </resources>

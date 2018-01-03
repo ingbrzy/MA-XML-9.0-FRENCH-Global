@@ -65,7 +65,7 @@
     <string name="class_0_message_activity">Message catégorie 0</string>
     <string name="close">Fermer</string>
     <string name="cloud_recommend_msg">Appuyez pour synchroniser vos messages avec Mi Cloud.</string>
-    <string name="cloud_state_disabled">La synchronisation avec Mi Cloud est désactivée</string>
+    <string name="cloud_state_disabled">Activez la synchronisation avec Mi Cloud pour synchroniser les messages</string>
     <string name="cloud_state_sync_finished">Synchronisé avec Mi Cloud</string>
     <string name="cloud_state_syncing">Synchronisation avec Mi Cloud…</string>
     <string name="compressing">"L'image est trop grande. Compression..."</string>
@@ -74,7 +74,7 @@
     <string name="confirm_delete_SIM_message">Supprimer ce message de la carte SIM ?</string>
     <string name="confirm_delete_all_SIM_messages">Supprimer tous les messages de la carte SIM ?</string>
     <string name="confirm_delete_all_conversations">Supprimer tous les fils de discussion ?</string>
-    <string name="confirm_delete_conversation">"Supprimer l'intégralité du fil de discussion ?"</string>
+    <string name="confirm_delete_conversation">Delete this conversation?</string>
     <string name="confirm_delete_group_message">Supprimer ce groupe de messages ?</string>
     <string name="confirm_delete_locked_message">Supprimer ce message verrouillé ?</string>
     <string name="confirm_delete_message">Supprimer ce message ?</string>
@@ -179,6 +179,7 @@
     <string name="file_size">Taille :</string>
     <string name="file_title">Nom :</string>
     <string name="file_width_height">Taille :</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Nouveau message</string>
     <string name="forward_from">Transférer de:</string>
     <string name="forward_prefix">TR :</string>
@@ -528,6 +529,7 @@
     <string name="send_signature_confirm_dialog_title">Envoyer un message</string>
     <string name="send_sms">Envoyer le message</string>
     <string name="send_to">Envoyer à :</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Envoyé à : %1s</string>
     <string name="sent_label">"Envoyé : "</string>
     <string name="service_message_not_found">Message expiré ou indisponible.</string>

@@ -126,9 +126,12 @@ Note : Les données des applications que vous avez installées ne seront pas sau
     <string name="btn_back">Retour</string>
     <string name="btn_continue">Continuer</string>
     <string name="btn_skip">Ignorer cette étape</string>
+    <string name="btn_retry">Check again</string>
     <string name="can_not_restore_in_lite_mode">Impossible de restaurer en mode simplifié</string>
     <string name="can_not_backup_in_lite_mode">Impossible de sauvegarder en mode simplifié</string>
     <string name="restore_data_title">Restaurer les données</string>
+    <string name="provision_error_connect_msg">You can test the network and try again. The backup function will not be available without a valid network.</string>
+    <string name="provision_error_connect_title">Can not connect</string>
     <string name="authentication_failed">Impossible de vérifier le compte.</string>
     <string name="no_account">"Vous n'êtes pas connecté au compte Mi."</string>
     <string name="no_backup">Pas de sauvegarde dans Mi Cloud.</string>

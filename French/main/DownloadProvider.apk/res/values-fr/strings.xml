@@ -41,4 +41,5 @@ Appuyer %s pour lancer ce téléchargement lors de votre prochaine connexion à 
     <string name="download_running">Téléchargement</string>
     <string name="download_error">Téléchargement impossible</string>
     <string name="download_running_percent">Téléchargement en cours, %s</string>
+    <string name="common_google_play_services_unknown_issue">"L'application %1$s rencontre des problèmes avec les services Google Play. Veuillez réessayer."</string>
 </resources>
