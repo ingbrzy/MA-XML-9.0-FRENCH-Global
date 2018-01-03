@@ -297,9 +297,7 @@
     <string name="express_booking_txt">Livraison express de la commande</string>
     <string name="express_code_txt">Code :</string>
     <string name="express_complete">Accepté</string>
-    <string name="express_complete_flag">3</string>
     <string name="express_delivery">Reçu</string>
-    <string name="express_delivery_flag">5</string>
     <string name="express_icon_tip">Récupérez les informations de suivi de livraison express en utilisant votre numéro de téléphone et vos informations de commande.</string>
     <string name="express_icon_tip_link">Compte &amp; confidentialité</string>
     <string name="express_install_cainiao_description">"%s nécessite l'installation de l'application Cainiao. Installer maintenant ?"</string>
@@ -546,7 +544,6 @@
     <string name="payment_total_today_desc">"Aujourd'hui"</string>
     <string name="payment_unit_cny">CNY</string>
     <string name="personalAssistant_mainpage">"Page d'accueil"</string>
-    <string name="personalAssistant_path">com.miui.home.launcher.assistant</string>
     <string name="place_label">Lieux fréquents</string>
     <string name="plan">Programmé</string>
     <string name="preferences">Préférences</string>
@@ -694,7 +691,6 @@
     <string name="steps_vip_des">Comptez vos pas sans installer des applications tierces.</string>
     <string name="stock_card_add">Ajouter des compagnies</string>
     <string name="stock_card_title">Stocks</string>
-    <string name="stock_change_rate_format">%.2f%%</string>
     <string name="stock_color_schema">Schéma de couleur</string>
     <string name="stock_list_empty_text">Vous ne suivez aucune compagnie actuellement.</string>
     <string name="stock_search_empty">Impossible de trouver des résultats</string>
