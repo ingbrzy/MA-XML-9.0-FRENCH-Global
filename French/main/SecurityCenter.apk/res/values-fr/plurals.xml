@@ -32,6 +32,14 @@
         <item quantity="other">%d applications</item>
         <item quantity="one">%d application</item>
     </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d apps can connect to the network in the background</item>
+        <item quantity="one">%d app can connect to the network in the background</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">"%d apps can't connect to the network in the background"</item>
+        <item quantity="one">"%d app can't connect to the network in the background"</item>
+    </plurals>
     <plurals name="daily_sim_over_limit_notify_title">
         <item quantity="other">Vous avez déjà utilisé les limites de données quotidiennes de %s.</item>
         <item quantity="one">Vous avez déjà utilisé les limites de données quotidiennes de %s.</item>
@@ -59,6 +67,10 @@ Si vous activez les données mobiles, votre opérateur pourrait vous facturer de
     <plurals name="hints_roaming_found_app_count_title">
         <item quantity="other">%d applications trouvées</item>
         <item quantity="one">%d application trouvée</item>
+    </plurals>
+    <plurals name="network_restrict_count">
+        <item quantity="other">"Network access is restricted for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
+        <item quantity="one">"Network access is restricted for &lt;font color='#ff0000'>%d&lt;/font> app"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d applications ne fonctionnent pas normalement et déchargent la batterie</item>
@@ -259,10 +271,6 @@ Si vous activez les données mobiles, votre opérateur pourrait vous facturer de
     <plurals name="app_manager_start_count">
         <item quantity="other">%d fois</item>
         <item quantity="one">%d fois</item>
-    </plurals>
-    <plurals name="app_manager_reject_count">
-        <item quantity="other">Bloqué %d fois</item>
-        <item quantity="one">Bloqué %d fois</item>
     </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">Utilisé il y a %d jours</item>

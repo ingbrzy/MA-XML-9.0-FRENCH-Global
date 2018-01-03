@@ -13,8 +13,8 @@
         <item quantity="one">%d message a été synchronisé</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
-        <item quantity="other">Supprimer %1$s conversations sélectionnées ?</item>
-        <item quantity="one">Supprimer %1$s conversation sélectionnée ?</item>
+        <item quantity="other">Delete %1$s selected conversations?</item>
+        <item quantity="one">Delete %1$s selected conversation?</item>
     </plurals>
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">%d sélectionnés</item>

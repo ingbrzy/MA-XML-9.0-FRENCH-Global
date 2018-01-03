@@ -101,7 +101,7 @@
         <item quantity="one">Supprimer cette vidéo de tous les appareils et de Mi Cloud ?</item>
     </plurals>
     <plurals name="delete_video_from_local">
-        <item quantity="other">Supprimez%d vidéos ?</item>
+        <item quantity="other">Supprimez %d vidéos ?</item>
         <item quantity="one">Supprimez cette vidéo ?</item>
     </plurals>
     <plurals name="delete_video_from_this_album_and_cloud_msg">

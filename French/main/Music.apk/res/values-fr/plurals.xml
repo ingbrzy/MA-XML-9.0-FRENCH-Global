@@ -129,11 +129,11 @@
         <item quantity="one">"%d chanson ignorée. Veuillez activer les services en ligne dans les paramètres pour l'écouter."</item>
     </plurals>
     <plurals name="Nrecognize_switch_off_alert_message">
-        <item quantity="other">"A arrêté l'optimisation d'album et de paroles. Voulez-vous revenir aux informations, album et paroles optimisés de %d chansons ?"</item>
-        <item quantity="one">"A arrêté l'optimisation d'album et de paroles. Voulez-vous revenir aux informations, album et paroles optimisés de %d chanson ?"</item>
+        <item quantity="other">"Vous avez choisi de ne pas rechercher automatiquement les couvertures d'album et les paroles pour les chansons locales. Supprimer les infos de %d chansons ?"</item>
+        <item quantity="one">"Vous avez choisi de ne pas rechercher automatiquement les couvertures d'album et les paroles pour les chansons locales. Supprimer les infos de %d chanson ?"</item>
     </plurals>
     <plurals name="Nassociate_songs">
-        <item quantity="other">Album et paroles correspondants (%1$d/%2$d chansons)</item>
-        <item quantity="one">Album et paroles correspondants (%1$d/%2$d chanson)</item>
+        <item quantity="other">"Rechercher les couvertures d'albums et paroles (%1$d/%2$d)"</item>
+        <item quantity="one">"Rechercher les couvertures d'albums et paroles (%1$d/%2$d)"</item>
     </plurals>
 </resources>
