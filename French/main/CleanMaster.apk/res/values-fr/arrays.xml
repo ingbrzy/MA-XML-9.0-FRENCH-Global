@@ -12,12 +12,6 @@
         <item>Utilisé fréquement</item>
         <item>Taille</item>
     </string-array>
-    <string-array name="auto_clean_time">
-        <item>Tous les jours</item>
-        <item>Tous les 3 jours</item>
-        <item>Tous les 7 jours</item>
-        <item>Tous les 15 jours</item>
-    </string-array>
     <string-array name="auto_clean_size">
         <item>100 Mo</item>
         <item>300 Mo</item>

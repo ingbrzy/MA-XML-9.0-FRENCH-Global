@@ -8,6 +8,14 @@
         <item quantity="other">%d photo cloud ont été ajoutées, désactiver \"Afficher uniquement les albums locaux\" pour les voir.</item>
         <item quantity="one">%d photo cloud a été ajoutée, désactiver \"Afficher uniquement les albums locaux\" pour la voir.</item>
     </plurals>
+    <plurals name="add_to_album_failed_with_reason_and_count">
+        <item quantity="other">"%2$d éléments ne peuvent être ajoutés à l'album. %1$s."</item>
+        <item quantity="one">"%2$d élément ne peut être ajouté à l'album. %1$s."</item>
+    </plurals>
+    <plurals name="add_to_secret_failed_with_reason_and_count">
+        <item quantity="other">"%2$d éléments ne peuvent pas être ajoutés à l'album masqué : %1$s."</item>
+        <item quantity="one">"%2$d élément ne peut être ajouté à l'album masqué. %1$s."</item>
+    </plurals>
     <plurals name="age_day">
         <item quantity="other">%d jours</item>
         <item quantity="one">%d jour</item>
@@ -120,6 +128,10 @@
         <item quantity="other">%d photos au total</item>
         <item quantity="one">%d photo au total</item>
     </plurals>
+    <plurals name="fail_reason_processing_file">
+        <item quantity="other">Traitement des photos…</item>
+        <item quantity="one">Traitement de la photo…</item>
+    </plurals>
     <plurals name="fast_share_auto_render_failed">
         <item quantity="other">"%1$d photos qui n'ont pas pu être rendues ont été ignorées."</item>
         <item quantity="one">"Une photo qui n'a pas pu être rendue a été ignorée."</item>
@@ -204,6 +216,10 @@
         <item quantity="other">%d photos au total</item>
         <item quantity="one">%d photo au total</item>
     </plurals>
+    <plurals name="remove_from_secret_failed_with_reason_and_count">
+        <item quantity="other">"%2$d éléments ne peuvent être retirés de l'album masqué. %1$s."</item>
+        <item quantity="one">"%2$d élément ne peut être retiré de l'album masqué. %1$s."</item>
+    </plurals>
     <plurals name="search_feedback_done_mark_and_contribute_false_negative">
         <item quantity="other">%1$d photos ajoutées à \"%2$s\" et ajoutées à la base de données.</item>
         <item quantity="one">%1$d photo ajoutée à \"%2$s\" et ajoutée à la base de données.</item>
@@ -219,6 +235,22 @@
     <plurals name="search_feedback_done_mark_false_positive">
         <item quantity="other">%1$d photos retirées de \"%2$s\".</item>
         <item quantity="one">%1$d photo retirée de \"%2$s\".</item>
+    </plurals>
+    <plurals name="send_processing_files_error">
+        <item quantity="other">Impossible de partager. Traitement de %d photos encore en cours…</item>
+        <item quantity="one">Impossible de partager. Traitement de %d photo encore en cours…</item>
+    </plurals>
+    <plurals name="slim_complete_photo_count">
+        <item quantity="other">%d photos optimisées</item>
+        <item quantity="one">%d photo optimisée</item>
+    </plurals>
+    <plurals name="slim_exit_dialog_message">
+        <item quantity="other">%d photo ont été optimisées. Arrêter maintenant ?</item>
+        <item quantity="one">%d photo a été optimisée. Arrêter maintenant ?</item>
+    </plurals>
+    <plurals name="slim_remain_photo_count">
+        <item quantity="other">%d photo restantes</item>
+        <item quantity="one">%d photo restante</item>
     </plurals>
     <plurals name="sync_error_title">
         <item quantity="other">"N'a pas sauvegardé %d photos ou vidéos"</item>

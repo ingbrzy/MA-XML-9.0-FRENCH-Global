@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Aucune</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -424,7 +426,6 @@ Si vous réactivez les données, vous pouvez être facturé par l'opérateur."</
     <string name="recents_multistack_add_stack_dialog_split_custom">Personnaliser</string>
     <string name="recents_multi_window_mode">Écran divisé</string>
     <string name="recents_exit_multi_window_mode">Quitter</string>
-    <string name="keyboard_shortcut_group_system_recents">Récents</string>
     <string name="accessibility_divider">"Diviseur d'écran"</string>
     <string name="accessibility_action_divider_left_full">Plein écran gauche</string>
     <string name="accessibility_action_divider_left_70">70% à gauche</string>
@@ -438,15 +439,119 @@ Si vous réactivez les données, vous pouvez être facturé par l'opérateur."</
     <string name="accessibility_action_divider_bottom_full">Plein écran inférieur</string>
     <string name="dock_forced_resizable">"Cette application peut ne pas fonctionner avec l'écran divisé"</string>
     <string name="dock_non_resizeble_failed_to_dock_text">Cette application ne prend pas en charge le mode Écran divisé</string>
-    <string name="status_bar_date_format">"EEEE
-d MMMM"</string>
-    <string name="status_bar_recent_guide_all">"Glissez vers le haut pour fermer
-Glissez vers le bas pour verrouiller"</string>
-    <string name="status_bar_recent_guide_top">Glissez vers le haut pour fermer</string>
-    <string name="status_bar_recent_guide_bottom">Glissez vers le bas pour verrouiller</string>
+    <string name="accessibility_desc_work_lock">"Écran de verrouillage de l'espace de travail"</string>
+    <string name="keyboard_key_button_template">Bouton %1$s</string>
+    <string name="keyboard_key_home">Accueil</string>
+    <string name="keyboard_key_back">Retour</string>
+    <string name="keyboard_key_dpad_up">Haut</string>
+    <string name="keyboard_key_dpad_down">Bas</string>
+    <string name="keyboard_key_dpad_left">Gauche</string>
+    <string name="keyboard_key_dpad_right">Droite</string>
+    <string name="keyboard_key_dpad_center">Centre</string>
+    <string name="keyboard_key_tab">Onglet</string>
+    <string name="keyboard_key_space">Espace</string>
+    <string name="keyboard_key_enter">Saisir</string>
+    <string name="keyboard_key_backspace">Espace</string>
+    <string name="keyboard_key_media_play_pause">Lecture/Pause</string>
+    <string name="keyboard_key_media_stop">Arrêter</string>
+    <string name="keyboard_key_media_next">Suivant</string>
+    <string name="keyboard_key_media_previous">Précédent</string>
+    <string name="keyboard_key_media_rewind">Rembobiner</string>
+    <string name="keyboard_key_media_fast_forward">Avance rapide</string>
+    <string name="keyboard_key_page_up">Haut de page</string>
+    <string name="keyboard_key_page_down">Bas de page</string>
+    <string name="keyboard_key_forward_del">Supprimer</string>
+    <string name="keyboard_key_move_home">Accueil</string>
+    <string name="keyboard_key_move_end">Fin</string>
+    <string name="keyboard_key_insert">Insérer</string>
+    <string name="keyboard_key_num_lock">Verr. num</string>
+    <string name="keyboard_key_numpad_template">Pavé numérique %1$s</string>
+    <string name="keyboard_shortcut_group_system">Système</string>
+    <string name="keyboard_shortcut_group_system_home">Accueil</string>
+    <string name="keyboard_shortcut_group_system_recents">Récents</string>
+    <string name="keyboard_shortcut_group_system_back">Retour</string>
+    <string name="keyboard_shortcut_group_system_notifications">Notifications</string>
+    <string name="keyboard_shortcut_group_system_shortcuts_helper">Raccourcis du clavier</string>
+    <string name="keyboard_shortcut_group_system_switch_input">Bouton de méthode de saisie</string>
+    <string name="keyboard_shortcut_group_applications">Applications</string>
+    <string name="keyboard_shortcut_group_applications_assist">Assister</string>
+    <string name="keyboard_shortcut_group_applications_browser">Navigateur</string>
+    <string name="keyboard_shortcut_group_applications_contacts">Contacts</string>
+    <string name="keyboard_shortcut_group_applications_email">E-mail</string>
+    <string name="keyboard_shortcut_group_applications_sms">SMS</string>
+    <string name="keyboard_shortcut_group_applications_im">IM</string>
+    <string name="keyboard_shortcut_group_applications_music">Musique</string>
+    <string name="keyboard_shortcut_group_applications_youtube">YouTube</string>
+    <string name="keyboard_shortcut_group_applications_calendar">Agenda</string>
+    <string name="legacy_vpn_name">VPN</string>
+    <string name="monitoring_button_view_policies">Voir les conditions</string>
+    <string name="monitoring_description_ca_certificate">"Un certificat d'autorité est installé sur cet appareil. Votre trafic réseau sécurisé peut être surveillé ou modifié."</string>
+    <string name="monitoring_description_named_management">"Votre appareil est géré par %1$s.
+
+Votre administrateur peut surveiller et gérer les paramètres, l'accès à l'entreprise, les applications, les données associées à votre appareil et les informations de localisation de votre appareil.
+
+Pour plus d'informations, contactez votre administrateur."</string>
+    <string name="monitoring_description_managed_profile_ca_certificate">"Votre organisation a installé un certificat d'autorité dans votre profil de travail. Votre trafic réseau sécurisé peut être surveillé ou modifié."</string>
+    <string name="monitoring_description_management">"Votre appareil est géré par votre organisation.
+
+Votre administrateur peut surveiller et gérer les paramètres, l'accès à l'entreprise, les applications, les données associées à votre appareil et les informations de localisation de votre appareil.
+
+Pour plus d'informations, contactez votre administrateur."</string>
+    <string name="monitoring_description_management_ca_certificate">"Votre organisation a installé un certificat d'autorité sur cet appareil. Votre trafic réseau sécurisé peut être surveillé ou modifié."</string>
+    <string name="monitoring_description_managed_profile_named_vpn">Votre profil de travail est connecté à %1$s, qui peut surveiller votre activité réseau, avec les e-mail, les applications et les sites Web inclus.</string>
+    <string name="monitoring_description_management_network_logging">"Votre administrateur a activé l'enregistrement réseau qui surveille le trafic sur votre appareil."</string>
+    <string name="monitoring_description_named_vpn">Votre profil est connecté à %1$s, qui peut surveiller votre activité réseau ainsi que les e-mails, les applications et les site Web.</string>
+    <string name="monitoring_description_personal_profile_named_vpn">Votre profil personnel est connecté à %1$s, qui peut surveiller votre activité réseau, avec les e-mail, les applications et les sites Web inclus.</string>
+    <string name="monitoring_description_two_named_vpns">Votre profil est connecté à %1$s et %2$s, qui peuvent surveiller votre activité réseau ainsi que les e-mails, les applications et les site Web.</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
+    <string name="monitoring_description_vpn_settings">Ouvrir les paramètres VPN</string>
+    <string name="monitoring_title">Analyse réseau</string>
+    <string name="monitoring_subtitle_ca_certificate">Certificats CA</string>
+    <string name="monitoring_subtitle_network_logging">Journalisation du réseau</string>
+    <string name="monitoring_subtitle_vpn">VPN</string>
+    <string name="monitoring_title_device_owned">"Gestion de l'appareil"</string>
+    <string name="quick_settings_done">Terminé</string>
+    <string name="quick_settings_disclosure_management_monitoring">Votre organisation gère cet appareil et peut surveiller le trafic réseau</string>
+    <string name="quick_settings_disclosure_named_management_monitoring">%1$s gère cet appareil et peut surveiller le trafic réseau</string>
+    <string name="quick_settings_disclosure_management_named_vpn">"L'appareil est géré par votre organisation et connecté à %1$s"</string>
+    <string name="quick_settings_disclosure_named_management_named_vpn">"L'appareil est géré par%1$s et connecté à %2$s"</string>
+    <string name="quick_settings_disclosure_management">"L'appareil est géré par votre organisation"</string>
+    <string name="quick_settings_disclosure_named_management">"L'appareil est géré par %1$s"</string>
+    <string name="quick_settings_disclosure_management_vpns">"L'appareil est géré par votre organisation et connecté aux VPN"</string>
+    <string name="quick_settings_disclosure_named_management_vpns">"L'appareil est géré par %1$s et connecté aux VPN"</string>
+    <string name="quick_settings_disclosure_managed_profile_monitoring">Votre organisation peut surveiller votre trafic réseau dans votre profil de travail</string>
+    <string name="quick_settings_disclosure_named_managed_profile_monitoring">%1$s peut surveiller le trafic réseau dans votre profil de travail</string>
+    <string name="quick_settings_disclosure_monitoring">Le réseau peut être surveillé</string>
+    <string name="quick_settings_disclosure_vpns">"L'appareil est connecté aux VPN"</string>
+    <string name="quick_settings_disclosure_managed_profile_named_vpn">Le profil travail est connecté à %1$s</string>
+    <string name="quick_settings_disclosure_personal_profile_named_vpn">Le profil personnel est connecté à %1$s</string>
+    <string name="quick_settings_disclosure_named_vpn">"L'appareil est connecté à %1$s"</string>
+    <string name="status_bar_date_format">"d MMMM
+EEEE"</string>
+    <string name="monitoring_title_profile_owned">Contrôle du profil</string>
+    <string name="monitoring_description_do_body_vpn">Vous êtes connecté à %1$s, qui peut contrôler votre activité sur le réseau, y compris les e-mails, les applications et les sites Web.</string>
+    <string name="monitoring_description_network_logging">"Votre administrateur a activé la journalisation réseau, qui surveille le trafic sur votre appareil.
+
+Pour en savoir plus, contactez-le."</string>
+    <string name="monitoring_description_vpn">"Vous avez autorisé une application à configurer une connexion VPN.
+
+Cette application peut contrôler l'activité de votre appareil et votre activité sur le réseau, y compris votre activité relative aux e-mails, aux applications et aux sites Web."</string>
+    <string name="monitoring_description_vpn_profile_owned">"Votre profil professionnel est géré par %1$s.
+
+Votre administrateur peut contrôler votre activité sur le réseau, y compris au niveau des e-mails, des applications et des sites Web.
+
+Pour en savoir plus, contactez-le.
+
+Vous êtes également connecté à un VPN qui peut contrôler votre activité sur le réseau."</string>
+    <string name="monitoring_description_app">"Vous êtes connecté à %1$s. Cette application peut contrôler votre activité sur le réseau, y compris l'activité relative aux e-mails, aux applications et aux sites Web."</string>
+    <string name="monitoring_description_app_personal">Vous êtes connecté à %1$s. Cette application peut contrôler votre activité personnelle sur le réseau, y compris votre activité relative aux e-mails, aux applications et aux sites Web.</string>
+    <string name="status_bar_recent_guide_all">"Faites glisser vers le haut pour fermer
+Faites glisser vers le bas pour verrouiller"</string>
+    <string name="status_bar_recent_guide_top">Faites glisser vers le haut pour fermer</string>
+    <string name="status_bar_recent_guide_bottom">Faites glissez vers le bas pour verrouiller</string>
     <string name="share">Partager</string>
-    <string name="description_direction_up">Glissez vers le haut pour %s.</string>
-    <string name="description_direction_left">Glissez à gauche pour %s.</string>
+    <string name="description_direction_up">Faites glisser vers le haut pour %s.</string>
+    <string name="description_direction_left">Faites glisser à gauche pour %s.</string>
     <string name="description_target_search">Recherche</string>
     <string name="status_bar_date_format_12">"EEEE
 d MMMM"</string>
@@ -457,8 +562,11 @@ d MMMM"</string>
     <string name="accessibility_recent_task_memory_info">RAM totale : %2$s | RAM disponible : %1$s. Appuyer rapidement 2 fois pour vider.</string>
     <string name="accessibility_recent_task_locked">Verrouillé, balayer vers le bas pour déverrouiller.</string>
     <string name="accessibility_recent_task_unlocked">Déverrouillé</string>
-    <string name="nav_guide_title">"Masquer les boutons à l'écran"</string>
-    <string name="nav_guide_message">"Utilisez la gesture pour masquer/afficher les boutons à l'écran."</string>
+    <string name="accessibility_recent_task_locked_state">Verrouillé</string>
+    <string name="accessibility_recent_task_unlocked_state">Déverrouillé</string>
+    <string name="accessibility_drag_hint_message">"Déplacez les éléments dans la partie supérieure de l'écran"</string>
+    <string name="nav_guide_title">"Masquer les boutons de l'écran"</string>
+    <string name="nav_guide_message">"Utilisez les gestes pour masquer/afficher les boutons à l'écran."</string>
     <string name="nav_guide_cancel">Ignorer</string>
     <string name="nav_guide_ok">Configurer</string>
     <string name="usb_mode_notification">Stockage USB</string>
@@ -495,7 +603,7 @@ d MMMM"</string>
     <string name="camera_key_action_category_title">"Utiliser si l'appareil photo n'est pas ouvert"</string>
     <string name="camera_key_action_none_title">Aucune action</string>
     <string name="camera_key_action_shortcut_title">Raccourci</string>
-    <string name="camera_key_action_toggle_title">Accès rapide à un paramètre</string>
+    <string name="camera_key_action_toggle_title">Interrupteur déclencheur</string>
     <string name="camera_key_action_app_title">Ouvrir une application</string>
     <string name="camera_key_action_shortcut_home">Retour sur le bureau</string>
     <string name="camera_key_action_shortcut_screenshot">"Capture d'écran"</string>
@@ -510,7 +618,7 @@ d MMMM"</string>
     <string name="chooseUsbActivity">Choisissez une application à associer au périphérique USB</string>
     <string name="usb_storage_title">USB connecté</string>
     <string name="usb_storage_message">Vous êtes connecté à votre ordinateur par USB. Appuyez sur le bouton ci-dessous si vous souhaitez copier des fichiers entre votre ordinateur et le stockage de votre téléphone.</string>
-    <string name="usb_storage_error_message">"Il y'a un problème avec votre stockage de masse USB."</string>
+    <string name="usb_storage_error_message">Il y a un problème avec votre stockage de masse USB.</string>
     <string name="usb_storage_notification_title">USB connecté</string>
     <string name="usb_storage_notification_message">Sélectionnez cette option pour copier des fichiers vers et de votre ordinateur.</string>
     <string name="usb_storage_stop_notification_title">Désactiver le stockage USB</string>
@@ -527,15 +635,16 @@ d MMMM"</string>
     <string name="ext_media_nofs_notification_message">Le Stockage USB est vide ou contient un système de fichiers incompatible.</string>
     <string name="ext_media_unmountable_notification_title">Stockage USB endommagée</string>
     <string name="ext_media_unmountable_notification_message">Stockage USB endommagée. Un reformatage complet est nécessaire.</string>
-    <string name="ext_media_badremoval_notification_title">Retrait inattendu du stockage USB</string>
-    <string name="ext_media_badremoval_notification_message">Démontez le Stockage USB avant de le retirer pour éviter les pertes de données.</string>
-    <string name="ext_media_safe_unmount_notification_title">Stockage USB désactivé</string>
+    <string name="ext_media_badremoval_notification_title">Stockage USB retiré de façon inattendue</string>
+    <string name="ext_media_badremoval_notification_message">Démontez le stockage USB avant de le retirer pour éviter les pertes de données.</string>
+    <string name="ext_media_safe_unmount_notification_title">Stockage USB retiré en toute sécurité</string>
     <string name="ext_media_safe_unmount_notification_message">Vous pouvez maintenant retirer votre stockage USB en toute sécurité.</string>
     <string name="ext_media_nomedia_notification_title">Stockage USB retiré</string>
     <string name="ext_media_nomedia_notification_message">Stockage USB retiré. Insérez un nouveau média.</string>
     <string name="ext_media_mountable_notification_title">Périphérique de stockage USB connecté</string>
-    <string name="ext_media_mountable_notification_message">"Appuyez pour ouvrir dans l'Explorateur."</string>
+    <string name="ext_media_mountable_notification_message">Appuyez pour ouvrir dans Explorateur.</string>
     <string name="ext_media_safe_remove">Retirer en toute sécurité</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">ko/s</string>
     <string name="megabyte_per_second">Mo/s</string>
     <string name="status_bar_network_flow_today">"Aujourd'hui : %1$s"</string>
@@ -543,12 +652,12 @@ d MMMM"</string>
     <string name="status_bar_network_flow_exceed_content">"Aujourd'hui : %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Dépassé : &lt;font color=%2$s>%3$s&lt;/font>"</string>
     <string name="status_bar_network_flow_purchase">"   Acheter >"</string>
     <string name="status_bar_network_flow_limit">"   Limite mensuelle : %1$s   "</string>
-    <string name="drive_mode_tip">Vous êtes en mode voiture</string>
+    <string name="drive_mode_tip">Vous êtes en mode Voiture</string>
     <string name="no_notification_tips">Aucune notification.</string>
     <string name="expanded_notification_manager">Gérer les notifications</string>
     <string name="disable_notification_title">Masquer les notifications</string>
     <string name="disable_notification_summary">Ne jamais afficher les notifications des applications sélectionnées</string>
-    <string name="expanded_confirm_disable_notification">Cacher</string>
+    <string name="expanded_confirm_disable_notification">Masquer</string>
     <string name="block_record_notification_title">Notifications cachées</string>
     <string name="block_record_notification_text">Masquer les notifications de %1$s.</string>
     <string name="notification_hidden_text">Vous avez un nouveau message</string>
@@ -564,7 +673,7 @@ d MMMM"</string>
     <string name="notification_otg_unknow_in">Périphérique OTG connecté</string>
     <string name="notification_otg_mouse_out">Souris déconnectée</string>
     <string name="notification_otg_keyboard_out">Clavier déconnecté</string>
-    <string name="notification_otg_gamestick_out">Contrôleur de jeu déconnecté</string>
+    <string name="notification_otg_gamestick_out">Manette de jeu déconnectée</string>
     <string name="notification_otg_stylus_out">Stylet déconnecté</string>
     <string name="notification_otg_touchScreen_out">Écran tactile déconnecté</string>
     <string name="notification_otg_touchPad_out">Pavé tactile déconnecté</string>
@@ -614,6 +723,19 @@ d MMMM"</string>
     <string name="notification_header_title">Notifications</string>
     <string name="weather_publish_time">Mis à jour à %1$s</string>
     <string name="no_weather_description">Obtenir les informations de la météo ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
+    <string name="accessibility_desc_notification_shade">Panneau de notification</string>
+    <string name="accessibility_desc_quick_settings">Paramètres rapides</string>
+    <string name="accessibility_desc_details_page">Page de détails de %1$s</string>
+    <string name="accessibility_desc_block_notification">Masquer les notifications</string>
+    <string name="accessibility_desc_select_block_notification">Sélectionner les notifications à masquer</string>
+    <string name="accessibility_desc_confirm_block">Masquer</string>
+    <string name="accessibility_desc_reconfirm_block">Masquer maintenant ?</string>
+    <string name="accessibility_desc_cancel_block">Ne pas masquer</string>
+    <string name="accessibility_desc_app_allow_block">%1$s notifications peuvent être masquées</string>
+    <string name="accessibility_desc_app_unallow_block">Les notifications de %1$s ne peuvent être masquées</string>
+    <string name="accessibility_desc_check_block_notification">Sélectionner les notifications de %1$s</string>
+    <string name="accessibility_desc_uncheck_block_notification">Déselectionner les notifications de %1$s</string>
     <string name="screenshot_long_screenshot">Défiler</string>
     <string name="screenshot_edit">Éditer</string>
     <string name="screenshot_send">Envoyer</string>
@@ -634,7 +756,6 @@ d MMMM"</string>
     <string name="notification_manager">Gérer les notifications</string>
     <string name="notification_manager_des">Filtrer et gérer les notifications</string>
     <string name="quick_settings_more_settings">Plus de paramètres</string>
-    <string name="quick_settings_done">Terminé</string>
     <string name="quick_settings_wifi_detail_empty_text">Aucun réseau Wi-Fi disponible</string>
     <string name="quick_settings_wifi_label">Wi-Fi</string>
     <string name="quick_settings_wifi_nearby">Sélectionner un réseau à proximité</string>
@@ -644,7 +765,7 @@ d MMMM"</string>
     <string name="quick_settings_bluetooth_detail_empty_text">Aucun appareil associé à proximité</string>
     <string name="accessibility_ime_switch_button">Bouton de méthode de saisie.</string>
     <string name="accessibility_settings">Paramètres</string>
-    <string name="accessibility_search_scanner">Scanneur</string>
+    <string name="accessibility_search_scanner">Scanner</string>
     <string name="accessibility_brightness_slider">Curseur de luminosité</string>
     <string name="click_to_return_multi_window">"Appuyer pour retourner à l'écran divisé"</string>
     <string name="recent_dock_tip">Appuyez pour sélectionner les applications</string>
@@ -659,22 +780,30 @@ d MMMM"</string>
     <string name="search_hint">Rechercher des sites Web, des applications, des contacts et des vidéos</string>
     <string name="description_image_button_reject">Refuser</string>
     <string name="description_image_button_answer">Répondre</string>
-    <string name="screenshot_feedback_txt">Feedback</string>
-    <string name="screenshot_toalbum_txt">Preview</string>
-    <string name="how_to_use_fsg">How to use full-screen gesture?</string>
-    <string name="how_to_back_home">How to back to home</string>
-    <string name="how_to_switch_recents">How to switch to recents</string>
-    <string name="fsg_demo_back">Back</string>
-    <string name="fsg_demo_go_on">Go on</string>
-    <string name="fs_gesture_back_home_summary">Slide from bottom quickly</string>
-    <string name="fs_gesture_switch_recents_summary">Slide from bottom and wait a second</string>
-    <string name="fs_gesture_back_ready_title">How to go back last page?</string>
-    <string name="fs_gesture_left_back_ready_summary">Swipe left from screen</string>
-    <string name="fs_gesture_right_back_ready_summary">Swipe right from screen</string>
-    <string name="fs_gesture_skip">Back</string>
-    <string name="fs_gesture_finish">Nice!</string>
-    <string name="fs_gesture_final_title">Finish studying</string>
-    <string name="fs_gesture_final_summary">You can set in [Settings-Full screen]</string>
-    <string name="fs_gesture_final_restart">Study again</string>
-    <string name="fs_gesture_final_over">Finish</string>
+    <string name="screenshot_feedback_txt">Commentaire</string>
+    <string name="screenshot_toalbum_txt">Prévisualiser</string>
+    <string name="please_slide_agian">Please slide again</string>
+    <string name="how_to_use_fsg">Vous pouvez effectuer ces actions en utilisant des gestes :</string>
+    <string name="how_to_back_home">"Aller à l'Écran d'accueil"</string>
+    <string name="how_to_switch_recents">Ouvrir Récents</string>
+    <string name="fsg_demo_back">Retour</string>
+    <string name="fsg_demo_go_on">Apprendre</string>
+    <string name="fs_gesture_back_home_summary">Balayer rapidement depuis le bas</string>
+    <string name="fs_gesture_switch_recents_summary">Balayer rapidement depuis le bas et mettre pause</string>
+    <string name="fs_gesture_back_ready_title">Retour</string>
+    <string name="fs_gesture_left_back_ready_summary">Balayer vers la droite depuis le bord</string>
+    <string name="fs_gesture_right_back_ready_summary">Balayer vers la gauche depuis le bord</string>
+    <string name="fs_gesture_skip">Retour</string>
+    <string name="fs_gesture_finish">Super !</string>
+    <string name="fs_gesture_final_title">Vous êtes prêt à faire sensation !</string>
+    <string name="fs_gesture_final_summary">Vous pouvez basculer en utilisant les boutons dans Paramètres > Affichage en plein écran</string>
+    <string name="fs_gesture_final_restart">Une fois de plus</string>
+    <string name="fs_gesture_final_over">"J'ai terminé"</string>
+    <string name="monitoring_description_do_header_generic">Votre appareil est géré par %1$s.</string>
+    <string name="monitoring_description_do_header_with_name">%1$s utilise %2$s pour gérer votre appareil.</string>
+    <string name="monitoring_description_do_body">Votre administrateur peut contrôler et gérer paramètres, accès contenus entreprise, applications, données associées à appareil et ses données de localisation.</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
+    <string name="monitoring_description_do_learn_more">En savoir plus</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
+    <string name="monitoring_description_ca_cert_settings">Ouvrir les certificats de confiance</string>
 </resources>

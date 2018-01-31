@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="fw_blocked">Liste Noire</string>
-    <string name="fw_oversea">Block calls from abroad</string>
+    <string name="fw_oversea">"Bloquer les appels de l'étranger"</string>
     <string name="fw_blocked_count">"Bloqué "</string>
     <string name="fw_blocked_join">" et "</string>
-    <string name="fw_oversea_content">Block incoming calls from foreign phone numbers</string>
+    <string name="fw_oversea_content">"Bloquer tous les appels entrants des numéros de téléphone de l'étranger"</string>
     <string name="tab_title">Liste noire</string>
     <string name="tab_blacklist">Liste noire</string>
     <string name="tab_sms">SMS</string>
@@ -36,8 +36,8 @@
     <string name="dlg_clear_current_call">Effacer tous les appels bloqués provenant de ce numéro ?</string>
     <string name="dlg_clear_all_ok">Tout effacer</string>
     <string name="dlg_clear_current_ok">Effacer</string>
-    <string name="dlg_no_block">"Unblock this phone number ?
-It will be added to exceptions, but previously blocked items won't appear in call history."</string>
+    <string name="dlg_no_block">"Débloquer ce numéro de téléphone ?
+Il sera ajouté aux exceptions, mais les éléments bloqués précédemment n'apparaîtront pas dans l'historique des appels."</string>
     <string name="dlg_no_block_ok">Débloquer</string>
     <string name="dlg_add_blacklist_title">Ajouter à la Liste noire</string>
     <string name="dlg_add_blacklist">Bloquer ce numéro ?</string>
@@ -63,14 +63,14 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="dlg_antispam_mode_delete_message">Vous ne pourrez pas récupérer les règles après leur suppression.</string>
     <string name="dlg_antispam_using_mode_delete_message">Supprimer les règles actuelles et redéfinir les règles par défaut de la liste noire ?</string>
     <string name="dlg_antispam_using_mode_international_delete_message">Supprimer les règles actuelles et redéfinir les règles par défaut de la liste noire ?</string>
-    <string name="back_sound_success">Success!</string>
-    <string name="back_sound_fail">Failed！</string>
-    <string name="back_sound_support">"The current network operators doesn't support it！"</string>
-    <string name="back_sound_data">It requires cellular mobile network, please retry!</string>
-    <string name="dlg_move_to_white">Add to exceptions</string>
-    <string name="dlg_add_white">"New calls and messages from the numbers added to exceptions will be shown in call history and Messaging inbox. However, previously blocked items won't appear there. Add selected numbers to exceptions?"</string>
-    <string name="dlg_not_block_sms">"Unblock selected numbers? They will be added to exceptions, but previously blocked items won't appear in Messaging inbox."</string>
-    <string name="dlg_not_block_call">"Unblock selected numbers? They will be added to exceptions, but previously blocked items won't appear in call history."</string>
+    <string name="back_sound_success">Défini avec succès</string>
+    <string name="back_sound_fail">"Impossible de définir. Les paramètres de l'opérateur ont été modifiés. Définissez la care SIM actuelle comme votre carte de données, connectez-vous et réessayez."</string>
+    <string name="back_sound_support">Le réseau de votre opérateur ne prend pas en charge ce paramètre.</string>
+    <string name="back_sound_data">Activer les données mobiles et réessayez.</string>
+    <string name="dlg_move_to_white">Ajouter aux exceptions</string>
+    <string name="dlg_add_white">"Les nouveaux appels et messages provenant des numéros ajoutés aux exceptions seront affichés dans l'historique des appels et la boîte de réception des messages. Cependant, les éléments précédemment bloqués n'apparaîtront pas ici. Ajouter les numéros sélectionnés aux exceptions ?"</string>
+    <string name="dlg_not_block_sms">"Débloquer les numéros sélectionnés ? Ils seront ajoutés aux exceptions, mais les éléments précédemment bloqués n'apparaîtront pas dans la boîte de réception des messages."</string>
+    <string name="dlg_not_block_call">"Débloquer les numéros sélectionnés ? Ils seront ajoutés aux exceptions, mais les éléments précédemment bloqués n'apparaîtront pas dans l'historique des appels."</string>
     <string name="menu_call">Composer</string>
     <string name="menu_sms">Envoyer un message</string>
     <string name="menu_bl_call_log">Voir les appels bloqués</string>
@@ -80,9 +80,10 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="menu_add">Ajouter</string>
     <string name="menu_edit">Modifier</string>
     <string name="menu_remove">Supprimer</string>
+    <string name="menu_white">Exceptions</string>
     <string name="st_settings_name">Paramètres de la Liste Noire</string>
     <string name="st_filter_keywords_setting_summary1">Les SMS provenant de numéros inconnus contenant les mots dans cette liste seront bloqués.</string>
-    <string name="st_filter_keywords_setting_summary3">Messages from unknown numbers that contain the words in this list will be allowed in.</string>
+    <string name="st_filter_keywords_setting_summary3">Les Sms provenant de numéros inconnus contenant les mots dans cette liste seront autorisés.</string>
     <string name="st_filter_keywords_setting_summary2">"
 (Utilisez une virgule pour séparer plusieurs mots-clés)"</string>
     <string name="label_callwait">"Notification d'appel en attente"</string>
@@ -144,7 +145,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="call_contact_block">Bloquer les appels des contacts</string>
     <string name="call_transfer_block">Bloquer les appels transférés</string>
     <string name="call_cloud_block">Liste noire du Cloud</string>
-    <string name="call_oversea_block">Block calls from abroad</string>
+    <string name="call_oversea_block">"Bloquer les appels de l'étranger"</string>
     <string name="mark_fraud_block">Signalé comme arnaque</string>
     <string name="mark_agent_block">Signalé comme agence</string>
     <string name="mark_sell_block">Signalé comme télévendeur</string>
@@ -169,12 +170,13 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="st_sub_title_customize_mode_name">Nom</string>
     <string name="read_all_sms">Tout lire</string>
     <string name="loding">Chargement des données</string>
-    <string name="action_source_sms_title">SMS bloqué</string>
+    <string name="action_source_sms_title">Messages bloqués</string>
+    <string name="action_source_call_title">Appels bloqués</string>
     <string name="st_title_open_antispam">Liste Noire</string>
     <string name="st_title_antispam_mode">Règles</string>
     <string name="st_sub_title_whiteblack_list_group">Liste Noire</string>
-    <string name="st_title_keywords_blacklist">Keyword blacklist</string>
-    <string name="st_title_keywords_whitelist">Keyword whitelist</string>
+    <string name="st_title_keywords_blacklist">Liste noire des mots-clés</string>
+    <string name="st_title_keywords_whitelist">Exceptions des mots-clés</string>
     <string name="st_title_blacklist_numbers">Numéros bloqués</string>
     <string name="st_title_whitelist_numbers">Exceptions</string>
     <string name="st_title_backsound_group">"Message d'absence"</string>
@@ -280,13 +282,13 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="st_msg_intercept_contacts">Bloquer les SMS des contacts</string>
     <string name="st_msg_stranger_group">Bloquer les SMS des personnes étranges</string>
     <string name="st_msg_other_group">Autre</string>
-    <string name="st_msg_keyword_group">Keywords</string>
-    <string name="st_msg_keyword_black">Keyword Blocklist</string>
-    <string name="st_msg_keyword_white">Keyword Exceptions</string>
+    <string name="st_msg_keyword_group">Mots-clés</string>
+    <string name="st_msg_keyword_black">Liste noire des mots-clés</string>
+    <string name="st_msg_keyword_white">Exceptions des mots-clés</string>
     <string name="st_call_settings">Liste noire des appels</string>
     <string name="st_call_intercept_stranger">Bloquer les appels des personnes étranges</string>
     <string name="st_call_intercept_forwarding">Bloquer les appels transférés</string>
-    <string name="st_call_intercept_oversea">Block calls from abroad</string>
+    <string name="st_call_intercept_oversea">"Bloquer les appels de l'étranger"</string>
     <string name="st_call_intercept_reported">Bloquer les appels des numéros signalés</string>
     <string name="st_call_intercept_contacts">Bloquer les appels des contacts</string>
     <string name="st_call_intercept_unknown">Bloquer les appels des numéros masqués</string>
@@ -298,7 +300,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="st_confirm_dialog_btn_open">Ouvrir</string>
     <string name="st_confirm_dialog_summary_stranger_call">Tous les appels provenant des personnes étranges seront bloqués.</string>
     <string name="st_confirm_dialog_summary_contact_call">Tous les appels provenant des contacts seront bloqués.</string>
-    <string name="st_confirm_dialog_summary_oversea_call">Turn on to block all incoming calls from foreign phone numbers.</string>
+    <string name="st_confirm_dialog_summary_oversea_call">"Activer pour bloquer tous les appels entrants des numéros de téléphone de l'étranger."</string>
     <string name="cta_dialog_title">Connexion Internet</string>
     <string name="cta_dialog_msg">"L'application Sécurité nécessite une connexion Internet pour obtenir les mises à jour, aussi bien que l'accès à la localisation pour fonctionner normalement."</string>
     <string name="cta_settings">Autoriser la connexion à Internet</string>
@@ -357,13 +359,13 @@ de l'opérateur"</string>
     <string name="main_purchase_tips">Promotion</string>
     <string name="main_month_total_used">Utilisées ce mois</string>
     <string name="main_daily_package">Forfait de données quotidien</string>
-    <string name="main_indicator_title">"En attente de l'activation"</string>
+    <string name="main_indicator_title">Activation</string>
     <string name="main_tobe_added_desc">Données mobiles de 0,03 ¥/Mo</string>
     <string name="main_button_mi_sim_close">Activer Mi SIM</string>
     <string name="main_button_mi_sim_open">Voir les détails</string>
     <string name="firewall_activity_lable">"Restreindre l'utilisation des données par application"</string>
     <string name="firewall_applist">Applications</string>
-    <string name="firewall_mobile">Mobile data</string>
+    <string name="firewall_mobile">Données Mobiles</string>
     <string name="firewall_wifi">Wi-Fi</string>
     <string name="firewall_fragment_sys_listempty">Vide</string>
     <string name="firewall_fragment_nonesys_listempty">Vide</string>
@@ -374,12 +376,13 @@ de l'opérateur"</string>
     <string name="firewall_restrict_android_dialog_content">"Pour vous s'assurer que votre appareil fonctionne normalement, quelques applications du système Android se connecteront toujours à Internet. Ces applications utiliseront votre connexion de données mobiles et pourront être facturées par votre opérateur."</string>
     <string name="background_restrict_app_dialog_message">"La restriction de l'accès réseau en arrière-plan pour cette application pourrait empêcher l'application de fonctionner normalement, recevoir des messages, télécharger du contenu, etc. Restreindre quand même ?"</string>
     <string name="firewall_allow_network">Autoriser</string>
-    <string name="app_bg_restrict_dialog_message">Restricting background network connection may prevent the app from working normally. For example, it might no longer be able to receive messages or update content. Restrict anyway?</string>
+    <string name="app_bg_restrict_dialog_message">"La restriction de la connexion réseau en arrière-plan peut empêcher l'application de fonctionner normalement. Par exemple, il peut ne plus être en mesure de recevoir des messages ou de mettre à jour du contenu. Restreindre quand même ."</string>
     <string name="firewall_network_allow">%1$s est autorisé à utiliser la connexion %2$s</string>
     <string name="search_result_text">Impossible de trouver une application</string>
     <string name="firewall_mobile_dialog_message">"L'application installée ne sera plus en mesure de se connecter à Internet via les données mobiles lorsque cet interrupteur est désactivé."</string>
     <string name="firewall_wifi_dialog_message">"L'application installée ne sera plus en mesure de se connecter à Internet via Wi-Fi lorsque cet interrupteur est désactivé."</string>
-    <string name="firewall_system_title">Data usage for system apps</string>
+    <string name="firewall_system_title">Utilisation des données pour les applications système</string>
+    <string name="firewall_temp_rule_reason">%2$s ont restreint la connexion Internet pour %1$s</string>
     <string name="usage_sorted_activity_lable">Utilisation de données</string>
     <string name="usage_sorted_loading_text">Un instant…</string>
     <string name="usage_sorted_empty_text">Vide</string>
@@ -402,7 +405,8 @@ de l'opérateur"</string>
     <string name="detail_app_button">"Informations sur l'application"</string>
     <string name="pref_about_traffic_title">"Paramètres d'utilisation des données"</string>
     <string name="pref_traffic_manage_title">Utilisation de données</string>
-    <string name="pref_package_traffic_settings">Data plan</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
+    <string name="pref_package_traffic_settings">Forfait de donnée</string>
     <string name="pref_adjust_traffic_data">"Définir l'utilisation des données"</string>
     <string name="pref_category_title_other">Paramètres supplémentaires</string>
     <string name="pref_title_update_notification">"Notifications de l'utilisation de données"</string>
@@ -410,7 +414,7 @@ de l'opérateur"</string>
     <string name="pref_title_traffic_speed_state">Afficher la vitesse de connexion</string>
     <string name="pref_title_declaration">Avertissement important</string>
     <string name="pref_new_installed_preconfig_title">Paramètres par défaut des nouvelles applications</string>
-    <string name="pref_bg_network_title">Background connection</string>
+    <string name="pref_bg_network_title">Connexion en arrière-plan</string>
     <string name="pref_mi_sim_settings">Paramètres SIM Mi</string>
     <string name="pref_title_upload_data_usage">"Rapporter les statistiques d'utilisation des données"</string>
     <string name="pref_summary_upload_data_usage">"Indiquez vos statistiques d'utilisation des données pour nous aider à améliorer MIUI. Les rapports sont effectués conformément à notre Politique de confidentialité."</string>
@@ -646,7 +650,7 @@ Lors de l'étalonnage, MIUI vous enverra un message à votre opérateur de recev
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="roaming_allow_network_dialog_title">"Autoriser l'itinérance des données ?"</string>
     <string name="title_limit_traffic_per_day">"Limite d'utilisation de données quotidiennes"</string>
-    <string name="daily_limit_and_lock_screen">Data usage warning</string>
+    <string name="daily_limit_and_lock_screen">"Alerte d'utilisation des données"</string>
     <string name="pref_title_traffic_limit_number">Taille</string>
     <string name="pref_title_over_traffic_limit_warning">Lorsque dépassée</string>
     <string name="reach_daily_limit_value_title">Limite quotidienne de données atteinte</string>
@@ -661,12 +665,12 @@ Lors de l'étalonnage, MIUI vous enverra un message à votre opérateur de recev
     <string name="lock_screen_warning_switch_title">"Afficher les avertissements à l'écran de verrouillage"</string>
     <string name="lock_screen_warning_switch_summary">"Afficher un avertissement à l'écran de verrouillage lorsque le volume de données atteint une certaine quantité"</string>
     <string name="lock_screen_warning_value">"Alerte d'utilisations de données"</string>
-    <string name="pref_normal_traffic_limit">When data plan is used up</string>
+    <string name="pref_normal_traffic_limit">Lorsque le forfait de données a expiré</string>
     <string name="pref_over_traffic_limit">Lorsque vous dépassez votre forfait de données</string>
     <string name="traffic_warning_purchase_title">"Avertissement de l'utilisation de données mobiles"</string>
     <string name="traffic_purchase_body">Appuyez pour recharger votre solde.</string>
     <string name="traffic_over_purchase_link">"Vous avez atteint la limite d'utilisation de données de votre forfait.&lt;br/>Si vous dépassez la limite d'utilisation de données de votre forfait, votre opérateur peut vous facturer des frais supplémentaires.&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Appuyez pour recharger votre solde.&lt;/U>&lt;/font>"</string>
-    <string name="more_settings">More</string>
+    <string name="more_settings">PlusPlus</string>
     <string name="repair_loading_text">Un instant…</string>
     <string name="network_diagnostics">Tester le réseau</string>
     <string name="btn_start_diagnostic">Tester le réseau</string>
@@ -759,11 +763,13 @@ Lisez les instructions fournies avec votre routeur et restaurez votre routeur à
 
          "<b>5. Assurez-vous que votre routeur est correctement branché</b>"
 Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vous pensez qu'il ya un problème avec la connexion de votre maison, prenez contact avec votre fournisseur d'accès."</string>
-    <string name="permission_exception_title">Restricted connection for apps</string>
-    <string name="bg_network_exception_title">Restricted background connection</string>
+    <string name="permission_exception_title">Connexion restreinte pour les applis</string>
+    <string name="bg_network_exception_title">Connexion en arrière-plan restreinte</string>
     <string name="networkchanged_exception_title">Connexion changée</string>
     <string name="networkchanged_exception_summary">La connexion réseau a changé. Tester à nouveau.</string>
     <string name="network_test_speed">Tester le débit du Wi-Fi</string>
+    <string name="network_changed_noti_title">Disconnected from Wi-Fi</string>
+    <string name="network_changed_noti_summary">Using mobile data</string>
     <string name="network_speed_for_apps_title">Connexion</string>
     <string name="network_speed_for_apps_total">Vitesse de connexion</string>
     <string name="network_speed_for_apps_close_app_dlg_msg">Forcer la fermeture de cette application ?</string>
@@ -842,16 +848,16 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="status_bar_network_flow_content">"Aujourd'hui :%1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Restant : %2$s"</string>
     <string name="status_bar_network_flow_content_not_setting">"Aujourd'hui :%1$s&amp;nbsp;&amp;nbsp;&amp;nbsp; Ce mois : %2$s"</string>
     <string name="status_bar_network_flow_today">"Aujourd'hui : %1$s"</string>
-    <string name="pref_key_tethering_setting">One-time data limit</string>
-    <string name="pref_key_tethering_title">One-time data limit</string>
-    <string name="tether_limit_value_custom">Custom</string>
-    <string name="tether_limit_dialog_title">Mobile data limit</string>
-    <string name="tether_custom_dialog_title">Mobile data limit</string>
-    <string name="tether_over_limit_warning_notify_title">Reached hotspot data limit</string>
-    <string name="tether_over_limit_warning_notify_message">Turn off portable hotspot.</string>
-    <string name="tether_over_limit_dialog_title">Data usage warning</string>
-    <string name="tether_over_limit_dialog_message">You reached portable hotspot data limit.</string>
-    <string name="tether_over_limit_dialog_cancle_btn">Reset hotspot</string>
+    <string name="pref_key_tethering_setting">Limite de données unique</string>
+    <string name="pref_key_tethering_title">Limite de données unique</string>
+    <string name="tether_limit_value_custom">Personnaliser</string>
+    <string name="tether_limit_dialog_title">Limite de données mobiles</string>
+    <string name="tether_custom_dialog_title">Limite de données mobiles</string>
+    <string name="tether_over_limit_warning_notify_title">"Limite de données du point d'accès mobile atteinte"</string>
+    <string name="tether_over_limit_warning_notify_message">"Désactiver le point d'accès mobile."</string>
+    <string name="tether_over_limit_dialog_title">"Alerte d'utilisation des données"</string>
+    <string name="tether_over_limit_dialog_message">"Vous avez atteint la limite de données du point d'accès mobile."</string>
+    <string name="tether_over_limit_dialog_cancle_btn">"Réinitialiser le point d'accès mobile"</string>
     <string name="optimize_manage_title">Augmenter la vitesse</string>
     <string name="cpu_usage_android_system">Système Android</string>
     <string name="cpu_usage_process_run_time_little_time">Moins de 1 minute</string>
@@ -913,6 +919,7 @@ Cette activité réduit la durée de vie de la batterie."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Cette application peut ralentir
 votre appareil"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Désinstaller %s ?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">"Désinstaller cette application pour résoudre tous les problèmes liés à l'usage de la batterie."</string>
     <string name="om_ill_proc_type_wakelock_title">"L'application bloque le mode veille et décharge la batterie"</string>
@@ -928,7 +935,8 @@ votre appareil"</string>
     <string name="om_ill_proc_type_radio_title">"L'application se connecte au réseau fréquemment et décharge la batterie"</string>
     <string name="om_ill_proc_type_radio_detail">Réparer les problèmes liés à la connexion réseau</string>
     <string name="om_ill_proc_activity_title">Problèmes</string>
-    <string name="power_center_title">Énergie</string>
+    <string name="power_center_title">Utilisation de la batterie</string>
+    <string name="power_center_back">"Retour l'utilisation de la batterie"</string>
     <string name="power_center_auto_shutdown">Planifier marche/arrêt</string>
     <string name="power_center_ontime_boot">Horaire de démarrage</string>
     <string name="power_center_time_to_boot">Horaire de démarrage</string>
@@ -991,7 +999,7 @@ votre appareil"</string>
     <string name="battery_history_seconds">%1$dsec</string>
     <string name="delete">Supprimer</string>
     <string name="every_day">Tous les jours</string>
-    <string name="legal_workday">Legal workdays</string>
+    <string name="legal_workday">Jours ouvrés</string>
     <string name="never">1 fois</string>
     <string name="power_20s_shutdown">"L'appareil va s'éteindre dans %d secondes"</string>
     <string name="boot_reminder">Allumer votre appareil à une heure programmée</string>
@@ -1248,6 +1256,7 @@ votre appareil"</string>
     <string name="dialog_no_longer_alert">Ne plus afficher</string>
     <string name="sp_background_risk_dialog_title_wifi_approve">Alerte Wi-Fi public</string>
     <string name="sp_background_risk_dialog_summary_wifi_approve">"Vous êtes connecté à un réseau Wi-Fi public qui n'est peut-être pas sécurisé. Assurez-vous que votre paiement est protégé avant de le terminer."</string>
+    <string name="sc_warning_updater_not_found">"Impossible de trouver l'application Mise à jour."</string>
     <string name="sp_background_risk_dialog_title">Attention</string>
     <string name="sp_background_risk_dialog_summary">, vérifier et réparer les erreurs de paiement.</string>
     <string name="sp_background_risk_type_wifi">Ce réseau Wi-Fi est dangereux</string>
@@ -1315,6 +1324,7 @@ votre appareil"</string>
     <string name="menu_text_networkassistants">Utilisation des données</string>
     <string name="menu_text_networkassistants_remain">%s restants</string>
     <string name="menu_text_networkassistants_danger">%s dépassé</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">Go</string>
     <string name="menu_text_networkassistants_unit_mb">Mo</string>
     <string name="menu_text_networkassistants_unit_kb">ko</string>
@@ -1629,7 +1639,7 @@ votre appareil"</string>
     <string name="virus_scan_process_pre">%</string>
     <string name="try_recommended_function">Protégez votre appareil en utilisant les nouvelles fonctionnalités de sécurité</string>
     <string name="activity_title_white_list">Exceptions</string>
-    <string name="uninstall_danagerous_title">Désinstaller les applis malveillantes</string>
+    <string name="uninstall_danagerous_title">Désinstaller les applications malveillantes</string>
     <string name="uninstall_danagerous_desc">\" %s \" peut endommager votre appareil</string>
     <string name="uninstall_danagerous_msg">\" %s \" peut endommager votre appareil, réduire les performances ou provoquer des redémarrages.</string>
     <string name="still_retain_btn">Garder</string>
@@ -1665,7 +1675,7 @@ votre appareil"</string>
     <string name="preferred_app_entries_music">Musique</string>
     <string name="preferred_app_entries_email">E-mail</string>
     <string name="card_main_applock_title">"Verrouillage d'application"</string>
-    <string name="card_main_applock_summary">"Protéger des éléments confidentiels avec le Verrouillage d'application"</string>
+    <string name="card_main_applock_summary">"Protégez vos messages, photos et d'autres éléments avec un mot de passe."</string>
     <string name="card_main_applock_action">Activer</string>
     <string name="card_main_deepclean_title">Nettoyage en profondeur</string>
     <string name="card_main_deepclean_summary">Supprimer les fichiers inutiles</string>
@@ -1675,6 +1685,7 @@ votre appareil"</string>
     <string name="card_main_deepclean_wechat_action">Vider</string>
     <string name="card_main_sectool_title">Outils</string>
     <string name="card_main_monthreport_action">Afficher</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Tester le réseau</string>
     <string name="card_main_netcheck_summary">Tester la connexion pour des problèmes de réseau</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1695,8 +1706,10 @@ votre appareil"</string>
     <string name="card_main_xspace_summary">"Créer des comptes doubles pour n'importe quelle application"</string>
     <string name="card_main_xspace_action">Créer</string>
     <string name="card_main_overscroll_tips">La sécurité à son plus haut niveau</string>
-    <string name="card_main_gamebooster_title">Augmentation de la vitesse de jeu</string>
+    <string name="card_main_gamebooster_title">Accélérateur de la vitesse de jeu</string>
     <string name="skin_change_close_toast">Les modifications seront appliquées la prochaine que vous lancez Sécurité</string>
+    <string name="password_type">Modifier le mot de passe</string>
+    <string name="password_type_underline"><u>Modifier le mot de passe</u></string>
     <string name="Setting_lock">Paramètres</string>
     <string name="more_lock">Plus</string>
     <string name="app_name">"Verrouillage d'application"</string>
@@ -1717,7 +1730,11 @@ votre appareil"</string>
     <string name="ac_summaryOff">"Désactivé, aucun mot de passe n'est requis pour ouvrir les applications"</string>
     <string name="lockpattern_tutorial_cancel_label">Annuler</string>
     <string name="lockpattern_tutorial_continue_label">Suivant</string>
+    <string name="lockpattern_tutorial_continue_label_next">Appuyez sur \"Suivant\"</string>
+    <string name="lockpattern_tutorial_continue_label_confirm">Appuyez sur \"OK\"</string>
     <string name="lockpattern_retry_button_text">Dessiner à nouveau</string>
+    <string name="numeric_retry_button_text">Annuler</string>
+    <string name="mixed_retry_button_text">Annuler</string>
     <string name="lockpattern_continue_button_text">Suivant</string>
     <string name="lockpattern_confirm_button_text">OK</string>
     <string name="modifypassword">Changer de mot de passe</string>
@@ -1740,22 +1757,36 @@ votre appareil"</string>
     <string name="passwordIncorrect">"Nom d'utilisateur ou de mot de passe incorrect"</string>
     <string name="access_control_app_is_launching">"Lancement de l'application"</string>
     <string name="access_control_need_to_unlock_nofingerprint">Entrez le mot de passe de Verr. App</string>
-    <string name="access_control_failed_need_to_unlock_nofingerprint">Dessinez votre schéma de déverrouillage pour utiliser une nouvelle empreinte digitale</string>
+    <string name="access_control_failed_need_to_unlock_nofingerprint">Saisissez le mot de passe avant de déverrouiller avec une nouvelle empreinte digitale</string>
     <string name="access_control_fingerprint_not_identified_msg">"Impossible de lire l'empreinte digitale."</string>
     <string name="access_control_need_password">"%s ajouté avec succès
 "</string>
     <string name="privacy_mode_dialog_title">Mode invité</string>
     <string name="lockpattern_settings_help_how_to_record">Dessiner un schéma</string>
+    <string name="numeric_settings_help_how_to_record">Comment définir un code PIN ?</string>
+    <string name="mixed_settings_help_how_to_record">Comment définir un mot de passe ?</string>
     <string name="lockpattern_recording_incorrect_too_short">Connecter au moins %d points</string>
+    <string name="numeric_recording_incorrect_too_short">Saisir au moins %d chiffres.</string>
+    <string name="mixed_recording_incorrect_too_short">Saisir au moins %d caractères.</string>
     <string name="lockpattern_recording_intro_header">Connecter au moins 4 points pour créer un schéma</string>
+    <string name="numeric_recording_intro_header">Saisir le mot de passe</string>
+    <string name="mixed_recording_intro_header">Saisir au moins 4 caractères</string>
     <string name="lockpattern_pattern_entered_header">Schéma ajouté</string>
+    <string name="numeric_pattern_entered_header">Code PIN défini avec succès</string>
+    <string name="mixed_pattern_entered_header">Mot de passe défini avec succès</string>
     <string name="lockpattern_need_to_confirm">Redessinez le schéma pour confirmer :</string>
+    <string name="numeric_need_to_confirm">Entrer une fois de plus pour confirmer</string>
+    <string name="mixed_need_to_confirm">Entrer une fois de plus pour confirmer</string>
     <string name="unlock_pattern_to_bind_fingerprint">"Saisir un mot de passe pour activer l'empreinte digitale"</string>
     <string name="lockpattern_access_need_to_unlock_wrong_fingerprint">"Impossible de reconnaître l'empreinte digitale, réessayez."</string>
     <string name="lockpattern_access_need_to_unlock_wrong_pattern">Le mot de passe est incorrect, réessayez.</string>
     <string name="lockpattern_need_to_unlock_wrong">Les mots de passe ne correspondent pas, réessayez.</string>
     <string name="lockpattern_recording_inprogress">Soulevez votre doigt pour terminer</string>
     <string name="lockpattern_pattern_confirmed_header">Définir un nouveau schéma de déverrouillage</string>
+    <string name="numeric_password_confirmed_header_continue">Défini avec succès. Appuyer sur \"Suivant\".</string>
+    <string name="numeric_password_confirmed_header_confirm">Défini avec succès. Appuyez sur \"Confirmer\".</string>
+    <string name="mixed_password_confirmed_header_continue">Défini avec succès. Appuyer sur \"Suivant\".</string>
+    <string name="mixed_password_confirmed_header_confirm">Défini avec succès. Appuyez sur \"Confirmer\".</string>
     <string name="forget_pattern"><u>Mot de passe oublié</u></string>
     <string name="unlock_pattern"><u>Schéma</u></string>
     <string name="modify_password_mode"><u>Modifier le type de mot de passe</u></string>
@@ -1788,6 +1819,19 @@ votre appareil"</string>
     <string name="applock_close_dialog_title">"Désactiver le Verrouillage d'application ?"</string>
     <string name="applock_close_dialog_summary">"Les applications ne seront plus protégées et votre mot de passe sera supprimé après la désactivation du Verrouillage d'application."</string>
     <string name="applock_header_text_less_than_half">Trop petit. Déplacer un peu plus loin.</string>
+    <string name="quite_all_string">Annuler</string>
+    <string name="delete_input">Supprimer</string>
+    <string name="input_password_hint_text">Saisir le mot de passe</string>
+    <string name="wrong_password">Mot de passe incorrect</string>
+    <string name="unlock_set_unlock_pattern_title">Schéma</string>
+    <string name="unlock_set_unlock_pin_title">Code PIN</string>
+    <string name="unlock_set_unlock_password_title">Mot de passe</string>
+    <string name="unlock_set_unlock_pattern_summary">Connecter au moins 4 points</string>
+    <string name="unlock_set_unlock_pin_summary">Saisir 4 chiffres</string>
+    <string name="unlock_set_unlock_password_summary">Combiner différents caractères</string>
+    <string name="set_pattern_password_name">Dessinez un schéma</string>
+    <string name="set_numeric_password_name">Définir un code PIN</string>
+    <string name="set_mixed_password_name">Définir un mot de passe</string>
     <string name="wakepath_confirm_start_activity">Autoriser %1$s à ouvrir %2$s ?</string>
     <string name="unlike">Non merci</string>
     <string name="toast_network_eror">Impossible de se connecter</string>
@@ -1906,7 +1950,7 @@ votre appareil"</string>
     <string name="app_manager_app_traffic">"Utilisation de données : "</string>
     <string name="app_manager_app_power">"Utilisation de la batterie : "</string>
     <string name="app_manager_net_control_title">"Restreindre l'utilisation des données"</string>
-    <string name="app_manager_net_mobile">Données</string>
+    <string name="app_manager_net_mobile">Données Mobiles</string>
     <string name="app_manager_net_wifi">Wi-Fi</string>
     <string name="app_manger_des_separator">", "</string>
     <string name="app_manager_disable">Ne pas autoriser</string>
@@ -1928,7 +1972,7 @@ votre appareil"</string>
     <string name="app_manager_show_all_apps">Afficher toutes les applications</string>
     <string name="app_manager_hide_system_server">Masquer les services du système</string>
     <string name="app_manager_back">Retour</string>
-    <string name="app_manager_defaults_setting">Par défaut</string>
+    <string name="app_manager_defaults_setting">Gestion des apps par défaut</string>
     <string name="app_manager_clear_cache">Vider le cache</string>
     <string name="app_manager_reset_app_preferences">"Réinitialiser les préférences de l'application"</string>
     <string name="app_manager_reset_app_preferences_title">"Réinitialiser les préférences de l'application ?"</string>
@@ -1969,11 +2013,13 @@ votre appareil"</string>
     <string name="app_manager_clear_all_data">Effacer toutes les données</string>
     <string name="app_manager_dlg_clear_cache_title">Vider le cache?</string>
     <string name="app_manager_support_uninstall">Vous pouvez désinstaller ces applications</string>
-    <string name="app_manager_not_support_uninstall">"Can't uninstall this apps"</string>
-    <string name="app_manager_comuting_size">Computing…</string>
-    <string name="app_manager_show_all_apps_opened">Showing results from all apps…</string>
-    <string name="app_manager_search_prompt">"Couldn't find results? Try showing results from all apps."</string>
-    <string name="app_manager_open_show_all_apps_immediate">Show all results</string>
+    <string name="app_manager_not_support_uninstall">Impossible de désinstaller ces applications</string>
+    <string name="app_manager_comuting_size">Calcul…</string>
+    <string name="app_manager_show_all_apps_opened">Affichage des résultats depuis toutes les applications…</string>
+    <string name="app_manager_search_prompt">"Impossible de trouver des résultats ? Essayer d'afficher les résultats depuis toutes les applications."</string>
+    <string name="app_manager_open_show_all_apps_immediate">Afficher tous les résultats</string>
+    <string name="app_manager_mobile_slot1">Données Mobiles (SIM 1)</string>
+    <string name="app_manager_mobile_slot2">Données Mobiles (SIM 2)</string>
     <string name="ad_btn_default_text">En savoir plus</string>
     <string name="open_activity_err">"L'application n'a pas été trouvée"</string>
     <string name="low_memory_warning_dialog_title">Espace de stockage insuffisant</string>
@@ -1998,7 +2044,7 @@ votre appareil"</string>
     <string name="gs_forbid_autosync">Restreindre la synchronisation en arrière-plan</string>
     <string name="gs_app_back_self_start">Économiseur de batterie</string>
     <string name="gs_only_self_start_for_list">Restreindre les processus en arrière-plan pour économiser la batterie pour les jeux</string>
-    <string name="gs_game_shortcut">"Profitez d'une expérience de jeu plus fluide"</string>
+    <string name="gs_game_shortcut">Améliorer votre expérience de jeu</string>
     <string name="gs_game_net_priority">Priorité de connexion</string>
     <string name="gs_game_net_priority_detail">Limiter la vitesse de téléchargement pour avoir une bande passante suffisante pour les jeux</string>
     <string name="gs_performance_mode">Mode performance</string>
@@ -2022,7 +2068,7 @@ votre appareil"</string>
     <string name="add_done">Ajouté avec succès</string>
     <string name="boost_done">Augmenté avec succès</string>
     <string name="boost_stop">"Désactiver l'augmentation de la vitesse"</string>
-    <string name="already_close_gamebooster">"L'augmentation de la vitesse de jeu est désactivée"</string>
+    <string name="already_close_gamebooster">Accélérateur de la vitesse de jeu désactivé</string>
     <string name="no_game">Impossible de trouver des jeux</string>
     <string name="gamebooster_network_dialog_title">Certaines fonctionnalités ne sont pas disponibles</string>
     <string name="gamebooster_network_dialog_message">"Autorisez Sécurité à se connecter au réseau afin d'utiliser toutes les fonctionnalités de l'accélérateur de vitesse de jeux ?"</string>
@@ -2040,15 +2086,14 @@ votre appareil"</string>
     <string name="intro_improve">Accélérez votre expérience de jeu à un niveau du système</string>
     <string name="i_know">"C'est compris"</string>
     <string name="dialog_text">"Créer un raccourci pour l'Accélérateur de jeu sur l'Écran d'accueil"</string>
-    <string name="anim_gamebooster_text">Un instant…</string>
     <string name="intro_skip">Ignorer</string>
     <string name="open_game">Ouvrir</string>
     <string name="try_game">Essayer</string>
     <string name="more_game">Plus de Jeux</string>
     <string name="sys_title_gamebooster_unit_gb">Go</string>
     <string name="sys_title_gamebooster_unit_mb">Mo</string>
-    <string name="gmscore_support_service">Google Services</string>
-    <string name="gmscore_support_remind">Turn this feature on if you experience problems with using Gmail, Google Maps, and other Google apps. It will slightly reduce battery life.</string>
+    <string name="gmscore_support_service">Services Google</string>
+    <string name="gmscore_support_remind">"Activer cette fonctionnalité si vous rencontrez des problèmes avec Gmail, Google Maps et d'autres applications Google. Cela réduira légèrement la durée de vie de la batterie."</string>
     <string name="google_base_app_install_choice">"\"%s\" nécessite un framework des services Google pour fonctionner normalement, voulez-vous le télécharger et l'installer maintenant ?"</string>
     <string name="application_item_disable">Limité</string>
     <string name="application_item_already_permission">Autorisé</string>
@@ -2066,8 +2111,8 @@ votre appareil"</string>
     <string name="scan_installed_games">Vérification des jeux installés…</string>
     <string name="boostering">Augmentation de la vitesse…</string>
     <string name="booster_suc">Augmentée avec succès</string>
-    <string name="auto_booster_suc">Boosted successfully</string>
-    <string name="auto_back_booster">Stop boosting</string>
+    <string name="auto_booster_suc">Augmenté avec succès</string>
+    <string name="auto_back_booster">"Arrêter l'augmentation"</string>
     <string name="support_game_booster_tips">"Augmenter la vitesse &amp; améliorer l'expérience de jeu"</string>
     <string name="setting">Paramètres</string>
     <string name="loading">Un instant…</string>
@@ -2096,7 +2141,7 @@ votre appareil"</string>
     <string name="wifi_optizition_tip">"Activer l'augmentation de la vitesse du Wi-Fi afin de stabiliser davantage la connexion Wi-Fi. Un petit montant de données mobiles sera utilisé."</string>
     <string name="wifi_optizition_loading">"Activation de l'augmentation de la vitesse du réseau via Xunyou…"</string>
     <string name="free_send_net_booster">Augmentation de la vitesse du réseau gratuite</string>
-    <string name="free_send_net_booster_tip">Profiter des expériences de jeux fluides avec une augmentation de la vitesse du réseau gratuite.</string>
+    <string name="free_send_net_booster_tip">"Profiter d'une expérience de jeux fluide avec une augmentation gratuite de la vitesse du réseau."</string>
     <string name="free_send_net_booster_busniess">Obtenir un accélérateur de vitesse Xunlei gratuit</string>
     <string name="free_send_net_booster_busniess_tip">Appuyez pour recevoir</string>
     <string name="net_booster_overdue_notification">"La session d'augmentation de la vitesse du réseau prendra bientôt fin"</string>
@@ -2119,12 +2164,16 @@ votre appareil"</string>
     <string name="game_booster_close">Accélérateur de la vitesse de jeu désactivé</string>
     <string name="databooster_tips_title">Attention</string>
     <string name="databooster_tips_message">"Activez pour restreindre toutes les cartes SIM à l'exception de la carte de données. Désactivez cette fonction si des erreurs se produisent dans les jeux de votre choix."</string>
-    <string name="gb_description_image_button_answer">Answer</string>
-    <string name="gb_description_image_button_video_answer">Video call</string>
+    <string name="gb_description_image_button_answer">Répondre</string>
+    <string name="gb_description_image_button_video_answer">Appel vidéo</string>
     <string name="gb_description_image_button_reject">Refuser</string>
     <string name="gs_autobooster">Accélérer automatiquement</string>
     <string name="gs_autobooster_detail">Augmentez automatiquement la vitesse des jeux sélectionnés</string>
     <string name="gs_autobooster_dialog_message">"Si vous utilisez l'accélérateur de vitesse Xunyou, ouvrez les jeux sur la page désignée."</string>
+    <string name="accessibility_gameboosterservice_description">Activer pour désactiver le son des appels WeChats entrants lorsque vous jouez à des jeux</string>
+    <string name="gb_cutoff">|</string>
+    <string name="gb_ad_game_size">Mo</string>
+    <string name="gb_new_feature">Nouvelle fonctionnalité</string>
     <string name="power_center_consume_rank">Utilisation de la batterie</string>
     <string name="power_center_custom_title">"Profils de gestion d'énergie"</string>
     <string name="power_center_auto_shutdown_summary_default">Allumer ou éteindre votre appareil à une heure programmée</string>

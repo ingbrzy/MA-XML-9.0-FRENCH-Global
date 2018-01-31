@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="actionbar_large_unread_count">
+        <item quantity="other">%1$d+ non lus</item>
+        <item quantity="one">%1$d+ non lu</item>
+    </plurals>
     <plurals name="actionbar_unread_messages">
         <item quantity="other">%1$d non lus</item>
         <item quantity="one">%1$d non lu</item>
@@ -37,8 +41,8 @@
         <item quantity="one">Dossier modifié.</item>
     </plurals>
     <plurals name="conversation_msg_header_count">
-        <item quantity="other">+%1$d personnes</item>
-        <item quantity="one">+%1$d personne</item>
+        <item quantity="other">"+ %1$d  autres personnes"</item>
+        <item quantity="one">"+ %1$d  autre personne"</item>
     </plurals>
     <plurals name="conversation_muted">
         <item quantity="other">&lt;b>%1$d&lt;/b> en sourdine</item>
@@ -80,9 +84,21 @@
         <item quantity="other">%1$d messages seront définitivement supprimés.</item>
         <item quantity="one">%1$d message sera définitivement supprimé.</item>
     </plurals>
+    <plurals name="hide_atts_remaining">
+        <item quantity="other">Masquer %1$d pièces jointes</item>
+        <item quantity="one">Masquer %1$d pièce jointe</item>
+    </plurals>
+    <plurals name="local_search_result">
+        <item quantity="other">%s résultats dans les messages synchronisés</item>
+        <item quantity="one">%s résultat dans les messages synchronisés</item>
+    </plurals>
     <plurals name="month">
         <item quantity="other">%d mois</item>
         <item quantity="one">%d mois</item>
+    </plurals>
+    <plurals name="more_atts_remaining">
+        <item quantity="other">%1$d attachements restants</item>
+        <item quantity="one">%1$d attachement restant</item>
     </plurals>
     <plurals name="move_conversation">
         <item quantity="other">Déplacer %1$d conversations</item>
@@ -92,12 +108,28 @@
         <item quantity="other">Afficher %1$d nouveaux messages.</item>
         <item quantity="one">Afficher %1$d nouveau message.</item>
     </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d nouveaux messages</item>
+        <item quantity="one">%1$d nouveau message</item>
+    </plurals>
     <plurals name="num_selected">
         <item quantity="other">%d sélectionnés</item>
         <item quantity="one">%d sélectionné</item>
     </plurals>
+    <plurals name="quick_reply_hint">
+        <item quantity="other">Répondre à %1$d personnes</item>
+        <item quantity="one">Réponse à %1$d personne</item>
+    </plurals>
+    <plurals name="remote_search_result">
+        <item quantity="other">%s résultats de tous les comptes</item>
+        <item quantity="one">%s résultat de tous les comptes</item>
+    </plurals>
     <plurals name="show_messages_read">
         <item quantity="other">%1$d anciens messages</item>
         <item quantity="one">%1$d ancien message</item>
+    </plurals>
+    <plurals name="unsent_messages_in_outbox">
+        <item quantity="other">%1$s messages non envoyés dans %2$s</item>
+        <item quantity="one">%1$s message non envoyé dans %2$s</item>
     </plurals>
 </resources>

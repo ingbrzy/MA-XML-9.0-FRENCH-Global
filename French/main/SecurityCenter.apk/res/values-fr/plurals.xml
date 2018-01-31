@@ -4,6 +4,10 @@
         <item quantity="other">%1$d appels de %2$s</item>
         <item quantity="one">"%1$d appel de %2$s et d'autres"</item>
     </plurals>
+    <plurals name="fw_blocked_count_call_one">
+        <item quantity="other">%1$d appels de %2$s</item>
+        <item quantity="one">%1$d appel de %2$s</item>
+    </plurals>
     <plurals name="fw_blocked_count_sms">
         <item quantity="other">%d messages</item>
         <item quantity="one">%d message</item>
@@ -33,12 +37,12 @@
         <item quantity="one">%d application</item>
     </plurals>
     <plurals name="bg_network_allow_count">
-        <item quantity="other">%d apps can connect to the network in the background</item>
-        <item quantity="one">%d app can connect to the network in the background</item>
+        <item quantity="other">%d applications peuvent se connecter au réseau en arrière-plan</item>
+        <item quantity="one">%d application peut se connecter au réseau en arrière-plan</item>
     </plurals>
     <plurals name="bg_network_restrict_count">
-        <item quantity="other">"%d apps can't connect to the network in the background"</item>
-        <item quantity="one">"%d app can't connect to the network in the background"</item>
+        <item quantity="other">%d applications ne peuvent pas se connecter au réseau en arrière-plan</item>
+        <item quantity="one">%d application ne peut pas se connecter au réseau en arrière-plan</item>
     </plurals>
     <plurals name="daily_sim_over_limit_notify_title">
         <item quantity="other">Vous avez déjà utilisé les limites de données quotidiennes de %s.</item>
@@ -69,8 +73,8 @@ Si vous activez les données mobiles, votre opérateur pourrait vous facturer de
         <item quantity="one">%d application trouvée</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"Network access is restricted for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
-        <item quantity="one">"Network access is restricted for &lt;font color='#ff0000'>%d&lt;/font> app"</item>
+        <item quantity="other">"L'accès réseau est restreint pour &lt;font color='#ff0000'>%d&lt;/font> applications"</item>
+        <item quantity="one">"L'accès réseau est restreint pour &lt;font color='#ff0000'>%d&lt;/font> application"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d applications ne fonctionnent pas normalement et déchargent la batterie</item>
@@ -115,6 +119,14 @@ Si vous activez les données mobiles, votre opérateur pourrait vous facturer de
     <plurals name="people_million">
         <item quantity="other">Téléchargé par %1$d personnes</item>
         <item quantity="one">Téléchargé par %1$d personne</item>
+    </plurals>
+    <plurals name="gb_ad_people_play">
+        <item quantity="other">%1$d personnes jouent</item>
+        <item quantity="one">%1$d personne joue</item>
+    </plurals>
+    <plurals name="gb_ad_ten_thousand_people_play">
+        <item quantity="other">%1$d personnes jouent</item>
+        <item quantity="one">%1$d personne joue</item>
     </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$d vues</item>

@@ -255,14 +255,14 @@ pour y accéder depuis l'Écran de verrouillage"</string>
     <string name="scanner_fingerprint">"Identification d'empreinte digitale…"</string>
     <string name="scanner_fingerprint_enter_second">"Scannez l'empreinte digitale du Second espace
 pour y accéder depuis l'Écran de verrouillage"</string>
-    <string name="xspace_guide_title">Créer une application clônée pour %s</string>
+    <string name="xspace_guide_title">Create a dual app</string>
     <string name="xspace_guide_des">Utiliser 2 comptes sans basculer</string>
     <string name="xpsace_guide_button">Créer</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Impossible de trouver une application</string>
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">WeChat Pay</string>
-    <string name="weixin_share">Share to Moments</string>
+    <string name="weixin_share_sign">Se connecter et partager</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">Envoyer sur Weibo</string>
     <string name="xspace_qq_title">QQ</string>
@@ -271,6 +271,9 @@ pour y accéder depuis l'Écran de verrouillage"</string>
     <string name="xspace_default_app_title">Application par défaut</string>
     <string name="xspace_default_app_summary">"Définir l'application par défaut pour les paiements, les partages, les favoris et plus."</string>
     <string name="xspace_default_setting_dialog_title">Par défaut</string>
+    <string name="xspace_default_guide_notification_content">Appuyer pour modifier</string>
+    <string name="xspace_default_guide_notification_main_title">"Utiliser l'application par défaut"</string>
+    <string name="xspace_default_guide_notification_xspace_title">"Utiliser l'application clônée"</string>
     <string name="space_name_default">Espace de travail</string>
     <string name="space_des_default">Espace isolé avec des données chiffrées</string>
     <string name="create_work_space">Créer un Espace de travail</string>
@@ -299,7 +302,7 @@ pour y accéder depuis l'Écran de verrouillage"</string>
     <string name="function_not_support">Non pris en charge sur cet appareil</string>
     <string name="can_not_switch_when_calling">"Impossible de basculer entre les espaces lors d'un appel"</string>
     <string name="can_not_delete_when_calling">"Impossible de supprimer les espaces lors d'un appel"</string>
-    <string name="support_desc">Security services provided by Spaces Mobile</string>
+    <string name="support_desc">Services de sécurité fournis par Spaces Mobile</string>
     <string name="sdcardfs_dialog_title">Mise à jour importante</string>
     <string name="sdcardfs_dialog_message">MIUI 9 a un nouveau système de fichier. Les anciennes données peuvent ne pas être compatibles avec. Pour résoudre ce problème, suivez les étapes suivantes pour installer une mise à jour.</string>
     <string name="do_not_ask">Ne plus demander</string>

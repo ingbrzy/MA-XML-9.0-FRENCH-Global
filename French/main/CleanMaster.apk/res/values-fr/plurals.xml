@@ -73,8 +73,8 @@
         <item quantity="one">"Impossible d'exporter %d vidéo. Libérez de l'espace et essayez à nouveau."</item>
     </plurals>
     <plurals name="wechat_empty_files">
-        <item quantity="other">(%1$d empty files)</item>
-        <item quantity="one">(%1$d empty file)</item>
+        <item quantity="other">(%1$d fichiers vides)</item>
+        <item quantity="one">(%1$d fichier vide)</item>
     </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">Pas été utilisé depuis %d jours</item>

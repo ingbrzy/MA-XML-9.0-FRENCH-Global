@@ -165,7 +165,7 @@ Pour activer votre compte, suivez le
     <string name="passport_trust_device">Ajouter cet appareil aux appareils de confiance</string>
     <string name="passport_barcode_add_account_prompt">Pour connecter un compte, scannez le code QR à nouveau après vous être connecté.</string>
     <string name="passport_password_phone_login">Se connecter via le compte Mi</string>
-    <string name="passport_sms_verification_code_login">SMS verification code login</string>
+    <string name="passport_sms_verification_code_login">Se connecter via SMS</string>
     <string name="passport_login_other_account">Autre compte</string>
     <string name="passport_reg_new_account">Créer un compte</string>
     <string name="passport_select_the_login_account">Sélectionner le compte à connecter</string>
@@ -189,15 +189,15 @@ Pour activer votre compte, suivez le
     <string name="passport_user_reg_region_warning">Vous ne serez plus en mesure de modifier votre pays/région une fois le compte créé.</string>
     <string name="passport_sync_account_data">Synchronisation des informations du compte…</string>
     <string name="passport_sync_account_data_failed_warning">"Les infos de votre compte sont en cours de synchronisation actuellement, vous pouvez vous connecter grâce à votre compte Mi. Si vous souhaitez vous connecter avec votre numéro de téléphone, patientez jusqu'à ce que les informations soient complèment synchronisées."</string>
-    <string name="passport_confirm_recycle_account_msg">"&lt;font color=Red>Looks like&lt;/font> the number %s has been recycled by your carrier, and there's a Mi Account associated with it. Is this account yours?"</string>
+    <string name="passport_confirm_recycle_account_msg">&lt;font color=Red>Il semble&lt;/font> que le numéro %s a été recyclé par votre opérateur, et il est associé à un compte Mi. Ce compte est-il le vôtre ?</string>
     <string name="passport_login_recycle_account_yes">Oui</string>
-    <string name="passport_login_recycle_account_no">No</string>
+    <string name="passport_login_recycle_account_no">Non</string>
     <string name="passport_reg_recycle_account_yes">Oui</string>
-    <string name="passport_reg_recycle_account_no">No</string>
-    <string name="passport_get_innetdate_title">Check when the number went online</string>
-    <string name="passport_get_innetdate_msg">&lt;font color=Red>Looks like&lt;/font> the number %s has been recycled by your carrier. Check when the number went online?</string>
-    <string name="passport_get_innetdate_agree">Check</string>
-    <string name="passport_get_innetdate_disagree">No</string>
+    <string name="passport_reg_recycle_account_no">Non</string>
+    <string name="passport_get_innetdate_title">Vérifiez quand est-ce que le numéro était en ligne</string>
+    <string name="passport_get_innetdate_msg">&lt;font color=Red>Il semble&lt;/font> que le numéro %s a été recyclé par votre opérateur. Vérifier quand est-ce que le numéro était en ligne ?</string>
+    <string name="passport_get_innetdate_agree">Vérifier</string>
+    <string name="passport_get_innetdate_disagree">Non</string>
     <string name="search_app_name">Compte Mi</string>
     <string name="search_mi_account">Compte Mi</string>
     <string name="search_mi_account_key_words">Mi Cloud, Paramètre de compte, Informations Mi Pay, Se déconnecter</string>

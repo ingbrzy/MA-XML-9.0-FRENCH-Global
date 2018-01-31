@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about_smart_sms_title">Smart messages partner</string>
     <string name="action_firewall_setting">Liste noire</string>
     <string name="activity_not_found">"Aucune application n'a été trouvée pour gérer cette action"</string>
     <string name="activity_not_found_uri">"Aucune application n'a été trouvée pour gérer cette action"</string>
@@ -64,7 +63,6 @@
     <string name="check_all">Tout sélectionner</string>
     <string name="class_0_message_activity">Message catégorie 0</string>
     <string name="close">Fermer</string>
-    <string name="cloud_recommend_msg">Appuyez pour synchroniser vos messages avec Mi Cloud.</string>
     <string name="cloud_state_disabled">Activez la synchronisation avec Mi Cloud pour synchroniser les messages</string>
     <string name="cloud_state_sync_finished">Synchronisé avec Mi Cloud</string>
     <string name="cloud_state_syncing">Synchronisation avec Mi Cloud…</string>
@@ -74,7 +72,7 @@
     <string name="confirm_delete_SIM_message">Supprimer ce message de la carte SIM ?</string>
     <string name="confirm_delete_all_SIM_messages">Supprimer tous les messages de la carte SIM ?</string>
     <string name="confirm_delete_all_conversations">Supprimer tous les fils de discussion ?</string>
-    <string name="confirm_delete_conversation">Delete this conversation?</string>
+    <string name="confirm_delete_conversation">Supprimer cette conversation ?</string>
     <string name="confirm_delete_group_message">Supprimer ce groupe de messages ?</string>
     <string name="confirm_delete_locked_message">Supprimer ce message verrouillé ?</string>
     <string name="confirm_delete_message">Supprimer ce message ?</string>
@@ -85,7 +83,8 @@
     <string name="confirm_export_dialog_description">Les conversations précédentes avec ce contact ne seront plus cachés.</string>
     <string name="confirm_export_dialog_title">Retirer des contacts privés</string>
     <string name="confirm_no_block_positive">Débloquer et restaurer</string>
-    <string name="confirm_no_block_title">Débloquer ce numéro et restaurer tous les messages envoyés depuis ce numéro?</string>
+    <string name="confirm_no_block_title">"Débloquez ce numéro et restaurez tous les messages envoyés de celui-ci ?
+(Le numéro sera ajouté à la liste blanche.)"</string>
     <string name="confirm_rate_limit">Un grand nombre de MMS va être envoyé.</string>
     <string name="confirm_restore_all_title">Restaurer tous les messages envoyés de ce numéro?</string>
     <string name="confirm_restore_checkbox">Restaurer les messages bloqués</string>
@@ -179,6 +178,7 @@
     <string name="file_size">Taille :</string>
     <string name="file_title">Nom :</string>
     <string name="file_width_height">Taille :</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Nouveau message</string>
     <string name="forward_from">Transférer de:</string>
     <string name="forward_prefix">TR :</string>
@@ -357,7 +357,6 @@
     <string name="open_url_with_web">"Permettre d'ouvrir l'URL avec Internet ?"</string>
     <string name="over_max_mms_size">Le MMS est trop gros.</string>
     <string name="overwrite_edited_content">Le contenu que vous avez modifié sera remplacé.</string>
-    <string name="partner_companies">Teddy Mobile, Yulore Tech.</string>
     <string name="phrase_confirm_delete_message">Cette réponse sera supprimée</string>
     <string name="phrase_empty">Aucune réponse</string>
     <string name="phrase_from">Depuis %1s</string>
@@ -404,7 +403,6 @@
     <string name="pref_summary_wake_up_screen">"Allumer l'écran lors de la réception d'un nouveau message"</string>
     <string name="pref_switch_sdk_setting">Changer prestataire de services SMS intelligents</string>
     <string name="pref_system_title">Système</string>
-    <string name="pref_title_about_smart_sms">À propos de Smart messages partner</string>
     <string name="pref_title_allow_si_sl_push">Autoriser WAP push (SI/SL)</string>
     <string name="pref_title_allow_upload_message_info">Charger les messages indésirables</string>
     <string name="pref_title_auto_delete">Supprimer les anciens messages</string>
@@ -528,6 +526,7 @@
     <string name="send_signature_confirm_dialog_title">Envoyer un message</string>
     <string name="send_sms">Envoyer le message</string>
     <string name="send_to">Envoyer à :</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Envoyé à : %1s</string>
     <string name="sent_label">"Envoyé : "</string>
     <string name="service_message_not_found">Message expiré ou indisponible.</string>
@@ -657,4 +656,7 @@ Dernière tentative : %s."</string>
     <string name="wild_msg_title">Choisir un numéro de téléphone pour synchroniser</string>
     <string name="yes">OK</string>
     <string name="yesterday">Hier</string>
+    <string name="about_smart_sms_title">Smart messages partner</string>
+    <string name="partner_companies">Teddy Mobile, Yulore Tech.</string>
+    <string name="pref_title_about_smart_sms">À propos de Smart messages partner</string>
 </resources>

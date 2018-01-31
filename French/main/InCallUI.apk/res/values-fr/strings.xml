@@ -190,7 +190,7 @@
     <string name="close_camera_requesting">"Désactivation de l'appareil photo…"</string>
     <string name="close_camera_failed">"Impossible de désactiver l'appareil photo…"</string>
     <string name="change_to_voice_tips_when_background">"L'autre partie a basculé en appel vocal"</string>
-    <string name="video_crbt_title">%s Color ring back tone</string>
+    <string name="video_crbt_title">%s vidéo CRBT</string>
     <string name="call_button_tools_text">Fonctionnalités</string>
     <string name="call_button_dialer_text">Clavier</string>
     <string name="call_button_mute_text">Muet</string>

@@ -100,7 +100,7 @@ Entrez le numéro de téléphone associé à votre nouvelle carte SIM pour réac
     <string name="activate_feature_verify_mx_token">Vérification du compte Mi</string>
     <string name="activate_feature_live_talk">Recharge de forfait</string>
     <string name="activate_feature_remote_assist">Assistance à distance</string>
-    <string name="activate_feature_mi_roaming">Itinérance Mi</string>
+    <string name="activate_feature_mi_roaming">Mi Itinérance</string>
     <string name="activate_feature_default_name">Services Mi</string>
     <string name="activate_history_title">Activation de la carte SIM</string>
     <string name="activate_history_success_overview">"Carte SIM activée avec succès. L'activation est déclenchée par \"%1$s\"."</string>

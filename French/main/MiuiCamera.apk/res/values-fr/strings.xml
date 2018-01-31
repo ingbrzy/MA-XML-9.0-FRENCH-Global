@@ -339,6 +339,7 @@
     <string name="pref_camera_beautify_entry_low">Faible</string>
     <string name="pref_camera_beautify_entry_normal">Moyen</string>
     <string name="pref_camera_beautify_entry_high">Elevé</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Options</string>
     <string name="button_front_camera_title">Prendre un selfie</string>
     <string name="button_normal_video_title">Enregistrer une vidéo</string>
@@ -355,6 +356,7 @@ et créera une pause sur laquelle tout le monde sera beau."</string>
     <string name="toast_saving">Enregistrement des photos…</string>
     <string name="cannot_connect_camera_volte_call">Un appel vidéo est déjà en cours, veuillez réessayez plus tard.</string>
     <string name="hibernate_hint">"Appuyez sur l'écran pour réveiller l'appareil photo"</string>
+    <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
     <string name="accessibility_zoom_button">Mode zoom</string>
     <string name="accessibility_portrait_button">Mode portrait</string>
     <string name="toast_burst_snap_finished_summary">Prise en rafale effectuée, %1$s photos prises</string>
@@ -375,8 +377,8 @@ et créera une pause sur laquelle tout le monde sera beau."</string>
     <string name="portrait_mode_use_hint">"Le mode Portrait brouille l'arrière-plan
 et fait ressortir les personnes à l'avant."</string>
     <string name="install_confirmed">Installer</string>
-    <string name="confirm_install_scanner_title">Installer Scanneur</string>
-    <string name="confirm_install_scanner_message">"Scanneur vous permet de scanner des codes QR, code-barres et bien plus. Vous n'avez qu'à vous connecter à Internet pour l'installer."</string>
+    <string name="confirm_install_scanner_title">Installer Scanner</string>
+    <string name="confirm_install_scanner_message">"Scanner vous permet de scanner des codes QR, code-barres et bien plus. Vous n'avez qu'à vous connecter à Internet pour l'installer."</string>
     <string name="photos_portrait_type_name">Portrait</string>
     <string name="photos_portrait_type_description">"Les photos portraits ont un effet de profondeur qui maintient votre sujet en évidence et brouille le reste de l'arrière-plan."</string>
     <string name="color_effect_entry_vivid">Vif</string>

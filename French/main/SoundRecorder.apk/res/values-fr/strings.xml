@@ -26,7 +26,6 @@
     <string name="notification_recording_ticker">Téléphone en mode silencieux</string>
     <string name="notification_playback">En lecture…</string>
     <string name="notification_stopped">"L'enregistrement s'est arrêté"</string>
-    <string name="notification_warning">Espace disponible faible (moins de %d minutes)</string>
     <string name="record_list">Enregistrements</string>
     <string name="record_list_fm">Enregistrements FM</string>
     <string name="record_list_call">Appels enregistrés</string>
@@ -73,6 +72,7 @@
     <string name="message_file_size_error">"L'enregistrement a atteint la taille maximum supportée par %s"</string>
     <string name="pause">Pause</string>
     <string name="back">Retour</string>
+    <string name="menu">Menu</string>
     <string name="toast_uninstall_fileexplorer">Explorateur de fichier non installé</string>
     <string name="record_download">Télécharger depuis Mi Cloud</string>
     <string name="record_download_msg">"Les enregistrements ne peuvent être lus qu'une fois complètement téléchargés"</string>
@@ -141,10 +141,8 @@
     <string name="recognition_error_downloading">Téléchargement en cours</string>
     <string name="recognition_status_downloading">Téléchargement en cours</string>
     <string name="runtime_permission_ungranted">"Impossible d'utiliser Mi Drop en raison des autorisations manquantes"</string>
-    <string name="btn_clear_records">Supprimer les enregistrements (%d éléments)</string>
     <string name="alert_message_clear_records">Supprimer le(s) enregistrement(s) sélectionné(s) ?</string>
     <string name="clear_records">Supprimer les enregistrements synchronisés</string>
-    <string name="choose_call_records_count">%d éléments</string>
     <string name="network_tip_dialog_title">Une connexion Internet est nécessaire</string>
     <string name="network_tip_dialog_content">Magnétophone doit se connecter à Internet, ainsi que lire vos contacts pour fonctionner normalement. Accepter ?</string>
     <string name="network_tip_dialog_ok">Accepter</string>

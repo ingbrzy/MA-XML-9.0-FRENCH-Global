@@ -109,13 +109,15 @@
     <string name="yearly">Annuel (le %s)</string>
     <string name="yearly_plain">Tous les ans</string>
     <string name="account_and_calendar">Comptes</string>
+    <string name="action_bar_date_button_title">Calculate date</string>
     <string name="action_bar_more_menu_view_description">Plus</string>
+    <string name="action_bar_return">Retour</string>
     <string name="action_text_card_manager">Chaîne</string>
     <string name="action_text_today">"Aujourd'hui"</string>
     <string name="add_anniversary">Ajouter un anniversaire</string>
     <string name="add_countdown">Ajouter un minuteur</string>
     <string name="add_event">Ajouter un événement</string>
-    <string name="agenda_month_empty_hint">"Aucun événement aujourd'hui"</string>
+    <string name="agenda_month_empty_hint">"Pas d'événement pour aujourd'hui"</string>
     <string name="alarm_label">Arrêter</string>
     <string name="alert_reminder_divider">|</string>
     <string name="alert_reminder_expired">Expiré</string>
@@ -162,6 +164,8 @@
     <string name="date_calculate_days">Entrez le nombre de jours</string>
     <string name="date_calculate_description">Sachez quelle est la date avant ou après un jour donné</string>
     <string name="date_calculate_direction">Direction</string>
+    <string name="date_calculate_direction_content_description">Direction actuelle : %1s.</string>
+    <string name="date_calculate_hint">Learn what date it is after a number days</string>
     <string name="date_calculate_result">Résultat</string>
     <string name="date_calculate_tab">Calculer la date</string>
     <string name="date_calculate_today">0 jour</string>
@@ -171,6 +175,8 @@
     <string name="date_interval_start">De</string>
     <string name="date_interval_tab">Interval</string>
     <string name="date_interval_text_to">À %1$s</string>
+    <string name="date_jump_hint">Aller directement à un jour quelconque</string>
+    <string name="date_jump_title">Aller à la date</string>
     <string name="date_today">"  (aujourd'hui)"</string>
     <string name="default_reminder_mode">Rappels</string>
     <string name="delete_calendar">Se désabonner</string>
@@ -245,7 +251,6 @@
     <string name="install_email_finished">Installé avec succès</string>
     <string name="installing_email">Installation en cours…</string>
     <string name="item_num_selected">%1$d sélectionnés</string>
-    <string name="jump_date_full">Aller à la date</string>
     <string name="load_more_hint">Actualiser les événements de %1$d</string>
     <string name="local_calendar_display_name">Agenda local</string>
     <string name="local_owner_account_name">Enregistré dans cet appareil</string>
@@ -253,7 +258,7 @@
     <string name="match_select_activity_label">Leagues</string>
     <string name="menu_reminder_preferences">Rappels</string>
     <string name="missing_name">(Aucun nom)</string>
-    <string name="missing_required_permission">Vous avez désactivé une autorisation requise.</string>
+    <string name="missing_required_permission">Vous avez restreint les autorisations requises.</string>
     <string name="month_medium_april">Avr</string>
     <string name="month_medium_august">Août</string>
     <string name="month_medium_december">Déc</string>
@@ -307,9 +312,9 @@ Vérifiez vos paramètres réseau, puis réessayez."</string>
     <string name="preferences_default_allday_reminder_title">Heure de rappel tous les jours par défaut</string>
     <string name="preferences_notification_ringtone_title">Son</string>
     <string name="preferences_week_start_day_default">-1</string>
-    <string name="pull_to_refresh_hint">Faites glisser pou actualiser les événements de %1$d</string>
+    <string name="pull_to_refresh_hint">Faites glisser vers le bas pour actualiser les événements de %1$d</string>
     <string name="refresh">Actualiser</string>
-    <string name="refreshing_hint">Actualisation</string>
+    <string name="refreshing_hint">Juste un instant…</string>
     <string name="repeat_activity_label">Répétition</string>
     <string name="repeat_custom_activity_label">Personnalisé</string>
     <string name="repeat_custom_prompt">tous les %1$s le %2$s</string>
@@ -352,6 +357,7 @@ Vérifiez vos paramètres réseau, puis réessayez."</string>
     <string name="setting_others">Supplémentaire</string>
     <string name="setting_title_about">À propos</string>
     <string name="setting_title_holiday_display">Afficher les vacances</string>
+    <string name="share_title">Partager</string>
     <string name="start_date_calculate">Calculer</string>
     <string name="subscribe_card">Abonnez-vous maintenant</string>
     <string name="subscribe_card_success">"Abonné avec succès ! Vérifiez les détails sur la page d'accueil."</string>
@@ -368,6 +374,11 @@ Vous pouvez aussi ajouter des rappels afin de ne rien manquer d'important."</str
     <string name="subscribe_channel_subscribing">Abonnement en cours</string>
     <string name="subscribe_channel_title">Chaîne</string>
     <string name="subscribing_card">Abonnement en cours</string>
+    <string name="tab_title_agenda">Évènements</string>
+    <string name="tab_title_day">Jour</string>
+    <string name="tab_title_month">Mois</string>
+    <string name="tab_title_week">Semaine</string>
+    <string name="talk_back_read_date">Date actuelle : %1$s (%2$s selon le calendrier lunaire).</string>
     <string name="template_week_num">Semaine %1$s</string>
     <string name="time_zone">Fuseau horaire</string>
     <string name="today_no_events">Aucun événement</string>
@@ -407,7 +418,6 @@ Vous pouvez aussi ajouter des rappels afin de ne rien manquer d'important."</str
     <string name="user_notification">Notifications</string>
     <string name="user_notification_descrip">Afficher les notifications chaque fois que vous ouvrez Agenda</string>
     <string name="view_in_month_view">Voir le mois</string>
-    <string name="week_view_today_toast">Vous consultez actuellement la semaine en cours</string>
     <string name="widget_events">Événement suivant</string>
     <string name="widget_get_weather_info">Obtenir les informations de la météo</string>
     <string name="widget_no_events">Aucun événement</string>
