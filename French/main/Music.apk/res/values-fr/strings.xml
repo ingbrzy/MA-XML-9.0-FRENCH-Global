@@ -209,7 +209,6 @@
     <string name="continue_backup">Continuer</string>
     <string name="cp_info_first">"Le service de diffusion de musique en ligne
  est principalement produit par Ultimate Inc."</string>
-    <string name="cp_info_second">service1@ultimobi.com</string>
     <string name="create_order_fail">Impossible de commander, réessayer.</string>
     <string name="create_playlist">Créer une playlist</string>
     <string name="create_playlist_failure">Impossible de créer la playlist</string>
@@ -330,7 +329,6 @@
     <string name="download_paused">Téléchargement en pause</string>
     <string name="download_paused_in_power_save_mode">"Les téléchargements sont en pause lorsque l'économiseur de batterie est activé"</string>
     <string name="download_pending">Téléchargement en attente</string>
-    <string name="download_percent">%d%%</string>
     <string name="download_processing">Téléchargement…</string>
     <string name="download_quality">Qualité de téléchargement</string>
     <string name="download_quality_summary">Paramètres supplémentaires pour les chansons que vous téléchargez</string>

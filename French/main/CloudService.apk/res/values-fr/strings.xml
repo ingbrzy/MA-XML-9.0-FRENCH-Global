@@ -59,8 +59,6 @@
     <string name="sync_dspt_provision_title">Mi Cloud</string>
     <string name="sync_dspt_provision_header">Synchronisation</string>
     <string name="sync_dspt_provision">"Synchroniser vos photos, contacts, notes, et plus sur tous vos appareils ou y accéder sur "</string>
-    <string name="sync_dspt_provision2">i.mi.com</string>
-    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". Vous pouvez activer et désactiver cette fonctionnalité quand vous le voulez dans les Paramètres.
 "</string>
     <string name="sync_dspt_entrance_provision">"Synchronisez vos photos, contacts, historique d'appels et messages entre vos appareils. Vous pouvez accéder aux données synchronisées sur %s. "</string>
@@ -72,8 +70,6 @@
     <string name="sync_dspt_entrance_provision_skip">Ignorer cette étape</string>
     <string name="sync_dspt_entrance_provision_network">"Cette application doit se connecter à Internet pour fonctionner normalement. La synchronisation des données peut nécessiter la connexion des données mobiles et l'activation du Wi-Fi."</string>
     <string name="find_device_dspt_provision">Si vous perdez votre appareil, vous pouvez aller sur %s pour localiser, verrouiller ou réinitialiser celui-ci. Vous pouvez activer ou désactiver cette fonction dans les Paramètres.</string>
-    <string name="find_device_dspt_provision_2">i.mi.com</string>
-    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_dspt_provision_3">. Vous pouvez activer et désactiver cette fonctionnalité quand vous le voulez dans les Paramètres.</string>
     <string name="find_device_dspt_provision_4">Si vous basculez entre les cartes SIM, un SMS vous sera automatiquement envoyé pour réactiver cette fonction.</string>
     <string name="find_device_send_sms_alert">Si vous changez de carte SIM, un SMS sera envoyé automatiquement pour réactiver ce service.</string>
@@ -124,7 +120,6 @@ En utilisant ce service, vous acceptez "</string>
     <string name="find_device_error_server">Erreur du serveur</string>
     <string name="find_device_success_title">"Localiser l'appareil"</string>
     <string name="find_device_notice_p1">Rendez-vous sur</string>
-    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"pour localiser, verrouiller, ou restaurer votre téléphone.
 Si vous changez de carte SIM, un autre SMS sera envoyé automatiquement pour réactiver ce service."</string>
     <string name="i_know">OK</string>
@@ -475,8 +470,6 @@ Dernière sauvegarde à %2$s"</string>
     <string name="micloud_find_device_opened">"Localiser l'appareil est activé"</string>
     <string name="micloud_find_device_open_fail">"Impossible d'activer Localiser l'appareil"</string>
     <string name="micloud_find_device_opened_content">Localisez votre appareil à %s</string>
-    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
-    <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
     <string name="micloud_find_device_verify_fail">"Impossible de réactiver Localiser l'appareil"</string>
     <string name="micloud_find_device_close_fail">"Impossible de désactiver Localiser l'appareil"</string>
     <string name="micloud_find_device_finish">Terminé</string>
@@ -553,8 +546,6 @@ Dernière sauvegarde à %2$s"</string>
     <string name="micloud_main_head_menu_state_open">Activé</string>
     <string name="micloud_main_head_menu_state_close">Désactivé</string>
     <string name="micloud_main_head_menu_state_unavailable">Non disponible</string>
-    <string name="micloud_footer_normal_url">i.mi.com</string>
-    <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">Paiements avec empreintes digitales</string>
     <string name="ks_name_fido">FIDO</string>
     <string name="ks_name_alipay">IFAA</string>
