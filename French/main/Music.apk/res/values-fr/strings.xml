@@ -68,7 +68,6 @@
     <string name="s6">"Autoriser l'annonce à créer un événement d'agenda ?"</string>
     <string name="s7">Annonce test</string>
     <string name="search_menu_title">Rechercher</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="about">A propos de Mi Music</string>
     <string name="account">Compte</string>
     <string name="account_and_cloud">Compte</string>
@@ -760,7 +759,6 @@
     <string name="privacy_notif_content">Appuyer pour voir les détails.</string>
     <string name="privacy_notif_title">Accélérateur de téléchargement Xunlei activé</string>
     <string name="privacy_policy">Politique de confidentialité</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
     <string name="privacy_tip_cancel">Annuler</string>
     <string name="privacy_tip_content">"Utiliser l'accélérateur Xunlei pour accélérer les téléchargements ? L'URL de l'hôte du téléchargement sera envoyé sur les serveurs de Xunlei. Votre compte Mi sera vérifié pour voir si vous avez un abonnement actif à ce service."</string>
     <string name="privacy_tip_ok">OK </string>
@@ -1004,7 +1002,6 @@
     <string name="upgrade_to">Mettre à niveau vers</string>
     <string name="upgrade_waringing">Vous ne pouvez écouter que la musique stockée sur votre appareil.</string>
     <string name="user_agreement">Accord Utilisateur</string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
     <string name="valid_period">Valide : %s</string>
     <string name="version_info">Version</string>
     <string name="vip_after_tomorrow_auto_renew_message">Votre abonnement de musique sera renouvelé automatiquement après-demain dans la soirée. Assurez-vous que vous avez suffisamment de Crédits Mi dans votre compte pour effectuer ce paiement.</string>
