@@ -331,7 +331,6 @@
     <string name="pref_camera_beautify_entry_low">Faible</string>
     <string name="pref_camera_beautify_entry_normal">Moyen</string>
     <string name="pref_camera_beautify_entry_high">Elevé</string>
-    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Modes</string>
     <string name="button_front_camera_title">Prendre un selfie</string>
     <string name="button_normal_video_title">Enregistrer une vidéo</string>
@@ -400,7 +399,6 @@
     <string name="pref_camera_zoom_mode_entry_tele">TÉLÉ</string>
     <string name="pref_camera_zoom_mode_entry_standard">STANDARD</string>
     <string name="pref_camera_zoom_mode_entry_high_pixel">PIXEL ÉLEVÉ</string>
-    <string name="pref_camera_zoom_value_title">Zoom</string>
     <string name="pref_camera_portrait_mode_title">Mode portrait</string>
     <string name="pref_camera_portrait_mode_entry_off">Le mode portait est désactivé</string>
     <string name="pref_camera_portrait_mode_entry_on">Le mode portait est activé</string>

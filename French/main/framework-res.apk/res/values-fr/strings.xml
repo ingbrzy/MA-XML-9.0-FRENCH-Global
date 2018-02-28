@@ -23,7 +23,6 @@
     <string name="dialog_alert_title">Attention</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Impossible de lire cette vidéo en streaming sur cet appareil.</string>
     <string name="selectTextMode">Sélectionner texte</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="fingerprint_icon_content_description">"Icône d'empreinte digitale"</string>
     <string name="month_day_year" formatted="false">%-e %B %Y</string>
     <string name="time_of_day" formatted="false">%H:%M:%S</string>
@@ -35,7 +34,6 @@
     <string name="gigabyteShort">Go</string>
     <string name="terabyteShort">To</string>
     <string name="petabyteShort">Po</string>
-    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="durationDays">%1$d jours</string>
     <string name="durationDayHours">%1$d j et %2$d h</string>
     <string name="durationDayHour">%1$d j et %2$d h</string>
@@ -1327,7 +1325,6 @@ L'économiseur de batterie s'éteint automatiquement lorsque l'appareil est en c
     <string name="zen_mode_alarm">"Jusqu'à %1$s (alarme suivante)"</string>
     <string name="zen_mode_forever">"Jusqu'à la désactivation"</string>
     <string name="zen_mode_forever_dnd">"Jusqu'à ce que vous désactiviez la fonctionnalité \"Ne pas déranger\""</string>
-    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="toolbar_collapse_description">Réduire</string>
     <string name="zen_mode_feature_name">Ne pas déranger</string>
     <string name="zen_mode_downtime_feature_name">"Temps d'arrêt"</string>
@@ -1353,7 +1350,6 @@ L'économiseur de batterie s'éteint automatiquement lorsque l'appareil est en c
     <string name="floating_toolbar_close_overflow_description">"Fermer la barre d'outils en superposition"</string>
     <string name="maximize_button_text">Agrandir</string>
     <string name="close_button_text">Fermer</string>
-    <string name="notification_messaging_title_template">%1$s : %2$s</string>
     <string name="importance_from_user">"Vous définissez l'importance de ces notifications."</string>
     <string name="importance_from_person">Ces notifications sont importantes en raison des participants.</string>
     <string name="user_creation_account_exists">Autoriser %1$s à créer un profil utilisateur avec le compte %2$s ?</string>
