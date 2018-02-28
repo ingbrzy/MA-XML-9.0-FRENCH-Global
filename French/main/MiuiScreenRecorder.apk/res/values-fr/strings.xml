@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">"Enregistreur d'écran"</string>
-    <string name="app_notification_info">Screen Recorder is working in the background</string>
+    <string name="app_notification_info">"Enregistreur d'écran fonctionne en arrière-plan"</string>
     <string name="app_notification_title">"Enregistreur d'écran"</string>
     <string name="auto_stop_title">Vidéo enregistrée avec succès</string>
     <string name="battery_not_allowed" formatted="false">"Impossible d'enregistrer lorsque le niveau de la batterie est inférieur à 3%. Assurez-vous que la batterie est chargée à au moins 20%."</string>
@@ -18,8 +18,8 @@
     <string name="date_day" />
     <string name="date_month">/</string>
     <string name="date_year">/</string>
-    <string name="description_content">Screen recording provides system-level recording capabilities. This action means that you will discard the screen recording feature. Confirm Continue.</string>
-    <string name="description_title">About Screen Recorder</string>
+    <string name="description_content">"Enregistreur d'écran fournit des capacités d'enregistrement niveau système. Vous ne serez plus en mesure d'utiliser Enregistreur d'écran si vous continuez. Confirmer et continuer."</string>
+    <string name="description_title">"À propos de l'Enregistreur d'écran"</string>
     <string name="deselect_all">Tout déselectionner</string>
     <string name="error_open_file_failed_no_app_found">Impossible de trouver une application pour ouvrir ce fichier</string>
     <string name="frames">"Fréquence d'images"</string>
@@ -37,7 +37,7 @@
     <string name="low_battery">"Chargez votre téléphone avant de démarrer l'enregistrement"</string>
     <string name="low_battery_title">Batterie faible</string>
     <string name="low_battery_warning">"Niveau de batterie trop faible. Arrêtez l'enregistrement et enregistrez la vidéo."</string>
-    <string name="low_memory">You have less than 1GB of available storage. You can record up to 20 minutes now.</string>
+    <string name="low_memory">"Vous avez moins de 1 Go d'espace de stockage disponible. Vous pouvez enregistrer jusqu'à 20 minutes maintenant."</string>
     <string name="low_memory_title">Espace de stockage insuffisant</string>
     <string name="low_momery_warning">"Espace de stockage insuffisant. Arrêtez l'enregistrement et enregistrez la vidéo."</string>
     <string name="memory_not_allowed">Aucun stockage disponible. Libérez du stockage pour enregistrer.</string>
@@ -50,7 +50,7 @@
     <string name="quit_recording">"Quitter l'enregistreur d'écran"</string>
     <string name="recording_failure">"Impossible d'enregistrer, recommencez"</string>
     <string name="recording_max_size">"L'enregistrement a été suspendu et enregistré car le fichier vidéo a atteint sa limite de taille. Commencez l'enregistrement où il a été interrompu si vous ne l'avez pas encore terminé."</string>
-    <string name="recording_without_mic">Microphone is occupied and microphone sound cannot be recorded</string>
+    <string name="recording_without_mic">"Le microphone est occupé, impossible d'enregistrer un son maintenant."</string>
     <string name="resolution">Résolution</string>
     <string name="resolution_summary">Les vidéos avec une résolutiion plus élevée sont plus nettes</string>
     <string name="screen_orientation">Orientation</string>

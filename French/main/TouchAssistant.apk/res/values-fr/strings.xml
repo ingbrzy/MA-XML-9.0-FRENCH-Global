@@ -17,7 +17,7 @@
     <string name="hide_when_fullscreen_intro">"Masquer lorsqu'on passe en mode plein écran."</string>
     <string name="motion_behavior">Geste préféré</string>
     <string name="name_alipay_payment_code">Paiement alipay</string>
-    <string name="name_alipay_scan">Scanneur Alipay</string>
+    <string name="name_alipay_scan">Scanner Alipay</string>
     <string name="name_all_mipay_cards">Mi Pay</string>
     <string name="name_handy_mode">Mode une main</string>
     <string name="name_long_press_power_key">"Appui prolongé sur le bouton d'alimentation"</string>
@@ -35,7 +35,7 @@
     <string name="name_screenshot">"Capture d'Écran"</string>
     <string name="name_trans_cards">Carte de transport</string>
     <string name="name_wechat_payment_code">Paiement Wechat</string>
-    <string name="name_wechat_scan">Scanneur Wechat</string>
+    <string name="name_wechat_scan">Scanner Wechat</string>
     <string name="nfc_all_mipay_card_not_in_use">"Mi Pay n'est pas activée"</string>
     <string name="nfc_trans_card_not_in_use">"La carte de transport NFC n'est pas activée"</string>
     <string name="not_working">%s (ne fonctionne pas)</string>

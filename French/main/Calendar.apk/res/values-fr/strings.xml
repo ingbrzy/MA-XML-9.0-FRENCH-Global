@@ -109,7 +109,7 @@
     <string name="yearly">Annuel (le %s)</string>
     <string name="yearly_plain">Tous les ans</string>
     <string name="account_and_calendar">Comptes</string>
-    <string name="action_bar_date_button_title">Calculate date</string>
+    <string name="action_bar_date_button_title">Calculer la date</string>
     <string name="action_bar_more_menu_view_description">Plus</string>
     <string name="action_bar_return">Retour</string>
     <string name="action_text_card_manager">Chaîne</string>
@@ -165,7 +165,7 @@
     <string name="date_calculate_description">Sachez quelle est la date avant ou après un jour donné</string>
     <string name="date_calculate_direction">Direction</string>
     <string name="date_calculate_direction_content_description">Direction actuelle : %1s.</string>
-    <string name="date_calculate_hint">Learn what date it is after a number days</string>
+    <string name="date_calculate_hint">Savoir la date après un nombre de jours</string>
     <string name="date_calculate_result">Résultat</string>
     <string name="date_calculate_tab">Calculer la date</string>
     <string name="date_calculate_today">0 jour</string>

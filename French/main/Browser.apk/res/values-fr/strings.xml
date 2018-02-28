@@ -50,6 +50,7 @@
     <string name="actionbar_share">Partager</string>
     <string name="actionbar_textselection_title">Sélection de texte</string>
     <string name="actionbar_web_search">Recherche Web</string>
+    <string name="ad_btn_default_text">Installer</string>
     <string name="adblock_force_updating_rules_toast">Mise à jour du bloqueur de pub</string>
     <string name="adblock_rules_not_updated_toast">Impossible de mettre à jour</string>
     <string name="adblock_rules_restore">Débloquer</string>
@@ -133,6 +134,7 @@
     <string name="browserFrameNetworkErrorLabel">Erreur de connexion</string>
     <string name="cancel">Annuler</string>
     <string name="cannot_download">Peut seulement télécharger des URL \"http\" ou \"https\"</string>
+    <string name="card_setting_close_recommend">Recevoir des recommandations</string>
     <string name="choosertitle_sharevia">Partager via</string>
     <string name="clear_history">"Effacer l'historique"</string>
     <string name="clear_most_visited">Historique récent</string>
@@ -167,6 +169,7 @@
     <string name="color_picker_dialog_title">Sélectionner une couleur</string>
     <string name="color_picker_hue">Teinte</string>
     <string name="color_picker_saturation">Saturation</string>
+    <string name="color_picker_value">Valeur</string>
     <string name="comment_app_menu">Commentaire</string>
     <string name="comment_description">Commentaire</string>
     <string name="comment_hint">Commentaire</string>
@@ -333,8 +336,8 @@ Les pages que vous visitez n'apparaîtront pas dans l'historique."</string>
     <string name="hint">Astuce</string>
     <string name="history">Historique</string>
     <string name="home_description">Accueil</string>
-    <string name="home_page_news_feed">"Fil d'actualité"</string>
-    <string name="home_page_top_sites">Top sites</string>
+    <string name="home_page_news_feed">Nouvelles RSS</string>
+    <string name="home_page_top_sites">Sites vedettes</string>
     <string name="homepage_delete_card_menu">Supprimer</string>
     <string name="homepage_get_location">Obtenir la localisation</string>
     <string name="homepage_get_location_failed">"Impossible d'obtenir les infos, choisissez une ville"</string>
@@ -513,6 +516,10 @@ Quitter cette page ?"</string>
     <string name="nav_bottom_bar_new_tab">Nouvel onglet</string>
     <string name="nav_screen_container_tab_incognito">Onglet incognito</string>
     <string name="nav_screen_container_tab_normal">Onglet normal</string>
+    <string name="nav_screen_incognito_message">"Your browsing and search history won't be saved in Incognito mode.
+Remember that the files you download and the bookmarks you add will still be saved."</string>
+    <string name="nav_screen_incognito_title">Incongnito mode</string>
+    <string name="navigation_delete_all">swipe left and right to close all tabs</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">Annuler</string>
     <string name="navigationbar_rightbutton_actiontext_go">Aller</string>
     <string name="navigationbar_rightbutton_actiontext_search">Rechercher</string>
@@ -562,6 +569,7 @@ Quitter cette page ?"</string>
     <string name="pref_adblock_title">Adblock</string>
     <string name="pref_auto_update_under_wifi">Mettre à jour en utilisant le Wi-Fi</string>
     <string name="pref_automatic_matching_searchengines_title">Basculer vers le moteur de recherche habituel</string>
+    <string name="pref_card_setting">Ordre des sites vedettes</string>
     <string name="pref_category_hint">Catégorie</string>
     <string name="pref_check_security_url_summary">"Envoyer l'URL du site Web aux serveurs de Xiaomi pour vérifier si elle est sécurisée"</string>
     <string name="pref_check_security_url_summary_international">Autoriser le navigateur à accéder au URL des sites Web que vous visitez pour recevoir des recommandations plus pertinentes.</string>
@@ -588,7 +596,7 @@ Quitter cette page ?"</string>
     <string name="pref_enable_videos">Vidéos</string>
     <string name="pref_extras_reset_default">Réinitialiser</string>
     <string name="pref_extras_reset_default_dlg">Restaurer les paramètres par défaut ?</string>
-    <string name="pref_extras_reset_default_summary">Restaurer les paramètres par défaut</string>
+    <string name="pref_extras_reset_default_summary">"Restaurer l'ordre par défaut"</string>
     <string name="pref_extras_reset_default_title">Autre</string>
     <string name="pref_extras_send_feedback">Envoyer un commentaire</string>
     <string name="pref_extras_title">Avancé</string>
@@ -774,7 +782,7 @@ Quitter cette page ?"</string>
     <string name="show_security_tip_dialog_title">"Conditions générales d'utilisation"</string>
     <string name="show_weather_location_getter_tip_dialog_description">Le navigateur doit être connecté à Internet pour fonctionner normalement. Pour améliorer la sécurité, recevoir les recommandation et les informations météorologiques les plus pertinentes, autorisez le Navigateur à obtenir les URL des sites Web que vous visitez et à accéder à vos informations de localisation.</string>
     <string name="sign_in_to" formatted="false">Connectez-vous à %s1 %s2\"</string>
-    <string name="site_sort_des">Faites glisser les éléments pour les mettre en ordre</string>
+    <string name="site_sort_des">Réorganiser les éléments</string>
     <string name="skip_button_label">Ignorer</string>
     <string name="skip_current_version">Ignorer cette version</string>
     <string name="snapshot">Local</string>

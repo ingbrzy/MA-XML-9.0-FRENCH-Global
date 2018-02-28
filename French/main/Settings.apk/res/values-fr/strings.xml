@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Aucune</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -305,6 +307,24 @@
     <string name="suw_next_button_label">Suivant</string>
     <string name="suw_back_button_label">Retour</string>
     <string name="suw_more_button_label">Plus</string>
+    <string name="privacy_authorize_revoke_title">Autorisation &amp; révocation</string>
+    <string name="enabled_authorised_apps_title">Autorisation accordée</string>
+    <string name="enabled_authorised_apps_summary">Votre autorisation sera révoquée après avoir basculé les boutons des applications individuelles.</string>
+    <string name="disabled_authorised_apps_title">Autorisation révoquée</string>
+    <string name="privacy_authorize_revoke_dialog_title">"Révocation d'autorisation"</string>
+    <string name="privacy_authorize_revoke_dialog_msg">"Après avoir révoqué l'autorisation, l'application arrêtera de collecter les données et toutes les données associées seront supprimées des serveurs. Cela pourrait rendre l'application pratiquement inutilisable. Révoquer quand même ?"</string>
+    <string name="privacy_authorize_revoke">Révoquer</string>
+    <string name="privacy_authorize_revoke_time">Révoquer (%1$d s)</string>
+    <string name="privacy_authorize_title">"Accord d'autorisation"</string>
+    <string name="privacy_authorize_privacy_policy">Politique de Confidentialité</string>
+    <string name="privacy_authorize_dialog_message">"%1$s exige que vous lisiez et soyez d'accord avec la %2$s. L'application doit se connecter au réseau pour fonctionner normalement. Accepter ?"</string>
+    <string name="privacy_authorize_dialog_exit">Quitter</string>
+    <string name="privacy_authorize_dialog_agree">Accepter</string>
+    <string name="privacy_authorize_network_error">Connectez-vous au réseau et réessayez.</string>
+    <string name="privacy_authorize_revoke_success">Autorisation révoquée avec succès</string>
+    <string name="privacy_authorize_revoke_failed">"Impossible de révoquer l'autorisation"</string>
+    <string name="privacy_authorize_success">Autorisation accordée avec succès</string>
+    <string name="privacy_authorize_revoking">"Lorsque la fonction de recommandation est désactivée, la quantité d'annonces affichée reste la même que lorsqu'elle est activée, mais pas en fonction de vos données de comportement ou de vos informations personnelles."</string>
     <string name="launcher_title">"Écran d'accueil &amp; récents"</string>
     <string name="defalut_launcher_title">"Lanceur d'application par défaut"</string>
     <string name="miui_screen_config_title">"Paramètres de l'écran d'accueil"</string>
@@ -402,6 +422,8 @@
     <string name="navigation_guide_dialog_dont_show_again">Ne plus afficher</string>
     <string name="navigation_guide_back_anim_title">Animer le geste \"Retour\"</string>
     <string name="navigation_guide_back_anim_summary">"Afficher l'animation pendant que vous balayez depuis le bord de l'écran"</string>
+    <string name="fsg_mistake_touch_title">Double vérification pour les mouvements</string>
+    <string name="fsg_mistake_touch_summary">Dans certaines scènes, telles que les jeux en plein écran et les vidéos, les mouvements doivent être balayés deux fois afin de prendre effet</string>
     <string name="navigation_guide_settings">Démos de gestes</string>
     <string name="navigation_guide_home_title">"Aller à l'Écran d'accueil"</string>
     <string name="navigation_guide_home_summary">"Balayez du bas vers le haut de l'écran"</string>
@@ -428,6 +450,7 @@
     <string name="abc_activity_chooser_view_see_all">Tout afficher</string>
     <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
     <string name="abc_shareactionprovider_share_with">Partager avec</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="abc_capital_on">ACTIVÉ</string>
     <string name="abc_capital_off">DÉSACTIVÉ</string>
     <string name="menu_item_show_more">Voir plus</string>
@@ -713,6 +736,7 @@ Ce paramètre affecte tous les utilisateurs de ce téléphone."</string>
     <string name="security_enable_widgets_title">Activer les widgets</string>
     <string name="security_enable_widgets_disabled_summary">"Désactivé par l'administrateur"</string>
     <string name="owner_info_settings_summary">Aucun</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_edit_text_hint">"Exemple : l'Android de Jean"</string>
     <string name="user_info_settings_title">Infos utilisateur</string>
     <string name="show_profile_info_on_lockscreen_label">Afficher infos de profil sur écran de verrouillage</string>
@@ -974,6 +998,7 @@ Pour continuer d'utiliser votre téléphone, vous devez rétablir sa configurati
     <string name="wifi_display_options_name">Nom</string>
     <string name="wifi_band_24ghz">2,4 GHz</string>
     <string name="wifi_band_5ghz">5 GHz</string>
+    <string name="link_speed">%1$d Mbit/s</string>
     <string name="nfc_quick_toggle_title">NFC</string>
     <string name="nfc_quick_toggle_summary">"Autoriser l'échange de données lorsque le téléphone touche un autre appareil"</string>
     <string name="android_beam_settings_title">Android Beam</string>
@@ -2231,6 +2256,7 @@ Si l'appareil est utilisé par plusieurs personnes, l'utilisation de ce raccourc
     <string name="gadget_title">"Contrôle de l'alimentation"</string>
     <string name="gadget_toggle_wifi">Mise à jour des paramètres Wi-Fi</string>
     <string name="gadget_toggle_bluetooth">Mise à jour des paramètres Bluetooth</string>
+    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_on">activé</string>
     <string name="gadget_state_off">désactivé</string>
     <string name="gadget_state_turning_on">activation</string>
@@ -2655,6 +2681,7 @@ N'importe quel utilisateur peut mettre à jour les applications pour tous les au
     <string name="nfc_payment_no_apps">Payez avec votre téléphone dans les magasins.</string>
     <string name="nfc_payment_default">Application de paiement par défaut</string>
     <string name="nfc_payment_default_not_set">Non définie</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_use_default">"Utiliser l'application par défaut"</string>
     <string name="nfc_payment_favor_default">Toujours</string>
     <string name="nfc_payment_favor_open">Sauf si une autre application de paiement est ouverte</string>
@@ -2715,6 +2742,7 @@ N'importe quel utilisateur peut mettre à jour les applications pour tous les au
     <string name="regulatory_info_text" />
     <string name="sim_setup_wizard_title">Cartes SIM</string>
     <string name="sim_settings_title">Cartes SIM</string>
+    <string name="sim_settings_summary">%1$s : %2$s</string>
     <string name="sim_cards_changed_message">Les cartes SIM ont été changées.</string>
     <string name="sim_cards_changed_message_summary">Appuyez pour définir les activités.</string>
     <string name="sim_cellular_data_unavailable">Les données mobiles sont indisponibles.</string>
@@ -2835,6 +2863,7 @@ N'importe quel utilisateur peut mettre à jour les applications pour tous les au
     <string name="zen_mode_option_important_interruptions">Interruptions prioritaires uniquement</string>
     <string name="zen_mode_option_alarms">Alarmes uniquement</string>
     <string name="zen_mode_option_no_interruptions">Aucune interruption</string>
+    <string name="zen_mode_summary_combination">%1$s : %2$s</string>
     <string name="zen_mode_visual_interruptions_settings_title">Bloquer dérangements visuels</string>
     <string name="configure_notification_settings">Configurer les notifications</string>
     <string name="advanced_section_header">Paramètres avancés</string>
@@ -2928,6 +2957,7 @@ L'application pourra aussi activer ou désactiver le mode Ne pas déranger, et m
     <string name="zen_mode_schedule_alarm_title">"L'alarme peut remplacer l'heure de fin"</string>
     <string name="zen_mode_schedule_alarm_summary">"Arrêter à l'heure de fin ou à la prochaine alarme, en fonction de ce qui arrive en premier"</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">%1$s – %2$s</string>
     <string name="summary_range_verbal_combination">Du %1$s au %2$s</string>
     <string name="zen_mode_calls">Appels</string>
     <string name="zen_mode_messages">Messages</string>
@@ -3109,6 +3139,8 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="memory_avg_use">Moyenne</string>
     <string name="memory_max_desc">Maximale : %1$s</string>
     <string name="memory_avg_desc">Moyenne : %1$s</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
+    <string name="process_format">%1$s (%2$d)</string>
     <string name="high_power_apps">Optimisation de la batterie</string>
     <string name="high_power_filter_on">Non optimisées</string>
     <string name="high_power_on">Non optimisée</string>
@@ -3371,7 +3403,8 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="bluetooth_talkback_input_peripheral">"Périphérique d'entrée"</string>
     <string name="bluetooth_talkback_bluetooth">Bluetooth</string>
     <string name="ad_service">Services publicitaires</string>
-    <string name="use_personalized_ad_service">"Réinitialiser l'identificateur de publicité"</string>
+    <string name="use_personalized_ad_service">Recommandation de publicité personnalisée</string>
+    <string name="use_personalized_ad_service_summary">"Lorsque la fonction de recommandation est désactivée, la quantité de publicités affichée reste la même que lorsqu'elle est activée, mais pas en fonction des données de vos habitudes ou de vos informations personnelles."</string>
     <string name="reset_aaid">"Réinitialiser l'identificateur de publicité"</string>
     <string name="confirm_reset_aaid">OK </string>
     <string name="about_ad_service_instructions">À propos des services publicitaires et de la confidentialité</string>
@@ -3385,6 +3418,7 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="dndm_auto_setting_group">Programmation</string>
     <string name="dndm_auto_button_title">Programmer le mode Ne pas déranger</string>
     <string name="dndm_auto_time_setting">"Régler l'heure"</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_on">De</string>
     <string name="dndm_auto_time_turn_on_title">Active automatiquement le mode Ne pas déranger</string>
     <string name="dndm_auto_time_turn_off">À</string>
@@ -3619,7 +3653,7 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="upload_debug_log_summary">"Les données de diagnostic peuvent contenir des informations concernant vos applications, système d'exploitation et utilisation du matériel. Les données seront utilisées pour localiser et analyser les problèmes du système et ne seront jamais utilisées pour vous identifier personnellement."</string>
     <string name="sound_vibrate_settings">Sons &amp; vibrations</string>
     <string name="settings_notify_phone_recycled">Votre numéro de téléphone a été recyclé. Appuyez pour ajouter un autre numéro de téléphone.</string>
-    <string name="settings_notify_need_backup">"Sauvegardez vos paramètres sur Mi Cloud afin d'y accéder après avoir changer de téléphone."</string>
+    <string name="settings_notify_need_backup">"Sauvegardez vos paramètres sur Mi Cloud afin d'y accéder après avoir changé de téléphone."</string>
     <string name="model_name">Nom du modèle</string>
     <string name="my_device">Mon appareil</string>
     <string name="device_miui_version">Version MIUI</string>
@@ -3694,6 +3728,7 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="sure_sync_now">Synchroniser les éléments maintenant ?</string>
     <string name="sync_now">Synchroniser</string>
     <string name="suggestion_for_phone_recycled">Ajouter un autre numéro de téléphone</string>
+    <string name="mi_upi_settings">Mi Pay Account</string>
     <string name="sms_received_sound_title">Message reçu</string>
     <string name="sms_delivered_sound_title">Message délivré</string>
     <string name="sms_received_sound_dialog_title">Choisir un son pour les SMS reçus</string>
@@ -3765,7 +3800,7 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="screenshot_three_gesture">"Faites glisser 3 doigts vers le bas pour effectuer une capture d'écran"</string>
     <string name="screenshot_three_gesture_summary">Les autres gestes à 3 doigts seront désactivés</string>
     <string name="has_screenshot_sound">"Son de capture d'écran"</string>
-    <string name="paper_mode_side_effect_hint">Higher intensity might affect the way content is displayed.</string>
+    <string name="paper_mode_side_effect_hint">Une intensité plus élevée peut affecter la façon dont le contenu est affiché.</string>
     <string name="key_settings_title">Raccourcis des boutons et gestes</string>
     <string name="key_settings">Raccourcis des boutons et gestes</string>
     <string name="key_position_cat">Emplacement des boutons</string>
@@ -3936,7 +3971,7 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="wifi_context_menu_forget">Oublier le réseau</string>
     <string name="wifi_context_menu_change_password">Modifier le mot de passe</string>
     <string name="wifi_context_menu_change_wapi_certificate">Changer le certificat WAPI</string>
-    <string name="wifi_info_reconnect">La connexion a échoué, veuillez réessayer !</string>
+    <string name="wifi_info_reconnect">Impossible de se connecter, veuillez réessayer.</string>
     <string name="wifi_scan_always_available">Recherche toujours disponible</string>
     <string name="wifi_scan_always_available_summary">"Autoriser le service de localisation de Google et d'autres applications à rechercher des réseaux, même lorsque le Wi-Fi est désactivé"</string>
     <string name="attempt_other_network">Changer de réseaux</string>
@@ -4204,11 +4239,11 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="wps_connect_summary">Assurez-vous que le routeur supporte et que WPS est activé</string>
     <string name="retry">Réessayer</string>
     <string name="brightness_auto_adjust_off">"La luminosité de l'écran restera constante."</string>
-    <string name="brightness_auto_adjust_on">Optimiser le niveau de luminosité par rapport à la lumière ambiante.</string>
-    <string name="night_light">Night Light</string>
-    <string name="night_light_brightness">Night Light Brigtness</string>
-    <string name="night_light_color">Night Light Color</string>
-    <string name="night_light_summary">Minimize the backlight in low light environment to enter night light mode</string>
+    <string name="brightness_auto_adjust_on">"La luminosité de l'écran sera optimisée en fonction de la lumière ambiante."</string>
+    <string name="night_light">Mode Nuit</string>
+    <string name="night_light_brightness">Luminosité du mode Nuit</string>
+    <string name="night_light_color">Température des couleurs en mode Nuit</string>
+    <string name="night_light_summary">"Pour activer le mode Nuit, réduisez la luminosité de l'écran dans des conditions de faible luminosité."</string>
     <string name="private_sms_need_to_unlock">Mot de passe requis :</string>
     <string name="private_sms_reset_by_account">Pour réinitialiser votre mot de passe, connectez-vous à votre compte Mi</string>
     <string name="private_sms_recording_intro_header">Dessinez un schéma de déverrouillage :</string>
@@ -4315,6 +4350,8 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="tether_settings_disabled">"Le point d'accès mobile est désactivé"</string>
     <string name="tether_data_usage_limit">Limite de données unique</string>
     <string name="tether_data_usage_limit_summary">"La limite de données sera appliquée la prochaine fois que votre point d'accès sera activé"</string>
+    <string name="tether_auto_disable_title">Automatically close hotspot</string>
+    <string name="tether_auto_disable_summary">Automatically close hotspot when no connected devices</string>
     <string name="hdmi_3dplay_settings_title">HDMI</string>
     <string name="hdmi_3dplay_control_text">Sortie 3D</string>
     <string name="hdmi_3dplay_control_enable_subtext">"Sortie 3D stéréoscopique vers l'affichage 3D externe est activé"</string>
@@ -4428,7 +4465,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="welcome">Bienvenue</string>
     <string name="resolver_settings_label">Trier</string>
     <string name="infinity_display_title">Affichage Plein écran</string>
-    <string name="launching_pho">"Collecte des informations de l'appareil, veuillez patienter."</string>
+    <string name="launching_pho">Lancement des infos du téléphone…</string>
     <string name="launching_cit">Démarrage du CIT</string>
     <string name="launching_rep">Rapport…</string>
     <string name="privacy_mode_dialog_title">Mode invité</string>
@@ -4775,6 +4812,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="bootloader_locked_answer_1_warning">"Souvenez-vous : Vous ne serez pas en mesure d'utiliser \"Localiser l'appareil\" après que le téléphone soit déverrouillé."</string>
     <string name="bootloader_locked_question_2">Je comprends les risques, mais veux toujours déverrouiller mon appareil.</string>
     <string name="bootloader_locked_answer_2">"Appuyez sur le bouton ci-dessous pour associer votre compte Mi avec cet appareil. Ensuite, allez sur le site MIUI pour télécharger l'outil de déverrouillage et installez-le sur votre ordinateur. Voici l'adresse :"</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="bootloader_locked_check_status">Ajouter un compte et un appareil</string>
     <string name="bootloader_device_bind_already">Ajouté avec succès. Votre compte Mi est maintenant associé à cet appareil.</string>
     <string name="bootloader_device_bind_no_account">"Connectez-vous d'abord à votre compte Mi"</string>
@@ -4846,6 +4884,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="size_giga_byte">Go</string>
     <string name="size_tera_byte">To</string>
     <string name="size_peta_byte">Po</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="radio_info_asdiv_switch_label">État ASDiv :</string>
     <string name="app_factory_reset_dlg_title">Désinstaller les mises à jour ?</string>
     <string name="app_factory_reset_dlg_text">Toutes les mises à jour de cette application système Android seront désinstallées.</string>
@@ -4975,7 +5014,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="music_dirac_mode_in_ear_pro">Intra Mi Pro</string>
     <string name="music_dirac_mode_capsule">Mi Capsule</string>
     <string name="music_dirac_mode_headset_comfort">Mi Comfort</string>
-    <string name="music_dirac_mode_reduction_noise">Mi Élimination de bruit (Type C)</string>
+    <string name="music_dirac_mode_reduction_noise">Annulation de bruit Mi (Type-C)</string>
     <string name="music_dirac_mode_cancelling">Mi Élimination de bruit (3,5 mm)</string>
     <string name="music_audio_effect_settings">Paramètres des effets</string>
     <string name="music_equalizer_summary">Ajuster les niveaux individuels pour différents types de musique</string>
@@ -4984,7 +5023,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="music_dolby_mode_off">Désactivé</string>
     <string name="music_dolby_mode_music">Musique</string>
     <string name="music_dolby_mode_movie">Vidéo</string>
-    <string name="music_app_unavailable">"L'application Mi musique est nécessaire, assurez-vous qu'elle est disponible"</string>
+    <string name="music_app_unavailable">"Assurez-vous que l'application Musique Mi est disponible."</string>
     <string name="lockpassword_confirm_workspace_password">Vérifier le mot de passe de votre espace de travail</string>
     <string name="turn_on_keyguard_password_alert_forget_title">Se souvenir de votre mot de passe</string>
     <string name="turn_on_keyguard_password_alert_forget_content">"N'oubliez pas le mot de passe de votre écran de verrouillage. Si vous l'oubliez, vous devrez effacer toutes les données sur votre appareil, incluant les photos et les contacts et puis en définir un nouveau."</string>

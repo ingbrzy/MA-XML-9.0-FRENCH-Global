@@ -24,6 +24,8 @@ Voir la politique de confidentialité du clavier sélectionné."</string>
     <string name="other_settings_upload_debug_log_summary">Les informations que nous collectons seront utilisées pour localiser et analyser les problèmes dans le système et peuvent contenir des informations personnelles. Aucune donnée ne sera utilisée pour vous identifier personnellement.</string>
     <string name="other_settings_auto_update">Installer automatiquement</string>
     <string name="other_settings_auto_update_summary">MIUI sélectionnera le meilleur moment pour installer les mises à jour.</string>
+    <string name="other_settings_ad_enable">Recommandation de publicités personnalisées</string>
+    <string name="other_settings_ad_enable_summary">Recommander des publicités personnalisées en fonction des données de vos habitudes</string>
     <string name="back">Retour</string>
     <string name="next">Suivant</string>
     <string name="skip_underline">Ignorer cette étape</string>
@@ -69,8 +71,8 @@ Vous devez accepter nos Conditions générales d'utilisation et notre Politique 
     <string name="content_description_complete">Terminé</string>
     <string name="language_picker_other_languages_title">Plus de langues</string>
     <string name="language_settings">Choisir une langue</string>
-    <string name="navigation_picker_radio_text_full_screen">Mode Plein écran</string>
-    <string name="navigation_picker_radio_text_virtual_key">Mode Bouton virtuel</string>
+    <string name="navigation_picker_radio_text_full_screen">Gestes en plein écran</string>
+    <string name="navigation_picker_radio_text_virtual_key">Boutons</string>
     <string name="congratulation_swipe">Balayez vers le haut pour accéder au système</string>
     <string name="enable_accessibility_dialog_message">"Vous avez activé TalkBack en appuyant sur l'écran avec 2 doigts pendant plus de 10 secondes. TalkBack offre un commentaire vocal aux personnes malvoyantes. Si vous l'avez activé par accident, appuyez sur le bouton Annuler et puis appuyez rapidement deux fois sur l'écran."</string>
     <string name="enable_accessibility_dialog_positive_btn">OK</string>

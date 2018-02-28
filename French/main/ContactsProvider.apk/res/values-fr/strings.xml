@@ -19,14 +19,16 @@
     <string name="debug_dump_email_sender_picker">Choisir un programme pour envoyer votre fichier</string>
     <string name="debug_dump_email_subject">Base de donnée jointe</string>
     <string name="debug_dump_email_body">Veuillez gérer avec attention la base de données de contacts ci-jointe avec toutes vos informations de contacts.</string>
-    <string name="pound_search_tip">Entrez un chiffre après # pour rechercher dans les contacts</string>
+    <string name="pound_search_tip">Saisissez un chiffre après # pour rechercher des contacts</string>
     <string name="create_contact">Nouveau contact</string>
     <string name="video_call">Appel vidéo</string>
-    <string name="send_sms">Envoyer un message</string>
+    <string name="send_sms">Envoyer un SMS</string>
     <string name="search_the_yellowpage">Chercher sur les Pages Jaunes</string>
     <string name="edit_contact">Éditer un contact</string>
     <string name="call_log_provider_label">Historique des appels</string>
     <string name="third_party_delete_contact_info">"\"%s\" tente d'effacer vos contacts. Cette opération ne peut être faite par une application tierce. Pour effacer vos contacts utilisez plutôt l'application Contacts de MIUI."</string>
     <string name="low_memory_toast">Impossible de continuer en raison de mémoire insuffisante.</string>
     <string name="update_accounts_changed">Comptes modifiés</string>
+    <string name="sim_state_changed">Carte SIM remplacée</string>
+    <string name="voicemail_cleanup">Vider la messagerie vocale</string>
 </resources>

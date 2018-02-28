@@ -6,6 +6,9 @@ Taille : %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Version %1$s
 Taille de la mise à jour : %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Stockage indisponible, vérifiez votre carte SD.</string>
+    <string name="xiaomi_bytes_unit">%1$s o</string>
+    <string name="xiaomi_kilobytes_unit">%1$s ko</string>
+    <string name="xiaomi_megabytes_unit">%1$s Mo</string>
     <string name="xiaomi_connect_download_manager_fail">Impossible de démarrer le téléchargement. Vérifier que le gestionnaire de téléchargements fonctionne normalement.</string>
     <string name="app_name">Sauvegarde</string>
     <string name="local_app_name">Sauvegarde</string>
@@ -225,6 +228,7 @@ Taille de la mise à jour : %2$s"</string>
     <string name="restore_backup">Restaurer</string>
     <string name="enable_encrypt_description">Chiffrer</string>
     <string name="disable_encrypt_description">Ne pas chiffrer</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Un instant…</string>
     <string name="state_mounting">Accès au stockage du routeur…</string>
     <string name="abort_backup_confirm">"La sauvegarde n'est pas terminée. Arrêter quand même ?"</string>
@@ -332,6 +336,7 @@ Temps écoulé : %s"</string>
     <string name="trans_device_wait_for_reconnecting">La connexion a été interrompue. Reconnecter pour continuer.</string>
     <string name="trans_device_auto_reconnecting">Appareil déconnecté. Reconnexion automatique…</string>
     <string name="trans_connecting_toast">Connexion…</string>
+    <string name="trans_switching_5g">Passage au Wi-Fi 5 GHz…</string>
     <string name="trans_connect_failed_toast">Impossible de se connecter</string>
     <string name="trans_generate_qr_code_failed">Impossible de créer le code QR</string>
     <string name="trans_scan_invalid_qrcode">Code QR non valide</string>
@@ -487,6 +492,7 @@ https://appleid.apple.com/#!&amp;page=signin pour désactiver"</string>
 ous devez d'abord créer une sauvegarde iCloud."</string>
     <string name="list_footer_tip_title">Astuces :</string>
     <string name="import_tip_summary">En raison des problèmes de compatibilité, vous pouvez seulement transférer partiellement les données depuis vos appareil iOS. Assurez-vous de créer une sauvegarde iCloud avant de commencer le transfert.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importer</string>
     <string name="select_empty">Sélectionner les éléments à importer</string>
     <string name="select_item_summary_wait">En attente…</string>
@@ -510,6 +516,7 @@ Les données qui n'ont pas été importées doivent être importées encore."</s
     <string name="error_permissions">"Cette application n'a pas les autorisations requises pour accéder au Calendrier. Allez dans les Réglages et vérifiez les autorisations pour continuer."</string>
     <string name="succ_description">Avec succès</string>
     <string name="failed_description">Échec</string>
+    <string name="notif_miasist_try_to_connect">Mi PC Suite essaie de se connecter à votre appareil</string>
     <string name="notif_connect_miasist">Connecté à Mi PC Suite</string>
     <string name="notif_disconnect_miasist">Pas connecté à Mi PC Suite</string>
     <string name="notif_sending_transingsd">Envoi de %1$s (%2$s)…</string>

@@ -115,4 +115,6 @@ Entrez le numéro de téléphone associé à votre nouvelle carte SIM pour réac
     <string name="phone_get_text">Autorisez-vous %1$s à obtenir votre numéro de téléphone (%2$s) ?</string>
     <string name="phone_get_processing">"En cours d'obtention…"</string>
     <string name="agree">Autoriser</string>
+    <string name="privacy_revoke_tips">If you revoke, the sms sync will not be able to use</string>
+    <string name="privacy_revoke_failed_msg">privacy revoke，can not get phone number，activate failed</string>
 </resources>

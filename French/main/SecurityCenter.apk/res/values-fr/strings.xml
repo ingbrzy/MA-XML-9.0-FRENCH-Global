@@ -80,7 +80,7 @@ Il sera ajouté aux exceptions, mais les éléments bloqués précédemment n'ap
     <string name="menu_add">Ajouter</string>
     <string name="menu_edit">Modifier</string>
     <string name="menu_remove">Supprimer</string>
-    <string name="menu_white">Exceptions</string>
+    <string name="menu_white">Ajouter aux exceptions</string>
     <string name="st_settings_name">Paramètres de la Liste Noire</string>
     <string name="st_filter_keywords_setting_summary1">Les SMS provenant de numéros inconnus contenant les mots dans cette liste seront bloqués.</string>
     <string name="st_filter_keywords_setting_summary3">Les Sms provenant de numéros inconnus contenant les mots dans cette liste seront autorisés.</string>
@@ -405,6 +405,7 @@ de l'opérateur"</string>
     <string name="detail_app_button">"Informations sur l'application"</string>
     <string name="pref_about_traffic_title">"Paramètres d'utilisation des données"</string>
     <string name="pref_traffic_manage_title">Utilisation de données</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Forfait de donnée</string>
     <string name="pref_adjust_traffic_data">"Définir l'utilisation des données"</string>
     <string name="pref_category_title_other">Paramètres supplémentaires</string>
@@ -615,7 +616,7 @@ Le volume de données restant inclut l'excédent du mois précédent."</string>
     <string name="tc_sms_report_type">Type de rapport</string>
     <string name="privacy_declare_dialog_title">"Conditions générales d'utilisation"</string>
     <string name="sc_allow_network_dialog_tiltle">"Impossible d'utiliser cette fonctionnalité"</string>
-    <string name="sc_allow_network_dialog_message">Cette application doit se connecter à Internet pour fonctionner normalement.</string>
+    <string name="sc_allow_network_dialog_message">You restricted network connection and access to your location for Security. Give Security the required permissions to use this feature.</string>
     <string name="privacy_prompt_upload">Envoyer</string>
     <string name="privacy_prompt_traffic_adjust_message">"Après que vous ayez lancé l'étalonnage, MIUI se connectera au réseau, cryptera les infos de votre opérateur, votre numéro de téléphone, votre IMEI et votre compte Mi, puis enverra ces éléments vers les serveurs Mi. Ceci se fera dans le but d'acquérir le modèle d'étalonnage et apprenez si possible à acheter des données dans votre localité.
 
@@ -767,8 +768,8 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="networkchanged_exception_title">Connexion changée</string>
     <string name="networkchanged_exception_summary">La connexion réseau a changé. Tester à nouveau.</string>
     <string name="network_test_speed">Tester le débit du Wi-Fi</string>
-    <string name="network_changed_noti_title">Disconnected from Wi-Fi</string>
-    <string name="network_changed_noti_summary">Using mobile data</string>
+    <string name="network_changed_noti_title">Déconnecté du Wi-Fi</string>
+    <string name="network_changed_noti_summary">Avec les données mobiles</string>
     <string name="network_speed_for_apps_title">Connexion</string>
     <string name="network_speed_for_apps_total">Vitesse de connexion</string>
     <string name="network_speed_for_apps_close_app_dlg_msg">Forcer la fermeture de cette application ?</string>
@@ -918,6 +919,7 @@ Cette activité réduit la durée de vie de la batterie."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Cette application peut ralentir
 votre appareil"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Désinstaller %s ?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">"Désinstaller cette application pour résoudre tous les problèmes liés à l'usage de la batterie."</string>
     <string name="om_ill_proc_type_wakelock_title">"L'application bloque le mode veille et décharge la batterie"</string>
@@ -1322,6 +1324,7 @@ votre appareil"</string>
     <string name="menu_text_networkassistants">Utilisation des données</string>
     <string name="menu_text_networkassistants_remain">%s restants</string>
     <string name="menu_text_networkassistants_danger">%s dépassé</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">Go</string>
     <string name="menu_text_networkassistants_unit_mb">Mo</string>
     <string name="menu_text_networkassistants_unit_kb">ko</string>
@@ -1672,7 +1675,7 @@ votre appareil"</string>
     <string name="preferred_app_entries_music">Musique</string>
     <string name="preferred_app_entries_email">E-mail</string>
     <string name="card_main_applock_title">"Verrouillage d'application"</string>
-    <string name="card_main_applock_summary">"Protégez vos messages, photos et d'autres éléments avec un mot de passe."</string>
+    <string name="card_main_applock_summary">Protégez les applications sélectionnées avec un mot de passe.</string>
     <string name="card_main_applock_action">Activer</string>
     <string name="card_main_deepclean_title">Nettoyage en profondeur</string>
     <string name="card_main_deepclean_summary">Supprimer les fichiers inutiles</string>
@@ -1682,6 +1685,7 @@ votre appareil"</string>
     <string name="card_main_deepclean_wechat_action">Vider</string>
     <string name="card_main_sectool_title">Outils</string>
     <string name="card_main_monthreport_action">Afficher</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Tester le réseau</string>
     <string name="card_main_netcheck_summary">Tester la connexion pour des problèmes de réseau</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1710,14 +1714,18 @@ votre appareil"</string>
     <string name="more_lock">Plus</string>
     <string name="app_name">"Verrouillage d'application"</string>
     <string name="back_app_name">Retourner à Verr. App</string>
-    <string name="notification_item">Protéger les applications avec Verr. App</string>
+    <string name="ac_notification_contentTitle">"Protéger les applications sélectionnées avec Verrouillage d'application"</string>
+    <string name="ac_pre_notification_contentTitle">"Essayer Verrouillage d'application"</string>
+    <string name="ac_post_notification_contentTitle">"Activer le Verrouillage d'application"</string>
     <string name="notification_masked_item">Masquer les notifications</string>
     <string name="lock_mode_title">Paramètres de verrouillage</string>
     <string name="after_the_lock_screen">"Verrouillez les applications en même temps que l'écran"</string>
     <string name="set_applock_password">Définir un mot de passe</string>
     <string name="ac_firstUseApplock_title">Définir un mot de passe pour protéger votre application</string>
     <string name="ac_firstUseApplock_subTitle">Utilisez de meilleurs outils de sécurité au niveau du système</string>
-    <string name="notification_subtitle">Appuyez pour activer</string>
+    <string name="ac_notification_contentText">Appuyez pour activer</string>
+    <string name="ac_pre_notification_contentText">Protégez vos infos personnelles</string>
+    <string name="ac_post_notification_contentText">Obtenir une protection de niveau système</string>
     <string name="notification_masked_subtitle">"Masquer les notifications des applis protégées avec le Verrouillage d'application"</string>
     <string name="ac_enter_applock">Ouvrir Verr. App</string>
     <string name="ac_mask_all_apps">Masquer pour toutes les applications</string>

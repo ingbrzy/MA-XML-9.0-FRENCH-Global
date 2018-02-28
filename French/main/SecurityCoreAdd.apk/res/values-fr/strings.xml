@@ -255,7 +255,7 @@ pour y accéder depuis l'Écran de verrouillage"</string>
     <string name="scanner_fingerprint">"Identification d'empreinte digitale…"</string>
     <string name="scanner_fingerprint_enter_second">"Scannez l'empreinte digitale du Second espace
 pour y accéder depuis l'Écran de verrouillage"</string>
-    <string name="xspace_guide_title">Create a dual app</string>
+    <string name="xspace_guide_title">Créer une application clônée</string>
     <string name="xspace_guide_des">Utiliser 2 comptes sans basculer</string>
     <string name="xpsace_guide_button">Créer</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
@@ -266,7 +266,7 @@ pour y accéder depuis l'Écran de verrouillage"</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">Envoyer sur Weibo</string>
     <string name="xspace_qq_title">QQ</string>
-    <string name="qq_send">"Envoyer à amis sur QQ/d'autres appareils"</string>
+    <string name="qq_send">Envoyer à des amis sur QQ/un ordinateur</string>
     <string name="xspace_default_setting_label">Application par défaut</string>
     <string name="xspace_default_app_title">Application par défaut</string>
     <string name="xspace_default_app_summary">"Définir l'application par défaut pour les paiements, les partages, les favoris et plus."</string>

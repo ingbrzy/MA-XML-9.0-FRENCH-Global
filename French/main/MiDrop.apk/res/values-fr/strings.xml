@@ -33,6 +33,7 @@
     <string name="cancel_lang">Annuler</string>
     <string name="cancel_message">"L'autre personne ne recevra les fichiers si vous annulez le transfert. Annuler le transfert maintenant ?"</string>
     <string name="cancel_stop">Continuer à envoyer</string>
+    <string name="cannot_transfer_dir_to_low_version">Demandez à votre ami de mettre Mi Drop à jour</string>
     <string name="category_files">Fichiers</string>
     <string name="category_installed_app">Applications</string>
     <string name="category_music">Musique</string>
@@ -40,7 +41,7 @@
     <string name="category_video">Vidéos</string>
     <string name="clear_all">Tout effacer</string>
     <string name="click_to_send">Appuyez sur la photo de profil pour envoyer</string>
-    <string name="connect_to_the_computer">Se connecter à l’ordinateur</string>
+    <string name="connect_to_the_computer">"Se connecter à l'ordinateur"</string>
     <string name="coolboot_title">Partager Mi Drop</string>
     <string name="default_lang">Langue du système</string>
     <string name="delete">Supprimer</string>
@@ -96,7 +97,7 @@
     <string name="info_product">Périphérique :</string>
     <string name="info_system">Système:</string>
     <string name="info_system_version">Version du système :</string>
-    <string name="instruction">Entrer cette adresse dans le navigateur ou gestionnaire de fichiers de votre ordinateur.</string>
+    <string name="instruction">Entrer cette adresse dans le gestionnaire de fichiers de votre ordinateur</string>
     <string name="instruction_pre_pad">"Commencer à être en mesure de gérer des fichiers à l'aide d'un ordinateur"</string>
     <string name="instruction_pre_phone">"Commencer à être en mesure de gérer des fichiers à l'aide d'un ordinateur"</string>
     <string name="internal_storage">Stockage interne</string>
@@ -114,6 +115,7 @@
 Sur Android 6.0 et une version plus récente vous devriez activer les services de localisation pour envoyer et recevoir des fichiers."</string>
     <string name="location_skip">Ignorer</string>
     <string name="max_send_file">Plus de 99</string>
+    <string name="more">Plus</string>
     <string name="never_remind">Ne plus afficher</string>
     <string name="no_file">Vide</string>
     <string name="no_network">"Impossible de se connecter au réseau.
@@ -134,6 +136,7 @@ Vérifiez les paramètres réseau et réessayez."</string>
     <string name="popup_window_header_clear_all">Vider</string>
     <string name="port_range">Le numéro de port doit être compris entre 1024 - 65535</string>
     <string name="prompt_grant_write_settings_permission">Autoriser Mi Drop à modifier les paramètres système.</string>
+    <string name="qr_code">Code QR</string>
     <string name="receive">Recevoir</string>
     <string name="receive_exit_dialog_message">Les fichiers ne seront pas envoyés si vous annulez le transfert. Annuler quand même ?</string>
     <string name="receive_exit_dialog_negative_btn">Continuer la réception</string>
@@ -142,6 +145,7 @@ Vérifiez les paramètres réseau et réessayez."</string>
     <string name="received_files">Fichiers reçus</string>
     <string name="receiver_accept">Accepter</string>
     <string name="receiver_clean">"Libérez de l'espace"</string>
+    <string name="receiver_file_title">De %s</string>
     <string name="receiver_in_progress_summary">"Patientez jusqu'à ce que le transfert en cours se termine avant d'envoyer des fichiers."</string>
     <string name="receiver_in_progress_title">Transfert de fichiers</string>
     <string name="receiver_insufficient_storage">Espace de stockage insuffisant.</string>
@@ -191,16 +195,21 @@ Vérifiez les paramètres réseau et réessayez."</string>
     <string name="settings_feedback">Vos commentaires</string>
     <string name="settings_score">Evaluer Mi Drop</string>
     <string name="settings_set_name">Pseudo</string>
-    <string name="share_desc">Partagez Mi Drop sans utiliser aucune donnée mobile</string>
+    <string name="share_ap_step_two">"Voir l'étape 2 après que votre ami se connecte"</string>
+    <string name="share_desc">Partagé sans se connecter à Internet</string>
+    <string name="share_first_head_title">Partager avec des amis à proximité</string>
     <string name="share_mi_drop">Partager Mi Drop avec vos amis</string>
+    <string name="share_second_head_title">Autres moyens de partager</string>
+    <string name="share_via_ap">"Partager via le point d'accès mobile"</string>
+    <string name="share_via_qr_code">Partager en utilisant un code QR</string>
     <string name="start_server">Démarrer</string>
     <string name="stay_awake_summary">"Ne pas laisser s'éteindre l'affichage lors de l'utilisation du FTP"</string>
     <string name="stay_awake_title">"Laisser l'affichage allumé"</string>
-    <string name="step_1">"Étape 1 : 
-Demandez à l'autre personne de se connecter au Wi-Fi."</string>
-    <string name="step_2">"Étape 2 : 
-Demandez à l'autre personne d'entrer l'adresse suivante dans le navigateur :"</string>
-    <string name="step_2_scan_code">Ou scannez le code QR ci-dessous</string>
+    <string name="step_1">Étape 1 :</string>
+    <string name="step_1_title">Demandez à votre ami de se connecter à ce réseau</string>
+    <string name="step_2">Étape 2 :</string>
+    <string name="step_2_input_ip_address">"Ou demandez à votre ami d'entrer cela dans la barre d'adresse de son navigateur :"</string>
+    <string name="step_2_scan_code">Demandez à votre ami de scanner ce code QR</string>
     <string name="stop_server">Arrêter</string>
     <string name="stop_transfer">Arrêter</string>
     <string name="storage_internal">Stockage interne</string>
@@ -230,6 +239,7 @@ Demandez à l'autre personne d'entrer l'adresse suivante dans le navigateur :"<
     <string name="version">Version</string>
     <string name="want_receive">Recevoir des fichiers</string>
     <string name="want_send">Envoyer des fichiers</string>
+    <string name="wifi_ap">"Point d'accès Wi-Fi mobile"</string>
     <string name="wifi_name">Nom du Wi-Fi :</string>
     <string name="wifi_psw">Mot de passe :</string>
     <string name="wifi_state">Statut de la connexion Wi-Fi</string>

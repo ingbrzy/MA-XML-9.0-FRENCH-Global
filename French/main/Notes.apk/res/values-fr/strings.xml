@@ -6,6 +6,7 @@
     <string name="sina_token_expired_warning">Compte Weibo expiré, ajoutez le compte à nouveau.</string>
     <string name="sina_token_invalid_warning">Compte Weibo non valide, ajoutez le compte à nouveau.</string>
     <string name="sina_share_fail_content_repeat">Vous avez déjà partagé cela.</string>
+    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">Notes;Mémo</string>
     <string name="search_path_notes">Applications système/Notes</string>
     <string name="dlg_move_message">Déplacement…</string>
@@ -119,6 +120,7 @@
     <string name="error_unsupport_content">Cette note contient des contenus non supportés, appuyer ici pour mettre à jour</string>
     <string name="error_contact_not_exist">Contact non existant</string>
     <string name="sync_tips">Appuyez pour synchroniser les notes avec Mi Cloud.</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="pref_title_font_size">Taille du texte</string>
     <string name="call_folder_name">"Notes d'appels"</string>
     <string name="trash_folder_name">Corbeille</string>
