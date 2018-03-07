@@ -57,6 +57,7 @@
     <string name="save_pic_success">Image sauvegardée dans %s</string>
     <string name="save_pic_fail">"Impossible de sauvegarder l'image, vérifiez votre carte SD"</string>
     <string name="pic_not_exist">"Cette image n'existe pas"</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Sélectionnez un produit</string>
     <string name="michat_skillset_business_type_title">Sélectionnez le service</string>
     <string name="michat_close_text">Conversation terminée</string>
@@ -162,9 +163,9 @@
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Envoyer le rapport</string>
     <string name="submit_dialog_content">Votre commentaire avec vos pièces jointes et journaux seront envoyés aux serveurs MIUI. Cela pourrait contenir des informations personnelles et vos données de localisation.</string>
-    <string name="submit_dialog_content_global">"Your feedback, along with attachments (if any) and logs (you can uncheck the corresponding boxes for the items you don't want to upload) will be sent to MIUI's servers and a restricted section of MIUI Forum for developers for analysis and further communication. Logs may contain personal info and your location data."</string>
-    <string name="submit_dialog_cancel">Annuler</string>
-    <string name="submit_dialog_confirm">Envoyer</string>
+    <string name="submit_dialog_content_global">"Vos commentaires, ainsi que les pièces jointes (le cas échéant) et les journaux (vous pouvez décocher les cases correspondantes pour les articles que vous ne voulez pas télécharger) seront envoyés aux serveurs MIUI et une section restreinte de MIUI Forum pour les développeurs. Les informations sur vos discussions et l'activité du forum seront également collectées pour analyse et communication ultérieure . Les journaux peuvent contenir des informations personnelles et vos données de localisation."</string>
+    <string name="submit_dialog_cancel">Refuser</string>
+    <string name="submit_dialog_confirm">Accepter</string>
     <string name="mobile_data_note_dialog_title">"Alerte d'utilisation des données"</string>
     <string name="mobile_data_note_dialog_content">Utiliser les données mobiles pour envoyer vos fichiers journaux peut générer des frais supplémentaires.</string>
     <string name="mobile_data_note_dialog_content_with_file_size">Envoyer les fichiers journaux en utilisant la connexion de données mobiles nécessite %s Mo de données.</string>
@@ -177,7 +178,7 @@
     <string name="modem_tool_log_finish_title">Journal de modem capturé</string>
     <string name="modem_tool_log_finish_desc">Journal enregistré sous %s</string>
     <string name="bugreport_dialog_not_show_again">Ne plus afficher</string>
-    <string name="bugreport_dialog_submit_content">"You're saving software logs on this device now. Logs may contain personal info and your location data. Don't share logs with anyone else if you don't want this info to be exposed."</string>
+    <string name="bugreport_dialog_submit_content">"Vous êtes en train d'enregistrer les journaux de logiciels sur cet appareil. Les journaux peuvent contenir des informations personnelles et vos données de géolocalisation. Ne partagez pas les journaux avec quelqu'un d'autre si vous ne souhaitez pas que cette information soit exposée."</string>
     <string name="bugreport_dump_start_notification_title">"Création du journal d'erreurs…"</string>
     <string name="bugreport_dump_start_notification_summary">Cela peut prendre plusieurs minutes.</string>
     <string name="bugreport_dump_complete_notification_title">"Rapport d'erreur créé"</string>

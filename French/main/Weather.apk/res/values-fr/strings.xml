@@ -64,12 +64,13 @@
     <string name="button_abandon">Annuler les modifications</string>
     <string name="button_add_city">Ajouter une ville</string>
     <string name="button_allow">OK</string>
-    <string name="button_confirm">Autoriser</string>
-    <string name="button_exit">Quitter</string>
+    <string name="button_confirm">Accepter</string>
+    <string name="button_exit">Refuser</string>
     <string name="button_not_allow">Annuler</string>
     <string name="button_sure_abandon">Annuler les modifications ?</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Vérifiez votre connexion réseau et réessayez</string>
+    <string name="china_version_first_start_network_msg">En utilisant ce produit, vous acceptez nos %1$s et %2$s. Cette application doit se connecter à Internet et accéder à votre localisation pour fonctionner normalement.</string>
     <string name="city_exceeded_warning">"Vous pouvez ajouter jusqu'à 10 villes"</string>
     <string name="commercial">Commercial</string>
     <string name="common_loading_text">Un instant…</string>
@@ -77,9 +78,9 @@
     <string name="content_desc_activity_main_add_city">Ajouter une ville</string>
     <string name="content_desc_activity_main_add_city_manage">Gérer les villes</string>
     <string name="content_desc_activity_main_more_settings">Plus de paramètres</string>
-    <string name="content_desc_back_button">Back</string>
-    <string name="content_desc_close_button">Close</string>
-    <string name="content_desc_edit_city_manage">Manage cities</string>
+    <string name="content_desc_back_button">Retour</string>
+    <string name="content_desc_close_button">Fermer</string>
+    <string name="content_desc_edit_city_manage">Gérer les villes</string>
     <string name="daily_forcast_drawer_on_bottom">Masquer</string>
     <string name="daily_forcast_no_stable_direction">Brise</string>
     <string name="daily_forcast_no_wind">0</string>
@@ -90,6 +91,7 @@
     <string name="daily_forcast_wind_connect">%2$s %1$s</string>
     <string name="daily_forecast_detail">Détail des prévisions</string>
     <string name="daily_forecast_detail_date">d/M</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Impossible d'obtenir les données météo
 Faites glisser vers le bas pour actualiser ou vérifier les paramètres réseau"</string>
     <string name="data_provided_by">Données fournies par</string>
@@ -109,6 +111,8 @@ Faites glisser vers le bas pour actualiser ou vérifier les paramètres réseau"
     <string name="global_aqi">IQA : %1$s %2$s</string>
     <string name="gps_hint">Position actuelle</string>
     <string name="hourly_forcast_now">Maintenant</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title">Prévision par heure</string>
     <string name="index_item_experience_now">Installer maintenant</string>
@@ -133,11 +137,13 @@ Faites glisser vers le bas pour actualiser ou vérifier les paramètres réseau"
     <string name="information_manager_extension">Extension météo</string>
     <string name="information_views" />
     <string name="install">Installer</string>
+    <string name="install_progress">%1$s %%</string>
     <string name="international_detail_menu_title">Détails</string>
     <string name="international_details_pressure_title">PRESSION</string>
     <string name="international_details_real_feel_title">REAL FEEL®</string>
     <string name="international_details_title">Détails</string>
     <string name="international_details_uv_index_title">INDICE UV</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">VENT</string>
     <string name="it_is_going_to_rain">Il va pleuvoir</string>
     <string name="locate_fail_detail_err">"Impossible de localiser l'appareil
@@ -146,9 +152,9 @@ Appuyer sur l'écran pour ajouter manuellement ou repositionner une ville"</stri
     <string name="lunar_calendar" />
     <string name="menu_add_city">Éditer les localisations</string>
     <string name="menu_location">Villes</string>
-    <string name="menu_speaker">Voice broadcast</string>
+    <string name="menu_speaker">Diffusion voix</string>
     <string name="mi_pad2">latte</string>
-    <string name="minute_rain">Minutely forecast</string>
+    <string name="minute_rain">Prévision de précipitation</string>
     <string name="minute_rain_after_an_hour">Dans 1 heure</string>
     <string name="minute_rain_after_two_hour">Dans 2 heures</string>
     <string name="minute_rain_feedback_subtitle">Dites-nous quelle est la météo.</string>
@@ -160,7 +166,7 @@ Appuyer sur l'écran pour ajouter manuellement ou repositionner une ville"</stri
     <string name="minute_rain_progress_indicator_original_time">- -</string>
     <string name="minute_rain_pull_down_refresh">Tirez vers le bas pour actualiser</string>
     <string name="minute_rain_refreshing_now">Actualisation…</string>
-    <string name="missing_required_permission">You have disabled a required permission.</string>
+    <string name="missing_required_permission">Vous avez désactivé une autorisation requise.</string>
     <string name="more_details">Plus de détails</string>
     <string name="network_not_available">Impossible de se connecter au réseau</string>
     <string name="network_unavailable">Impossible de se connecter au réseau.</string>
@@ -211,6 +217,7 @@ Appuyer sur l'écran pour ajouter manuellement ou repositionner une ville"</stri
     <string name="share_subject">Partager</string>
     <string name="share_title">Partager la météo</string>
     <string name="share_weather_desc">"\#Météo MIUI#Aujourd'hui %1$s %2$s"</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">"Impossible de prendre une capture d'écran"</string>
     <string name="some_where_on_earth">Quelque part sur terre</string>
@@ -262,4 +269,16 @@ Appuyer sur l'écran pour ajouter manuellement ou repositionner une ville"</stri
     <string name="xiaomi_weather_description_title">À propos de Météo</string>
     <string name="yes_vote_ratio">Pour %1$s%%</string>
     <string name="your_location">Votre localisation</string>
+    <string name="button_settings_cancel">Annuler</string>
+    <string name="button_settings_confirm">Révoquer</string>
+    <string name="button_settings_confirm_to_revoke_msg">Vous ne pourrez plus utiliser Météo après avoir révoqué une autorisation.</string>
+    <string name="button_settings_confirm_to_revoke_title">"Révoquer l'autorisation ?"</string>
+    <string name="eu_region_version_first_start_network_msg">"En utilisant ce produit, vous acceptez que Xiaomi collecte, traite et utilise vos informations personnelles, y compris les coordonnées des villes que vous recherchez ainsi que d'autres types de données spécifiés dans notre Politique de confidentialité. Reférez-vous à notre politique de confidentialité pour savoir comment nous collectons et traitons les informations. En appuyant sur \"Accepter\", vous acceptez le %1$s et la %2$s de Xiaomi."</string>
+    <string name="policy_settings">"Conditions générales d'utilisation"</string>
+    <string name="privacy_grant_failed">"Impossible d'accorder l'autorisation. Patientez une minute ou deux puis réessayez."</string>
+    <string name="privacy_grant_or_revoke_settings">"Accord &amp; révocation d'autorisation"</string>
+    <string name="privacy_grant_success">Autorisation accordée avec succès</string>
+    <string name="privacy_revoke_failed">"Impossible de révoquer l'autorisation. Patientez une minute ou deux puis réessayez."</string>
+    <string name="privacy_revoke_success">Autorisation révoquée avec succès</string>
+    <string name="privacy_settings">Politique de Confidentialité</string>
 </resources>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">Shell</string>
+    <string name="bugreport_notification_channel">Rapports de bugs</string>
     <string name="bugreport_in_progress_title">Le rapport de bug \"#%d\" est en cours de création</string>
     <string name="bugreport_finished_title">Le rapport de bug \"#%d\" a bien été enregistré</string>
     <string name="bugreport_updating_title">"Ajout d'informations au rapport de bug"</string>
@@ -22,4 +23,5 @@
     <string name="bugreport_info_title">Titre du bug</string>
     <string name="bugreport_info_description">Résumé du bug</string>
     <string name="save">Enregistrer</string>
+    <string name="bugreport_intent_chooser_title">Partager le rapport de bug</string>
 </resources>

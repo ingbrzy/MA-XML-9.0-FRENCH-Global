@@ -71,6 +71,16 @@ Il sera ajouté aux exceptions, mais les éléments bloqués précédemment n'ap
     <string name="dlg_add_white">"Les nouveaux appels et messages provenant des numéros ajoutés aux exceptions seront affichés dans l'historique des appels et la boîte de réception des messages. Cependant, les éléments précédemment bloqués n'apparaîtront pas ici. Ajouter les numéros sélectionnés aux exceptions ?"</string>
     <string name="dlg_not_block_sms">"Débloquer les numéros sélectionnés ? Ils seront ajoutés aux exceptions, mais les éléments précédemment bloqués n'apparaîtront pas dans la boîte de réception des messages."</string>
     <string name="dlg_not_block_call">"Débloquer les numéros sélectionnés ? Ils seront ajoutés aux exceptions, mais les éléments précédemment bloqués n'apparaîtront pas dans l'historique des appels."</string>
+    <string name="dlg_update_date_title">Avertissement</string>
+    <string name="dlg_update_data_content">"Vous n'êtes pas connecté au Wi-Fi. Utilser les données mobiles peut générer des frais supplémentaires. Continuer quand même ?"</string>
+    <string name="dlg_sec_network_unavailable">"L'application Sécurité ne peut pas effectuer de mise à jour parce que vous avez restreint la connexion Internet. Autoriser Sécurité à se connecter à Internet ?"</string>
+    <string name="dlg_update_btn_contiue">Continuer</string>
+    <string name="dlg_update_btn_open">Autoriser</string>
+    <string name="dlg_update_updating">Mise à jour…</string>
+    <string name="toast_update_nonetwork">Impossible de se connecter au réseau</string>
+    <string name="toast_update_fail">Impossible de mettre à jour</string>
+    <string name="toast_update_success">Mis à jour avec succès</string>
+    <string name="toast_update_notneed">À jour</string>
     <string name="menu_call">Composer</string>
     <string name="menu_sms">Envoyer un message</string>
     <string name="menu_bl_call_log">Voir les appels bloqués</string>
@@ -251,6 +261,7 @@ Il sera ajouté aux exceptions, mais les éléments bloqués précédemment n'ap
     <string name="mark_time_text">%d</string>
     <string name="mark_time_setting_dialog_title">Signaler un numéro</string>
     <string name="sms_smart_engine_update">Mettre à jour automatiquement le filtre des SMS</string>
+    <string name="sms_smart_engine_update_now">Mettre à jour</string>
     <string name="mark_number_setting_guide_title">Bloquer les numéros signalés</string>
     <string name="mark_number_setting_guide_content1">Bloquer les appels des numéros signalés ?</string>
     <string name="mark_number_setting_guide_content2">Bloquer automatiquement les appels des numéros signalés par les autres utilisateurs</string>
@@ -304,6 +315,7 @@ Il sera ajouté aux exceptions, mais les éléments bloqués précédemment n'ap
     <string name="cta_dialog_title">Connexion Internet</string>
     <string name="cta_dialog_msg">"L'application Sécurité nécessite une connexion Internet pour obtenir les mises à jour, aussi bien que l'accès à la localisation pour fonctionner normalement."</string>
     <string name="cta_settings">Autoriser la connexion à Internet</string>
+    <string name="gdpr_msg"><Data>"Afin d'utiliser les fonctionnalités de base de la sécurité. Vous devez accepter que Xiaomi collecte, traite et utilise vos données personnelles, y compris les informations sur la façon dont vous utilisez les fonctionnalités de Sécurité (ex : les statistiques de l'utilisation des données mobiles, ) ainsi que des informations de base sur votre appareil et d'autres types d'informations spécifiées dans notre&lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Politique de confidentialité&lt;/a>."</Data></string>
     <string name="app_name_na">Utilisation des données</string>
     <string name="list_empty_text">Vide</string>
     <string name="dialog_title_attention">Attention</string>
@@ -383,6 +395,12 @@ de l'opérateur"</string>
     <string name="firewall_wifi_dialog_message">"L'application installée ne sera plus en mesure de se connecter à Internet via Wi-Fi lorsque cet interrupteur est désactivé."</string>
     <string name="firewall_system_title">Utilisation des données pour les applications système</string>
     <string name="firewall_temp_rule_reason">%2$s ont restreint la connexion Internet pour %1$s</string>
+    <string name="dialog_restrict_all_wlan_title">Restreindre la connexion Wi-Fi</string>
+    <string name="dialog_restrict_all_wlan_summary">La connexion Wi-Fi sera restreinte pour toutes les applications une fois cela activé.</string>
+    <string name="dialog_restrict_all_mobile_title">Restreindre la connexion aux données mobiles de %s</string>
+    <string name="dialog_restrict_all_mobile_summary">La connexion aux données mobiles de %s sera restreinte pour toutes les applications une fois cela activé.</string>
+    <string name="dialog_restrict_positive">Annuler</string>
+    <string name="dialog_restrict_negative">Restreindre</string>
     <string name="usage_sorted_activity_lable">Utilisation de données</string>
     <string name="usage_sorted_loading_text">Un instant…</string>
     <string name="usage_sorted_empty_text">Vide</string>
@@ -405,6 +423,7 @@ de l'opérateur"</string>
     <string name="detail_app_button">"Informations sur l'application"</string>
     <string name="pref_about_traffic_title">"Paramètres d'utilisation des données"</string>
     <string name="pref_traffic_manage_title">Utilisation de données</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Forfait de donnée</string>
     <string name="pref_adjust_traffic_data">"Définir l'utilisation des données"</string>
     <string name="pref_category_title_other">Paramètres supplémentaires</string>
@@ -445,7 +464,7 @@ de l'opérateur"</string>
     <string name="pref_special_package_setting">Personnaliser le forfait de données</string>
     <string name="pref_data_usage_not_set">Forfait de données inconnu</string>
     <string name="pref_operator_not_set">Opérateur non défini</string>
-    <string name="pref_special_package_setting_summary">Gérez les données des heures creuses, les packages de recharges, les forfaits de données quotidiens ainsi que les données désignées</string>
+    <string name="pref_special_package_setting_summary">Gérez les données des heures creuses, les forfaits de recharges, les forfaits de données quotidiens ainsi que les données désignées</string>
     <string name="pref_warning_values">"Avertissement de l'utilisation de données"</string>
     <string name="pref_pkg_begin_date">"Date de réinitialisation d'utilisation"</string>
     <string name="pref_more_settings">Paramètres additionnels</string>
@@ -474,10 +493,10 @@ de l'opérateur"</string>
     <string name="per_month_pkg_traffic_settings">Définir la limite des données</string>
     <string name="free_time_traffic_settings">"Limite d'utilisation de données en heures creuses"</string>
     <string name="pref_category_extra_package_tile">Recharge de forfait</string>
-    <string name="pref_key_extra_package_value">Taille du package</string>
+    <string name="pref_key_extra_package_value">Taille du forfait</string>
     <string name="pref_category_half_year_package_tile">Package de données par semestre</string>
     <string name="pref_key_half_year_package_switch">Package de données par semestre</string>
-    <string name="pref_key_half_year_package_value">Taille du package</string>
+    <string name="pref_key_half_year_package_value">Taille du forfait</string>
     <string name="pref_key_half_year_package_start">Date du début</string>
     <string name="pref_category_daily_package_tile">Forfait de données quotidien</string>
     <string name="pref_key_daily_package_switch">Forfait de données quotidien</string>
@@ -517,6 +536,12 @@ de l'opérateur"</string>
     <string name="leisure_usage_dialog_message">"Vous avez atteint votre limite de données en heures creuses.
 
 Votre opérateur peut vous facturer des frais supplémentaires si vous utilisez à nouveau la connexion de données mobiles."</string>
+    <string name="data_usage_protected_notify_title">Vous avez déjà utilisé 5 Go de données mobiles</string>
+    <string name="data_usage_protected_notify_message">"MUI a désactivé les données mobiles afin de vous empêcher de générer des frais supplémentaires de l'opérateur."</string>
+    <string name="data_usage_mobile_dialog_title">Vous avez déjà utilisé 5 Go de données mobiles. MIUI a désactivé les données mobiles.</string>
+    <string name="data_usage_protected_dialog_message">"MIUI a désactivé les données mobiles pour vous empêcher de générer des frais supplémentaires de l'opérateur.
+
+Votre opérateur peut vous facturer des frais supplémentaires si vous activer les données mobiles à nouveau."</string>
     <string name="lock_screen_traffic_warn_title">"Notifications à l'écran de verrouillage"</string>
     <string name="lock_screen_traffic_notify_body">Verrouillé pour %2$s à %1$s, données utilisées %3$s</string>
     <string name="timeshow_s">%d s</string>
@@ -615,7 +640,7 @@ Le volume de données restant inclut l'excédent du mois précédent."</string>
     <string name="tc_sms_report_type">Type de rapport</string>
     <string name="privacy_declare_dialog_title">"Conditions générales d'utilisation"</string>
     <string name="sc_allow_network_dialog_tiltle">"Impossible d'utiliser cette fonctionnalité"</string>
-    <string name="sc_allow_network_dialog_message">You restricted network connection and access to your location for Security. Give Security the required permissions to use this feature.</string>
+    <string name="sc_allow_network_dialog_message">"Vous avez limité la connexion réseau et l'accès à votre localisation pour l'application Sécurité. Donnez à l'application Sécurité les autorisations requises pour utiliser cette fonctionnalité."</string>
     <string name="privacy_prompt_upload">Envoyer</string>
     <string name="privacy_prompt_traffic_adjust_message">"Après que vous ayez lancé l'étalonnage, MIUI se connectera au réseau, cryptera les infos de votre opérateur, votre numéro de téléphone, votre IMEI et votre compte Mi, puis enverra ces éléments vers les serveurs Mi. Ceci se fera dans le but d'acquérir le modèle d'étalonnage et apprenez si possible à acheter des données dans votre localité.
 
@@ -918,6 +943,7 @@ Cette activité réduit la durée de vie de la batterie."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Cette application peut ralentir
 votre appareil"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Désinstaller %s ?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">"Désinstaller cette application pour résoudre tous les problèmes liés à l'usage de la batterie."</string>
     <string name="om_ill_proc_type_wakelock_title">"L'application bloque le mode veille et décharge la batterie"</string>
@@ -1322,6 +1348,7 @@ votre appareil"</string>
     <string name="menu_text_networkassistants">Utilisation des données</string>
     <string name="menu_text_networkassistants_remain">%s restants</string>
     <string name="menu_text_networkassistants_danger">%s dépassé</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">Go</string>
     <string name="menu_text_networkassistants_unit_mb">Mo</string>
     <string name="menu_text_networkassistants_unit_kb">ko</string>
@@ -1462,7 +1489,7 @@ votre appareil"</string>
     <string name="toast_root_apply_reject">"L'accès ROOT de %s a été refusé"</string>
     <string name="menu_item_app_permissions_control">"Gestionnaire d'autorisations"</string>
     <string name="menu_item_control_app_permissions">"Demander votre autorisation avant de permettre aux applications de lire vos contacts, de voir votre historique d'appels, de changer les paramètres systèmes, ou d'accéder à la caméra et aux autres services de l'appareil"</string>
-    <string name="menu_item_install_debug_package">Installer le package de débogage</string>
+    <string name="menu_item_install_debug_package">Installer le forfait de débogage</string>
     <string name="permission_close_permission_control_dialog_title">Désactiver ?</string>
     <string name="permission_close_permission_control_dialog_msg">"Lorsque le gestionnaire d'autorisations est désactivé, les applications ne demanderont plus l'autorisation avant de lire vos contacts, de voir votre historique d'appels, ou d'accéder à la caméra et aux autres services de l'appareil."</string>
     <string name="permission_permission_control_closed_desc_dialog_title">"Gestionnaire d'autorisations"</string>
@@ -1682,6 +1709,7 @@ votre appareil"</string>
     <string name="card_main_deepclean_wechat_action">Vider</string>
     <string name="card_main_sectool_title">Outils</string>
     <string name="card_main_monthreport_action">Afficher</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Tester le réseau</string>
     <string name="card_main_netcheck_summary">Tester la connexion pour des problèmes de réseau</string>
     <string name="card_main_netcheck_action">Test</string>

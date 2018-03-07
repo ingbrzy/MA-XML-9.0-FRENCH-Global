@@ -26,6 +26,7 @@
     <string name="stk_dialog_accept">OUI</string>
     <string name="stk_dialog_reject">NON</string>
     <string name="no_sim_card_inserted">Insérez la carte SIM pour lancer la boîte à outils SIM.</string>
+    <string name="stk_channel_name">Messages du service mobile</string>
     <string name="stk_intent_permission">Des autorisations sont requises</string>
     <string name="sim_type_sim_name">Boîte à outils SIM</string>
     <string name="sim_type_usim_name">Boîte à outils USIM</string>

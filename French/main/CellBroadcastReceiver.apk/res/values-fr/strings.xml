@@ -30,6 +30,7 @@
     <string name="pws_other_message_identifiers">"Alerte d'urgence"</string>
     <string name="cb_other_message_identifiers">Diffusion cellulaire</string>
     <string name="emergency_alert_settings_title">"Paramètres d'alerte d'urgence"</string>
+    <string name="notification_channel_broadcast_messages">Messages de diffusion</string>
     <string name="enable_emergency_alerts_title">Activer les notifications</string>
     <string name="enable_emergency_alerts_summary">"Afficher les diffusions d'alerte d'urgence"</string>
     <string name="alert_reminder_interval_title">"Rappel d'alerte"</string>
@@ -91,5 +92,4 @@
     <string name="cmas_opt_out_dialog_text">"Vous recevez actuellement les alertes d'urgence. Voulez-vous continuer à les recevoir ?"</string>
     <string name="cmas_opt_out_button_yes">Oui</string>
     <string name="cmas_opt_out_button_no">Non</string>
-    <string name="alert_sound_duration_title">"Durée de l'alarme"</string>
 </resources>

@@ -37,8 +37,8 @@
         <item quantity="one">%d photo</item>
     </plurals>
     <plurals name="album_count_and_size">
-        <item quantity="other">%1$d éléments |%2$s</item>
-        <item quantity="one">%1$d élément |%2$s</item>
+        <item quantity="other">%1$d éléments | %2$s</item>
+        <item quantity="one">%1$d élément | %2$s</item>
     </plurals>
     <plurals name="album_item_msg_format">
         <item quantity="other">(%d éléments)</item>
@@ -57,7 +57,7 @@
         <item quantity="one">Reprendre la sauvegarde dans %d heure</item>
     </plurals>
     <plurals name="backup_pause_desc">
-        <item quantity="other">%d photos ou vidéos | En pause</item>
+        <item quantity="other">%d photo ou vidéo | En pause</item>
         <item quantity="one">%d photo ou vidéo | En pause</item>
     </plurals>
     <plurals name="backuping_desc_gprs">
@@ -93,7 +93,7 @@
         <item quantity="one">Supprimer %d élément de cet album et de Mi Cloud ?</item>
     </plurals>
     <plurals name="delete_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Supprimer %d photos de tous les appareils et de Mi Cloud ?</item>
+        <item quantity="other">Supprimer ces %d photos de tous les appareils et de Mi Cloud ?</item>
         <item quantity="one">Supprimer cette photo de tous les appareils et de Mi Cloud ?</item>
     </plurals>
     <plurals name="delete_photo_from_local">
@@ -101,19 +101,19 @@
         <item quantity="one">Supprimer cette photo ?</item>
     </plurals>
     <plurals name="delete_photo_from_this_album_and_cloud_msg">
-        <item quantity="other">Supprimer %d photos de cet album et de Mi Cloud ?</item>
+        <item quantity="other">Supprimer ces %d photos de cet album et de Mi Cloud ?</item>
         <item quantity="one">Supprimer cette photo de cet album et de Mi Cloud ?</item>
     </plurals>
     <plurals name="delete_video_from_all_devices_and_cloud_msg">
-        <item quantity="other">Supprimer %d vidéos de tous les appareils et de Mi Cloud ?</item>
-        <item quantity="one">Supprimer cette vidéo de tous les appareils et de Mi Cloud ?</item>
+        <item quantity="other">Supprimer ces %d vidéos de tous les appareils et de Mi Cloud ?</item>
+        <item quantity="one">Supprimer cette Vidéo de tous les appareils et de Mi Cloud ?</item>
     </plurals>
     <plurals name="delete_video_from_local">
-        <item quantity="other">Supprimez %d vidéos ?</item>
+        <item quantity="other">Supprimez ces %d vidéos ?</item>
         <item quantity="one">Supprimez cette vidéo ?</item>
     </plurals>
     <plurals name="delete_video_from_this_album_and_cloud_msg">
-        <item quantity="other">Supprimer %d vidéos de cet album et de Mi Cloud ?</item>
+        <item quantity="other">Supprimer ces %d vidéos de cet album et de Mi Cloud ?</item>
         <item quantity="one">Supprimer cette vidéo de cet album et de Mi Cloud ?</item>
     </plurals>
     <plurals name="download_error">
@@ -125,8 +125,8 @@
         <item quantity="one">Impossible de télécharger %1$d fichier, vérifiez la connexion réseau puis réessayez</item>
     </plurals>
     <plurals name="face_count">
-        <item quantity="other">%d photos au total</item>
-        <item quantity="one">%d photo au total</item>
+        <item quantity="other">Total : %d photos</item>
+        <item quantity="one">Total : %d photo</item>
     </plurals>
     <plurals name="fail_reason_processing_file">
         <item quantity="other">Traitement des photos…</item>
@@ -173,20 +173,20 @@
         <item quantity="one">1 vidéo en attente de sauvegarde</item>
     </plurals>
     <plurals name="picker_all_image_need_download">
-        <item quantity="other">"Les photos sélectionnées ne se trouvent pas sur l'appareil, les télécharger en utilisant les données mobiles ?"</item>
-        <item quantity="one">"La photo sélectionnée ne se trouve pas sur l'appareil, la télécharger en utilisant les données mobiles ?"</item>
+        <item quantity="other">"Les photos sélectionnées ne se trouvent pas sur l'appareil. Voulez-vous les télécharger en utilisant vos données mobiles ?"</item>
+        <item quantity="one">"La photo sélectionnée ne se trouve pas sur l'appareil. Voulez-vous la télécharger en utilisant vos données mobiles ?"</item>
     </plurals>
     <plurals name="picker_all_image_will_download">
         <item quantity="other">"Les photos sélectionnées ne se trouvent pas sur l'appareil. Elle seront téléchargées."</item>
         <item quantity="one">"La photo sélectionnée ne se trouve pas sur l'appareil. Elle sera téléchargée."</item>
     </plurals>
     <plurals name="picker_all_origin_need_download">
-        <item quantity="other">"Les photos sélectionnées (%d Mo) ne se trouvent pas sur l'appareil. Voulez-vous les télécharger en utilisant vos données mobiles ?"</item>
-        <item quantity="one">"La photo sélectionnée (%d Mo) ne se trouve pas sur l'appareil. Voulez-vous la télécharger en utilisant vos données mobiles ?"</item>
+        <item quantity="other">"Les photos sélectionnées (%d Mo). ne se trouvent pas sur l'appareil. Voulez-vous les télécharger en utilisant vos données mobiles ?"</item>
+        <item quantity="one">"La photo sélectionnée (%d Mo). ne se trouve pas sur l'appareil. Voulez-vous la télécharger en utilisant vos données mobiles ?"</item>
     </plurals>
     <plurals name="picker_cancel_confirm_message">
         <item quantity="other">Annuler le téléchargement des %d photos restantes ?</item>
-        <item quantity="one">Annuler le téléchargement de la dernière photo ?</item>
+        <item quantity="one">Annuler le téléchargement de la photo restante ?</item>
     </plurals>
     <plurals name="picker_no_network_retry_image_confirm_message">
         <item quantity="other">Impossible de télécharger les %1$d photos, veuillez vous connecter au réseau puis réessayez</item>
@@ -205,16 +205,16 @@
         <item quantity="one">Impossible de télécharger la photo (%2$d Mo), réessayer ?</item>
     </plurals>
     <plurals name="picker_skip_unavailable_images">
-        <item quantity="other">"a ignoré %d photos ne se trouvant pas sur l'appareil."</item>
-        <item quantity="one">"a ignoré une photo ne se trouvant pas sur l'appareil."</item>
+        <item quantity="other">"%d photos ne se trouvant pas sur l'appareil ont été ignorées."</item>
+        <item quantity="one">"Une photo ne se trouvant pas sur l'appareil a été ignorée."</item>
     </plurals>
     <plurals name="quickly_discovery_message_format">
         <item quantity="other">%1$d photos trouvées</item>
         <item quantity="one">Une nouvelle photo trouvée</item>
     </plurals>
     <plurals name="remind_face_recommend_confirm_text">
-        <item quantity="other">%d photos au total</item>
-        <item quantity="one">%d photo au total</item>
+        <item quantity="other">Total : %d photos</item>
+        <item quantity="one">Total : %d photo</item>
     </plurals>
     <plurals name="remove_from_secret_failed_with_reason_and_count">
         <item quantity="other">"%2$d éléments ne peuvent être retirés de l'album masqué. %1$s."</item>

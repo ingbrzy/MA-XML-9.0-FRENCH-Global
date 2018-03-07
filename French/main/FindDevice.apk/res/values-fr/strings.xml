@@ -22,6 +22,7 @@
     <string name="find_device_noise_title">"Alarme de localisation de l'appareil"</string>
     <string name="find_device_success_title">"Localiser l'appareil"</string>
     <string name="find_device_notice_p1">Rendez-vous sur</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"pour localiser, verrouiller, ou restaurer votre téléphone.
 Si vous changez de carte SIM, un autre SMS sera envoyé automatiquement pour réactiver ce service."</string>
     <string name="i_know">OK</string>
@@ -38,6 +39,7 @@ Si vous changez de carte SIM, un autre SMS sera envoyé automatiquement pour ré
     <string name="unlock_error_rpc">Erreur du RPC</string>
     <string name="unlock_error_abort">"Annulé par l'utilisateur"</string>
     <string name="unlock_error_passport_sdk_timeout">"L'application Compte Mi ne répond pas"</string>
+    <string name="open_wifi_settings">Ouvrir les paramètres Wi-Fi</string>
     <string name="activate_xiaomi_account">Activer cet appareil</string>
     <string name="login_extra_steps">Vérification</string>
     <string name="phone_locked">Cet appareil est associé à un compte Mi existant (%s). Connectez-vous pour activer cet appareil.</string>

@@ -5,6 +5,12 @@
     <string name="unlockscreen_recharge_completed">Batterie chargée</string>
     <string name="unlockscreen_low_battery">Branchez le chargeur</string>
     <string name="lockscreen_charging_msg">En charge</string>
+    <string name="reset_device_tip">Charge lentement, veuillez repositionner le téléphone</string>
+    <string name="reset_device_detail_tip">Chargement sans fil, veuillez aligner la base du téléphone, pour assurer la vitesse de chargement.</string>
+    <string name="wireless_charge_stop">"Le chargement sans fil s'est arrêté"</string>
+    <string name="change_to_ac_charging">A basculé en charge sans fil</string>
+    <string name="wireless_charge_dialog_title">Mal positionné, veuillez repositionner</string>
+    <string name="wireless_charge_dialog_cancel">Annuler</string>
     <string name="emergency_call_string">"Appel d'urgence"</string>
     <string name="forget_password_string">Mot de passe oublié ?</string>
     <string name="input_puk_code">Saisir le code PUK</string>
@@ -47,6 +53,7 @@
     <string name="fingerprint_try_again_msg">"Impossible de vérifier l'empreinte digitale, veuillez réessayer."</string>
     <string name="fingerprint_not_identified_title">Entrez le mot de passe</string>
     <string name="fingerprint_not_identified_msg">"Trop de tentatives infructueuses. Saisissez le mot de passe maintenant ou essayez d'utiliser votre empreinte digitale dans quelques secondes."</string>
+    <string name="fingerprint_not_identified_msg_lock">Trop de tentatives infructueuses. Saisissez le mot de passe maintenant.</string>
     <string name="fingerprint_again_identified_msg">"Votre empreinte digitale est maintenant active. Utilisez-la pour déverrouiller l'appareil ou entrez votre mot de passe."</string>
     <string name="fingerprint_add_title">Ajouter une empreinte digitale</string>
     <string name="fingerprint_add_text">"L'interface d'empreinte digitale a été mise à jour. Ajoutez de nouveau votre empreinte digitale."</string>
@@ -64,13 +71,10 @@
     <string name="lock_wallpaper_enter">Saisir</string>
     <string name="custom_lock_wallpaper_enter">Saisir</string>
     <string name="fingerprint_enter_second_psw_title">Saisir le mot de passe du Second espace</string>
-    <string name="fingerprint_enter_second_psw_msg">"Entrez le mot de passe du Second espace après avoir redémarrer l'appareil afin de pouvoir utiliser le lecteur d'empreinte digitale"</string>
+    <string name="fingerprint_enter_second_psw_msg">"Saisissez le mot de passe du second espace afin d'utiliser la reconnaissance d'empreinte digitale"</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">"Impossible d'entrer dans le Second espace lorsque vous êtes en Mode simplifié"</string>
     <string name="keyguard_charging_info_click_to_detail">Afficher les détails</string>
     <string name="keyguard_quick_charging_info_click_to_detail">Chargement rapide. Appuyer pour afficher les détails.</string>
-    <string name="keyguard_quickly_charging_info_charging_text">Chargement rapide…</string>
-    <string name="keyguard_charging_info_finished_charging_text">Complètement chargée</string>
-    <string name="keyguard_charging_info_charging_text">En charge</string>
     <string name="keyguard_charging_info_last_charge_today_time">"Aujourd'hui %s"</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">Hier %s</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
@@ -91,13 +95,17 @@
     <string name="face_data_introduction_title">Reconnaissance faciale</string>
     <string name="face_data_introduction_msg">"Les données de visage peuvent être utilisées pour déverrouiller votre appareil ou vérifier votre identité. Ajoutez le mot de passe de l'écran de verrouillage avant d'ajouter des données de visage."</string>
     <string name="face_data_introduction_next">Suivant</string>
-    <string name="face_data_suggesstion_first">"Déverrouillé votre appareil en utilisant vos données de visage est moins sécurisé qu'utiliser un mot de passe de l'écran de verrouillage. Votre appareil pourrait être déverrouillé par des personnes qui vous ressemblent."</string>
+    <string name="face_data_siggesstion_next">Suivant</string>
+    <string name="face_data_siggesstion_next_time">Suivant (%d sec)</string>
+    <string name="face_data_suggesstion_first">"Problèmes de sécurité : le déverrouillage facial est moins sécurisé qu'un code PIN, un mot de passe ou un schéma. Votre appareil pourrait être déverrouillé avec votre photo, aussi bien par des personnes ou objets avec une apparence similaire."</string>
     <string name="face_data_suggesstion_second">"Assurez-vous que toutes les parties de votre visage ne sont pas couvertes d'objets et sont clairement visibles. Votre visage devrait être bien éclairé également."</string>
     <string name="face_data_input_camera_fail">"Impossible de lancer l'appareil photo"</string>
     <string name="face_data_input_camera_ok">"Chargement de l'appareil photo…"</string>
     <string name="face_data_input_msg">Placez votre visage dans le cadre</string>
     <string name="face_data_input_ok_title">Ajouté avec succès</string>
     <string name="face_data_input_ok_msg">"Activez l'écran pour verrouiller l'appareil en utilisant vos données de visage."</string>
+    <string name="face_data_input_ok_msg_angle">"Déverrouillez l'appareil avec votre visage lorsque l'écran est allumé.
+(Enregistrez les données de votre visage incluant tous les angles requis.)"</string>
     <string name="face_data_input_cancel">Annuler</string>
     <string name="face_data_input_cancel_msg">"Impossible d'ajouter les données de visage"</string>
     <string name="face_data_input_ok">Terminé</string>
@@ -134,5 +142,11 @@
     <string name="face_unlock_rise">Baissez votre tête</string>
     <string name="face_unlock_down">Levez votre tête</string>
     <string name="face_unlock_quality">Impossible de voir votre visage correctement</string>
-    <string name="lock_screen_no_sim_card">No SIM card</string>
+    <string name="lock_screen_no_sim_card">Pas de carte SIM</string>
+    <string name="do_disclosure_generic">Cet appareil est géré par votre organisation</string>
+    <string name="do_disclosure_with_name">Cet appareil est géré par %s</string>
+    <string name="face_unlock_reenter_title">Enregistrer les données de votre visage à nouveau.</string>
+    <string name="face_unlock_reenter_content">"L'algorithme du déverrouillage facial est en cours de mise à jour. Appuyez pour enregistrer les données de visage une fois de plus."</string>
+    <string name="digital_clock_dot">:</string>
+    <string name="keyguard_left_view_lock_wallpaper">"Fond d'écran Carrousel"</string>
 </resources>

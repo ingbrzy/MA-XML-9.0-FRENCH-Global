@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="phone_in_ecm_notification_time">
-        <item quantity="other">Pas de connexion de données pendant %s minutes</item>
-        <item quantity="one">Pas de connexion de données pendant %s minute</item>
-    </plurals>
     <plurals name="alert_dialog_exit_ecm">
         <item quantity="other">"L'appareil va passer en mode appel d'urgence pendant %s minutes. Pendant ce mode aucune connexion au réseau de données ne sera possible. Voulez vous quittez maintenant?"</item>
         <item quantity="one">"L'appareil va passer en mode appel d'urgence pendant %s minute. Pendant ce mode aucune connexion au réseau de données ne sera possible. Voulez vous quittez maintenant?"</item>
@@ -33,5 +29,9 @@
 %d tentatives restantes."</item>
         <item quantity="one">"
 %d tentative restante."</item>
+    </plurals>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Pas de connexion de données pendant %s minutes</item>
+        <item quantity="one">Pas de connexion de données pendant %s minute</item>
     </plurals>
 </resources>

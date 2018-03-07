@@ -6,6 +6,9 @@ Taille : %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Version %1$s
 Taille de la mise à jour : %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Stockage indisponible, vérifiez votre carte SD.</string>
+    <string name="xiaomi_bytes_unit">%1$s o</string>
+    <string name="xiaomi_kilobytes_unit">%1$s ko</string>
+    <string name="xiaomi_megabytes_unit">%1$s Mo</string>
     <string name="xiaomi_connect_download_manager_fail">Impossible de démarrer le téléchargement. Vérifier que le gestionnaire de téléchargements fonctionne normalement.</string>
     <string name="app_name">Sauvegarde</string>
     <string name="local_app_name">Sauvegarde</string>
@@ -225,6 +228,7 @@ Taille de la mise à jour : %2$s"</string>
     <string name="restore_backup">Restaurer</string>
     <string name="enable_encrypt_description">Chiffrer</string>
     <string name="disable_encrypt_description">Ne pas chiffrer</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Un instant…</string>
     <string name="state_mounting">Accès au stockage du routeur…</string>
     <string name="abort_backup_confirm">"La sauvegarde n'est pas terminée. Arrêter quand même ?"</string>
@@ -246,6 +250,7 @@ Taille de la mise à jour : %2$s"</string>
     <string name="err_filesystem_mount">"Impossible d'accéder au stockage du routeur"</string>
     <string name="err_router_disconnected">Vérifiez la connexion de votre routeur et essayez à nouveau.</string>
     <string name="err_router_files_delete">Impossible de supprimer les fichiers de sauvegarde sur le routeur</string>
+    <string name="err_not_allow">Non pris en charge</string>
     <string name="backup_is_running">"Sauvegarde de l'appareil"</string>
     <string name="restore_is_running">"Restauration de l'appareil"</string>
     <string name="notif_backup_title">Sauvegarder les données</string>
@@ -445,7 +450,7 @@ https://appleid.apple.com/#!&amp;page=signin pour désactiver"</string>
     <string name="user_name">Identifiant Apple ou e-mail</string>
     <string name="password">Mot de passe</string>
     <string name="user_name_null">"Le champ du nom d'utilisateur ne peut être vide"</string>
-    <string name="password_null">Le champ mot de passe ne peut être vide</string>
+    <string name="password_null">Le champ de mot de passe ne peut être vide</string>
     <string name="name_password_not_consistent">"Le nom d'utilisateur ou le mot de passe est incorrect"</string>
     <string name="view_password_description">Afficher le mot de passe</string>
     <string name="hide_password_description">Masquer le mot de passe</string>
@@ -463,18 +468,18 @@ https://appleid.apple.com/#!&amp;page=signin pour désactiver"</string>
     <string name="notif_icloud_saved_summary">Importé avec succès</string>
     <string name="notif_icloud_need_wifi_summary">En attente du Wi-Fi</string>
     <string name="hsa_title">Authentification à 2 facteurs</string>
-    <string name="hsa_input_tip">Votre identifiant iCloud utilise une authentification à 2 facteurs. Veuillez entrer le code de vérification.</string>
-    <string name="hsa_input_hint">Entrez le code de vérification</string>
+    <string name="hsa_input_tip">Votre identifiant iCloud utilise une authentification à 2 facteurs. Veuillez saisir le code de vérification.</string>
+    <string name="hsa_input_hint">Saisissez le code de vérification</string>
     <string name="hsa_code_null">Le champ du code de vérification ne peut être vide</string>
     <string name="hsa_send_again">Renvoyer</string>
     <string name="hsa_send_again_countdown">Renvoyer (%d sec)</string>
     <string name="hsa_sending">Envoi…</string>
     <string name="hsa_send_failed">"Impossible de désactiver Localiser l'appareil. Patientez une minute ou deux et réessayez."</string>
     <string name="hsa_tip_title">Astuces :</string>
-    <string name="hsa_tip_message">"1. Un message avec le code de vérification a été envoyé à l'appareil associé à votre identifiant Apple.
+    <string name="hsa_tip_message">"1. Un message avec le code de vérification a été envoyé à l'appareil associé à votre ID Apple.
 
 2. Désactivez l'authentification à 2 facteurs si le code de vérification ne fonctionne pas."</string>
-    <string name="hsa_tip_message_with_device">"1. Un message avec le code de vérification a été envoyé à \"%s\" associé à votre identifiant Apple.
+    <string name="hsa_tip_message_with_device">"1. Un message avec le code de vérification a été envoyé à \"%s\" associé à votre ID Apple.
 
 2. Désactivez l'authentification à 2 facteurs si le code de vérification ne fonctionne pas."</string>
     <string name="hsa_tip_message_shutdown_hsa">"Comment désactiver l'authentification à 2 facteurs ?"</string>
@@ -488,6 +493,7 @@ https://appleid.apple.com/#!&amp;page=signin pour désactiver"</string>
 ous devez d'abord créer une sauvegarde iCloud."</string>
     <string name="list_footer_tip_title">Astuces :</string>
     <string name="import_tip_summary">En raison des problèmes de compatibilité, vous pouvez seulement transférer partiellement les données depuis vos appareil iOS. Assurez-vous de créer une sauvegarde iCloud avant de commencer le transfert.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importer</string>
     <string name="select_empty">Sélectionner les éléments à importer</string>
     <string name="select_item_summary_wait">En attente…</string>
@@ -503,7 +509,7 @@ ous devez d'abord créer une sauvegarde iCloud."</string>
     <string name="saving_data">"Importation des données depuis iCloud…
 Veuillez ne pas désactiver le Wi-Fi"</string>
     <string name="saving_data_no_time">Restauration des données…</string>
-    <string name="saving_data_space_low">"Pas assez d'espace libre.
+    <string name="saving_data_space_low">"Espace insuffisant.
  Libérez au moins %s."</string>
     <string name="save_finish_with_failing_items">"Le transfert a été interrompu.
 Les données qui n'ont pas été importées doivent être importées encore."</string>
@@ -515,7 +521,7 @@ Les données qui n'ont pas été importées doivent être importées encore."</s
     <string name="notif_connect_miasist">Connecté à Mi PC Suite</string>
     <string name="notif_disconnect_miasist">Pas connecté à Mi PC Suite</string>
     <string name="notif_sending_transingsd">Envoi de %1$s (%2$s)…</string>
-    <string name="notif_receiving_transingsd">Réception de %1$s(%2$s)…</string>
+    <string name="notif_receiving_transingsd">Réception de %1$s (%2$s)…</string>
     <string name="notif_calculating_app">Calcul de %1$s (%2$s)…</string>
     <string name="notif_parse_select_descript_error">Impossible de synchroniser la liste des éléments sauvegardés.</string>
     <string name="alert_miasist_occupy_backup">"Sauvegarde des éléments grâce à Mi PC Suite… Patientez jusqu'à la fin de la sauvegarde et réessayez."</string>

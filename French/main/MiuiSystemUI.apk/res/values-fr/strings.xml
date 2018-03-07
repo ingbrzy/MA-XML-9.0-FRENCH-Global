@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Aucune</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -20,12 +22,15 @@
     <string name="wifi_remembered">Sauvegardé</string>
     <string name="wifi_disabled_generic">Désactivé</string>
     <string name="wifi_disabled_network_failure">Configuration IP impossible</string>
+    <string name="wifi_disabled_by_recommendation_provider">Non connecté en raison de la faible qualité du réseau</string>
     <string name="wifi_disabled_wifi_failure">Impossible de se connecter au Wi-Fi</string>
     <string name="wifi_disabled_password_failure">"Problème d'authentification"</string>
     <string name="wifi_not_in_range">Hors de portée</string>
+    <string name="wifi_no_internet_no_reconnect">Reconnexion automatique impossible</string>
     <string name="wifi_no_internet">"Pas d'accès Internet. Pas de reconnexion automatique."</string>
     <string name="saved_network">Sauvegarder par %1$s</string>
-    <string name="connected_via_wfa">"Connecté via l'assistant Wi‑Fi"</string>
+    <string name="connected_via_network_scorer">Connecté automatiquement via %1$s</string>
+    <string name="connected_via_network_scorer_default">"Connecté automatiquement via un fournisseur d'évaluation de l'état du réseau"</string>
     <string name="connected_via_passpoint">Connecté via %1$s</string>
     <string name="available_via_passpoint">Disponible via %1$s</string>
     <string name="wifi_connected_no_internet">"Connecté, pas d'Internet"</string>
@@ -49,6 +54,8 @@
     <string name="bluetooth_profile_map">Utilisé pour accéder aux messages</string>
     <string name="bluetooth_profile_sap">Utilisé pour accéder à la SIM</string>
     <string name="bluetooth_profile_dun">Utilisé pour accéder aux réseaux téléphoniques</string>
+    <string name="bluetooth_profile_a2dp_high_quality">Utiliser le codec audio haute qualité : %1$s</string>
+    <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">Utiliser un codec audio haute qualité</string>
     <string name="bluetooth_a2dp_profile_summary_connected">"Connecté à l'audio média"</string>
     <string name="bluetooth_headset_profile_summary_connected">"Connecté à l'audio du téléphone"</string>
     <string name="bluetooth_opp_profile_summary_connected">Connecté au serveur de transfert de fichiers</string>
@@ -156,18 +163,39 @@
     <string name="wifi_allow_scan_with_traffic">Toujours autoriser la recherche Wi-Fi</string>
     <string name="mobile_data_always_on">Données cellulaires toujours actives</string>
     <string name="bluetooth_disable_absolute_volume">Désactiver le volume absolu</string>
+    <string name="bluetooth_enable_inband_ringing">Activer la signalisation intra-bande</string>
+    <string name="bluetooth_select_avrcp_version_string">Version Bluetooth AVRCP</string>
+    <string name="bluetooth_select_avrcp_version_dialog_title">Sélectionner la version Bluetooth AVRCP</string>
+    <string name="bluetooth_select_a2dp_codec_type">Codec audio Bluetooth</string>
+    <string name="bluetooth_select_a2dp_codec_type_dialog_title">Sélectionner le codec audio Bluetooth</string>
+    <string name="bluetooth_select_a2dp_codec_sample_rate">"Taux d'échantillonnage audio Bluetooth"</string>
+    <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">"Sélectionner le codec audio Bluetooth :
+Taux d'échantillonnage"</string>
+    <string name="bluetooth_select_a2dp_codec_bits_per_sample">"Nombre de bits par échantillon pour l'audio Bluetooth"</string>
+    <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">"Sélectionner le codec audio Bluetooth :
+Bits par échantillon"</string>
+    <string name="bluetooth_select_a2dp_codec_channel_mode">"Mode de chaîne de l'audio Bluetooth"</string>
+    <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">"Sélectionner le codec audio Bluetooth :
+Mode de chaîne"</string>
+    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality">Codec audio Bluetooth LDAC : qualité de lecture</string>
+    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">"Sélectionner le codec audio Bluetooth LDAC :
+Qualité de lecture"</string>
+    <string name="bluetooth_select_a2dp_codec_streaming_label">Diffusion : %1$s</string>
     <string name="wifi_display_certification_summary">"Afficher les options pour la certification de l'affichage sans fil"</string>
     <string name="wifi_verbose_logging_summary">Augmentez le niveau de la connexion Wi‑Fi, affichez les RSSI pour chaque SSID dans la liste des réseaux Wi‑Fi.</string>
     <string name="wifi_aggressive_handover_summary">Une fois activée, la connexion basculera vers les données mobiles plus activement, lorsque le signal du Wi-Fi est faible.</string>
     <string name="wifi_allow_scan_with_traffic_summary">"Autoriser ou interdire les recherches de Wi‑Fi basées sur le volume du trafic de données présent à l'interface."</string>
     <string name="select_logd_size_title">Tailles des tampons journaux</string>
     <string name="select_logd_size_dialog_title">Sélectionner la taille des mémoires tampons des journaux</string>
+    <string name="dev_logpersist_clear_warning_title">"Effacer l'espace de stockage persistant de l'enregistreur ?"</string>
+    <string name="dev_logpersist_clear_warning_message">"Lorsque nous n'effectuons plus de suivi avec l'enregistreur persistant, nous sommes tenus d'effacer les données associées à ce dernier qui sont stockées sur votre appareil."</string>
+    <string name="select_logpersist_title">Stocker données enregistreur en permanence sur appareil</string>
+    <string name="select_logpersist_dialog_title">"Sélectionner les mémoires tampon journal à stocker en permanence sur l'appareil"</string>
     <string name="select_usb_configuration_title">Sélectionner la configuration USB</string>
     <string name="select_usb_configuration_dialog_title">Sélectionner la configuration USB</string>
     <string name="allow_mock_location">Autoriser les simulations de localisations</string>
     <string name="allow_mock_location_summary">Autoriser les simulations de localisations</string>
     <string name="debug_view_attributes">"Activer l'affichage des attributs"</string>
-    <string name="legacy_dhcp_client_summary">"Utiliser un client DHCP de Lollipop plutôt qu'un nouveau client DHCP Android."</string>
     <string name="mobile_data_always_on_summary">Toujours garder les données mobiles actives, même lorsque le Wi‑Fi est actif (pour un changement rapide de réseau).</string>
     <string name="adb_warning_title">Autoriser le débogage USB ?</string>
     <string name="adb_warning_message">Le débogage USB est uniquement destiné à des fins de développement. Utilisez-le pour copier des données entre votre ordinateur et votre appareil, installer des applications sur votre appareil sans notification et lire les données de journal.</string>
@@ -177,6 +205,7 @@
     <string name="verify_apps_over_usb_title">Vérifier les applications via USB</string>
     <string name="verify_apps_over_usb_summary">Vérifier les applications installées via ADB/ADT pour un comportement dangereux.</string>
     <string name="bluetooth_disable_absolute_volume_summary">Désactivez tout le volume du Bluetooth en cas de problème de volume avec des périphériques distants, par exemple un volume inacceptable ou une incapacité à le contrôler.</string>
+    <string name="bluetooth_enable_inband_ringing_summary">Autoriser la lecture des sonneries du téléphone sur les casques Bluetooth</string>
     <string name="enable_terminal_title">Terminal local</string>
     <string name="enable_terminal_summary">"Activer l'application du terminal qui offre l'accès au shell local"</string>
     <string name="hdcp_checking_title">Vérification HDCP</string>
@@ -189,6 +218,8 @@
     <string name="no_application">Aucune</string>
     <string name="wait_for_debugger">Attendre le débogage</string>
     <string name="wait_for_debugger_summary">"Application déboguéeen attente d'un débogueur pour joindre avant l'exécution"</string>
+    <string name="telephony_monitor_switch">Telephony Monitor</string>
+    <string name="telephony_monitor_switch_summary">"Telephony Monitor recueille des journaux lorsqu'il détecte un problème lié à la fonctionnalité de téléphonie ou de modem, puis invite l'utilisateur à créer un bug"</string>
     <string name="debug_input_category">Méthode de saisie</string>
     <string name="debug_drawing_category">Dessin</string>
     <string name="debug_hw_drawing_category">Rendu matériel accéléré</string>
@@ -207,6 +238,7 @@
     <string name="show_hw_layers_updates">Afficher les mises à jour du niveau matériel</string>
     <string name="show_hw_layers_updates_summary">Les éléments matériels en cours de mise à jour clignotent en vert</string>
     <string name="debug_hw_overdraw">Déboguer la superposition GPU</string>
+    <string name="debug_hw_renderer">Définir moteur rendu processeur graphique</string>
     <string name="disable_overlays">Désactiver les superpostions HW</string>
     <string name="disable_overlays_summary">"Toujours utiliser le GPU pour le rendu d'écran"</string>
     <string name="simulate_color_space">Simuler un espace de couleur</string>
@@ -217,8 +249,6 @@
     <string name="debug_layout_summary">Afficher les limites de clip, marges, etc.</string>
     <string name="force_rtl_layout_all_locales">Forcer la direction de la disposition RTL</string>
     <string name="force_rtl_layout_all_locales_summary">"Forcer la direction de la disposition de l'écran à RTL pour tous les paramètres locaux"</string>
-    <string name="show_cpu_usage">"Affichage de l'utilisation du CPU"</string>
-    <string name="show_cpu_usage_summary">"Afficher l'utilisation du CPU en utilisant la superposition d'écran"</string>
     <string name="force_hw_ui">Forcer le rendu GPU</string>
     <string name="force_hw_ui_summary">"Forcer l'utilisation du GPU pour les dessins 2D"</string>
     <string name="force_msaa">Forcer 4x MSAA</string>
@@ -235,6 +265,8 @@
     <string name="app_process_limit_title">Limite du processus en arrière-plan</string>
     <string name="show_all_anrs">Afficher toutes les ANR</string>
     <string name="show_all_anrs_summary">"Afficher le dialogue \" L'application ne répond pas \" pour les applications en arrière-plan"</string>
+    <string name="show_notification_channel_warnings">Voir avertissements liés aux canaux notification</string>
+    <string name="show_notification_channel_warnings_summary">"Affiche avertissement lorsqu'une application publie notification sans canal valide"</string>
     <string name="force_allow_on_external">"Force permet aux applications d'écrire sur le stockage externe"</string>
     <string name="force_allow_on_external_summary">"Autoriser toute application susceptible d'être écrite dans un stockage externe, indépendamment des valeurs manifestes"</string>
     <string name="force_resizable_activities">Forcer les activités à être redimensionnables</string>
@@ -252,8 +284,6 @@
     <string name="inactive_app_active_summary">Active. Appuyer pour basculer.</string>
     <string name="runningservices_settings_title">"Services en cours d'exécution"</string>
     <string name="runningservices_settings_summary">Voir et contrôler les services actuellement en exécution</string>
-    <string name="enable_webview_multiprocess">Affichage Web de processus multiples</string>
-    <string name="enable_webview_multiprocess_desc">"Lancer les convertisseurs d'affichages Web séparément"</string>
     <string name="select_webview_provider_title">"Implémentation d'affichage Web"</string>
     <string name="select_webview_provider_dialog_title">"Configurer l'implémentation de l'affichage Web"</string>
     <string name="select_webview_provider_toast_text">"Ce choix n'est plus valide. Réessayer."</string>
@@ -277,21 +307,21 @@
     <string name="accessibility_display_daltonizer_preference_subtitle">Cette fonctionnalité est expérimentale et peut affecter les performances.</string>
     <string name="daltonizer_type_overridden">Remplacé par %1$s</string>
     <string name="power_remaining_duration_only">Approx. %1$s left</string>
+    <string name="power_remaining_charging_duration_only">%1$s avant charge complète</string>
     <string name="power_remaining_duration_only_short">%1$s left</string>
     <string name="battery_info_status_unknown">Inconnu</string>
     <string name="battery_info_status_charging">En charge</string>
-    <string name="battery_info_status_charging_ac">En charge via CA</string>
-    <string name="battery_info_status_charging_ac_short">En charge</string>
-    <string name="battery_info_status_charging_usb">En charge via USB</string>
-    <string name="battery_info_status_charging_usb_short">En charge</string>
-    <string name="battery_info_status_charging_wireless">Chargement sans fil</string>
-    <string name="battery_info_status_charging_wireless_short">En charge</string>
+    <string name="battery_info_status_charging_lower">chargement…</string>
     <string name="battery_info_status_discharging">Pas en charge</string>
     <string name="battery_info_status_not_charging">Pas en charge</string>
     <string name="battery_info_status_full">Pleine</string>
     <string name="disabled_by_admin_summary_text">"Contrôlé par l'admin"</string>
     <string name="enabled_by_admin">"Activé par l'administrateur"</string>
     <string name="disabled_by_admin">"Désactivé par l'administrateur"</string>
+    <string name="disabled">Désactivée</string>
+    <string name="external_source_trusted">Autorisé</string>
+    <string name="external_source_untrusted">Non autorisé</string>
+    <string name="install_other_apps">"Installation d'applications inconnues"</string>
     <string name="home">Page principale des Paramètres</string>
     <string name="charge_length_format">%1$s ago</string>
     <string name="remaining_length_format">%1$s left</string>
@@ -302,6 +332,16 @@
     <string name="screen_zoom_summary_extremely_large">Plus grand</string>
     <string name="screen_zoom_summary_custom">Personnaliser (%d)</string>
     <string name="help_feedback_label">Aide &amp; commentaires</string>
+    <string name="content_description_menu_button">Menu</string>
+    <string name="time_zone_gmt">GMT</string>
+    <string name="retail_demo_reset_message">"Saisir mot de passe pour rétablir conf. d'usine en mode démo."</string>
+    <string name="retail_demo_reset_next">Suivant</string>
+    <string name="retail_demo_reset_title">Veuillez saisir le mot de passe</string>
+    <string name="active_input_method_subtypes">Modes de saisie actifs</string>
+    <string name="use_system_language_to_select_input_method_subtypes">Utiliser les langues du système</string>
+    <string name="failed_to_open_app_settings_toast">"Échec de l'ouverture des paramètres de l'application %1$s."</string>
+    <string name="ime_security_warning">"Ce mode de saisie est susceptible d'enregistrer le texte que vous saisissez, y compris vos données personnelles, telles que les mots de passe et les numéros de carte de paiement. Il provient de l'application %1$s. Voulez-vous vraiment l'activer ?"</string>
+    <string name="direct_boot_unaware_dialog_message">"Remarque : Après un redémarrage, vous ne pouvez pas lancer cette application tant que vous n'avez pas déverrouillé votre téléphone."</string>
     <string name="app_label">Système IU</string>
     <string name="status_bar_no_recent_apps">Aucune application récente</string>
     <string name="recent_task_lock_text">Verrouiller</string>
@@ -324,7 +364,7 @@ Utilisez uniquement le chargeur fourni."</string>
     <string name="always_use_device">Utiliser par défaut pour cet appareil USB</string>
     <string name="always_use_accessory">Utiliser par défaut pour cet accessoire USB</string>
     <string name="usb_debugging_title">Autoriser le débogage USB ?</string>
-    <string name="usb_debugging_message">"L'empreinte digitale de la clé RSA de cet ordinateur est:
+    <string name="usb_debugging_message">"L'empreinte digitale de la clé RSA de cet ordinateur est :
 %1$s"</string>
     <string name="usb_debugging_always">Toujours autoriser depuis cet ordinateur</string>
     <string name="screenshot_saving_ticker">"Enregistrement de la capture d'écran…"</string>
@@ -360,7 +400,7 @@ Utilisez uniquement le chargeur fourni."</string>
     <string name="accessibility_wimax_signal_full">Signal WiMAX maximal.</string>
     <string name="accessibility_data_connection_gprs">GPRS</string>
     <string name="accessibility_data_connection_3g">3G</string>
-    <string name="accessibility_data_connection_3.5g">H</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
     <string name="accessibility_data_connection_4g">4G</string>
     <string name="accessibility_data_connection_cdma">CDMA</string>
     <string name="accessibility_data_connection_edge">Edge</string>
@@ -378,7 +418,7 @@ Utilisez uniquement le chargeur fourni."</string>
     <string name="data_usage_disabled_dialog">"Vous avez atteint votre limite d'utilisation des données spécifiée.
 
 Si vous réactivez les données, vous pouvez être facturé par l'opérateur."</string>
-    <string name="data_usage_disabled_dialog_enable">Réactiver les donnée</string>
+    <string name="data_usage_disabled_dialog_enable">Réactiver les données</string>
     <string name="status_bar_settings_signal_meter_disconnected">Aucune connexion Internet</string>
     <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi connecté</string>
     <string name="gps_notification_searching_text">Recherche de GPS...</string>
@@ -386,8 +426,8 @@ Si vous réactivez les données, vous pouvez être facturé par l'opérateur."</
     <string name="accessibility_clear_all">Effacer toutes les notifications.</string>
     <string name="status_bar_notification_inspect_item_title">"Informations sur l'application"</string>
     <string name="screen_pinning_title">"L'écran est épinglé"</string>
-    <string name="screen_pinning_description">"Cela le garde en vue jusqu'à ce que vous le décocher. Appuyer et maintenir les boutons d'Accueil et d' Alimentation simultanément pour décocher."</string>
-    <string name="screen_pinning_description_accessible">"Cela le garde en vue jusqu'à ce que vous le décocher. Appuyer et maintenir les boutons d'Accueil et d' Alimentation simultanément pour décocher."</string>
+    <string name="screen_pinning_description">"Cela le garde en vue jusqu'à ce que vous le détachiez. Appuyer et maintenir les boutons d'accueil et d'alimentation simultanément pour détacher."</string>
+    <string name="screen_pinning_description_accessible">"Cela le garde en vue jusqu'à ce que vous le détachiez. Appuyer et maintenir les boutons d'accueil et d' alimentation simultanément pour détacher."</string>
     <string name="screen_pinning_positive">"C'est compris"</string>
     <string name="screen_pinning_negative">Non merci</string>
     <string name="accessibility_managed_profile">Profil de travail</string>
@@ -411,8 +451,8 @@ Si vous réactivez les données, vous pouvez être facturé par l'opérateur."</
     <string name="recents_empty_message">Aucun élément récent</string>
     <string name="recents_empty_message_dismissed_all">Vous avez supprimé tous les éléments</string>
     <string name="recents_empty_message_multi_window">"Ouvrez les applications depuis l'écran d'accueil"</string>
-    <string name="recents_app_info_button_label">"Infos de l'application"</string>
-    <string name="recents_lock_to_app_button_label">"Fixer l'écran"</string>
+    <string name="recents_app_info_button_label">"Informations sur l'application"</string>
+    <string name="recents_lock_to_app_button_label">"Épingler l'écran"</string>
     <string name="recents_search_bar_label">Rechercher</string>
     <string name="recents_launch_error_message">Impossible de lancer %s</string>
     <string name="recents_launch_disabled_message">%s ne peut être lancé en mode Sécurisé</string>
@@ -462,7 +502,7 @@ Si vous réactivez les données, vous pouvez être facturé par l'opérateur."</
     <string name="keyboard_key_move_home">Accueil</string>
     <string name="keyboard_key_move_end">Fin</string>
     <string name="keyboard_key_insert">Insérer</string>
-    <string name="keyboard_key_num_lock">Verr. num</string>
+    <string name="keyboard_key_num_lock">Verr. num.</string>
     <string name="keyboard_key_numpad_template">Pavé numérique %1$s</string>
     <string name="keyboard_shortcut_group_system">Système</string>
     <string name="keyboard_shortcut_group_system_home">Accueil</string>
@@ -556,6 +596,8 @@ d MMMM"</string>
     <string name="status_bar_clock_date_format">EEEE d MMMM</string>
     <string name="status_bar_recent_memory_info1">%1$so sur %2$so disponibles</string>
     <string name="status_bar_recent_memory_info2" />
+    <string name="memory_clear_result_mega">%1$s Mo effacés</string>
+    <string name="memory_clear_result_giga">%1$s Go effacés</string>
     <string name="accessibility_recent_task_exit">Fermés récemments</string>
     <string name="accessibility_recent_task_memory_info">RAM totale : %2$s | RAM disponible : %1$s. Appuyer rapidement 2 fois pour vider.</string>
     <string name="accessibility_recent_task_locked">Verrouillé, balayer vers le bas pour déverrouiller.</string>
@@ -642,6 +684,7 @@ d MMMM"</string>
     <string name="ext_media_mountable_notification_title">Périphérique de stockage USB connecté</string>
     <string name="ext_media_mountable_notification_message">Appuyer pour ouvrir Gestionnaire de fichiers Mi.</string>
     <string name="ext_media_safe_remove">Retirer en toute sécurité</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">ko/s</string>
     <string name="megabyte_per_second">Mo/s</string>
     <string name="status_bar_network_flow_today">"Aujourd'hui : %1$s"</string>
@@ -708,7 +751,7 @@ d MMMM"</string>
     <string name="audio_effect_custom">Configurer</string>
     <string name="media_projection_dialog_text">"%s va commencer à capturer tout ce qui s'affiche sur votre écran."</string>
     <string name="media_projection_remember_text">Ne plus afficher</string>
-    <string name="media_projection_action_text">Commencer maintenant</string>
+    <string name="media_projection_action_text">Démarrer maintenant</string>
     <string name="vpn_title">VPN activé</string>
     <string name="vpn_title_long">Se connecter au VPN avec %s</string>
     <string name="vpn_text">Appuyez pour voir les paramètres.</string>
@@ -720,6 +763,7 @@ d MMMM"</string>
     <string name="notification_header_title">Notifications</string>
     <string name="weather_publish_time">Mis à jour à %1$s</string>
     <string name="no_weather_description">Obtenir les informations de la météo ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="accessibility_desc_notification_shade">Panneau de notification</string>
     <string name="accessibility_desc_quick_settings">Paramètres rapides</string>
     <string name="accessibility_desc_details_page">Page de détails de %1$s</string>
@@ -773,7 +817,7 @@ d MMMM"</string>
     <string name="unimportant_desc">Toutes les notifications sans importance apparaîtront dans un dossier séparé.</string>
     <string name="important_desc">Toutes les notifications importantes appaîtront sur le panneau de notification.</string>
     <string name="cancel">Annuler</string>
-    <string name="search_hint">Rechercher des sites Web, des applications, des contacts et des vidéos</string>
+    <string name="search_hint">Rechercher des sites Web, des applications, des contacts, des vidéos, ...</string>
     <string name="description_image_button_reject">Refuser</string>
     <string name="description_image_button_answer">Répondre</string>
     <string name="screenshot_feedback_txt">Commentaire</string>
@@ -804,4 +848,16 @@ d MMMM"</string>
     <string name="monitoring_description_do_learn_more">En savoir plus</string>
     <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_cert_settings">Ouvrir les certificats de confiance</string>
+    <string name="connected_via_wfa">"Connecté via l'assistant Wi‑Fi"</string>
+    <string name="legacy_dhcp_client_summary">"Utiliser un client DHCP de Lollipop plutôt qu'un nouveau client DHCP Android."</string>
+    <string name="show_cpu_usage">"Affichage de l'utilisation du CPU"</string>
+    <string name="show_cpu_usage_summary">"Afficher l'utilisation du CPU en utilisant la superposition d'écran"</string>
+    <string name="enable_webview_multiprocess">Affichage Web de processus multiples</string>
+    <string name="enable_webview_multiprocess_desc">"Lancer les convertisseurs d'affichages Web séparément"</string>
+    <string name="battery_info_status_charging_ac">En charge via CA</string>
+    <string name="battery_info_status_charging_ac_short">En charge</string>
+    <string name="battery_info_status_charging_usb">En charge via USB</string>
+    <string name="battery_info_status_charging_usb_short">En charge</string>
+    <string name="battery_info_status_charging_wireless">Chargement sans fil</string>
+    <string name="battery_info_status_charging_wireless_short">En charge</string>
 </resources>
