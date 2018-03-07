@@ -2054,7 +2054,6 @@ Vous pouvez modifier cette option ultérieurement dans Paramètres > Applicatio
     <string name="lift_to_wake_title">Soulever pour activer</string>
     <string name="line_breaking_summary">Optimiser la rupture de la ligne de paragraphe</string>
     <string name="line_breaking_title">Optimiser le texte</string>
-    <string name="link_speed">%1$d Mbit/s</string>
     <string name="loading_notification_apps">Chargement des applications en cours…</string>
     <string name="local_auto_backup_off">Désactivé</string>
     <string name="local_auto_backup_on">Activé</string>
@@ -2387,7 +2386,6 @@ D'autres personnes utilisent cet appareil.
     <string name="memory_title">Disponible : %1$s\u0009\u0009Total : %2$s</string>
     <string name="memory_usage">Utilisation de la mémoire</string>
     <string name="memory_usage_apps">Mémoire utilisée par les applications</string>
-    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">%1$s de mémoire utilisé(s) au cours des trois dernières heures en moyenne</string>
     <string name="menu_cancel">Annuler</string>
     <string name="menu_check">Expérience</string>
@@ -2595,7 +2593,6 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="nfc_how_it_works_got_it">OK</string>
     <string name="nfc_how_it_works_title">Paiement à un terminal</string>
     <string name="nfc_more_title">Plus...</string>
-    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Application de paiement par défaut</string>
     <string name="nfc_payment_default_not_set">Non définie</string>
     <string name="nfc_payment_favor_default">Toujours</string>
@@ -2789,7 +2786,6 @@ L'application pourra aussi activer ou désactiver le mode Ne pas déranger, et m
     <string name="overlay_display_devices_title">Simuler des écrans secondaires</string>
     <string name="overlay_settings">Superposer aux autres applis</string>
     <string name="owner_info_settings_edit_text_hint">"Exemple : l'Android de Jean"</string>
-    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Aucun</string>
     <string name="owner_info_settings_title">"Signature de l'écran de verrouillage"</string>
     <string name="owner_space">Premier espace</string>
@@ -3890,7 +3886,6 @@ Le code PIN est peut-être incorrect."</string>
     <string name="sim_reenter_new">"Saisissez à nouveau le code d'accès."</string>
     <string name="sim_select_card">Sélectionnez une carte SIM</string>
     <string name="sim_selection_required_pref">Veuillez sélectionner une option.</string>
-    <string name="sim_settings_summary">%1$s : %2$s</string>
     <string name="sim_settings_title">Cartes SIM</string>
     <string name="sim_setup_wizard_title">Cartes SIM</string>
     <string name="sim_signal_strength">%1$d dBm %2$d asu</string>
@@ -3964,7 +3959,6 @@ Un certificat de confiance installé sur votre appareil rend cela possible."</st
     <string name="status_bar_app_enable_floating">Notifications flottantes</string>
     <string name="status_bar_app_enable_keyguard">Écran de vérrouillage</string>
     <string name="status_bar_key_position_custom">Modifier les positions des boutons</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="status_bar_screen_button_force_immersive_desc">"Balayez du haut vers le bas de l'écran pour afficher les boutons virtuels"</string>
     <string name="status_bar_screen_button_key_force_immersive">"Masquer les boutons à l'écran"</string>
     <string name="status_bar_screen_key_back">Bouton Retour</string>
@@ -4190,7 +4184,6 @@ Veuillez utiliser un ^1 plus rapide pour de meilleures performances."</string>
     <string name="suggestion_remove">Supprimer</string>
     <string name="suggestions_summary">+ %1$d</string>
     <string name="sum_carrier_select">Sélectionner un opérateur de réseau</string>
-    <string name="summary_range_symbol_combination">%1$s – %2$s</string>
     <string name="summary_range_verbal_combination">Du %1$s au %2$s</string>
     <string name="supl_not_set">&lt;Non défini></string>
     <string name="support_account_picker_add_account">Ajouter un compte</string>
@@ -5346,7 +5339,6 @@ Toucher"<b> Retour</b> pour se connecter à un autre réseau Wi-Fi.</string>
     <string name="zen_mode_summary_alarms_only_by_time">"Ne recevoir que les alarmes jusqu'à %1$s"</string>
     <string name="zen_mode_summary_alarms_only_indefinite">Ne recevoir que les alarmes sans limite de temps</string>
     <string name="zen_mode_summary_always">Toujours interrompre</string>
-    <string name="zen_mode_summary_combination">%1$s : %2$s</string>
     <string name="zen_mode_visual_interruptions_settings_title">Bloquer nuisances visuelles</string>
     <string name="zen_mode_when">Activation auto</string>
     <string name="zen_mode_when_every_night">Tous les soirs</string>

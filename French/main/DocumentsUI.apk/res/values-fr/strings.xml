@@ -104,7 +104,6 @@
     <string name="sort_dimension_summary">Résumé</string>
     <string name="sort_direction_ascending">Croissant</string>
     <string name="sort_direction_descending">Décroissant</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="title_open">Ouvrir à partir de</string>
     <string name="title_save">Enregistrer sous</string>
     <string name="toast_failed_delete">Impossible de supprimer certains documents</string>

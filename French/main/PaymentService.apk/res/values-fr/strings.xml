@@ -19,7 +19,6 @@
     <string name="abc_shareactionprovider_share_with">Partager avec</string>
     <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
     <string name="abc_toolbar_collapse_description">Réduire</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="passport_access_denied">Accès refusé</string>
     <string name="passport_account_hint_text">Adresse e-mail, numéro de téléphone ou ID du Compte Mi</string>
     <string name="passport_account_identity_title">Vérifier votre identité</string>
