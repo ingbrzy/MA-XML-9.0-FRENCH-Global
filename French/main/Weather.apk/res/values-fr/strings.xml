@@ -96,7 +96,6 @@ Faites glisser vers le bas pour actualiser ou vérifier les paramètres réseau"
     <string name="data_provided_by">Données fournies par</string>
     <string name="edit_alert_city_title">Gérer les alertes</string>
     <string name="edit_city">Modifier la ville</string>
-    <string name="empty">" "</string>
     <string name="feedback_heavy_rain">Fortes pluies</string>
     <string name="feedback_heavy_snow">Neige</string>
     <string name="feedback_light_rain">Pluie fine</string>

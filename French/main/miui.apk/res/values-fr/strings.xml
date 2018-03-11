@@ -64,7 +64,6 @@
     <string name="error_forbidden">La synchronisation a été désactivée à cause de problèmes avec votre compte Mi.</string>
     <string name="error_not_acceptable">Synchronisation arrêtée.</string>
     <string name="more">Plus</string>
-    <string name="empty" />
     <string name="solar_term_slight_cold">Frais</string>
     <string name="solar_term_great_cold">Grand froid</string>
     <string name="solar_term_spring_begins">Le printemps commence</string>

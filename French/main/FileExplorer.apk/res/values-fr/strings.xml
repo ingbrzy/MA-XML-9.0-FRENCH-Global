@@ -555,7 +555,6 @@
     <string name="you_liao_goddess_desc">Mettez régulièrement des vidéos en ligne et élargissez votre base de fans pour le statut de Déesse</string>
     <string name="default_user_desc">"Cette personne n'a ajouté aucune description pour le moment"</string>
     <string name="recommend">Recommandé</string>
-    <string name="topic_message">&lt;font color=#fc7050>%1$s : &lt;/font>%2$s</string>
     <string name="message_my_received_praise">"Mes \"j'aime\""</string>
     <string name="message_comment_prefix">"Commentaire: "</string>
     <string name="message_reply_prefix">Répondre</string>

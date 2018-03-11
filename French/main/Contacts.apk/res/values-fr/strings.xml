@@ -563,7 +563,6 @@ Raison: \"%s\""</string>
     <string name="keep_local">Synchro désactivée</string>
     <string name="keep_local_btn">Utiliser la mémoire interne du téléphone</string>
     <string name="label_custom_type">Personnaliser</string>
-    <string name="label_duplicate_count">(%1$d)</string>
     <string name="label_no_duplicate_contacts">Aucun doublon trouvé</string>
     <string name="label_notes">Notes</string>
     <string name="label_sip_address">Appel VoIP</string>
@@ -812,7 +811,6 @@ Raison: \"%s\""</string>
     <string name="payphone">Cabine téléphonique</string>
     <string name="people">Contacts</string>
     <string name="phoneLabelsGroup">Téléphone</string>
-    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Ce numéro est trop long</string>
     <string name="phone_primary">Primaire</string>
     <string name="photoPickerNotFoundText">Aucun image trouvée sur le téléphone.</string>
