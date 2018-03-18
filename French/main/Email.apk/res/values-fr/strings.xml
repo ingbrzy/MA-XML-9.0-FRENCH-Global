@@ -822,10 +822,8 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="recognize_hotel_other_money">Autres dépenses %1$s</string>
     <string name="recognize_hotel_reverse_date">Enregistrement avant %1$s:%2$s %3$s</string>
     <string name="recognize_hotel_room_type">Chambre</string>
-    <string name="recognize_hotel_room_type_value">%1$s × %2$s</string>
     <string name="recognize_hotel_title">Réservation dhôtel</string>
     <string name="recognize_hotel_user_names">Invité</string>
-    <string name="recognize_hotel_user_names_value">%1$s+%2$s</string>
     <string name="recognize_setting_title">Paramètres de voyage</string>
     <string name="recognize_ticket_air_notification_content">Profitez de votre vol !</string>
     <string name="recognize_ticket_air_notification_title">Le vol %3$s (%2$s/%1$s) va bientôt décoller. Vérifiez bien vos informations de vol.</string>
