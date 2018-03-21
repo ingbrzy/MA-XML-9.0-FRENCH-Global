@@ -205,7 +205,6 @@
     <string name="add_flow_fail_vip_msg">Accélérateur de téléchargement Xunlei est activé</string>
     <string name="all_the_internet">Tous les réseaux</string>
     <string name="app_downloads">%s téléchargements</string>
-    <string name="app_size">%1$s</string>
     <string name="auth_activity_title">Compte Xunlei</string>
     <string name="bind_xunlei_account">Ajouter un compte Xunlei</string>
     <string name="bt_download">Télécharger</string>
@@ -231,7 +230,6 @@
     <string name="download_list_open_xl_message">"L'accélérateur Xunlei contribuera à accélérer vos téléchargements."</string>
     <string name="download_list_open_xl_title">Accélérateur de téléchargement Xunlei</string>
     <string name="download_list_title_browser">Téléchargements</string>
-    <string name="download_num_size">%1$s  |  %2$s</string>
     <string name="dredge_xunlei_account">Créer un compte Xunlei</string>
     <string name="edit_hint"> Saisissez une adresse http, torrent ou eMule</string>
     <string name="engine_open">Ouvrir</string>
@@ -404,7 +402,6 @@ Accélérez les téléchargements sur tous vos appareils."</string>
     <string name="xl_vip_semiannual">6 mois :  %1$s Crédits Mi × 6</string>
     <string name="xunlei_account_has_unbind_message">Compte Xunlei retiré</string>
     <string name="xunlei_brand">Propulsé par Xunlei</string>
-    <string name="xunlei_brand_url">http://mobile.xunlei.com</string>
     <string name="xunlei_close_tips_button">Activer</string>
     <string name="xunlei_close_tips_content">Accélérateur de téléchargement Xunlei.</string>
     <string name="xunlei_close_tips_title">Accélérer vos téléchargements</string>
