@@ -308,4 +308,8 @@ Si vous activez les données mobiles, votre opérateur pourrait vous facturer de
         <item quantity="other">"%d jours restants avant que la session d'augmentation de la vitesse du réseau ne se termine. Renouveler la session pour éviter des problèmes de vitesse de réseau."</item>
         <item quantity="one">"%d jour restant avant que la session d'augmentation de la vitesse du réseau ne se termine. Renouveler la session pour éviter des problèmes de vitesse de réseau."</item>
     </plurals>
+    <plurals name="gb_signed_days_sum">
+        <item quantity="other">"S'enregistrer %d jours d'affilés"</item>
+        <item quantity="one">"S'enregistrer dans %d heure"</item>
+    </plurals>
 </resources>

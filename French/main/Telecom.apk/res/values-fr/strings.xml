@@ -68,6 +68,7 @@
     <string name="accessibility_wifi_two_bars">Signal Wi-Fi moyen</string>
     <string name="accessibility_wifi_three_bars">Signal Wi-Fi bon</string>
     <string name="accessibility_wifi_signal_full">Signal Wi-Fi excellent</string>
+    <string name="process_kernel_label">Plate-forme Android</string>
     <string name="data_usage_uninstalled_apps">Applications supprimées</string>
     <string name="data_usage_uninstalled_apps_users">Applications et utilisateurs supprimés</string>
     <string name="tether_settings_title_usb">Partage connexion Bluetooth par USB</string>

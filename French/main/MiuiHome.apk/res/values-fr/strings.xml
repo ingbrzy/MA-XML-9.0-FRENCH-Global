@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_add_to_workspace">"Ajouter à l'espace de travail"</string>
     <string name="activity_not_found">"L'application n'est pas installée sur votre appareil"</string>
     <string name="add_screen">Ajouter un écran</string>
@@ -81,6 +82,7 @@
     <string name="current_preview">Aperçu</string>
     <string name="current_wallpaper">Actuel</string>
     <string name="custom_wallpaper_picker">Parcourir</string>
+    <string name="defalut_launcher_title">"Lanceur d'application par défaut"</string>
     <string name="default_folder_title_claro">Claro</string>
     <string name="default_folder_title_game">Jeux</string>
     <string name="default_folder_title_microsoft">Microsoft</string>
@@ -179,13 +181,16 @@
     <string name="invalid_contact_shortcut">Contact non valide</string>
     <string name="is_setting_wallpaper_message">"Définition comme fond d'écran…"</string>
     <string name="is_system_wallpaper_message">Impossible de supprimer les ressources système</string>
+    <string name="launcher_auto_fill_empty_title">Remplir les cellules vides</string>
     <string name="launcher_not_exist">"Une erreur s'est produite, retournez à l'écran d'accueil et réessayez."</string>
+    <string name="launcher_title">"Écran d'accueil &amp; récents"</string>
     <string name="like">Ajouter aux favoris</string>
     <string name="liked">Ajouté aux favoris</string>
     <string name="loading_desktop">Un instant…</string>
     <string name="loading_wallpaper">Un instant…</string>
     <string name="local_wallpaper">Téléchargé</string>
     <string name="lock_screen">Écran de verrouillage</string>
+    <string name="lock_screen_cells_title">"Verrouillage de l'écran d'accueil"</string>
     <string name="lock_screen_failed_message">"Impossible de définir le fond d'écran de l'écran de verrouillage"</string>
     <string name="lock_screen_success_message">"Appliqué à l'écran de verrouillage"</string>
     <string name="lock_screen_wallpaper">"Fond d'écran de verrouillage"</string>
@@ -212,6 +217,7 @@
     <string name="menu_wallpaper">"Fond d'écran"</string>
     <string name="menu_workspace_preview">"Aperçus des écrans d'accueil"</string>
     <string name="mi_wallpaper">MIUI Theme Store</string>
+    <string name="miui_screen_config_title">"Paramètres de l'écran d'accueil"</string>
     <string name="mtzgadget_missing_text">Widget non disponible</string>
     <string name="multi_selecting_tips">Pour récupérer une application, faites glisser son icône et déposez-la ici</string>
     <string name="no_detail_page">Aucune page de détails</string>
@@ -220,6 +226,11 @@
     <string name="notification_installed">Installation réussie</string>
     <string name="notification_open_button">Ouvrir</string>
     <string name="online_wallpaper">En ligne</string>
+    <string name="open_personal_assistant_dialog_btn_cancel">Annuler</string>
+    <string name="open_personal_assistant_dialog_btn_confirm">Désactiver</string>
+    <string name="open_personal_assistant_dialog_desc">"Vous ne pourrez plus utiliser Coffre d'applications et recevoir ses mises à jour. Désactiver maintenant ?"</string>
+    <string name="open_personal_assistant_dialog_title">"Désactiver le Coffre d'applications"</string>
+    <string name="open_personal_assistant_title">"Activer le Coffre d'applications"</string>
     <string name="out_of_space">"Plus d'espace sur ce bureau"</string>
     <string name="permdesc_install_shortcut">"Permet à une application d'ajouter des raccourcis sans l'intervention de l'utilisateur."</string>
     <string name="permdesc_install_widget">"Permet à une application d'ajouter des widgets sans votre intervention."</string>
@@ -249,6 +260,8 @@
     <string name="pref_wallpaper_scroll_type_title">"Cadrage du fond d'écran"</string>
     <string name="preferences_general_title">Paramètres supplémentaires</string>
     <string name="preferences_title">Paramètres du lanceur</string>
+    <string name="preferred_app_settings_not_selected">Not selected</string>
+    <string name="recents_config_title">Récents</string>
     <string name="recommend_apk_size_and_desc">%1$d Mo | %2$s</string>
     <string name="recommend_apps_default_title">Vide</string>
     <string name="recommend_apps_no_data">Aucune donnée</string>
@@ -258,6 +271,7 @@
     <string name="recommend_apps_tips">Cette fonction doit se connecter à Internet pour fonctionner normalement. Pour désactiver cette fonction, touchez son nom de dossier.</string>
     <string name="recommend_loading">Chargement en cours</string>
     <string name="reset_scene_prompt">"Le bureau va être remis dans sa disposition d'origine."</string>
+    <string name="screen_cells_config_title">"Disposition de l'écran d'accueil"</string>
     <string name="screen_locked_toast">"La disposition de l'Écran d'accueil est verrouillée"</string>
     <string name="screen_number">%d écran</string>
     <string name="select_all">Tout sélectionner</string>
@@ -268,6 +282,7 @@
     <string name="settings_shortcut">Paramètres</string>
     <string name="share">Partager</string>
     <string name="show_all">Tout afficher</string>
+    <string name="show_mem_info_title">"Afficher l'état de la mémoire"</string>
     <string name="sort_by_abc">Trier par nom</string>
     <string name="sort_by_frequency">Trier par utilisation</string>
     <string name="sort_by_not_defined">Tri-auto</string>
@@ -278,6 +293,7 @@
     <string name="status_installing">Installation</string>
     <string name="status_paused">En pause</string>
     <string name="status_pending">En attente</string>
+    <string name="title_jeejen">"Écran d'accueil Jeejen"</string>
     <string name="title_select_live_folder">Sélectionner un dossier</string>
     <string name="title_select_shortcut">Sélectionner un raccourci</string>
     <string name="toast_screen_icons_misplaced">"Restauré à partir d'une autre source, certaines icônes peuvent être déplacées."</string>
@@ -314,18 +330,4 @@
     <string name="widget_gadget_player">Musique</string>
     <string name="widget_global_search">Recherche</string>
     <string name="widget_quick_function">Fonctions rapides</string>
-    <string name="defalut_launcher_title">"Lanceur d'application par défaut"</string>
-    <string name="launcher_auto_fill_empty_title">Remplir les cellules vides</string>
-    <string name="launcher_title">"Écran d'accueil &amp; récents"</string>
-    <string name="lock_screen_cells_title">"Verrouillage de l'écran d'accueil"</string>
-    <string name="miui_screen_config_title">"Paramètres de l'écran d'accueil"</string>
-    <string name="open_personal_assistant_dialog_btn_cancel">Annuler</string>
-    <string name="open_personal_assistant_dialog_btn_confirm">Désactiver</string>
-    <string name="open_personal_assistant_dialog_desc">"Vous ne pourrez plus utiliser Coffre d'applications et recevoir ses mises à jour. Désactiver maintenant ?"</string>
-    <string name="open_personal_assistant_dialog_title">"Désactiver le Coffre d'applications"</string>
-    <string name="open_personal_assistant_title">"Activer le Coffre d'applications"</string>
-    <string name="recents_config_title">Récents</string>
-    <string name="screen_cells_config_title">"Disposition de l'écran d'accueil"</string>
-    <string name="show_mem_info_title">"Afficher l'état de la mémoire"</string>
-    <string name="title_jeejen">"Écran d'accueil Jeejen"</string>
 </resources>

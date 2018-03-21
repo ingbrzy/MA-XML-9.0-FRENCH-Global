@@ -1260,7 +1260,6 @@ La consommation mesurée par votre téléphone pouvant différer de celle mesur�
     <string name="debug_networking_category">Mise en réseau</string>
     <string name="debug_view_attributes">Activer inspect. attribut affich.</string>
     <string name="decline_remote_bugreport_action">Refuser</string>
-    <string name="defalut_launcher_title">"Lanceur d'application par défaut"</string>
     <string name="default_admin_support_msg">"Cette action est désactivée. Pour en savoir plus, contactez l'administrateur de votre entreprise."</string>
     <string name="default_app">(Par défaut)</string>
     <string name="default_apps_title">Par défaut</string>
@@ -2031,8 +2030,6 @@ Vous pouvez modifier cette option ultérieurement dans Paramètres > Applicatio
     <string name="launch_google_search">"Lancer l'assistant Google"</string>
     <string name="launch_recents">Lancer les applications récentes</string>
     <string name="launch_voice_assistant">"Lancer l'assistant vocal"</string>
-    <string name="launcher_auto_fill_empty_title">Remplir les cellules vides</string>
-    <string name="launcher_title">"Écran d'accueil &amp; récents"</string>
     <string name="launching_cit">Démarrage du CIT</string>
     <string name="launching_pho">Lancement des infos du téléphone…</string>
     <string name="launching_rep">Rapport…</string>
@@ -2054,6 +2051,7 @@ Vous pouvez modifier cette option ultérieurement dans Paramètres > Applicatio
     <string name="lift_to_wake_title">Soulever pour activer</string>
     <string name="line_breaking_summary">Optimiser la rupture de la ligne de paragraphe</string>
     <string name="line_breaking_title">Optimiser le texte</string>
+    <string name="link_speed">%1$d Mbit/s</string>
     <string name="loading_notification_apps">Chargement des applications en cours…</string>
     <string name="local_auto_backup_off">Désactivé</string>
     <string name="local_auto_backup_on">Activé</string>
@@ -2133,7 +2131,6 @@ Vous pouvez modifier cette option ultérieurement dans Paramètres > Applicatio
     <string name="lock_profile_wipe_warning_content_pattern">Si vous saisissez un schéma professionnel incorrect lors de cette tentative, votre profil professionnel et les données associées seront supprimés sur cet appareil.</string>
     <string name="lock_profile_wipe_warning_content_pin">Si vous saisissez un code professionnel incorrect lors de cette tentative, votre profil professionnel et les données associées seront supprimés sur cet appareil.</string>
     <string name="lock_profile_wipe_warning_title">Dernière tentative</string>
-    <string name="lock_screen_cells_title">"Verrouillage de l'écran d'accueil"</string>
     <string name="lock_screen_intro_skip_dialog_text">"Les fonctionnalités de protection de l'appareil ne seront pas activées. Vous ne pourrez pas empêcher d'autres personnes d'utiliser ce téléphone en cas de perte ou de vol."</string>
     <string name="lock_screen_intro_skip_dialog_text_frp">"Les fonctionnalités de protection de l'appareil ne seront pas activées. Vous ne pourrez pas empêcher d'autres personnes d'utiliser ce téléphone en cas de perte ou de vol, ou si les données en sont effacées."</string>
     <string name="lock_screen_notifications_interstitial_message">"Lorsque votre appareil est verrouillé, comment voulez-vous que les notifications s'affichent ?"</string>
@@ -2383,9 +2380,12 @@ D'autres personnes utilisent cet appareil.
     <string name="memory_settings_title">Mémoire</string>
     <string name="memory_size">Espace total</string>
     <string name="memory_summary">%1$s sur %2$s de mémoire utilisée en moyenne</string>
+    <string name="memory_system_rom">Stockage système</string>
+    <string name="memory_system_space">Stockage système</string>
     <string name="memory_title">Disponible : %1$s\u0009\u0009Total : %2$s</string>
     <string name="memory_usage">Utilisation de la mémoire</string>
     <string name="memory_usage_apps">Mémoire utilisée par les applications</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">%1$s de mémoire utilisé(s) au cours des trois dernières heures en moyenne</string>
     <string name="menu_cancel">Annuler</string>
     <string name="menu_check">Expérience</string>
@@ -2430,7 +2430,6 @@ D'autres personnes utilisent cet appareil.
     <string name="miui_lab_slogan">Apprendre. Explorer. Découvrir.</string>
     <string name="miui_lab_taplus_desc">Appuyez et maintenez des éléments pour déclencher des actions</string>
     <string name="miui_master_clear_summary">Efface toutes les données sur le téléphone</string>
-    <string name="miui_screen_config_title">"Paramètres de l'écran d'accueil"</string>
     <string name="miui_updater">Mise à jour système</string>
     <string name="mms_breathing_light_color_title">Couleur des messages</string>
     <string name="mms_breathing_light_freq_title">Fréquence de clignotement pour les messages</string>
@@ -2593,10 +2592,9 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="nfc_how_it_works_got_it">OK</string>
     <string name="nfc_how_it_works_title">Paiement à un terminal</string>
     <string name="nfc_more_title">Plus...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Application de paiement par défaut</string>
     <string name="nfc_payment_default_not_set">Non définie</string>
-    <string name="nfc_payment_favor_default">Toujours</string>
-    <string name="nfc_payment_favor_open">Sauf si une autre application de paiement est ouverte</string>
     <string name="nfc_payment_how_it_works">Fonctionnement</string>
     <string name="nfc_payment_no_apps">Payez avec votre téléphone dans les magasins.</string>
     <string name="nfc_payment_pay_with">Application à utiliser pour le paiement sans contact :</string>
@@ -2764,11 +2762,6 @@ L'application pourra aussi activer ou désactiver le mode Ne pas déranger, et m
     <string name="open_demo_mode_warning_message">"Lorsque le mode Démo est activé, l'horloge dans la barre d'état s'arrêtera, les icônes de la batterie et du signal seront affichés comme plein. Vous pouvez désactiver le mode Démo ou redémarrer l'appareil pour modifier cela."</string>
     <string name="open_miui_optimization_title">"Activer l'optimisation MIUI"</string>
     <string name="open_miui_optimization_warning_message">Votre appareil redémarrera pour appliquer la modification.</string>
-    <string name="open_personal_assistant_dialog_btn_cancel">Annuler</string>
-    <string name="open_personal_assistant_dialog_btn_confirm">Désactiver</string>
-    <string name="open_personal_assistant_dialog_desc">"Vous ne pourrez plus utiliser Coffre d'applications et recevoir ses mises à jour. Désactiver maintenant ?"</string>
-    <string name="open_personal_assistant_dialog_title">"Désactiver le Coffre d'applications"</string>
-    <string name="open_personal_assistant_title">"Activer le Coffre d'applications"</string>
     <string name="open_wifi_connect_summary">Appuyez pour voir les détails.</string>
     <string name="open_wifi_connect_title">Connecté à %1$s</string>
     <string name="opening_paragraph_delete_profile_unknown_company">Ce profil professionnel est géré par</string>
@@ -2786,6 +2779,7 @@ L'application pourra aussi activer ou désactiver le mode Ne pas déranger, et m
     <string name="overlay_display_devices_title">Simuler des écrans secondaires</string>
     <string name="overlay_settings">Superposer aux autres applis</string>
     <string name="owner_info_settings_edit_text_hint">"Exemple : l'Android de Jean"</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Aucun</string>
     <string name="owner_info_settings_title">"Signature de l'écran de verrouillage"</string>
     <string name="owner_space">Premier espace</string>
@@ -2980,7 +2974,7 @@ L'application pourra aussi activer ou désactiver le mode Ne pas déranger, et m
     <string name="priority_storage_settings_summary">"Si aucune carte SD n'est détectée, vos données seront enregistrées automatiquement dans la mémoire interne de votre appareil"</string>
     <string name="priority_storage_summary">Choisir où sauvegarder vos données</string>
     <string name="priority_storage_title">Paramètres de stockage</string>
-    <string name="privacy_authorize_cloud_msg">"Pour garantir la sécurité de votre compte, connectez-vous à i.mi.com si vous souhaitez annuler l'authentification pour les services Mi Cloud (y compris la synchronisation et les sauvegardes)."</string>
+    <string name="privacy_authorize_cloud_msg">"Pour garantir la sécurité de votre compte, connectez-vous à i.mi.com si vous souhaitez annuler l'autorisation pour les services Mi Cloud (y compris la synchronisation et les sauvegardes)."</string>
     <string name="privacy_authorize_dialog_agree">Accepter</string>
     <string name="privacy_authorize_dialog_exit">Quitter</string>
     <string name="privacy_authorize_dialog_message"><Data>"Afin d'utiliser les fonctionnalités de base des services Mi Cloud, vous devez accepter que Xiaomi collectera, traitera,          et utilisera vos données personnelles. Veuillez vous référer à notre &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Politique de confidentialité&lt;/a> et à notre &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\"> Contrat de l'utilisateur&lt;/a>"</Data> pour savoir comment nous collectons et traitons les données personnelles.</string>
@@ -3053,6 +3047,7 @@ L'application pourra aussi activer ou désactiver le mode Ne pas déranger, et m
     <string name="private_sms_recording_intro_header">Dessinez un schéma de déverrouillage :</string>
     <string name="private_sms_reset_by_account">Pour réinitialiser votre mot de passe, connectez-vous à votre compte Mi</string>
     <string name="process_dex2oat_label">Optimisation des applications</string>
+    <string name="process_kernel_label">Plate-forme Android</string>
     <string name="process_mediaserver_label">Serveur multimédia</string>
     <string name="process_provider_in_use_description">"L'opérateur %1$s est actuellement utilisé."</string>
     <string name="process_service_in_use_description">Le service %1$s est actuellement utilisé.</string>
@@ -3175,7 +3170,6 @@ Interface UT : %5$s"</string>
     <string name="receiver_clean">"Libérer de l'espace"</string>
     <string name="recent_location_requests_summary">Voir les applications demandant à accéder vos infos de localisation</string>
     <string name="recent_location_requests_title">Localisation</string>
-    <string name="recents_config_title">Récents</string>
     <string name="recommend_item_1">Étui pour téléphone</string>
     <string name="recommend_item_3">Batterie externe</string>
     <string name="recommend_item_4">Écouteurs</string>
@@ -3296,7 +3290,6 @@ Ce paramètre affecte tous les utilisateurs de ce téléphone."</string>
     <string name="screen">Écran</string>
     <string name="screen_button">"Boutons de l'écran"</string>
     <string name="screen_button_tips">"Balayez vers le bas pour masquer les boutons de l'écran"</string>
-    <string name="screen_cells_config_title">"Disposition de l'écran d'accueil"</string>
     <string name="screen_color_and_optimize">Couleurs &amp; contraste</string>
     <string name="screen_color_and_optimize_disabled">Impossible de régler la température de couleur en mode lecture</string>
     <string name="screen_color_temperature">Couleurs</string>
@@ -3799,7 +3792,6 @@ Remarque : vous ne pouvez pas utiliser votre empreinte digitale pour déverroui
     <string name="show_ime">Afficher le clavier virtuel</string>
     <string name="show_ime_summary">Afficher lorsque le clavier physique est activé</string>
     <string name="show_magnifier_when_input">Afficher la loupe</string>
-    <string name="show_mem_info_title">"Afficher l'état de la mémoire"</string>
     <string name="show_menu">Afficher le menu</string>
     <string name="show_non_rect_clip">Déboguer opé. de découpage non rect.</string>
     <string name="show_notification_channel_warnings">Voir avertissements liés aux canaux notification</string>
@@ -3885,6 +3877,7 @@ Le code PIN est peut-être incorrect."</string>
     <string name="sim_reenter_new">"Saisissez à nouveau le code d'accès."</string>
     <string name="sim_select_card">Sélectionnez une carte SIM</string>
     <string name="sim_selection_required_pref">Veuillez sélectionner une option.</string>
+    <string name="sim_settings_summary">%1$s : %2$s</string>
     <string name="sim_settings_title">Cartes SIM</string>
     <string name="sim_setup_wizard_title">Cartes SIM</string>
     <string name="sim_signal_strength">%1$d dBm %2$d asu</string>
@@ -3958,6 +3951,7 @@ Un certificat de confiance installé sur votre appareil rend cela possible."</st
     <string name="status_bar_app_enable_floating">Notifications flottantes</string>
     <string name="status_bar_app_enable_keyguard">Écran de vérrouillage</string>
     <string name="status_bar_key_position_custom">Modifier les positions des boutons</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="status_bar_screen_button_force_immersive_desc">"Balayez du haut vers le bas de l'écran pour afficher les boutons virtuels"</string>
     <string name="status_bar_screen_button_key_force_immersive">"Masquer les boutons à l'écran"</string>
     <string name="status_bar_screen_key_back">Bouton Retour</string>
@@ -4183,6 +4177,7 @@ Veuillez utiliser un ^1 plus rapide pour de meilleures performances."</string>
     <string name="suggestion_remove">Supprimer</string>
     <string name="suggestions_summary">+ %1$d</string>
     <string name="sum_carrier_select">Sélectionner un opérateur de réseau</string>
+    <string name="summary_range_symbol_combination">%1$s – %2$s</string>
     <string name="summary_range_verbal_combination">Du %1$s au %2$s</string>
     <string name="supl_not_set">&lt;Non défini></string>
     <string name="support_account_picker_add_account">Ajouter un compte</string>
@@ -4303,7 +4298,6 @@ Une solution Google pour synchroniser vos données et vous permettre d'accéder 
     <string name="title_font_current2">Police du système</string>
     <string name="title_font_size">Taille de la police</string>
     <string name="title_hdmi_color_calibration">Correction des couleurs prédéfinies</string>
-    <string name="title_jeejen">"Écran d'accueil Jeejen"</string>
     <string name="title_layout_current">Taille du texte</string>
     <string name="title_layout_current2">Taille du texte</string>
     <string name="toast_lockscreen_glogin_empty_password">Mot de passe</string>
@@ -4489,7 +4483,7 @@ Vos empreintes digitales enregistrées seront également supprimées de ce profi
     <string name="untitled_apn">Sans nom</string>
     <string name="update_new_version">Mise à jour disponible</string>
     <string name="update_progress_for_updates">Mise à jour (%s)</string>
-    <string name="upload_debug_log_summary">"Les données de diagnostic peuvent contenir des informations concernant vos applications, système d'exploitation et utilisation du matériel. Les données seront utilisées pour localiser et analyser les problèmes du système et ne seront jamais utilisées pour vous identifier personnellement."</string>
+    <string name="upload_debug_log_summary">"Les statistiques d'utilisation qui nous aident à vous localiser et à résoudre les problèmes peuvent contenir vos informations personnelles"</string>
     <string name="upload_debug_log_title">Envoyer automatiquement les données de diagnostic</string>
     <string name="usage">Consommation</string>
     <string name="usage_access">"Accès aux données d'utilisation"</string>
@@ -4637,7 +4631,7 @@ Appuyez sur le plus (+) pour ajouter des mots."</string>
     <string name="user_exit_guest_dialog_remove">Supprimer</string>
     <string name="user_exit_guest_title">"Supprimer l'invité"</string>
     <string name="user_experience_program">"Programme d'expérience utilisateur"</string>
-    <string name="user_experience_program_summary">"Aidez à améliorer MIUI en envoyant anonymement des données d'utilisation"</string>
+    <string name="user_experience_program_summary">"Aidez-nous à améliorer nos produits et services en partageant vos statistiques d'utilisation avec nous"</string>
     <string name="user_experience_program_title">"Programme d'expérience utilisateur"</string>
     <string name="user_guest">Invité</string>
     <string name="user_image_choose_photo">En sélectionner une dans la galerie</string>
@@ -5338,6 +5332,7 @@ Toucher"<b> Retour</b> pour se connecter à un autre réseau Wi-Fi.</string>
     <string name="zen_mode_summary_alarms_only_by_time">"Ne recevoir que les alarmes jusqu'à %1$s"</string>
     <string name="zen_mode_summary_alarms_only_indefinite">Ne recevoir que les alarmes sans limite de temps</string>
     <string name="zen_mode_summary_always">Toujours interrompre</string>
+    <string name="zen_mode_summary_combination">%1$s : %2$s</string>
     <string name="zen_mode_visual_interruptions_settings_title">Bloquer nuisances visuelles</string>
     <string name="zen_mode_when">Activation auto</string>
     <string name="zen_mode_when_every_night">Tous les soirs</string>
@@ -5350,9 +5345,5 @@ Toucher"<b> Retour</b> pour se connecter à un autre réseau Wi-Fi.</string>
     <string name="zone_auto_summaryOn">Utiliser le fuseau horaire fourni par le réseau</string>
     <string name="zone_list_menu_sort_alphabetically">Trier par ordre alphabétique</string>
     <string name="zone_list_menu_sort_by_timezone">Trier par fuseau horaire</string>
-    <string name="lock_screen_secure_after_timeout_immediately_never">Ne jamais exiger un mot de passe</string>
-    <string name="lock_screen_secure_after_timeout_immediately_summary">Exiger immédiatement un mot de passe</string>
-    <string name="lock_screen_secure_after_timeout_summary">Exiger un mot de passe : %1$s</string>
-    <string name="lock_screen_secure_after_timeout_title">Exiger un mot de passe</string>
     <string name="master_clear_summary">La mémoire de stockage interne et toutes les données seront réinitialisées</string>
 </resources>

@@ -5,12 +5,13 @@
     <string name="unlockscreen_recharge_completed">Batterie chargée</string>
     <string name="unlockscreen_low_battery">Branchez le chargeur</string>
     <string name="lockscreen_charging_msg">En charge</string>
-    <string name="reset_device_tip">Charge lentement, veuillez repositionner le téléphone</string>
-    <string name="reset_device_detail_tip">Chargement sans fil, veuillez aligner la base du téléphone, pour assurer la vitesse de chargement.</string>
+    <string name="reset_device_tip">La charge est lente. Réajustez votre appareil.</string>
+    <string name="reset_device_detail_tip">"Placez votre appareil correctement sur le chargeur sans fil afin d'assurer une vitesse de chargement élevée."</string>
     <string name="wireless_charge_stop">"Le chargement sans fil s'est arrêté"</string>
     <string name="change_to_ac_charging">A basculé en charge sans fil</string>
-    <string name="wireless_charge_dialog_title">Mal positionné, veuillez repositionner</string>
+    <string name="wireless_charge_dialog_title">Réajustez votre appareil sur le chargeur sans fil</string>
     <string name="wireless_charge_dialog_cancel">Annuler</string>
+    <string name="wireless_current_charge">Charge actuelle</string>
     <string name="emergency_call_string">"Appel d'urgence"</string>
     <string name="forget_password_string">Mot de passe oublié ?</string>
     <string name="input_puk_code">Saisir le code PUK</string>
@@ -64,6 +65,7 @@
     <string name="input_password_after_boot_msg">Pour déverrouiller votre appareil, saisissez votre mot de passe</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">"Vous devez entrer dans le Premier espace suite à un redémarrage de l'appareil"</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">"Impossible de basculer entre les espaces lors d'un appel"</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when green guard active"</string>
     <string name="input_password_handle_sdcard_fs">"Impossible d'entrer dans le second espace depuis l'écran de verrouillage. Entrez depuis le premier espace."</string>
     <string name="accessibility_enter_lock_wallpaper">"Appuyer pour ouvrir le Fond d'écran Carrousel"</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Relâcher pour voir les détails</string>
@@ -147,5 +149,6 @@
     <string name="do_disclosure_with_name">Cet appareil est géré par %s</string>
     <string name="face_unlock_reenter_title">Enregistrer les données de votre visage à nouveau.</string>
     <string name="face_unlock_reenter_content">"L'algorithme du déverrouillage facial est en cours de mise à jour. Appuyez pour enregistrer les données de visage une fois de plus."</string>
+    <string name="digital_clock_dot">:</string>
     <string name="keyguard_left_view_lock_wallpaper">"Fond d'écran Carrousel"</string>
 </resources>

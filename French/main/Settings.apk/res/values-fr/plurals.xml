@@ -176,6 +176,10 @@
         <item quantity="other">%d autorisations accordées</item>
         <item quantity="one">%d autorisation accordée</item>
     </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">"%1$d tâches d'impression"</item>
+        <item quantity="one">"%1$d tâche d'impression"</item>
+    </plurals>
     <plurals name="print_settings_summary">
         <item quantity="other">"%1$d services d'impression activés"</item>
         <item quantity="one">"%1$d service d'impression activé"</item>

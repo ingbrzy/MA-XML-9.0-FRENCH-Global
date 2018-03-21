@@ -130,7 +130,7 @@ Note : Les données des applications que vous avez installées ne seront pas sau
     <string name="provision_error_connect_title">Impossible de se connecter</string>
     <string name="authentication_failed">Impossible de vérifier le compte.</string>
     <string name="no_account">"Vous n'êtes pas connecté au compte Mi."</string>
-    <string name="no_backup">Pas de sauvegarde dans Mi Cloud.</string>
+    <string name="no_backup">Aucune sauvegarde dans Mi Cloud.</string>
     <string name="download_meta_failed">Impossible de charger les données.</string>
     <string name="download_home_data">"Téléchargement de la disposition de l'écran d'accueil…"</string>
     <string name="restore_home_failed">"Impossible de restaurer l'écran d'accueil."</string>

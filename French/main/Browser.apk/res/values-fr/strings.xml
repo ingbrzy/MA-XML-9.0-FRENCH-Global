@@ -111,9 +111,9 @@
     <string name="bookmark_group_lable">Groupe</string>
     <string name="bookmark_needs_title">Le favoris doit avoir un nom</string>
     <string name="bookmark_needs_url">Le favoris doit contenir une URL</string>
-    <string name="bookmark_not_saved">"Impossible d'enregistrer le favoris"</string>
+    <string name="bookmark_not_saved">"Couldn't add to bookmarks"</string>
     <string name="bookmark_rename_group">Renommer le groupe</string>
-    <string name="bookmark_saved">Enregistré dans les favoris</string>
+    <string name="bookmark_saved">Added to bookmarks</string>
     <string name="bookmark_title">Nom du favori</string>
     <string name="bookmark_title_lable">Titre</string>
     <string name="bookmark_url">URL http://</string>
@@ -169,6 +169,7 @@
     <string name="color_picker_dialog_title">Sélectionner une couleur</string>
     <string name="color_picker_hue">Teinte</string>
     <string name="color_picker_saturation">Saturation</string>
+    <string name="color_picker_value">Valeur</string>
     <string name="comment_app_menu">Commentaire</string>
     <string name="comment_description">Commentaire</string>
     <string name="comment_hint">Commentaire</string>
@@ -462,9 +463,9 @@ Quitter cette page ?"</string>
     <string name="miuichromium_error_page_problem_page_moved">Cette page sur %s0 pourrait avoir été déplacée ou supprimée.</string>
     <string name="miuichromium_error_page_problem_page_not_found">Impossible de trouver cette page sur %s0.</string>
     <string name="miuichromium_error_page_problem_page_not_working_reason_connection_closed">"Impossible d'ouvrir la page. %s0 a interrompu la connexion."</string>
-    <string name="miuichromium_error_page_problem_page_not_working_reason_empty_response">"Cette page fonctionne pas parce que %s0 n'a envoyé aucune donnée."</string>
-    <string name="miuichromium_error_page_problem_page_not_working_reason_invalid_response">Cette page fonctionne pas parce que %s0 a envoyé une réponse non valide.</string>
-    <string name="miuichromium_error_page_problem_page_not_working_reason_too_many_redirects">Cette page fonctionne pas parce que %s0 vous a redirigé trop de fois.</string>
+    <string name="miuichromium_error_page_problem_page_not_working_reason_empty_response">"Cette page ne fonctionne pas parce que %s0 n'a envoyé aucune donnée."</string>
+    <string name="miuichromium_error_page_problem_page_not_working_reason_invalid_response">Cette page ne fonctionne pas parce que %s0 a envoyé une réponse non valide.</string>
+    <string name="miuichromium_error_page_problem_page_not_working_reason_too_many_redirects">Cette page ne fonctionne pas parce que %s0 vous a redirigé trop de fois.</string>
     <string name="miuichromium_error_page_problem_security_error_reason_bad_client_cert">"Ce site ne peut pas fournir une connexion sécurisée parce que %s0 n'a pas accepté votre certificat."</string>
     <string name="miuichromium_error_page_problem_security_error_reason_bad_server_cert">"Ce site ne peut pas fournir une connexion sécurisée parce que %s0 n'a pas accepté vos normes de sécurité."</string>
     <string name="miuichromium_error_page_problem_security_error_reason_invalid_response">Ce site ne peut pas fournir une connexion sécurisée parce que %s0 a envoyé une réponse non valide.</string>
@@ -517,8 +518,8 @@ Quitter cette page ?"</string>
     <string name="nav_screen_container_tab_normal">Onglet normal</string>
     <string name="nav_screen_incognito_message">"Votre historique de navigation et de recherche ne sera pas enregistré en mode Incognito.
 Souvenez-vous que les fichiers que vous téléchargez et les signets que vous ajoutez seront enregistrés."</string>
-    <string name="nav_screen_incognito_title">Mode Incognito</string>
-    <string name="navigation_delete_all">balayez vers la gauche et la droite pour fermer tous les onglets</string>
+    <string name="nav_screen_incognito_title">Incognito mode</string>
+    <string name="navigation_delete_all">Swipe left or right to close all tabs</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">Annuler</string>
     <string name="navigationbar_rightbutton_actiontext_go">Aller</string>
     <string name="navigationbar_rightbutton_actiontext_search">Rechercher</string>

@@ -423,6 +423,7 @@ de l'opérateur"</string>
     <string name="detail_app_button">"Informations sur l'application"</string>
     <string name="pref_about_traffic_title">"Paramètres d'utilisation des données"</string>
     <string name="pref_traffic_manage_title">Utilisation de données</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Forfait de donnée</string>
     <string name="pref_adjust_traffic_data">"Définir l'utilisation des données"</string>
     <string name="pref_category_title_other">Paramètres supplémentaires</string>
@@ -639,7 +640,7 @@ Le volume de données restant inclut l'excédent du mois précédent."</string>
     <string name="tc_sms_report_type">Type de rapport</string>
     <string name="privacy_declare_dialog_title">"Conditions générales d'utilisation"</string>
     <string name="sc_allow_network_dialog_tiltle">"Impossible d'utiliser cette fonctionnalité"</string>
-    <string name="sc_allow_network_dialog_message">"Vous avez limité la connexion réseau et l'accès à votre localisation pour l'application Sécurité. Donnez à l'application Sécurité les autorisations requises pour utiliser cette fonctionnalité."</string>
+    <string name="sc_allow_network_dialog_message">"Vous avez limité la connexion réseau et l'accès à votre localisation pour l'application Sécurité. Accordez à l'application Sécurité les autorisations requises pour utiliser cette fonctionnalité."</string>
     <string name="privacy_prompt_upload">Envoyer</string>
     <string name="privacy_prompt_traffic_adjust_message">"Après que vous ayez lancé l'étalonnage, MIUI se connectera au réseau, cryptera les infos de votre opérateur, votre numéro de téléphone, votre IMEI et votre compte Mi, puis enverra ces éléments vers les serveurs Mi. Ceci se fera dans le but d'acquérir le modèle d'étalonnage et apprenez si possible à acheter des données dans votre localité.
 
@@ -693,7 +694,7 @@ Lors de l'étalonnage, MIUI vous enverra un message à votre opérateur de recev
     <string name="traffic_warning_purchase_title">"Avertissement de l'utilisation de données mobiles"</string>
     <string name="traffic_purchase_body">Appuyez pour recharger votre solde.</string>
     <string name="traffic_over_purchase_link">"Vous avez atteint la limite d'utilisation de données de votre forfait.&lt;br/>Si vous dépassez la limite d'utilisation de données de votre forfait, votre opérateur peut vous facturer des frais supplémentaires.&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Appuyez pour recharger votre solde.&lt;/U>&lt;/font>"</string>
-    <string name="more_settings">PlusPlus</string>
+    <string name="more_settings">Plus</string>
     <string name="repair_loading_text">Un instant…</string>
     <string name="network_diagnostics">Tester le réseau</string>
     <string name="btn_start_diagnostic">Tester le réseau</string>
@@ -942,6 +943,7 @@ Cette activité réduit la durée de vie de la batterie."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Cette application peut ralentir
 votre appareil"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Désinstaller %s ?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">"Désinstaller cette application pour résoudre tous les problèmes liés à l'usage de la batterie."</string>
     <string name="om_ill_proc_type_wakelock_title">"L'application bloque le mode veille et décharge la batterie"</string>
@@ -1000,6 +1002,7 @@ votre appareil"</string>
     <string name="usage_type_data_send">Données mobiles envoyées</string>
     <string name="usage_type_no_coverage">Temps sans signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Serveur média</string>
     <string name="power_screen">Écran</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1345,6 +1348,7 @@ votre appareil"</string>
     <string name="menu_text_networkassistants">Utilisation des données</string>
     <string name="menu_text_networkassistants_remain">%s restants</string>
     <string name="menu_text_networkassistants_danger">%s dépassé</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">Go</string>
     <string name="menu_text_networkassistants_unit_mb">Mo</string>
     <string name="menu_text_networkassistants_unit_kb">ko</string>
@@ -1705,6 +1709,7 @@ votre appareil"</string>
     <string name="card_main_deepclean_wechat_action">Vider</string>
     <string name="card_main_sectool_title">Outils</string>
     <string name="card_main_monthreport_action">Afficher</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Tester le réseau</string>
     <string name="card_main_netcheck_summary">Tester la connexion pour des problèmes de réseau</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1735,7 +1740,7 @@ votre appareil"</string>
     <string name="back_app_name">Retourner à Verr. App</string>
     <string name="ac_notification_contentTitle">"Protéger les applications sélectionnées avec Verrouillage d'application"</string>
     <string name="ac_pre_notification_contentTitle">"Essayer Verrouillage d'application"</string>
-    <string name="ac_post_notification_contentTitle">"Activer le Verrouillage d'application"</string>
+    <string name="ac_post_notification_contentTitle">"Activer le verrouillage d'application"</string>
     <string name="notification_masked_item">Masquer les notifications</string>
     <string name="lock_mode_title">Paramètres de verrouillage</string>
     <string name="after_the_lock_screen">"Verrouillez les applications en même temps que l'écran"</string>
@@ -1798,17 +1803,17 @@ votre appareil"</string>
     <string name="numeric_pattern_entered_header">Code PIN défini avec succès</string>
     <string name="mixed_pattern_entered_header">Mot de passe défini avec succès</string>
     <string name="lockpattern_need_to_confirm">Redessinez le schéma pour confirmer :</string>
-    <string name="numeric_need_to_confirm">Entrer une fois de plus pour confirmer</string>
-    <string name="mixed_need_to_confirm">Entrer une fois de plus pour confirmer</string>
+    <string name="numeric_need_to_confirm">Saisir une fois de plus pour confirmer</string>
+    <string name="mixed_need_to_confirm">Saisir une fois de plus pour confirmer</string>
     <string name="unlock_pattern_to_bind_fingerprint">"Saisir un mot de passe pour activer l'empreinte digitale"</string>
     <string name="lockpattern_access_need_to_unlock_wrong_fingerprint">"Impossible de reconnaître l'empreinte digitale, réessayez."</string>
     <string name="lockpattern_access_need_to_unlock_wrong_pattern">Le mot de passe est incorrect, réessayez.</string>
     <string name="lockpattern_need_to_unlock_wrong">Les mots de passe ne correspondent pas, réessayez.</string>
     <string name="lockpattern_recording_inprogress">Soulevez votre doigt pour terminer</string>
     <string name="lockpattern_pattern_confirmed_header">Définir un nouveau schéma de déverrouillage</string>
-    <string name="numeric_password_confirmed_header_continue">Défini avec succès. Appuyer sur \"Suivant\".</string>
+    <string name="numeric_password_confirmed_header_continue">Défini avec succès. Appuyez sur \"Suivant\".</string>
     <string name="numeric_password_confirmed_header_confirm">Défini avec succès. Appuyez sur \"Confirmer\".</string>
-    <string name="mixed_password_confirmed_header_continue">Défini avec succès. Appuyer sur \"Suivant\".</string>
+    <string name="mixed_password_confirmed_header_continue">Défini avec succès. Appuyez sur \"Suivant\".</string>
     <string name="mixed_password_confirmed_header_confirm">Défini avec succès. Appuyez sur \"Confirmer\".</string>
     <string name="forget_pattern"><u>Mot de passe oublié</u></string>
     <string name="unlock_pattern"><u>Schéma</u></string>
@@ -1928,7 +1933,7 @@ votre appareil"</string>
     <string name="sponsored_sec_fb">Sponsorisé</string>
     <string name="add_game_notification_summary">Appuyez pour lancer &amp; augmenter la vitesse</string>
     <string name="app_manager_title">Gérer les applications</string>
-    <string name="app_manager_app_lock">"Verrouillage d'application"</string>
+    <string name="app_manager_uninstall">Désinstaller</string>
     <string name="app_manager_bipartition">Applications clônées</string>
     <string name="app_manager_perm">Autorisations</string>
     <string name="app_manager_app_update">Mises à jour</string>
@@ -2031,12 +2036,10 @@ votre appareil"</string>
     <string name="app_manager_advanced_setting">Paramètres avancés</string>
     <string name="app_manager_total_size">Total</string>
     <string name="app_manager_code_size">"Taille de l'appli"</string>
-    <string name="app_manager_data_size">Données utilisateurs</string>
+    <string name="app_manager_data_size">Données utilisateur</string>
     <string name="app_manager_cache_size">Cache</string>
     <string name="app_manager_clear_all_data">Effacer toutes les données</string>
     <string name="app_manager_dlg_clear_cache_title">Vider le cache?</string>
-    <string name="app_manager_support_uninstall">Vous pouvez désinstaller ces applications</string>
-    <string name="app_manager_not_support_uninstall">Impossible de désinstaller ces applications</string>
     <string name="app_manager_comuting_size">Calcul…</string>
     <string name="app_manager_show_all_apps_opened">Affichage des résultats depuis toutes les applications…</string>
     <string name="app_manager_search_prompt">"Impossible de trouver des résultats ? Essayer d'afficher les résultats depuis toutes les applications."</string>
@@ -2116,7 +2119,7 @@ votre appareil"</string>
     <string name="sys_title_gamebooster_unit_gb">Go</string>
     <string name="sys_title_gamebooster_unit_mb">Mo</string>
     <string name="gmscore_support_service">Services Google</string>
-    <string name="gmscore_support_remind">"Activer cette fonctionnalité si vous rencontrez des problèmes avec Gmail, Google Maps et d'autres applications Google. Cela réduira légèrement la durée de vie de la batterie."</string>
+    <string name="gmscore_support_remind">"Activez cette fonctionnalité si vous rencontrez des problèmes avec Gmail, Google Maps et d'autres applications Google. Cela réduira légèrement la durée de vie de la batterie."</string>
     <string name="google_base_app_install_choice">"\"%s\" nécessite un framework des services Google pour fonctionner normalement, voulez-vous le télécharger et l'installer maintenant ?"</string>
     <string name="application_item_disable">Limité</string>
     <string name="application_item_already_permission">Autorisé</string>
@@ -2164,7 +2167,7 @@ votre appareil"</string>
     <string name="wifi_optizition_tip">"Activer l'augmentation de la vitesse du Wi-Fi afin de stabiliser davantage la connexion Wi-Fi. Un petit montant de données mobiles sera utilisé."</string>
     <string name="wifi_optizition_loading">"Activation de l'augmentation de la vitesse du réseau via Xunyou…"</string>
     <string name="free_send_net_booster">Augmentation de la vitesse du réseau gratuite</string>
-    <string name="free_send_net_booster_tip">"Profiter d'une expérience de jeux fluide avec une augmentation gratuite de la vitesse du réseau."</string>
+    <string name="free_send_net_booster_tip">"Profitez d'une expérience de jeux fluide avec une augmentation gratuite de la vitesse du réseau."</string>
     <string name="free_send_net_booster_busniess">Obtenir un accélérateur de vitesse Xunlei gratuit</string>
     <string name="free_send_net_booster_busniess_tip">Appuyez pour recevoir</string>
     <string name="net_booster_overdue_notification">"La session d'augmentation de la vitesse du réseau prendra bientôt fin"</string>
@@ -2180,7 +2183,7 @@ votre appareil"</string>
     <string name="thermal_tips_title">Attention</string>
     <string name="thermal_tips_message">Jouer à des jeux en mode Performance peut entraîner des problèmes de surchauffe.</string>
     <string name="forbid_autobright_title">Ajuster la luminosité de lcran</string>
-    <string name="forbid_autobright_summary">"Luminosité de l'écran restera identique lorsque vous jouerez des jeux"</string>
+    <string name="forbid_autobright_summary">"Luminosité de l'écran restera identique lorsque vous jouerez à des jeux"</string>
     <string name="gamebooster_lowbattery_notification_title">La batterie est inférieure à 5%%</string>
     <string name="gamebooster_lowbattery_notification_summary">"Chargez votre appareil avant qu'il ne s'éteigne."</string>
     <string name="game_ad_recommendation">Tout le monde joue</string>
@@ -2197,6 +2200,25 @@ votre appareil"</string>
     <string name="gb_cutoff">|</string>
     <string name="gb_ad_game_size">Mo</string>
     <string name="gb_new_feature">Nouvelle fonctionnalité</string>
+    <string name="gb_sign_notification_title">Augmentez la vitesse du réseau pour les jeux</string>
+    <string name="gb_sign_notification_summary">"S'enregistrer quotidiennement pour recevoir le boost Xunyou"</string>
+    <string name="gs_sign_notification">Rappel de vérification à 20 heures tous les jours</string>
+    <string name="gb_sign_gift">Enregistrez-vous pour obtenir des récompenses</string>
+    <string name="signed_rule">Règles</string>
+    <string name="signed_rule_one">"1. S'enregistrer tous les 10, 20 ou 28 jours d'affilés tous les mois pour obtenir un boost Xunyou pour 1, 2 ou 3 jours respectivement."</string>
+    <string name="signed_rule_two">2.Vous pouvez obtenir seulement 1 boost Xunyou par mois.</string>
+    <string name="signed_rule_three">"3.Les jours d'enregistrement sont annulés au début de chaque mois. Les jours restants ne sont pas reportés."</string>
+    <string name="gb_get_gift_right_now">"S'enregistrer maintenant"</string>
+    <string name="gb_have_signed">"S'enregistrer aujourd'hui"</string>
+    <string name="gb_sign_gift_button_text">Recevoir</string>
+    <string name="gb_xunyou_gift_type_one">Boost Xunyou 1 jour</string>
+    <string name="gb_xunyou_gift_type_two">Boost Xunyou 2 jours</string>
+    <string name="gb_xunyou_gift_type_three">Boost Xunyou 3 jours</string>
+    <string name="gb_signed_title">"S'enregistrer dans le mois"</string>
+    <string name="gb_network_status_bad">Une erreur de connexion est survenue.</string>
+    <string name="gs_open_game_booster_summary">Augmentez la vitesse du réseau pour les jeux</string>
+    <string name="gb_signed_gift_loading_summary">Un instant…</string>
+    <string name="gb_signed_gift_loading_fail">Chargement impossible</string>
     <string name="power_center_consume_rank">Utilisation de la batterie</string>
     <string name="power_center_custom_title">"Profils de gestion d'énergie"</string>
     <string name="power_center_auto_shutdown_summary_default">Allumer ou éteindre votre appareil à une heure programmée</string>

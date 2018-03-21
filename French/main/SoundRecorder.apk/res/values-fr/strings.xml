@@ -151,4 +151,5 @@
     <string name="head_set_tip_dialog_msg">"Déconnectez vos écouteurs afin d'enregistrer du son avec des préréglages spécifiques (ex. Musique, Voix)."</string>
     <string name="head_set_tip_dialog_ok">"C'est compris"</string>
     <string name="rename_fail_tip">Impossible de renommer. Un élément avec ce nom existe déjà.</string>
+    <string name="dialog_privacy_revoke_tips">"Après avoir révoqué l'autorisation, l'application arrêtera de collecter les données et toutes les données associées seront supprimées des serveurs. Cela pourrait rendre l'application pratiquement inutilisable. Révoquer l'autorisation quand même ? Pour vous assurer de la sécurité de votre compte, connectez-vous à i.mi.com avant de révoquer l'autorisation des services Mi Cloud."</string>
 </resources>
