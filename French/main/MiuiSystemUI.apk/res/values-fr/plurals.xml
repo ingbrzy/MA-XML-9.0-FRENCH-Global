@@ -25,8 +25,8 @@
         <item quantity="one">Masquer les notifications de %1$s &amp; %2$d application.</item>
     </plurals>
     <plurals name="view_realtime_clear">
-        <item quantity="other">Clear</item>
-        <item quantity="one">Clear</item>
+        <item quantity="other">Dégagé</item>
+        <item quantity="one">Dégagé</item>
     </plurals>
     <plurals name="accessibility_desc_weather_temperature">
         <item quantity="other">Météo %d degrés</item>

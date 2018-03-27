@@ -245,7 +245,7 @@ pour les voir à tout moment"</string>
     <string name="add_finger_print">Ajouter une empreinte digitale</string>
     <string name="please_diff_finger_print">"Assurez-vous que vous utilisez des empreintes digitales différentes pour le Premier Espace et le Second espace.
 Dans le cas contraire vous pourrez ne plus avoir accès au Second espace depuis l'Écran de verrouillage."</string>
-    <string name="start_input_finger_print">Ajouter une empreinte dgigitale</string>
+    <string name="start_input_finger_print">Ajouter une empreinte digitale</string>
     <string name="need_set_second_space_pwd_first">Définir le mot de passe du Second espace</string>
     <string name="need_set_second_space_desc">"Ajoutez le mot de passe Second espace avant de d'y ajouter une empreinte digitale"</string>
     <string name="setting_fingerprint_title">Ajoutez le mot de passe du Second espace</string>
@@ -358,6 +358,13 @@ Si vous n'effectuez pas la mise à jour, les applications clônées peuvent ne p
     <string name="sdcradfs_dialog_in_sec_message">"Pour mettre à jour, vous devez supprimer votre second espace, puis le créer à nouveau. Déplacez les données depuis le Second espace vers le premier et redémarrez votre appareil pour terminer la mise à jour.
 Si vous n'effectuez pas la mise à jour, les applications clônées peuvent ne pas fonctionner correctement également."</string>
     <string name="space_created_success">Second espace créé avec succès</string>
+    <string name="encrypt_space_delete_dialog_title">Attention</string>
+    <string name="encrypt_space_delete_dialog_message">"You're about to update Android. After the update, Second space data will become incompatible. To avoid this, move all data to First space, delete Second space, and create it again."</string>
+    <string name="encrypt_space_delete_dialog_click_message">"*If you don't need to move data, %s"</string>
+    <string name="encrypt_space_delete_dialog_click_message_action">delete and create Second space now.</string>
+    <string name="encrypt_space_delete_dialog_positive_text">Move data</string>
+    <string name="encrypt_space_delete_notification_title">Second space</string>
+    <string name="encrypt_space_delete_notification_message">Delete your Second space and create a new one to update your device successfully.</string>
     <string name="space_create_guide_title_1">Protégez votre confidentialité</string>
     <string name="space_create_guide_desc_1">Stocker applications et photos en toute sécurité</string>
     <string name="space_create_guide_title_2">Créer à tout moment</string>
@@ -368,15 +375,14 @@ Si vous n'effectuez pas la mise à jour, les applications clônées peuvent ne p
     <string name="second_space_desktop_tips_dialog_title">Mise à jour importante</string>
     <string name="second_space_desktop_tips_dialog_positive_text">"C'est compris"</string>
     <string name="second_space_desktop_tips_dialog_message">"Après cette mise à jour, les icônes pour déplacer les données et gérer le second espace ne seront plus affiché à l'écran d'accueil. Vous serez en mesure d'accéder à leurs fonctionnalités correspondantes dans Paramètres."</string>
-    <string name="green_guard">蜂巢</string>
-    <string name="bind_device">绑定设备</string>
-    <string name="green_guard_des1">一键绑定设备，操作简单快捷</string>
-    <string name="green_guard_title2">查看定位</string>
-    <string name="green_guard_des2">实时定位查询，守护外出安全</string>
-    <string name="green_guard_title3">管理应用</string>
-    <string name="green_guard_des3">管理设备应用，控制使用时间</string>
-    <string name="experience_more_features">绑定设备后可体验更多功能</string>
-    <string name="add_spare_text">守护中</string>
-    <string name="control_and_guarding">管控守护中</string>
-    <string name="can_not_switch_when_green_kid_active">家长守护中禁止切换分身</string>
+    <string name="green_guard">Contrôle parental</string>
+    <string name="bind_device">Ajouter des appareils</string>
+    <string name="green_guard_des1">Ajoutez des appareils afin de les gérer à distance</string>
+    <string name="green_guard_title2">Voir les infos de localisation</string>
+    <string name="green_guard_des2">Savoir où exactement se trouvent tous les appareils gérés</string>
+    <string name="green_guard_title3">Gérer les applications</string>
+    <string name="green_guard_des3">Contrôle les applications installées et restreint leur utilisation</string>
+    <string name="experience_more_features">Ajouter un appareil afin de voir toutes les fonctionnalités</string>
+    <string name="can_not_switch_when_green_kid_active">Basculer vers le second espace est restreint par le contrôle parental</string>
+    <string name="need_network_when_bind">"Connectez-vous au réseau avant d'ajouter des appareils"</string>
 </resources>

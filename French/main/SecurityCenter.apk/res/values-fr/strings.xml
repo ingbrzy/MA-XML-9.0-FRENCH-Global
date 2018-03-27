@@ -176,7 +176,7 @@ Il sera ajouté aux exceptions, mais les éléments bloqués précédemment n'ap
     <string name="report_success">Message signalé</string>
     <string name="report_error">Impossible de signaler le message</string>
     <string name="report_warning">Signaler %1$s SMS à Mi ? Ces messages et leurs numéros seront envoyés sur les serveurs de Mi pour examen. Les informations personnelles associées a ces messages resteront anonymes.</string>
-    <string name="report_warning_title">Signaler un SMS</string>
+    <string name="report_warning_title">Attention</string>
     <string name="st_sub_title_customize_mode_name">Nom</string>
     <string name="read_all_sms">Tout lire</string>
     <string name="loding">Chargement des données</string>
@@ -423,6 +423,7 @@ de l'opérateur"</string>
     <string name="detail_app_button">"Informations sur l'application"</string>
     <string name="pref_about_traffic_title">"Paramètres d'utilisation des données"</string>
     <string name="pref_traffic_manage_title">Utilisation de données</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Forfait de donnée</string>
     <string name="pref_adjust_traffic_data">"Définir l'utilisation des données"</string>
     <string name="pref_category_title_other">Paramètres supplémentaires</string>
@@ -942,6 +943,7 @@ Cette activité réduit la durée de vie de la batterie."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Cette application peut ralentir
 votre appareil"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Désinstaller %s ?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">"Désinstaller cette application pour résoudre tous les problèmes liés à l'usage de la batterie."</string>
     <string name="om_ill_proc_type_wakelock_title">"L'application bloque le mode veille et décharge la batterie"</string>
@@ -1000,6 +1002,7 @@ votre appareil"</string>
     <string name="usage_type_data_send">Données mobiles envoyées</string>
     <string name="usage_type_no_coverage">Temps sans signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Serveur média</string>
     <string name="power_screen">Écran</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1345,6 +1348,7 @@ votre appareil"</string>
     <string name="menu_text_networkassistants">Utilisation des données</string>
     <string name="menu_text_networkassistants_remain">%s restants</string>
     <string name="menu_text_networkassistants_danger">%s dépassé</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">Go</string>
     <string name="menu_text_networkassistants_unit_mb">Mo</string>
     <string name="menu_text_networkassistants_unit_kb">ko</string>
@@ -1705,6 +1709,7 @@ votre appareil"</string>
     <string name="card_main_deepclean_wechat_action">Vider</string>
     <string name="card_main_sectool_title">Outils</string>
     <string name="card_main_monthreport_action">Afficher</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Tester le réseau</string>
     <string name="card_main_netcheck_summary">Tester la connexion pour des problèmes de réseau</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -2111,8 +2116,8 @@ votre appareil"</string>
     <string name="open_game">Ouvrir</string>
     <string name="try_game">Essayer</string>
     <string name="more_game">Plus de Jeux</string>
-    <string name="sys_title_gamebooster_unit_gb">Go</string>
-    <string name="sys_title_gamebooster_unit_mb">Mo</string>
+    <string name="sys_title_gamebooster_unit_gb">GB</string>
+    <string name="sys_title_gamebooster_unit_mb">MB</string>
     <string name="gmscore_support_service">Services Google</string>
     <string name="gmscore_support_remind">"Activez cette fonctionnalité si vous rencontrez des problèmes avec Gmail, Google Maps et d'autres applications Google. Cela réduira légèrement la durée de vie de la batterie."</string>
     <string name="google_base_app_install_choice">"\"%s\" nécessite un framework des services Google pour fonctionner normalement, voulez-vous le télécharger et l'installer maintenant ?"</string>
@@ -2200,9 +2205,9 @@ votre appareil"</string>
     <string name="gs_sign_notification">Rappel de vérification à 20 heures tous les jours</string>
     <string name="gb_sign_gift">Enregistrez-vous pour obtenir des récompenses</string>
     <string name="signed_rule">Règles</string>
-    <string name="signed_rule_one">"1. S'enregistrer tous les 10, 20 ou 28 jours d'affilés tous les mois pour obtenir un boost Xunyou pour 1, 2 ou 3 jours respectivement."</string>
-    <string name="signed_rule_two">2.Vous pouvez obtenir seulement 1 boost Xunyou par mois.</string>
-    <string name="signed_rule_three">"3.Les jours d'enregistrement sont annulés au début de chaque mois. Les jours restants ne sont pas reportés."</string>
+    <string name="signed_rule_one">1. Check in 10, 20, or 28 days in a row every month to get a Xunyou boost for 1, 2, or 3 days respectively.</string>
+    <string name="signed_rule_two">2. You can get only 1 Xunyou boost per month.</string>
+    <string name="signed_rule_three">"3. Days when you check in are annulled at the beginning of every month. The remaining days aren't rolled over."</string>
     <string name="gb_get_gift_right_now">"S'enregistrer maintenant"</string>
     <string name="gb_have_signed">"S'enregistrer aujourd'hui"</string>
     <string name="gb_sign_gift_button_text">Recevoir</string>

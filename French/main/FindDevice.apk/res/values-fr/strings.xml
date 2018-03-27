@@ -22,6 +22,7 @@
     <string name="find_device_noise_title">"Alarme de localisation de l'appareil"</string>
     <string name="find_device_success_title">"Localiser l'appareil"</string>
     <string name="find_device_notice_p1">Rendez-vous sur</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"pour localiser, verrouiller, ou restaurer votre téléphone.
 Si vous changez de carte SIM, un autre SMS sera envoyé automatiquement pour réactiver ce service."</string>
     <string name="i_know">OK</string>
@@ -78,6 +79,8 @@ Connectez-vous sur i.mi.com et essayez de débloquer votre appareil"</string>
     <string name="default_lock_msg_words_with_phone">"Salut ! J'ai perdu mon téléphone. Pourriez-vous me contacter s'il vous plait ? Merci !"</string>
     <string name="default_lock_msg_words">"Cet appareil est associé avec un compte Mi existant. Pour des raisons de sécurité, vous devez entrer votre mot de passe pour vérifier l'appareil."</string>
     <string name="lock_msg_phone">Information de contact : %s</string>
+    <string name="emergency_call">Emergency Call</string>
+    <string name="return_to_call">Return to Call</string>
     <string name="default_debt_msg_words">"Cet appareil est verrouillé en raison d'un retard de versement.
 Contactez votre agent de vente pour plus de détails."</string>
     <string name="sys_notification_async_verify_title">"Réactiver Localiser l'appareil"</string>

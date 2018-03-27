@@ -154,10 +154,10 @@ Il est impossible de faire un zoom avant sur le clavier ou la barre de navigatio
     <string name="add_fingerprint_name_suggest_text">"Nom de l'empreinte digitale"</string>
     <string name="add_fingerprint_put_finger_edge_msg">"Déplacez votre doigt légèrement et posez le sur le capteur à nouveau afin d'jouter toutes les parties de votre empreinte digitale."</string>
     <string name="add_fingerprint_put_finger_msg">Mettez votre doigt sur le capteur et retirez le lorsque vous sentez une vibration.</string>
-    <string name="add_fingerprint_put_finger_title">Ajouter une empreinte dgigitale</string>
+    <string name="add_fingerprint_put_finger_title">Ajouter une empreinte digitale</string>
     <string name="add_fingerprint_similar_fingerprint_input_error_msg">Déplacez légèrement votre doigt</string>
     <string name="add_fingerprint_success_msg">Ajouté avec succès</string>
-    <string name="add_fingerprint_text">Ajouter une empreinte dgigitale</string>
+    <string name="add_fingerprint_text">Ajouter une empreinte digitale</string>
     <string name="add_fingerprint_toast_text">Placez votre doigt sur le capteur</string>
     <string name="add_front_fingerprint_instruction_msg">"Le capteur d'empreinte digitale est sur le bouton Accueil de votre appareil."</string>
     <string name="add_new">Ajouter</string>
@@ -1941,6 +1941,7 @@ Vous pouvez modifier cette option ultérieurement dans Paramètres > Applicatio
     <string name="key_gesture_function_preview">Aperçus des boutons et gestes</string>
     <string name="key_gesture_function_shortcut">Raccourcis fonctionnels</string>
     <string name="key_none">Aucun</string>
+    <string name="key_operation_diagram">"Diagramme d'opérations"</string>
     <string name="key_position_cat">Emplacement des boutons</string>
     <string name="key_settings">Raccourcis des boutons et gestes</string>
     <string name="key_settings_title">Raccourcis des boutons et gestes</string>
@@ -2030,6 +2031,7 @@ Vous pouvez modifier cette option ultérieurement dans Paramètres > Applicatio
     <string name="launch_google_search">"Lancer l'assistant Google"</string>
     <string name="launch_recents">Lancer les applications récentes</string>
     <string name="launch_voice_assistant">"Lancer l'assistant vocal"</string>
+    <string name="launcher_title">"Écran d'accueil &amp; récents"</string>
     <string name="launching_cit">Démarrage du CIT</string>
     <string name="launching_pho">Lancement des infos du téléphone…</string>
     <string name="launching_rep">Rapport…</string>
@@ -2051,6 +2053,7 @@ Vous pouvez modifier cette option ultérieurement dans Paramètres > Applicatio
     <string name="lift_to_wake_title">Soulever pour activer</string>
     <string name="line_breaking_summary">Optimiser la rupture de la ligne de paragraphe</string>
     <string name="line_breaking_title">Optimiser le texte</string>
+    <string name="link_speed">%1$d Mbit/s</string>
     <string name="loading_notification_apps">Chargement des applications en cours…</string>
     <string name="local_auto_backup_off">Désactivé</string>
     <string name="local_auto_backup_on">Activé</string>
@@ -2384,6 +2387,7 @@ D'autres personnes utilisent cet appareil.
     <string name="memory_title">Disponible : %1$s\u0009\u0009Total : %2$s</string>
     <string name="memory_usage">Utilisation de la mémoire</string>
     <string name="memory_usage_apps">Mémoire utilisée par les applications</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">%1$s de mémoire utilisé(s) au cours des trois dernières heures en moyenne</string>
     <string name="menu_cancel">Annuler</string>
     <string name="menu_check">Expérience</string>
@@ -2590,8 +2594,11 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="nfc_how_it_works_got_it">OK</string>
     <string name="nfc_how_it_works_title">Paiement à un terminal</string>
     <string name="nfc_more_title">Plus...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Application de paiement par défaut</string>
     <string name="nfc_payment_default_not_set">Non définie</string>
+    <string name="nfc_payment_favor_default">"Toujours utiliser l'application par défaut"</string>
+    <string name="nfc_payment_favor_open">"Remplacer l'application par défaut lorsqu'une autre application de paiement est ouverte"</string>
     <string name="nfc_payment_how_it_works">Fonctionnement</string>
     <string name="nfc_payment_no_apps">Payez avec votre téléphone dans les magasins.</string>
     <string name="nfc_payment_pay_with">Application à utiliser pour le paiement sans contact :</string>
@@ -2776,6 +2783,7 @@ L'application pourra aussi activer ou désactiver le mode Ne pas déranger, et m
     <string name="overlay_display_devices_title">Simuler des écrans secondaires</string>
     <string name="overlay_settings">Superposer aux autres applis</string>
     <string name="owner_info_settings_edit_text_hint">"Exemple : l'Android de Jean"</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Aucun</string>
     <string name="owner_info_settings_title">"Signature de l'écran de verrouillage"</string>
     <string name="owner_space">Premier espace</string>
@@ -3043,6 +3051,7 @@ L'application pourra aussi activer ou désactiver le mode Ne pas déranger, et m
     <string name="private_sms_recording_intro_header">Dessinez un schéma de déverrouillage :</string>
     <string name="private_sms_reset_by_account">Pour réinitialiser votre mot de passe, connectez-vous à votre compte Mi</string>
     <string name="process_dex2oat_label">Optimisation des applications</string>
+    <string name="process_kernel_label">Plate-forme Android</string>
     <string name="process_mediaserver_label">Serveur multimédia</string>
     <string name="process_provider_in_use_description">"L'opérateur %1$s est actuellement utilisé."</string>
     <string name="process_service_in_use_description">Le service %1$s est actuellement utilisé.</string>
@@ -3063,6 +3072,7 @@ L'application pourra aussi activer ou désactiver le mode Ne pas déranger, et m
     <string name="profile_section_header">Notifications profil pro</string>
     <string name="progress_scanning">Recherche en cours</string>
     <string name="provider_label">Abonnements Push</string>
+    <string name="provision_activation">Actif</string>
     <string name="provision_back">Retour</string>
     <string name="provision_next">Suivant</string>
     <string name="provision_page_layout_confirm_message">Votre appareil doit redémarrer pour prendre en charge ces modifications. Cela peut prendre environ 1 minute.</string>
@@ -3872,6 +3882,7 @@ Le code PIN est peut-être incorrect."</string>
     <string name="sim_reenter_new">"Saisissez à nouveau le code d'accès."</string>
     <string name="sim_select_card">Sélectionnez une carte SIM</string>
     <string name="sim_selection_required_pref">Veuillez sélectionner une option.</string>
+    <string name="sim_settings_summary">%1$s : %2$s</string>
     <string name="sim_settings_title">Cartes SIM</string>
     <string name="sim_setup_wizard_title">Cartes SIM</string>
     <string name="sim_signal_strength">%1$d dBm %2$d asu</string>
@@ -3945,6 +3956,7 @@ Un certificat de confiance installé sur votre appareil rend cela possible."</st
     <string name="status_bar_app_enable_floating">Notifications flottantes</string>
     <string name="status_bar_app_enable_keyguard">Écran de vérrouillage</string>
     <string name="status_bar_key_position_custom">Modifier les positions des boutons</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="status_bar_screen_button_force_immersive_desc">"Balayez du haut vers le bas de l'écran pour afficher les boutons virtuels"</string>
     <string name="status_bar_screen_button_key_force_immersive">"Masquer les boutons à l'écran"</string>
     <string name="status_bar_screen_key_back">Bouton Retour</string>
@@ -4170,6 +4182,7 @@ Veuillez utiliser un ^1 plus rapide pour de meilleures performances."</string>
     <string name="suggestion_remove">Supprimer</string>
     <string name="suggestions_summary">+ %1$d</string>
     <string name="sum_carrier_select">Sélectionner un opérateur de réseau</string>
+    <string name="summary_range_symbol_combination">%1$s – %2$s</string>
     <string name="summary_range_verbal_combination">Du %1$s au %2$s</string>
     <string name="supl_not_set">&lt;Non défini></string>
     <string name="support_account_picker_add_account">Ajouter un compte</string>
@@ -5324,6 +5337,7 @@ Toucher"<b> Retour</b> pour se connecter à un autre réseau Wi-Fi.</string>
     <string name="zen_mode_summary_alarms_only_by_time">"Ne recevoir que les alarmes jusqu'à %1$s"</string>
     <string name="zen_mode_summary_alarms_only_indefinite">Ne recevoir que les alarmes sans limite de temps</string>
     <string name="zen_mode_summary_always">Toujours interrompre</string>
+    <string name="zen_mode_summary_combination">%1$s : %2$s</string>
     <string name="zen_mode_visual_interruptions_settings_title">Bloquer nuisances visuelles</string>
     <string name="zen_mode_when">Activation auto</string>
     <string name="zen_mode_when_every_night">Tous les soirs</string>

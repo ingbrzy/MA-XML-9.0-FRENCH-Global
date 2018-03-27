@@ -59,6 +59,8 @@
     <string name="sync_dspt_provision_title">Mi Cloud</string>
     <string name="sync_dspt_provision_header">Synchronisation</string>
     <string name="sync_dspt_provision">"Synchroniser vos photos, contacts, notes, et plus sur tous vos appareils ou y accéder sur "</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". Vous pouvez activer et désactiver cette fonctionnalité quand vous le voulez dans les Paramètres.
 "</string>
     <string name="sync_dspt_entrance_provision">"Synchronisez vos photos, contacts, historique d'appels et messages entre vos appareils. Vous pouvez accéder aux données synchronisées sur %s. "</string>
@@ -70,6 +72,8 @@
     <string name="sync_dspt_entrance_provision_skip">Ignorer cette étape</string>
     <string name="sync_dspt_entrance_provision_network">"Cette application doit se connecter à Internet pour fonctionner normalement. La synchronisation des données peut nécessiter la connexion des données mobiles et l'activation du Wi-Fi."</string>
     <string name="find_device_dspt_provision">Si vous perdez votre appareil, vous pouvez aller sur %s pour localiser, verrouiller ou réinitialiser celui-ci. Vous pouvez activer ou désactiver cette fonction dans les Paramètres.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_dspt_provision_3">. Vous pouvez activer et désactiver cette fonctionnalité quand vous le voulez dans les Paramètres.</string>
     <string name="find_device_dspt_provision_4">Si vous basculez entre les cartes SIM, un SMS vous sera automatiquement envoyé pour réactiver cette fonction.</string>
     <string name="find_device_send_sms_alert">Si vous changez de carte SIM, un SMS sera envoyé automatiquement pour réactiver ce service.</string>
@@ -89,10 +93,8 @@ Cette fonctionnalité crypte et envoie l'ID de votre appareil aux serveurs Mi."<
 Cette fonctionnalité crypte et envoie l'ID de votre appareil aux serveurs de Mi."</string>
     <string name="user_agreement_p5">"
 "</string>
-    <string name="user_agreement_p6">"
-En utilisant ce service, vous acceptez "</string>
-    <string name="user_agreement_p7">Modalités du service Mi Cloud</string>
-    <string name="user_agreement_p8">.</string>
+    <string name="user_agreement_link">"Mi Cloud's Terms of Service"</string>
+    <string name="user_agreement_content">"By using this service, you're agreeing to %s."</string>
     <string name="user_agreement_title">Modalités du service Mi Cloud</string>
     <string name="privacy_policy">Politique de confidentialité</string>
     <string name="loading">Un instant…</string>
@@ -120,6 +122,7 @@ En utilisant ce service, vous acceptez "</string>
     <string name="find_device_error_server">Erreur du serveur</string>
     <string name="find_device_success_title">"Localiser l'appareil"</string>
     <string name="find_device_notice_p1">Rendez-vous sur</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"pour localiser, verrouiller, ou restaurer votre téléphone.
 Si vous changez de carte SIM, un autre SMS sera envoyé automatiquement pour réactiver ce service."</string>
     <string name="i_know">OK</string>
@@ -168,7 +171,7 @@ Si vous changez de carte SIM, un autre SMS sera envoyé automatiquement pour ré
     <string name="micloud_user_space_usage">Espace de stockage</string>
     <string name="micloud_web_discription_01">Connectez-vous sur i.mi.com</string>
     <string name="micloud_web_discription_02">"pour stocker et accéder à vos fichiers depuis n'importe où"</string>
-    <string name="micloud_web_discription_place_holder">Visiter%1$s</string>
+    <string name="micloud_web_discription_place_holder">Visit %1$s on your computer to manage your data.</string>
     <string name="micloud_full_influence_title">Lorsque votre Mi Cloud est plein…</string>
     <string name="micloud_warn_low_title">Bientôt plein</string>
     <string name="micloud_warn_low_sum">Votre Mi Cloud est rempli à 90%.</string>
@@ -363,9 +366,6 @@ Une carte bancaire de Chine est nécessaire à l'achat d'espace de stockage supp
     <string name="buy_more_space_c_class">"Une carte de crédit d'une banque chinoise est nécessaire pour utiliser cette fonctionnalité. 
  Pour obtenir plus d'espace de stockage, visitez mi.com/micloud."</string>
     <string name="micloud_member_buy_title">Confirmer la commande</string>
-    <string name="micloud_member_buy_content" formatted="false">"Valide jusqu'au %s-%s-%s
-
-%s Crédits Mi"</string>
     <string name="micloud_member_net_error_alert_title">Impossible de se connecter au réseau</string>
     <string name="micloud_member_net_error_alert_message">"Vous n'êtes pas connecté à Internet."</string>
     <string name="micloud_member_pay_fail_toast">Impossible de terminer le paiement</string>
@@ -481,6 +481,8 @@ Dernière sauvegarde à %2$s"</string>
     <string name="micloud_find_device_opened">"Localiser l'appareil est activé"</string>
     <string name="micloud_find_device_open_fail">"Impossible d'activer Localiser l'appareil"</string>
     <string name="micloud_find_device_opened_content">Localisez votre appareil à %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
+    <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
     <string name="micloud_find_device_verify_fail">"Impossible de réactiver Localiser l'appareil"</string>
     <string name="micloud_find_device_close_fail">"Impossible de désactiver Localiser l'appareil"</string>
     <string name="micloud_find_device_finish">Terminé</string>
@@ -560,6 +562,8 @@ Dernière sauvegarde à %2$s"</string>
     <string name="micloud_main_head_menu_state_close">Désactivé</string>
     <string name="micloud_main_head_menu_state_unavailable">Non disponible</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">"Localiser l'appareil n'est pas disponible dans le second espace, vous pouvez l'utiliser dans le premier espace."</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">Paiements avec empreintes digitales</string>
     <string name="ks_name_fido">FIDO</string>
     <string name="ks_name_alipay">IFAA</string>
