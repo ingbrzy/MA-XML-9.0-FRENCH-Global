@@ -6,6 +6,9 @@ Taille : %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Version %1$s
 Taille de la mise à jour : %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Stockage indisponible, vérifiez votre carte SD.</string>
+    <string name="xiaomi_bytes_unit">%1$s o</string>
+    <string name="xiaomi_kilobytes_unit">%1$s ko</string>
+    <string name="xiaomi_megabytes_unit">%1$s Mo</string>
     <string name="xiaomi_connect_download_manager_fail">Impossible de démarrer le téléchargement. Vérifier que le gestionnaire de téléchargements fonctionne normalement.</string>
     <string name="app_name">Sauvegarde</string>
     <string name="local_app_name">Sauvegarde</string>
@@ -46,7 +49,7 @@ Taille de la mise à jour : %2$s"</string>
     <string name="restore_launcher_layout_hit">"Restaurer les paramètres du lanceur d'applications"</string>
     <string name="settings_summary">Paramètres du téléphone et de la messagerie</string>
     <string name="camera_summary">"Paramètres de l'appareil photo (n'inclut pas les photos)"</string>
-    <string name="account_summary">Back up Google Account, Mi Account, and other user data</string>
+    <string name="account_summary">"Sauvegardez le compte Google, le compte Mi et d'autres données utilisateur"</string>
     <string name="cloud_app_name">Sauvegarde Mi Cloud</string>
     <string name="cloud_home_title">Mi Cloud</string>
     <string name="prompt_reading">Lecture...</string>
@@ -194,7 +197,7 @@ Taille de la mise à jour : %2$s"</string>
     <string name="enable_encrypt_summery1">Connectez-vous avec votre compte Mi pour accéder à vos sauvegardes chiffrées.</string>
     <string name="enable_encrypt_summery2">Vos sauvegardes seront automatiquement chiffrées. Vous devrez être connecté à votre compte Mi pour y accéder.</string>
     <string name="enable_encrypt_xiaomi_account">Cette sauvegarde a été créée par %1$s, supprimez le compte courant XIAOMI et identifiez-vous en tant que %2$s pour restaurer les données.</string>
-    <string name="enable_encrypt_ok">OK</string>
+    <string name="button_got_it">OK</string>
     <string name="no_encrypt_password">Pas de mot de passe</string>
     <string name="enable_encrypt_fail">Erreur de chiffrement</string>
     <string name="read_encrypt_fail">Impossible de lire la sauvegarde chiffrée</string>
@@ -225,6 +228,7 @@ Taille de la mise à jour : %2$s"</string>
     <string name="restore_backup">Restaurer</string>
     <string name="enable_encrypt_description">Chiffrer</string>
     <string name="disable_encrypt_description">Ne pas chiffrer</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Un instant…</string>
     <string name="state_mounting">Accès au stockage du routeur…</string>
     <string name="abort_backup_confirm">"La sauvegarde n'est pas terminée. Arrêter quand même ?"</string>
@@ -246,7 +250,11 @@ Taille de la mise à jour : %2$s"</string>
     <string name="err_filesystem_mount">"Impossible d'accéder au stockage du routeur"</string>
     <string name="err_router_disconnected">Vérifiez la connexion de votre routeur et essayez à nouveau.</string>
     <string name="err_router_files_delete">Impossible de supprimer les fichiers de sauvegarde sur le routeur</string>
-    <string name="err_not_allow">Not supported</string>
+    <string name="err_not_allow">Non pris en charge</string>
+    <string name="err_bakfile_not_exist">"Le fichier de sauvegarde n'existe pas."</string>
+    <string name="err_pkg_not_exist">"Impossible de trouver l'application."</string>
+    <string name="err_user_abort">"Annulé par l'utilisateur."</string>
+    <string name="err_binder_died">"L'application s'est arrêtée de manière inattendue."</string>
     <string name="backup_is_running">"Sauvegarde de l'appareil"</string>
     <string name="restore_is_running">"Restauration de l'appareil"</string>
     <string name="notif_backup_title">Sauvegarder les données</string>
@@ -285,8 +293,7 @@ En attente de l'ancien appareil de se connecter…"</string>
 Ne désactivez pas le Wi-Fi. Gardez vos appareils proches l'un de l'autre."</string>
     <string name="trans_receiver_time_remained">"%s restant.
 Ne désactivez pas le point d'accès Wi-Fi. Gardez les appareils proches l'un de l'autre."</string>
-    <string name="trans_time_spent">"
-Temps écoulé : %s"</string>
+    <string name="trans_time_spent">Temps écoulé : %s</string>
     <string name="trans_restoring_no_items">Synchronisation des fichiers</string>
     <string name="trans_detail_category_sysdata">"Données systèmes (messages, contacts et historique d'appels inclus)"</string>
     <string name="trans_detail_category_userdata">Applications</string>
@@ -352,21 +359,27 @@ Appuyer [Je suis le receveur] pour créer le code QR"</string>
 Puis appuyez sur \"Reconnecter\" pour générer un code QR."</string>
     <string name="trans_operate_reconnect_old_tips">"Patientez jusqu'à ce que l'ancien téléphone affiche \"La connexion a été interrompue\".
 Puis appuyez sur \"Reconnecter\" pour générer un code QR."</string>
+    <string name="trans_generating_qrcode">Génération du code QR…</string>
+    <string name="trans_generate_qrcode_failed">Impossible de générer le code QR. Réessayer.</string>
     <string name="trans_wait_trans_data">"Connectez l'ancien appareil.
 En attente de transfert…"</string>
     <string name="trans_select_data">Sélectionner les éléments à envoyer</string>
     <string name="trans_select_data_tips">"Sélectionnez des fichiers à transférer
 Les doublons sur le nouvel appareil seront écrasés"</string>
-    <string name="trans_select_data_no_space">"Espace insuffisant sur le nouvel appareil
-Sélectionnez les fichiers à nouveau ou libérez %s de stockage sur le nouvel appareil"</string>
+    <string name="trans_select_data_no_space">"L'espace de stockage sur le nouveau périphérique (%s disponible) est insuffisant.
+Libérez de l'espace de stockage ou ne transférez que des éléments importants."</string>
     <string name="trans_select_data_too_large">"Vous avez sélectionné trop d'éléments à transférer.
 Sélectionnez uniquement les éléments importants afin de transférer plus rapidement."</string>
     <string name="trans_calculating_base_size">Calcul de la taille des données</string>
     <string name="trans_calculating">Calcul en cours…</string>
-    <string name="trans_native_no_space">"Espace insuffisant sur cet appareil.
-Vider au moins %s."</string>
+    <string name="trans_native_no_space">"L'espace de stockage sur l'ancien périphérique (%s disponible) est insuffisant.
+Libérez de l'espace de stockage ou ne transférez que des éléments importants."</string>
     <string name="trans_calculating_app_sd_size">Calcul de la taille : %s</string>
     <string name="trans_please_waiting">Un instant…</string>
+    <string name="trans_old_phone_low_space_title">Espace de stockage insuffisant</string>
+    <string name="trans_old_phone_low_space_msg">"Mi Mover a besoin d'espace de stockage pour regrouper les données transférées, mais il semble que l'espace disponible sur l'ancien appareil est insuffisant. Libérez de l'espace dans \"Sécurité\" ou ne transférez que des éléments importants."</string>
+    <string name="button_clean_garbage">"Libérer de l'espace"</string>
+    <string name="button_quit">Quitter</string>
     <string name="size_byte">o</string>
     <string name="size_kilo_byte">ko</string>
     <string name="size_mega_byte">Mo</string>
@@ -421,6 +434,7 @@ Vider au moins %s."</string>
     <string name="trans_disconnected_tips_title">Appareil distant déconnecté</string>
     <string name="trans_disconnected_tips_message">Appareil distant déconnecté. Reconnectez-le manuellement ou annulez le transfert.</string>
     <string name="trans_button_cancel">Annuler</string>
+    <string name="trans_failed_details_page_title">Transferts sans succès</string>
     <string name="close_twice_auth_tutor">"Désactivez l'authentification à 2 facteurs de l'identifiant Apple"</string>
     <string name="close_twice_auth_steps">"Suivez ces étapes pour désactiver l'authentification à 2 facteurs de l'identifiant Apple :"</string>
     <string name="close_twice_auth_step_1">"1. Ouvrez n'importe quel navigateur sur n'importe quel ordinateur et rendez-vous sur appleid.apple.com."</string>
@@ -489,6 +503,7 @@ https://appleid.apple.com/#!&amp;page=signin pour désactiver"</string>
 ous devez d'abord créer une sauvegarde iCloud."</string>
     <string name="list_footer_tip_title">Astuces :</string>
     <string name="import_tip_summary">En raison des problèmes de compatibilité, vous pouvez seulement transférer partiellement les données depuis vos appareil iOS. Assurez-vous de créer une sauvegarde iCloud avant de commencer le transfert.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importer</string>
     <string name="select_empty">Sélectionner les éléments à importer</string>
     <string name="select_item_summary_wait">En attente…</string>

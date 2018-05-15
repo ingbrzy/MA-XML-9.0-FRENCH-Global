@@ -5,8 +5,8 @@
         <item quantity="one">Total %d chanson</item>
     </plurals>
     <plurals name="Nassociate_songs">
-        <item quantity="other">La recherche de couvertures d’albums et les paroles (%1$d /%2$d)</item>
-        <item quantity="one">La recherche de couvertures d’albums et les paroles (%1$d /%2$d)</item>
+        <item quantity="other">"La recherche de couvertures d'albums et les paroles (%1$d /%2$d)"</item>
+        <item quantity="one">"La recherche de couvertures d'albums et les paroles (%1$d /%2$d)"</item>
     </plurals>
     <plurals name="Nbackup_songs">
         <item quantity="other">Sauvegarde des chansons, %1$d chansons restantes (%2$.1f Mo)</item>
@@ -17,8 +17,8 @@
         <item quantity="one">"Le lecteur va s'arrêter dans %d minute"</item>
     </plurals>
     <plurals name="Nrecognize_switch_off_alert_message">
-        <item quantity="other">Vous avez choisi de ne pas trouver des couvertures d’albums et les paroles des chansons locales automatiquement. Suppression des infos pour %d chansons?</item>
-        <item quantity="one">Vous avez choisi de ne pas trouver des couvertures d’albums et les paroles des chansons locales automatiquement. Suppression des infos pour %d chanson?</item>
+        <item quantity="other">"Vous avez choisi de ne pas trouver des couvertures d'albums et les paroles des chansons locales automatiquement. Suppression des infos pour %d chansons ?"</item>
+        <item quantity="one">"Vous avez choisi de ne pas trouver des couvertures d'albums et les paroles des chansons locales automatiquement. Suppression des infos pour %d chanson ?"</item>
     </plurals>
     <plurals name="Nsong_group_detail_subtitle">
         <item quantity="other">Créé sur %1$s | total %2$d chansons</item>
@@ -59,6 +59,12 @@
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">Supprimer %d éléments ?</item>
         <item quantity="one">Supprimer %d élément ?</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message_with_file">
+        <item quantity="other">"Delete %d items?
+Note: Files will be deleted from this device as well."</item>
+        <item quantity="one">"Delete %d item?
+Note: File will be deleted from this device as well."</item>
     </plurals>
     <plurals name="dialog_delete_descript">
         <item quantity="other">Supprimer %d chansons ?</item>

@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="sync_items_close">
-        <item quantity="other">%d sont désactivés</item>
-        <item quantity="one">%d est désactivé</item>
-    </plurals>
     <plurals name="items_unsynced">
         <item quantity="other">Éléments en attente de synchronisation : %d</item>
         <item quantity="one">Éléments en attente de synchronisation : %d</item>
-    </plurals>
-    <plurals name="items_waiting_to_sync">
-        <item quantity="other">%d éléments en attente de synchronisation</item>
-        <item quantity="one">%d élément en attente de synchronisation</item>
     </plurals>
     <plurals name="dirty_contacts_count">
         <item quantity="other">%d contacts</item>

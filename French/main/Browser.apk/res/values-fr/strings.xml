@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="common_google_play_services_enable_button">Activer</string>
+    <string name="common_google_play_services_enable_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas activé les services Google Play."</string>
+    <string name="common_google_play_services_enable_title">Activer les services Google Play</string>
+    <string name="common_google_play_services_install_button">Installer</string>
+    <string name="common_google_play_services_install_text">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre appareil.</string>
+    <string name="common_google_play_services_install_title">Installer les services Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Erreur liée aux services Google Play</string>
     <string name="common_google_play_services_unknown_issue">"L'application %1$s rencontre des problèmes avec les services Google Play. Veuillez réessayer."</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas compatibles avec votre appareil.</string>
+    <string name="common_google_play_services_update_button">Mettre à jour</string>
+    <string name="common_google_play_services_update_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas mis à jour les services Google Play."</string>
+    <string name="common_google_play_services_update_title">Mettre à jour les services Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s ne fonctionnera pas sans les services Google Play, qui sont en cours de mise à jour.</string>
+    <string name="common_google_play_services_wear_update_text">La nouvelle version des services Google Play est nécessaire. Elle sera bientôt installée automatiquement.</string>
+    <string name="common_open_on_phone">Ouvrir sur le téléphone</string>
+    <string name="common_signin_button_text">Se connecter</string>
+    <string name="common_signin_button_text_long">Se connecter avec Google</string>
+    <string name="s1">"Enregistrer l'image"</string>
+    <string name="s2">"Autoriser l'annonce à stocker l'image dans la galerie d'images ?"</string>
+    <string name="s3">Accepter</string>
+    <string name="s4">Refuser</string>
+    <string name="s5">"Créer un événement d'agenda"</string>
+    <string name="s6">"Autoriser l'annonce à créer un événement d'agenda ?"</string>
     <string name="abc_action_bar_home_description">"Aller à la page d'accueil"</string>
     <string name="abc_action_bar_up_description">Aller vers le haut</string>
     <string name="abc_action_menu_overflow_description">Plus</string>
@@ -51,6 +73,8 @@
     <string name="actionbar_textselection_title">Sélection de texte</string>
     <string name="actionbar_web_search">Recherche Web</string>
     <string name="ad_btn_default_text">Installer</string>
+    <string name="ad_mark">Pub</string>
+    <string name="ad_sponsored">Sponsorisé</string>
     <string name="adblock_force_updating_rules_toast">Mise à jour du bloqueur de pub</string>
     <string name="adblock_rules_not_updated_toast">Impossible de mettre à jour</string>
     <string name="adblock_rules_restore">Débloquer</string>
@@ -88,6 +112,7 @@
     <string name="aqi_quality_index_moderate">Modéré</string>
     <string name="aqi_quality_index_pure">Excellent</string>
     <string name="aqi_quality_index_unhealthy">Malsain</string>
+    <string name="articles_updated">%1$d articles mis à jour</string>
     <string name="autoSwithcingSearchEngineTips">Basculé sur le moteur de recherche habituel</string>
     <string name="autofill_keyboard_accessory_content_description">Suggestions disponibles</string>
     <string name="autofill_popup_content_description">Affichage du menu contextuel de remplissage automatique</string>
@@ -111,9 +136,9 @@
     <string name="bookmark_group_lable">Groupe</string>
     <string name="bookmark_needs_title">Le favoris doit avoir un nom</string>
     <string name="bookmark_needs_url">Le favoris doit contenir une URL</string>
-    <string name="bookmark_not_saved">"Couldn't add to bookmarks"</string>
+    <string name="bookmark_not_saved">"Impossible d'ajouter aux favoris"</string>
     <string name="bookmark_rename_group">Renommer le groupe</string>
-    <string name="bookmark_saved">Added to bookmarks</string>
+    <string name="bookmark_saved">Ajouté aux favoris</string>
     <string name="bookmark_title">Nom du favori</string>
     <string name="bookmark_title_lable">Titre</string>
     <string name="bookmark_url">URL http://</string>
@@ -135,11 +160,14 @@
     <string name="cancel">Annuler</string>
     <string name="cannot_download">Peut seulement télécharger des URL \"http\" ou \"https\"</string>
     <string name="card_setting_close_recommend">Recevoir des recommandations</string>
+    <string name="channels_edit">Éditer</string>
+    <string name="channels_finish">Terminer</string>
     <string name="choosertitle_sharevia">Partager via</string>
     <string name="clear_history">"Effacer l'historique"</string>
     <string name="clear_most_visited">Historique récent</string>
     <string name="clear_search_history">"Effacer l'historique"</string>
     <string name="clear_video_download">Supprimer les vidéos</string>
+    <string name="click_to_refresh">Arrêté ici la fois dernière, appuyez pour actualliser</string>
     <string name="clip_dialog_title">"Ouvrir l'URL copiée ?"</string>
     <string name="close_ads_choice_no">Autoriser</string>
     <string name="close_ads_choice_yes">Bloquer</string>
@@ -169,6 +197,7 @@
     <string name="color_picker_dialog_title">Sélectionner une couleur</string>
     <string name="color_picker_hue">Teinte</string>
     <string name="color_picker_saturation">Saturation</string>
+    <string name="color_picker_value">Valeur</string>
     <string name="comment_app_menu">Commentaire</string>
     <string name="comment_description">Commentaire</string>
     <string name="comment_hint">Commentaire</string>
@@ -198,6 +227,7 @@
     <string name="contextmenu_webpage_snapshot">Enregistrer la page</string>
     <string name="copy_to_clipboard_failure_message">Impossible de copier dans le presse-papier.</string>
     <string name="copy_url">"Copier l'URL"</string>
+    <string name="could_not_load_data">Impossible de charger les données, actualiser et réessayer</string>
     <string name="create_qr_code">Code QR</string>
     <string name="current_version_pad">Tablette</string>
     <string name="current_version_pc">Ordinateur de bureau</string>
@@ -205,9 +235,10 @@
     <string name="custom_head_card_text">Toujours croire que quelque chose de merveilleux va se produire</string>
     <string name="custom_head_card_text_incognito">"Vous êtes en incognito ! 
 Les pages que vous visitez n'apparaîtront pas dans l'historique."</string>
+    <string name="data_error">Erreur de données</string>
     <string name="data_traffic_prompt_change">Utiliser votre connexion de données mobiles pour visionner des vidéos augmentera votre consommation de données. Si vous dépassez la limite de votre forfait, votre opérateur de téléphonie mobile pourrait vous facturer des frais supplémentaires.</string>
     <string name="data_traffic_prompt_message">Utiliser votre connexion de données mobiles pour télécharger des vidéos augmentera votre consommation de données. Si vous dépassez la limite de votre forfait, votre opérateur de téléphonie mobile pourrait vous facturer des frais supplémentaires.</string>
-    <string name="data_traffic_prompt_message_short">"Utiliser les données mobiles pour diffuser des vidéos peut vous amener à dépasser la limite d'utilisation de données de votre forfait."</string>
+    <string name="data_traffic_prompt_message_short">"Utiliser les données mobiles pour diffuser des vidéos peut vous amener à dépasser la limite de l'utilisation de données de votre forfait."</string>
     <string name="data_traffic_prompt_title">"Alerte d'utilisation des données"</string>
     <string name="date_picker_dialog_clear">Effacer</string>
     <string name="date_picker_dialog_other_button_label">Autre</string>
@@ -255,14 +286,14 @@ Les pages que vous visitez n'apparaîtront pas dans l'historique."</string>
     <string name="download_dialog_file_length_nolength_txt">Un instant…</string>
     <string name="download_failed">Téléchargement échoué</string>
     <string name="download_filter_all">Tout</string>
-    <string name="download_filter_apk">Apk</string>
+    <string name="download_filter_apk">APK</string>
     <string name="download_filter_application">Applications</string>
     <string name="download_filter_audio">Musique</string>
-    <string name="download_filter_image">Photos</string>
+    <string name="download_filter_image">Images</string>
     <string name="download_filter_others">Autre</string>
-    <string name="download_filter_text">Fichiers</string>
+    <string name="download_filter_text">Documents</string>
     <string name="download_filter_video">Vidéos</string>
-    <string name="download_filter_zip">Zip</string>
+    <string name="download_filter_zip">ZIP</string>
     <string name="download_in_process">Téléchargement…</string>
     <string name="download_list_open_xl_ok">OK </string>
     <string name="download_memory_info_avai">" disponible %s|"</string>
@@ -366,10 +397,10 @@ Quitter cette page ?"</string>
     <string name="keep_queued_download">Garder</string>
     <string name="last_month">Le mois dernier</string>
     <string name="license_activity_title">Licences de système WebView</string>
-    <string name="load_more">Afficher plus</string>
     <string name="loading_tips">Faites glisser vers le bas pour actualiser</string>
     <string name="local_bookmarks">Mi</string>
     <string name="login_failed_toast">Impossible de se connecter, rafraîchir et réessayer</string>
+    <string name="long_press_edit">Appui prolongé pour éditer</string>
     <string name="low_memory_error">"Impossible de terminer l'opération précédente en raison du manque de mémoire."</string>
     <string name="low_memory_toast">"Impossible d/'utiliser le navigateur en raison d/'une mémoire insuffisante"</string>
     <string name="max_tabs_warning">"Impossible d'ouvrir plus d'onglets"</string>
@@ -387,7 +418,7 @@ Quitter cette page ?"</string>
     <string name="media_player_error_text_invalid_progressive_playback">"Cette vidéo n'est pas valide pour être diffusée sur cet appareil."</string>
     <string name="media_player_error_text_unknown">Impossible de lire cette vidéo.</string>
     <string name="media_player_error_title">Impossible de lire la vidéo</string>
-    <string name="media_player_loading_video">Chargement de la vidéo</string>
+    <string name="media_player_loading_video">Juste un instant…</string>
     <string name="menu_addtodesk">"Ajouter à l'écran d'accueil"</string>
     <string name="menu_exit_nightmode">Quitter</string>
     <string name="menu_hv_swap">Bascule H/V</string>
@@ -395,7 +426,7 @@ Quitter cette page ?"</string>
     <string name="menu_preferences">Paramètres</string>
     <string name="menu_theme_setting">Paramètres de thème</string>
     <string name="menu_title_clear_all">Tout effacer</string>
-    <string name="menu_title_open_file_management">Ouvrir Explorateur</string>
+    <string name="menu_title_open_file_management">Ouvrir Gestionnaire de fichiers</string>
     <string name="menu_title_pause_all">Tout mettre en pause</string>
     <string name="menu_title_resume_all">Tout démarrer</string>
     <string name="miui_autologin_bar_error">Impossible de se connecter</string>
@@ -466,7 +497,7 @@ Quitter cette page ?"</string>
     <string name="miuichromium_error_page_problem_page_not_working_reason_invalid_response">Cette page ne fonctionne pas parce que %s0 a envoyé une réponse non valide.</string>
     <string name="miuichromium_error_page_problem_page_not_working_reason_too_many_redirects">Cette page ne fonctionne pas parce que %s0 vous a redirigé trop de fois.</string>
     <string name="miuichromium_error_page_problem_security_error_reason_bad_client_cert">"Ce site ne peut pas fournir une connexion sécurisée parce que %s0 n'a pas accepté votre certificat."</string>
-    <string name="miuichromium_error_page_problem_security_error_reason_bad_server_cert">"Ce site ne peut pas fournir une connexion sécurisée parce que %s0 n'a pas accepté vos normes de sécurité."</string>
+    <string name="miuichromium_error_page_problem_security_error_reason_bad_server_cert">"Ce site ne peut pas fournir une connexion sécurisée parce que %s0 n'adhère pas vos normes de sécurité."</string>
     <string name="miuichromium_error_page_problem_security_error_reason_invalid_response">Ce site ne peut pas fournir une connexion sécurisée parce que %s0 a envoyé une réponse non valide.</string>
     <string name="miuichromium_error_page_problem_security_error_reason_unsupported_protocol">Ce site ne peut pas fournir une connexion sécurisée car %s0 utilise un protocole non pris en charge.</string>
     <string name="miuichromium_error_page_problem_server_fault">"%s0 n'est actuellement pas en mesure de gérer cette requête."</string>
@@ -510,6 +541,7 @@ Quitter cette page ?"</string>
     <string name="month_picker_dialog_title">Définir le mois</string>
     <string name="more_description">Menu</string>
     <string name="more_option">"Plus d'options"</string>
+    <string name="my_cahnnel">Mes chaînes</string>
     <string name="nav_bottom_bar_back">Retour</string>
     <string name="nav_bottom_bar_close_all">Fermer tout</string>
     <string name="nav_bottom_bar_new_tab">Nouvel onglet</string>
@@ -517,16 +549,21 @@ Quitter cette page ?"</string>
     <string name="nav_screen_container_tab_normal">Onglet normal</string>
     <string name="nav_screen_incognito_message">"Votre historique de navigation et de recherche ne sera pas enregistré en mode Incognito.
 Souvenez-vous que les fichiers que vous téléchargez et les signets que vous ajoutez seront enregistrés."</string>
-    <string name="nav_screen_incognito_title">Incognito mode</string>
-    <string name="navigation_delete_all">Swipe left or right to close all tabs</string>
+    <string name="nav_screen_incognito_title">Mode Incognito</string>
+    <string name="navigation_delete_all">Balayez vers la gauche ou la droite pour fermer tous les onglets</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">Annuler</string>
     <string name="navigationbar_rightbutton_actiontext_go">Aller</string>
     <string name="navigationbar_rightbutton_actiontext_search">Rechercher</string>
+    <string name="net_error">Erreur réseau</string>
     <string name="network_show_wifi_setting_tip_dialog_description">"Un point d'accès Wi-Fi trouvé à proximité. Essayer de connecter ?"</string>
     <string name="network_show_wifi_setting_tip_dialog_title">Réseau Wi-Fi disponible</string>
+    <string name="news_load_failed">Appuyez pour essayer à nouveau</string>
+    <string name="news_loading">Chargement…</string>
     <string name="next_button_label">Suivant</string>
     <string name="no_app_open_document">Aucune application trouvée pour effectuer cette action</string>
+    <string name="no_items">"Plus d'élément ici. Essayez une autre catégorie."</string>
     <string name="no_matches">Aucune correspondance</string>
+    <string name="no_network">Vérifiez votre connexion réseau et réessayez.</string>
     <string name="no_space_alert_cancel">Plus tard</string>
     <string name="no_space_alert_clean">"Libérer de l'espace"</string>
     <string name="no_space_alert_text">Espace de stockage insuffisant</string>
@@ -541,10 +578,10 @@ Souvenez-vous que les fichiers que vous téléchargez et les signets que vous aj
     <string name="onews__category_cricket">Cricket</string>
     <string name="onews__category_reddit">Reddit</string>
     <string name="open_app_confirm_message">Autoriser cette page à ouvrir %s ?</string>
-    <string name="open_file_explorer_failed">"Impossible d'ouvrir Explorateur"</string>
-    <string name="open_private_folder">Relâchez pour afficher les dossiers cachés</string>
+    <string name="open_file_explorer_failed">"Impossible d'ouvrir Gestionnaire de fichiers"</string>
     <string name="open_voice_permission">Autoriser le microphone à se connecter à Internet</string>
     <string name="opening_file_error">"Impossible d'ouvrir le fichier sélectionné."</string>
+    <string name="other_channel">Appuyer pour ajouter plus de chaînes.</string>
     <string name="page_info">Infos sur la page</string>
     <string name="page_info_address">Adresse :</string>
     <string name="page_info_view">Voir les infos sur la page</string>
@@ -589,6 +626,7 @@ Souvenez-vous que les fichiers que vous téléchargez et les signets que vous aj
     <string name="pref_content_night_read_mode">Mode nuit</string>
     <string name="pref_content_search_engine">"Moteur de recherche de la barre d'adresse"</string>
     <string name="pref_content_search_engine_summary">Choisir un moteur de recherche</string>
+    <string name="pref_develop_mode">Mode Développeur</string>
     <string name="pref_enable_adblock_notification">Afficher les notifications Adblock</string>
     <string name="pref_enable_news">Actualités</string>
     <string name="pref_enable_novels">Livres</string>
@@ -662,10 +700,11 @@ Souvenez-vous que les fichiers que vous téléchargez et les signets que vous aj
     <string name="pref_volume_key_action">"Défiler à l'aide des boutons de volume"</string>
     <string name="private_browsing_warning">"Cette fonctionnalité n'est pas prise en charge dans cette version d'Android."</string>
     <string name="profiler_error_toast">Impossible de démarrer générateur de profils.</string>
-    <string name="profiler_no_storage_toast">"Impossible de démarrer le générateur de profils, car la mémoire de stockage externe n'est pas disponible"</string>
+    <string name="profiler_no_storage_toast">"Impossible de démarrer le profileur, car la mémoire de stockage externe n'est pas disponible"</string>
     <string name="profiler_started_toast">Profilage en cours</string>
     <string name="profiler_stopped_toast">Le profileur a terminé. Les résultats sont dans %1$s.</string>
     <string name="progress_dialog_setting_wallpaper">"Définition comme fond d'écran…"</string>
+    <string name="pull_to_refresh">Faites glisser vers le bas pour actualiser</string>
     <string name="pull_to_refresh_pull_label">Glissez pour actualiser</string>
     <string name="pull_to_refresh_release_label">Relâcher pour recommander et actualiser</string>
     <string name="qr_code_title">Code QR</string>
@@ -696,6 +735,11 @@ Souvenez-vous que les fichiers que vous téléchargez et les signets que vous aj
     <string name="readmode_recommend_message">Vous avez déjà lu ce livre. :)</string>
     <string name="readmode_refresh">Actualiser</string>
     <string name="readmodelist_bookmarks_to_show">Liste de lecture</string>
+    <string name="refresh">Actualiser</string>
+    <string name="refresh_fail">Impossible de charger les informations</string>
+    <string name="refresh_success">%1$d articles trouvés que vous pourriez aimer</string>
+    <string name="refreshing">Actualisation…</string>
+    <string name="release_to_refresh">Relâcher pour actualiser</string>
     <string name="remember_passwords_confirm_message">"Désactiver cette fonctionnalité peut affecter l'utilisation."</string>
     <string name="remove_bookmark">Supprimer le favori</string>
     <string name="remove_bookmark_group">Supprimer le groupe</string>
@@ -709,11 +753,6 @@ Souvenez-vous que les fichiers que vous téléchargez et les signets que vous aj
     <string name="retry_after_network_available">Impossible de se connecter au réseau</string>
     <string name="retry_download">Recommencer</string>
     <string name="return_to_homepage">"Retour à la page d'accueil"</string>
-    <string name="rlv_last_refreshing_time">%1$s mis à jour</string>
-    <string name="rlv_loading_more">Un instant…</string>
-    <string name="rlv_pull_to_refresh">Faites glisser vers le bas pour actualiser</string>
-    <string name="rlv_refreshing">Actualisation…</string>
-    <string name="rlv_release_to_refresh">Relâcher pour actualiser</string>
     <string name="rlz_access_point">Y1</string>
     <string name="root_folder_lable">Aucun</string>
     <string name="router_download_exist">Ce fichier existe déjà</string>
@@ -723,7 +762,7 @@ Souvenez-vous que les fichiers que vous téléchargez et les signets que vous aj
     <string name="same_folder_name_warning">Un groupe avec le même nom existe déjà</string>
     <string name="save_button_text">Enregistrer</string>
     <string name="save_dialog_title">Enregistrer</string>
-    <string name="save_file">Enregistrer fichier %s</string>
+    <string name="save_file">Save %s</string>
     <string name="save_file_already_exist_alert_message">Un fichier portant le même nom existe déjà, le remplacer ?</string>
     <string name="save_file_already_exist_alert_title">Remplacer le fichier ?</string>
     <string name="save_form_data_confirm_message">"Désactiver cette fonctionnalité peut affecter l'utilisation."</string>
@@ -776,10 +815,6 @@ Souvenez-vous que les fichiers que vous téléchargez et les signets que vous aj
     <string name="sendstartpage">"Page d'accueil"</string>
     <string name="share_image_text">"Regardez ce que j'ai partagé ! @MIUI"</string>
     <string name="share_page_text">"Regardez ce que j'ai partagé : %1$s @MIUI| %2$s"</string>
-    <string name="show_check_security_url_check_tip_dialog_description">Le navigateur doit être connecté à Internet pour fonctionner normalement. Pour améliorer la sécurité et recevoir les recommandations et les informations météorologiques les plus pertinentes, autorisez le Navigateur à obtenir les URL des sites Web que vous visitez et à accéder à vos informations de localisation.</string>
-    <string name="show_check_security_url_check_tip_dialog_description_international">Le navigateur doit être connecté à Internet pour fonctionner normalement. Pour recevoir les recommandations et les informations météorologiques les plus pertinentes, autorisez le Navigateur à obtenir les URL des sites Web que vous visitez et à accéder à vos informations de localisation.</string>
-    <string name="show_security_tip_dialog_title">"Conditions générales d'utilisation"</string>
-    <string name="show_weather_location_getter_tip_dialog_description">Le navigateur doit être connecté à Internet pour fonctionner normalement. Pour améliorer la sécurité, recevoir les recommandation et les informations météorologiques les plus pertinentes, autorisez le Navigateur à obtenir les URL des sites Web que vous visitez et à accéder à vos informations de localisation.</string>
     <string name="sign_in_to" formatted="false">Connectez-vous à %s1 %s2\"</string>
     <string name="site_sort_des">Réorganiser les éléments</string>
     <string name="skip_button_label">Ignorer</string>
@@ -829,6 +864,7 @@ Souvenez-vous que les fichiers que vous téléchargez et les signets que vous aj
     <string name="time_picker_dialog_pm">PM</string>
     <string name="time_picker_dialog_second_subsecond_separator">.</string>
     <string name="time_picker_dialog_title">"Définir l'heure"</string>
+    <string name="tip_drag">Appuyez longuement pour modifier et faites glisser pour trier.</string>
     <string name="title_bar_loading">Chargement…</string>
     <string name="too_many_windows_dialog_message">"Impossible d'ouvrir un nouvel onglet tant que vous n'en avez pas fermé un autre"</string>
     <string name="too_many_windows_dialog_title">"Impossible d'ouvrir plus d'onglets"</string>
@@ -838,7 +874,7 @@ Souvenez-vous que les fichiers que vous téléchargez et les signets que vous aj
     <string name="unsecurity_url_toast">"Ce site Web n'est pas sécurisé"</string>
     <string name="up_to_loading_tips">Relâchez pour actualiser</string>
     <string name="update_no_network_toast">Impossible de se connecter au réseau</string>
-    <string name="updating_chrome">Mise à jour de Chrome‧</string>
+    <string name="updating_chrome">Mise à jour de Chrome…</string>
     <string name="uploads_disabled">"L'envoi de fichiers est désactivé"</string>
     <string name="url_copy_done">URL copiée dans le presse-papiers</string>
     <string name="url_find_on_page_result">Afficher dans le navigateur</string>
@@ -866,7 +902,7 @@ Souvenez-vous que les fichiers que vous téléchargez et les signets que vous aj
     <string name="version_check_button_no_network">Impossible de se connecter au réseau</string>
     <string name="version_check_button_resume_download">Reprendre le téléchargement</string>
     <string name="version_check_button_update">Mettre à jour</string>
-    <string name="version_check_failed">Échec de la vérification de mise à jour</string>
+    <string name="version_check_failed">Impossible de vérifier les mises à jour</string>
     <string name="version_dialog_buttion_ok">OK </string>
     <string name="version_dialog_buttion_update">Mettre à jour</string>
     <string name="version_update_file_download_toast">Téléchargement</string>
@@ -929,7 +965,7 @@ Souvenez-vous que les fichiers que vous téléchargez et les signets que vous aj
     <string name="voice_title">Dites votre commande…</string>
     <string name="voice_title_distinguish">Traitement…</string>
     <string name="voice_title_listening">En écoute…</string>
-    <string name="voice_title_please">Commencez à parler…</string>
+    <string name="voice_title_please">Commencer à parler…</string>
     <string name="voice_title_speech_again">Impossible de vous comprendre</string>
     <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_location_confirm_message">"Désactiver cette fonctionnalité peut affecter l'utilisation."</string>

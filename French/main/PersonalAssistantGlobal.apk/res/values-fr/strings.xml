@@ -185,7 +185,7 @@
     <string name="network_unavaliable">Impossible de se connecter au réseau. Vérifiez les paramètres réseau et réessayez.</string>
     <string name="no_install">Pas installé</string>
     <string name="no_matches_for_now">Aucun match programmé pour le moment.</string>
-    <string name="no_more_result">"C’est tout pour l'instant."</string>
+    <string name="no_more_result">"C'est tout pour l'instant."</string>
     <string name="no_settings">Non défini</string>
     <string name="not_install_c1">"Cette application n'est pas installée sur votre téléphone. La télécharger et l'installer ?"</string>
     <string name="not_install_c3">Télécharger</string>
@@ -199,6 +199,7 @@
     <string name="ola_trip">Appeler un taxi</string>
     <string name="ola_trip_content">Estimer le prix et appeler un Ola</string>
     <string name="ola_trip_content_detail">Estimer le prix approximatif et appeler un Ola.</string>
+    <string name="phone_check">Optimisation</string>
     <string name="place_label">Lieux fréquents</string>
     <string name="record_name">Enregistrer</string>
     <string name="record_parent">Magnéto</string>
@@ -259,6 +260,7 @@
     <string name="stock_change_rate_format">%.2f%%</string>
     <string name="stock_color_schema">Schéma de couleur</string>
     <string name="stock_list_empty_text">Vous ne suivez aucune compagnie actuellement.</string>
+    <string name="stock_provider">Les cotations boursières sont fournies par Webull</string>
     <string name="stock_search_empty">Impossible de trouver les stocks.</string>
     <string name="stock_title">Stocks</string>
     <string name="stock_title_schema">"Option de l'affichage de stockage"</string>
@@ -301,8 +303,10 @@
     <string name="upgrade_now">Mettre à jour</string>
     <string name="user_id">ID utilisateur : %s</string>
     <string name="walk">À pied</string>
+    <string name="webull_title">Webull</string>
     <string name="which_transport">Comment arrivez-vous normalement à votre destination ?</string>
     <string name="year_month_day_all_format_en">dd/MM/yyyy HH:mm:ss</string>
     <string name="year_month_day_format">dd/MM/yyyy</string>
     <string name="yesterday">Hier</string>
+    <string name="minus_screen_search_label">Search</string>
 </resources>

@@ -33,7 +33,7 @@
     <string name="attach_sound">Fichier audio</string>
     <string name="attach_subject">Sujet</string>
     <string name="attach_take_photo">Prendre une photo</string>
-    <string name="attach_transaction">"Envoyer de l'argent"</string>
+    <string name="attach_transaction">"Transférer de l'argent"</string>
     <string name="attach_video">Vidéo</string>
     <string name="audio_download_failed">"impossible de télécharger l'audio"</string>
     <string name="audio_message_expired">Ce message vocal a expiré.</string>
@@ -51,6 +51,16 @@
     <string name="bookmark_confirm_delete_message">Retirer des favoris les éléments sélectionnés ?</string>
     <string name="bookmark_empty">Aucun message favori</string>
     <string name="bookmark_list_title">Favoris</string>
+    <string name="button_emoji_creature">Creature Emoji</string>
+    <string name="button_emoji_lifestyle">Lifestyle Emoji</string>
+    <string name="button_emoji_smiley">Smiley Emoji</string>
+    <string name="button_emoji_symbol">Symbol Emoji</string>
+    <string name="button_emoji_text">Text Emoji</string>
+    <string name="button_fold">fold</string>
+    <string name="button_next_slide">Next</string>
+    <string name="button_pre_slide">Previous</string>
+    <string name="button_resend_message">Resend</string>
+    <string name="button_unfold">Unfold</string>
     <string name="call_sender">Appeler lexpéditeur</string>
     <string name="cannot_add_picture_and_video">"Impossible d'ajouter une vidéo et une image sur une diapositive."</string>
     <string name="cannot_add_slide_anymore">"Impossible d'ajouter d'autres diapositives."</string>
@@ -138,6 +148,7 @@
     <string name="download_later">"Téléchargement impossible pour l'instant. Merci de réessayer ultérieurement."</string>
     <string name="downloading">Téléchargement…</string>
     <string name="downloading_file_can_not_play">"Attendez que l'enregistrement soit complètement téléchargé"</string>
+    <string name="draft">Draft</string>
     <string name="duration_not_a_number">La durée doit être un nombre</string>
     <string name="duration_sec">Durée (%s s)</string>
     <string name="duration_selector_title">"Durée de la diapositive "</string>
@@ -152,7 +163,7 @@
     <string name="enter_edit_mode">Éditer les messages</string>
     <string name="error_code_label">"Code d'erreur :"</string>
     <string name="error_state">Etat incohérent</string>
-    <string name="error_state_text">"L'état des fils de discussion et des destinataires n'est pas cohérent. Générez un rapport de bugs et envoyez-le à http://go/droidanizer"</string>
+    <string name="error_state_text">"L'état des fils de discussions et des destinataires est incohérent. Capturez un rapport de bug et signalez-le via http://go/droidanizer"</string>
     <string name="error_timed_msg">Heure non valide</string>
     <string name="ex_type_guide">Information</string>
     <string name="ex_type_mx">Messages Mi</string>
@@ -168,7 +179,6 @@
     <string name="failed_to_resize_image">"L'image n'a pas été redimensionnée."</string>
     <string name="fake_cell_alert_hint">"Il semble que ce message ait été envoyé à partir d'un numéro de téléphone différent de celui qui s'affiche. Soyez prudent avec les messages contenant des sollicitations financières."</string>
     <string name="fake_cell_checking_hint">Vérification de sécurité…</string>
-    <string name="fake_cell_detection_entry">Détection de fausse station de base</string>
     <string name="fake_cell_safe_hint">Ce message est sécurisé</string>
     <string name="fake_cell_timeout_hint">Impossible de vérifier la sécurité</string>
     <string name="favorite_at_time">Favoris : %1s</string>
@@ -179,6 +189,7 @@
     <string name="file_size">Taille :</string>
     <string name="file_title">Nom :</string>
     <string name="file_width_height">Taille :</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Nouveau message</string>
     <string name="forward_from">Transférer de:</string>
     <string name="forward_prefix">TR :</string>
@@ -447,7 +458,7 @@
     <string name="privacy_password_title4">Mot de passe mis à jour</string>
     <string name="private_message">Messagerie privée</string>
     <string name="private_new_notification">Notification de message</string>
-    <string name="private_protect">Mots de passe</string>
+    <string name="private_protect">Privacy protection</string>
     <string name="private_settings">Paramètres de la messagerie privée</string>
     <string name="processing">En cours…</string>
     <string name="prvate_contact">Contacts privés</string>
@@ -527,6 +538,7 @@
     <string name="send_signature_confirm_dialog_title">Envoyer un message</string>
     <string name="send_sms">Envoyer le message</string>
     <string name="send_to">Envoyer à :</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Envoyé à : %1s</string>
     <string name="sent_label">"Envoyé : "</string>
     <string name="service_message_not_found">Message expiré ou indisponible.</string>
@@ -656,4 +668,5 @@ Dernière tentative : %s."</string>
     <string name="wild_msg_title">Choisir un numéro de téléphone pour synchroniser</string>
     <string name="yes">OK</string>
     <string name="yesterday">Hier</string>
+    <string name="fake_cell_detection_entry">Détection de fausse station de base</string>
 </resources>

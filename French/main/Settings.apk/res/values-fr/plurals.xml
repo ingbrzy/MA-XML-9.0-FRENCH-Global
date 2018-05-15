@@ -36,6 +36,14 @@
         <item quantity="other">%d applications sont autorisées à démarrer automatiquement</item>
         <item quantity="one">%d application est autorisée à démarrer automatiquement</item>
     </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d applications peuvent se connecter au réseau</item>
+        <item quantity="one">%d application peut se connecter au réseau</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d applications ne peuvent pas se connecter au réseau</item>
+        <item quantity="one">%d application ne peut pas se connecter au réseau</item>
+    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d appareils</item>
         <item quantity="one">%d appareil</item>
@@ -83,6 +91,10 @@
     <plurals name="enterprise_privacy_number_packages_lower_bound">
         <item quantity="other">Au moins %d applications</item>
         <item quantity="one">Au moins %d application</item>
+    </plurals>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">Connexion restreinte pour %s applis</item>
+        <item quantity="one">Connexion restreinte pour %s appli</item>
     </plurals>
     <plurals name="free_wifi_connected_count">
         <item quantity="other">%1$d personnes connectées</item>

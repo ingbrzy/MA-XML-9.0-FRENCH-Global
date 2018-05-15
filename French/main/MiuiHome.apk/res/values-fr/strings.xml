@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_add_to_workspace">"Ajouter à l'espace de travail"</string>
     <string name="activity_not_found">"L'application n'est pas installée sur votre appareil"</string>
     <string name="add_screen">Ajouter un écran</string>
@@ -62,7 +63,7 @@
     <string name="buffering">Mémoire tampon…</string>
     <string name="cancel_action">Annuler</string>
     <string name="cancel_btn_label">Annuler</string>
-    <string name="cant_edit_lock_screen">"Impossible de modifier le style de l'écran de verrouillage."</string>
+    <string name="cant_edit_lock_screen">"Impossible de modifier le style de l'écran de verrouillage"</string>
     <string name="cant_remove_folder">Impossible de supprimer le dossier</string>
     <string name="cant_remove_retained_app">Impossible de supprimer cette application</string>
     <string name="cant_remove_system_app">Impossible de supprimer une application système</string>
@@ -85,7 +86,7 @@
     <string name="default_folder_title_claro">Claro</string>
     <string name="default_folder_title_game">Jeux</string>
     <string name="default_folder_title_microsoft">Microsoft</string>
-    <string name="default_folder_title_recommend">"Plus d'Applications"</string>
+    <string name="default_folder_title_recommend">"Plus d'applications"</string>
     <string name="default_folder_title_security">Système</string>
     <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Outils</string>
@@ -107,7 +108,7 @@
     <string name="edit_mode_uninstall">Désinstaller</string>
     <string name="editing_add_widget_tips">Modifiez les widgets</string>
     <string name="editing_mode_enter_tip_text">Pincez pour organiser le bureau</string>
-    <string name="editing_mode_title_empty">Aucune sélection</string>
+    <string name="editing_mode_title_empty">Aucun élément sélectionné</string>
     <string name="editing_set_screen_layout_cells">"Choisir l'effet de transition"</string>
     <string name="editing_set_transition_effect_tips">"Sélectionnez l'effet de transition"</string>
     <string name="editing_set_wallpaper_tips">"Sélectionnez le fond d'écran"</string>
@@ -117,7 +118,7 @@
     <string name="encryption">Chiffrement</string>
     <string name="failed_to_delete_temporary">Impossible de supprimer</string>
     <string name="failed_to_drop">Impossible de déplacer</string>
-    <string name="failed_to_drop_widget_invalid">Déplacement du widget échoué</string>
+    <string name="failed_to_drop_widget_invalid">"Ce widget n'est pas valide"</string>
     <string name="failed_to_load_image">"Impossible de charger l'image"</string>
     <string name="folder_name">Dossier</string>
     <string name="frame_load_failed">Impossible de charger le cadre photo</string>
@@ -134,7 +135,7 @@
     <string name="free_style_edit_tab_widget">Widgets</string>
     <string name="free_style_enter_tip">"Pour afficher Mi Space, glissez vers le bas à partir du haut de l'écran avec deux doigts"</string>
     <string name="free_style_exit_tip">"Pour revenir à l'écran d'accueil, glissez vers le haut à partir du bas de l'écran avec deux doigts"</string>
-    <string name="free_style_londing_text">Chargement…</string>
+    <string name="free_style_londing_text">Un instant…</string>
     <string name="gadget_calculator_label">Calculatrice</string>
     <string name="gadget_calendar_label">Agenda</string>
     <string name="gadget_clear_button_label">Nettoyage</string>
@@ -154,12 +155,12 @@
     <string name="gadget_photo_label">Photo</string>
     <string name="gadget_power_clear_button_label">Nettoyage en profondeur</string>
     <string name="gadget_search_label">Recherche</string>
-    <string name="gadget_weather_app_not_installed">Appuyez pour télécharger MIUI Weather</string>
-    <string name="gadget_weather_aqi_title">"Qualité de l'air : "</string>
+    <string name="gadget_weather_app_not_installed">"Appuyez pour télécharger l'application Météo de MIUI"</string>
+    <string name="gadget_weather_aqi_title">"Qualité de l'air :"</string>
     <string name="gadget_weather_download_message">"Vous devez télécharger le contenu de l'application: %1$s (%2$s). Redémarrez l'application après le téléchargement."</string>
     <string name="gadget_weather_download_start">Télécharger</string>
     <string name="gadget_weather_download_title">Télécharger</string>
-    <string name="gadget_weather_downloading">"Le contenu de l'application est en cours de téléchargement. Redémarrez l'application après le téléchargement."</string>
+    <string name="gadget_weather_downloading">"Téléchargement du contenu de l'application. Redémarrer l'application une fois le téléchargement terminé."</string>
     <string name="gadget_weather_loading">Aucune donnée</string>
     <string name="gadget_weather_low_temp">Température basse</string>
     <string name="gadget_weather_theme_type">Type de gadget</string>
@@ -171,11 +172,11 @@
     <string name="group_folder">Nouveau dossier</string>
     <string name="group_live_folders">Dossiers</string>
     <string name="group_shortcuts">Raccourcis</string>
-    <string name="guide_install_app_msg">"L'application n'est pas installée sur votre appareil. Trouver et installer l'application maintenant ?"</string>
+    <string name="guide_install_app_msg">"Cette application n'est pas installée sur votre appareil. Retrouvez et installez l'application maintenant ?"</string>
     <string name="guide_install_app_title">"Trouver et installer l'application ?"</string>
-    <string name="guide_tips_editing_mode">Appuyez et maintenez pour prendre un widget</string>
+    <string name="guide_tips_editing_mode">Appuyez &amp; maintenez pour prendre un widget</string>
     <string name="home_screen">"Écran d'accueil"</string>
-    <string name="image_too_small_message">"L'image originale est trop petite"</string>
+    <string name="image_too_small_message">"L'image originale n'est pas assez grande."</string>
     <string name="install">Installer</string>
     <string name="invalid_contact_shortcut">Contact non valide</string>
     <string name="is_setting_wallpaper_message">"Définition comme fond d'écran…"</string>
@@ -215,10 +216,10 @@
     <string name="menu_trans_effect">Effets de transition</string>
     <string name="menu_wallpaper">"Fond d'écran"</string>
     <string name="menu_workspace_preview">"Aperçus des écrans d'accueil"</string>
-    <string name="mi_wallpaper">MIUI Theme Store</string>
+    <string name="mi_wallpaper">Thèmes MIUI</string>
     <string name="miui_screen_config_title">"Paramètres de l'écran d'accueil"</string>
     <string name="mtzgadget_missing_text">Widget non disponible</string>
-    <string name="multi_selecting_tips">Pour récupérer une application, faites glisser son icône et déposez-la ici</string>
+    <string name="multi_selecting_tips">Pour récupérer une application, faites glisser son icône et déposez-la ici.</string>
     <string name="no_detail_page">Aucune page de détails</string>
     <string name="no_space_toast">Espace insuffisant</string>
     <string name="normal_wallpaper">"Fond d'écran"</string>
@@ -233,9 +234,9 @@
     <string name="out_of_space">"Plus d'espace sur ce bureau"</string>
     <string name="permdesc_install_shortcut">"Permet à une application d'ajouter des raccourcis sans l'intervention de l'utilisateur."</string>
     <string name="permdesc_install_widget">"Permet à une application d'ajouter des widgets sans votre intervention."</string>
-    <string name="permdesc_read_settings">"Permet à une application de lire les paramètres et raccourcis de la page d'accueil."</string>
+    <string name="permdesc_read_settings">"Autorise une application à lire les paramètres et les raccourcis de l'écran d'accueil."</string>
     <string name="permdesc_uninstall_shortcut">"Permet à une application de supprimer les raccourcis sans l'intervention de l'utilisateur."</string>
-    <string name="permdesc_write_settings">"Permet à une application de modifier les paramètres et les raccourcis de la page d'accueil."</string>
+    <string name="permdesc_write_settings">"Autorise une application à modifier les paramètres et les raccourcis de l'écran d'accueil."</string>
     <string name="permlab_install_shortcut">Installer des raccourcis</string>
     <string name="permlab_install_widget">Installer des widgets</string>
     <string name="permlab_read_settings">"Lire les paramètres et les raccourcis de l'Écran d'accueil"</string>
@@ -247,19 +248,19 @@
     <string name="pref_cell_layout_size">Format de la grille</string>
     <string name="pref_enable_drawing_cache_summary">Désactiver cette option permettra de libérer plus de mémoire mais atténuera les performances</string>
     <string name="pref_enable_drawing_cache_title">Cache graphique</string>
-    <string name="pref_icon_shadow_summary">"Afficher les ombres des applications et l'effet de réflexion des favoris"</string>
+    <string name="pref_icon_shadow_summary">"Afficher les ombres des applications et l'effet de réflexion des favoris."</string>
     <string name="pref_icon_shadow_title">Ombrage des icônes</string>
-    <string name="pref_keep_in_memory_summary">Garder le lanceur en exécution lorsque la mémoire est faible</string>
+    <string name="pref_keep_in_memory_summary">Garder le lanceur en exécution lorsque la mémoire est faible.</string>
     <string name="pref_keep_in_memory_title">Verrouiller MIUI en mémoire</string>
     <string name="pref_keep_layout_summary">Fermer cette option. Le changement de format de grille peut influer sur la disposition des icônes.</string>
     <string name="pref_keep_layout_title">Conserver la position des icônes</string>
-    <string name="pref_render_in_truecolor_summary">"La désactivation de cette fonction améliore les performances d'affichage"</string>
+    <string name="pref_render_in_truecolor_summary">"La désactivation de cette fonction améliore les performances d'affichage."</string>
     <string name="pref_render_in_truecolor_title">Haute qualité graphique</string>
     <string name="pref_screen_transformation_type_title">Effet de transition entre écrans</string>
     <string name="pref_wallpaper_scroll_type_title">"Cadrage du fond d'écran"</string>
     <string name="preferences_general_title">Paramètres supplémentaires</string>
     <string name="preferences_title">Paramètres du lanceur</string>
-    <string name="preferred_app_settings_not_selected">Not selected</string>
+    <string name="preferred_app_settings_not_selected">Non sélectionné</string>
     <string name="recents_config_title">Récents</string>
     <string name="recommend_apk_size_and_desc">%1$d Mo | %2$s</string>
     <string name="recommend_apps_default_title">Vide</string>
@@ -267,11 +268,11 @@
     <string name="recommend_apps_notice">Applications recommandées</string>
     <string name="recommend_apps_notice_nodata">Applications recommandées (Aucune donnée)</string>
     <string name="recommend_apps_switch_title">Applications recommandées</string>
-    <string name="recommend_apps_tips">Cette fonction doit se connecter à Internet pour fonctionner normalement. Pour désactiver cette fonction, touchez son nom de dossier.</string>
+    <string name="recommend_apps_tips">Cette fonctionnalité doit se connecter à Internet pour fonctionner normalement. Pour la désactiver, appuyez sur le nom de ce dossier.</string>
     <string name="recommend_loading">Chargement en cours</string>
     <string name="reset_scene_prompt">"Le bureau va être remis dans sa disposition d'origine."</string>
     <string name="screen_cells_config_title">"Disposition de l'écran d'accueil"</string>
-    <string name="screen_locked_toast">"La disposition de l'Écran d'accueil est verrouillée"</string>
+    <string name="screen_locked_toast">"La disposition de l'écran d'accueil est verrouillée."</string>
     <string name="screen_number">%d écran</string>
     <string name="select_all">Tout sélectionner</string>
     <string name="select_frame">Cadre</string>
@@ -310,7 +311,7 @@
     <string name="uninstall_dialog_message">"La désinstallation va supprimer toutes les données de l'application."</string>
     <string name="uninstall_dialog_title_format">Désinstaller %s ?</string>
     <string name="uninstall_result_failed">Impossible de désinstaller %s</string>
-    <string name="uninstall_result_succeeded">Application désinstallée</string>
+    <string name="uninstall_result_succeeded">Désinstallé avec succès</string>
     <string name="uninstall_with_xspace_dialog_message">Les applications clonées correspondantes seront supprimées avec les données des applications.</string>
     <string name="uninstall_xspace_dialog_message">"Désinstaller une application clonée supprimera toutes les données de l'application."</string>
     <string name="uninstall_xspace_dialog_title_format">"Désinstaller l'application clônée \"%s\" ?"</string>
@@ -322,7 +323,7 @@
     <string name="wallpaper_scaling_message">Ajuster à taille fixe</string>
     <string name="wallpaper_scroll_type_tips">"Défiler les fonds d'écran"</string>
     <string name="wallpaper_settings">"Fond d'écran"</string>
-    <string name="wallpaper_success_message">"Fond d'écran appliqué"</string>
+    <string name="wallpaper_success_message">Appliqué avec succès</string>
     <string name="widget_favorite_contacts_edit">Éditeur</string>
     <string name="widget_favorite_contacts_label">Contacts favoris</string>
     <string name="widget_favorite_contacts_style">Changer la taille</string>

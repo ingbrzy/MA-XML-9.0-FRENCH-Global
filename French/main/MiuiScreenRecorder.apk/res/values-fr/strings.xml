@@ -13,15 +13,19 @@
     <string name="button_confirm">OK </string>
     <string name="button_goon_recorder">Reprendre</string>
     <string name="cancel_edit">Annuler</string>
+    <string name="cannot_change_frames">"La fréquence d'images ne peut être personnalisée que pour les enregistrements avec une fréquence d'image fixe."</string>
     <string name="cannot_change_parames">"Impossible de modifier les paramètres pendant l'enregistrement"</string>
     <string name="cannot_record">"Impossible d'enregistrer, réessayez plus tard."</string>
+    <string name="close_screen_record">Enregistrement arrêté</string>
     <string name="date_day" />
     <string name="date_month">/</string>
     <string name="date_year">/</string>
-    <string name="description_content">"Enregistreur d'écran fournit des capacités d'enregistrement niveau système. Vous ne serez plus en mesure d'utiliser Enregistreur d'écran si vous continuez. Confirmer et continuer."</string>
+    <string name="description_content">"Enregistreur d'écran fournit des capacités d'enregistrement niveau système. Vous ne serez plus en mesure d'utiliser Enregistreur d'écran si vous continuez. Confirmer pour continuer."</string>
     <string name="description_title">"À propos de l'Enregistreur d'écran"</string>
     <string name="deselect_all">Tout déselectionner</string>
     <string name="error_open_file_failed_no_app_found">Impossible de trouver une application pour ouvrir ce fichier</string>
+    <string name="fixed_frame_rate">"Fréquence d'images fixe"</string>
+    <string name="fixed_frame_rate_summary">"L'enregistrement de vidéos à fréquence d'images fixe améliore la lecture sur les plateformes de médias sociaux et réduit la durée de vie de la batterie."</string>
     <string name="frames">"Fréquence d'images"</string>
     <string name="frames_summary">"Les fréquences d'images plus élevées reduisent le flou de mouvement"</string>
     <string name="frequently_click_toast">Juste un instant…</string>
@@ -33,6 +37,9 @@
     <string name="hint_volume_down">Volume diminué</string>
     <string name="hint_volume_up">Volume augmenté</string>
     <string name="home_title_none">Sélectionner des éléments</string>
+    <string name="is_checked">Sélectionné</string>
+    <string name="is_go_home">"Retour à écran d'accueil"</string>
+    <string name="is_go_home_summary">"Ouvrir la page d'accuei de l'enregistreur après avoir fini d'enregistrer"</string>
     <string name="loopback_sound">Haut-parleur</string>
     <string name="low_battery">"Chargez votre téléphone avant de démarrer l'enregistrement"</string>
     <string name="low_battery_title">Batterie faible</string>
@@ -58,6 +65,7 @@
     <string name="screen_record_option">"Options d'enregistrement"</string>
     <string name="screen_record_params">"Paramètres d'enregistrement"</string>
     <string name="select_all">Tout sélectionner</string>
+    <string name="settings">Paramètres</string>
     <string name="show_hard_key">Visualiser les boutons de navigation</string>
     <string name="show_hard_key_summary">Afficher les invites lorsque les boutons Accueil, Menu et Retour sont appuyés</string>
     <string name="show_screen_touch">Afficher les gestes tactiles</string>
@@ -70,5 +78,8 @@
     <string name="stop_record_while_locking">"Verrouiller l'écran pour terminer"</string>
     <string name="stop_record_while_locking_summary">"Terminer l'enregistrement et enregistrer la vidéo lorsque la l'écran est verrouillé"</string>
     <string name="stop_recording">"Arrêter l'enregistrement"</string>
+    <string name="storage_location">Stockage</string>
+    <string name="storage_location_summary">Sélectionner votre type de stockage</string>
     <string name="timer_format">%s</string>
+    <string name="unchecked">Non sélectionné</string>
 </resources>

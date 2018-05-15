@@ -90,6 +90,7 @@
     <string name="hints_apk_header_left">Paquets</string>
     <string name="hints_residual_header_left">Résidus</string>
     <string name="hints_memory_header_left">Mémoire</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Gros fichiers : %d</string>
     <string name="hints_installed_apps_header_left">Applications installées : %d</string>
     <string name="toast_resolve_apk_error">"Résolution de l'erreur de l'apk"</string>
@@ -127,7 +128,7 @@
     <string name="msg_update_error_code_no_newer_db">Le Nettoyeur est à jour</string>
     <string name="msg_update_error_code_already_running">Mise à jour…</string>
     <string name="msg_update_error_code_network_error">Impossible de se connecter au réseau</string>
-    <string name="msg_update_error_code_unknown_error">Erreur inconnue</string>
+    <string name="msg_update_error_code_unknown_error">Servers are too busy,please try again later</string>
     <string name="msg_cleanup_db_update_time_unknown">Dernière mise à jour inconnue</string>
     <string name="item_title_process_mode">Choisir une action</string>
     <string name="clean_content_zero">Vide</string>
@@ -265,6 +266,7 @@
     <string name="hints_cleanfinish">Nettoyage terminé</string>
     <string name="hints_num">0</string>
     <string name="mainbtn_text_quick_cleanup">Nettoyer %s</string>
+    <string name="mainbtn_text_no_trash">Ignorer</string>
     <string name="mainbtn_text_quick_cleanup_default">Nettoyer</string>
     <string name="pref_title_open_optimizer_memory_scan">Scan des applications en mémoire</string>
     <string name="toast_select_white_need_remove">Choisissez les éléments à supprimer</string>
@@ -296,6 +298,7 @@
     <string name="downloading">Téléchargement</string>
     <string name="installing">Installation</string>
     <string name="start_install">Installer maintenant</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Ouvrir dans le navigateur</string>
     <string name="title_share_link">"Partager l'URL"</string>
     <string name="connecting">Connexion…</string>
@@ -495,4 +498,25 @@
     <string name="auto_clean_time_three_day">Tous les 3 jours</string>
     <string name="auto_clean_time_seven_day">Tous les 7 jours</string>
     <string name="auto_clean_time_fifteen_day">Tous les 15 jours</string>
+    <string name="pref_category_title_auto_clean_config_settings">Nettoyages automatiques</string>
+    <string name="pref_title_auto_clean">Nettoyer automatiquement</string>
+    <string name="pref_title_auto_clean_operation">Méthode de nettoyage</string>
+    <string name="pref_title_auto_clean_trigger">Netoyer le stockage</string>
+    <string name="auto_clean_operation_dialog_title">Méthode de nettoyage</string>
+    <string name="auto_clean_operation_clean_and_alert">Rappeler et nettoyer</string>
+    <string name="auto_clean_operation_just_clean">Nettoyage uniquement</string>
+    <string name="auto_clean_trigger_dialog_title">Netoyer le stockage</string>
+    <string name="auto_clean_trigger_percent_ninety">Lorsque 90% est occupé</string>
+    <string name="auto_clean_trigger_percent_eighty">Lorsque 80% est occupé</string>
+    <string name="auto_clean_trigger_percent_sixty">Lorsque 60% est occupé</string>
+    <string name="auto_clean_notification_title">Rappel de nettoyage</string>
+    <string name="auto_clean_notification_content">%s effacé de la corbeille</string>
+    <string name="guide_secure_dialog_title">Optimiser les performances</string>
+    <string name="guide_secure_dialog_message">"Le score d'optimisation de votre appareil est inférieur à 80 points. Optimiser maintenant ?"</string>
+    <string name="guide_secure_dialog_positive">Optimiser</string>
+    <string name="guide_secure_dialog_negative">Annuler</string>
+    <string name="guide_virus_dialog_title">Analyse antivirus</string>
+    <string name="guide_virus_dialog_message">"L'analyse des applications et des packages d'installation protège votre appareil contre les virus et les logiciels malveillants. Analysez votre appareil maintenant ?"</string>
+    <string name="guide_virus_dialog_positive">Analyser</string>
+    <string name="guide_virus_dialog_negative">Annuler</string>
 </resources>

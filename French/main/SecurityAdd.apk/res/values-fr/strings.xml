@@ -13,6 +13,7 @@
     <string name="no_network_btn">Veuillez réessayer</string>
     <string name="main_toolbar_purchase">Recharger</string>
     <string name="usage_sorted_loading_text">Un instant…</string>
+    <string name="empty">" "</string>
     <string name="share">Partager</string>
     <string name="open_browser">Ouvrir dans le navigateur</string>
     <string name="title_share_link">"Partager l'URL"</string>

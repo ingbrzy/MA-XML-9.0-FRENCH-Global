@@ -3,7 +3,7 @@
     <string name="paused_waiting_for_network">En attente du réseau</string>
     <string name="notif_title_file_size">%1$d au total</string>
     <string name="notif_title_single_downloading">Téléchargement de %1$s</string>
-    <string name="download_filesize_unknown">Unknown</string>
+    <string name="download_filesize_unknown">Inconnu</string>
     <string name="app_label">Téléchargements</string>
     <string name="permlab_downloadManager">Accéder au dossier Téléchargements.</string>
     <string name="permdesc_downloadManager">"Autorise l'application à accéder au dossier Téléchargements et à l'utiliser pour télécharger des fichiers. Les applications malveillantes peuvent l'utiliser pour interrompre les téléchargements et accéder aux informations confidentielles."</string>

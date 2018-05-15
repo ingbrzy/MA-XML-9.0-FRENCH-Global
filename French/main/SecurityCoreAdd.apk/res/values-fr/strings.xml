@@ -24,6 +24,7 @@
     <string name="title_switch_file">Supprimer ces fichiers ?</string>
     <string name="msg_switch_photo">Supprimer ces photos dans le Premier espace après les avoir déplacées ?</string>
     <string name="msg_switch_file">Supprimer ces fichiers dans le Premier espace après les avoir déplacés ?</string>
+    <string name="msg_switch_file_second">Supprimer ces fichiers dans le Second espace après les avoir déplacés ?</string>
     <string name="delete_src_photo">Supprimer des photos</string>
     <string name="delete_src_file">Supprimer des fichiers</string>
     <string name="retain_src_photo">Garder des photos</string>
@@ -58,6 +59,8 @@
     <string name="wating">Un instant…</string>
     <string name="Active">Actif</string>
     <string name="ok_button">OK </string>
+    <string name="remove_button">Supprimer et redémarrer</string>
+    <string name="remove_button_time">Supprimer et redémarrer (%ds)</string>
     <string name="cancel_button">Annuler</string>
     <string name="list_empty_text">Vide</string>
     <string name="list_empty_text_xspace">Installez WeChat/QQ/Weibo, créez des applications clônées et réessayez.</string>
@@ -65,6 +68,8 @@
     <string name="xspace_setting_label">Paramètres des applications clônées</string>
     <string name="xspace_account">Comptes des applications clônées</string>
     <string name="declare_dialog_title">À propos des applications clônées</string>
+    <string name="stop_xspace_alert_title">Suppression des comptes des applications clonées</string>
+    <string name="stop_xspace_alert_content">"Vous avez supprimé toutes les applications clonées. Supprimer les comptes des applications clonées et les données de l'application également ? Après cela, vous devrez créer à nouveau des applications clonées lorsque vous en aurez besoin."</string>
     <string name="xspace_loading_msg">Chargement des applications…</string>
     <string name="xspace_header">Applications clônées</string>
     <string name="xspace_introduce">Recommandé</string>
@@ -77,6 +82,7 @@ Certaines applications clônées nécessitent la prise en charge des Framework d
     <string name="xspace_install_failed">Impossible de créer</string>
     <string name="xspace_uninstalling">Désinstallation…</string>
     <string name="xspace_install_completed">"Icône ajoutée à l'Écran d'accueil"</string>
+    <string name="xspace_install_completed_global">Icône ajouté dans au tiroir</string>
     <string name="xspace_uninstall_completed">"L'application clônée a été désintallée avec succès"</string>
     <string name="xspace_uninstall_dialog_title">"Désinstaller l'application clônée"</string>
     <string name="xspace_uninstall_dialog_content">"Désinstaller une application clonée supprimera toutes les données de l'application."</string>
@@ -177,6 +183,10 @@ cette fonctionnalité sera automatiquement ajoutée dans le Second espace."</str
     <string name="notification_from_second_user">Afficher les notifications du second espace</string>
     <string name="radio_button_icon_switch_title">Supprimer un raccourcis</string>
     <string name="radio_button_password_switch_title">Utiliser un mot de passe</string>
+    <string name="reset_password_dialog_title">Impossible de masquer le raccourci du second espace</string>
+    <string name="reset_password_dialog_message">Vous utilisez différents types de mot de passe pour le premier et le deuxième espaces. Le deuxième espace doit utiliser le même type de mot de passe que le premier espace pour que le raccourci soit masqué.</string>
+    <string name="reset_password_dialog_positve_btn_title">Modifier</string>
+    <string name="entrance_reopen_toast_msg">Lffichage du raccourci du second espace dépend des différents types de mots de passe</string>
     <string name="settings_cross_notification_title">Notifications</string>
     <string name="settings_cross_notification_summary">"Recevoir des notifications à partir de l'autre espace"</string>
     <string name="settings_switch_shortcut_summary">"Afficher le raccourci de l'Écran d'accueil dans le Premier espace"</string>
@@ -279,6 +289,7 @@ pour y accéder depuis l'Écran de verrouillage"</string>
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">WeChat Pay</string>
     <string name="weixin_share_sign">Se connecter et partager</string>
+    <string name="use_xiaoai_open">Wake using voice assistant</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">Envoyer sur Weibo</string>
     <string name="xspace_qq_title">QQ</string>
@@ -359,12 +370,12 @@ Si vous n'effectuez pas la mise à jour, les applications clônées peuvent ne p
 Si vous n'effectuez pas la mise à jour, les applications clônées peuvent ne pas fonctionner correctement également."</string>
     <string name="space_created_success">Second espace créé avec succès</string>
     <string name="encrypt_space_delete_dialog_title">Attention</string>
-    <string name="encrypt_space_delete_dialog_message">"You're about to update Android. After the update, Second space data will become incompatible. To avoid this, move all data to First space, delete Second space, and create it again."</string>
-    <string name="encrypt_space_delete_dialog_click_message">"*If you don't need to move data, %s"</string>
-    <string name="encrypt_space_delete_dialog_click_message_action">delete and create Second space now.</string>
-    <string name="encrypt_space_delete_dialog_positive_text">Move data</string>
-    <string name="encrypt_space_delete_notification_title">Second space</string>
-    <string name="encrypt_space_delete_notification_message">Delete your Second space and create a new one to update your device successfully.</string>
+    <string name="encrypt_space_delete_dialog_message">Vous êtes sur le point de mettre à jour Android. Après la mise à jour, les données du second espace deviendront incompatibles. Pour éviter cela, placez toutes les données dans le premier espace, supprimez le second espace et créez-le à nouveau.</string>
+    <string name="encrypt_space_delete_dialog_click_message">"*Si vous n'avez pas besoin de déplacer des données, %s"</string>
+    <string name="encrypt_space_delete_dialog_click_message_action">supprimer et créer un second espace maintenant.</string>
+    <string name="encrypt_space_delete_dialog_positive_text">Déplacer les données</string>
+    <string name="encrypt_space_delete_notification_title">Second espace</string>
+    <string name="encrypt_space_delete_notification_message">Supprimez votre second espace et créez en un nouveau afin de mettre à jour votre appareil avec succès.</string>
     <string name="space_create_guide_title_1">Protégez votre confidentialité</string>
     <string name="space_create_guide_desc_1">Stocker applications et photos en toute sécurité</string>
     <string name="space_create_guide_title_2">Créer à tout moment</string>

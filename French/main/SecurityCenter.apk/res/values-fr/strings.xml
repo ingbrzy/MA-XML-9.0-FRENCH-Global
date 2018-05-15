@@ -375,6 +375,14 @@ de l'opérateur"</string>
     <string name="main_tobe_added_desc">Données mobiles de 0,03 ¥/Mo</string>
     <string name="main_button_mi_sim_close">Activer Mi SIM</string>
     <string name="main_button_mi_sim_open">Voir les détails</string>
+    <string name="adjust_sms_cmd"><u>Adjust calibration SMS template</u></string>
+    <string name="sms_detail_correct_success_text">"Here's the data usage stats from the previous calibration (%1$s):"</string>
+    <string name="tc_send_sms_error">"Couldn't send SMS"</string>
+    <string name="tc_cmd_invalid">Template is invalid</string>
+    <string name="tc_receive_timeout">Calibration timed out</string>
+    <string name="tc_parse_error">"Couldn't parse SMS"</string>
+    <string name="tc_get_cmd_error">"Couldn't get template"</string>
+    <string name="tc_web_correct_error">"Couldn't calibrate"</string>
     <string name="firewall_activity_lable">"Restreindre l'utilisation des données par application"</string>
     <string name="firewall_applist">Applications</string>
     <string name="firewall_mobile">Données Mobiles</string>
@@ -421,8 +429,10 @@ de l'opérateur"</string>
     <string name="foreground_traffic">Premier plan %s</string>
     <string name="background_traffic">Arrière-plan %s</string>
     <string name="detail_app_button">"Informations sur l'application"</string>
+    <string name="managed_user_title">Toutes les applis fonctionnelles</string>
     <string name="pref_about_traffic_title">"Paramètres d'utilisation des données"</string>
     <string name="pref_traffic_manage_title">Utilisation de données</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Forfait de donnée</string>
     <string name="pref_adjust_traffic_data">"Définir l'utilisation des données"</string>
     <string name="pref_category_title_other">Paramètres supplémentaires</string>
@@ -672,6 +682,9 @@ Lors de l'étalonnage, MIUI vous enverra un message à votre opérateur de recev
     <string name="roaming_limit_dialog_message">"Limite de données d'itinérance journalière atteinte."</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="roaming_allow_network_dialog_title">"Autoriser l'itinérance des données ?"</string>
+    <string name="dialog_roaming_warning_message">"L'opérateur vous facturera des frais après avoir activé l'itinérance internationale des données. Activer quand même ?"</string>
+    <string name="dialog_roaming_warning_checkbox">Ne plus afficher</string>
+    <string name="dialog_roaming_warning_ok">Activer</string>
     <string name="title_limit_traffic_per_day">"Limite d'utilisation de données quotidiennes"</string>
     <string name="daily_limit_and_lock_screen">"Alerte d'utilisation des données"</string>
     <string name="pref_title_traffic_limit_number">Taille</string>
@@ -862,6 +875,7 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="sms_detail_fragment_title_bill">Solde du téléphone</string>
     <string name="menu_report">Signaler une erreur</string>
     <string name="menu_charge_traffic">Acheter des données</string>
+    <string name="menu_setting_traffic">手动设置</string>
     <string name="menu_charge_bill">Solde de recharge</string>
     <string name="privacy_dialog_message">"Lorsque vous vous connectez à Internet, ce message ainsi que les infos de l'opérateur seront chiffrés et envoyés aux serveurs Mi afin de nous aider à améliorer la surveillance de l'utilisation des données."</string>
     <string name="status_bar_network_flow_purchase">"   Acheter >"</string>
@@ -942,6 +956,7 @@ Cette activité réduit la durée de vie de la batterie."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Cette application peut ralentir
 votre appareil"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Désinstaller %s ?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">"Désinstaller cette application pour résoudre tous les problèmes liés à l'usage de la batterie."</string>
     <string name="om_ill_proc_type_wakelock_title">"L'application bloque le mode veille et décharge la batterie"</string>
@@ -1000,6 +1015,7 @@ votre appareil"</string>
     <string name="usage_type_data_send">Données mobiles envoyées</string>
     <string name="usage_type_no_coverage">Temps sans signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Serveur média</string>
     <string name="power_screen">Écran</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1345,6 +1361,7 @@ votre appareil"</string>
     <string name="menu_text_networkassistants">Utilisation des données</string>
     <string name="menu_text_networkassistants_remain">%s restants</string>
     <string name="menu_text_networkassistants_danger">%s dépassé</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">Go</string>
     <string name="menu_text_networkassistants_unit_mb">Mo</string>
     <string name="menu_text_networkassistants_unit_kb">ko</string>
@@ -1598,6 +1615,20 @@ votre appareil"</string>
     <string name="title_garbage_clean">"La taille du cache de l'application a atteint %s"</string>
     <string name="summary_garbage_clean">"Vider le cache pour libérer de l'espace"</string>
     <string name="summary_consume_power">Problèmes de chauffage détectés, cela peut affecter la vie de la batterie</string>
+    <string name="title_restrict_data_usage">%s ne peut pas se connecter à Internet ?</string>
+    <string name="summary_restrict_data_usage">"Vous avez restreint l'utilisation des données pour cette application. Appuyer pour réparer."</string>
+    <string name="title_background_connection">"Impossible d'utiliser %s en arrière-plan ?"</string>
+    <string name="summary_background_connection">Vous avez restreint la connexion en arrière-plan pour cette application. Appuyer pour réparer.</string>
+    <string name="title_block_calls_from_cantacts">Les appels manqués de vos contacts ?</string>
+    <string name="summary_block_calls_from_cantacts">Vous utilisez la liste noire. Appuyer pour réparer.</string>
+    <string name="title_block_calls_from_strangers">Manquer des appels importants ?</string>
+    <string name="summary_block_calls_from_strangers">Vous autorisez uniquement des appels de vos contacts. Appuyer pour réparer.</string>
+    <string name="title_do_not_disturb">"Vous n'arrivez pas à entendre votre sonnerie ?"</string>
+    <string name="summary_do_not_disturb">Vous utilisez le mode NDP. Appuyer pour réparer.</string>
+    <string name="title_eye_shield">"La couleur de l'écran n'a pas l'air normal ?"</string>
+    <string name="summary_eye_shield">Vous utilisez le mode Lecture. Appuyer pour réparer.</string>
+    <string name="dialog_button_ignore">Ignorer</string>
+    <string name="dialog_button_yes">Oui</string>
     <string name="summary_default_app">"%s n'est pas défini comme une application système par défaut"</string>
     <string name="notification_summary_cmcc_app_check">Appuyez pour afficher les détails.</string>
     <string name="title_cmcc_app_check">Vérification incomplète</string>
@@ -1705,6 +1736,7 @@ votre appareil"</string>
     <string name="card_main_deepclean_wechat_action">Vider</string>
     <string name="card_main_sectool_title">Outils</string>
     <string name="card_main_monthreport_action">Afficher</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Tester le réseau</string>
     <string name="card_main_netcheck_summary">Tester la connexion pour des problèmes de réseau</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1726,6 +1758,15 @@ votre appareil"</string>
     <string name="card_main_xspace_action">Créer</string>
     <string name="card_main_overscroll_tips">La sécurité à son plus haut niveau</string>
     <string name="card_main_gamebooster_title">Accélérateur de la vitesse de jeu</string>
+    <string name="exit_dialog_scan_title">Optimiser les performances</string>
+    <string name="exit_dialog_scan_message">Le score de performance de votre appareil est à moins de 75 points. Optimiser maintenant ?</string>
+    <string name="exit_dialog_scan_positive_button">Optimiser</string>
+    <string name="exit_dialog_garbage_clean_title">Vider la corbeille</string>
+    <string name="exit_dialog_garbage_clean_message">La quantité de déchets sur votre appareil est supérieure à %s. Nettoyer les déchets ?</string>
+    <string name="exit_dialog_garbage_clean_positive_button">Nettoyer</string>
+    <string name="exit_dialog_release_storage_title">"Libérer de l'espace"</string>
+    <string name="exit_dialog_release_storage_message">"Plus de 80% du stockage sur votre appareil est occupé. Libérez de l'espace en désinstallant les applications que vous n'utilisez jamais."</string>
+    <string name="exit_dialog_release_storage_positive_button">"Libérer de l'espace"</string>
     <string name="skin_change_close_toast">Les modifications seront appliquées la prochaine que vous lancez Sécurité</string>
     <string name="password_type">Modifier le mot de passe</string>
     <string name="password_type_underline"><u>Modifier le mot de passe</u></string>
@@ -2111,8 +2152,8 @@ votre appareil"</string>
     <string name="open_game">Ouvrir</string>
     <string name="try_game">Essayer</string>
     <string name="more_game">Plus de Jeux</string>
-    <string name="sys_title_gamebooster_unit_gb">GB</string>
-    <string name="sys_title_gamebooster_unit_mb">MB</string>
+    <string name="sys_title_gamebooster_unit_gb">Go</string>
+    <string name="sys_title_gamebooster_unit_mb">Mo</string>
     <string name="gmscore_support_service">Services Google</string>
     <string name="gmscore_support_remind">"Activez cette fonctionnalité si vous rencontrez des problèmes avec Gmail, Google Maps et d'autres applications Google. Cela réduira légèrement la durée de vie de la batterie."</string>
     <string name="google_base_app_install_choice">"\"%s\" nécessite un framework des services Google pour fonctionner normalement, voulez-vous le télécharger et l'installer maintenant ?"</string>
@@ -2200,9 +2241,9 @@ votre appareil"</string>
     <string name="gs_sign_notification">Rappel de vérification à 20 heures tous les jours</string>
     <string name="gb_sign_gift">Enregistrez-vous pour obtenir des récompenses</string>
     <string name="signed_rule">Règles</string>
-    <string name="signed_rule_one">1. Check in 10, 20, or 28 days in a row every month to get a Xunyou boost for 1, 2, or 3 days respectively.</string>
-    <string name="signed_rule_two">2. You can get only 1 Xunyou boost per month.</string>
-    <string name="signed_rule_three">"3. Days when you check in are annulled at the beginning of every month. The remaining days aren't rolled over."</string>
+    <string name="signed_rule_one">"1. Vérifier tous les 10, 20 ou 28 jours d'affilés tous les mois pour obtenir un accélérateur Xunyou sur 1, 2 ou 3 jours respectivement."</string>
+    <string name="signed_rule_two">2. Vous pouvez obtenir seulement 1 accélération Xunyou par mois.</string>
+    <string name="signed_rule_three">"3. Les jours d'enregistrement sont annulés au début de chaque mois. Les jours restants ne sont pas reportés."</string>
     <string name="gb_get_gift_right_now">"S'enregistrer maintenant"</string>
     <string name="gb_have_signed">"S'enregistrer aujourd'hui"</string>
     <string name="gb_sign_gift_button_text">Recevoir</string>
@@ -2214,6 +2255,13 @@ votre appareil"</string>
     <string name="gs_open_game_booster_summary">Augmentez la vitesse du réseau pour les jeux</string>
     <string name="gb_signed_gift_loading_summary">Un instant…</string>
     <string name="gb_signed_gift_loading_fail">Chargement impossible</string>
+    <string name="gb_msg_completely_shielded">Masquer les messages</string>
+    <string name="gb_msg_quickly_answer">Autoriser les réponses rapides</string>
+    <string name="gb_msg_transparent_dispaly">Notifications avec fond transparent</string>
+    <string name="gb_msg_completely_shielded_summary">Masquer</string>
+    <string name="gb_msg_quickly_answer_summary">Réponses rapides</string>
+    <string name="gb_msg_transparent_dispaly_summary">Transparent</string>
+    <string name="exit_dialog_homepage_optimise_message">Le score de performance de votre appareil est à moins de 80 points. Optimiser maintenant ?</string>
     <string name="power_center_consume_rank">Utilisation de la batterie</string>
     <string name="power_center_custom_title">"Profils de gestion d'énergie"</string>
     <string name="power_center_auto_shutdown_summary_default">Allumer ou éteindre votre appareil à une heure programmée</string>

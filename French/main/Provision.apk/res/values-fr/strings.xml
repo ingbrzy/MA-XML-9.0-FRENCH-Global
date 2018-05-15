@@ -15,18 +15,19 @@ Voir la politique de confidentialité du clavier sélectionné."</string>
     <string name="sim_card_detection_info">"Pour insérez la carte SIM, veuillez consulter le manuel fourni avec l'appareil."</string>
     <string name="sim_card_detecting">Vérification de votre carte SIM…</string>
     <string name="sim_card_detecting_check">"Impossible de trouver une carte SIM. Assurez-vous que la carte SIM est correctement installée et que vous disposez d'un crédit suffisant."</string>
+    <string name="sim_card_detecting_confirm_turn_on_network">Autoriser la connexion aux réseaux de données mobiles ? Si vous le faites, la carte SIM que vous insérez sera utilisée pour se connecter aux réseaux de données mobiles.</string>
     <string name="other_settings">Paramètres supplémentaires</string>
     <string name="other_settings_location">Localisation</string>
-    <string name="other_settings_location_summary">Allow apps to access your location</string>
+    <string name="other_settings_location_summary">"Permettre aux applications d'accéder à votre localisation"</string>
     <string name="other_settings_user_experience">"Programme d'expérience utilisateur"</string>
-    <string name="other_settings_user_experience_summary">Help us improve our products and services by sharing your usage stats with us. View details</string>
-    <string name="other_settings_user_experience_summary_index">View details</string>
+    <string name="other_settings_user_experience_summary">"Aidez-nous à améliorer nos produits et services en partageant vos statistiques d'utilisation avec nous. Afficher les détails"</string>
+    <string name="other_settings_user_experience_summary_index">Afficher les détails</string>
     <string name="other_settings_upload_debug_log_title">Envoyer automatiquement les données de diagnostic</string>
     <string name="other_settings_upload_debug_log_summary">"Les statistiques d'utilisation qui nous aident à vous localiser et à résoudre les problèmes peuvent contenir vos informations personnelles"</string>
-    <string name="other_settings_auto_update">Update automatically</string>
-    <string name="other_settings_auto_update_summary">MIUI will select the best moment to install updates</string>
-    <string name="other_settings_ad_enable">Personalized ad recommendations</string>
-    <string name="other_settings_ad_enable_summary">Receive personalized ads based on your behavior data</string>
+    <string name="other_settings_auto_update">Mettre à jour automatiquement</string>
+    <string name="other_settings_auto_update_summary">MIUI sélectionnera le meilleur moment pour installer les mises à jour</string>
+    <string name="other_settings_ad_enable">Recommandation de publicités personnalisées</string>
+    <string name="other_settings_ad_enable_summary">Recevoir des publicités personnalisées en fonction des données de vos habitudes</string>
     <string name="back">Retour</string>
     <string name="next">Suivant</string>
     <string name="skip_underline">Ignorer cette étape</string>
@@ -44,10 +45,10 @@ Voir la politique de confidentialité du clavier sélectionné."</string>
     <string name="terms_of_use">"Conditions d'utilisation"</string>
     <string name="terms_of_use_label">"Votre vie privée est très importante pour nous. Veuillez lire les conditions d'utilisation ainsi que la politique de confidentialité pour comprendre les informations que nous collectons, comment nous les utilisons et les différents choix qui vous sont disponibles.
 
-Vous devez accepter nos Conditions générales d'utilisation et notre Politique de confidentialité avant de pouvoir utiliser MIUI. Les services Mi, les services d'activation de la SIM Mi, Mi Cloud, Localiser l'appareil, l'écran d'accueil, le Centre de jeux, les composants système, Service Direct, Coffre d'applications, les statistiques, les composants système MAB, MIUI Daemon et MSA, les applications Web, Smart Cards, Mi Link et les composants du Compte Mi se connecteront à Internet et localiseront votre appareil."</string>
+Vous devez accepter nos Conditions générales d'utilisation et notre Politique de confidentialité avant de pouvoir utiliser MIUI. Les services Mi, les services d'activation de la SIM Mi, Mi Cloud, Localiser l'appareil, l'écran d'accueil, le Centre de jeux, les composants système, Service Direct, Coffre d'applications, les statistiques, les composants système MAB, MIUI Daemon et MSA, les applications Quick, Smart Cards, Mi Link et les composants du Compte Mi se connecteront à Internet et localiseront votre appareil."</string>
     <string name="terms_of_use_label_gms">"Votre vie privée est très importante pour nous. Veuillez lire les conditions d'utilisation ainsi que la politique de confidentialité pour comprendre les informations que nous collectons, comment nous les utilisons et les différents choix qui vous sont disponibles.
 
-Vous devez accepter nos Conditions générales d'utilisation et notre Politique de confidentialité avant de pouvoir utiliser MIUI. Les services Mi, les services d'activation de la SIM Mi, Mi Cloud, Localiser l'appareil, l'écran d'accueil, le Centre de jeux, les composants système, Service Direct, Coffre d'applications, les statistiques, les composants système MAB, MIUI Daemon et MSA, les applications Web, Smart Cards, Mi Link et les composants du Compte Mi se connecteront à Internet et localiseront votre appareil."</string>
+Vous devez accepter nos Conditions générales d'utilisation et notre Politique de confidentialité avant de pouvoir utiliser MIUI. Les services Mi, les services d'activation de la SIM Mi, Mi Cloud, Localiser l'appareil, l'écran d'accueil, le Centre de jeux, les composants système, Service Direct, Coffre d'applications, les statistiques, les composants système MAB, MIUI Daemon et MSA, les applications Quick, Smart Cards, Mi Link et les composants du Compte Mi se connecteront à Internet et localiseront votre appareil."</string>
     <string name="user_agreement">"Conditions générales d'utilisation"</string>
     <string name="privacy_policy">Politique de confidentialité</string>
     <string name="application_permissions">Autorisation des applications</string>

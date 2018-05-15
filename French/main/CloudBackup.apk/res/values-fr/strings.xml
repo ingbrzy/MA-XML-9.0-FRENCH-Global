@@ -44,10 +44,11 @@ Note : Les données des applications que vous avez installées ne seront pas sau
     <string name="cloud_app_no_network">Impossible de se connecter au réseau</string>
     <string name="button_delete">Supprimer</string>
     <string name="customization"><u>Personnaliser</u></string>
+    <string name="home_hint_global_launcher">"Écran d'accueil Poco"</string>
     <string name="self_phone">Ce téléphone</string>
+    <string name="self_phone_home">Ce téléphone : %s</string>
     <string name="process_whole_recovery">Restauration de \"%s\"</string>
     <string name="device_xiaomi">Téléphone Mi</string>
-    <string name="device_corrupt">Téléphone Mi (Les données sont corrompues)</string>
     <string name="size_unknown">Taille inconnue</string>
     <string name="recovering">Restauration %s</string>
     <string name="start_recover">Restaurer %s</string>
@@ -69,7 +70,7 @@ Note : Les données des applications que vous avez installées ne seront pas sau
     <string name="desktop_downloading">Téléchargement</string>
     <string name="desktop_installing">Installation</string>
     <string name="desktop_wait_wifi">En attente</string>
-    <string name="desktop_failed">Échec !</string>
+    <string name="desktop_failed">Erreur</string>
     <string name="recover_from_micloud">Restaurer à partir de la sauvegarde Mi Cloud</string>
     <string name="click_try_to_restore_again">Appuyez pour essayer à nouveau</string>
     <string name="open_wifi">Activer le Wi-Fi maintenant</string>
@@ -132,6 +133,8 @@ Note : Les données des applications que vous avez installées ne seront pas sau
     <string name="no_account">"Vous n'êtes pas connecté au compte Mi."</string>
     <string name="no_backup">Aucune sauvegarde dans Mi Cloud.</string>
     <string name="download_meta_failed">Impossible de charger les données.</string>
+    <string name="home_restore_error">"Impossible de restaurer l'écran d'accueil"</string>
+    <string name="get_device_id_error">"Impossible d'obtenir l'ID de l'appareil"</string>
     <string name="download_home_data">"Téléchargement de la disposition de l'écran d'accueil…"</string>
     <string name="restore_home_failed">"Impossible de restaurer l'écran d'accueil."</string>
     <string name="arrange_restore_order">Réorganiser les applications…</string>

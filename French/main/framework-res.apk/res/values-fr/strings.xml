@@ -5,19 +5,25 @@
     <string name="copyUrl">"Copier l'URL"</string>
     <string name="cut">Couper</string>
     <string name="defaultVoiceMailAlphaTag">Messagerie vocale</string>
+    <string name="defaultMsisdnAlphaTag">MSISDN1</string>
     <string name="emptyPhoneNumber">(Aucun numéro de téléphone)</string>
     <string name="httpErrorBadUrl">"Impossible d'ouvrir la page, car l'URL n'est pas valide."</string>
     <string name="httpErrorUnsupportedScheme">"Ce protocole n'est pas compatible."</string>
     <string name="no">Annuler</string>
+    <string name="ok">OK</string>
     <string name="paste">Coller</string>
     <string name="search_go">Rechercher</string>
     <string name="selectAll">Tout sélectionner</string>
     <string name="unknownName">Inconnu</string>
     <string name="untitled">&lt;Sans nom></string>
+    <string name="VideoView_error_button">OK</string>
     <string name="VideoView_error_text_unknown">Impossible de lire la vidéo.</string>
     <string name="VideoView_error_title">Problème vidéo</string>
+    <string name="yes">OK</string>
+    <string name="dialog_alert_title">Attention</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Impossible de lire cette vidéo en streaming sur cet appareil.</string>
     <string name="selectTextMode">Sélectionner texte</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="fingerprint_icon_content_description">"Icône d'empreinte digitale"</string>
     <string name="paste_as_plain_text">Coller au format texte brut</string>
     <string name="BaMmi">"Interdiction d'appel"</string>
@@ -65,6 +71,8 @@
  Vous pouvez changer de fonctionnalité dans Paramètres > Accessibilité."</string>
     <string name="accessibility_shortcut_warning_dialog_title">"Utiliser le raccourci d'accessibilité ?"</string>
     <string name="action_bar_home_description">"Retour à l'accueil"</string>
+    <string name="action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
     <string name="action_bar_up_description">Parcourir vers le haut</string>
     <string name="action_menu_overflow_description">"Plus d'options"</string>
     <string name="action_mode_done">OK</string>
@@ -113,6 +121,7 @@
     <string name="anr_activity_process">"L'activité \"%1$s\" ne répond pas."</string>
     <string name="anr_application_process">%1$s ne répond pas.</string>
     <string name="anr_process">Le processus \"%1$s\" ne répond pas.</string>
+    <string name="anr_title" />
     <string name="app_category_audio">Musique et audio</string>
     <string name="app_category_game">Jeux</string>
     <string name="app_category_image">Photos et images</string>
@@ -127,9 +136,14 @@
     <string name="app_running_notification_title">"%1$s en cours d'exécution"</string>
     <string name="app_upgrading_toast">"Mise à jour de l'application %1$s…"</string>
     <string name="autofill">Saisie automatique</string>
+    <string name="autofill_address_name_separator">" "</string>
+    <string name="autofill_address_summary_format">$1$2$3</string>
+    <string name="autofill_address_summary_name_format">$1$2$3</string>
+    <string name="autofill_address_summary_separator">", "</string>
     <string name="autofill_area">Région</string>
     <string name="autofill_county">Comté</string>
     <string name="autofill_department">Département</string>
+    <string name="autofill_district">District</string>
     <string name="autofill_emirate">Émirat</string>
     <string name="autofill_error_cannot_autofill">Le contenu ne peut pas être saisi automatiquement</string>
     <string name="autofill_island">Île</string>
@@ -138,6 +152,7 @@
     <string name="autofill_picker_no_suggestions">Aucune suggestion de saisie automatique</string>
     <string name="autofill_postal_code">Code postal</string>
     <string name="autofill_prefecture">Préfecture</string>
+    <string name="autofill_province">Province</string>
     <string name="autofill_save_accessibility_title">Enregistrer pour la saisie automatique</string>
     <string name="autofill_save_no">Non, merci</string>
     <string name="autofill_save_title">Enregistrer dans &lt;b>%1$s&lt;/b> ?</string>
@@ -249,6 +264,7 @@ en utilisant %s"</string>
     <string name="default_audio_route_name">Téléphone</string>
     <string name="default_audio_route_name_dock_speakers">"Haut-parleurs de la station d'accueil"</string>
     <string name="default_audio_route_name_headphones">Écouteurs</string>
+    <string name="default_media_route_name_hdmi">HDMI</string>
     <string name="default_notification_channel_label">Sans catégorie</string>
     <string name="delete">Supprimer</string>
     <string name="deleteText">Supprimer</string>
@@ -271,6 +287,7 @@ en utilisant %s"</string>
     <string name="display_manager_overlay_display_name">Superposition n° %1$d</string>
     <string name="display_manager_overlay_display_secure_suffix">, sécurisé</string>
     <string name="display_manager_overlay_display_title">%1$s : %2$d x %3$d, %4$d dpi</string>
+    <string name="dlg_ok">OK</string>
     <string name="done_label">OK</string>
     <string name="double_tap_toast">Conseil : Appuyez deux fois pour faire un zoom avant ou arrière.</string>
     <string name="dump_heap_notification">Le processus \"%1$s\" a dépassé la limite de mémoire</string>
@@ -290,9 +307,12 @@ en utilisant %s"</string>
     <string name="durationSecond">%1$d s</string>
     <string name="durationSeconds">%1$d s</string>
     <string name="editTextMenuTitle">Actions sur le texte</string>
+    <string name="elapsed_time_short_format_h_mm_ss">%1$d:%2$02d:%3$02d</string>
+    <string name="elapsed_time_short_format_mm_ss">%1$02d:%2$02d</string>
     <string name="email">E-mail</string>
     <string name="emailTypeCustom">Personnalisé</string>
     <string name="emailTypeHome">Domicile</string>
+    <string name="emailTypeMobile">Mobile</string>
     <string name="emailTypeOther">Autre</string>
     <string name="emailTypeWork">Bureau</string>
     <string name="emergency_call_dialog_number_for_display">"Numéro d'urgence"</string>
@@ -304,6 +324,7 @@ en utilisant %s"</string>
     <string name="error_message_title">Erreur</string>
     <string name="etws_primary_default_message_earthquake">Restez calme et cherchez un abri à proximité.</string>
     <string name="etws_primary_default_message_earthquake_and_tsunami">Restez calme et cherchez un abri à proximité.</string>
+    <string name="etws_primary_default_message_others" />
     <string name="etws_primary_default_message_test">"Test de messages d'urgence"</string>
     <string name="etws_primary_default_message_tsunami">Évacuez immédiatement les zones côtières et les berges des fleuves, et réfugiez-vous dans un endroit plus sûr, comme un terrain surélevé.</string>
     <string name="eventTypeAnniversary">Fête</string>
@@ -360,8 +381,11 @@ Si vous avez des questions, contactez l'administrateur de votre organisation."</
     <string name="factorytest_no_action">"Impossible de trouver un paquet proposant l'action FACTORY_TEST."</string>
     <string name="factorytest_not_system">"L'action FACTORY_TEST est uniquement prise en charge pour les paquets de données installés dans in/system/app."</string>
     <string name="factorytest_reboot">Redémarrer</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Code de service terminé</string>
     <string name="fcError">Problème de connexion ou code de service non valide</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Rechercher</string>
     <string name="find_next">Rechercher suivant</string>
     <string name="find_on_page">Rechercher sur la page</string>
@@ -382,8 +406,10 @@ Si vous avez des questions, contactez l'administrateur de votre organisation."</
     <string name="fingerprints">Empreintes :</string>
     <string name="floating_toolbar_close_overflow_description">"Fermer la barre d'outils en superposition"</string>
     <string name="floating_toolbar_open_overflow_description">"Plus d'options"</string>
+    <string name="force_close">OK</string>
     <string name="foreground_service_app_in_background">"%1$s s'exécute en arrière-plan"</string>
     <string name="foreground_service_apps_in_background">"%1$d applications s'exécutent en arrière-plan"</string>
+    <string name="foreground_service_multiple_separator">%1$s, %2$s</string>
     <string name="foreground_service_tap_for_details">"Appuyer pour obtenir des informations sur l'utilisation de la batterie et des données"</string>
     <string name="forward_intent_to_owner">Vous utilisez cette application en dehors de votre profil professionnel.</string>
     <string name="forward_intent_to_work">Vous utilisez cette application dans votre profil professionnel.</string>
@@ -432,13 +458,22 @@ Si vous avez des questions, contactez l'administrateur de votre organisation."</
     <string name="httpErrorFileNotFound">Impossible de trouver le fichier demandé.</string>
     <string name="httpErrorIO">"Impossible d'établir une communication avec le serveur. Veuillez réessayer ultérieurement."</string>
     <string name="httpErrorLookup">"Impossible de trouver l'URL."</string>
+    <string name="httpErrorOk">OK</string>
     <string name="httpErrorProxyAuth">"Échec de l'authentification par un serveur proxy."</string>
     <string name="httpErrorRedirectLoop">Cette page contient trop de redirections de serveurs.</string>
     <string name="httpErrorTimeout">Délai de connexion au serveur dépassé.</string>
     <string name="httpErrorTooManyRequests">Trop de requêtes sont en cours de traitement. Veuillez réessayer ultérieurement.</string>
     <string name="httpErrorUnsupportedAuthScheme">"Le modèle d'authentification du site n'est pas compatible."</string>
+    <string name="imProtocolAim">AIM</string>
     <string name="imProtocolCustom">Personnalisé</string>
+    <string name="imProtocolGoogleTalk">Hangouts</string>
+    <string name="imProtocolIcq">ICQ</string>
+    <string name="imProtocolJabber">Jabber</string>
     <string name="imProtocolMsn">Windows Live</string>
+    <string name="imProtocolNetMeeting">NetMeeting</string>
+    <string name="imProtocolQq">QQ</string>
+    <string name="imProtocolSkype">Skype</string>
+    <string name="imProtocolYahoo">Yahoo</string>
     <string name="imTypeCustom">Personnalisé</string>
     <string name="imTypeHome">Domicile</string>
     <string name="imTypeOther">Autre</string>
@@ -470,6 +505,8 @@ Voulez-vous vraiment quitter cette page ?"</string>
     <string name="js_dialog_before_unload_positive_button">Quitter cette page</string>
     <string name="js_dialog_before_unload_title">Quitter la page</string>
     <string name="js_dialog_title">La page \"%s\" indique :</string>
+    <string name="js_dialog_title_default">JavaScript</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
     <string name="keyboardview_keycode_cancel">Annuler</string>
     <string name="keyboardview_keycode_delete">Supprimer</string>
     <string name="keyboardview_keycode_done">Terminé</string>
@@ -535,6 +572,7 @@ Rendez-vous sur la page "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_reordering_delete_drop_target_text">Supprimer</string>
     <string name="kg_sim_pin_instructions">Saisissez le code PIN de la carte SIM.</string>
     <string name="kg_sim_unlock_progress_dialog_message">Déblocage de la carte SIM en cours…</string>
+    <string name="kg_text_message_separator">" — "</string>
     <string name="kg_too_many_failed_attempts_countdown">Réessayez dans %1$d secondes.</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Vous avez saisi un mot de passe incorrect à %1$d reprises. 
 
@@ -710,6 +748,10 @@ Veuillez réessayer dans %2$d secondes."</string>
     <string name="mediasize_iso_c7">ISO C7</string>
     <string name="mediasize_iso_c8">ISO C8</string>
     <string name="mediasize_iso_c9">ISO C9</string>
+    <string name="mediasize_japanese_chou2">Chou2</string>
+    <string name="mediasize_japanese_chou3">Chou3</string>
+    <string name="mediasize_japanese_chou4">Chou4</string>
+    <string name="mediasize_japanese_hagaki">Hagaki</string>
     <string name="mediasize_japanese_jis_b0">JIS B0</string>
     <string name="mediasize_japanese_jis_b1">JIS B1</string>
     <string name="mediasize_japanese_jis_b10">JIS B10</string>
@@ -722,11 +764,21 @@ Veuillez réessayer dans %2$d secondes."</string>
     <string name="mediasize_japanese_jis_b8">JIS B8</string>
     <string name="mediasize_japanese_jis_b9">JIS B9</string>
     <string name="mediasize_japanese_jis_exec">JIS Exec</string>
+    <string name="mediasize_japanese_kahu">Kahu</string>
+    <string name="mediasize_japanese_kaku2">Kaku2</string>
+    <string name="mediasize_japanese_oufuku">Oufuku</string>
+    <string name="mediasize_japanese_you4">You4</string>
+    <string name="mediasize_na_foolscap">Foolscap</string>
     <string name="mediasize_na_gvrnmt_letter">Government Letter</string>
     <string name="mediasize_na_index_3x5">Index Card 3x5</string>
     <string name="mediasize_na_index_4x6">Index Card 4x6</string>
     <string name="mediasize_na_index_5x8">Index Card 5x8</string>
     <string name="mediasize_na_junior_legal">Junior Legal</string>
+    <string name="mediasize_na_ledger">Ledger</string>
+    <string name="mediasize_na_legal">Legal</string>
+    <string name="mediasize_na_letter">Letter</string>
+    <string name="mediasize_na_monarch">Monarch</string>
+    <string name="mediasize_na_quarto">Quarto</string>
     <string name="mediasize_na_tabloid">Tabloïd</string>
     <string name="mediasize_unknown_landscape">Taille inconnue au format paysage</string>
     <string name="mediasize_unknown_portrait">Taille inconnue au format portrait</string>
@@ -736,6 +788,7 @@ Veuillez réessayer dans %2$d secondes."</string>
     <string name="menu_enter_shortcut_label">entrée</string>
     <string name="menu_space_shortcut_label">espace</string>
     <string name="midnight">minuit</string>
+    <string name="minute">min</string>
     <string name="minute_picker_description">Curseur circulaire des minutes</string>
     <string name="minutes">min</string>
     <string name="mismatchPin">Les codes PIN saisis ne correspondent pas.</string>
@@ -797,6 +850,7 @@ Veuillez réessayer dans %2$d secondes."</string>
     <string name="notification_hidden_by_policy_text">Contenu masqué conformément aux règles</string>
     <string name="notification_hidden_text">Contenus masqués</string>
     <string name="notification_listener_binding_label">"Outil d'écoute des notifications"</string>
+    <string name="notification_messaging_title_template">%1$s : %2$s</string>
     <string name="notification_ranker_binding_label">Service de classement des notifications</string>
     <string name="notification_title">Erreur de connexion au compte \"%1$s\"</string>
     <string name="notification_work_profile_content_description">Profil professionnel</string>
@@ -820,6 +874,9 @@ Veuillez réessayer dans %2$d secondes."</string>
     <string name="package_installed_device_owner">Installé par votre administrateur</string>
     <string name="package_updated_device_owner">Mis à jour par votre administrateur</string>
     <string name="passwordIncorrect">Le mot de passe est incorrect.</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
     <string name="peerTtyModeFull">"Mode TTY demandé par l'interlocuteur : COMPLET"</string>
     <string name="peerTtyModeHco">"Mode TTY demandé par l'interlocuteur : HCO"</string>
     <string name="peerTtyModeOff">"Mode TTY demandé par l'interlocuteur : DÉSACTIVÉ"</string>
@@ -942,9 +999,12 @@ Veuillez réessayer dans %2$d secondes."</string>
     <string name="permgroupdesc_storage">accéder à des photos, à des contenus multimédias et à des fichiers sur votre appareil</string>
     <string name="permgrouplab_calendar">Agenda</string>
     <string name="permgrouplab_camera">Appareil photo</string>
+    <string name="permgrouplab_contacts">Contacts</string>
     <string name="permgrouplab_location">Position</string>
+    <string name="permgrouplab_microphone">Microphone</string>
     <string name="permgrouplab_phone">Téléphone</string>
     <string name="permgrouplab_sensors">Capteurs corporels</string>
+    <string name="permgrouplab_sms">SMS</string>
     <string name="permgrouplab_storage">Stockage</string>
     <string name="permission_request_notification_title">Autorisation demandée</string>
     <string name="permission_request_notification_with_subtitle">"Autorisation demandée
@@ -1058,6 +1118,7 @@ pour le compte \"%s\""</string>
     <string name="perms_description_app">Fourni par %1$s</string>
     <string name="perms_new_perm_prefix"><font fgcolor="#ff33b5e5" size="12">NOUVEAU</font> :</string>
     <string name="petabyteShort">Po</string>
+    <string name="phoneTypeAssistant">Assistant</string>
     <string name="phoneTypeCallback">Rappel</string>
     <string name="phoneTypeCar">Voiture</string>
     <string name="phoneTypeCompanyMain">Entreprise (principal)</string>
@@ -1067,9 +1128,12 @@ pour le compte \"%s\""</string>
     <string name="phoneTypeHome">Domicile</string>
     <string name="phoneTypeIsdn">RNIS</string>
     <string name="phoneTypeMain">Principal</string>
+    <string name="phoneTypeMms">MMS</string>
+    <string name="phoneTypeMobile">Mobile</string>
     <string name="phoneTypeOther">Autre</string>
     <string name="phoneTypeOtherFax">Autre télécopie</string>
     <string name="phoneTypePager">Bipeur</string>
+    <string name="phoneTypeRadio">Radio</string>
     <string name="phoneTypeTelex">Télex</string>
     <string name="phoneTypeTtyTdd">TTY/TTD</string>
     <string name="phoneTypeWork">Bureau</string>
@@ -1105,6 +1169,7 @@ pour le compte \"%s\""</string>
     <string name="postalTypeWork">Bureau</string>
     <string name="power_dialog">Options du téléphone</string>
     <string name="power_off">Éteindre</string>
+    <string name="prepend_shortcut_label">Menu+</string>
     <string name="preposition_for_date">le %s</string>
     <string name="preposition_for_time">à %s</string>
     <string name="preposition_for_year">en %s</string>
@@ -1127,6 +1192,7 @@ pour le compte \"%s\""</string>
     <string name="recent_tasks_title">Récentes</string>
     <string name="redo">Rétablir</string>
     <string name="region_picker_section_all">Toutes les régions</string>
+    <string name="relationTypeAssistant">Assistant</string>
     <string name="relationTypeBrother">Frère</string>
     <string name="relationTypeChild">Enfant</string>
     <string name="relationTypeCustom">Personnalisée</string>
@@ -1135,11 +1201,13 @@ pour le compte \"%s\""</string>
     <string name="relationTypeFriend">Ami</string>
     <string name="relationTypeManager">Responsable</string>
     <string name="relationTypeMother">Mère</string>
+    <string name="relationTypeParent">Parent</string>
     <string name="relationTypePartner">Partenaire</string>
     <string name="relationTypeReferredBy">Recommandé par</string>
     <string name="relationTypeRelative">Proche</string>
     <string name="relationTypeSister">Sœur</string>
     <string name="relationTypeSpouse">Conjoint</string>
+    <string name="relative_time">%1$s, %2$s</string>
     <string name="replace">Remplacer...</string>
     <string name="report">Rapport</string>
     <string name="reset">Réinitialiser</string>
@@ -1214,7 +1282,9 @@ L'écoute prolongée à un volume élevé peut endommager vos facultés auditive
     <string name="serviceClassDataAsync">Asynchrones</string>
     <string name="serviceClassDataSync">Synchrones</string>
     <string name="serviceClassFAX">Télécopie</string>
+    <string name="serviceClassPAD">PAD</string>
     <string name="serviceClassPacket">Paquet</string>
+    <string name="serviceClassSMS">SMS</string>
     <string name="serviceClassVoice">Voix</string>
     <string name="serviceDisabled">Ce service a été désactivé.</string>
     <string name="serviceEnabled">Le service a été activé.</string>
@@ -1311,6 +1381,7 @@ L'écoute prolongée à un volume élevé peut endommager vos facultés auditive
     <string name="time_picker_increment_minute_button">Minute suivante</string>
     <string name="time_picker_increment_set_pm_button">Définir la valeur PM</string>
     <string name="time_picker_input_error">Veuillez indiquer une heure valide</string>
+    <string name="time_picker_minute_label">minute</string>
     <string name="time_picker_prompt_label">"Indiquez l'heure"</string>
     <string name="time_picker_radial_mode_description">"Passer en mode horloge pour la saisie de l'heure."</string>
     <string name="time_picker_text_input_mode_description">"Passer en mode saisie de texte pour la saisie de l'heure."</string>
@@ -1327,6 +1398,7 @@ L'écoute prolongée à un volume élevé peut endommager vos facultés auditive
     <string name="usb_accessory_notification_title">Connecté à un accessoire USB</string>
     <string name="usb_charging_notification_title">Recharge via USB de cet appareil…</string>
     <string name="usb_midi_notification_title">USB en mode MIDI</string>
+    <string name="usb_midi_peripheral_manufacturer_name">Android</string>
     <string name="usb_midi_peripheral_name">Port du périphérique USB Android</string>
     <string name="usb_midi_peripheral_product_name">Port du périphérique USB</string>
     <string name="usb_mtp_launch_notification_description">Appuyez ici pour voir les fichiers.</string>
@@ -1349,14 +1421,17 @@ L'écoute prolongée à un volume élevé peut endommager vos facultés auditive
     <string name="volume_alarm">Volume</string>
     <string name="volume_bluetooth_call">"Volume d'appels entrants sur le Bluetooth"</string>
     <string name="volume_call">Volume des appels entrants</string>
+    <string name="volume_icon_description_bluetooth">Bluetooth</string>
     <string name="volume_icon_description_incall">Appel</string>
     <string name="volume_icon_description_media">Média</string>
+    <string name="volume_icon_description_notification">Notification</string>
     <string name="volume_icon_description_ringer">Sonnerie</string>
     <string name="volume_music">Volume</string>
     <string name="volume_music_hint_playing_through_bluetooth">Lecture via le Bluetooth</string>
     <string name="volume_music_hint_silent_ringtone_selected">Sonnerie silencieuse sélectionnée</string>
     <string name="volume_notification">Volume des notifications</string>
     <string name="volume_ringtone">Volume de la sonnerie</string>
+    <string name="volume_unknown">Volume</string>
     <string name="vpn_lockdown_config">Appuyer pour configurer</string>
     <string name="vpn_lockdown_connected">VPN permanent connecté</string>
     <string name="vpn_lockdown_connecting">VPN permanent en cours de connexion…</string>
@@ -1407,6 +1482,7 @@ Voulez-vous quitter ?"</string>
     <string name="wifi_connect_default_application">Une application</string>
     <string name="wifi_no_internet">"Le réseau Wi-Fi ne dispose d'aucun accès à Internet."</string>
     <string name="wifi_no_internet_detailed">Appuyez ici pour afficher des options.</string>
+    <string name="wifi_p2p_dialog_title">Wi-Fi Direct</string>
     <string name="wifi_p2p_enabled_notification_message">Appuyez ici pour accéder aux paramètres.</string>
     <string name="wifi_p2p_enabled_notification_title">Wi-Fi Direct activé</string>
     <string name="wifi_p2p_enter_pin_message">Saisissez le code PIN requis :</string>
@@ -1440,5 +1516,6 @@ Voulez-vous quitter ?"</string>
     <string name="zen_mode_feature_name">Ne pas déranger</string>
     <string name="zen_mode_forever">"Jusqu'à ce que vous désactiviez ce mode"</string>
     <string name="zen_mode_forever_dnd">"Jusqu'à ce que vous désactiviez la fonctionnalité \"Ne pas déranger\""</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">"Jusqu'à %1$s"</string>
 </resources>

@@ -97,8 +97,8 @@
         <item quantity="one">%d mois</item>
     </plurals>
     <plurals name="more_atts_remaining">
-        <item quantity="other">%1$d attachements restants</item>
-        <item quantity="one">%1$d attachement restant</item>
+        <item quantity="other">%1$d pièces jointes restantes</item>
+        <item quantity="one">%1$d pièce jointe restante</item>
     </plurals>
     <plurals name="move_conversation">
         <item quantity="other">Déplacer %1$d conversations</item>

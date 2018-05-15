@@ -30,6 +30,7 @@
     <string name="direction_north_west">NO</string>
     <string name="direction_south_east">SE</string>
     <string name="direction_south_west">SO</string>
+    <string name="unit_degree">Degrés</string>
     <string name="guide_toast">Pour étalonner, remuez votre téléphone selon le schéma ci-dessous.</string>
     <string name="mobiledata_alert_dialog_title">"Avertissement de l'utilisation de données"</string>
     <string name="mobiledata_alert_dialog_message">"Se connecter à Internet pour étalonner l'altitude ?"</string>

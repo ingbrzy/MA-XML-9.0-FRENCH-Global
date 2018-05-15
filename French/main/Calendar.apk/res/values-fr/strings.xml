@@ -165,7 +165,7 @@
     <string name="date_calculate_description">Sachez quelle est la date avant ou après un jour donné</string>
     <string name="date_calculate_direction">Direction</string>
     <string name="date_calculate_direction_content_description">Direction actuelle : %1s.</string>
-    <string name="date_calculate_hint">Savoir la date après un nombre de jours</string>
+    <string name="date_calculate_hint">Connaitre la date après un nombre de jours</string>
     <string name="date_calculate_result">Résultat</string>
     <string name="date_calculate_tab">Calculer la date</string>
     <string name="date_calculate_today">0 jour</string>
@@ -314,7 +314,7 @@ Vérifiez vos paramètres réseau, puis réessayez."</string>
     <string name="preferences_week_start_day_default">-1</string>
     <string name="pull_to_refresh_hint">Faites glisser vers le bas pour actualiser les événements de %1$d</string>
     <string name="refresh">Actualiser</string>
-    <string name="refreshing_hint">Juste un instant…</string>
+    <string name="refreshing_hint">Un instant…</string>
     <string name="repeat_activity_label">Répétition</string>
     <string name="repeat_custom_activity_label">Personnalisé</string>
     <string name="repeat_custom_prompt">tous les %1$s le %2$s</string>

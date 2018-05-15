@@ -197,6 +197,9 @@
     <string name="toast_only_wifi_download">Se connecter au Wi-Fi pour télécharger cet élément</string>
     <string name="total_speedup">Augmentation de la vitesse (total)</string>
     <string name="version">Version %s</string>
-    <string name="app_downloads">%sdownloads</string>
-    <string name="dialog_confirm_delete_downloads_message">Supprimer les tâches sélectionnées ?</string>
+    <string name="get_data_failed">"Impossible d'obtenir les informations. Attendez une minute ou deux et réessayez."</string>
+    <string name="load_finish_hint">"C'est tout pour l'instant."</string>
+    <string name="loading">Un instant…</string>
+    <string name="net_error">Connectez-vous à Internet et réessayez</string>
+    <string name="rank_app_list">Top des téléchargements</string>
 </resources>

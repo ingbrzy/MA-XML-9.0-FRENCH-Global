@@ -4,6 +4,10 @@
         <item quantity="other">%d éléments seront supprimés.</item>
         <item quantity="one">%d téléchargement sera supprimé.</item>
     </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message">
+        <item quantity="other">Supprimer %d tâches ?</item>
+        <item quantity="one">Supprimer %d tâche ?</item>
+    </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">%1$d téléchargements retirés</item>
         <item quantity="one">%1$d téléchargement retiré</item>

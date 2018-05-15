@@ -27,6 +27,9 @@
     <string name="power_usage">"Consommation d'énergie"</string>
     <string name="power_mode">"Paramètres de gestion d'énergie"</string>
     <string name="performance_category">Performance</string>
+    <string name="pref_config_title">Optimisation des performances</string>
+    <string name="app_preload_policies_title">Pré-chargement AI</string>
+    <string name="app_preload_policies_summary">"Utilisez l'apprentissage automatique pour prévoir les applications les plus susceptibles d'être utilisées et charger les ressources à l'avance."</string>
     <string name="scenario_policies_warmcontrol">Contrôle de température</string>
     <string name="warm_configure">Paramètres du contrôle de température</string>
     <string name="important_warning">Attention</string>
@@ -72,17 +75,17 @@ L'économiseur de batterie traitera les applications importantes de manière sé
     <string name="update_profile_sucess">Mis à jour depuis le serveur avec succès</string>
     <string name="update_profile_failture_not_connect_wifi">Suppression impossible ! Connecte-vous à un réseau Wi-Fi puis réessayez.</string>
     <string name="sucess">Terminé</string>
-    <string name="failure">Échec</string>
+    <string name="failure">Erreur</string>
     <string name="cloud_addr_info">Info sur Cloud</string>
     <string name="lasttime_feature_cloud">Fonctionnalités mises à jour :</string>
     <string name="lasttime_applist_cloud">Applications mises à jour :</string>
     <string name="base_info">Infos de base</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Impossible de trouver une application</string>
-    <string name="power_consume_abnormal_night">In night power consume abnormal</string>
-    <string name="enable_sleep_mode">Enabling sleep mode to optimize night standby</string>
-    <string name="sleepmode_privacy_title">Sleep mode</string>
-    <string name="sleepmode_privacy_link">Detailed security and privacy</string>
-    <string name="sleepmode_disclaimer_cancel">Cancle</string>
-    <string name="sleepmode_disclaimer_agree">Agree</string>
+    <string name="power_consume_abnormal_night">La batterie est déchargée la nuit</string>
+    <string name="enable_sleep_mode">"Activez le mode Veille pour optimiser l'utilisation de la batterie pendant la nuit"</string>
+    <string name="sleepmode_privacy_title">Mode Veille</string>
+    <string name="sleepmode_privacy_link">Apprendre plus à propos de la confidentialité et de la sécurité</string>
+    <string name="sleepmode_disclaimer_cancel">Annuler</string>
+    <string name="sleepmode_disclaimer_agree">Accepter</string>
 </resources>

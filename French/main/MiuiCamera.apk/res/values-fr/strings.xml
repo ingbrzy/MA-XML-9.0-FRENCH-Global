@@ -95,8 +95,8 @@
     <string name="pref_camera_ai_scene_title">Caméra AI</string>
     <string name="pref_camera_front_ai_scene_entry_on">Caméra AI</string>
     <string name="pref_camera_front_ai_scene_entry_off">Caméra AI est désactivée</string>
-    <string name="ai_scene_mode_use_hint_text">"Ouvrez l'appareil photo en mode Scène Ai, identifiez la scène de l'image pour vous
- et optimisez l'image basée sur la scène"</string>
+    <string name="ai_scene_mode_use_hint_text">"La caméra AI détecte les scènes automatiquement
+et optimise vos photos basées sur cette information"</string>
     <string name="pref_camera_coloreffect_entry_none">Normal</string>
     <string name="pref_camera_coloreffect_entry_instagram_rise">Lomo</string>
     <string name="pref_camera_coloreffect_entry_instagram_clarendon">Couleur Pop</string>
@@ -143,6 +143,9 @@
     <string name="portait_effect_entry_maze">Labyrinthe</string>
     <string name="portait_effect_entry_cool">Mint</string>
     <string name="portait_effect_entry_blackwhite">N&amp;B</string>
+    <string name="portait_effect_entry_story">Histoire</string>
+    <string name="portait_effect_entry_riddle">Énigme</string>
+    <string name="portait_effect_entry_movie">Film</string>
     <string name="pref_camera_touchafaec_entry_off">Désactiver</string>
     <string name="pref_camera_touchafaec_entry_on">Activer</string>
     <string name="pref_camera_multilevel_entry_lowest">Minimum</string>
@@ -243,6 +246,7 @@
     <string name="pref_camera_video_duration_entry_120">Illimité</string>
     <string name="pref_camera_zsl_entry_off">Désactivé</string>
     <string name="pref_camera_zsl_entry_on">Activé</string>
+    <string name="pref_camera_facedetection_title">Détection de visage</string>
     <string name="camera_facedetection_sub_option_hint">Fonctionnalité expérimentale</string>
     <string name="pref_camera_hand_night_title">HHT</string>
     <string name="camera_settings_label">Appareil photo</string>
@@ -411,6 +415,7 @@
     <string name="pref_camera_zoom_mode_entry_tele">TÉLÉ</string>
     <string name="pref_camera_zoom_mode_entry_standard">STANDARD</string>
     <string name="pref_camera_zoom_mode_entry_high_pixel">FAIBLE LUMINOSITÉ</string>
+    <string name="pref_camera_zoom_value_title">Zoom</string>
     <string name="pref_camera_portrait_mode_title">Mode portrait</string>
     <string name="pref_camera_portrait_mode_entry_off">Le mode portait est désactivé</string>
     <string name="pref_camera_portrait_mode_entry_on">Le mode portait est activé</string>
@@ -420,6 +425,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Effet de profondeur</string>
     <string name="portrait_mode_use_hint">"Le mode Portrait brouille l'arrière-plan
 et fait ressortir les personnes à l'avant."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Carré</string>
     <string name="simple_mode_button_text_square">Désactiver le Carré</string>
     <string name="face_beauty_smart">Intelligent</string>
@@ -434,6 +440,7 @@ et fait ressortir les personnes à l'avant."</string>
     <string name="pref_camera_beautify_entry_low">Faible</string>
     <string name="pref_camera_beautify_entry_normal">Moyen</string>
     <string name="pref_camera_beautify_entry_high">Elevé</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Modes</string>
     <string name="button_front_camera_title">Prendre un selfie</string>
     <string name="button_normal_video_title">Enregistrer une vidéo</string>
@@ -503,4 +510,6 @@ puis créera une photo avec une quantité minimale de bruit."</string>
 si vous faites pivoter votre téléphone"</string>
     <string name="text_ai_scene_selector_text_on">SILHOUETTE</string>
     <string name="text_ai_scene_selector_text_off">CONTRE-JOUR</string>
+    <string name="pref_camera_asd_popup_title">Avertir lorsque le flash est nécessaire</string>
+    <string name="pref_video_captrue_ability_title">"Capture d'image lors de l'enregistrement"</string>
 </resources>
