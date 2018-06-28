@@ -107,7 +107,6 @@
     <string name="menu_title_select_folder">Sélectionner le dossier</string>
     <string name="menu_unhide">Démasquer</string>
     <string name="menu_unstick">Détacher</string>
-    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Pas maintenant</string>
     <string name="note_alert_expired">Expirée</string>
     <string name="note_description_content">"L'application Notes est un bon outil pour enregistrer vos idées. Elle a intégré les rappels et synchronise vos éléments dans Mi Cloud afin de vous permettre de les accéder en tout lieu, à n'importe quel moment. Assurez-vous de pouvoir vous passer de ces fonctionnalités avant de supprimer l'application."</string>

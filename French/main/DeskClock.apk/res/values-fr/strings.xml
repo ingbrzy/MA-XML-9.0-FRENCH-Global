@@ -145,7 +145,6 @@
     <string name="shutdown_alarm_enable_summary">"L'alarme sonnera après avoir éteint l'appareil"</string>
     <string name="shutdown_alarm_title">"Arrêter l'alarme"</string>
     <string name="silent_alarm_summary">Silencieux</string>
-    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Désactiver une fois le %s</string>
     <string name="slider_text">Balayez vers le haut pour désactiver</string>
     <string name="snooze_confirm_cancel">"Ignorer l'alarme"</string>
@@ -154,7 +153,6 @@
     <string name="start_up">Départ</string>
     <string name="stopwatch_lap_empty_text">Aucun tour</string>
     <string name="stopwatch_title">Chronomètre</string>
-    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Paramètres</string>
     <string name="system_time_settings_category_title">"Réglages de l'heure"</string>
     <string name="temperature_unit">%1$s°</string>

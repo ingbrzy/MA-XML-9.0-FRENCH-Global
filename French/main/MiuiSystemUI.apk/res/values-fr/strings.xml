@@ -912,7 +912,6 @@ Vous êtes aussi connecté à un VPN qui et en mesure de surveiller l'activité 
     <string name="nav_guide_message">"Utilisez les gestes pour masquer/afficher les boutons à l'écran."</string>
     <string name="nav_guide_ok">Configurer</string>
     <string name="nav_guide_title">"Masquer les boutons à l'écran"</string>
-    <string name="network_speed_suffix">%1$s %2$s</string>
     <string name="no_application">Aucune</string>
     <string name="no_multi_window_app">Aucune application ne prend en charge le mode Écran divisé</string>
     <string name="no_notification_tips">Aucune notification</string>
@@ -1030,7 +1029,6 @@ Vous êtes aussi connecté à un VPN qui et en mesure de surveiller l'activité 
     <string name="power_remaining_charging_duration_only">%1$s avant charge complète</string>
     <string name="power_remaining_duration_only">Il reste environ %1$s</string>
     <string name="power_remaining_duration_only_short">Temps restant : %1$s</string>
-    <string name="process_kernel_label">Plate-forme Android</string>
     <string name="profile_owned_footer">Le profil peut être surveillé</string>
     <string name="prompt_detecting">Détection</string>
     <string name="prompt_safe">Sécurisé</string>
