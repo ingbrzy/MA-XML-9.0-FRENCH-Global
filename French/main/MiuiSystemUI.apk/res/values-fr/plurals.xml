@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="status_bar_accessibility_recent_apps">
-        <item quantity="other">%d applications récentes</item>
-        <item quantity="one">%d application récente</item>
-    </plurals>
     <plurals name="accessibility_recent_task_enter">
         <item quantity="other">Récemment ouvert, applications disponibles : %d.</item>
         <item quantity="one">Récemment ouvert, application disponible : %d.</item>
@@ -12,28 +8,64 @@
         <item quantity="other">Récemment ouvert, applications disponibles : %d. Balayez vers le haut pour retirer, balayez vers le bas pour verrouiller.</item>
         <item quantity="one">Récemment ouvert, application disponible : %d. Balayez vers le haut pour retirer, balayez vers le bas pour verrouiller.</item>
     </plurals>
-    <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d interrupteurs seront affichés sur le panneau de notification</item>
-        <item quantity="one">%1$d interrupteur sera affiché sur le panneau de notification</item>
+    <plurals name="block_record_notification_more_text">
+        <item quantity="other">Masquer les notifications de %1$s &amp; %2$d applications.</item>
+        <item quantity="one">Masquer les notifications de %1$s &amp; %2$d application.</item>
     </plurals>
     <plurals name="disable_notification_confirm_title">
         <item quantity="other">Masquer les notifications de %d applications ?</item>
         <item quantity="one">Masquer les notifications de cette application ?</item>
     </plurals>
-    <plurals name="block_record_notification_more_text">
-        <item quantity="other">Masquer les notifications de %1$s &amp; %2$d applications.</item>
-        <item quantity="one">Masquer les notifications de %1$s &amp; %2$d application.</item>
+    <plurals name="fold_tips_title">
+        <item quantity="other">%d notifications sans importance</item>
+        <item quantity="one">%d notification sans importance</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Code PIN de la carte SIM incorrect. Il vous reste %d tentatives.</item>
+        <item quantity="one">Code PIN de la carte SIM incorrect. Il vous reste %d tentative.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Clé PUK de la carte SIM incorrecte. Il vous reste %d tentatives avant que votre carte SIM ne devienne définitivement inutilisable.</item>
+        <item quantity="one">Clé PUK de la carte SIM incorrecte. Il vous reste %d tentative avant que votre carte SIM ne devienne définitivement inutilisable.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">"L'appareil n'a pas été déverrouillé depuis %d heures. Confirmez le mot de passe."</item>
+        <item quantity="one">"L'appareil n'a pas été déverrouillé depuis %d heure. Confirmez le mot de passe."</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">"L'appareil n'a pas été déverrouillé depuis %d heures. Confirmez le schéma."</item>
+        <item quantity="one">"L'appareil n'a pas été déverrouillé depuis %d heure. Confirmez le schéma."</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">"L'appareil n'a pas été déverrouillé depuis %d heures. Confirmez le code."</item>
+        <item quantity="one">"L'appareil n'a pas été déverrouillé depuis %d heure. Confirmez le code."</item>
+    </plurals>
+    <plurals name="notification_channels_list_desc_2_and_others">
+        <item quantity="other">%1$s, %2$s et %3$d autres</item>
+        <item quantity="one">%1$s, %2$s et %3$d autre</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">"%s notifications de plus à l'intérieur."</item>
+        <item quantity="one">"%s notification de plus à l'intérieur."</item>
+    </plurals>
+    <plurals name="notification_num_channels">
+        <item quantity="other">%d catégories de notifications</item>
+        <item quantity="one">%d catégorie de notifications</item>
+    </plurals>
+    <plurals name="notification_num_channels_desc">
+        <item quantity="other">1 sur %d catégories de notifications de cette application</item>
+        <item quantity="one">1 sur %d catégorie de notifications de cette application</item>
+    </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="other">%1$d interrupteurs au-dessus de cette barre sont actifs</item>
+        <item quantity="one">%1$d interrupteur au-dessus de cette barre est actif</item>
+    </plurals>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">"%d écrans dans la vue d'ensemble"</item>
+        <item quantity="one">"1 écran dans la vue d'ensemble"</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Dégagé</item>
         <item quantity="one">Dégagé</item>
-    </plurals>
-    <plurals name="accessibility_desc_weather_temperature">
-        <item quantity="other">Météo %d degrés</item>
-        <item quantity="one">Météo %d degré</item>
-    </plurals>
-    <plurals name="fold_tips_title">
-        <item quantity="other">%d notifications sans importance</item>
-        <item quantity="one">%d notification sans importance</item>
     </plurals>
 </resources>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_add_to_workspace">"Ajouter à l'espace de travail"</string>
     <string name="activity_not_found">"L'application n'est pas installée sur votre appareil"</string>
     <string name="add_screen">Ajouter un écran</string>
+    <string name="announce_for_checked">%1$s, vérifié</string>
     <string name="announce_for_choose_default_screen">"Définir l'écran %1$d comme l'écran d'accueil par défaut"</string>
     <string name="announce_for_close_default_preview">"Paramètres de l'écran d'accueil par défaut fermés"</string>
     <string name="announce_for_close_folder">Dossier fermé</string>
@@ -22,10 +24,13 @@
     <string name="announce_for_drop_workspace">"Numéro d'écran %1$d, numéro de ligne %2$d, numéro colonne %3$d"</string>
     <string name="announce_for_edit_mode">"Mode d'édition activée"</string>
     <string name="announce_for_edit_mode_disable">"Mode d'édition désactivée"</string>
+    <string name="announce_for_move">Déplacer vers la colonne%2$d, ligne%1$d</string>
+    <string name="announce_for_move_hotseat">"Aller à la position d'ancrage %1$d"</string>
     <string name="announce_for_open_default_preview">"Paramètres de l'écran d'accueil par défaut ouverts"</string>
     <string name="announce_for_open_folder">Dossier %1$s ouvert</string>
     <string name="announce_for_open_launcher_menu">Menu ouvert</string>
     <string name="announce_for_show_uninstall_dialog">Désinstallation des journaux apparus. Annuler ou confirmer.</string>
+    <string name="announce_for_unchecked">%1$s, non vérifié</string>
     <string name="app_already_exist">"L'application existe déjà"</string>
     <string name="app_being_backup_message">"L'application est en cours de restauration"</string>
     <string name="app_being_restored_message">"L'app est en cours de restauration"</string>
@@ -58,6 +63,7 @@
     <string name="aqi_quality_index_light_pollution">Prudence</string>
     <string name="aqi_quality_index_moderate">Modérée</string>
     <string name="aqi_quality_index_unhealthy">Invivable</string>
+    <string name="backup_fail">Impossible de sauvegarder le lanceur</string>
     <string name="bad_wallpaper_source_prompt">"Impossible de charger le fond d'écran"</string>
     <string name="buffering">Mémoire tampon…</string>
     <string name="cancel_action">Annuler</string>
@@ -87,6 +93,7 @@
     <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">"Plus d'applications"</string>
     <string name="default_folder_title_security">Système</string>
+    <string name="default_folder_title_services">Services</string>
     <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Outils</string>
     <string name="default_screen_preview_title">"Appuyer pour définir l'écran par défaut"</string>
@@ -175,6 +182,7 @@
     <string name="guide_install_app_title">"Trouver et installer l'application ?"</string>
     <string name="guide_tips_editing_mode">Appuyez &amp; maintenez pour prendre un widget</string>
     <string name="home_screen">"Écran d'accueil"</string>
+    <string name="icon_reorganize_channel">Organiser les icônes</string>
     <string name="image_too_small_message">"L'image originale n'est pas assez grande."</string>
     <string name="install">Installer</string>
     <string name="invalid_contact_shortcut">Contact non valide</string>
@@ -224,12 +232,14 @@
     <string name="normal_wallpaper">"Fond d'écran"</string>
     <string name="notification_installed">Installation réussie</string>
     <string name="notification_open_button">Ouvrir</string>
+    <string name="notification_reset_title">Icônes organisées avec succès</string>
     <string name="online_wallpaper">En ligne</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Annuler</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Désactiver</string>
     <string name="open_personal_assistant_dialog_desc">"Vous ne pourrez plus utiliser Coffre d'applications et recevoir ses mises à jour. Désactiver maintenant ?"</string>
+    <string name="open_personal_assistant_dialog_desc_international">"Vous ne pourrez pas utiliser les cartes de l'app coffre-fort (Stocks, Raccourcis, etc.) et recevoir des mises à jour après avoir désactivé cette fonctionnalité."</string>
     <string name="open_personal_assistant_dialog_title">"Désactiver le Coffre d'applications"</string>
-    <string name="open_personal_assistant_title">"Activer le Coffre d'applications"</string>
+    <string name="open_personal_assistant_title">Application coffre-fort</string>
     <string name="out_of_space">"Plus d'espace sur ce bureau"</string>
     <string name="permdesc_install_shortcut">"Permet à une application d'ajouter des raccourcis sans l'intervention de l'utilisateur."</string>
     <string name="permdesc_install_widget">"Permet à une application d'ajouter des widgets sans votre intervention."</string>
@@ -260,6 +270,7 @@
     <string name="preferences_general_title">Paramètres supplémentaires</string>
     <string name="preferences_title">Paramètres du lanceur</string>
     <string name="preferred_app_settings_not_selected">Non sélectionné</string>
+    <string name="quick_app">Applications rapides</string>
     <string name="recents_config_title">Récents</string>
     <string name="recommend_apk_size_and_desc">%1$d Mo | %2$s</string>
     <string name="recommend_apps_default_title">Vide</string>
@@ -269,7 +280,12 @@
     <string name="recommend_apps_switch_title">Applications recommandées</string>
     <string name="recommend_apps_tips">Cette fonctionnalité doit se connecter à Internet pour fonctionner normalement. Pour la désactiver, appuyez sur le nom de ce dossier.</string>
     <string name="recommend_loading">Chargement en cours</string>
+    <string name="refresh">Actualiser</string>
+    <string name="reset_description_first_time">Vous pouvez restaurer la disposition de %1$s dans les 2 heures</string>
+    <string name="reset_description_others">Vous pouvez restaurer la disposition de %1$s</string>
+    <string name="reset_fail">Impossible de restaurer</string>
     <string name="reset_scene_prompt">"Le bureau va être remis dans sa disposition d'origine."</string>
+    <string name="reset_title">Restaurer</string>
     <string name="screen_cells_config_title">"Disposition de l'écran d'accueil"</string>
     <string name="screen_locked_toast">"La disposition de l'écran d'accueil est verrouillée."</string>
     <string name="screen_number">%d écran</string>

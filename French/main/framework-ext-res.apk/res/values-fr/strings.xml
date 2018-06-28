@@ -113,10 +113,6 @@
     <string name="maml_component_customization_title">Paramètres</string>
     <string name="default_name">Nom par défaut</string>
     <string name="resource_select">Sélectionner</string>
-    <string name="group_name_contacts">Contacts</string>
-    <string name="group_name_friends">Amis</string>
-    <string name="group_name_family">Famille</string>
-    <string name="group_name_coworkers">Collègues</string>
     <string name="fp_nav_center_action_choose_dlg_title">Activer la Touche rapide</string>
     <string name="fp_nav_center_action_choose_dlg_msg">"Vous pouvez retourner à l'Écran d'accueil en appuyant légèrement sur le bouton d'accueil. Vous pouvez activer ou désactiver cette fonctionnalité dans Paramètres > Paramètres supplémentaires > Boutons > Appuyer sur le bouton d'accueil pour retourner à l'Écran d'accueil."</string>
     <string name="fp_nav_center_action_choose_dlg_positive_btn_text">Activer</string>
@@ -171,4 +167,9 @@
     <string name="switching_tv">Changement…</string>
     <string name="switch_desc_tv">Deux espaces. Un appareil.</string>
     <string name="switch_brand_desc_tv">Les services de sécurité fournis par Spaces Mobile</string>
+    <string name="miui_forbid_poweroff_when_device_locked">"Impossible d'éteindre, l'appareil est verrouillé."</string>
+    <string name="super_resolution_maintain_tips">"La super résolution n'est pas encore disponible."</string>
+    <string name="wifi_assistant_wifi_no_internet">"Ce réseau Wi-Fi n'a pas accès à Internet"</string>
+    <string name="wifi_assistant_wifi_no_internet_detail">Cliquer pour voir les détails</string>
+    <string name="resolver_app_recommend_flag">Recommander</string>
 </resources>

@@ -375,14 +375,14 @@ de l'opérateur"</string>
     <string name="main_tobe_added_desc">Données mobiles de 0,03 ¥/Mo</string>
     <string name="main_button_mi_sim_close">Activer Mi SIM</string>
     <string name="main_button_mi_sim_open">Voir les détails</string>
-    <string name="adjust_sms_cmd"><u>Adjust calibration SMS template</u></string>
-    <string name="sms_detail_correct_success_text">"Here's the data usage stats from the previous calibration (%1$s):"</string>
-    <string name="tc_send_sms_error">"Couldn't send SMS"</string>
-    <string name="tc_cmd_invalid">Template is invalid</string>
-    <string name="tc_receive_timeout">Calibration timed out</string>
-    <string name="tc_parse_error">"Couldn't parse SMS"</string>
-    <string name="tc_get_cmd_error">"Couldn't get template"</string>
-    <string name="tc_web_correct_error">"Couldn't calibrate"</string>
+    <string name="adjust_sms_cmd"><u>"Ajuster le modèle de SMS d'étalonnage"</u></string>
+    <string name="sms_detail_correct_success_text">"Voici les statistiques d'utilisation des données de l'étalonnage précédent (%1$s):"</string>
+    <string name="tc_send_sms_error">"Impossible d'envoyer le SMS"</string>
+    <string name="tc_cmd_invalid">Modèle invalide</string>
+    <string name="tc_receive_timeout">"L'étalonnage a expiré"</string>
+    <string name="tc_parse_error">"Impossible d'analyser les SMS"</string>
+    <string name="tc_get_cmd_error">"Impossible d'obtenir le modèle"</string>
+    <string name="tc_web_correct_error">"Impossible d'étalonner"</string>
     <string name="firewall_activity_lable">"Restreindre l'utilisation des données par application"</string>
     <string name="firewall_applist">Applications</string>
     <string name="firewall_mobile">Données Mobiles</string>
@@ -417,7 +417,7 @@ de l'opérateur"</string>
     <string name="deleted_apps">Applications supprimées</string>
     <string name="root">Accès root</string>
     <string name="app_detail">Détails</string>
-    <string name="app_version">Version</string>
+    <string name="app_version">Version:</string>
     <string name="app_mobile">Mobile</string>
     <string name="app_wifi">Wi-Fi</string>
     <string name="traffic_none">Aucun</string>
@@ -432,6 +432,7 @@ de l'opérateur"</string>
     <string name="managed_user_title">Toutes les applis fonctionnelles</string>
     <string name="pref_about_traffic_title">"Paramètres d'utilisation des données"</string>
     <string name="pref_traffic_manage_title">Utilisation de données</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Forfait de donnée</string>
     <string name="pref_adjust_traffic_data">"Définir l'utilisation des données"</string>
     <string name="pref_category_title_other">Paramètres supplémentaires</string>
@@ -874,7 +875,7 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="sms_detail_fragment_title_bill">Solde du téléphone</string>
     <string name="menu_report">Signaler une erreur</string>
     <string name="menu_charge_traffic">Acheter des données</string>
-    <string name="menu_setting_traffic">手动设置</string>
+    <string name="menu_setting_traffic">Définir manuellement</string>
     <string name="menu_charge_bill">Solde de recharge</string>
     <string name="privacy_dialog_message">"Lorsque vous vous connectez à Internet, ce message ainsi que les infos de l'opérateur seront chiffrés et envoyés aux serveurs Mi afin de nous aider à améliorer la surveillance de l'utilisation des données."</string>
     <string name="status_bar_network_flow_purchase">"   Acheter >"</string>
@@ -919,7 +920,7 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="optimize_result_header_view_summary">Augmentation de la vitesse</string>
     <string name="optimize_result_available_memory_info">Mémoire disponible</string>
     <string name="optimize_result_title_uninstall_apps">Applis</string>
-    <string name="om_settings_title">"Paramètres d'optimisation"</string>
+    <string name="om_settings_title">Paramètres</string>
     <string name="om_settings_lock_app_manage">Verrouiller les applications</string>
     <string name="om_settings_lock_app">Verrouiller les applications</string>
     <string name="om_settings_speed_up_auto">Augmentation de la vitesse automatique</string>
@@ -955,6 +956,7 @@ Cette activité réduit la durée de vie de la batterie."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Cette application peut ralentir
 votre appareil"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Désinstaller %s ?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">"Désinstaller cette application pour résoudre tous les problèmes liés à l'usage de la batterie."</string>
     <string name="om_ill_proc_type_wakelock_title">"L'application bloque le mode veille et décharge la batterie"</string>
@@ -1013,6 +1015,7 @@ votre appareil"</string>
     <string name="usage_type_data_send">Données mobiles envoyées</string>
     <string name="usage_type_no_coverage">Temps sans signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Serveur média</string>
     <string name="power_screen">Écran</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1358,6 +1361,7 @@ votre appareil"</string>
     <string name="menu_text_networkassistants">Utilisation des données</string>
     <string name="menu_text_networkassistants_remain">%s restants</string>
     <string name="menu_text_networkassistants_danger">%s dépassé</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">Go</string>
     <string name="menu_text_networkassistants_unit_mb">Mo</string>
     <string name="menu_text_networkassistants_unit_kb">ko</string>
@@ -1732,6 +1736,7 @@ votre appareil"</string>
     <string name="card_main_deepclean_wechat_action">Vider</string>
     <string name="card_main_sectool_title">Outils</string>
     <string name="card_main_monthreport_action">Afficher</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Tester le réseau</string>
     <string name="card_main_netcheck_summary">Tester la connexion pour des problèmes de réseau</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1772,6 +1777,7 @@ votre appareil"</string>
     <string name="ac_notification_contentTitle">"Protéger les applications sélectionnées avec Verrouillage d'application"</string>
     <string name="ac_pre_notification_contentTitle">"Essayer Verrouillage d'application"</string>
     <string name="ac_post_notification_contentTitle">"Activer le verrouillage d'application"</string>
+    <string name="midrop_post_notification_contentTitle">Besoin de transférer des fichiers?</string>
     <string name="notification_masked_item">Masquer les notifications</string>
     <string name="lock_mode_title">Paramètres de verrouillage</string>
     <string name="after_the_lock_screen">"Verrouillez les applications en même temps que l'écran"</string>
@@ -1781,6 +1787,7 @@ votre appareil"</string>
     <string name="ac_notification_contentText">Appuyez pour activer</string>
     <string name="ac_pre_notification_contentText">Protégez vos infos personnelles</string>
     <string name="ac_post_notification_contentText">Obtenir une protection de niveau système</string>
+    <string name="midrop_post_notification_contentText">"Essayez Mi Drop. C'est rapide et sans publicité."</string>
     <string name="notification_masked_subtitle">"Masquer les notifications des applis protégées avec le Verrouillage d'application"</string>
     <string name="ac_enter_applock">Ouvrir Verr. App</string>
     <string name="ac_mask_all_apps">Masquer pour toutes les applications</string>
@@ -2077,6 +2084,7 @@ votre appareil"</string>
     <string name="app_manager_open_show_all_apps_immediate">Afficher tous les résultats</string>
     <string name="app_manager_mobile_slot1">Données Mobiles (SIM 1)</string>
     <string name="app_manager_mobile_slot2">Données Mobiles (SIM 2)</string>
+    <string name="app_manager_details_title">"Infos sur l'application"</string>
     <string name="ad_btn_default_text">En savoir plus</string>
     <string name="open_activity_err">"L'application n'a pas été trouvée"</string>
     <string name="low_memory_warning_dialog_title">Espace de stockage insuffisant</string>
@@ -2098,6 +2106,8 @@ votre appareil"</string>
     <string name="gs_anto_clean_memory_whitelist">Exceptions</string>
     <string name="gs_call_handsfree">Répondre aux appels les mains libres</string>
     <string name="gs_call_handsfree_mute">Mode Silencieux</string>
+    <string name="gs_gamebox">Raccourcis dans le jeu</string>
+    <string name="gs_gamebox_detail">Afficher le panneau de raccourcis dans le jeu</string>
     <string name="gs_forbid_autosync">Restreindre la synchronisation en arrière-plan</string>
     <string name="gs_app_back_self_start">Économiseur de batterie</string>
     <string name="gs_only_self_start_for_list">Restreindre les processus en arrière-plan pour économiser la batterie pour les jeux</string>
@@ -2254,9 +2264,17 @@ votre appareil"</string>
     <string name="gb_msg_quickly_answer">Autoriser les réponses rapides</string>
     <string name="gb_msg_transparent_dispaly">Notifications avec fond transparent</string>
     <string name="gb_msg_completely_shielded_summary">Masquer</string>
+    <string name="gb_msg_not_shielded_summary">Afficher</string>
     <string name="gb_msg_quickly_answer_summary">Réponses rapides</string>
     <string name="gb_msg_transparent_dispaly_summary">Transparent</string>
     <string name="exit_dialog_homepage_optimise_message">Le score de performance de votre appareil est à moins de 80 points. Optimiser maintenant ?</string>
+    <string name="screenrecord_not_find">"Installez la dernière version de l'enregistreur d'écran puis réessayez."</string>
+    <string name="gamebox_qq_not_find">Installez QQ puis réessayez.</string>
+    <string name="gamebox_wechat_not_find">Installez WeChat puis réessayez.</string>
+    <string name="gamebox_type_close">Ne pas afficher</string>
+    <string name="gamebox_type_float">Raccourci fixe</string>
+    <string name="gamebox_type_gesture">Balayer pour afficher</string>
+    <string name="notify_channel_name_security">System security</string>
     <string name="power_center_consume_rank">Utilisation de la batterie</string>
     <string name="power_center_custom_title">"Profils de gestion d'énergie"</string>
     <string name="power_center_auto_shutdown_summary_default">Allumer ou éteindre votre appareil à une heure programmée</string>

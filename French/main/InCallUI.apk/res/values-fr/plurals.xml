@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="call_recording_notification_complete">
-        <item quantity="other">%d appels enregistrés.</item>
-        <item quantity="one">%d appel enregistré.</item>
+        <item quantity="other">Enregistrement à %d des appels.</item>
+        <item quantity="one">"Enregistrement à %d de l'appel."</item>
     </plurals>
 </resources>

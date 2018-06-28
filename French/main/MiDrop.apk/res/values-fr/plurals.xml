@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="delete_confirm_multiple_files">
+        <item quantity="other">Supprimer %d fichiers sélectionnés ?</item>
+        <item quantity="one">Supprimer %d fichier sélectionné ?</item>
+    </plurals>
     <plurals name="notif_receive_cancel">
         <item quantity="other">Transferts vers %1$s annulés</item>
         <item quantity="one">Transfert vers %1$s annulé</item>
@@ -16,8 +20,20 @@
         <item quantity="other">%2$d fichiers de %1$s</item>
         <item quantity="one">%2$d fichier de %1$s</item>
     </plurals>
+    <plurals name="selected_file_num">
+        <item quantity="other">%d éléments sélectionnés</item>
+        <item quantity="one">%d élément sélectionné</item>
+    </plurals>
     <plurals name="sender_file_num">
         <item quantity="other">%1$d éléments</item>
         <item quantity="one">%1$d élément</item>
+    </plurals>
+    <plurals name="transfer_list_received_header">
+        <item quantity="other">Recevoir %1$d fichiers (%2$s)</item>
+        <item quantity="one">Recevoir %1$d fichier (%2$s)</item>
+    </plurals>
+    <plurals name="transfer_list_sent_header">
+        <item quantity="other">Envoyer %1$d fichiers (%2$s)</item>
+        <item quantity="one">Envoyer %1$d fichier (%2$s)</item>
     </plurals>
 </resources>

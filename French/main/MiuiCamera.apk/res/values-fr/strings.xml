@@ -3,6 +3,7 @@
     <string name="camera_setting">App. photo</string>
     <string name="path_settings">Applications système/App. photo/Paramètres</string>
     <string name="search_settings">"Paramètres app. photo;Qualité;Qualité de l'image;Localisation de l'image;Détection de visage;Son de l'app. photo"</string>
+    <string name="hibernate_hint">"Appuyez sur l'écran pour réveiller l'appareil photo"</string>
     <string name="camera_error_title">"Erreur de l'appareil photo"</string>
     <string name="cannot_connect_camera_once">"Connexion impossible à l'appareil photo"</string>
     <string name="cannot_connect_camera_twice">"Impossible de se connecter à l'app. photo. Essayez de redémarrer votre appareil."</string>
@@ -31,10 +32,15 @@
     <string name="pref_front_mirror_title">"Miroiter l'appareil photo frontal"</string>
     <string name="pref_video_quality_title">Qualité de la vidéo</string>
     <string name="pref_video_hfr_title">Vidéo HFR</string>
-    <string name="pref_video_quality_entry_4kuhd">UHD 4K</string>
-    <string name="pref_video_quality_entry_1080p">FHD 1080P</string>
-    <string name="pref_video_quality_entry_720p">HD 720P</string>
-    <string name="pref_video_quality_entry_480p">SD 480P</string>
+    <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30 ips</string>
+    <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60 ips</string>
+    <string name="pref_video_quality_entry_1080p">FHD 1080P, 30 ips</string>
+    <string name="pref_video_quality_entry_1080p_60fps">FHP 1080P, 60 ips</string>
+    <string name="pref_video_quality_entry_720p">HD 720, 30 ips</string>
+    <string name="pref_video_quality_entry_480p">SD 480P, 30 ips</string>
+    <string name="pref_video_encoder_title">Encodeur vidéo</string>
+    <string name="pref_video_encoder_entry_h264">Haute compatibilité H.264</string>
+    <string name="pref_video_encoder_entry_h265">Haute performance H.265</string>
     <string name="pref_video_time_lapse_frame_interval_title">Retardateur</string>
     <string name="pref_video_time_lapse_frame_interval_entry_2">"2X (0,06-seconde d'intervalle)"</string>
     <string name="pref_video_time_lapse_frame_interval_entry_4">"4X (0,12-seconde d'intervalle)"</string>
@@ -92,11 +98,6 @@
     <string name="pref_camera_coloreffect_entry_negative" />
     <string name="pref_camera_coloreffect_entry_posterize" />
     <string name="pref_camera_coloreffect_entry_aqua" />
-    <string name="pref_camera_ai_scene_title">Caméra AI</string>
-    <string name="pref_camera_front_ai_scene_entry_on">Caméra AI</string>
-    <string name="pref_camera_front_ai_scene_entry_off">Caméra AI est désactivée</string>
-    <string name="ai_scene_mode_use_hint_text">"La caméra AI détecte les scènes automatiquement
-et optimise vos photos basées sur cette information"</string>
     <string name="pref_camera_coloreffect_entry_none">Normal</string>
     <string name="pref_camera_coloreffect_entry_instagram_rise">Lomo</string>
     <string name="pref_camera_coloreffect_entry_instagram_clarendon">Couleur Pop</string>
@@ -217,6 +218,8 @@ et optimise vos photos basées sur cette information"</string>
     <string name="accessibility_filter_close_panel">Menu de filtre fermé</string>
     <string name="accessibility_bokeh_normal">"Flou arrière de l'appareil photo avant est désactivé"</string>
     <string name="accessibility_bokeh_on">"Flou arrière de l'appareil photo avant est activé"</string>
+    <string name="accessibility_ai_scene_on">Caméra IA est activée</string>
+    <string name="accessibility_ai_scene_off">AI camera is off</string>
     <string name="accessibility_more">Plus</string>
     <string name="accessibility_setting">Paramètres</string>
     <string name="accessibility_protrait">Portrait</string>
@@ -408,6 +411,7 @@ et optimise vos photos basées sur cette information"</string>
     <string name="dual_camera_lens_covered_toast">"L'objectif est couvert."</string>
     <string name="dual_camera_use_hint">"Assurez-vous que l'objet n'est pas plus loin de 2 mètres."</string>
     <string name="bokeh_use_hint">Effet de profondeur</string>
+    <string name="back_bokeh_use_hint">"Assurez-vous que l'objet ne se trouve pas à plus de 1,5 mètres."</string>
     <string name="pref_camera_zoom_ratio_wide">100</string>
     <string name="pref_camera_zoom_ratio_tele">200</string>
     <string name="pref_camera_zoom_mode_title">OBJECTIFS</string>
@@ -415,6 +419,7 @@ et optimise vos photos basées sur cette information"</string>
     <string name="pref_camera_zoom_mode_entry_tele">TÉLÉ</string>
     <string name="pref_camera_zoom_mode_entry_standard">STANDARD</string>
     <string name="pref_camera_zoom_mode_entry_high_pixel">FAIBLE LUMINOSITÉ</string>
+    <string name="pref_camera_zoom_value_title">Zoom</string>
     <string name="pref_camera_portrait_mode_title">Mode portrait</string>
     <string name="pref_camera_portrait_mode_entry_off">Le mode portait est désactivé</string>
     <string name="pref_camera_portrait_mode_entry_on">Le mode portait est activé</string>
@@ -424,6 +429,7 @@ et optimise vos photos basées sur cette information"</string>
     <string name="portrait_mode_depth_effect_success_hint">Effet de profondeur</string>
     <string name="portrait_mode_use_hint">"Le mode Portrait brouille l'arrière-plan
 et fait ressortir les personnes à l'avant."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Carré</string>
     <string name="simple_mode_button_text_square">Désactiver le Carré</string>
     <string name="face_beauty_smart">Intelligent</string>
@@ -438,6 +444,7 @@ et fait ressortir les personnes à l'avant."</string>
     <string name="pref_camera_beautify_entry_low">Faible</string>
     <string name="pref_camera_beautify_entry_normal">Moyen</string>
     <string name="pref_camera_beautify_entry_high">Elevé</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Modes</string>
     <string name="button_front_camera_title">Prendre un selfie</string>
     <string name="button_normal_video_title">Enregistrer une vidéo</string>
@@ -459,6 +466,7 @@ puis créera une photo avec une quantité minimale de bruit."</string>
     <string name="hint_fast_motion">La vidéo que vous enregistrer sera lue rapidement.</string>
     <string name="hint_slow_motion">La vidéo que vous enregistrez sera lue lentement.</string>
     <string name="hunt_dual_water_mark">Le filigrane du double app. photo sera ajouté automatiquement.</string>
+    <string name="hint_ae_af_lock">Mise au point automatique / exposition automatique a été verrouillé</string>
     <string name="hint_device_water_mark">Le filigrane photo sera ajouté automatiquement.</string>
     <string name="module_name_fun">Vidéo courte</string>
     <string name="module_name_video">Vidéo</string>
@@ -480,11 +488,21 @@ puis créera une photo avec une quantité minimale de bruit."</string>
     <string name="config_name_super_resolution">Super résolution</string>
     <string name="beauty_fragment_tab_name_beauty">Beauté</string>
     <string name="beauty_fragment_tab_name_makeup">Avancé</string>
+    <string name="beauty_fragment_tab_name_3d_beauty">Beauté</string>
+    <string name="beauty_fragment_tab_name_3d_remodeling">Remodelage</string>
     <string name="edit_skin_white">Ton</string>
     <string name="edit_skin_smooth">Lisse</string>
     <string name="edit_eye_large">Grands yeux</string>
     <string name="edit_face_slender">Élancé</string>
     <string name="edit_face_ruddy">Rougeâtre</string>
+    <string name="edit_nose">Nez</string>
+    <string name="edit_risorius">Sourire</string>
+    <string name="edit_lips">Lèvres</string>
+    <string name="edit_chin">Menton</string>
+    <string name="edit_neck">Cou</string>
+    <string name="edit_smile">Sourire</string>
+    <string name="edit_slim_nose">Nez</string>
+    <string name="popup_tip_3d_beauty_intro_text">Beauté 3D</string>
     <string name="sticker_tab1">Mignon</string>
     <string name="sticker_tab2">Drôle</string>
     <string name="user_agreement2">"Conditions d'Utilisation"</string>
@@ -505,8 +523,20 @@ puis créera une photo avec une quantité minimale de bruit."</string>
     <string name="front_camera_hint_text_rotate">Faire pivoter votre téléphone</string>
     <string name="front_camera_hint_text_place">"La prise des selfies sera plus facile
 si vous faites pivoter votre téléphone"</string>
+    <string name="pref_camera_ai_scene_title">Caméra IA</string>
+    <string name="pref_camera_front_ai_scene_entry_on">Caméra IA</string>
+    <string name="pref_camera_front_ai_scene_entry_off">Caméra IA est désactivée</string>
     <string name="text_ai_scene_selector_text_on">SILHOUETTE</string>
     <string name="text_ai_scene_selector_text_off">CONTRE-JOUR</string>
+    <string name="ai_scene_mode_use_hint_text">"La caméra IA détecte les scènes automatiquement
+et optimise vos photos basées sur cette information"</string>
     <string name="pref_camera_asd_popup_title">Avertir lorsque le flash est nécessaire</string>
     <string name="pref_video_captrue_ability_title">"Capture d'image lors de l'enregistrement"</string>
+    <string name="face_analyze_info">Âge : %2$s (%1$s)</string>
+    <string name="pref_camera_picturesize_entry_standard">Standard 4:3</string>
+    <string name="pref_camera_picturesize_entry_fullscreen">Plein écran 16:9</string>
+    <string name="lens_dirty_detected_title_back">"L'objectif arrière est sale"</string>
+    <string name="lens_dirty_detected_title_front">"L'objectif avant est sale"</string>
+    <string name="lens_dirty_detected_content">"Il semble que la lentille de votre appareil photo est sale.
+Nettoyez la lentille pour un meilleur effet."</string>
 </resources>

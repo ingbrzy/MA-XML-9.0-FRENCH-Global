@@ -4,6 +4,10 @@
         <item quantity="other">Déplacement de %1$d éléments</item>
         <item quantity="one">Déplacement de %1$d élément</item>
     </plurals>
+    <plurals name="announce_for_unread">
+        <item quantity="other">%2$s non lus de %1$s</item>
+        <item quantity="one">%2$s non lu de %1$s</item>
+    </plurals>
     <plurals name="delete_wallpapers_message">
         <item quantity="other">"Supprimer %1$d fonds d'écran ?"</item>
         <item quantity="one">"Supprimer %1$d fond d'écran ?"</item>

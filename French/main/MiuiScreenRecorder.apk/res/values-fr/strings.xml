@@ -39,7 +39,7 @@
     <string name="home_title_none">Sélectionner des éléments</string>
     <string name="is_checked">Sélectionné</string>
     <string name="is_go_home">"Retour à écran d'accueil"</string>
-    <string name="is_go_home_summary">"Ouvrir la page d'accuei de l'enregistreur après avoir fini d'enregistrer"</string>
+    <string name="is_go_home_summary">"Ouvrir la page de démarrage de l/'enregistreur après l'arrêt de l'enregistrement"</string>
     <string name="loopback_sound">Haut-parleur</string>
     <string name="low_battery">"Chargez votre téléphone avant de démarrer l'enregistrement"</string>
     <string name="low_battery_title">Batterie faible</string>

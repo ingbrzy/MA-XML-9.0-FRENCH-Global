@@ -141,8 +141,8 @@
         <item quantity="one">Le code PIN doit comporter %d chiffre</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
-        <item quantity="other">Connecter au moins %d points. Réessayer.</item>
-        <item quantity="one">Connecter au moins %d point. Réessayer.</item>
+        <item quantity="other">Reliez au moins %d points. Réessayez.</item>
+        <item quantity="one">Reliez au moins %d point. Réessayez.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
         <item quantity="other">Trop de tentatives incorrectes. Réessayez dans %d secondes.</item>

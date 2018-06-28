@@ -8,6 +8,10 @@
         <item quantity="other">%d éléments bloqués</item>
         <item quantity="one">%d élément bloqué</item>
     </plurals>
+    <plurals name="articles_updated_amount">
+        <item quantity="other">%1$d articles mis à jour pour vous</item>
+        <item quantity="one">%1$d article mis à jour pour vous</item>
+    </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">Supprimer %d tâches ?</item>
         <item quantity="one">Supprimer %d tâche ?</item>
@@ -15,14 +19,6 @@
     <plurals name="find_on_page_matches">
         <item quantity="other">%d résultats</item>
         <item quantity="one">%d résultat</item>
-    </plurals>
-    <plurals name="last_num_days">
-        <item quantity="other">Les %d derniers jours</item>
-        <item quantity="one">%d dernier jour</item>
-    </plurals>
-    <plurals name="matches_found">
-        <item quantity="other">%1$d sur %2$d</item>
-        <item quantity="one">1 correspondance</item>
     </plurals>
     <plurals name="nav_screen_incognito_time">
         <item quantity="other">Après %d secondes, une nouvelle page sera automatiquement créée</item>
@@ -43,6 +39,10 @@
     <plurals name="suggest_access_item_singer_pop">
         <item quantity="other">%d chansons populaires</item>
         <item quantity="one">%d chanson populaire</item>
+    </plurals>
+    <plurals name="transfer_prompt">
+        <item quantity="other">Lire la vidéo dans %1$d secondes</item>
+        <item quantity="one">Lire la vidéo dans %1$d seconde</item>
     </plurals>
     <plurals name="v5_edit_mode_title">
         <item quantity="other">%1$d sélectionnés</item>
@@ -71,6 +71,10 @@
     <plurals name="video_subtitle_last_message">
         <item quantity="other">%d minutes restantes</item>
         <item quantity="one">%d minute restante</item>
+    </plurals>
+    <plurals name="videos_updated_amount">
+        <item quantity="other">%1$d vidéos mises à jour pour vous</item>
+        <item quantity="one">%1$d vidéo mise à jour pour vous</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Dégagé</item>

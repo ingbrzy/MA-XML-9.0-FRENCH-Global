@@ -4,6 +4,7 @@
     <string name="passport_notification_title">Erreur de connexion pour %1$s</string>
     <string name="passport_login_prompt">Un Compte Mi. Tous les services Mi.</string>
     <string name="passport_login_using_other_ways">Autres méthodes de connexion</string>
+    <string name="passport_register_using_other_ways">Other ways to create account</string>
     <string name="passport_login_title">Connectez-vous à votre compte Mi</string>
     <string name="passport_login">Se connecter</string>
     <string name="passport_relogin">Se connecter à nouveau</string>
@@ -26,6 +27,7 @@
     <string name="passport_reg_success_summary">"%1$s a été associé à votre compte. Vous pouvez l'utiliser pour vous connecter et réinitialiser votre mot de passe."</string>
     <string name="passport_re_register">"S'inscrire à nouveau"</string>
     <string name="passport_register">Créer un compte</string>
+    <string name="passport_new_user_register">Create an account</string>
     <string name="passport_vcode_sms_send_prompt">Envoyer le code de vérification au %s</string>
     <string name="passport_get_verify_code">Obtenir le code</string>
     <string name="passport_re_get_verify_code">Obtenir le code à nouveau</string>
@@ -70,6 +72,7 @@ Pour activer votre compte, suivez le
     <string name="passport_skip_register">"Ignorer l'inscription"</string>
     <string name="passport_account_not_activated">"Votre compte n'a pas été activé "</string>
     <string name="passport_change_account"><u>Changer de compte</u></string>
+    <string name="passport_btn_change_account">Change account</string>
     <string name="passport_register_account_verified_confirm">Compte vérifié</string>
     <string name="passport_register_account_goto_email">Aller à la boite de réception</string>
     <string name="passport_error_dup_email">"L'e-mail que vous avez entré est déjà associé à un autre compte."</string>
@@ -83,12 +86,13 @@ Pour activer votre compte, suivez le
     <string name="passport_delete_account">Se Déconnecter</string>
     <string name="passport_vcode_notification_title">"La vérification n'est pas terminée"</string>
     <string name="passport_account_name">Compte : %1$s</string>
-    <string name="passport_account_hint_text">E-mail/Téléphone/ID de Compte Mi</string>
+    <string name="passport_account_hint_text">Email/Phone number/Mi Account ID</string>
     <string name="passport_email_or_id_hint_text">E-mail / ID de compte Mi</string>
     <string name="passport_phone_num_hint_text">Numéro de téléphone</string>
     <string name="passport_input_password_hint">Saisir le mot de passe</string>
     <string name="passport_input_captcha_hint">Saisir le captcha</string>
     <string name="passport_input_vcode_hint">Entrez le code de vérification</string>
+    <string name="passport_input_voice_hint">Enter voice code</string>
     <string name="passport_email">Adresse e-mail</string>
     <string name="passport_vcode_prompt_long">Entrez le code de vérification</string>
     <string name="passport_input_phone_hint">Entrez un numéro de téléphone</string>
@@ -102,6 +106,7 @@ Pour activer votre compte, suivez le
     <string name="passport_error_empty_pwd">Saisissez votre mot de passe</string>
     <string name="passport_error_illegal_pwd">Mot de passe incorrect</string>
     <string name="passport_error_empty_captcha_code">Entrer le code captcha</string>
+    <string name="passport_error_empty_voice_code">Enter captcha</string>
     <string name="passport_error_empty_vcode">Entrez le code de vérification</string>
     <string name="passport_i_know">"C'est compris"</string>
     <string name="passport_retry">Veuillez réessayer</string>
@@ -114,6 +119,7 @@ Pour activer votre compte, suivez le
     <string name="passport_yes">Oui</string>
     <string name="passport_no">Non</string>
     <string name="passport_continue">Continuer</string>
+    <string name="passport_Resend">Resend</string>
     <string name="passport_loading">Chargement…</string>
     <string name="passport_reging">Inscription…</string>
     <string name="passport_checking_account">Vérification du mot de passe…</string>
@@ -145,6 +151,7 @@ Pour activer votre compte, suivez le
     <string name="passport_error_user_name">"Le nom d'utilisateur que vous avez entré n'est pas valide."</string>
     <string name="passport_access_denied">Accès refusé</string>
     <string name="passport_wrong_captcha">Le code que vous avez entré est incorrect</string>
+    <string name="passport_wrong_voice">The code you entered is incorrect</string>
     <string name="passport_wrong_vcode">Le code que vous avez entré est incorrect</string>
     <string name="passport_error_device_id">"Impossible d'obtenir l'identifiant de l'appareil"</string>
     <string name="passport_error_invalid_dev_id">"L'ID de votre appareil est non valide."</string>
@@ -200,6 +207,12 @@ Pour activer votre compte, suivez le
     <string name="passport_get_innetdate_agree">Vérifier</string>
     <string name="passport_get_innetdate_disagree">Non</string>
     <string name="passport_extra_gdpr_license">"Créer votre compte Mi signifie que vous acceptez que Xiaomi collectera, traitera et utilisera vos données personnelles, y compris les données de vérification (par exemple, les codes de vérification), les données du second espace (par exemple, informations sur les façons d'utiliser les premier et second espaces), et d'autres données spécifiées dans notre politique de confidentialité. Référez-vous à notre politique de confidentialité pour apprendre comment nous traitons et utilisons les données personnelles."</string>
+    <string name="passport_talkback_image_captcha">Image du code vérification</string>
+    <string name="passport_talkback_voice_captcha">Lire le code de vérification vocale</string>
+    <string name="passport_talkback_switch_voice_captcha">Basculer vers le code de vérification vocale</string>
+    <string name="passport_talkback_switch_image_captcha">"Basculer sur le code de vérification de l'image"</string>
+    <string name="passport_license_info_open">Détails</string>
+    <string name="passport_license_info_collapse">Réduire</string>
     <string name="search_app_name">Compte Mi</string>
     <string name="search_mi_account">Compte Mi</string>
     <string name="search_mi_account_key_words">Mi Cloud, Paramètre de compte, Informations Mi Pay, Se déconnecter</string>
@@ -331,6 +344,7 @@ Pour activer votre compte, suivez le
     <string name="account_user_details">Infos personnelles</string>
     <string name="account_security">Sécurité du compte</string>
     <string name="account_mibi_center">Crédits Mi</string>
+    <string name="account_mibi_charge">Recharger</string>
     <string name="account_mipay_info">Mi Pay</string>
     <string name="account_xiaomi_service">Services</string>
     <string name="cloud_service">Mi Cloud</string>
@@ -452,7 +466,7 @@ Pour activer votre compte, suivez le
     <string name="account_token_expired_msg">"Le code de vérification a expiré, recommencez ou déconnectez-vous
 L'ID de votre compte : %s"</string>
     <string name="bind_safe_phone_msg">Ajoutez votre numéro de téléphone pour être en mesure de vous connecter à votre compte Mi la prochaine fois.</string>
-    <string name="account_notification_message">>La session a expiré, veuillez vous reconnecter.</string>
+    <string name="account_notification_message">La session a expiré, veuillez vous reconnecter.</string>
     <string name="sim_changed_notification_title">Numéro de téléphone modifié ?</string>
     <string name="sim_changed_notification_msg">Appuyez pour mettre à jour votre numéro de téléphone de récupération et sécuriser davantage votre compte.</string>
     <string name="recycle_phone_notification_title">Rsique de sécurité du compte Mi</string>

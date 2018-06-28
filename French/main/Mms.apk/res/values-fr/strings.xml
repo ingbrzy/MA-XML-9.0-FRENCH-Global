@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_firewall_setting">Liste noire</string>
     <string name="activity_not_found">"Aucune application n'a été trouvée pour gérer cette action"</string>
     <string name="activity_not_found_uri">"Aucune application n'a été trouvée pour gérer cette action"</string>
@@ -51,16 +52,16 @@
     <string name="bookmark_confirm_delete_message">Retirer des favoris les éléments sélectionnés ?</string>
     <string name="bookmark_empty">Aucun message favori</string>
     <string name="bookmark_list_title">Favoris</string>
-    <string name="button_emoji_creature">Creature Emoji</string>
-    <string name="button_emoji_lifestyle">Lifestyle Emoji</string>
-    <string name="button_emoji_smiley">Smiley Emoji</string>
-    <string name="button_emoji_symbol">Symbol Emoji</string>
-    <string name="button_emoji_text">Text Emoji</string>
-    <string name="button_fold">fold</string>
-    <string name="button_next_slide">Next</string>
-    <string name="button_pre_slide">Previous</string>
-    <string name="button_resend_message">Resend</string>
-    <string name="button_unfold">Unfold</string>
+    <string name="button_emoji_creature">"Émoticônes d'animaux"</string>
+    <string name="button_emoji_lifestyle">Émoticônes de loisirs</string>
+    <string name="button_emoji_smiley">Émoticônes de visage</string>
+    <string name="button_emoji_symbol">Émoticônes de symbole</string>
+    <string name="button_emoji_text">Émoticônes de texte</string>
+    <string name="button_fold">Plier</string>
+    <string name="button_next_slide">Suivant</string>
+    <string name="button_pre_slide">Précédent</string>
+    <string name="button_resend_message">Renvoyer</string>
+    <string name="button_unfold">Dérouler</string>
     <string name="call_sender">Appeler lexpéditeur</string>
     <string name="cannot_add_picture_and_video">"Impossible d'ajouter une vidéo et une image sur une diapositive."</string>
     <string name="cannot_add_slide_anymore">"Impossible d'ajouter d'autres diapositives."</string>
@@ -135,7 +136,9 @@
     <string name="delete_wild_sims_title">Supprimer les numéros sélectionnés</string>
     <string name="delivery_report_activity">Accusé de réception</string>
     <string name="delivery_toast_body">Message reçu par %s</string>
+    <string name="dialog_message_fake_cell_detect_error">"Corrigez les informations sur ce message ? Pour ce faire, MIUI doit télécharger le numéro de téléphone (%1$s), le contenu du message et les informations sur l'emplacement à proximité de ses serveurs."</string>
     <string name="dialog_message_sms_report">"Les informations des messages indésirables et de l'expéditeur seront envoyées à MIUI lorsque vous les rapportez. Elles seront utilisées afin d'améliorer les filtres de messages indésirables MIUI."</string>
+    <string name="dialog_title_fake_cell_detect_error">Correction</string>
     <string name="disable_notifications_dialog_message">"Désactiver les notifications de l'application SMS par défaut?"</string>
     <string name="disabled">Désactivé</string>
     <string name="discard">Annuler et revenir</string>
@@ -148,7 +151,7 @@
     <string name="download_later">"Téléchargement impossible pour l'instant. Merci de réessayer ultérieurement."</string>
     <string name="downloading">Téléchargement…</string>
     <string name="downloading_file_can_not_play">"Attendez que l'enregistrement soit complètement téléchargé"</string>
-    <string name="draft">Draft</string>
+    <string name="draft">Brouillon</string>
     <string name="duration_not_a_number">La durée doit être un nombre</string>
     <string name="duration_sec">Durée (%s s)</string>
     <string name="duration_selector_title">"Durée de la diapositive "</string>
@@ -165,7 +168,6 @@
     <string name="error_state">Etat incohérent</string>
     <string name="error_state_text">"L'état des fils de discussions et des destinataires est incohérent. Capturez un rapport de bug et signalez-le via http://go/droidanizer"</string>
     <string name="error_timed_msg">Heure non valide</string>
-    <string name="ex_type_guide">Information</string>
     <string name="ex_type_mx">Messages Mi</string>
     <string name="ex_type_sms">SMS/MMS</string>
     <string name="exceed_message_size_limitation">Taille maximale atteinte pour ce message.</string>
@@ -177,6 +179,7 @@
     <string name="fail_to_view_attachment">Pièce jointe non disponible</string>
     <string name="failed_to_add_media">Désolé, vous ne pouvez pas ajouter cet élément à votre message : %1$s.</string>
     <string name="failed_to_resize_image">"L'image n'a pas été redimensionnée."</string>
+    <string name="fake_cell_alert_detect_error">"Cela n'a pas été envoyé à partir d'un faux téléphone portable"</string>
     <string name="fake_cell_alert_hint">"Il semble que ce message ait été envoyé à partir d'un numéro de téléphone différent de celui qui s'affiche. Soyez prudent avec les messages contenant des sollicitations financières."</string>
     <string name="fake_cell_checking_hint">Vérification de sécurité…</string>
     <string name="fake_cell_safe_hint">Ce message est sécurisé</string>
@@ -189,6 +192,7 @@
     <string name="file_size">Taille :</string>
     <string name="file_title">Nom :</string>
     <string name="file_width_height">Taille :</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Nouveau message</string>
     <string name="forward_from">Transférer de:</string>
     <string name="forward_prefix">TR :</string>
@@ -357,6 +361,9 @@
     <string name="no_subject_view">(Aucun objet)</string>
     <string name="non_english_subject_limit">Maximum 13 caractères</string>
     <string name="nosend_message">Non envoyé</string>
+    <string name="notification_channel_description">Notifications de Message</string>
+    <string name="notification_channel_name">Message</string>
+    <string name="notification_copy">Copier OTP</string>
     <string name="notification_failed_multiple">"%s messages n'ont pu être envoyés"</string>
     <string name="notification_failed_multiple_title">Messages non envoyés</string>
     <string name="notification_multiple">[%s]</string>
@@ -457,7 +464,7 @@
     <string name="privacy_password_title4">Mot de passe mis à jour</string>
     <string name="private_message">Messagerie privée</string>
     <string name="private_new_notification">Notification de message</string>
-    <string name="private_protect">Privacy protection</string>
+    <string name="private_protect">Protection de la vie privée</string>
     <string name="private_settings">Paramètres de la messagerie privée</string>
     <string name="processing">En cours…</string>
     <string name="prvate_contact">Contacts privés</string>
@@ -537,6 +544,7 @@
     <string name="send_signature_confirm_dialog_title">Envoyer un message</string>
     <string name="send_sms">Envoyer le message</string>
     <string name="send_to">Envoyer à :</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Envoyé à : %1s</string>
     <string name="sent_label">"Envoyé : "</string>
     <string name="service_message_not_found">Message expiré ou indisponible.</string>
@@ -626,6 +634,7 @@
     <string name="to_address_label">"À : "</string>
     <string name="to_label">"À "</string>
     <string name="to_send_wrapper">Sera envoyé à %s.</string>
+    <string name="toast_pending_hangup_msg">"Le message sera envoyé à la fin de l'appel"</string>
     <string name="today">"Aujourd'hui"</string>
     <string name="too_many_attachments">Ne peut pas dépasser %1$s pièces jointes. Seulement les %2$s premières seront ajoutées.</string>
     <string name="too_many_recipients">Ce message comporte trop de destinataires (%1$s). Vous ne pouvez avoir plus de %2$s destinataires.</string>
@@ -650,11 +659,12 @@ Dernière tentative : %s."</string>
     <string name="unsupported_media_format">Format %1$s non pris en charge.</string>
     <string name="url_fraud_dangerous_alert">"Le site Web que vous essayer de visiter pourrait être dangereux. Il pourrait endommager votre appareil et vos données. Le visiter quand même ?
 %s"</string>
-    <string name="url_fraud_risky_alert">"Le site Web que vous essayez de visiter pourrait être dangereux. Le visiter quand même ?
-%s"</string>
+    <string name="url_fraud_risky_alert">"Le site Web %s que vous essayez de visiter pourrait être dangereux. Le visiter quand même ?
+"</string>
     <string name="url_fraud_title">Un site Web peut être un faux</string>
     <string name="url_fraud_visit"><u>Visiter quand même</u></string>
     <string name="url_result_safe">Cette URL est sécurisée</string>
+    <string name="url_scan_again">Vérifier à nouveau</string>
     <string name="url_scanning">"Vérification de l'URL…"</string>
     <string name="verification_code_list_title">Codes de vérification</string>
     <string name="view">Afficher</string>
@@ -666,5 +676,4 @@ Dernière tentative : %s."</string>
     <string name="wild_msg_title">Choisir un numéro de téléphone pour synchroniser</string>
     <string name="yes">OK</string>
     <string name="yesterday">Hier</string>
-    <string name="fake_cell_detection_entry">Détection de fausse station de base</string>
 </resources>

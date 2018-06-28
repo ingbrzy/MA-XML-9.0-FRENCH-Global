@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">"Revenir à l'accueil"</string>
-    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
-    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
-    <string name="abc_action_bar_up_description">Revenir en haut de la page</string>
-    <string name="abc_action_menu_overflow_description">"Plus d'options"</string>
-    <string name="abc_action_mode_done">OK</string>
-    <string name="abc_activity_chooser_view_see_all">Tout afficher</string>
-    <string name="abc_activitychooserview_choose_application">Sélectionner une application</string>
-    <string name="abc_search_hint">Rechercher…</string>
-    <string name="abc_searchview_description_clear">Effacer la requête</string>
-    <string name="abc_searchview_description_query">Requête de recherche</string>
-    <string name="abc_searchview_description_search">Rechercher</string>
-    <string name="abc_searchview_description_submit">Envoyer la requête</string>
-    <string name="abc_searchview_description_voice">Recherche vocale</string>
-    <string name="abc_shareactionprovider_share_with">Partager avec</string>
-    <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
-    <string name="abc_toolbar_collapse_description">Réduire</string>
     <string name="common_google_play_services_api_unavailable_text">"%1$s nécessite un ou plusieurs services Google Play qui ne sont pas disponibles actuellement. Veuillez contacter le développeur pour obtenir de l'aide."</string>
     <string name="common_google_play_services_enable_button">Activer services Google Play</string>
     <string name="common_google_play_services_enable_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas activé les services Google Play."</string>
@@ -48,7 +31,6 @@
     <string name="common_open_on_phone">Ouvrir sur le téléphone</string>
     <string name="common_signin_button_text">Se connecter</string>
     <string name="common_signin_button_text_long">Se connecter avec Google</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="Clock_main">Alarme</string>
     <string name="Clock_parent">Horloge</string>
     <string name="MiDrop_main">Envoyer</string>
@@ -82,6 +64,37 @@
     <string name="ball_dialog_content">"Installer HuPu Sports afin d'utiliser cette fonctionnalité. Installer maintenant ?"</string>
     <string name="ball_dialog_tip">Ne plus afficher</string>
     <string name="ball_dialog_title">"Installer d'abord l'application."</string>
+    <string name="ball_football_brief">All the info about your favorite teams</string>
+    <string name="ball_football_brief_detail">View info, learn results, and follow up to 4 football teams.</string>
+    <string name="ball_football_check_full_schedule">View all matches</string>
+    <string name="ball_football_final">Final</string>
+    <string name="ball_football_full_schedule">All matches</string>
+    <string name="ball_football_group_competition">Group stage</string>
+    <string name="ball_football_news">News</string>
+    <string name="ball_football_quarter_finals">Quarter-final</string>
+    <string name="ball_football_rank_team">Teams</string>
+    <string name="ball_football_recent_finished">ENDED</string>
+    <string name="ball_football_recent_next_game">Next match: %s</string>
+    <string name="ball_football_recent_playing">LIVE</string>
+    <string name="ball_football_recent_starting_time">Starts: %s</string>
+    <string name="ball_football_recent_time">MM/dd HH:mm</string>
+    <string name="ball_football_round_of_16">Round of 16</string>
+    <string name="ball_football_round_one">Group stage (Round 1)</string>
+    <string name="ball_football_round_three">Group stage (Round 3)</string>
+    <string name="ball_football_round_two">Group stage (Round 2)</string>
+    <string name="ball_football_semi_finals">Semi-final</string>
+    <string name="ball_football_tab_GroupA">Group A</string>
+    <string name="ball_football_tab_GroupB">Group B</string>
+    <string name="ball_football_tab_GroupC">Group C</string>
+    <string name="ball_football_tab_GroupD">Group D</string>
+    <string name="ball_football_tab_GroupE">Group E</string>
+    <string name="ball_football_tab_GroupF">Group F</string>
+    <string name="ball_football_tab_GroupG">Group G</string>
+    <string name="ball_football_tab_GroupH">Group H</string>
+    <string name="ball_football_tab_hot">Popular</string>
+    <string name="ball_football_third_place_playoff">3rd place game</string>
+    <string name="ball_football_word_cup">World cup</string>
+    <string name="ball_football_your_teams" formatted="false">Select teams to follow (%d/%d)</string>
     <string name="ball_net_errot">Impossible de se connecter au réseau.</string>
     <string name="ball_recent_no_data">"Pas d'infos sur les prochains matchs."</string>
     <string name="bicycle">Vélo</string>
@@ -171,6 +184,7 @@
     <string name="memory_clear_result">%1$s nettoyé</string>
     <string name="mi_agenda">Calendrier des événements</string>
     <string name="mi_function">Raccourcis</string>
+    <string name="minus_screen_search_label">Rechercher</string>
     <string name="month_day_format">dd/MM</string>
     <string name="month_format_en">dd/MM</string>
     <string name="more_stock_infos">"Plus d'informations"</string>
@@ -260,7 +274,7 @@
     <string name="stock_change_rate_format">%.2f%%</string>
     <string name="stock_color_schema">Schéma de couleur</string>
     <string name="stock_list_empty_text">Vous ne suivez aucune compagnie actuellement.</string>
-    <string name="stock_provider">Les cotations boursières sont fournies par Webull</string>
+    <string name="stock_provider">Les cotations sont fournies par Webull</string>
     <string name="stock_search_empty">Impossible de trouver les stocks.</string>
     <string name="stock_title">Stocks</string>
     <string name="stock_title_schema">"Option de l'affichage de stockage"</string>
@@ -293,7 +307,7 @@
     <string name="uber_trip">Appeler un taxi</string>
     <string name="uber_x">UberX</string>
     <string name="upgrade_being">Mise à jour…</string>
-    <string name="upgrade_fail_message">Impossible de mettre à jour. Assurez-vous que vous utilisez la dernière version de MIUI.</string>
+    <string name="upgrade_fail_message">Mise à jour impossible. Assurez-vous que vous utilisez la dernière version de MIUI.</string>
     <string name="upgrade_find">Mise à jour disponible</string>
     <string name="upgrade_later">Mettre à jour plus tard</string>
     <string name="upgrade_log_default">"1. Performance améliorée.
@@ -308,5 +322,4 @@
     <string name="year_month_day_all_format_en">dd/MM/yyyy HH:mm:ss</string>
     <string name="year_month_day_format">dd/MM/yyyy</string>
     <string name="yesterday">Hier</string>
-    <string name="minus_screen_search_label">Search</string>
 </resources>

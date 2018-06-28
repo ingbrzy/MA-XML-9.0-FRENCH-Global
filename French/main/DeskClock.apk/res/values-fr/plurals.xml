@@ -16,6 +16,10 @@
         <item quantity="other">Supprimer ces fuseaux horaires ?</item>
         <item quantity="one">Supprimer ce fuseau horaire ?</item>
     </plurals>
+    <plurals name="second">
+        <item quantity="other">%d secondes</item>
+        <item quantity="one">%d seconde</item>
+    </plurals>
     <plurals name="snooze_message">
         <item quantity="other">Rappel dans %d mins</item>
         <item quantity="one">Rappel dans %d min</item>

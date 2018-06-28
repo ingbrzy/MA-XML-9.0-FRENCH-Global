@@ -433,6 +433,7 @@
     <string name="theme_is_external_priority_storage">Enregistrer sur la carte SD</string>
     <string name="theme_is_external_priority_storage_summary">"L'application Thème va redémarrer immédiatement pour prendre effet."</string>
     <string name="theme_multiple_button_title_customize">Personnaliser</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Non</string>
     <string name="theme_precast_create_notification_content">Appuyez pour voir les nouveaux thèmes.</string>
     <string name="theme_precast_create_notification_title">Mis à jour vers MIUI 7</string>

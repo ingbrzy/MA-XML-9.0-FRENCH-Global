@@ -23,12 +23,12 @@
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>Animation désactivée</item>
-        <item>"Échelle d'animation x 0,5"</item>
-        <item>"Échelle d'animation x 1"</item>
-        <item>"Échelle d'animation x 1,5"</item>
-        <item>"Échelle d'animation x 2"</item>
-        <item>"Échelle d'animation x 5"</item>
-        <item>"Échelle d'animation x 10"</item>
+        <item>"Échelle d'animation .5x"</item>
+        <item>"Échelle d'animation 1x"</item>
+        <item>"Échelle d'animation 1.5x"</item>
+        <item>"Échelle d'animation 2x"</item>
+        <item>"Échelle d'animation 5x"</item>
+        <item>"Échelle d'animation 10x"</item>
     </string-array>
     <string-array name="ap_identify">
         <item>Par défaut</item>
@@ -189,10 +189,10 @@
     <string-array name="app_process_limit_entries">
         <item>Limite standard</item>
         <item>Aucun processus en arrière-plan</item>
-        <item>Un processus maximum</item>
-        <item>Deux processus maximum</item>
-        <item>Trois processus maximum</item>
-        <item>Quatre processus maximum</item>
+        <item>Au moins 1 processus</item>
+        <item>Au moins 2 processus</item>
+        <item>Au moins 3 processus</item>
+        <item>Au moins 4 processus</item>
     </string-array>
     <string-array name="automatic_storage_management_days">
         <item>Depuis plus de 30 jours</item>
@@ -203,11 +203,6 @@
         <item>Graphique</item>
         <item>Pourcentage</item>
         <item>Barre linéaire</item>
-    </string-array>
-    <string-array name="battery_labels">
-        <item>0 %</item>
-        <item>50 %</item>
-        <item>100 %</item>
     </string-array>
     <string-array name="bearer_entries">
         <item>Non spécifié</item>
@@ -228,77 +223,77 @@
         <item>IS95A</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Utiliser sélection système (par défaut)</item>
-        <item>16 bits par échantillon</item>
-        <item>24 bits par échantillon</item>
-        <item>32 bits par échantillon</item>
+        <item>Utiliser la préférence de système (par défaut)</item>
+        <item>16 bits/échantillon</item>
+        <item>24 bits/échantillon</item>
+        <item>32 bits/échantillon</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Utiliser sélection système (par défaut)</item>
-        <item>16 bits par échantillon</item>
-        <item>24 bits par échantillon</item>
-        <item>32 bits par échantillon</item>
+        <item>Utiliser la préférence de système (par défaut)</item>
+        <item>16 bits/échantillon</item>
+        <item>24 bits/échantillon</item>
+        <item>32 bits/échantillon</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Utiliser sélection système (par défaut)</item>
+        <item>Utiliser la préférence de système (par défaut)</item>
         <item>Mono</item>
         <item>Stéréo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Utiliser sélection système (par défaut)</item>
+        <item>Utiliser la préférence de système (par défaut)</item>
         <item>Mono</item>
         <item>Stéréo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Optimisée pour la qualité audio</item>
-        <item>Qualité audio et de la connexion équilibrée</item>
-        <item>Optimisée pour la qualité de la connexion</item>
-        <item>Qualité de lecture optimale (débit adaptatif)</item>
+        <item>Optimiser la qualité audio</item>
+        <item>Équilibre audio et qualité de connexion</item>
+        <item>Optimisé pour la qualité de connexion</item>
+        <item>Meilleur effort (débit binaire adaptatif)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Optimisée pour la qualité audio (990/909 kbit/s)</item>
-        <item>Qualité audio et de la connexion équilibrée (660/606 kbit/s)</item>
-        <item>Optimisée pour la qualité de la connexion (330/303 kbit/s)</item>
-        <item>Qualité de lecture optimale (débit adaptatif)</item>
+        <item>"Optimisé pour la qualité d'audio (990kbps/909kbps)"</item>
+        <item>Équilibre audio et qualité de connexion (660kbps / 606kbps)</item>
+        <item>Optimisé pour la qualité de connexion (330kbps/303kbps)</item>
+        <item>Meilleur effort (débit binaire adaptatif)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Utiliser sélection système (par défaut)</item>
-        <item>44,1 kHz</item>
-        <item>48 kHz</item>
-        <item>88,2 kHz</item>
-        <item>96 kHz</item>
+        <item>Utiliser la préférence de système (par défaut)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Utiliser sélection système (par défaut)</item>
-        <item>44,1 kHz</item>
-        <item>48 kHz</item>
-        <item>88,2 kHz</item>
-        <item>96 kHz</item>
+        <item>Utiliser la préférence de système (par défaut)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Utiliser sélection système (par défaut)</item>
+        <item>Utiliser la préférence de système (par défaut)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>aptX</item>
-        <item>aptX HD</item>
+        <item>aptX HD</item>
         <item>LDAC</item>
         <item>Activer les codecs facultatifs</item>
         <item>Désactiver les codecs facultatifs</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Utiliser sélection système (par défaut)</item>
+        <item>Utiliser la préférence de système (par défaut)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>aptX</item>
-        <item>aptX HD</item>
+        <item>aptX HD</item>
         <item>LDAC</item>
         <item>Activer les codecs facultatifs</item>
         <item>Désactiver les codecs facultatifs</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.4 (par défaut)</item>
-        <item>AVRCP 1.5</item>
-        <item>AVRCP 1.6</item>
+        <item>AVRCP 1.4 (par défaut)</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
     </string-array>
     <string-array name="bluetooth_visibility_timeout_entries">
         <item>Deux minutes</item>
@@ -663,13 +658,13 @@
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Couleurs améliorées</item>
-        <item>"Couleurs naturelles vues par l'œil"</item>
-        <item>Couleurs optimisées pour les contenus numériques</item>
+        <item>"Couleurs naturelles comme vues par l'œil"</item>
+        <item>Couleurs optimisées pour un contenu numérique</item>
     </string-array>
     <string-array name="color_mode_names">
-        <item>Couleurs éclatantes (par défaut)</item>
-        <item>Couleurs naturelles</item>
-        <item>Couleurs normales</item>
+        <item>Vibrant (par défaut)</item>
+        <item>Naturel</item>
+        <item>Standard</item>
     </string-array>
     <string-array name="color_picker">
         <item>Turquoise</item>
@@ -696,13 +691,13 @@
         <item>Définir cycle conso...</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Désactivé</item>
-        <item>Afficher les zones de conflit</item>
-        <item>Afficher couleurs de zones adaptées à deutéranomalie</item>
+        <item>Off</item>
+        <item>Afficher les zones de superposition</item>
+        <item>Montrer les zones de deutéranomalie</item>
     </string-array>
     <string-array name="debug_hw_renderer_entries">
-        <item>OpenGL (valeur par défaut)</item>
-        <item>OpenGL (Skia)</item>
+        <item>Ouvrir Gl (par défaut)</item>
+        <item>Ouvrir Gl (Skia)</item>
     </string-array>
     <string-array name="dream_timeout_entries">
         <item>Jamais</item>
@@ -717,8 +712,8 @@
     <string-array name="enable_opengl_traces_entries">
         <item>Aucun</item>
         <item>Logcat</item>
-        <item>Systrace (graphismes)</item>
-        <item>Appeler une pile sur glGetError</item>
+        <item>Systrace (Graphique)</item>
+        <item>"Pile d'appel sur glGetError"</item>
     </string-array>
     <string-array name="entries_font_size">
         <item>Petite</item>
@@ -751,12 +746,12 @@
     </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>Ne jamais utiliser la vérification HDCP</item>
-        <item>Utiliser la vérification HDCP uniquement pour le contenu DRM</item>
+        <item>Utiliser la vérification HDCP pour le contenu DRM uniquement</item>
         <item>Toujours utiliser la vérification HDCP</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
         <item>Ne jamais vérifier</item>
-        <item>Vérifier le contenu DRM uniquement</item>
+        <item>Vérifier pour le contenu DRM uniquement</item>
         <item>Toujours vérifier</item>
     </string-array>
     <string-array name="led_color_entries">
@@ -931,8 +926,8 @@ Note : seulement pour Ubuntu 8.04 !"</item>
         <item>1080p (sécurisé)</item>
         <item>4K</item>
         <item>4K (sécurisé)</item>
-        <item>4K (adapté à la haute résolution)</item>
-        <item>4K (adapté haute résolution, sécu.)</item>
+        <item>4K (améliorée)</item>
+        <item>4K (améliorée, sécurisé)</item>
         <item>720p, 1080p (double écran)</item>
     </string-array>
     <string-array name="perm_hips_action">
@@ -1051,42 +1046,42 @@ Note : seulement pour Ubuntu 8.04 !"</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Désactivé</item>
-        <item>64 Ko</item>
-        <item>256 Ko</item>
-        <item>1 Mo</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Désactivé</item>
-        <item>64 Ko par tampon journal</item>
-        <item>256 Ko par tampon journal</item>
-        <item>1 Mo par tampon journal</item>
-        <item>4 Mo par tampon journal</item>
-        <item>16 Mo par tampon journal</item>
+        <item>Off</item>
+        <item>64K par tampon journal</item>
+        <item>256K par tampon journal</item>
+        <item>1M par tampon de journal</item>
+        <item>4M par tampon de journal</item>
+        <item>16M par tampon de journal</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Désactivé</item>
-        <item>64 Ko</item>
-        <item>256 Ko</item>
-        <item>1 Mo</item>
-        <item>4 Mo</item>
-        <item>16 Mo</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Désactivé</item>
-        <item>Toutes les mémoires tampon journal</item>
-        <item>Toutes sauf les mémoires tampon journal radio</item>
-        <item>tampon journal du noyau uniquement</item>
+        <item>Tous les tampons de journal</item>
+        <item>Tout sauf les tampons de journal de radio</item>
+        <item>Seulement tampons de journal de kernel</item>
     </string-array>
     <string-array name="select_logpersist_titles">
-        <item>Désactivé</item>
-        <item>Tous</item>
-        <item>Tous sauf radio</item>
-        <item>noyau uniquement</item>
+        <item>Off</item>
+        <item>Tout</item>
+        <item>Tout sauf radio</item>
+        <item>Kernel seulement</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Désactivé</item>
-        <item>Dessiner zone de découpage non rectangulaire en bleu</item>
-        <item>Surligner en vert les commandes de dessin testées</item>
+        <item>Off</item>
+        <item>Dessiner une région de clip non rectangulaire en bleu</item>
+        <item>Surligner les commandes de dessin testées en vert</item>
     </string-array>
     <string-array name="silent_mode_duration_text">
         <item>Toujours</item>
@@ -1095,23 +1090,9 @@ Note : seulement pour Ubuntu 8.04 !"</item>
         <item>2 heures</item>
         <item>8 heures</item>
     </string-array>
-    <string-array name="standard_configuration_version">
-        <item>3.00 Go</item>
-        <item>32 Go</item>
-        <item>Quad-core Max 2.15GHz</item>
-    </string-array>
     <string-array name="startup_hips_action">
         <item>Autoriser</item>
         <item>Refuser</item>
-    </string-array>
-    <string-array name="status_bar_show_carrier_entries">
-        <item>"Afficher uniquement à l'écran de verrouillage"</item>
-        <item>"Afficher uniquement dans la barre d'état"</item>
-        <item>"Ne jamais afficher le nom de l'opérateur"</item>
-    </string-array>
-    <string-array name="status_bar_style_entries">
-        <item>Combiné</item>
-        <item>Séparé</item>
     </string-array>
     <string-array name="timezone_filters">
         <item>Amérique</item>
@@ -1124,7 +1105,7 @@ Note : seulement pour Ubuntu 8.04 !"</item>
     </string-array>
     <string-array name="track_frame_time_entries">
         <item>Désactivé</item>
-        <item>"À l'écran sous forme de barres"</item>
+        <item>"À l'écran comme des barres"</item>
         <item>Dans adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="traffic_balance_entries">
@@ -1134,23 +1115,23 @@ Note : seulement pour Ubuntu 8.04 !"</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Animation désactivée</item>
-        <item>"Échelle d'animation x 0,5"</item>
-        <item>"Échelle d'animation x 1"</item>
-        <item>"Échelle d'animation x 1,5"</item>
-        <item>"Échelle d'animation x 2"</item>
-        <item>"Échelle d'animation x 0,5"</item>
-        <item>"Échelle d'animation x 10"</item>
+        <item>"Échelle d'animation .5x"</item>
+        <item>"Échelle d'animation 1x"</item>
+        <item>"Échelle d'animation 1.5x"</item>
+        <item>"Échelle d'animation 2x"</item>
+        <item>"Échelle d'animation 5x"</item>
+        <item>"Échelle d'animation 10x"</item>
     </string-array>
     <string-array name="tts_rate_entries">
-        <item>Très lente</item>
-        <item>Lente</item>
-        <item>Normale</item>
+        <item>Très lent</item>
+        <item>Lent</item>
+        <item>Normal</item>
         <item>Rapide</item>
         <item>Plus rapide</item>
         <item>Très rapide</item>
         <item>Rapide</item>
         <item>Très rapide</item>
-        <item>La plus rapide</item>
+        <item>Le plus rapide</item>
     </string-array>
     <string-array name="usage_stats_display_order_types">
         <item>"Temps d'utilisation"</item>
@@ -1161,8 +1142,8 @@ Note : seulement pour Ubuntu 8.04 !"</item>
         <item>En charge</item>
         <item>MTP (Media Transfer Protocol)</item>
         <item>PTP (Picture Transfer Protocol)</item>
-        <item>RNDIS (Ethernet USB)</item>
-        <item>Source audio</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Source Audio</item>
         <item>MIDI</item>
     </string-array>
     <string-array name="usb_connection_mode_entries">
@@ -1289,47 +1270,39 @@ Note : seulement pour Ubuntu 8.04 !"</item>
     </string-array>
     <string-array name="wifi_status">
         <item></item>
-        <item>Recherche…</item>
+        <item>Analyse en cours…</item>
         <item>Connexion…</item>
-        <item>Authentification...</item>
-        <item>"Récupération de l'adresse IP…"</item>
+        <item>Authentification…</item>
+        <item>"Obtention de l'adresse IP…"</item>
         <item>Connecté</item>
-        <item>Interrompu</item>
+        <item>Suspendu</item>
         <item>Déconnexion…</item>
         <item>Déconnecté</item>
         <item>Échec</item>
         <item>Bloqué</item>
-        <item>Mauvaise connexion évitée momentanément</item>
+        <item>Éviter temporairement une mauvaise connexion</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
-        <item>Recherche…</item>
+        <item>Analyse…</item>
         <item>Connexion à %1$s…</item>
         <item>Authentification avec %1$s…</item>
-        <item>"Récupération de l'adresse IP à partir de %1$s…"</item>
+        <item>"Obtention de l'adresse IP depuis %1$s…"</item>
         <item>Connecté à %1$s</item>
-        <item>Interrompu</item>
+        <item>Suspendu</item>
         <item>Déconnexion de %1$s…</item>
         <item>Déconnecté</item>
         <item>Échec</item>
         <item>Bloqué</item>
-        <item>Mauvaise connexion évitée momentanément</item>
+        <item>Éviter temporairement une mauvaise connexion</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animation désactivée</item>
-        <item>"Échelle d'animation x 0,5"</item>
-        <item>"Échelle d'animation x 1"</item>
-        <item>"Échelle d'animation x 1,5"</item>
-        <item>"Échelle d'animation x 2"</item>
-        <item>"Échelle d'animation x 5"</item>
-        <item>"Échelle d'animation x 10"</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_primary">
-        <item>CPU</item>
-        <item>Capacité de la batterie</item>
-        <item>App. photo principal</item>
-        <item>"Taille de l'écran"</item>
-        <item>Résolution</item>
-        <item>Version Android</item>
+        <item>"Échelle d'animation .5x"</item>
+        <item>"Échelle d'animation 1x"</item>
+        <item>"Échelle d'animation 1.5x"</item>
+        <item>"Échelle d'animation 2x"</item>
+        <item>"Échelle d'animation 5x"</item>
+        <item>"Échelle d'animation 10x"</item>
     </string-array>
 </resources>

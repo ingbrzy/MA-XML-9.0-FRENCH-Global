@@ -57,4 +57,8 @@
     <string name="altitude_longitude_Degree_format" formatted="false">"%d°%d'%d\""</string>
     <string name="app_description_title">À propos</string>
     <string name="app_description_content">"La boussole est utilisée pour la navigation et l'orientation et vous montre la direction. Assurez-vous que vous pouvez vous passer de ces fonctionnalités avant de désinstaller l'application."</string>
+    <string name="open_perm_msg">"Boussole doit accéder aux informations de localisation et à l'appareil photo. Cela est nécessaire pour déterminer les coordonnées et fournir les aperçus en temps réel. Autoriser ?"</string>
+    <string name="open_perm_title">Autorisation requise</string>
+    <string name="cancel">Annuler</string>
+    <string name="allow">Autoriser</string>
 </resources>

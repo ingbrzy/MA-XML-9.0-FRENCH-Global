@@ -9,10 +9,7 @@
     <string name="power_config_apps">Économiseur de batterie</string>
     <string name="app_list_title">"Choisir l'application"</string>
     <string name="power_hide_mode_app_list_summary">"Économise l'énergie en arrière-plan"</string>
-    <string name="enable_hide_mode">"Activer l'économiseur de batterie"</string>
-    <string name="disable_hide_mode">"Désactiver l'économiseur de batterie"</string>
     <string name="about_hide_mode">"À propos de l'économiseur de batterie"</string>
-    <string name="disable_hide_mode_warning">"Désactiver l'économiseur de batterie peut augmenter la consommation d'énergie de votre appareil."</string>
     <string name="show_system_app">Afficher les applications système</string>
     <string name="hide_system_app">Masquer les applications système</string>
     <string name="scenario_policies_title">Scènes intelligentes</string>

@@ -289,11 +289,12 @@ pour y accéder depuis l'Écran de verrouillage"</string>
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">WeChat Pay</string>
     <string name="weixin_share_sign">Se connecter et partager</string>
-    <string name="use_xiaoai_open">Wake using voice assistant</string>
+    <string name="use_xiaoai_open">"Réveillez-vous avec l'assistant vocal"</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">Envoyer sur Weibo</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="qq_send">Envoyer à des amis sur QQ/un ordinateur</string>
+    <string name="qq_login">Se connecter à QQ</string>
     <string name="xspace_default_setting_label">Application par défaut</string>
     <string name="xspace_default_app_title">Application par défaut</string>
     <string name="xspace_default_app_summary">"Définir l'application par défaut pour les paiements, les partages, les favoris et plus."</string>
@@ -331,7 +332,7 @@ pour y accéder depuis l'Écran de verrouillage"</string>
     <string name="can_not_delete_when_calling">"Impossible de supprimer les espaces lors d'un appel"</string>
     <string name="support_desc">Services de sécurité fournis par Spaces Mobile</string>
     <string name="sdcardfs_dialog_title">Mise à jour importante</string>
-    <string name="sdcardfs_dialog_message">MIUI 9 a un nouveau système de fichier. Les anciennes données peuvent ne pas être compatibles avec. Pour résoudre ce problème, suivez les étapes suivantes pour installer une mise à jour.</string>
+    <string name="sdcardfs_dialog_message">Un nouveau système de fichiers est introduit dans cette mise à jour. Les anciennes données peuvent être incompatibles avec cela. Pour résoudre ce problème, suivez les étapes pour installer une mise à jour. Votre appareil va redémarrer deux fois au cours de cette mise à jour.</string>
     <string name="do_not_ask">Ne plus demander</string>
     <string name="gpg_message">La création des applications clônées pour les jeux nécessite un fonctionnement avec Google Play Games. Créez une application clônée pour Google Play Games ?</string>
     <string name="gpg_title">Application clônée pour Google Play Games</string>
@@ -363,14 +364,14 @@ Deux espaces. Un appareil."</string>
     <string name="remove_user_click_message">"*Si vous n'avez pas d'éléments importants dans le second espace, %s"</string>
     <string name="remove_user_click_message_action">vous pouvez supprimer le second espace et redémarrer votre appareil.</string>
     <string name="sdcradfs_dialog_in_owner_title">Second espace</string>
-    <string name="sdcradfs_dialog_in_owner_message">"Pour mettre à jour, déplacez les éléments du second espace, redémarrez votre appareil et créez à nouveau le second espace.
-Si vous n'effectuez pas la mise à jour, les applications clônées peuvent ne pas fonctionner correctement également."</string>
+    <string name="sdcradfs_dialog_in_owner_message">"Un nouveau système de fichiers est introduit dans cette mise à jour. Les anciennes données peuvent être incompatibles avec cela. Pour mettre à jour, déplacez les éléments dans le second espace, redémarrez votre appareil et créez à nouveau un second espace.
+Si vous ne mettez pas à jour, les applications doubles ne peuvent pas fonctionner correctement."</string>
     <string name="sdcradfs_dialog_in_sec_title">Mise à jour importante</string>
     <string name="sdcradfs_dialog_in_sec_message">"Pour mettre à jour, vous devez supprimer votre second espace, puis le créer à nouveau. Déplacez les données depuis le Second espace vers le premier et redémarrez votre appareil pour terminer la mise à jour.
 Si vous n'effectuez pas la mise à jour, les applications clônées peuvent ne pas fonctionner correctement également."</string>
     <string name="space_created_success">Second espace créé avec succès</string>
     <string name="encrypt_space_delete_dialog_title">Attention</string>
-    <string name="encrypt_space_delete_dialog_message">Vous êtes sur le point de mettre à jour Android. Après la mise à jour, les données du second espace deviendront incompatibles. Pour éviter cela, placez toutes les données dans le premier espace, supprimez le second espace et créez-le à nouveau.</string>
+    <string name="encrypt_space_delete_dialog_message">"Vous êtes sur le point d'effectuer une mise à jour du système. Après la mise à jour, les données du Second espace deviendront incompatibles. Pour éviter cela, placez toutes les données dans le Premier espace, supprimez le Second espace et créez-le à nouveau."</string>
     <string name="encrypt_space_delete_dialog_click_message">"*Si vous n'avez pas besoin de déplacer des données, %s"</string>
     <string name="encrypt_space_delete_dialog_click_message_action">supprimer et créer un second espace maintenant.</string>
     <string name="encrypt_space_delete_dialog_positive_text">Déplacer les données</string>
@@ -394,6 +395,7 @@ Si vous n'effectuez pas la mise à jour, les applications clônées peuvent ne p
     <string name="green_guard_title3">Gérer les applications</string>
     <string name="green_guard_des3">Contrôle les applications installées et restreint leur utilisation</string>
     <string name="experience_more_features">Ajouter un appareil afin de voir toutes les fonctionnalités</string>
-    <string name="can_not_switch_when_green_kid_active">Basculer vers le second espace est restreint par le contrôle parental</string>
+    <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
     <string name="need_network_when_bind">"Connectez-vous au réseau avant d'ajouter des appareils"</string>
+    <string name="this_function_can_not_use_in_second_space">This feature can only be used in First space</string>
 </resources>

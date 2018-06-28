@@ -6,6 +6,9 @@ Taille : %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Version %1$s
 Taille de la mise à jour : %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Stockage indisponible, vérifiez votre carte SD.</string>
+    <string name="xiaomi_bytes_unit">%1$s o</string>
+    <string name="xiaomi_kilobytes_unit">%1$s ko</string>
+    <string name="xiaomi_megabytes_unit">%1$s Mo</string>
     <string name="xiaomi_connect_download_manager_fail">Impossible de démarrer le téléchargement. Vérifier que le gestionnaire de téléchargements fonctionne normalement.</string>
     <string name="app_name">Sauvegarde</string>
     <string name="local_app_name">Sauvegarde</string>
@@ -225,11 +228,14 @@ Taille de la mise à jour : %2$s"</string>
     <string name="restore_backup">Restaurer</string>
     <string name="enable_encrypt_description">Chiffrer</string>
     <string name="disable_encrypt_description">Ne pas chiffrer</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Un instant…</string>
     <string name="state_mounting">Accès au stockage du routeur…</string>
     <string name="abort_backup_confirm">"La sauvegarde n'est pas terminée. Arrêter quand même ?"</string>
     <string name="abort_restore_confirm">"La restauration n'est pas terminée. Arrêter quand même ?"</string>
     <string name="feature_title_call_log">Historique des appels</string>
+    <string name="feature_title_contacts">Contacts</string>
+    <string name="feature_title_sms">Messages</string>
     <string name="feature_title_mms">MMS</string>
     <string name="feature_title_account">Compte Mi</string>
     <string name="feature_title_antispam">Liste noire</string>
@@ -246,6 +252,7 @@ Taille de la mise à jour : %2$s"</string>
     <string name="err_filesystem_mount">"Impossible d'accéder au stockage du routeur"</string>
     <string name="err_router_disconnected">Vérifiez la connexion de votre routeur et essayez à nouveau.</string>
     <string name="err_router_files_delete">Impossible de supprimer les fichiers de sauvegarde sur le routeur</string>
+    <string name="err_acquire_system_service">"Couldn't start system service."</string>
     <string name="err_not_allow">Non pris en charge</string>
     <string name="err_bakfile_not_exist">"Le fichier de sauvegarde n'existe pas."</string>
     <string name="err_pkg_not_exist">"Impossible de trouver l'application."</string>
@@ -290,7 +297,7 @@ Ne désactivez pas le Wi-Fi. Gardez vos appareils proches l'un de l'autre."</str
     <string name="trans_receiver_time_remained">"%s restant.
 Ne désactivez pas le point d'accès Wi-Fi. Gardez les appareils proches l'un de l'autre."</string>
     <string name="trans_time_spent">Temps écoulé : %s</string>
-    <string name="trans_restoring_no_items">Synchronisation des fichiers</string>
+    <string name="trans_restoring_no_items">Récupération des informations…</string>
     <string name="trans_detail_category_sysdata">"Données systèmes (messages, contacts et historique d'appels inclus)"</string>
     <string name="trans_detail_category_userdata">Applications</string>
     <string name="trans_detail_category_account">Comptes et contacts</string>
@@ -338,6 +345,8 @@ Ne désactivez pas le point d'accès Wi-Fi. Gardez les appareils proches l'un de
     <string name="trans_connecting_toast">Connexion…</string>
     <string name="trans_switching_5g">Passage au Wi-Fi 5 GHz…</string>
     <string name="trans_connect_failed_toast">Impossible de se connecter</string>
+    <string name="trans_open_camera_failed_title">"Impossible de se connecter à l'appareil photo"</string>
+    <string name="trans_open_camera_failed_message">Redémarrez votre appareil ou vérifiez que Mi Mover est autorisé à utiliser &lt;b>Appareil photo&lt;/b>.</string>
     <string name="trans_generate_qr_code_failed">Impossible de créer le code QR</string>
     <string name="trans_scan_invalid_qrcode">Code QR non valide</string>
     <string name="trans_scan_qr_code_tips">Numérisez le code QR en utilisant le nouvel appareil</string>
@@ -351,6 +360,7 @@ Appuyer [Je suis le receveur] pour créer le code QR"</string>
 2. Ouvrir l'application et appuyer sur Démarrer
 3. Scanner le Code QR avec votre ancien appareil"</string>
     <string name="trans_operate_old_phone_tips2">"Allez dans Paramètres > Paramètres supplémentaires > Mi Mover, appuyez sur [Je suis l'expéditeur]"</string>
+    <string name="trans_operate_tip_for_other_android">Ouvrez Mi Mover sur votre ancien téléphone, appuyez sur \"Démarrer\" et scannez le QR code ci-dessus.</string>
     <string name="trans_operate_reconnect_new_tips">"Patientez jusqu'à ce que le nouveau téléphone affiche \"La connexion a été interrompue\".
 Puis appuyez sur \"Reconnecter\" pour générer un code QR."</string>
     <string name="trans_operate_reconnect_old_tips">"Patientez jusqu'à ce que l'ancien téléphone affiche \"La connexion a été interrompue\".
@@ -366,16 +376,25 @@ Les doublons sur le nouvel appareil seront écrasés"</string>
 Libérez de l'espace de stockage ou ne transférez que des éléments importants."</string>
     <string name="trans_select_data_too_large">"Vous avez sélectionné trop d'éléments à transférer.
 Sélectionnez uniquement les éléments importants afin de transférer plus rapidement."</string>
-    <string name="trans_calculating_base_size">Calcul de la taille des données</string>
     <string name="trans_calculating">Calcul en cours…</string>
+    <string name="trans_calculating_tip">Calcul de %s…</string>
+    <string name="trans_calculating_media_description">Fichiers médias</string>
+    <string name="trans_calculating_app_sd_description">Données sur la carte SD</string>
     <string name="trans_native_no_space">"L'espace de stockage sur l'ancien périphérique (%s disponible) est insuffisant.
 Libérez de l'espace de stockage ou ne transférez que des éléments importants."</string>
-    <string name="trans_calculating_app_sd_size">Calcul de la taille : %s</string>
     <string name="trans_please_waiting">Un instant…</string>
     <string name="trans_old_phone_low_space_title">Espace de stockage insuffisant</string>
     <string name="trans_old_phone_low_space_msg">"Mi Mover a besoin d'espace de stockage pour regrouper les données transférées, mais il semble que l'espace disponible sur l'ancien appareil est insuffisant. Libérez de l'espace dans \"Sécurité\" ou ne transférez que des éléments importants."</string>
     <string name="button_clean_garbage">"Libérer de l'espace"</string>
     <string name="button_quit">Quitter</string>
+    <string name="trans_install_guide_page_title">Installez Mi Mover sur votre ancien téléphone</string>
+    <string name="trans_install_guide_scan_install_tip">"Scannez ce QR code avec votre ancien téléphone
+pour télécharger et installer Mi Mover."</string>
+    <string name="trans_install_guide_step1_title">Étape 1</string>
+    <string name="trans_install_guide_step1_content">Scannez le QR code avec votre ancien téléphone pour télécharger et installer \"Mi Mover\".</string>
+    <string name="trans_install_guide_step2_title">Étape 2</string>
+    <string name="trans_install_guide_step2_content">"Une fois l'installation terminée, appuyez sur \"Démarrer\" ci-dessous."</string>
+    <string name="trans_install_guide_button_start">Démarrer</string>
     <string name="size_byte">o</string>
     <string name="size_kilo_byte">ko</string>
     <string name="size_mega_byte">Mo</string>
@@ -399,10 +418,12 @@ Libérez de l'espace de stockage ou ne transférez que des éléments importants
     <string name="trans_intro_desc_new">Appuyez sur \" Je suis le destinataire \". Un code QR sera généré.</string>
     <string name="trans_intro_title_old">Sur un ancien téléphone :</string>
     <string name="trans_intro_desc_old">"Appuyez sur \" Je suis l'expéditeur \". Scannez le code QR sur le nouveau téléphone, patientez jusqu'à ce que Mi Mover détecte les fichiers à envoyer, puis appuyez sur \" Envoyer \"."</string>
+    <string name="trans_intro_desc_old_market">"Appuyez sur \"Démarrer\". Scannez le QR code sur le nouveau, patientez jusqu'à ce que Mi Mover vous demande quels fichiers envoyer, et appuyez sur \"Envoyer\"."</string>
     <string name="trans_intro_question_3">%d. Que faire si Mi Mover se bloque à certaine étape ?</string>
     <string name="trans_intro_desc_3">Annulez le transfert, quittez Mi Mover et recommencez. Les fichiers en double seront écrasés au cours du nouveau transfert.</string>
     <string name="trans_intro_question_4">"%d. Pourquoi ne suis-je pas en mesure d'utiliser le Wi-Fi pendant les transferts ?"</string>
     <string name="trans_intro_desc_4">"Mi Mover utilise Wi-Fi pour transférer des fichiers. C'est pourquoi vous ne pouvez pas vous connecter à Internet en utilisant Wi-Fi sur l'un ou l'autre périphérique pendant un transfert. Vous pouvez toujours utiliser des données mobiles. Cependant, certains périphériques plus récents (par exemple, Mi 6) pourraient toujours se connecter à Internet en utilisant Wi-Fi pendant les transferts."</string>
+    <string name="trans_intro_desc_4_market">"Mi Mover utilise le Wi-Fi pour transférer les fichiers. C'est pourquoi vous ne pouvez pas vous connecter à internet avec le Wi-Fi sur les deux appareils pendant le transfert. Vous pouvez cependant continuer à utiliser les données mobiles."</string>
     <string name="trans_intro_question_5">"%d. Pourquoi Mi Mover me dit-il que l'espace de stockage sur mon ancien téléphone est insuffisant ?"</string>
     <string name="trans_intro_desc_5">"L'espace de stockage sur les anciens appareils est utilisé pour la création des paquets de transferts. Assurez-vous que vous avez au moins 500 Mo à 1 Go d'espace de stockage disponible sur votre ancien téléphone avant de commencer le transfert."</string>
     <string name="trans_intro_question_6">%d. Pourquoi certaines applications ne sont-elles pas transférées avec succès ?</string>
@@ -420,6 +441,13 @@ Libérez de l'espace de stockage ou ne transférez que des éléments importants
     <string name="trans_intro_desc_multiuser">Mi Mover ne peut pas accéder aux éléments dans le Second espace. Déplacez les éléments vers le Premier espace et lancez Mi Mover depuis ledit espace.</string>
     <string name="trans_intro_title_multiapp">Données des applications clônées :</string>
     <string name="trans_intro_desc_multiapp">"Mi Mover ne transfère pas les données des applications clônées afin d'éviter des conflits entre les fichiers."</string>
+    <string name="trans_intro_question_9_market">%d. Commentaires.</string>
+    <string name="trans_intro_desc_9_method_1_title">"1. Partagez votre retour utilisateur avec l'application \"Commentaire\"."</string>
+    <string name="trans_intro_desc_9_method_1_dec">"Allez dans l'écran d'accueil > Outils > Commentaire."</string>
+    <string name="trans_intro_desc_9_method_2_title">2. Nous envoyer un e-mail</string>
+    <string name="trans_intro_desc_9_method_2_dec">Envoyez votre commentaire à miui-mover@xiaomi.com.</string>
+    <string name="trans_intro_desc_9_method_3_title">3. Signaler des problèmes dans QQ</string>
+    <string name="trans_intro_desc_9_method_3_dec">Goupe QQ de Mi Mover : 687338378</string>
     <string name="btn_got_it">"C'est compris"</string>
     <string name="backup_security_tips_title">Les sauvegardes peuvent ne pas fonctionner</string>
     <string name="backup_security_tips_message">Certaines applications peuvent ne pas être sauvegardées ou restaurées.</string>
@@ -430,6 +458,9 @@ Libérez de l'espace de stockage ou ne transférez que des éléments importants
     <string name="trans_disconnected_tips_title">Appareil distant déconnecté</string>
     <string name="trans_disconnected_tips_message">Appareil distant déconnecté. Reconnectez-le manuellement ou annulez le transfert.</string>
     <string name="trans_button_cancel">Annuler</string>
+    <string name="trans_success_dialog_market_comment_title">"Votre nouvel appareil ressemble à chez vous à présent.
+Avez-vous apprécié Mi Mover ?"</string>
+    <string name="trans_success_dialog_button_market_favourable_comment">Évaluer Mi Mover</string>
     <string name="trans_failed_details_page_title">Transferts sans succès</string>
     <string name="close_twice_auth_tutor">"Désactivez l'authentification à 2 facteurs de l'identifiant Apple"</string>
     <string name="close_twice_auth_steps">"Suivez ces étapes pour désactiver l'authentification à 2 facteurs de l'identifiant Apple :"</string>
@@ -443,7 +474,8 @@ Après la création d'une nouvelle question de sécurité et la confirmation de 
 https://appleid.apple.com/#!&amp;page=signin pour désactiver"</string>
     <string name="platform_chooser_title">Choisir un ancien appareil</string>
     <string name="platform_chooser_item_ios">Importer depuis un appareil iOS</string>
-    <string name="platform_chooser_item_android">Importer depuis un appareil Android</string>
+    <string name="platform_chooser_item_android_mi">Téléphone Mi</string>
+    <string name="platform_chooser_item_android_others">Autres marques</string>
     <string name="icloud_need_wifi_title">Se connecter au Wi-Fi</string>
     <string name="icloud_need_wifi_message">"Vous n'êtes connecté au Wi-Fi actuellement. Pour importer les données depuis iCloud, connectez-vous au Wi-Fi."</string>
     <string name="icloud_login_title">Se connecter à iCloud</string>
@@ -499,6 +531,7 @@ https://appleid.apple.com/#!&amp;page=signin pour désactiver"</string>
 ous devez d'abord créer une sauvegarde iCloud."</string>
     <string name="list_footer_tip_title">Astuces :</string>
     <string name="import_tip_summary">En raison des problèmes de compatibilité, vous pouvez seulement transférer partiellement les données depuis vos appareil iOS. Assurez-vous de créer une sauvegarde iCloud avant de commencer le transfert.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importer</string>
     <string name="select_empty">Sélectionner les éléments à importer</string>
     <string name="select_item_summary_wait">En attente…</string>
@@ -539,4 +572,36 @@ Les données qui n'ont pas été importées doivent être importées encore."</s
     <string name="alert_message_restore_from_miasist">"Mi PC Suite nécessite l'autorisation pour restaurer des éléments sur votre téléphone. Autoriser ?"</string>
     <string name="alert_button_deny">Refuser</string>
     <string name="alert_button_agree_and_continue">Autoriser</string>
+    <string name="trans_open_location_button">Activer</string>
+    <string name="trans_open_location_title">Activer les services de localisation</string>
+    <string name="trans_open_location_message">Activez les services de localisation pour obtenir la liste des réseaux Wi-Fi disponibles.</string>
+    <string name="perm_camera">Appareil photo</string>
+    <string name="perm_read_contacts">Lire les contacts</string>
+    <string name="perm_location">Localisation</string>
+    <string name="perm_read_phone_state">"Connaître l'état du téléphone"</string>
+    <string name="perm_read_call_log">"Voir l'historique des appels"</string>
+    <string name="perm_read_sms">Lire les SMS</string>
+    <string name="perm_storage">Lire et écrire sur un support de stockage externe</string>
+    <string name="lack_perm_title">Autorisation requise</string>
+    <string name="lack_perm_msg">Mi Mover a besoin des permissions suivantes : &lt;b>%s&lt;/b>.</string>
+    <string name="flash_drive_backup_restore">Sauvegardes USB</string>
+    <string name="flash_drive_backup_note">"Sauvegarde les applis sur un lecteur USB.
+Vérifiez que le lecteur USB dispose de suffisamment d'espace disponible avant de démarrer."</string>
+    <string name="flash_drive_backup_btn">Sauvegarder vers le lecteur USB</string>
+    <string name="flash_drive_restore_btn">Restaurer depuis le lecteur USB</string>
+    <string name="usb_backup_select_data_too_large">"Les fichiers sélectionnés sont volumineux. Vérifiez que le lecteur USB a suffisamment d'espace de stockage.
+Ne transférez que les éléments importants."</string>
+    <string name="flash_drive_search_backup_files">"Recherche de la sauvegarde USB…
+Ne pas modifier ou renommer les fichiers de sauvegarde."</string>
+    <string name="flash_drive_connection_failed">Lecteur USB déconnecté</string>
+    <string name="storage_sd_card">Carte SD</string>
+    <string name="storage_usb">Lecteur USB</string>
+    <string name="usb_trans_select_data_no_space">"Seulement %s disponibles sur votre lecteur USB.
+Libérez de l'espace ou ne transférez que les éléments importants."</string>
+    <string name="usb_restore_select_data_too_large">"Les fichiers de sauvegarde sont volumineux. Cela peut prendre du temps pour les restaurer.
+Ne récupérez que les éléments importants pour aller plus vite."</string>
+    <string name="usb_trans_native_no_space">"Seuls %s sont disponibles sur votre appareil.
+Libérez de l'espace ou faites plusieurs transferts plus petits."</string>
+    <string name="usb_trans_old_phone_low_space_title">Espace de stockage insuffisant</string>
+    <string name="usb_trans_old_phone_low_space_msg">"De l'espace supplémentaire est nécessaire pour préparer vos sauvegardes. Il n'y a pas assez d'espace de stockage pour continuer le transfert. Vous pouvez libérez de l'espace et supprimer les fichiers inutiles dans l'appli Sécurité, ou essayer de ne transférer que les éléments importants."</string>
 </resources>

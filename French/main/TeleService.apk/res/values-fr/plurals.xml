@@ -30,8 +30,4 @@
         <item quantity="one">"
 %d tentative restante."</item>
     </plurals>
-    <plurals name="phone_in_ecm_notification_time">
-        <item quantity="other">Pas de connexion de données pendant %s minutes</item>
-        <item quantity="one">Pas de connexion de données pendant %s minute</item>
-    </plurals>
 </resources>

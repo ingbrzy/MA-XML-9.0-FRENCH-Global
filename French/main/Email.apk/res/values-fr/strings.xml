@@ -48,7 +48,6 @@
     <string name="account_settings_notify_summary">Afficher une notification quand un e-mail arrive</string>
     <string name="account_settings_param">Paramètres du compte</string>
     <string name="account_settings_policies">Politiques de sécurité</string>
-    <string name="account_settings_preference_add_account">Ajouter un compte E-mail</string>
     <string name="account_settings_preference_att_save_path">Emplacement par défaut des pièces jointes</string>
     <string name="account_settings_preference_head_icon">Photos de profil</string>
     <string name="account_settings_preference_notify">Notifier</string>
@@ -226,6 +225,7 @@
     <string name="battery_saver">Économiseur de batterie</string>
     <string name="battery_saver_keywords">économiseur de batterie;e-mail batterie</string>
     <string name="bcc">Cci</string>
+    <string name="bcc_heading">"Cci : "</string>
     <string name="bill_center_setting">Paramètres de facturation</string>
     <string name="bill_center_setting_head">Importer les informations de ces comptes</string>
     <string name="bill_cycle_text">Cycle de facturation</string>
@@ -246,6 +246,7 @@
     <string name="cancel_pop3_attchemt_downloading">"Impossible d'annuler les téléchargements en cours pour les pièces jointes dans les comptes POP3"</string>
     <string name="cant_move_or_change_labels">Impossible de déplacer des messages depuis plusieurs comptes.</string>
     <string name="cc">Cc</string>
+    <string name="cc_attribution">Cc : %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Cci</string>
     <string name="cc_heading">"Cc : "</string>
     <string name="change_folders_selection_dialog_title">Changement de dossier</string>
@@ -263,6 +264,7 @@
     <string name="click_download_all_content">[Appuyez pour télécharger le corps du message]</string>
     <string name="click_to_reload">"Touchez l'écran pour actualiser"</string>
     <string name="collapse_recipient_details">Masquer les détails du destinataire</string>
+    <string name="colon">:</string>
     <string name="compose">Rédiger</string>
     <string name="compose_attachment_number_limit">"Impossible d'ajouter plus de 10 pièces jointes"</string>
     <string name="compose_paste_address_oob">Trop de caractères</string>
@@ -304,7 +306,7 @@
     <string name="contextmenu_add_contact">Ajouter un contact</string>
     <string name="contextmenu_call">Appeler</string>
     <string name="contextmenu_copy">Copier</string>
-    <string name="contextmenu_copylink">Copier lURL</string>
+    <string name="contextmenu_copylink">"Copier l'URL"</string>
     <string name="contextmenu_create">Créer un nouveau contact</string>
     <string name="contextmenu_dial_dot">Composer…</string>
     <string name="contextmenu_edit">Modifier le contact</string>
@@ -477,6 +479,7 @@
     <string name="gmail_web_login_go">OK</string>
     <string name="gmail_web_login_required_message">Se connecter à Gmail</string>
     <string name="header_category_account">Comptes</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Commentaires</string>
     <string name="header_label_general_preferences">Paramètres généraux</string>
     <string name="help_and_info">Aide</string>
@@ -498,6 +501,7 @@
     <string name="invalid_recipient">"L'adresse %s est invalide."</string>
     <string name="invalid_recipient_title">Erreur de destinataire</string>
     <string name="kilobytes">%s ko</string>
+    <string name="label_notification_ticker" formatted="false">%s: %s</string>
     <string name="load_from_remote">Rechercher les e-mails sur le serveur</string>
     <string name="load_more">Charger plus</string>
     <string name="loading_conversation">Chargement…</string>
@@ -518,7 +522,6 @@
     <string name="mail_header_network_not_available">Vous ne disposez pas de connexion réseau.</string>
     <string name="mailbox_list_account_selector_combined_view">Compte combiné</string>
     <string name="mailbox_name_display_ad">Publicités</string>
-    <string name="mailbox_name_display_add_account">Aucun compte e-mail</string>
     <string name="mailbox_name_display_circular">Notifications</string>
     <string name="mailbox_name_display_drafts">Brouillons</string>
     <string name="mailbox_name_display_inbox">Boîte de réception</string>
@@ -700,14 +703,14 @@ Essayez une autre boîte de réception."</string>
     <string name="parse_bill_discribe">Traitement des factures de la carte crédit…</string>
     <string name="parse_recognize_describe">Analyse des E-mail…</string>
     <string name="password_expire_warning_content_title">Expiration du mot de passe</string>
-    <string name="password_expire_warning_dialog_content_fmt">Vous devrez bientôt modifier le code PIN ou le mot de passe de verrouillage de votre écran, faute de quoi les données du compte %s seront effacées. Modifier maintenant ?</string>
-    <string name="password_expire_warning_dialog_title">Expiration mot de passe de verrouillage</string>
+    <string name="password_expire_warning_dialog_content_fmt">"Vous devrez bientôt modifier le code PIN ou le mot de passe de l'Écran de votre écran, faute de quoi les données du compte %s seront effacées. Modifier maintenant ?"</string>
+    <string name="password_expire_warning_dialog_title">"Expiration mot de passe de l'Écran"</string>
     <string name="password_expire_warning_ticker_fmt">"\"%s\" exige que le code PIN ou mot de passe 
-            de l'écran de verrouillage soit modifié."</string>
+            de l'écran de l'Écran soit modifié."</string>
     <string name="password_expired_content_title">Mot de passe verrou. expiré</string>
-    <string name="password_expired_dialog_content_fmt">"Les données du compte %s sont en train d'être supprimées de votre appareil. Vous pouvez les restaurer en modifiant le code PIN ou le mot de passe de verrouillage de votre écran. Le modifier maintenant ?"</string>
-    <string name="password_expired_dialog_title">"Le mot de passe de verrouillage de l'écran a expiré"</string>
-    <string name="password_expired_ticker">"Le code PIN ou le mot de passe de verrouillage d'écran a expiré."</string>
+    <string name="password_expired_dialog_content_fmt">"Les données du compte %s sont en train d'être supprimées de votre appareil. Vous pouvez les restaurer en modifiant le code PIN ou le mot de passe de l'Écran de votre écran. Le modifier maintenant ?"</string>
+    <string name="password_expired_dialog_title">"Le mot de passe de l'Écran de l'écran a expiré"</string>
+    <string name="password_expired_ticker">"Le code PIN ou le mot de passe de l'Écran d'écran a expiré."</string>
     <string name="path_about_account_setting">Mail/Paramètres/Comptes</string>
     <string name="path_about_add_account">Mail/Paramètres/Ajouter un compte</string>
     <string name="path_about_battery_saver">Mail/Paramètres/Économiseur de batterie</string>
@@ -826,23 +829,25 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="read_string">Conversation lue</string>
     <string name="recipient_needed">Ajouter au moins 1 destinataire.</string>
     <string name="recipient_needed_title">Avertir</string>
-    <string name="recognize_hotel_check_in_date">Heure darrivée</string>
+    <string name="recognize_hotel_check_in_date">"Heure d'arrivée"</string>
     <string name="recognize_hotel_hotel_money">Prix %1$s</string>
     <string name="recognize_hotel_notification_content">Profitez de votre séjour !</string>
-    <string name="recognize_hotel_notification_title">Vous avez réservé une chambre au %1$s à partir du %3$s/%2$s. Vérifiez bien votre réservation avant dy arriver.</string>
+    <string name="recognize_hotel_notification_title">"Vous avez réservé une chambre au %1$s à partir du %3$s/%2$s. Vérifiez bien votre réservation avant d'y arriver."</string>
     <string name="recognize_hotel_order_money">Total</string>
     <string name="recognize_hotel_other_money">Autres dépenses %1$s</string>
     <string name="recognize_hotel_reverse_date">Enregistrement avant %1$s:%2$s %3$s</string>
     <string name="recognize_hotel_room_type">Chambre</string>
-    <string name="recognize_hotel_title">Réservation dhôtel</string>
+    <string name="recognize_hotel_room_type_value">%1$s × %2$s</string>
+    <string name="recognize_hotel_title">"Réservation d'hôtel"</string>
     <string name="recognize_hotel_user_names">Invité</string>
+    <string name="recognize_hotel_user_names_value">%1$s+%2$s</string>
     <string name="recognize_setting_title">Paramètres de voyage</string>
     <string name="recognize_ticket_air_notification_content">Profitez de votre vol !</string>
     <string name="recognize_ticket_air_notification_title">Le vol %3$s (%2$s/%1$s) va bientôt décoller. Vérifiez bien vos informations de vol.</string>
     <string name="recognize_ticket_air_state_stopover">Escale</string>
     <string name="recognize_ticket_air_state_transfer">Transfert</string>
     <string name="recognize_ticket_air_user_name">Passager : %1$s</string>
-    <string name="recognize_ticket_title">Billets davion &amp; de train</string>
+    <string name="recognize_ticket_title">"Billets d'avion &amp; de train"</string>
     <string name="recognize_ticket_train_alter">Changé</string>
     <string name="recognize_ticket_train_depart_date">Départ à %3$s:%4$s le %2$s/%1$s</string>
     <string name="recognize_ticket_train_notification_content">Bon Voyage !</string>
@@ -939,6 +944,7 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="silent_ringtone">Silence</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Le mot de passe du serveur sortant est incorrect</string>
     <string name="sort_attachment">Trier par</string>
     <string name="storage">Stockage</string>
@@ -987,7 +993,7 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="too_large_to_attach_additional">Taille du fichier ne doit pas dépasser %1$s .</string>
     <string name="too_large_to_attach_multiple">"Un ou plusieurs fichiers n'ont pas été joints. Limite de %1$s atteinte."</string>
     <string name="too_large_to_attach_single">Impossible de joindre un fichier supérieur à %1$s.</string>
-    <string name="topic_merge">Paramètres daffichage</string>
+    <string name="topic_merge">"Paramètres d'affichage"</string>
     <string name="topic_merge_summary">Regrouper par sujet</string>
     <string name="translation_loading">Un instant…</string>
     <string name="translation_no_result">Aucun résultat</string>
@@ -1011,7 +1017,6 @@ Supprimer le compte ?"</string>
     <string name="unread_string">Conversation non lue</string>
     <string name="unzip_file_failed">Impossible de décompresser le fichier</string>
     <string name="update_date_format_templete">HH:mm aa, MMMM dd</string>
-    <string name="update_to_wps_mail">Profitez de plus de fonctionnalités avec WPS Mail</string>
     <string name="updated_at">Dernière mise à jour : %1$s</string>
     <string name="upload_log">Envoyer le journal</string>
     <string name="upload_log_failed">"Impossible d'envoyer les journaux"</string>
@@ -1048,4 +1053,7 @@ Appuyer sur \""<b>Synchroniser maintenant</b> pour la première synchronisation 
     <string name="you_are_in_mobile_network">Utiliser les données mobiles pour envoyer les fichiers journaux ?</string>
     <string name="youfuli">Promotion</string>
     <string name="zip_viewer_no_file">Aucun fichier.</string>
+    <string name="account_settings_preference_add_account">Ajouter un compte E-mail</string>
+    <string name="mailbox_name_display_add_account">Aucun compte e-mail</string>
+    <string name="update_to_wps_mail">Profitez de plus de fonctionnalités avec WPS Mail</string>
 </resources>

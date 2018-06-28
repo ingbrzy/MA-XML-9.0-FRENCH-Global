@@ -92,4 +92,34 @@
         <item quantity="other">&lt;Data>"&lt;font color=#ff0000 >%d&lt;/font> les applications n'ont pas été utilisées depuis longtemps, allez voir."&lt;/Data></item>
         <item quantity="one">&lt;Data>"&lt;font color=#ff0000 >%d&lt;/font> l'application n'a pas été utilisée depuis longtemps, allez voir."&lt;/Data></item>
     </plurals>
+    <plurals name="clean_long_msg_p1">
+        <item quantity="other">"Nettoyage de %1$d fichiers (%2$d%%)
+"</item>
+        <item quantity="one">"Nettoyage de %1$d fichier (%2$d%%)
+"</item>
+    </plurals>
+    <plurals name="clean_long_msg_p2">
+        <item quantity="other">%1$d éléments par seconde | Temps restant : %2$s</item>
+        <item quantity="one">%1$d élément par seconde | Temps restant : %2$s</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">%1$d heures</item>
+        <item quantity="one">%1$d heure</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="other">%1$d minutes</item>
+        <item quantity="one">%1$d minute</item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="other">%1$d secondes</item>
+        <item quantity="one">%1$d seconde</item>
+    </plurals>
+    <plurals name="wechat_video_time_p1">
+        <item quantity="other">%1$s:</item>
+        <item quantity="one">%1$s:</item>
+    </plurals>
+    <plurals name="wechat_video_time_p2">
+        <item quantity="other">%1$s</item>
+        <item quantity="one">%1$s</item>
+    </plurals>
 </resources>

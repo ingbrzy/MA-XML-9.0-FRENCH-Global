@@ -3,6 +3,7 @@
     <string name="menu_clear">Nettoyer</string>
     <string name="menu_view">Afficher dans le dossier</string>
     <string name="menu_install">Installer cette application</string>
+    <string name="menu_open">Ouvrir</string>
     <string name="menu_add_to_white_list">Ajouter aux exceptions</string>
     <string name="text_optimizer">Télécharger le nom des dossiers</string>
     <string name="summary_optimizer">"Cette fonctionnalité télécharge le nom des dossiers pour mettre à jour la base de données en ligne de Cheetah Mobile et exige l'ID de votre appareil."</string>
@@ -90,6 +91,7 @@
     <string name="hints_apk_header_left">Paquets</string>
     <string name="hints_residual_header_left">Résidus</string>
     <string name="hints_memory_header_left">Mémoire</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Gros fichiers : %d</string>
     <string name="hints_installed_apps_header_left">Applications installées : %d</string>
     <string name="toast_resolve_apk_error">"Résolution de l'erreur de l'apk"</string>
@@ -127,8 +129,8 @@
     <string name="msg_update_error_code_no_newer_db">Le Nettoyeur est à jour</string>
     <string name="msg_update_error_code_already_running">Mise à jour…</string>
     <string name="msg_update_error_code_network_error">Impossible de se connecter au réseau</string>
-    <string name="msg_update_error_code_unknown_error">Servers are too busy,please try again later</string>
-    <string name="msg_cleanup_db_update_time_unknown">Dernière mise à jour inconnue</string>
+    <string name="msg_update_error_code_unknown_error">Les serveurs sont actuellement occupés. Patientez une minute ou deux puis réessayez.</string>
+    <string name="msg_cleanup_db_update_time_unknown">Dernière mise à jour : Inconnu</string>
     <string name="item_title_process_mode">Choisir une action</string>
     <string name="clean_content_zero">Vide</string>
     <string name="clean_content_one">1 élément</string>
@@ -166,7 +168,7 @@
     <string name="hints_quick_scanning">Analyse…</string>
     <string name="hints_quick_cleanuping">Optimisation…</string>
     <string name="hints_deepclean_scanning">Analyse %s</string>
-    <string name="cache_title_system_cache">Cache système</string>
+    <string name="cache_title_system_cache">Cache données</string>
     <string name="hints_storage_free">Libre</string>
     <string name="hints_storage_free_size">Total %1$s, %2$s disponible</string>
     <string name="apps_sort_type_title">Trier</string>
@@ -271,7 +273,7 @@
     <string name="toast_select_white_need_remove">Choisissez les éléments à supprimer</string>
     <string name="network_not_available">Impossible de se connecter au réseau</string>
     <string name="no_network_btn">Réessayer</string>
-    <string name="name_debuglog_dir">Bsp Debug Log</string>
+    <string name="name_debuglog_dir">Journal de débogage BSP</string>
     <string name="just_now">"À l'instant"</string>
     <string name="yesterday">Hier</string>
     <string name="month_day_format">dd MMM</string>
@@ -297,6 +299,7 @@
     <string name="downloading">Téléchargement</string>
     <string name="installing">Installation</string>
     <string name="start_install">Installer maintenant</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Ouvrir dans le navigateur</string>
     <string name="title_share_link">"Partager l'URL"</string>
     <string name="connecting">Connexion…</string>
@@ -307,7 +310,7 @@
     <string name="seton_immediately">Activer</string>
     <string name="notify_when">Obtenir une notification lorsque la taille de la corbeille atteint 100 Mo</string>
     <string name="goto_set">Régler</string>
-    <string name="virus_scan">Analyse de sécurité</string>
+    <string name="virus_scan">Analyse de virus</string>
     <string name="tips_of_virus_scan">Analysez votre appareil régulièrement pour conserver votre sécurité</string>
     <string name="conn_of_function_safe">Connexion réseau pour la sécurité</string>
     <string name="tips_of_connect">"Connectez-vous à Internet pour utiliser l'ensemble des fonctionnalités de sécurité"</string>
@@ -517,4 +520,14 @@
     <string name="guide_virus_dialog_message">"L'analyse des applications et des packages d'installation protège votre appareil contre les virus et les logiciels malveillants. Analysez votre appareil maintenant ?"</string>
     <string name="guide_virus_dialog_positive">Analyser</string>
     <string name="guide_virus_dialog_negative">Annuler</string>
+    <string name="tips_low_storage_dialog_title">Espace de stockage faible</string>
+    <string name="tips_low_storage_dialog_msg_storage">"Vous utilisez 90% de votre espace de stockage. Désinstallez les applications que vous n'utilisez plus."</string>
+    <string name="tips_low_storage_dialog_msg_wechat">La taille du cache de WeChat a atteint 3 Go. Cela pourrait ralentir votre appareil. Nettoyez le cache de WeChat maintenant ?</string>
+    <string name="tips_low_storage_dialog_msg_qq">La taille du cache de QQ a atteint 3 Go. Cela pourrait ralentir votre appareil. Nettoyez le cache de QQ maintenant ?</string>
+    <string name="tips_low_storage_dialog_ok_storage">"Libérez de l'espace"</string>
+    <string name="tips_low_storage_dialog_ok">Nettoyer</string>
+    <string name="tips_low_storage_dialog_cancel">Annuler</string>
+    <string name="wechat_msg_time_long">dd-MM-yyyy</string>
+    <string name="wechat_msg_time_short">dd-MM</string>
+    <string name="wechat_video_time">%1$s:%2$s</string>
 </resources>
