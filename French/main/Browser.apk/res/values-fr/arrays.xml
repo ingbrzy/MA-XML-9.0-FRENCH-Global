@@ -48,6 +48,10 @@
         <item>Téléphone</item>
         <item>Tablette</item>
     </string-array>
+    <string-array name="pref_navscreen_layoutstate_choices">
+        <item>Vertical view</item>
+        <item>Horizontal view</item>
+    </string-array>
     <string-array name="pref_text_zoom_choices">
         <item>Très petite</item>
         <item>Petite</item>

@@ -395,7 +395,7 @@ Si vous n'effectuez pas la mise à jour, les applications clônées peuvent ne p
     <string name="green_guard_title3">Gérer les applications</string>
     <string name="green_guard_des3">Contrôle les applications installées et restreint leur utilisation</string>
     <string name="experience_more_features">Ajouter un appareil afin de voir toutes les fonctionnalités</string>
-    <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
+    <string name="can_not_switch_when_green_kid_active">Le basculement vers le second espace est restreint par le contrôle parental</string>
     <string name="need_network_when_bind">"Connectez-vous au réseau avant d'ajouter des appareils"</string>
-    <string name="this_function_can_not_use_in_second_space">This feature can only be used in First space</string>
+    <string name="this_function_can_not_use_in_second_space">Cette fonctionnalité peut être seulement utilisée dans le premier espace</string>
 </resources>

@@ -6,6 +6,9 @@ Taille : %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Version %1$s
 Taille de la mise à jour : %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Stockage indisponible, vérifiez votre carte SD.</string>
+    <string name="xiaomi_bytes_unit">%1$s o</string>
+    <string name="xiaomi_kilobytes_unit">%1$s ko</string>
+    <string name="xiaomi_megabytes_unit">%1$s Mo</string>
     <string name="xiaomi_connect_download_manager_fail">Impossible de démarrer le téléchargement. Vérifier que le gestionnaire de téléchargements fonctionne normalement.</string>
     <string name="app_name">Sauvegarde</string>
     <string name="local_app_name">Sauvegarde</string>
@@ -225,6 +228,7 @@ Taille de la mise à jour : %2$s"</string>
     <string name="restore_backup">Restaurer</string>
     <string name="enable_encrypt_description">Chiffrer</string>
     <string name="disable_encrypt_description">Ne pas chiffrer</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Un instant…</string>
     <string name="state_mounting">Accès au stockage du routeur…</string>
     <string name="abort_backup_confirm">"La sauvegarde n'est pas terminée. Arrêter quand même ?"</string>
@@ -248,7 +252,7 @@ Taille de la mise à jour : %2$s"</string>
     <string name="err_filesystem_mount">"Impossible d'accéder au stockage du routeur"</string>
     <string name="err_router_disconnected">Vérifiez la connexion de votre routeur et essayez à nouveau.</string>
     <string name="err_router_files_delete">Impossible de supprimer les fichiers de sauvegarde sur le routeur</string>
-    <string name="err_acquire_system_service">"Couldn't start system service."</string>
+    <string name="err_acquire_system_service">Impossible de démarrer le service du système.</string>
     <string name="err_not_allow">Non pris en charge</string>
     <string name="err_bakfile_not_exist">"Le fichier de sauvegarde n'existe pas."</string>
     <string name="err_pkg_not_exist">"Impossible de trouver l'application."</string>
@@ -449,6 +453,12 @@ pour télécharger et installer Mi Mover."</string>
     <string name="backup_security_tips_message">Certaines applications peuvent ne pas être sauvegardées ou restaurées.</string>
     <string name="trans_security_tips_title">Compatibilité Mi Mover</string>
     <string name="trans_security_tips_message">Certaines applications ne prennent pas en charge Mi Mover.</string>
+    <string name="trans_cancel_selection_title">Stay in Mi Mover</string>
+    <string name="trans_cancel_selection_message">If you exit Mi Mover, the ongoing transfer will be interrupted. Wait until the transfer is complete.</string>
+    <string name="trans_select_notification_title">Mi Mover is working…</string>
+    <string name="trans_select_notification_message">Tap to view</string>
+    <string name="trans_button_stay">Stay</string>
+    <string name="trans_button_exit">Exit</string>
     <string name="trans_wlan_tips_title">Ne pas désactiver le Wi-Fi</string>
     <string name="trans_wlan_tips_message">"Ne désactivez pas le Wi-Fi ou ne passez pas sur d'autres réseaux Wi-Fi pendant le transfert. Sinon, Mi Mover ne sera plus en mesure de transférer les données."</string>
     <string name="trans_disconnected_tips_title">Appareil distant déconnecté</string>
@@ -527,6 +537,7 @@ https://appleid.apple.com/#!&amp;page=signin pour désactiver"</string>
 ous devez d'abord créer une sauvegarde iCloud."</string>
     <string name="list_footer_tip_title">Astuces :</string>
     <string name="import_tip_summary">En raison des problèmes de compatibilité, vous pouvez seulement transférer partiellement les données depuis vos appareil iOS. Assurez-vous de créer une sauvegarde iCloud avant de commencer le transfert.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importer</string>
     <string name="select_empty">Sélectionner les éléments à importer</string>
     <string name="select_item_summary_wait">En attente…</string>

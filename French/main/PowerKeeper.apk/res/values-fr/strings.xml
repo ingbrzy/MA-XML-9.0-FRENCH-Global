@@ -34,8 +34,8 @@
     <string name="warm_performance_tip">Votre appareil chauffera plus lorsque plusieurs traitements seront en cours.</string>
     <string name="vip_feedback">Commentaire VIP</string>
     <string name="vip_feedback_enable">Activer les commentaires VIP</string>
-    <string name="extreme_power_config_mode_category">Mode extême</string>
-    <string name="extreme_power_config_mode_title">Mode extême</string>
+    <string name="extreme_power_config_mode_category">Mode extrême</string>
+    <string name="extreme_power_config_mode_title">Mode extrême</string>
     <string name="extreme_power_config_mode_desc">"Passez au mode extrême pour désactiver la synchronisation, le Bluetooth, le GPS, le NFC, le double appui, les boutons lumineux, l'écran de verrouillage pour les notifications, ainsi que les voyants de notification. MIUI se concentrera sur l'économie de la batterie."</string>
     <string name="empty_title_apps_container_list">Aucune application</string>
     <string name="hints_loading_text">Un instant…</string>

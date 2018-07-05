@@ -93,7 +93,7 @@ Entrez le numéro de téléphone associé à votre nouvelle carte SIM pour réac
     <string name="activate_popup_confirm_error_device_id">Veuillez réessayer</string>
     <string name="activate_feature_mx">Messages Mi</string>
     <string name="activate_feature_mx_and_voip">Messages Mi et Voix</string>
-    <string name="activate_feature_voip">Mi Message Voice</string>
+    <string name="activate_feature_voip">Messages Mi et Voix</string>
     <string name="activate_feature_mms_sync">Synchroniser les messages</string>
     <string name="activate_feature_call_log_sync">"Synchroniser le journal d'appel"</string>
     <string name="activate_feature_find_device">"Localiser l'appareil"</string>
@@ -118,10 +118,10 @@ Entrez le numéro de téléphone associé à votre nouvelle carte SIM pour réac
     <string name="agree">Autoriser</string>
     <string name="privacy_revoke_tips">"Après avoir révoqué l'autorisation, l'application cessera de collecter vos données et supprimera toutes vos données de ses serveurs. La synchronisation avec Mi Cloud, Mi Message et autres fonctionnalités de Messages ne seront plus disponibles. Révoquer l'autorisation quand même ?"</string>
     <string name="privacy_revoke_failed_msg">"L'activation nécessite une autorisation afin que Messages puisse obtenir votre numéro de téléphone."</string>
-    <string name="waiting_sim_in_service">waiting sim in service</string>
+    <string name="waiting_sim_in_service">en attente de carte SIM en service</string>
     <string name="checking_client">checking client env</string>
-    <string name="error_sim_not_in_service">sim not in service</string>
+    <string name="error_sim_not_in_service">carte SIM pas en service</string>
     <string name="error_checking_client">client env error</string>
-    <string name="error_network_io">network error</string>
-    <string name="error_no_send_sms_permission">no send sms permission</string>
+    <string name="error_network_io">erreur réseau</string>
+    <string name="error_no_send_sms_permission">"pas d'autorisation d'envoi SMS"</string>
 </resources>

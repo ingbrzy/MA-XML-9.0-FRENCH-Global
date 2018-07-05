@@ -192,6 +192,7 @@
     <string name="file_size">Taille :</string>
     <string name="file_title">Nom :</string>
     <string name="file_width_height">Taille :</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Nouveau message</string>
     <string name="forward_from">Transférer de:</string>
     <string name="forward_prefix">TR :</string>
@@ -396,7 +397,7 @@
     <string name="pref_show_blocked_messages_summary">Afficher les SMS bloqués dans la liste des conversations</string>
     <string name="pref_show_list_avatar_summary">Afficher les photos de profil et les infos de contact en affichage liste</string>
     <string name="pref_show_photo_word_summary">"Attribuer automatiquement une photo aux contacts n'en ayant pas"</string>
-    <string name="pref_show_sms_template_entry_summary">Détecter les mots de passe à usage unique dans les messages</string>
+    <string name="pref_show_sms_template_entry_summary">Detect one-time passwords and show quick menus</string>
     <string name="pref_show_sms_template_in_summary">Détectez automatiquement des mots de passe à usage unique inclus dans des SMS</string>
     <string name="pref_show_sms_template_summary">Activer pour utiliser les fonctionnalités intelligentes de Mi Message, telles que la copie de codes, la vérification de crédit, etc.</string>
     <string name="pref_smart_messages_settings">Messages intelligents</string>
@@ -543,6 +544,7 @@
     <string name="send_signature_confirm_dialog_title">Envoyer un message</string>
     <string name="send_sms">Envoyer le message</string>
     <string name="send_to">Envoyer à :</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Envoyé à : %1s</string>
     <string name="sent_label">"Envoyé : "</string>
     <string name="service_message_not_found">Message expiré ou indisponible.</string>
@@ -625,7 +627,7 @@
     <string name="title_show_blocked_messages">Afficher les SMS bloqués</string>
     <string name="title_show_list_avatar">Afficher les photos de profil</string>
     <string name="title_show_photo_word">Attribuer des photos aux contacts</string>
-    <string name="title_show_sms_template">Contrôler les code de vérification dans les SMS</string>
+    <string name="title_show_sms_template">Smart Messaging</string>
     <string name="title_show_sms_template_in">"Vérifier les SMS pour l'OTP"</string>
     <string name="title_timed_message_dialog">"Régler l'heure d'envoi de ce message"</string>
     <string name="title_use_gsm_alphabet">"Utiliser l'alphabet GSM"</string>

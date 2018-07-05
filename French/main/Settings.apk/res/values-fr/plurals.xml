@@ -133,12 +133,12 @@
         <item quantity="one">Le code PIN doit comporter %d chiffre</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">"Le code PIN peut contenir jusqu'à %d chiffres"</item>
-        <item quantity="one">"Le code PIN peut contenir jusqu'à %d chiffre"</item>
+        <item quantity="other">"Vous pouvez entrer jusqu'à %d chiffres"</item>
+        <item quantity="one">"Vous pouvez entrer jusqu'à %d chiffre"</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">Le code PIN doit comporter %d chiffres</item>
-        <item quantity="one">Le code PIN doit comporter %d chiffre</item>
+        <item quantity="other">Saisir au moins %d chiffres</item>
+        <item quantity="one">Saisir au moins %d chiffre</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Reliez au moins %d points. Réessayez.</item>

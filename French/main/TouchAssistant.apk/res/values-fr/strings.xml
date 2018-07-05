@@ -15,6 +15,7 @@
     <string name="hide_touch_assistant_intro">"Cacher l'Assistant tactile dans les applications sélectionnées."</string>
     <string name="hide_when_fullscreen">Masquer en plein écran</string>
     <string name="hide_when_fullscreen_intro">"Masquer lorsqu'on passe en mode plein écran."</string>
+    <string name="mi_wallet_summary">"Carte de transport/Mi Pay/ Carte d'accès"</string>
     <string name="motion_behavior">Geste préféré</string>
     <string name="name_alipay_payment_code">Paiement alipay</string>
     <string name="name_alipay_scan">Scanner Alipay</string>
@@ -22,6 +23,7 @@
     <string name="name_handy_mode">Mode une main</string>
     <string name="name_long_press_power_key">"Appui prolongé sur le bouton d'alimentation"</string>
     <string name="name_memory_clean">Vider le cache</string>
+    <string name="name_mi_wallet">Mi Wallet</string>
     <string name="name_music_next_song">Chanson suivante</string>
     <string name="name_music_prev_song">Chanson précédente</string>
     <string name="name_music_toggle">Lecture/Pause chanson</string>
@@ -53,6 +55,4 @@
     <string name="show_on_keyguard">"Afficher à l'écran de verrouillage"</string>
     <string name="theme_manager_not_supported">Gestionnaire de thème non pris en charge.</string>
     <string name="three_seconds_auto_hide">"Se déplacer sur le côté après 3 secondes d'inactivité"</string>
-    <string name="mi_wallet_summary">"Carte de transport/Mi Pay/ Carte d'accès"</string>
-    <string name="name_mi_wallet">Mi Wallet</string>
 </resources>

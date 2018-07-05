@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="attachment_chooser">
-        <item>App. photo</item>
-        <item>Galerie</item>
+        <item>Camera</item>
+        <item>Gallery</item>
     </string-array>
     <string-array name="contact_entries">
         <item>Nom</item>
@@ -28,8 +28,8 @@
         <item>Appuyez sur la flèche ci-dessous pour créer un nouveau dossier ou basculer entre ceux qui existent déjà.</item>
     </string-array>
     <string-array name="folder_operations">
-        <item>Renommer</item>
-        <item>Supprimer</item>
+        <item>Rename</item>
+        <item>Delete</item>
     </string-array>
     <string-array name="font_size_names">
         <item>Petite</item>
@@ -38,8 +38,8 @@
         <item>Énorme</item>
     </string-array>
     <string-array name="note_sort_way">
-        <item>Par date de création</item>
-        <item>Par date de modification</item>
+        <item>By creation date</item>
+        <item>By modification date</item>
     </string-array>
     <string-array name="second_guide_contents">
         <item>Mémos vocaux</item>
