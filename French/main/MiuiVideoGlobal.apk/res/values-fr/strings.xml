@@ -19,7 +19,6 @@
     <string name="abc_shareactionprovider_share_with">Partager avec</string>
     <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
     <string name="abc_toolbar_collapse_description">Réduire</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="airkan_control_device_des">Pour contrôler la lecture, appuyez sur la barre dans la partie inférieure.</string>
     <string name="airkan_device_xiaomi_phone">Mon téléphone</string>
     <string name="airkan_playing">Caster sur %s</string>

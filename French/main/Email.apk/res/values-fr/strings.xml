@@ -225,7 +225,6 @@
     <string name="battery_saver">Économiseur de batterie</string>
     <string name="battery_saver_keywords">économiseur de batterie;e-mail batterie</string>
     <string name="bcc">Cci</string>
-    <string name="bcc_heading">"Cci : "</string>
     <string name="bill_center_setting">Paramètres de facturation</string>
     <string name="bill_center_setting_head">Importer les informations de ces comptes</string>
     <string name="bill_cycle_text">Cycle de facturation</string>
@@ -246,7 +245,6 @@
     <string name="cancel_pop3_attchemt_downloading">"Impossible d'annuler les téléchargements en cours pour les pièces jointes dans les comptes POP3"</string>
     <string name="cant_move_or_change_labels">Impossible de déplacer des messages depuis plusieurs comptes.</string>
     <string name="cc">Cc</string>
-    <string name="cc_attribution">Cc : %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Cci</string>
     <string name="cc_heading">"Cc : "</string>
     <string name="change_folders_selection_dialog_title">Changement de dossier</string>
@@ -264,7 +262,6 @@
     <string name="click_download_all_content">[Appuyez pour télécharger le corps du message]</string>
     <string name="click_to_reload">"Touchez l'écran pour actualiser"</string>
     <string name="collapse_recipient_details">Masquer les détails du destinataire</string>
-    <string name="colon">:</string>
     <string name="compose">Rédiger</string>
     <string name="compose_attachment_number_limit">"Impossible d'ajouter plus de 10 pièces jointes"</string>
     <string name="compose_paste_address_oob">Trop de caractères</string>
@@ -479,7 +476,6 @@
     <string name="gmail_web_login_go">OK</string>
     <string name="gmail_web_login_required_message">Se connecter à Gmail</string>
     <string name="header_category_account">Comptes</string>
-    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Commentaires</string>
     <string name="header_label_general_preferences">Paramètres généraux</string>
     <string name="help_and_info">Aide</string>
@@ -501,7 +497,6 @@
     <string name="invalid_recipient">"L'adresse %s est invalide."</string>
     <string name="invalid_recipient_title">Erreur de destinataire</string>
     <string name="kilobytes">%s ko</string>
-    <string name="label_notification_ticker" formatted="false">%s: %s</string>
     <string name="load_from_remote">Rechercher les e-mails sur le serveur</string>
     <string name="load_more">Charger plus</string>
     <string name="loading_conversation">Chargement…</string>
@@ -944,7 +939,6 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="silent_ringtone">Silence</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
-    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Le mot de passe du serveur sortant est incorrect</string>
     <string name="sort_attachment">Trier par</string>
     <string name="storage">Stockage</string>

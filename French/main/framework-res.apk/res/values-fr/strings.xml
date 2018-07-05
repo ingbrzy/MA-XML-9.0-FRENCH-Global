@@ -23,7 +23,6 @@
     <string name="dialog_alert_title">Attention</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Impossible de lire cette vidéo en streaming sur cet appareil.</string>
     <string name="selectTextMode">Sélectionner texte</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="fingerprint_icon_content_description">"Icône d'empreinte digitale"</string>
     <string name="paste_as_plain_text">Coller au format texte brut</string>
     <string name="BaMmi">"Interdiction d'appel"</string>
@@ -385,7 +384,6 @@ Si vous avez des questions, contactez l'administrateur de votre organisation."</
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Code de service terminé</string>
     <string name="fcError">Problème de connexion ou code de service non valide</string>
-    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Rechercher</string>
     <string name="find_next">Rechercher suivant</string>
     <string name="find_on_page">Rechercher sur la page</string>
@@ -850,7 +848,6 @@ Veuillez réessayer dans %2$d secondes."</string>
     <string name="notification_hidden_by_policy_text">Contenu masqué conformément aux règles</string>
     <string name="notification_hidden_text">Contenus masqués</string>
     <string name="notification_listener_binding_label">"Outil d'écoute des notifications"</string>
-    <string name="notification_messaging_title_template">%1$s : %2$s</string>
     <string name="notification_ranker_binding_label">Service de classement des notifications</string>
     <string name="notification_title">Erreur de connexion au compte \"%1$s\"</string>
     <string name="notification_work_profile_content_description">Profil professionnel</string>
@@ -1516,6 +1513,5 @@ Voulez-vous quitter ?"</string>
     <string name="zen_mode_feature_name">Ne pas déranger</string>
     <string name="zen_mode_forever">"Jusqu'à ce que vous désactiviez ce mode"</string>
     <string name="zen_mode_forever_dnd">"Jusqu'à ce que vous désactiviez la fonctionnalité \"Ne pas déranger\""</string>
-    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">"Jusqu'à %1$s"</string>
 </resources>

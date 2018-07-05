@@ -6,9 +6,6 @@ Taille : %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Version %1$s
 Taille de la mise à jour : %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Stockage indisponible, vérifiez votre carte SD.</string>
-    <string name="xiaomi_bytes_unit">%1$s o</string>
-    <string name="xiaomi_kilobytes_unit">%1$s ko</string>
-    <string name="xiaomi_megabytes_unit">%1$s Mo</string>
     <string name="xiaomi_connect_download_manager_fail">Impossible de démarrer le téléchargement. Vérifier que le gestionnaire de téléchargements fonctionne normalement.</string>
     <string name="app_name">Sauvegarde</string>
     <string name="local_app_name">Sauvegarde</string>
@@ -228,7 +225,6 @@ Taille de la mise à jour : %2$s"</string>
     <string name="restore_backup">Restaurer</string>
     <string name="enable_encrypt_description">Chiffrer</string>
     <string name="disable_encrypt_description">Ne pas chiffrer</string>
-    <string name="digit_percent">%</string>
     <string name="state_waiting">Un instant…</string>
     <string name="state_mounting">Accès au stockage du routeur…</string>
     <string name="abort_backup_confirm">"La sauvegarde n'est pas terminée. Arrêter quand même ?"</string>
@@ -537,7 +533,6 @@ https://appleid.apple.com/#!&amp;page=signin pour désactiver"</string>
 ous devez d'abord créer une sauvegarde iCloud."</string>
     <string name="list_footer_tip_title">Astuces :</string>
     <string name="import_tip_summary">En raison des problèmes de compatibilité, vous pouvez seulement transférer partiellement les données depuis vos appareil iOS. Assurez-vous de créer une sauvegarde iCloud avant de commencer le transfert.</string>
-    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importer</string>
     <string name="select_empty">Sélectionner les éléments à importer</string>
     <string name="select_item_summary_wait">En attente…</string>
